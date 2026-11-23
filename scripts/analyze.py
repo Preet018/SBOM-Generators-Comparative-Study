@@ -276,6 +276,35 @@ def network(m_all: pd.DataFrame):
     return tab
 
 
+def best_vs_default(m_all: pd.DataFrame, ms_all: pd.DataFrame, gts: dict, targets: dict):
+    """Capability vs defaults: the same tools with their documented opt-in options (config 'best')."""
+    s = m_all[(m_all.rep == 1) & (m_all.format == "cyclonedx") & (m_all.layer == "all")]
+    rows = []
+    for group, stages in (("images", IMAGE_STAGES), ("source+artifact", {"S1", "S2"})):
+        g = s[s.stage.isin(stages)]
+        for (cfg, tool), x in g.groupby(["config", "tool"]):
+            if cfg not in ("default", "best"):
+                continue
+            r = micro(x)
+            rows.append({"group": group, "config": cfg, "tool": tool, **r.to_dict()})
+    df = pd.DataFrame(rows)
+    df.to_csv(T / "best_vs_default.csv", index=False)
+    per_target = s[s.config.isin(["default", "best"])].pivot_table(
+        index=["stage", "target"], columns=["tool", "config"], values="recall_strict")
+    per_target.to_csv(T / "best_vs_default_per_target.csv")
+    # which mechanisms does best-effort unlock?
+    img_t = {k: v for k, v in targets.items() if v["stage"] in IMAGE_STAGES}
+    out = []
+    for cfg in ("default", "best"):
+        ms = ms_all[(ms_all.config == cfg) & (ms_all.rep == 1) & (ms_all.format == "cyclonedx")]
+        d = rq3(ms[ms.target.isin(img_t)], {k: gts[k] for k in img_t}, img_t, f"_images_{cfg}")
+        d["config"] = cfg
+        out.append(d)
+    mech = pd.concat(out).pivot_table(index="mechanism", columns=["tool", "config"], values="recall_strict")
+    mech.to_csv(T / "best_vs_default_mechanisms.csv")
+    return df, mech
+
+
 def determinism(inv: dict):
     d = pd.DataFrame(inv["determinism"])
     d.groupby(["config", "tool"]).agg(pairs=("target", "size"), identical=("identical", "sum")).to_csv(T / "determinism.csv")
@@ -311,6 +340,10 @@ def main() -> int:
     rq4_formats(runs, targets)
     log("== network (cdxgen java) ==\n" + network(m_all).round(3).to_string())
     determinism(inv)
+    if (m_all.config == "best").any():
+        bvd, bmech = best_vs_default(m_all, pd.read_csv(RESULTS_DIR / "misses.csv"), gts, targets)
+        log("== best-effort vs default (micro) ==\n" + bvd[["group", "config", "tool", "recall_strict",
+                                                             "precision_strict", "tool_components"]].round(3).to_string())
     log(f"tables written to {T.relative_to(ROOT)}")
     return 0
 

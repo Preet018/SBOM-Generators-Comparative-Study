@@ -18,6 +18,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/adduser@3.134?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.134"
@@ -40,6 +43,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/apt@2.6.2?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.6.2"
@@ -62,6 +68,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/base-files@12.4%2Bdeb12u15?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "12.4+deb12u15"
@@ -84,6 +93,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/base-passwd@3.6.1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.6.1"
@@ -105,7 +117,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/bash@5.2.15-2%2Bb13?arch=amd64",
+      "purl": "pkg:deb/debian/bash@5.2.15-2%2Bb13?arch=amd64&upstream=bash%405.2.15-2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "bash@5.2.15-2"
+      },
       "scope": null,
       "tier": "primary",
       "version": "5.2.15-2+b13"
@@ -127,7 +143,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/bsdutils@1:2.38.1-5%2Bdeb12u3?arch=amd64",
+      "purl": "pkg:deb/debian/bsdutils@1:2.38.1-5%2Bdeb12u3?arch=amd64&upstream=util-linux%402.38.1-5%2Bdeb12u3",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux@2.38.1-5+deb12u3"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:2.38.1-5+deb12u3"
@@ -150,6 +170,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/coreutils@9.1-1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "9.1-1"
@@ -172,6 +195,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/dash@0.5.12-2?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "0.5.12-2"
@@ -194,6 +220,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/debconf@1.5.82?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.5.82"
@@ -216,6 +245,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/debian-archive-keyring@2023.3%2Bdeb12u2?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2023.3+deb12u2"
@@ -238,6 +270,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/debianutils@5.7-0.5~deb12u1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "5.7-0.5~deb12u1"
@@ -260,6 +295,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/diffutils@1:3.8-4?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:3.8-4"
@@ -282,6 +320,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/dpkg@1.21.23?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.21.23"
@@ -303,7 +344,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/e2fsprogs@1.47.0-2%2Bb2?arch=amd64",
+      "purl": "pkg:deb/debian/e2fsprogs@1.47.0-2%2Bb2?arch=amd64&upstream=e2fsprogs%401.47.0-2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "e2fsprogs@1.47.0-2"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.47.0-2+b2"
@@ -326,6 +371,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/findutils@4.9.0-4?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "4.9.0-4"
@@ -347,7 +395,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/gcc-12-base@12.2.0-14%2Bdeb12u1?arch=amd64",
+      "purl": "pkg:deb/debian/gcc-12-base@12.2.0-14%2Bdeb12u1?arch=amd64&upstream=gcc-12",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gcc-12"
+      },
       "scope": null,
       "tier": "primary",
       "version": "12.2.0-14+deb12u1"
@@ -369,7 +421,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/gpgv@2.2.40-1.1%2Bdeb12u2?arch=amd64",
+      "purl": "pkg:deb/debian/gpgv@2.2.40-1.1%2Bdeb12u2?arch=amd64&upstream=gnupg2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gnupg2"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.2.40-1.1+deb12u2"
@@ -392,6 +448,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/grep@3.8-5?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.8-5"
@@ -414,6 +473,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/gzip@1.12-1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.12-1"
@@ -436,6 +498,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/hostname@3.23%2Bnmu1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.23+nmu1"
@@ -458,6 +523,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/init-system-helpers@1.65.2%2Bdeb12u1?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.65.2+deb12u1"
@@ -479,7 +547,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libacl1@2.3.1-3?arch=amd64",
+      "purl": "pkg:deb/debian/libacl1@2.3.1-3?arch=amd64&upstream=acl",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "acl"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.3.1-3"
@@ -501,7 +573,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libapt-pkg6.0@2.6.2?arch=amd64",
+      "purl": "pkg:deb/debian/libapt-pkg6.0@2.6.2?arch=amd64&upstream=apt",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "apt"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.6.2"
@@ -523,7 +599,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libattr1@1:2.5.1-4?arch=amd64",
+      "purl": "pkg:deb/debian/libattr1@1:2.5.1-4?arch=amd64&upstream=attr",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "attr"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:2.5.1-4"
@@ -545,7 +625,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libaudit-common@1:3.0.9-1?arch=all",
+      "purl": "pkg:deb/debian/libaudit-common@1:3.0.9-1?arch=all&upstream=audit",
+      "qualifiers": {
+        "arch": "all",
+        "upstream": "audit"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:3.0.9-1"
@@ -567,7 +651,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libaudit1@1:3.0.9-1?arch=amd64",
+      "purl": "pkg:deb/debian/libaudit1@1:3.0.9-1?arch=amd64&upstream=audit",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "audit"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:3.0.9-1"
@@ -589,7 +677,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libblkid1@2.38.1-5%2Bdeb12u3?arch=amd64",
+      "purl": "pkg:deb/debian/libblkid1@2.38.1-5%2Bdeb12u3?arch=amd64&upstream=util-linux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.38.1-5+deb12u3"
@@ -611,7 +703,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libbz2-1.0@1.0.8-5%2Bb1?arch=amd64",
+      "purl": "pkg:deb/debian/libbz2-1.0@1.0.8-5%2Bb1?arch=amd64&upstream=bzip2%401.0.8-5",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "bzip2@1.0.8-5"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.0.8-5+b1"
@@ -633,7 +729,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libc-bin@2.36-9%2Bdeb12u14?arch=amd64",
+      "purl": "pkg:deb/debian/libc-bin@2.36-9%2Bdeb12u14?arch=amd64&upstream=glibc",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "glibc"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.36-9+deb12u14"
@@ -655,7 +755,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u14?arch=amd64",
+      "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u14?arch=amd64&upstream=glibc",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "glibc"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.36-9+deb12u14"
@@ -677,7 +781,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libcap-ng0@0.8.3-1%2Bb3?arch=amd64",
+      "purl": "pkg:deb/debian/libcap-ng0@0.8.3-1%2Bb3?arch=amd64&upstream=libcap-ng%400.8.3-1",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libcap-ng@0.8.3-1"
+      },
       "scope": null,
       "tier": "primary",
       "version": "0.8.3-1+b3"
@@ -699,7 +807,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libcap2@1:2.66-4%2Bdeb12u3%2Bb1?arch=amd64",
+      "purl": "pkg:deb/debian/libcap2@1:2.66-4%2Bdeb12u3%2Bb1?arch=amd64&upstream=libcap2%401:2.66-4%2Bdeb12u3",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libcap2@1:2.66-4+deb12u3"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:2.66-4+deb12u3+b1"
@@ -721,7 +833,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libcom-err2@1.47.0-2%2Bb2?arch=amd64",
+      "purl": "pkg:deb/debian/libcom-err2@1.47.0-2%2Bb2?arch=amd64&upstream=e2fsprogs%401.47.0-2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "e2fsprogs@1.47.0-2"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.47.0-2+b2"
@@ -743,7 +859,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libcrypt1@1:4.4.33-2?arch=amd64",
+      "purl": "pkg:deb/debian/libcrypt1@1:4.4.33-2?arch=amd64&upstream=libxcrypt",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libxcrypt"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:4.4.33-2"
@@ -765,7 +885,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libdb5.3@5.3.28%2Bdfsg2-1?arch=amd64",
+      "purl": "pkg:deb/debian/libdb5.3@5.3.28%2Bdfsg2-1?arch=amd64&upstream=db5.3",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "db5.3"
+      },
       "scope": null,
       "tier": "primary",
       "version": "5.3.28+dfsg2-1"
@@ -787,7 +911,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libdebconfclient0@0.270?arch=amd64",
+      "purl": "pkg:deb/debian/libdebconfclient0@0.270?arch=amd64&upstream=cdebconf",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "cdebconf"
+      },
       "scope": null,
       "tier": "primary",
       "version": "0.270"
@@ -809,7 +937,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libext2fs2@1.47.0-2%2Bb2?arch=amd64",
+      "purl": "pkg:deb/debian/libext2fs2@1.47.0-2%2Bb2?arch=amd64&upstream=e2fsprogs%401.47.0-2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "e2fsprogs@1.47.0-2"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.47.0-2+b2"
@@ -831,7 +963,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libffi8@3.4.4-1?arch=amd64",
+      "purl": "pkg:deb/debian/libffi8@3.4.4-1?arch=amd64&upstream=libffi",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libffi"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.4.4-1"
@@ -853,7 +989,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libgcc-s1@12.2.0-14%2Bdeb12u1?arch=amd64",
+      "purl": "pkg:deb/debian/libgcc-s1@12.2.0-14%2Bdeb12u1?arch=amd64&upstream=gcc-12",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gcc-12"
+      },
       "scope": null,
       "tier": "primary",
       "version": "12.2.0-14+deb12u1"
@@ -876,6 +1016,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/libgcrypt20@1.10.1-3%2Bdeb12u1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.10.1-3+deb12u1"
@@ -897,7 +1040,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libgmp10@2:6.2.1%2Bdfsg1-1.1?arch=amd64",
+      "purl": "pkg:deb/debian/libgmp10@2:6.2.1%2Bdfsg1-1.1?arch=amd64&upstream=gmp",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gmp"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2:6.2.1+dfsg1-1.1"
@@ -919,7 +1066,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u7?arch=amd64",
+      "purl": "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u7?arch=amd64&upstream=gnutls28",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gnutls28"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.7.9-2+deb12u7"
@@ -941,7 +1092,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libgpg-error0@1.46-1?arch=amd64",
+      "purl": "pkg:deb/debian/libgpg-error0@1.46-1?arch=amd64&upstream=libgpg-error",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libgpg-error"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.46-1"
@@ -963,7 +1118,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libhogweed6@3.8.1-2?arch=amd64",
+      "purl": "pkg:deb/debian/libhogweed6@3.8.1-2?arch=amd64&upstream=nettle",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "nettle"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.8.1-2"
@@ -985,7 +1144,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libidn2-0@2.3.3-1%2Bb1?arch=amd64",
+      "purl": "pkg:deb/debian/libidn2-0@2.3.3-1%2Bb1?arch=amd64&upstream=libidn2%402.3.3-1",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libidn2@2.3.3-1"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.3.3-1+b1"
@@ -1007,7 +1170,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/liblz4-1@1.9.4-1?arch=amd64",
+      "purl": "pkg:deb/debian/liblz4-1@1.9.4-1?arch=amd64&upstream=lz4",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "lz4"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.9.4-1"
@@ -1029,7 +1196,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/liblzma5@5.4.1-1%2Bdeb12u2?arch=amd64",
+      "purl": "pkg:deb/debian/liblzma5@5.4.1-1%2Bdeb12u2?arch=amd64&upstream=xz-utils",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "xz-utils"
+      },
       "scope": null,
       "tier": "primary",
       "version": "5.4.1-1+deb12u2"
@@ -1051,7 +1222,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libmd0@1.0.4-2?arch=amd64",
+      "purl": "pkg:deb/debian/libmd0@1.0.4-2?arch=amd64&upstream=libmd",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libmd"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.0.4-2"
@@ -1073,7 +1248,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libmount1@2.38.1-5%2Bdeb12u3?arch=amd64",
+      "purl": "pkg:deb/debian/libmount1@2.38.1-5%2Bdeb12u3?arch=amd64&upstream=util-linux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.38.1-5+deb12u3"
@@ -1095,7 +1274,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libnettle8@3.8.1-2?arch=amd64",
+      "purl": "pkg:deb/debian/libnettle8@3.8.1-2?arch=amd64&upstream=nettle",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "nettle"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.8.1-2"
@@ -1117,7 +1300,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libp11-kit0@0.24.1-2?arch=amd64",
+      "purl": "pkg:deb/debian/libp11-kit0@0.24.1-2?arch=amd64&upstream=p11-kit",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "p11-kit"
+      },
       "scope": null,
       "tier": "primary",
       "version": "0.24.1-2"
@@ -1139,7 +1326,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libpam-modules@1.5.2-6%2Bdeb12u2?arch=amd64",
+      "purl": "pkg:deb/debian/libpam-modules@1.5.2-6%2Bdeb12u2?arch=amd64&upstream=pam",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "pam"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.5.2-6+deb12u2"
@@ -1161,7 +1352,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libpam-modules-bin@1.5.2-6%2Bdeb12u2?arch=amd64",
+      "purl": "pkg:deb/debian/libpam-modules-bin@1.5.2-6%2Bdeb12u2?arch=amd64&upstream=pam",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "pam"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.5.2-6+deb12u2"
@@ -1183,7 +1378,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libpam-runtime@1.5.2-6%2Bdeb12u2?arch=all",
+      "purl": "pkg:deb/debian/libpam-runtime@1.5.2-6%2Bdeb12u2?arch=all&upstream=pam",
+      "qualifiers": {
+        "arch": "all",
+        "upstream": "pam"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.5.2-6+deb12u2"
@@ -1205,7 +1404,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libpam0g@1.5.2-6%2Bdeb12u2?arch=amd64",
+      "purl": "pkg:deb/debian/libpam0g@1.5.2-6%2Bdeb12u2?arch=amd64&upstream=pam",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "pam"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.5.2-6+deb12u2"
@@ -1227,7 +1430,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libpcre2-8-0@10.42-1%2Bdeb12u2?arch=amd64",
+      "purl": "pkg:deb/debian/libpcre2-8-0@10.42-1%2Bdeb12u2?arch=amd64&upstream=pcre2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "pcre2"
+      },
       "scope": null,
       "tier": "primary",
       "version": "10.42-1+deb12u2"
@@ -1249,7 +1456,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libseccomp2@2.5.4-1%2Bdeb12u1?arch=amd64",
+      "purl": "pkg:deb/debian/libseccomp2@2.5.4-1%2Bdeb12u1?arch=amd64&upstream=libseccomp",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libseccomp"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.5.4-1+deb12u1"
@@ -1271,7 +1482,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libselinux1@3.4-1%2Bb6?arch=amd64",
+      "purl": "pkg:deb/debian/libselinux1@3.4-1%2Bb6?arch=amd64&upstream=libselinux%403.4-1",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libselinux@3.4-1"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.4-1+b6"
@@ -1293,7 +1508,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libsemanage-common@3.4-1?arch=all",
+      "purl": "pkg:deb/debian/libsemanage-common@3.4-1?arch=all&upstream=libsemanage",
+      "qualifiers": {
+        "arch": "all",
+        "upstream": "libsemanage"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.4-1"
@@ -1315,7 +1534,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libsemanage2@3.4-1%2Bb5?arch=amd64",
+      "purl": "pkg:deb/debian/libsemanage2@3.4-1%2Bb5?arch=amd64&upstream=libsemanage%403.4-1",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libsemanage@3.4-1"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.4-1+b5"
@@ -1337,7 +1560,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libsepol2@3.4-2.1?arch=amd64",
+      "purl": "pkg:deb/debian/libsepol2@3.4-2.1?arch=amd64&upstream=libsepol",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libsepol"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.4-2.1"
@@ -1359,7 +1586,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libsmartcols1@2.38.1-5%2Bdeb12u3?arch=amd64",
+      "purl": "pkg:deb/debian/libsmartcols1@2.38.1-5%2Bdeb12u3?arch=amd64&upstream=util-linux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.38.1-5+deb12u3"
@@ -1381,7 +1612,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libss2@1.47.0-2%2Bb2?arch=amd64",
+      "purl": "pkg:deb/debian/libss2@1.47.0-2%2Bb2?arch=amd64&upstream=e2fsprogs%401.47.0-2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "e2fsprogs@1.47.0-2"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.47.0-2+b2"
@@ -1403,7 +1638,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libstdc%2B%2B6@12.2.0-14%2Bdeb12u1?arch=amd64",
+      "purl": "pkg:deb/debian/libstdc%2B%2B6@12.2.0-14%2Bdeb12u1?arch=amd64&upstream=gcc-12",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gcc-12"
+      },
       "scope": null,
       "tier": "primary",
       "version": "12.2.0-14+deb12u1"
@@ -1425,7 +1664,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libsystemd0@252.39-1~deb12u2?arch=amd64",
+      "purl": "pkg:deb/debian/libsystemd0@252.39-1~deb12u2?arch=amd64&upstream=systemd",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "systemd"
+      },
       "scope": null,
       "tier": "primary",
       "version": "252.39-1~deb12u2"
@@ -1448,6 +1691,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/libtasn1-6@4.19.0-2%2Bdeb12u1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "4.19.0-2+deb12u1"
@@ -1469,7 +1715,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libtinfo6@6.4-4?arch=amd64",
+      "purl": "pkg:deb/debian/libtinfo6@6.4-4?arch=amd64&upstream=ncurses",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "ncurses"
+      },
       "scope": null,
       "tier": "primary",
       "version": "6.4-4"
@@ -1491,7 +1741,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libudev1@252.39-1~deb12u2?arch=amd64",
+      "purl": "pkg:deb/debian/libudev1@252.39-1~deb12u2?arch=amd64&upstream=systemd",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "systemd"
+      },
       "scope": null,
       "tier": "primary",
       "version": "252.39-1~deb12u2"
@@ -1513,7 +1767,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libunistring2@1.0-2?arch=amd64",
+      "purl": "pkg:deb/debian/libunistring2@1.0-2?arch=amd64&upstream=libunistring",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libunistring"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.0-2"
@@ -1535,7 +1793,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libuuid1@2.38.1-5%2Bdeb12u3?arch=amd64",
+      "purl": "pkg:deb/debian/libuuid1@2.38.1-5%2Bdeb12u3?arch=amd64&upstream=util-linux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.38.1-5+deb12u3"
@@ -1557,7 +1819,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libxxhash0@0.8.1-1?arch=amd64",
+      "purl": "pkg:deb/debian/libxxhash0@0.8.1-1?arch=amd64&upstream=xxhash",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "xxhash"
+      },
       "scope": null,
       "tier": "primary",
       "version": "0.8.1-1"
@@ -1579,7 +1845,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libzstd1@1.5.4%2Bdfsg2-5?arch=amd64",
+      "purl": "pkg:deb/debian/libzstd1@1.5.4%2Bdfsg2-5?arch=amd64&upstream=libzstd",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libzstd"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.5.4+dfsg2-5"
@@ -1601,7 +1871,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/login@1:4.13%2Bdfsg1-1%2Bdeb12u2?arch=amd64",
+      "purl": "pkg:deb/debian/login@1:4.13%2Bdfsg1-1%2Bdeb12u2?arch=amd64&upstream=shadow",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "shadow"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:4.13+dfsg1-1+deb12u2"
@@ -1623,7 +1897,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/logsave@1.47.0-2%2Bb2?arch=amd64",
+      "purl": "pkg:deb/debian/logsave@1.47.0-2%2Bb2?arch=amd64&upstream=e2fsprogs%401.47.0-2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "e2fsprogs@1.47.0-2"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.47.0-2+b2"
@@ -1646,6 +1924,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/mawk@1.3.4.20200120-3.1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.3.4.20200120-3.1"
@@ -1667,7 +1948,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/mount@2.38.1-5%2Bdeb12u3?arch=amd64",
+      "purl": "pkg:deb/debian/mount@2.38.1-5%2Bdeb12u3?arch=amd64&upstream=util-linux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.38.1-5+deb12u3"
@@ -1689,7 +1974,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/ncurses-base@6.4-4?arch=all",
+      "purl": "pkg:deb/debian/ncurses-base@6.4-4?arch=all&upstream=ncurses",
+      "qualifiers": {
+        "arch": "all",
+        "upstream": "ncurses"
+      },
       "scope": null,
       "tier": "primary",
       "version": "6.4-4"
@@ -1711,7 +2000,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/ncurses-bin@6.4-4?arch=amd64",
+      "purl": "pkg:deb/debian/ncurses-bin@6.4-4?arch=amd64&upstream=ncurses",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "ncurses"
+      },
       "scope": null,
       "tier": "primary",
       "version": "6.4-4"
@@ -1733,7 +2026,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/passwd@1:4.13%2Bdfsg1-1%2Bdeb12u2?arch=amd64",
+      "purl": "pkg:deb/debian/passwd@1:4.13%2Bdfsg1-1%2Bdeb12u2?arch=amd64&upstream=shadow",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "shadow"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:4.13+dfsg1-1+deb12u2"
@@ -1755,7 +2052,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/perl-base@5.36.0-7%2Bdeb12u4?arch=amd64",
+      "purl": "pkg:deb/debian/perl-base@5.36.0-7%2Bdeb12u4?arch=amd64&upstream=perl",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "perl"
+      },
       "scope": null,
       "tier": "primary",
       "version": "5.36.0-7+deb12u4"
@@ -1778,6 +2079,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/sed@4.9-1%2Bdeb12u1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "4.9-1+deb12u1"
@@ -1799,7 +2103,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/sysvinit-utils@3.06-4?arch=amd64",
+      "purl": "pkg:deb/debian/sysvinit-utils@3.06-4?arch=amd64&upstream=sysvinit",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "sysvinit"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.06-4"
@@ -1822,6 +2130,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/tar@1.34%2Bdfsg-1.2%2Bdeb12u1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.34+dfsg-1.2+deb12u1"
@@ -1844,6 +2155,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/tzdata@2026f-0%2Bdeb12u1?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2026f-0+deb12u1"
@@ -1865,7 +2179,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/usr-is-merged@37~deb12u1?arch=all",
+      "purl": "pkg:deb/debian/usr-is-merged@37~deb12u1?arch=all&upstream=usrmerge",
+      "qualifiers": {
+        "arch": "all",
+        "upstream": "usrmerge"
+      },
       "scope": null,
       "tier": "primary",
       "version": "37~deb12u1"
@@ -1888,6 +2206,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/util-linux@2.38.1-5%2Bdeb12u3",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.38.1-5+deb12u3"
@@ -1909,7 +2230,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/util-linux-extra@2.38.1-5%2Bdeb12u3?arch=amd64",
+      "purl": "pkg:deb/debian/util-linux-extra@2.38.1-5%2Bdeb12u3?arch=amd64&upstream=util-linux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.38.1-5+deb12u3"
@@ -1931,7 +2256,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/zlib1g@1:1.2.13.dfsg-1?arch=amd64",
+      "purl": "pkg:deb/debian/zlib1g@1:1.2.13.dfsg-1?arch=amd64&upstream=zlib",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "zlib"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:1.2.13.dfsg-1"
@@ -1958,6 +2287,7 @@
         "usr/local/bin/node"
       ],
       "purl": "pkg:generic/node@22.23.5",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "22.23.5"
@@ -1980,6 +2310,7 @@
         "usr/local/lib/node_modules/npm/node_modules/abbrev/package.json"
       ],
       "purl": "pkg:npm/abbrev@3.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.0.1"
@@ -2002,6 +2333,7 @@
         "app/node_modules/agent-base/package.json"
       ],
       "purl": "pkg:npm/agent-base@6.0.2",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "6.0.2"
@@ -2024,6 +2356,7 @@
         "usr/local/lib/node_modules/npm/node_modules/agent-base/package.json"
       ],
       "purl": "pkg:npm/agent-base@7.1.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.1.4"
@@ -2046,6 +2379,7 @@
         "usr/local/lib/node_modules/npm/node_modules/ansi-regex/package.json"
       ],
       "purl": "pkg:npm/ansi-regex@5.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "5.0.1"
@@ -2069,6 +2403,7 @@
         "usr/local/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/ansi-regex/package.json"
       ],
       "purl": "pkg:npm/ansi-regex@6.2.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "6.2.2"
@@ -2091,6 +2426,7 @@
         "usr/local/lib/node_modules/npm/node_modules/wrap-ansi-cjs/node_modules/ansi-styles/package.json"
       ],
       "purl": "pkg:npm/ansi-styles@4.3.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.3.0"
@@ -2113,6 +2449,7 @@
         "usr/local/lib/node_modules/npm/node_modules/ansi-styles/package.json"
       ],
       "purl": "pkg:npm/ansi-styles@6.2.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "6.2.3"
@@ -2135,6 +2472,7 @@
         "usr/local/lib/node_modules/npm/node_modules/aproba/package.json"
       ],
       "purl": "pkg:npm/aproba@2.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.1.0"
@@ -2157,6 +2495,7 @@
         "usr/local/lib/node_modules/npm/node_modules/archy/package.json"
       ],
       "purl": "pkg:npm/archy@1.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.0.0"
@@ -2179,6 +2518,7 @@
         "app/node_modules/asynckit/package.json"
       ],
       "purl": "pkg:npm/asynckit@0.4.0",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "0.4.0"
@@ -2201,6 +2541,7 @@
         "app/node_modules/axios/package.json"
       ],
       "purl": "pkg:npm/axios@1.19.0",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "1.19.0"
@@ -2223,6 +2564,7 @@
         "usr/local/lib/node_modules/npm/node_modules/balanced-match/package.json"
       ],
       "purl": "pkg:npm/balanced-match@1.0.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.0.2"
@@ -2245,6 +2587,7 @@
         "usr/local/lib/node_modules/npm/node_modules/bin-links/package.json"
       ],
       "purl": "pkg:npm/bin-links@5.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "5.0.0"
@@ -2267,6 +2610,7 @@
         "usr/local/lib/node_modules/npm/node_modules/binary-extensions/package.json"
       ],
       "purl": "pkg:npm/binary-extensions@2.3.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.3.0"
@@ -2289,6 +2633,7 @@
         "usr/local/lib/node_modules/npm/node_modules/brace-expansion/package.json"
       ],
       "purl": "pkg:npm/brace-expansion@2.0.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.0.2"
@@ -2311,6 +2656,7 @@
         "usr/local/lib/node_modules/npm/node_modules/cacache/package.json"
       ],
       "purl": "pkg:npm/cacache@19.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "19.0.1"
@@ -2333,6 +2679,7 @@
         "app/node_modules/call-bind-apply-helpers/package.json"
       ],
       "purl": "pkg:npm/call-bind-apply-helpers@1.0.2",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "1.0.2"
@@ -2355,6 +2702,7 @@
         "usr/local/lib/node_modules/npm/node_modules/chalk/package.json"
       ],
       "purl": "pkg:npm/chalk@5.6.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "5.6.2"
@@ -2377,6 +2725,7 @@
         "usr/local/lib/node_modules/npm/node_modules/chownr/package.json"
       ],
       "purl": "pkg:npm/chownr@3.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.0.0"
@@ -2399,6 +2748,7 @@
         "usr/local/lib/node_modules/npm/node_modules/ci-info/package.json"
       ],
       "purl": "pkg:npm/ci-info@4.4.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.4.0"
@@ -2421,6 +2771,7 @@
         "usr/local/lib/node_modules/npm/node_modules/cidr-regex/package.json"
       ],
       "purl": "pkg:npm/cidr-regex@4.1.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.3"
@@ -2443,6 +2794,7 @@
         "usr/local/lib/node_modules/npm/node_modules/cli-columns/package.json"
       ],
       "purl": "pkg:npm/cli-columns@4.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.0"
@@ -2465,6 +2817,7 @@
         "usr/local/lib/node_modules/npm/node_modules/cmd-shim/package.json"
       ],
       "purl": "pkg:npm/cmd-shim@7.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.0"
@@ -2487,6 +2840,7 @@
         "usr/local/lib/node_modules/npm/node_modules/color-convert/package.json"
       ],
       "purl": "pkg:npm/color-convert@2.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.0.1"
@@ -2509,6 +2863,7 @@
         "usr/local/lib/node_modules/npm/node_modules/color-name/package.json"
       ],
       "purl": "pkg:npm/color-name@1.1.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.1.4"
@@ -2531,6 +2886,7 @@
         "app/node_modules/combined-stream/package.json"
       ],
       "purl": "pkg:npm/combined-stream@1.0.8",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "1.0.8"
@@ -2553,6 +2909,7 @@
         "usr/local/lib/node_modules/npm/node_modules/common-ancestor-path/package.json"
       ],
       "purl": "pkg:npm/common-ancestor-path@1.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.0.1"
@@ -2575,6 +2932,7 @@
         "app/node_modules/cookie/package.json"
       ],
       "purl": "pkg:npm/cookie@1.1.1",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "1.1.1"
@@ -2597,6 +2955,7 @@
         "usr/local/lib/node_modules/corepack/package.json"
       ],
       "purl": "pkg:npm/corepack@0.36.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.36.0"
@@ -2619,6 +2978,7 @@
         "usr/local/lib/node_modules/npm/node_modules/cross-spawn/package.json"
       ],
       "purl": "pkg:npm/cross-spawn@7.0.6",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.6"
@@ -2641,6 +3001,7 @@
         "usr/local/lib/node_modules/npm/node_modules/cssesc/package.json"
       ],
       "purl": "pkg:npm/cssesc@3.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.0.0"
@@ -2663,6 +3024,7 @@
         "app/node_modules/csstype/package.json"
       ],
       "purl": "pkg:npm/csstype@3.2.3",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "3.2.3"
@@ -2687,6 +3049,7 @@
         "usr/local/lib/node_modules/npm/node_modules/debug/package.json"
       ],
       "purl": "pkg:npm/debug@4.4.3",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "4.4.3"
@@ -2709,6 +3072,7 @@
         "app/node_modules/delayed-stream/package.json"
       ],
       "purl": "pkg:npm/delayed-stream@1.0.0",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "1.0.0"
@@ -2731,6 +3095,7 @@
         "app/node_modules/detect-libc/package.json"
       ],
       "purl": "pkg:npm/detect-libc@2.1.2",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "2.1.2"
@@ -2753,6 +3118,7 @@
         "usr/local/lib/node_modules/npm/node_modules/diff/package.json"
       ],
       "purl": "pkg:npm/diff@5.2.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "5.2.2"
@@ -2775,6 +3141,7 @@
         "app/node_modules/dunder-proto/package.json"
       ],
       "purl": "pkg:npm/dunder-proto@1.0.1",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "1.0.1"
@@ -2797,6 +3164,7 @@
         "usr/local/lib/node_modules/npm/node_modules/eastasianwidth/package.json"
       ],
       "purl": "pkg:npm/eastasianwidth@0.2.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.2.0"
@@ -2819,6 +3187,7 @@
         "usr/local/lib/node_modules/npm/node_modules/emoji-regex/package.json"
       ],
       "purl": "pkg:npm/emoji-regex@8.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "8.0.0"
@@ -2842,6 +3211,7 @@
         "usr/local/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/emoji-regex/package.json"
       ],
       "purl": "pkg:npm/emoji-regex@9.2.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "9.2.2"
@@ -2864,6 +3234,7 @@
         "usr/local/lib/node_modules/npm/node_modules/encoding/package.json"
       ],
       "purl": "pkg:npm/encoding@0.1.13",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.1.13"
@@ -2886,6 +3257,7 @@
         "usr/local/lib/node_modules/npm/node_modules/env-paths/package.json"
       ],
       "purl": "pkg:npm/env-paths@2.2.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.2.1"
@@ -2908,6 +3280,7 @@
         "usr/local/lib/node_modules/npm/node_modules/err-code/package.json"
       ],
       "purl": "pkg:npm/err-code@2.0.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.0.3"
@@ -2930,6 +3303,7 @@
         "app/node_modules/es-define-property/package.json"
       ],
       "purl": "pkg:npm/es-define-property@1.0.1",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "1.0.1"
@@ -2952,6 +3326,7 @@
         "app/node_modules/es-errors/package.json"
       ],
       "purl": "pkg:npm/es-errors@1.3.0",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "1.3.0"
@@ -2974,6 +3349,7 @@
         "app/node_modules/es-object-atoms/package.json"
       ],
       "purl": "pkg:npm/es-object-atoms@1.1.2",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "1.1.2"
@@ -2996,6 +3372,7 @@
         "app/node_modules/es-set-tostringtag/package.json"
       ],
       "purl": "pkg:npm/es-set-tostringtag@2.1.0",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "2.1.0"
@@ -3018,6 +3395,7 @@
         "usr/local/lib/node_modules/npm/node_modules/exponential-backoff/package.json"
       ],
       "purl": "pkg:npm/exponential-backoff@3.1.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.1.3"
@@ -3040,6 +3418,7 @@
         "usr/local/lib/node_modules/npm/node_modules/fastest-levenshtein/package.json"
       ],
       "purl": "pkg:npm/fastest-levenshtein@1.0.16",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.0.16"
@@ -3064,6 +3443,7 @@
         "usr/local/lib/node_modules/npm/node_modules/fdir/package.json"
       ],
       "purl": "pkg:npm/fdir@6.5.0",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "6.5.0"
@@ -3086,6 +3466,7 @@
         "app/node_modules/follow-redirects/package.json"
       ],
       "purl": "pkg:npm/follow-redirects@1.16.0",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "1.16.0"
@@ -3108,6 +3489,7 @@
         "usr/local/lib/node_modules/npm/node_modules/foreground-child/package.json"
       ],
       "purl": "pkg:npm/foreground-child@3.3.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.3.1"
@@ -3130,6 +3512,7 @@
         "app/node_modules/form-data/package.json"
       ],
       "purl": "pkg:npm/form-data@4.0.6",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "4.0.6"
@@ -3152,6 +3535,7 @@
         "usr/local/lib/node_modules/npm/node_modules/fs-minipass/package.json"
       ],
       "purl": "pkg:npm/fs-minipass@3.0.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.0.3"
@@ -3174,6 +3558,7 @@
         "app/node_modules/function-bind/package.json"
       ],
       "purl": "pkg:npm/function-bind@1.1.2",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "1.1.2"
@@ -3196,6 +3581,7 @@
         "app/node_modules/get-intrinsic/package.json"
       ],
       "purl": "pkg:npm/get-intrinsic@1.3.0",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "1.3.0"
@@ -3218,6 +3604,7 @@
         "app/node_modules/get-proto/package.json"
       ],
       "purl": "pkg:npm/get-proto@1.0.1",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "1.0.1"
@@ -3240,6 +3627,7 @@
         "usr/local/lib/node_modules/npm/node_modules/glob/package.json"
       ],
       "purl": "pkg:npm/glob@10.5.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "10.5.0"
@@ -3262,6 +3650,7 @@
         "app/node_modules/gopd/package.json"
       ],
       "purl": "pkg:npm/gopd@1.2.0",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "1.2.0"
@@ -3284,6 +3673,7 @@
         "usr/local/lib/node_modules/npm/node_modules/graceful-fs/package.json"
       ],
       "purl": "pkg:npm/graceful-fs@4.2.11",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.2.11"
@@ -3306,6 +3696,7 @@
         "app/node_modules/has-symbols/package.json"
       ],
       "purl": "pkg:npm/has-symbols@1.1.0",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "1.1.0"
@@ -3328,6 +3719,7 @@
         "app/node_modules/has-tostringtag/package.json"
       ],
       "purl": "pkg:npm/has-tostringtag@1.0.2",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "1.0.2"
@@ -3350,6 +3742,7 @@
         "app/node_modules/hasown/package.json"
       ],
       "purl": "pkg:npm/hasown@2.0.4",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "2.0.4"
@@ -3372,6 +3765,7 @@
         "usr/local/lib/node_modules/npm/node_modules/hosted-git-info/package.json"
       ],
       "purl": "pkg:npm/hosted-git-info@8.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "8.1.0"
@@ -3394,6 +3788,7 @@
         "usr/local/lib/node_modules/npm/node_modules/http-cache-semantics/package.json"
       ],
       "purl": "pkg:npm/http-cache-semantics@4.2.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.2.0"
@@ -3416,6 +3811,7 @@
         "usr/local/lib/node_modules/npm/node_modules/http-proxy-agent/package.json"
       ],
       "purl": "pkg:npm/http-proxy-agent@7.0.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.2"
@@ -3438,6 +3834,7 @@
         "app/node_modules/https-proxy-agent/package.json"
       ],
       "purl": "pkg:npm/https-proxy-agent@5.0.1",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "5.0.1"
@@ -3460,6 +3857,7 @@
         "usr/local/lib/node_modules/npm/node_modules/https-proxy-agent/package.json"
       ],
       "purl": "pkg:npm/https-proxy-agent@7.0.6",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.6"
@@ -3482,6 +3880,7 @@
         "usr/local/lib/node_modules/npm/node_modules/iconv-lite/package.json"
       ],
       "purl": "pkg:npm/iconv-lite@0.6.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.6.3"
@@ -3504,6 +3903,7 @@
         "usr/local/lib/node_modules/npm/node_modules/ignore-walk/package.json"
       ],
       "purl": "pkg:npm/ignore-walk@7.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.0"
@@ -3526,6 +3926,7 @@
         "usr/local/lib/node_modules/npm/node_modules/imurmurhash/package.json"
       ],
       "purl": "pkg:npm/imurmurhash@0.1.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.1.4"
@@ -3548,6 +3949,7 @@
         "usr/local/lib/node_modules/npm/node_modules/ini/package.json"
       ],
       "purl": "pkg:npm/ini@5.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "5.0.0"
@@ -3570,6 +3972,7 @@
         "usr/local/lib/node_modules/npm/node_modules/init-package-json/package.json"
       ],
       "purl": "pkg:npm/init-package-json@7.0.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.2"
@@ -3592,6 +3995,7 @@
         "usr/local/lib/node_modules/npm/node_modules/ip-address/package.json"
       ],
       "purl": "pkg:npm/ip-address@10.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "10.1.0"
@@ -3614,6 +4018,7 @@
         "usr/local/lib/node_modules/npm/node_modules/ip-regex/package.json"
       ],
       "purl": "pkg:npm/ip-regex@5.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "5.0.0"
@@ -3636,6 +4041,7 @@
         "usr/local/lib/node_modules/npm/node_modules/is-cidr/package.json"
       ],
       "purl": "pkg:npm/is-cidr@5.1.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "5.1.1"
@@ -3658,6 +4064,7 @@
         "usr/local/lib/node_modules/npm/node_modules/is-fullwidth-code-point/package.json"
       ],
       "purl": "pkg:npm/is-fullwidth-code-point@3.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.0.0"
@@ -3680,6 +4087,7 @@
         "usr/local/lib/node_modules/npm/node_modules/isexe/package.json"
       ],
       "purl": "pkg:npm/isexe@2.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.0.0"
@@ -3702,6 +4110,7 @@
         "usr/local/lib/node_modules/npm/node_modules/which/node_modules/isexe/package.json"
       ],
       "purl": "pkg:npm/isexe@3.1.5",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.1.5"
@@ -3724,6 +4133,7 @@
         "usr/local/lib/node_modules/npm/node_modules/jackspeak/package.json"
       ],
       "purl": "pkg:npm/jackspeak@3.4.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.4.3"
@@ -3746,6 +4156,7 @@
         "usr/local/lib/node_modules/npm/node_modules/json-parse-even-better-errors/package.json"
       ],
       "purl": "pkg:npm/json-parse-even-better-errors@4.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.0"
@@ -3768,6 +4179,7 @@
         "usr/local/lib/node_modules/npm/node_modules/json-stringify-nice/package.json"
       ],
       "purl": "pkg:npm/json-stringify-nice@1.1.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.1.4"
@@ -3790,6 +4202,7 @@
         "usr/local/lib/node_modules/npm/node_modules/jsonparse/package.json"
       ],
       "purl": "pkg:npm/jsonparse@1.3.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.3.1"
@@ -3812,6 +4225,7 @@
         "usr/local/lib/node_modules/npm/node_modules/just-diff/package.json"
       ],
       "purl": "pkg:npm/just-diff@6.0.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "6.0.2"
@@ -3834,6 +4248,7 @@
         "usr/local/lib/node_modules/npm/node_modules/just-diff-apply/package.json"
       ],
       "purl": "pkg:npm/just-diff-apply@5.5.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "5.5.0"
@@ -3856,6 +4271,7 @@
         "usr/local/lib/node_modules/npm/node_modules/libnpmaccess/package.json"
       ],
       "purl": "pkg:npm/libnpmaccess@9.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "9.0.0"
@@ -3878,6 +4294,7 @@
         "usr/local/lib/node_modules/npm/node_modules/libnpmdiff/package.json"
       ],
       "purl": "pkg:npm/libnpmdiff@7.0.5",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.5"
@@ -3900,6 +4317,7 @@
         "usr/local/lib/node_modules/npm/node_modules/libnpmexec/package.json"
       ],
       "purl": "pkg:npm/libnpmexec@9.0.5",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "9.0.5"
@@ -3922,6 +4340,7 @@
         "usr/local/lib/node_modules/npm/node_modules/libnpmfund/package.json"
       ],
       "purl": "pkg:npm/libnpmfund@6.0.5",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "6.0.5"
@@ -3944,6 +4363,7 @@
         "usr/local/lib/node_modules/npm/node_modules/libnpmhook/package.json"
       ],
       "purl": "pkg:npm/libnpmhook@11.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "11.0.0"
@@ -3966,6 +4386,7 @@
         "usr/local/lib/node_modules/npm/node_modules/libnpmorg/package.json"
       ],
       "purl": "pkg:npm/libnpmorg@7.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.0"
@@ -3988,6 +4409,7 @@
         "usr/local/lib/node_modules/npm/node_modules/libnpmpack/package.json"
       ],
       "purl": "pkg:npm/libnpmpack@8.0.5",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "8.0.5"
@@ -4010,6 +4432,7 @@
         "usr/local/lib/node_modules/npm/node_modules/libnpmpublish/package.json"
       ],
       "purl": "pkg:npm/libnpmpublish@10.0.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "10.0.2"
@@ -4032,6 +4455,7 @@
         "usr/local/lib/node_modules/npm/node_modules/libnpmsearch/package.json"
       ],
       "purl": "pkg:npm/libnpmsearch@8.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "8.0.0"
@@ -4054,6 +4478,7 @@
         "usr/local/lib/node_modules/npm/node_modules/libnpmteam/package.json"
       ],
       "purl": "pkg:npm/libnpmteam@7.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.0"
@@ -4076,6 +4501,7 @@
         "usr/local/lib/node_modules/npm/node_modules/libnpmversion/package.json"
       ],
       "purl": "pkg:npm/libnpmversion@7.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.0"
@@ -4098,6 +4524,7 @@
         "app/node_modules/lightningcss/package.json"
       ],
       "purl": "pkg:npm/lightningcss@1.33.0",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "1.33.0"
@@ -4120,6 +4547,7 @@
         "app/node_modules/lightningcss-linux-x64-gnu/package.json"
       ],
       "purl": "pkg:npm/lightningcss-linux-x64-gnu@1.33.0",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "1.33.0"
@@ -4142,6 +4570,7 @@
         "app/node_modules/lightningcss-linux-x64-musl/package.json"
       ],
       "purl": "pkg:npm/lightningcss-linux-x64-musl@1.33.0",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "1.33.0"
@@ -4164,6 +4593,7 @@
         "usr/local/lib/node_modules/npm/node_modules/lru-cache/package.json"
       ],
       "purl": "pkg:npm/lru-cache@10.4.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "10.4.3"
@@ -4186,6 +4616,7 @@
         "app/node_modules/lucide-react/package.json"
       ],
       "purl": "pkg:npm/lucide-react@1.34.0",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "1.34.0"
@@ -4208,6 +4639,7 @@
         "usr/local/lib/node_modules/npm/node_modules/make-fetch-happen/package.json"
       ],
       "purl": "pkg:npm/make-fetch-happen@14.0.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "14.0.3"
@@ -4230,6 +4662,7 @@
         "app/node_modules/math-intrinsics/package.json"
       ],
       "purl": "pkg:npm/math-intrinsics@1.1.0",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "1.1.0"
@@ -4252,6 +4685,7 @@
         "app/node_modules/mime-db/package.json"
       ],
       "purl": "pkg:npm/mime-db@1.52.0",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "1.52.0"
@@ -4274,6 +4708,7 @@
         "app/node_modules/mime-types/package.json"
       ],
       "purl": "pkg:npm/mime-types@2.1.35",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "2.1.35"
@@ -4296,6 +4731,7 @@
         "usr/local/lib/node_modules/npm/node_modules/minimatch/package.json"
       ],
       "purl": "pkg:npm/minimatch@9.0.9",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "9.0.9"
@@ -4320,6 +4756,7 @@
         "usr/local/lib/node_modules/npm/node_modules/minipass-sized/node_modules/minipass/package.json"
       ],
       "purl": "pkg:npm/minipass@3.3.6",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.3.6"
@@ -4342,6 +4779,7 @@
         "usr/local/lib/node_modules/npm/node_modules/minipass/package.json"
       ],
       "purl": "pkg:npm/minipass@7.1.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.1.3"
@@ -4364,6 +4802,7 @@
         "usr/local/lib/node_modules/npm/node_modules/minipass-collect/package.json"
       ],
       "purl": "pkg:npm/minipass-collect@2.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.0.1"
@@ -4386,6 +4825,7 @@
         "usr/local/lib/node_modules/npm/node_modules/minipass-fetch/package.json"
       ],
       "purl": "pkg:npm/minipass-fetch@4.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.1"
@@ -4408,6 +4848,7 @@
         "usr/local/lib/node_modules/npm/node_modules/minipass-flush/package.json"
       ],
       "purl": "pkg:npm/minipass-flush@1.0.5",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.0.5"
@@ -4430,6 +4871,7 @@
         "usr/local/lib/node_modules/npm/node_modules/minipass-pipeline/package.json"
       ],
       "purl": "pkg:npm/minipass-pipeline@1.2.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.2.4"
@@ -4452,6 +4894,7 @@
         "usr/local/lib/node_modules/npm/node_modules/minipass-sized/package.json"
       ],
       "purl": "pkg:npm/minipass-sized@1.0.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.0.3"
@@ -4474,6 +4917,7 @@
         "usr/local/lib/node_modules/npm/node_modules/minizlib/package.json"
       ],
       "purl": "pkg:npm/minizlib@3.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.1.0"
@@ -4498,6 +4942,7 @@
         "usr/local/lib/node_modules/npm/node_modules/ms/package.json"
       ],
       "purl": "pkg:npm/ms@2.1.3",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "2.1.3"
@@ -4520,6 +4965,7 @@
         "usr/local/lib/node_modules/npm/node_modules/mute-stream/package.json"
       ],
       "purl": "pkg:npm/mute-stream@2.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.0.0"
@@ -4542,6 +4988,7 @@
         "app/node_modules/nanoid/package.json"
       ],
       "purl": "pkg:npm/nanoid@3.3.18",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "3.3.18"
@@ -4564,6 +5011,7 @@
         "usr/local/lib/node_modules/npm/node_modules/negotiator/package.json"
       ],
       "purl": "pkg:npm/negotiator@1.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.0.0"
@@ -4586,6 +5034,7 @@
         "usr/local/lib/node_modules/npm/node_modules/node-gyp/package.json"
       ],
       "purl": "pkg:npm/node-gyp@11.5.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "11.5.0"
@@ -4608,6 +5057,7 @@
         "usr/local/lib/node_modules/npm/node_modules/nopt/package.json"
       ],
       "purl": "pkg:npm/nopt@8.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "8.1.0"
@@ -4630,6 +5080,7 @@
         "usr/local/lib/node_modules/npm/node_modules/normalize-package-data/package.json"
       ],
       "purl": "pkg:npm/normalize-package-data@7.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.1"
@@ -4652,6 +5103,7 @@
         "usr/local/lib/node_modules/npm/package.json"
       ],
       "purl": "pkg:npm/npm@10.9.9",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "10.9.9"
@@ -4674,6 +5126,7 @@
         "usr/local/lib/node_modules/npm/node_modules/npm-audit-report/package.json"
       ],
       "purl": "pkg:npm/npm-audit-report@6.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "6.0.0"
@@ -4696,6 +5149,7 @@
         "usr/local/lib/node_modules/npm/node_modules/npm-bundled/package.json"
       ],
       "purl": "pkg:npm/npm-bundled@4.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.0"
@@ -4718,6 +5172,7 @@
         "usr/local/lib/node_modules/npm/node_modules/npm-install-checks/package.json"
       ],
       "purl": "pkg:npm/npm-install-checks@7.1.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.1.2"
@@ -4740,6 +5195,7 @@
         "usr/local/lib/node_modules/npm/node_modules/npm-normalize-package-bin/package.json"
       ],
       "purl": "pkg:npm/npm-normalize-package-bin@4.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.0"
@@ -4762,6 +5218,7 @@
         "usr/local/lib/node_modules/npm/node_modules/npm-package-arg/package.json"
       ],
       "purl": "pkg:npm/npm-package-arg@12.0.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "12.0.2"
@@ -4784,6 +5241,7 @@
         "usr/local/lib/node_modules/npm/node_modules/npm-packlist/package.json"
       ],
       "purl": "pkg:npm/npm-packlist@9.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "9.0.0"
@@ -4806,6 +5264,7 @@
         "usr/local/lib/node_modules/npm/node_modules/npm-pick-manifest/package.json"
       ],
       "purl": "pkg:npm/npm-pick-manifest@10.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "10.0.0"
@@ -4828,6 +5287,7 @@
         "usr/local/lib/node_modules/npm/node_modules/npm-profile/package.json"
       ],
       "purl": "pkg:npm/npm-profile@11.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "11.0.1"
@@ -4850,6 +5310,7 @@
         "usr/local/lib/node_modules/npm/node_modules/npm-registry-fetch/package.json"
       ],
       "purl": "pkg:npm/npm-registry-fetch@18.0.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "18.0.2"
@@ -4872,6 +5333,7 @@
         "usr/local/lib/node_modules/npm/node_modules/npm-user-validate/package.json"
       ],
       "purl": "pkg:npm/npm-user-validate@3.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.0.0"
@@ -4894,6 +5356,7 @@
         "app/node_modules/oxlint/package.json"
       ],
       "purl": "pkg:npm/oxlint@1.79.0",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "1.79.0"
@@ -4916,6 +5379,7 @@
         "usr/local/lib/node_modules/npm/node_modules/p-map/package.json"
       ],
       "purl": "pkg:npm/p-map@7.0.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.4"
@@ -4938,6 +5402,7 @@
         "usr/local/lib/node_modules/npm/node_modules/package-json-from-dist/package.json"
       ],
       "purl": "pkg:npm/package-json-from-dist@1.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.0.1"
@@ -4960,6 +5425,7 @@
         "usr/local/lib/node_modules/npm/node_modules/pacote/package.json"
       ],
       "purl": "pkg:npm/pacote@19.0.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "19.0.2"
@@ -4982,6 +5448,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@npmcli/metavuln-calculator/node_modules/pacote/package.json"
       ],
       "purl": "pkg:npm/pacote@20.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "20.0.1"
@@ -5004,6 +5471,7 @@
         "usr/local/lib/node_modules/npm/node_modules/parse-conflict-json/package.json"
       ],
       "purl": "pkg:npm/parse-conflict-json@4.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.0"
@@ -5026,6 +5494,7 @@
         "usr/local/lib/node_modules/npm/node_modules/path-key/package.json"
       ],
       "purl": "pkg:npm/path-key@3.1.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.1.1"
@@ -5048,6 +5517,7 @@
         "usr/local/lib/node_modules/npm/node_modules/path-scurry/package.json"
       ],
       "purl": "pkg:npm/path-scurry@1.11.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.11.1"
@@ -5070,6 +5540,7 @@
         "app/node_modules/picocolors/package.json"
       ],
       "purl": "pkg:npm/picocolors@1.1.1",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "1.1.1"
@@ -5092,6 +5563,7 @@
         "usr/local/lib/node_modules/npm/node_modules/picomatch/package.json"
       ],
       "purl": "pkg:npm/picomatch@4.0.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.3"
@@ -5114,6 +5586,7 @@
         "app/node_modules/picomatch/package.json"
       ],
       "purl": "pkg:npm/picomatch@4.0.5",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "4.0.5"
@@ -5136,6 +5609,7 @@
         "app/node_modules/postcss/package.json"
       ],
       "purl": "pkg:npm/postcss@8.5.26",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "8.5.26"
@@ -5158,6 +5632,7 @@
         "usr/local/lib/node_modules/npm/node_modules/postcss-selector-parser/package.json"
       ],
       "purl": "pkg:npm/postcss-selector-parser@7.1.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.1.1"
@@ -5180,6 +5655,7 @@
         "usr/local/lib/node_modules/npm/node_modules/proc-log/package.json"
       ],
       "purl": "pkg:npm/proc-log@5.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "5.0.0"
@@ -5202,6 +5678,7 @@
         "usr/local/lib/node_modules/npm/node_modules/proggy/package.json"
       ],
       "purl": "pkg:npm/proggy@3.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.0.0"
@@ -5224,6 +5701,7 @@
         "usr/local/lib/node_modules/npm/node_modules/promise-all-reject-late/package.json"
       ],
       "purl": "pkg:npm/promise-all-reject-late@1.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.0.1"
@@ -5246,6 +5724,7 @@
         "usr/local/lib/node_modules/npm/node_modules/promise-call-limit/package.json"
       ],
       "purl": "pkg:npm/promise-call-limit@3.0.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.0.2"
@@ -5268,6 +5747,7 @@
         "usr/local/lib/node_modules/npm/node_modules/promise-retry/package.json"
       ],
       "purl": "pkg:npm/promise-retry@2.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.0.1"
@@ -5290,6 +5770,7 @@
         "usr/local/lib/node_modules/npm/node_modules/promzard/package.json"
       ],
       "purl": "pkg:npm/promzard@2.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.0.0"
@@ -5312,6 +5793,7 @@
         "app/node_modules/proxy-from-env/package.json"
       ],
       "purl": "pkg:npm/proxy-from-env@2.1.0",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "2.1.0"
@@ -5334,6 +5816,7 @@
         "usr/local/lib/node_modules/npm/node_modules/qrcode-terminal/package.json"
       ],
       "purl": "pkg:npm/qrcode-terminal@0.12.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.12.0"
@@ -5356,6 +5839,7 @@
         "app/node_modules/react/package.json"
       ],
       "purl": "pkg:npm/react@19.2.8",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "19.2.8"
@@ -5378,6 +5862,7 @@
         "app/node_modules/react-dom/package.json"
       ],
       "purl": "pkg:npm/react-dom@19.2.8",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "19.2.8"
@@ -5400,6 +5885,7 @@
         "app/node_modules/react-router/package.json"
       ],
       "purl": "pkg:npm/react-router@7.18.2",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "7.18.2"
@@ -5422,6 +5908,7 @@
         "app/node_modules/react-router-dom/package.json"
       ],
       "purl": "pkg:npm/react-router-dom@7.18.2",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "7.18.2"
@@ -5444,6 +5931,7 @@
         "usr/local/lib/node_modules/npm/node_modules/read/package.json"
       ],
       "purl": "pkg:npm/read@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -5466,6 +5954,7 @@
         "usr/local/lib/node_modules/npm/node_modules/read-cmd-shim/package.json"
       ],
       "purl": "pkg:npm/read-cmd-shim@5.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "5.0.0"
@@ -5488,6 +5977,7 @@
         "usr/local/lib/node_modules/npm/node_modules/read-package-json-fast/package.json"
       ],
       "purl": "pkg:npm/read-package-json-fast@4.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.0"
@@ -5510,6 +6000,7 @@
         "usr/local/lib/node_modules/npm/node_modules/retry/package.json"
       ],
       "purl": "pkg:npm/retry@0.12.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.12.0"
@@ -5532,6 +6023,7 @@
         "app/node_modules/rolldown/package.json"
       ],
       "purl": "pkg:npm/rolldown@1.2.5",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "1.2.5"
@@ -5554,6 +6046,7 @@
         "usr/local/lib/node_modules/npm/node_modules/safer-buffer/package.json"
       ],
       "purl": "pkg:npm/safer-buffer@2.1.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.1.2"
@@ -5576,6 +6069,7 @@
         "app/node_modules/scheduler/package.json"
       ],
       "purl": "pkg:npm/scheduler@0.27.0",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "0.27.0"
@@ -5598,6 +6092,7 @@
         "usr/local/lib/node_modules/npm/node_modules/semver/package.json"
       ],
       "purl": "pkg:npm/semver@7.7.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.7.4"
@@ -5620,6 +6115,7 @@
         "app/node_modules/set-cookie-parser/package.json"
       ],
       "purl": "pkg:npm/set-cookie-parser@2.7.2",
+      "qualifiers": {},
       "scope": "runtime",
       "tier": "primary",
       "version": "2.7.2"
@@ -5642,6 +6138,7 @@
         "usr/local/lib/node_modules/npm/node_modules/shebang-command/package.json"
       ],
       "purl": "pkg:npm/shebang-command@2.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.0.0"
@@ -5664,6 +6161,7 @@
         "usr/local/lib/node_modules/npm/node_modules/shebang-regex/package.json"
       ],
       "purl": "pkg:npm/shebang-regex@3.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.0.0"
@@ -5686,6 +6184,7 @@
         "usr/local/lib/node_modules/npm/node_modules/signal-exit/package.json"
       ],
       "purl": "pkg:npm/signal-exit@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -5708,6 +6207,7 @@
         "usr/local/lib/node_modules/npm/node_modules/sigstore/package.json"
       ],
       "purl": "pkg:npm/sigstore@3.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.1.0"
@@ -5730,6 +6230,7 @@
         "usr/local/lib/node_modules/npm/node_modules/smart-buffer/package.json"
       ],
       "purl": "pkg:npm/smart-buffer@4.2.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.2.0"
@@ -5752,6 +6253,7 @@
         "usr/local/lib/node_modules/npm/node_modules/socks/package.json"
       ],
       "purl": "pkg:npm/socks@2.8.7",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.8.7"
@@ -5774,6 +6276,7 @@
         "usr/local/lib/node_modules/npm/node_modules/socks-proxy-agent/package.json"
       ],
       "purl": "pkg:npm/socks-proxy-agent@8.0.5",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "8.0.5"
@@ -5796,6 +6299,7 @@
         "app/node_modules/source-map-js/package.json"
       ],
       "purl": "pkg:npm/source-map-js@1.2.1",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "1.2.1"
@@ -5818,6 +6322,7 @@
         "usr/local/lib/node_modules/npm/node_modules/spdx-correct/package.json"
       ],
       "purl": "pkg:npm/spdx-correct@3.2.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.2.0"
@@ -5840,6 +6345,7 @@
         "usr/local/lib/node_modules/npm/node_modules/spdx-exceptions/package.json"
       ],
       "purl": "pkg:npm/spdx-exceptions@2.5.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.5.0"
@@ -5863,6 +6369,7 @@
         "usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/package.json"
       ],
       "purl": "pkg:npm/spdx-expression-parse@3.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.0.1"
@@ -5885,6 +6392,7 @@
         "usr/local/lib/node_modules/npm/node_modules/spdx-expression-parse/package.json"
       ],
       "purl": "pkg:npm/spdx-expression-parse@4.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.0"
@@ -5907,6 +6415,7 @@
         "usr/local/lib/node_modules/npm/node_modules/spdx-license-ids/package.json"
       ],
       "purl": "pkg:npm/spdx-license-ids@3.0.23",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.0.23"
@@ -5929,6 +6438,7 @@
         "usr/local/lib/node_modules/npm/node_modules/ssri/package.json"
       ],
       "purl": "pkg:npm/ssri@12.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "12.0.0"
@@ -5952,6 +6462,7 @@
         "usr/local/lib/node_modules/npm/node_modules/string-width-cjs/package.json"
       ],
       "purl": "pkg:npm/string-width@4.2.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.2.3"
@@ -5975,6 +6486,7 @@
         "usr/local/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/string-width/package.json"
       ],
       "purl": "pkg:npm/string-width@5.1.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "5.1.2"
@@ -5998,6 +6510,7 @@
         "usr/local/lib/node_modules/npm/node_modules/strip-ansi-cjs/package.json"
       ],
       "purl": "pkg:npm/strip-ansi@6.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "6.0.1"
@@ -6021,6 +6534,7 @@
         "usr/local/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/strip-ansi/package.json"
       ],
       "purl": "pkg:npm/strip-ansi@7.2.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.2.0"
@@ -6043,6 +6557,7 @@
         "usr/local/lib/node_modules/npm/node_modules/supports-color/package.json"
       ],
       "purl": "pkg:npm/supports-color@9.4.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "9.4.0"
@@ -6065,6 +6580,7 @@
         "usr/local/lib/node_modules/npm/node_modules/tar/package.json"
       ],
       "purl": "pkg:npm/tar@7.5.22",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.5.22"
@@ -6087,6 +6603,7 @@
         "usr/local/lib/node_modules/npm/node_modules/text-table/package.json"
       ],
       "purl": "pkg:npm/text-table@0.2.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.2.0"
@@ -6109,6 +6626,7 @@
         "usr/local/lib/node_modules/npm/node_modules/tiny-relative-date/package.json"
       ],
       "purl": "pkg:npm/tiny-relative-date@1.3.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.3.0"
@@ -6131,6 +6649,7 @@
         "usr/local/lib/node_modules/npm/node_modules/tinyglobby/package.json"
       ],
       "purl": "pkg:npm/tinyglobby@0.2.15",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.2.15"
@@ -6153,6 +6672,7 @@
         "app/node_modules/tinyglobby/package.json"
       ],
       "purl": "pkg:npm/tinyglobby@0.2.17",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "0.2.17"
@@ -6175,6 +6695,7 @@
         "usr/local/lib/node_modules/npm/node_modules/treeverse/package.json"
       ],
       "purl": "pkg:npm/treeverse@3.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.0.0"
@@ -6197,6 +6718,7 @@
         "usr/local/lib/node_modules/npm/node_modules/tuf-js/package.json"
       ],
       "purl": "pkg:npm/tuf-js@3.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.1.0"
@@ -6219,6 +6741,7 @@
         "usr/local/lib/node_modules/npm/node_modules/unique-filename/package.json"
       ],
       "purl": "pkg:npm/unique-filename@4.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.0"
@@ -6241,6 +6764,7 @@
         "usr/local/lib/node_modules/npm/node_modules/unique-slug/package.json"
       ],
       "purl": "pkg:npm/unique-slug@5.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "5.0.0"
@@ -6263,6 +6787,7 @@
         "usr/local/lib/node_modules/npm/node_modules/util-deprecate/package.json"
       ],
       "purl": "pkg:npm/util-deprecate@1.0.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.0.2"
@@ -6285,6 +6810,7 @@
         "usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license/package.json"
       ],
       "purl": "pkg:npm/validate-npm-package-license@3.0.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.0.4"
@@ -6307,6 +6833,7 @@
         "usr/local/lib/node_modules/npm/node_modules/validate-npm-package-name/package.json"
       ],
       "purl": "pkg:npm/validate-npm-package-name@6.0.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "6.0.2"
@@ -6329,6 +6856,7 @@
         "app/node_modules/vite/package.json"
       ],
       "purl": "pkg:npm/vite@8.2.2",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "8.2.2"
@@ -6351,6 +6879,7 @@
         "usr/local/lib/node_modules/npm/node_modules/walk-up-path/package.json"
       ],
       "purl": "pkg:npm/walk-up-path@3.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.0.1"
@@ -6373,6 +6902,7 @@
         "usr/local/lib/node_modules/npm/node_modules/cross-spawn/node_modules/which/package.json"
       ],
       "purl": "pkg:npm/which@2.0.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.0.2"
@@ -6395,6 +6925,7 @@
         "usr/local/lib/node_modules/npm/node_modules/which/package.json"
       ],
       "purl": "pkg:npm/which@5.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "5.0.0"
@@ -6417,6 +6948,7 @@
         "usr/local/lib/node_modules/npm/node_modules/wrap-ansi-cjs/package.json"
       ],
       "purl": "pkg:npm/wrap-ansi@7.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.0"
@@ -6439,6 +6971,7 @@
         "usr/local/lib/node_modules/npm/node_modules/wrap-ansi/package.json"
       ],
       "purl": "pkg:npm/wrap-ansi@8.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "8.1.0"
@@ -6461,6 +6994,7 @@
         "usr/local/lib/node_modules/npm/node_modules/write-file-atomic/package.json"
       ],
       "purl": "pkg:npm/write-file-atomic@6.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "6.0.0"
@@ -6485,6 +7019,7 @@
         "usr/local/lib/node_modules/npm/node_modules/minipass-sized/node_modules/yallist/package.json"
       ],
       "purl": "pkg:npm/yallist@4.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.0"
@@ -6507,6 +7042,7 @@
         "usr/local/lib/node_modules/npm/node_modules/yallist/package.json"
       ],
       "purl": "pkg:npm/yallist@5.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "5.0.0"
@@ -6531,6 +7067,7 @@
         "opt/yarn-v1.22.22/package.json"
       ],
       "purl": "pkg:npm/yarn@1.22.22",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.22.22"
@@ -6553,6 +7090,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@isaacs/cliui/package.json"
       ],
       "purl": "pkg:npm/%40isaacs/cliui@8.0.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "8.0.2"
@@ -6575,6 +7113,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@isaacs/fs-minipass/package.json"
       ],
       "purl": "pkg:npm/%40isaacs/fs-minipass@4.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.1"
@@ -6597,6 +7136,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@isaacs/string-locale-compare/package.json"
       ],
       "purl": "pkg:npm/%40isaacs/string-locale-compare@1.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.1.0"
@@ -6619,6 +7159,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@npmcli/agent/package.json"
       ],
       "purl": "pkg:npm/%40npmcli/agent@3.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.0.0"
@@ -6641,6 +7182,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/package.json"
       ],
       "purl": "pkg:npm/%40npmcli/arborist@8.0.5",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "8.0.5"
@@ -6663,6 +7205,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@npmcli/config/package.json"
       ],
       "purl": "pkg:npm/%40npmcli/config@9.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "9.0.0"
@@ -6685,6 +7228,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@npmcli/fs/package.json"
       ],
       "purl": "pkg:npm/%40npmcli/fs@4.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.0"
@@ -6707,6 +7251,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@npmcli/git/package.json"
       ],
       "purl": "pkg:npm/%40npmcli/git@6.0.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "6.0.3"
@@ -6729,6 +7274,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@npmcli/installed-package-contents/package.json"
       ],
       "purl": "pkg:npm/%40npmcli/installed-package-contents@3.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.0.0"
@@ -6751,6 +7297,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@npmcli/map-workspaces/package.json"
       ],
       "purl": "pkg:npm/%40npmcli/map-workspaces@4.0.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.2"
@@ -6773,6 +7320,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@npmcli/metavuln-calculator/package.json"
       ],
       "purl": "pkg:npm/%40npmcli/metavuln-calculator@8.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "8.0.1"
@@ -6795,6 +7343,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@npmcli/name-from-folder/package.json"
       ],
       "purl": "pkg:npm/%40npmcli/name-from-folder@3.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.0.0"
@@ -6817,6 +7366,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@npmcli/node-gyp/package.json"
       ],
       "purl": "pkg:npm/%40npmcli/node-gyp@4.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.0"
@@ -6839,6 +7389,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@npmcli/package-json/package.json"
       ],
       "purl": "pkg:npm/%40npmcli/package-json@6.2.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "6.2.0"
@@ -6861,6 +7412,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@npmcli/promise-spawn/package.json"
       ],
       "purl": "pkg:npm/%40npmcli/promise-spawn@8.0.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "8.0.3"
@@ -6883,6 +7435,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@npmcli/query/package.json"
       ],
       "purl": "pkg:npm/%40npmcli/query@4.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.1"
@@ -6905,6 +7458,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@npmcli/redact/package.json"
       ],
       "purl": "pkg:npm/%40npmcli/redact@3.2.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.2.2"
@@ -6927,6 +7481,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/package.json"
       ],
       "purl": "pkg:npm/%40npmcli/run-script@9.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "9.1.0"
@@ -6949,6 +7504,7 @@
         "app/node_modules/@oxc-project/types/package.json"
       ],
       "purl": "pkg:npm/%40oxc-project/types@0.146.0",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "0.146.0"
@@ -6971,6 +7527,7 @@
         "app/node_modules/@oxlint/binding-linux-x64-gnu/package.json"
       ],
       "purl": "pkg:npm/%40oxlint/binding-linux-x64-gnu@1.79.0",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "1.79.0"
@@ -6993,6 +7550,7 @@
         "app/node_modules/@oxlint/binding-linux-x64-musl/package.json"
       ],
       "purl": "pkg:npm/%40oxlint/binding-linux-x64-musl@1.79.0",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "1.79.0"
@@ -7015,6 +7573,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@pkgjs/parseargs/package.json"
       ],
       "purl": "pkg:npm/%40pkgjs/parseargs@0.11.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.11.0"
@@ -7037,6 +7596,7 @@
         "app/node_modules/@rolldown/binding-linux-x64-gnu/package.json"
       ],
       "purl": "pkg:npm/%40rolldown/binding-linux-x64-gnu@1.2.5",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "1.2.5"
@@ -7059,6 +7619,7 @@
         "app/node_modules/@rolldown/binding-linux-x64-musl/package.json"
       ],
       "purl": "pkg:npm/%40rolldown/binding-linux-x64-musl@1.2.5",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "1.2.5"
@@ -7081,6 +7642,7 @@
         "app/node_modules/@rolldown/pluginutils/package.json"
       ],
       "purl": "pkg:npm/%40rolldown/pluginutils@1.0.1",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "1.0.1"
@@ -7103,6 +7665,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@sigstore/bundle/package.json"
       ],
       "purl": "pkg:npm/%40sigstore/bundle@3.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.1.0"
@@ -7125,6 +7688,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@sigstore/core/package.json"
       ],
       "purl": "pkg:npm/%40sigstore/core@2.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.0.0"
@@ -7147,6 +7711,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@sigstore/protobuf-specs/package.json"
       ],
       "purl": "pkg:npm/%40sigstore/protobuf-specs@0.4.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.4.3"
@@ -7169,6 +7734,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@sigstore/sign/package.json"
       ],
       "purl": "pkg:npm/%40sigstore/sign@3.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.1.0"
@@ -7191,6 +7757,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@sigstore/tuf/package.json"
       ],
       "purl": "pkg:npm/%40sigstore/tuf@3.1.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.1.1"
@@ -7213,6 +7780,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@sigstore/verify/package.json"
       ],
       "purl": "pkg:npm/%40sigstore/verify@2.1.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.1.1"
@@ -7235,6 +7803,7 @@
         "usr/local/lib/node_modules/npm/node_modules/@tufjs/canonical-json/package.json"
       ],
       "purl": "pkg:npm/%40tufjs/canonical-json@2.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.0.0"
@@ -7257,6 +7826,7 @@
         "usr/local/lib/node_modules/npm/node_modules/tuf-js/node_modules/@tufjs/models/package.json"
       ],
       "purl": "pkg:npm/%40tufjs/models@3.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.0.1"
@@ -7279,6 +7849,7 @@
         "app/node_modules/@types/react/package.json"
       ],
       "purl": "pkg:npm/%40types/react@19.2.18",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "19.2.18"
@@ -7301,6 +7872,7 @@
         "app/node_modules/@types/react-dom/package.json"
       ],
       "purl": "pkg:npm/%40types/react-dom@19.2.5",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "19.2.5"
@@ -7323,6 +7895,7 @@
         "app/node_modules/@vitejs/plugin-react/package.json"
       ],
       "purl": "pkg:npm/%40vitejs/plugin-react@6.1.0",
+      "qualifiers": {},
       "scope": "dev",
       "tier": "primary",
       "version": "6.1.0"
@@ -7343,6 +7916,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/acl@2.3.1-3",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.3.1-3"
@@ -7363,6 +7937,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/attr@1:2.5.1-4",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1:2.5.1-4"
@@ -7383,6 +7958,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/audit@1:3.0.9-1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1:3.0.9-1"
@@ -7403,6 +7979,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/bash@5.2.15-2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "5.2.15-2"
@@ -7423,6 +8000,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/bzip2@1.0.8-5",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.0.8-5"
@@ -7443,6 +8021,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/cdebconf@0.270",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.270"
@@ -7463,6 +8042,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/db5.3@5.3.28%2Bdfsg2-1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "5.3.28+dfsg2-1"
@@ -7483,6 +8063,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/e2fsprogs@1.47.0-2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.47.0-2"
@@ -7503,6 +8084,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/gcc-12@12.2.0-14%2Bdeb12u1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "12.2.0-14+deb12u1"
@@ -7523,6 +8105,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/glibc@2.36-9%2Bdeb12u14",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.36-9+deb12u14"
@@ -7543,6 +8126,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/gmp@2:6.2.1%2Bdfsg1-1.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2:6.2.1+dfsg1-1.1"
@@ -7563,6 +8147,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/gnupg2@2.2.40-1.1%2Bdeb12u2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.2.40-1.1+deb12u2"
@@ -7583,6 +8168,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/gnutls28@3.7.9-2%2Bdeb12u7",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.7.9-2+deb12u7"
@@ -7603,6 +8189,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libcap-ng@0.8.3-1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.8.3-1"
@@ -7623,6 +8210,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libcap2@1:2.66-4%2Bdeb12u3",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1:2.66-4+deb12u3"
@@ -7643,6 +8231,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libffi@3.4.4-1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.4.4-1"
@@ -7663,6 +8252,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libgpg-error@1.46-1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.46-1"
@@ -7683,6 +8273,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libidn2@2.3.3-1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.3.3-1"
@@ -7703,6 +8294,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libmd@1.0.4-2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.0.4-2"
@@ -7723,6 +8315,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libseccomp@2.5.4-1%2Bdeb12u1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.5.4-1+deb12u1"
@@ -7743,6 +8336,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libselinux@3.4-1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.4-1"
@@ -7763,6 +8357,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libsemanage@3.4-1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.4-1"
@@ -7783,6 +8378,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libsepol@3.4-2.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.4-2.1"
@@ -7803,6 +8399,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libunistring@1.0-2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.0-2"
@@ -7823,6 +8420,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libxcrypt@1:4.4.33-2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1:4.4.33-2"
@@ -7843,6 +8441,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libzstd@1.5.4%2Bdfsg2-5",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.5.4+dfsg2-5"
@@ -7863,6 +8462,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/lz4@1.9.4-1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.9.4-1"
@@ -7883,6 +8483,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/ncurses@6.4-4",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "6.4-4"
@@ -7903,6 +8504,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/nettle@3.8.1-2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.8.1-2"
@@ -7923,6 +8525,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/p11-kit@0.24.1-2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.24.1-2"
@@ -7943,6 +8546,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/pam@1.5.2-6%2Bdeb12u2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.5.2-6+deb12u2"
@@ -7963,6 +8567,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/pcre2@10.42-1%2Bdeb12u2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "10.42-1+deb12u2"
@@ -7983,6 +8588,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/perl@5.36.0-7%2Bdeb12u4",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "5.36.0-7+deb12u4"
@@ -8003,6 +8609,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/shadow@1:4.13%2Bdfsg1-1%2Bdeb12u2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1:4.13+dfsg1-1+deb12u2"
@@ -8023,6 +8630,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/systemd@252.39-1~deb12u2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "252.39-1~deb12u2"
@@ -8043,6 +8651,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/sysvinit@3.06-4",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.06-4"
@@ -8063,6 +8672,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/usrmerge@37~deb12u1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "37~deb12u1"
@@ -8083,6 +8693,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/xxhash@0.8.1-1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.8.1-1"
@@ -8103,6 +8714,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/xz-utils@5.4.1-1%2Bdeb12u2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "5.4.1-1+deb12u2"
@@ -8123,6 +8735,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/zlib@1:1.2.13.dfsg-1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1:1.2.13.dfsg-1"
@@ -8145,16 +8758,22 @@
         "app/package.json"
       ],
       "purl": "pkg:npm/bakery-inventory-frontend@0.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.0.0"
     }
   ],
-  "generated_utc": "2026-11-23T06:17:04+00:00",
+  "generated_utc": "2026-11-23T07:01:59+00:00",
   "kind": "image",
   "notes": [
     "os-release: ID=debian VERSION_ID=12"
   ],
+  "os": {
+    "id": "debian",
+    "pretty_name": "Debian GNU/Linux 12 (bookworm)",
+    "version_id": "12"
+  },
   "stage": "S3",
   "stats": {
     "by_eco": {

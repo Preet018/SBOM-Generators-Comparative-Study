@@ -18,6 +18,7 @@
         "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
       ],
       "purl": "pkg:cargo/archery@1.2.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.2.3"
@@ -40,6 +41,7 @@
         "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
       ],
       "purl": "pkg:cargo/heck@0.5.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.5.0"
@@ -62,6 +64,7 @@
         "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
       ],
       "purl": "pkg:cargo/libc@0.2.177",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.2.177"
@@ -84,6 +87,7 @@
         "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
       ],
       "purl": "pkg:cargo/once_cell@1.21.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.21.3"
@@ -106,6 +110,7 @@
         "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
       ],
       "purl": "pkg:cargo/proc-macro2@1.0.103",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.0.103"
@@ -128,6 +133,7 @@
         "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
       ],
       "purl": "pkg:cargo/pyo3@0.29.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.29.3"
@@ -150,6 +156,7 @@
         "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
       ],
       "purl": "pkg:cargo/pyo3-build-config@0.29.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.29.3"
@@ -172,6 +179,7 @@
         "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
       ],
       "purl": "pkg:cargo/pyo3-ffi@0.29.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.29.3"
@@ -194,6 +202,7 @@
         "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
       ],
       "purl": "pkg:cargo/pyo3-macros@0.29.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.29.3"
@@ -216,6 +225,7 @@
         "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
       ],
       "purl": "pkg:cargo/pyo3-macros-backend@0.29.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.29.3"
@@ -238,6 +248,7 @@
         "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
       ],
       "purl": "pkg:cargo/quote@1.0.42",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.0.42"
@@ -260,6 +271,7 @@
         "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
       ],
       "purl": "pkg:cargo/rpds@1.2.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.2.1"
@@ -282,6 +294,7 @@
         "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
       ],
       "purl": "pkg:cargo/smallvec@1.15.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.15.1"
@@ -304,6 +317,7 @@
         "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
       ],
       "purl": "pkg:cargo/syn@2.0.111",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.0.111"
@@ -326,6 +340,7 @@
         "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
       ],
       "purl": "pkg:cargo/target-lexicon@0.13.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.13.3"
@@ -348,6 +363,7 @@
         "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
       ],
       "purl": "pkg:cargo/triomphe@0.1.16",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.1.16"
@@ -370,6 +386,7 @@
         "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
       ],
       "purl": "pkg:cargo/unicode-ident@1.0.22",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.0.22"
@@ -392,6 +409,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/adduser@3.152?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.152"
@@ -414,6 +434,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/apt@3.0.4?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.0.4"
@@ -436,6 +459,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/base-files@13.8%2Bdeb13u7?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "13.8+deb13u7"
@@ -458,6 +484,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/base-passwd@3.6.7?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.6.7"
@@ -479,7 +508,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/bash@5.2.37-2%2Bb10?arch=amd64",
+      "purl": "pkg:deb/debian/bash@5.2.37-2%2Bb10?arch=amd64&upstream=bash%405.2.37-2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "bash@5.2.37-2"
+      },
       "scope": null,
       "tier": "primary",
       "version": "5.2.37-2+b10"
@@ -501,7 +534,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/bsdutils@1:2.41.5-0%2Bdeb13u1?arch=amd64",
+      "purl": "pkg:deb/debian/bsdutils@1:2.41.5-0%2Bdeb13u1?arch=amd64&upstream=util-linux%402.41.5-0%2Bdeb13u1",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux@2.41.5-0+deb13u1"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:2.41.5-0+deb13u1"
@@ -524,6 +561,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/ca-certificates@20250419%2Bdeb13u1?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
       "scope": null,
       "tier": "primary",
       "version": "20250419+deb13u1"
@@ -546,6 +586,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/coreutils@9.7-3?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "9.7-3"
@@ -568,6 +611,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/dash@0.5.12-12?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "0.5.12-12"
@@ -590,6 +636,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/debconf@1.5.91?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.5.91"
@@ -612,6 +661,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/debian-archive-keyring@2025.1?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2025.1"
@@ -634,6 +686,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/debianutils@5.23.2?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "5.23.2"
@@ -656,6 +711,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/diffutils@1:3.10-4?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:3.10-4"
@@ -678,6 +736,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/dpkg@1.22.22?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.22.22"
@@ -700,6 +761,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/findutils@4.10.0-3?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "4.10.0-3"
@@ -721,7 +785,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/gcc-14-base@14.2.0-19?arch=amd64",
+      "purl": "pkg:deb/debian/gcc-14-base@14.2.0-19?arch=amd64&upstream=gcc-14",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gcc-14"
+      },
       "scope": null,
       "tier": "primary",
       "version": "14.2.0-19"
@@ -744,6 +812,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/grep@3.11-4?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.11-4"
@@ -766,6 +837,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/gzip@1.13-1%2Bdeb13u1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.13-1+deb13u1"
@@ -788,6 +862,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/hostname@3.25?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.25"
@@ -810,6 +887,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/init-system-helpers@1.69~deb13u1?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.69~deb13u1"
@@ -831,7 +911,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libacl1@2.3.2-2%2Bb1?arch=amd64",
+      "purl": "pkg:deb/debian/libacl1@2.3.2-2%2Bb1?arch=amd64&upstream=acl%402.3.2-2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "acl@2.3.2-2"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.3.2-2+b1"
@@ -853,7 +937,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libapt-pkg7.0@3.0.4?arch=amd64",
+      "purl": "pkg:deb/debian/libapt-pkg7.0@3.0.4?arch=amd64&upstream=apt",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "apt"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.0.4"
@@ -875,7 +963,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libattr1@1:2.5.2-3?arch=amd64",
+      "purl": "pkg:deb/debian/libattr1@1:2.5.2-3?arch=amd64&upstream=attr",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "attr"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:2.5.2-3"
@@ -897,7 +989,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libaudit-common@1:4.0.2-2%2Bdeb13u1?arch=all",
+      "purl": "pkg:deb/debian/libaudit-common@1:4.0.2-2%2Bdeb13u1?arch=all&upstream=audit",
+      "qualifiers": {
+        "arch": "all",
+        "upstream": "audit"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:4.0.2-2+deb13u1"
@@ -919,7 +1015,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libaudit1@1:4.0.2-2%2Bdeb13u1?arch=amd64",
+      "purl": "pkg:deb/debian/libaudit1@1:4.0.2-2%2Bdeb13u1?arch=amd64&upstream=audit",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "audit"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:4.0.2-2+deb13u1"
@@ -941,7 +1041,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libblkid1@2.41.5-0%2Bdeb13u1?arch=amd64",
+      "purl": "pkg:deb/debian/libblkid1@2.41.5-0%2Bdeb13u1?arch=amd64&upstream=util-linux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.41.5-0+deb13u1"
@@ -963,7 +1067,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libbsd0@0.12.2-2?arch=amd64",
+      "purl": "pkg:deb/debian/libbsd0@0.12.2-2?arch=amd64&upstream=libbsd",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libbsd"
+      },
       "scope": null,
       "tier": "primary",
       "version": "0.12.2-2"
@@ -985,7 +1093,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libbz2-1.0@1.0.8-6?arch=amd64",
+      "purl": "pkg:deb/debian/libbz2-1.0@1.0.8-6?arch=amd64&upstream=bzip2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "bzip2"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.0.8-6"
@@ -1007,7 +1119,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libc-bin@2.41-12%2Bdeb13u4?arch=amd64",
+      "purl": "pkg:deb/debian/libc-bin@2.41-12%2Bdeb13u4?arch=amd64&upstream=glibc",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "glibc"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.41-12+deb13u4"
@@ -1029,7 +1145,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libc6@2.41-12%2Bdeb13u4?arch=amd64",
+      "purl": "pkg:deb/debian/libc6@2.41-12%2Bdeb13u4?arch=amd64&upstream=glibc",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "glibc"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.41-12+deb13u4"
@@ -1051,7 +1171,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libcap-ng0@0.8.5-4%2Bb1?arch=amd64",
+      "purl": "pkg:deb/debian/libcap-ng0@0.8.5-4%2Bb1?arch=amd64&upstream=libcap-ng%400.8.5-4",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libcap-ng@0.8.5-4"
+      },
       "scope": null,
       "tier": "primary",
       "version": "0.8.5-4+b1"
@@ -1073,7 +1197,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libcap2@1:2.75-10%2Bdeb13u1%2Bb3?arch=amd64",
+      "purl": "pkg:deb/debian/libcap2@1:2.75-10%2Bdeb13u1%2Bb3?arch=amd64&upstream=libcap2%401:2.75-10%2Bdeb13u1",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libcap2@1:2.75-10+deb13u1"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:2.75-10+deb13u1+b3"
@@ -1095,7 +1223,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libcrypt1@1:4.4.38-1?arch=amd64",
+      "purl": "pkg:deb/debian/libcrypt1@1:4.4.38-1?arch=amd64&upstream=libxcrypt",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libxcrypt"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:4.4.38-1"
@@ -1117,7 +1249,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libdb5.3t64@5.3.28%2Bdfsg2-9?arch=amd64",
+      "purl": "pkg:deb/debian/libdb5.3t64@5.3.28%2Bdfsg2-9?arch=amd64&upstream=db5.3",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "db5.3"
+      },
       "scope": null,
       "tier": "primary",
       "version": "5.3.28+dfsg2-9"
@@ -1139,7 +1275,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libdebconfclient0@0.280?arch=amd64",
+      "purl": "pkg:deb/debian/libdebconfclient0@0.280?arch=amd64&upstream=cdebconf",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "cdebconf"
+      },
       "scope": null,
       "tier": "primary",
       "version": "0.280"
@@ -1161,7 +1301,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libffi8@3.4.8-2?arch=amd64",
+      "purl": "pkg:deb/debian/libffi8@3.4.8-2?arch=amd64&upstream=libffi",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libffi"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.4.8-2"
@@ -1183,7 +1327,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libgcc-s1@14.2.0-19?arch=amd64",
+      "purl": "pkg:deb/debian/libgcc-s1@14.2.0-19?arch=amd64&upstream=gcc-14",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gcc-14"
+      },
       "scope": null,
       "tier": "primary",
       "version": "14.2.0-19"
@@ -1205,7 +1353,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libgdbm6t64@1.24-2?arch=amd64",
+      "purl": "pkg:deb/debian/libgdbm6t64@1.24-2?arch=amd64&upstream=gdbm",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gdbm"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.24-2"
@@ -1227,7 +1379,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libgmp10@2:6.3.0%2Bdfsg-3?arch=amd64",
+      "purl": "pkg:deb/debian/libgmp10@2:6.3.0%2Bdfsg-3?arch=amd64&upstream=gmp",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gmp"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2:6.3.0+dfsg-3"
@@ -1249,7 +1405,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libhogweed6t64@3.10.1-1?arch=amd64",
+      "purl": "pkg:deb/debian/libhogweed6t64@3.10.1-1?arch=amd64&upstream=nettle",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "nettle"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.10.1-1"
@@ -1271,7 +1431,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/liblastlog2-2@2.41.5-0%2Bdeb13u1?arch=amd64",
+      "purl": "pkg:deb/debian/liblastlog2-2@2.41.5-0%2Bdeb13u1?arch=amd64&upstream=util-linux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.41.5-0+deb13u1"
@@ -1293,7 +1457,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/liblz4-1@1.10.0-4?arch=amd64",
+      "purl": "pkg:deb/debian/liblz4-1@1.10.0-4?arch=amd64&upstream=lz4",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "lz4"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.10.0-4"
@@ -1315,7 +1483,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/liblzma5@5.8.1-1%2Bdeb13u2?arch=amd64",
+      "purl": "pkg:deb/debian/liblzma5@5.8.1-1%2Bdeb13u2?arch=amd64&upstream=xz-utils",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "xz-utils"
+      },
       "scope": null,
       "tier": "primary",
       "version": "5.8.1-1+deb13u2"
@@ -1337,7 +1509,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libmd0@1.1.0-2%2Bb1?arch=amd64",
+      "purl": "pkg:deb/debian/libmd0@1.1.0-2%2Bb1?arch=amd64&upstream=libmd%401.1.0-2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libmd@1.1.0-2"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.1.0-2+b1"
@@ -1359,7 +1535,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libmount1@2.41.5-0%2Bdeb13u1?arch=amd64",
+      "purl": "pkg:deb/debian/libmount1@2.41.5-0%2Bdeb13u1?arch=amd64&upstream=util-linux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.41.5-0+deb13u1"
@@ -1381,7 +1561,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libncursesw6@6.5%2B20250216-2?arch=amd64",
+      "purl": "pkg:deb/debian/libncursesw6@6.5%2B20250216-2?arch=amd64&upstream=ncurses",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "ncurses"
+      },
       "scope": null,
       "tier": "primary",
       "version": "6.5+20250216-2"
@@ -1403,7 +1587,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libnettle8t64@3.10.1-1?arch=amd64",
+      "purl": "pkg:deb/debian/libnettle8t64@3.10.1-1?arch=amd64&upstream=nettle",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "nettle"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.10.1-1"
@@ -1425,7 +1613,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libpam-modules@1.7.0-5?arch=amd64",
+      "purl": "pkg:deb/debian/libpam-modules@1.7.0-5?arch=amd64&upstream=pam",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "pam"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.7.0-5"
@@ -1447,7 +1639,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libpam-modules-bin@1.7.0-5?arch=amd64",
+      "purl": "pkg:deb/debian/libpam-modules-bin@1.7.0-5?arch=amd64&upstream=pam",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "pam"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.7.0-5"
@@ -1469,7 +1665,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libpam-runtime@1.7.0-5?arch=all",
+      "purl": "pkg:deb/debian/libpam-runtime@1.7.0-5?arch=all&upstream=pam",
+      "qualifiers": {
+        "arch": "all",
+        "upstream": "pam"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.7.0-5"
@@ -1491,7 +1691,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libpam0g@1.7.0-5?arch=amd64",
+      "purl": "pkg:deb/debian/libpam0g@1.7.0-5?arch=amd64&upstream=pam",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "pam"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.7.0-5"
@@ -1513,7 +1717,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libpcre2-8-0@10.46-1~deb13u3?arch=amd64",
+      "purl": "pkg:deb/debian/libpcre2-8-0@10.46-1~deb13u3?arch=amd64&upstream=pcre2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "pcre2"
+      },
       "scope": null,
       "tier": "primary",
       "version": "10.46-1~deb13u3"
@@ -1535,7 +1743,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libreadline8t64@8.2-6?arch=amd64",
+      "purl": "pkg:deb/debian/libreadline8t64@8.2-6?arch=amd64&upstream=readline",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "readline"
+      },
       "scope": null,
       "tier": "primary",
       "version": "8.2-6"
@@ -1557,7 +1769,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libseccomp2@2.6.0-2?arch=amd64",
+      "purl": "pkg:deb/debian/libseccomp2@2.6.0-2?arch=amd64&upstream=libseccomp",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libseccomp"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.6.0-2"
@@ -1579,7 +1795,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libselinux1@3.8.1-1?arch=amd64",
+      "purl": "pkg:deb/debian/libselinux1@3.8.1-1?arch=amd64&upstream=libselinux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libselinux"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.8.1-1"
@@ -1601,7 +1821,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libsemanage-common@3.8.1-1?arch=all",
+      "purl": "pkg:deb/debian/libsemanage-common@3.8.1-1?arch=all&upstream=libsemanage",
+      "qualifiers": {
+        "arch": "all",
+        "upstream": "libsemanage"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.8.1-1"
@@ -1623,7 +1847,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libsemanage2@3.8.1-1?arch=amd64",
+      "purl": "pkg:deb/debian/libsemanage2@3.8.1-1?arch=amd64&upstream=libsemanage",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libsemanage"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.8.1-1"
@@ -1645,7 +1873,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libsepol2@3.8.1-1?arch=amd64",
+      "purl": "pkg:deb/debian/libsepol2@3.8.1-1?arch=amd64&upstream=libsepol",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libsepol"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.8.1-1"
@@ -1667,7 +1899,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libsmartcols1@2.41.5-0%2Bdeb13u1?arch=amd64",
+      "purl": "pkg:deb/debian/libsmartcols1@2.41.5-0%2Bdeb13u1?arch=amd64&upstream=util-linux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.41.5-0+deb13u1"
@@ -1689,7 +1925,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libsqlite3-0@3.46.1-7%2Bdeb13u2?arch=amd64",
+      "purl": "pkg:deb/debian/libsqlite3-0@3.46.1-7%2Bdeb13u2?arch=amd64&upstream=sqlite3",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "sqlite3"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.46.1-7+deb13u2"
@@ -1711,7 +1951,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libssl3t64@3.5.7-1~deb13u3?arch=amd64",
+      "purl": "pkg:deb/debian/libssl3t64@3.5.7-1~deb13u3?arch=amd64&upstream=openssl",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "openssl"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.5.7-1~deb13u3"
@@ -1733,7 +1977,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libstdc%2B%2B6@14.2.0-19?arch=amd64",
+      "purl": "pkg:deb/debian/libstdc%2B%2B6@14.2.0-19?arch=amd64&upstream=gcc-14",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gcc-14"
+      },
       "scope": null,
       "tier": "primary",
       "version": "14.2.0-19"
@@ -1755,7 +2003,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libsystemd0@257.13-1~deb13u1?arch=amd64",
+      "purl": "pkg:deb/debian/libsystemd0@257.13-1~deb13u1?arch=amd64&upstream=systemd",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "systemd"
+      },
       "scope": null,
       "tier": "primary",
       "version": "257.13-1~deb13u1"
@@ -1777,7 +2029,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libtinfo6@6.5%2B20250216-2?arch=amd64",
+      "purl": "pkg:deb/debian/libtinfo6@6.5%2B20250216-2?arch=amd64&upstream=ncurses",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "ncurses"
+      },
       "scope": null,
       "tier": "primary",
       "version": "6.5+20250216-2"
@@ -1799,7 +2055,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libudev1@257.13-1~deb13u1?arch=amd64",
+      "purl": "pkg:deb/debian/libudev1@257.13-1~deb13u1?arch=amd64&upstream=systemd",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "systemd"
+      },
       "scope": null,
       "tier": "primary",
       "version": "257.13-1~deb13u1"
@@ -1821,7 +2081,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libuuid1@2.41.5-0%2Bdeb13u1?arch=amd64",
+      "purl": "pkg:deb/debian/libuuid1@2.41.5-0%2Bdeb13u1?arch=amd64&upstream=util-linux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.41.5-0+deb13u1"
@@ -1843,7 +2107,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libxxhash0@0.8.3-2?arch=amd64",
+      "purl": "pkg:deb/debian/libxxhash0@0.8.3-2?arch=amd64&upstream=xxhash",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "xxhash"
+      },
       "scope": null,
       "tier": "primary",
       "version": "0.8.3-2"
@@ -1865,7 +2133,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/libzstd1@1.5.7%2Bdfsg-1?arch=amd64",
+      "purl": "pkg:deb/debian/libzstd1@1.5.7%2Bdfsg-1?arch=amd64&upstream=libzstd",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libzstd"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.5.7+dfsg-1"
@@ -1887,7 +2159,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/login@1:4.16.0-2%2Breally2.41.5-0%2Bdeb13u1?arch=amd64",
+      "purl": "pkg:deb/debian/login@1:4.16.0-2%2Breally2.41.5-0%2Bdeb13u1?arch=amd64&upstream=util-linux%402.41.5-0%2Bdeb13u1",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux@2.41.5-0+deb13u1"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:4.16.0-2+really2.41.5-0+deb13u1"
@@ -1909,7 +2185,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/login.defs@1:4.17.4-2?arch=all",
+      "purl": "pkg:deb/debian/login.defs@1:4.17.4-2?arch=all&upstream=shadow",
+      "qualifiers": {
+        "arch": "all",
+        "upstream": "shadow"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:4.17.4-2"
@@ -1932,6 +2212,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/mawk@1.3.4.20250131-1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.3.4.20250131-1"
@@ -1953,7 +2236,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/mount@2.41.5-0%2Bdeb13u1?arch=amd64",
+      "purl": "pkg:deb/debian/mount@2.41.5-0%2Bdeb13u1?arch=amd64&upstream=util-linux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.41.5-0+deb13u1"
@@ -1975,7 +2262,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/ncurses-base@6.5%2B20250216-2?arch=all",
+      "purl": "pkg:deb/debian/ncurses-base@6.5%2B20250216-2?arch=all&upstream=ncurses",
+      "qualifiers": {
+        "arch": "all",
+        "upstream": "ncurses"
+      },
       "scope": null,
       "tier": "primary",
       "version": "6.5+20250216-2"
@@ -1997,7 +2288,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/ncurses-bin@6.5%2B20250216-2?arch=amd64",
+      "purl": "pkg:deb/debian/ncurses-bin@6.5%2B20250216-2?arch=amd64&upstream=ncurses",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "ncurses"
+      },
       "scope": null,
       "tier": "primary",
       "version": "6.5+20250216-2"
@@ -2020,6 +2315,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/netbase@6.5?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
       "scope": null,
       "tier": "primary",
       "version": "6.5"
@@ -2042,6 +2340,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/openssl@3.5.7-1~deb13u3",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.5.7-1~deb13u3"
@@ -2063,7 +2364,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/openssl-provider-legacy@3.5.7-1~deb13u3?arch=amd64",
+      "purl": "pkg:deb/debian/openssl-provider-legacy@3.5.7-1~deb13u3?arch=amd64&upstream=openssl",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "openssl"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.5.7-1~deb13u3"
@@ -2085,7 +2390,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/passwd@1:4.17.4-2?arch=amd64",
+      "purl": "pkg:deb/debian/passwd@1:4.17.4-2?arch=amd64&upstream=shadow",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "shadow"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:4.17.4-2"
@@ -2107,7 +2416,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/perl-base@5.40.1-6%2Bdeb13u1?arch=amd64",
+      "purl": "pkg:deb/debian/perl-base@5.40.1-6%2Bdeb13u1?arch=amd64&upstream=perl",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "perl"
+      },
       "scope": null,
       "tier": "primary",
       "version": "5.40.1-6+deb13u1"
@@ -2129,7 +2442,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/readline-common@8.2-6?arch=all",
+      "purl": "pkg:deb/debian/readline-common@8.2-6?arch=all&upstream=readline",
+      "qualifiers": {
+        "arch": "all",
+        "upstream": "readline"
+      },
       "scope": null,
       "tier": "primary",
       "version": "8.2-6"
@@ -2152,6 +2469,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/sed@4.9-2%2Bdeb13u1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "4.9-2+deb13u1"
@@ -2173,7 +2493,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/sqv@1.3.0-3%2Bb2?arch=amd64",
+      "purl": "pkg:deb/debian/sqv@1.3.0-3%2Bb2?arch=amd64&upstream=rust-sequoia-sqv%401.3.0-3",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "rust-sequoia-sqv@1.3.0-3"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.3.0-3+b2"
@@ -2195,7 +2519,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/sysvinit-utils@3.14-4?arch=amd64",
+      "purl": "pkg:deb/debian/sysvinit-utils@3.14-4?arch=amd64&upstream=sysvinit",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "sysvinit"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.14-4"
@@ -2218,6 +2546,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/tar@1.35%2Bdfsg-3.1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.35+dfsg-3.1"
@@ -2240,6 +2571,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/tzdata@2026f-0%2Bdeb13u1?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2026f-0+deb13u1"
@@ -2262,6 +2596,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/debian/util-linux@2.41.5-0%2Bdeb13u1",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.41.5-0+deb13u1"
@@ -2283,7 +2620,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/debian/zlib1g@1:1.3.dfsg%2Breally1.3.1-1%2Bb1?arch=amd64",
+      "purl": "pkg:deb/debian/zlib1g@1:1.3.dfsg%2Breally1.3.1-1%2Bb1?arch=amd64&upstream=zlib%401:1.3.dfsg%2Breally1.3.1-1",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "zlib@1:1.3.dfsg+really1.3.1-1"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:1.3.dfsg+really1.3.1-1+b1"
@@ -2309,6 +2650,9 @@
         "usr/local/lib/python3.11/site-packages/pillow.libs/libavif-c6062d5f.so.16.4.2"
       ],
       "purl": "pkg:generic/libavif@1.4.2",
+      "qualifiers": {
+        "vendored_in": "pillow"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.4.2"
@@ -2334,6 +2678,9 @@
         "usr/local/lib/python3.11/site-packages/pillow.libs/libbrotlicommon-53534446.so.1.2.0"
       ],
       "purl": "pkg:generic/libbrotlicommon?vendored_in=pillow",
+      "qualifiers": {
+        "vendored_in": "pillow"
+      },
       "scope": null,
       "tier": "primary",
       "version": null
@@ -2359,6 +2706,9 @@
         "usr/local/lib/python3.11/site-packages/pillow.libs/libbrotlidec-7e5462ba.so.1.2.0"
       ],
       "purl": "pkg:generic/libbrotlidec?vendored_in=pillow",
+      "qualifiers": {
+        "vendored_in": "pillow"
+      },
       "scope": null,
       "tier": "primary",
       "version": null
@@ -2384,6 +2734,9 @@
         "usr/local/lib/python3.11/site-packages/pillow.libs/libfreetype-57f805ba.so.6.20.6"
       ],
       "purl": "pkg:generic/libfreetype?vendored_in=pillow",
+      "qualifiers": {
+        "vendored_in": "pillow"
+      },
       "scope": null,
       "tier": "primary",
       "version": null
@@ -2409,6 +2762,9 @@
         "usr/local/lib/python3.11/site-packages/numpy.libs/libgfortran-040039e1-0352e75f.so.5.0.0"
       ],
       "purl": "pkg:generic/libgfortran?vendored_in=numpy",
+      "qualifiers": {
+        "vendored_in": "numpy"
+      },
       "scope": null,
       "tier": "primary",
       "version": null
@@ -2434,6 +2790,9 @@
         "usr/local/lib/python3.11/site-packages/pillow.libs/libharfbuzz-fb49c9fc.so.0.61450.0"
       ],
       "purl": "pkg:generic/libharfbuzz?vendored_in=pillow",
+      "qualifiers": {
+        "vendored_in": "pillow"
+      },
       "scope": null,
       "tier": "primary",
       "version": null
@@ -2459,6 +2818,9 @@
         "usr/local/lib/python3.11/site-packages/pillow.libs/libjpeg-6dc8d115.so.62.4.0"
       ],
       "purl": "pkg:generic/libjpeg?vendored_in=pillow",
+      "qualifiers": {
+        "vendored_in": "pillow"
+      },
       "scope": null,
       "tier": "primary",
       "version": null
@@ -2484,6 +2846,9 @@
         "usr/local/lib/python3.11/site-packages/pillow.libs/liblcms2-88eaba2f.so.2.0.19"
       ],
       "purl": "pkg:generic/liblcms2?vendored_in=pillow",
+      "qualifiers": {
+        "vendored_in": "pillow"
+      },
       "scope": null,
       "tier": "primary",
       "version": null
@@ -2509,6 +2874,9 @@
         "usr/local/lib/python3.11/site-packages/pillow.libs/liblzma-de26b416.so.5.8.4"
       ],
       "purl": "pkg:generic/liblzma?vendored_in=pillow",
+      "qualifiers": {
+        "vendored_in": "pillow"
+      },
       "scope": null,
       "tier": "primary",
       "version": null
@@ -2534,6 +2902,9 @@
         "usr/local/lib/python3.11/site-packages/pillow.libs/libopenjp2-e530e1bf.so.2.5.4"
       ],
       "purl": "pkg:generic/libopenjp2?vendored_in=pillow",
+      "qualifiers": {
+        "vendored_in": "pillow"
+      },
       "scope": null,
       "tier": "primary",
       "version": null
@@ -2559,6 +2930,9 @@
         "usr/local/lib/python3.11/site-packages/pillow.libs/libpng16-1d1ba958.so.16.58.0"
       ],
       "purl": "pkg:generic/libpng16?vendored_in=pillow",
+      "qualifiers": {
+        "vendored_in": "pillow"
+      },
       "scope": null,
       "tier": "primary",
       "version": null
@@ -2584,6 +2958,9 @@
         "usr/local/lib/python3.11/site-packages/numpy.libs/libquadmath-96973f99-934c22de.so.0.0.0"
       ],
       "purl": "pkg:generic/libquadmath?vendored_in=numpy",
+      "qualifiers": {
+        "vendored_in": "numpy"
+      },
       "scope": null,
       "tier": "primary",
       "version": null
@@ -2610,6 +2987,9 @@
         "usr/local/lib/python3.11/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so"
       ],
       "purl": "pkg:generic/libscipy_openblas64_?vendored_in=numpy",
+      "qualifiers": {
+        "vendored_in": "numpy"
+      },
       "scope": null,
       "tier": "primary",
       "version": null
@@ -2635,6 +3015,9 @@
         "usr/local/lib/python3.11/site-packages/pillow.libs/libsharpyuv-0066295b.so.0.1.2"
       ],
       "purl": "pkg:generic/libsharpyuv?vendored_in=pillow",
+      "qualifiers": {
+        "vendored_in": "pillow"
+      },
       "scope": null,
       "tier": "primary",
       "version": null
@@ -2660,6 +3043,9 @@
         "usr/local/lib/python3.11/site-packages/pillow.libs/libtiff-20b7e810.so.6.3.0"
       ],
       "purl": "pkg:generic/libtiff@4.7.2",
+      "qualifiers": {
+        "vendored_in": "pillow"
+      },
       "scope": null,
       "tier": "primary",
       "version": "4.7.2"
@@ -2685,6 +3071,9 @@
         "usr/local/lib/python3.11/site-packages/pillow.libs/libwebp-51b0b3f7.so.7.2.0"
       ],
       "purl": "pkg:generic/libwebp@1.6.0",
+      "qualifiers": {
+        "vendored_in": "pillow"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.6.0"
@@ -2710,6 +3099,9 @@
         "usr/local/lib/python3.11/site-packages/pillow.libs/libwebpdemux-9fe2abcc.so.2.0.17"
       ],
       "purl": "pkg:generic/libwebpdemux?vendored_in=pillow",
+      "qualifiers": {
+        "vendored_in": "pillow"
+      },
       "scope": null,
       "tier": "primary",
       "version": null
@@ -2735,6 +3127,9 @@
         "usr/local/lib/python3.11/site-packages/pillow.libs/libwebpmux-8fb1c9f6.so.3.1.2"
       ],
       "purl": "pkg:generic/libwebpmux?vendored_in=pillow",
+      "qualifiers": {
+        "vendored_in": "pillow"
+      },
       "scope": null,
       "tier": "primary",
       "version": null
@@ -2763,6 +3158,9 @@
         "usr/local/lib/python3.11/site-packages/pillow.libs/libXau-154567c4.so.6.0.0"
       ],
       "purl": "pkg:generic/libXau?vendored_in=pillow",
+      "qualifiers": {
+        "vendored_in": "pillow"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.0.9-3.el8"
@@ -2788,6 +3186,9 @@
         "usr/local/lib/python3.11/site-packages/pillow.libs/libxcb-9065bb12.so.1.1.0"
       ],
       "purl": "pkg:generic/libxcb@1.17.0",
+      "qualifiers": {
+        "vendored_in": "pillow"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.17.0"
@@ -2813,6 +3214,9 @@
         "usr/local/lib/python3.11/site-packages/pillow.libs/libzstd-40ad5e7e.so.1.5.7"
       ],
       "purl": "pkg:generic/libzstd?vendored_in=pillow",
+      "qualifiers": {
+        "vendored_in": "pillow"
+      },
       "scope": null,
       "tier": "primary",
       "version": null
@@ -2839,6 +3243,7 @@
         "usr/local/bin/python3.11"
       ],
       "purl": "pkg:generic/python@3.11.18",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.11.18"
@@ -2861,6 +3266,7 @@
         "usr/local/lib/python3.11/site-packages/altair-6.3.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/altair@6.3.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "6.3.0"
@@ -2883,6 +3289,7 @@
         "usr/local/lib/python3.11/site-packages/anyio-4.16.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/anyio@4.16.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.16.0"
@@ -2905,6 +3312,7 @@
         "usr/local/lib/python3.11/site-packages/attrs-26.1.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/attrs@26.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "26.1.0"
@@ -2927,6 +3335,7 @@
         "usr/local/lib/python3.11/site-packages/certifi-2026.11.20.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/certifi@2026.11.20",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2026.11.20"
@@ -2949,6 +3358,7 @@
         "usr/local/lib/python3.11/site-packages/charset_normalizer-3.5.2.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/charset-normalizer@3.5.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.5.2"
@@ -2971,6 +3381,7 @@
         "usr/local/lib/python3.11/site-packages/click-8.5.1.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/click@8.5.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "8.5.1"
@@ -2993,6 +3404,7 @@
         "usr/local/lib/python3.11/site-packages/dnspython-2.9.2.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/dnspython@2.9.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.9.2"
@@ -3015,6 +3427,7 @@
         "usr/local/lib/python3.11/site-packages/h11-0.16.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/h11@0.16.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.16.0"
@@ -3037,6 +3450,7 @@
         "usr/local/lib/python3.11/site-packages/idna-3.20.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/idna@3.20",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.20"
@@ -3059,6 +3473,7 @@
         "usr/local/lib/python3.11/site-packages/itsdangerous-2.2.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/itsdangerous@2.2.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.2.0"
@@ -3081,6 +3496,7 @@
         "usr/local/lib/python3.11/site-packages/jinja2-3.1.6.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/jinja2@3.1.6",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.1.6"
@@ -3103,6 +3519,7 @@
         "usr/local/lib/python3.11/site-packages/jsonschema-4.26.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/jsonschema@4.26.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.26.0"
@@ -3125,6 +3542,7 @@
         "usr/local/lib/python3.11/site-packages/jsonschema_specifications-2025.9.1.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/jsonschema-specifications@2025.9.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2025.9.1"
@@ -3147,6 +3565,7 @@
         "usr/local/lib/python3.11/site-packages/markupsafe-3.0.4.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/markupsafe@3.0.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.0.4"
@@ -3169,6 +3588,7 @@
         "usr/local/lib/python3.11/site-packages/narwhals-2.29.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/narwhals@2.29.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.29.0"
@@ -3191,6 +3611,7 @@
         "usr/local/lib/python3.11/site-packages/numpy-2.4.6.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/numpy@2.4.6",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.4.6"
@@ -3213,6 +3634,7 @@
         "usr/local/lib/python3.11/site-packages/packaging-26.3.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/packaging@26.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "26.3"
@@ -3235,6 +3657,7 @@
         "usr/local/lib/python3.11/site-packages/pandas-3.1.1.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/pandas@3.1.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.1.1"
@@ -3257,6 +3680,7 @@
         "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/pillow@13.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "13.0.0"
@@ -3280,6 +3704,7 @@
         "usr/local/lib/python3.11/ensurepip/_bundled/pip-24.0-py3-none-any.whl"
       ],
       "purl": "pkg:pypi/pip@24.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "24.0"
@@ -3302,6 +3727,7 @@
         "usr/local/lib/python3.11/site-packages/protobuf-7.36.2.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/protobuf@7.36.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.36.2"
@@ -3324,6 +3750,7 @@
         "usr/local/lib/python3.11/site-packages/pyarrow-26.0.1.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/pyarrow@26.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "26.0.1"
@@ -3346,6 +3773,7 @@
         "usr/local/lib/python3.11/site-packages/pydeck-0.9.3.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/pydeck@0.9.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.9.3"
@@ -3368,6 +3796,7 @@
         "usr/local/lib/python3.11/site-packages/pymongo-4.20.1.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/pymongo@4.20.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.20.1"
@@ -3390,6 +3819,7 @@
         "usr/local/lib/python3.11/site-packages/python_dateutil-4.0.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/python-dateutil@4.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.0"
@@ -3412,6 +3842,7 @@
         "usr/local/lib/python3.11/site-packages/python_multipart-0.0.34.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/python-multipart@0.0.34",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.0.34"
@@ -3434,6 +3865,7 @@
         "usr/local/lib/python3.11/site-packages/referencing-0.37.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/referencing@0.37.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.37.0"
@@ -3456,6 +3888,7 @@
         "usr/local/lib/python3.11/site-packages/requests-2.34.2.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/requests@2.34.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.34.2"
@@ -3478,6 +3911,7 @@
         "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/rpds-py@2026.9.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2026.9.1"
@@ -3501,6 +3935,7 @@
         "usr/local/lib/python3.11/ensurepip/_bundled/setuptools-79.0.1-py3-none-any.whl"
       ],
       "purl": "pkg:pypi/setuptools@79.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "79.0.1"
@@ -3523,6 +3958,7 @@
         "usr/local/lib/python3.11/site-packages/starlette-1.10.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/starlette@1.10.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.10.0"
@@ -3545,6 +3981,7 @@
         "usr/local/lib/python3.11/site-packages/streamlit-1.67.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/streamlit@1.67.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.67.0"
@@ -3567,6 +4004,7 @@
         "usr/local/lib/python3.11/site-packages/typing_extensions-4.16.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/typing-extensions@4.16.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.16.0"
@@ -3589,6 +4027,7 @@
         "usr/local/lib/python3.11/site-packages/tzdata-2026.6.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/tzdata@2026.6",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2026.6"
@@ -3611,6 +4050,7 @@
         "usr/local/lib/python3.11/site-packages/urllib3-2.8.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/urllib3@2.8.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.8.0"
@@ -3633,6 +4073,7 @@
         "usr/local/lib/python3.11/site-packages/uvicorn-0.54.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/uvicorn@0.54.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.54.0"
@@ -3655,6 +4096,7 @@
         "usr/local/lib/python3.11/site-packages/watchdog-7.1.1.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/watchdog@7.1.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.1.1"
@@ -3677,6 +4119,7 @@
         "usr/local/lib/python3.11/site-packages/websockets-17.4.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/websockets@17.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "17.4"
@@ -3699,6 +4142,7 @@
         "usr/local/lib/python3.11/site-packages/wheel-0.46.3.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/wheel@0.46.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.46.3"
@@ -3719,6 +4163,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/acl@2.3.2-2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.3.2-2"
@@ -3739,6 +4184,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/attr@1:2.5.2-3",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1:2.5.2-3"
@@ -3759,6 +4205,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/audit@1:4.0.2-2%2Bdeb13u1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1:4.0.2-2+deb13u1"
@@ -3779,6 +4226,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/bash@5.2.37-2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "5.2.37-2"
@@ -3799,6 +4247,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/bzip2@1.0.8-6",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.0.8-6"
@@ -3819,6 +4268,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/cdebconf@0.280",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.280"
@@ -3839,6 +4289,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/db5.3@5.3.28%2Bdfsg2-9",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "5.3.28+dfsg2-9"
@@ -3859,6 +4310,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/gcc-14@14.2.0-19",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "14.2.0-19"
@@ -3879,6 +4331,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/gdbm@1.24-2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.24-2"
@@ -3899,6 +4352,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/glibc@2.41-12%2Bdeb13u4",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.41-12+deb13u4"
@@ -3919,6 +4373,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/gmp@2:6.3.0%2Bdfsg-3",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2:6.3.0+dfsg-3"
@@ -3939,6 +4394,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libbsd@0.12.2-2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.12.2-2"
@@ -3959,6 +4415,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libcap-ng@0.8.5-4",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.8.5-4"
@@ -3979,6 +4436,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libcap2@1:2.75-10%2Bdeb13u1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1:2.75-10+deb13u1"
@@ -3999,6 +4457,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libffi@3.4.8-2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.4.8-2"
@@ -4019,6 +4478,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libmd@1.1.0-2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.1.0-2"
@@ -4039,6 +4499,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libseccomp@2.6.0-2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.6.0-2"
@@ -4059,6 +4520,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libselinux@3.8.1-1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.8.1-1"
@@ -4079,6 +4541,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libsemanage@3.8.1-1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.8.1-1"
@@ -4099,6 +4562,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libsepol@3.8.1-1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.8.1-1"
@@ -4119,6 +4583,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libxcrypt@1:4.4.38-1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1:4.4.38-1"
@@ -4139,6 +4604,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libzstd@1.5.7%2Bdfsg-1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.5.7+dfsg-1"
@@ -4159,6 +4625,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/lz4@1.10.0-4",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.10.0-4"
@@ -4179,6 +4646,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/ncurses@6.5%2B20250216-2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "6.5+20250216-2"
@@ -4199,6 +4667,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/nettle@3.10.1-1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.10.1-1"
@@ -4219,6 +4688,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/pam@1.7.0-5",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.7.0-5"
@@ -4239,6 +4709,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/pcre2@10.46-1~deb13u3",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "10.46-1~deb13u3"
@@ -4259,6 +4730,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/perl@5.40.1-6%2Bdeb13u1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "5.40.1-6+deb13u1"
@@ -4279,6 +4751,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/readline@8.2-6",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "8.2-6"
@@ -4299,6 +4772,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/rust-sequoia-sqv@1.3.0-3",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.3.0-3"
@@ -4319,6 +4793,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/shadow@1:4.17.4-2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1:4.17.4-2"
@@ -4339,6 +4814,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/sqlite3@3.46.1-7%2Bdeb13u2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.46.1-7+deb13u2"
@@ -4359,6 +4835,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/systemd@257.13-1~deb13u1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "257.13-1~deb13u1"
@@ -4379,6 +4856,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/sysvinit@3.14-4",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.14-4"
@@ -4399,6 +4877,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/xxhash@0.8.3-2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.8.3-2"
@@ -4419,6 +4898,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/xz-utils@5.8.1-1%2Bdeb13u2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "5.8.1-1+deb13u2"
@@ -4439,6 +4919,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/zlib@1:1.3.dfsg%2Breally1.3.1-1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1:1.3.dfsg+really1.3.1-1"
@@ -4463,6 +4944,7 @@
         "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
       ],
       "purl": "pkg:generic/FreeType@2.14.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.14.3"
@@ -4487,6 +4969,7 @@
         "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
       ],
       "purl": "pkg:generic/FriBiDi@1.0.17",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.0.17"
@@ -4511,6 +4994,7 @@
         "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
       ],
       "purl": "pkg:generic/fribidi-shim@1.x",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.x"
@@ -4535,6 +5019,7 @@
         "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
       ],
       "purl": "pkg:generic/HarfBuzz@14.5.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "14.5.0"
@@ -4559,6 +5044,7 @@
         "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
       ],
       "purl": "pkg:generic/libimagequant@4.4.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "4.4.1"
@@ -4583,6 +5069,7 @@
         "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
       ],
       "purl": "pkg:generic/libjpeg%20/%20libjpeg-turbo@3.2.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.2.0"
@@ -4607,6 +5094,7 @@
         "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
       ],
       "purl": "pkg:generic/Little%20CMS%202@2.19.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.19.1"
@@ -4631,6 +5119,7 @@
         "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
       ],
       "purl": "pkg:generic/OpenJPEG@2.5.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.5.4"
@@ -4655,6 +5144,7 @@
         "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
       ],
       "purl": "pkg:generic/pybind11",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": null
@@ -4679,6 +5169,7 @@
         "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
       ],
       "purl": "pkg:generic/pythoncapi_compat",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": null
@@ -4703,6 +5194,7 @@
         "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
       ],
       "purl": "pkg:generic/raqm@0.11.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.11.0"
@@ -4727,6 +5219,7 @@
         "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
       ],
       "purl": "pkg:generic/zlib@2.3.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.3.3"
@@ -4749,6 +5242,7 @@
         "usr/local/lib/python3.11/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/autocommand@2.2.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.2.2"
@@ -4771,6 +5265,7 @@
         "usr/local/lib/python3.11/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/backports.tarfile@1.2.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.2.0"
@@ -4793,6 +5288,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/cachecontrol@0.13.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.13.1"
@@ -4815,6 +5311,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/certifi@2023.7.22",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2023.7.22"
@@ -4837,6 +5334,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/chardet@5.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "5.1.0"
@@ -4859,6 +5357,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/colorama@0.4.6",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.4.6"
@@ -4881,6 +5380,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/distlib@0.3.8",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.3.8"
@@ -4903,6 +5403,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/distro@1.8.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.8.0"
@@ -4925,6 +5426,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/idna@3.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.4"
@@ -4947,6 +5449,7 @@
         "usr/local/lib/python3.11/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/importlib-metadata@8.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "8.0.0"
@@ -4969,6 +5472,7 @@
         "usr/local/lib/python3.11/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/inflect@7.3.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "7.3.1"
@@ -4991,6 +5495,7 @@
         "usr/local/lib/python3.11/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/jaraco.collections@5.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "5.1.0"
@@ -5013,6 +5518,7 @@
         "usr/local/lib/python3.11/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/jaraco.context@5.3.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "5.3.0"
@@ -5035,6 +5541,7 @@
         "usr/local/lib/python3.11/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/jaraco.functools@4.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "4.0.1"
@@ -5057,6 +5564,7 @@
         "usr/local/lib/python3.11/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/jaraco.text@3.12.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.12.1"
@@ -5079,6 +5587,7 @@
         "usr/local/lib/python3.11/site-packages/setuptools/_vendor/more_itertools-10.3.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/more-itertools@10.3.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "10.3.0"
@@ -5101,6 +5610,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/msgpack@1.0.5",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.0.5"
@@ -5123,6 +5633,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/packaging@21.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "21.3"
@@ -5145,6 +5656,7 @@
         "usr/local/lib/python3.11/site-packages/setuptools/_vendor/packaging-24.2.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/packaging@24.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "24.2"
@@ -5167,6 +5679,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/platformdirs@3.8.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.8.1"
@@ -5189,6 +5702,7 @@
         "usr/local/lib/python3.11/site-packages/setuptools/_vendor/platformdirs-4.2.2.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/platformdirs@4.2.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "4.2.2"
@@ -5211,6 +5725,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/pygments@2.15.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.15.1"
@@ -5233,6 +5748,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/pyparsing@3.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.1.0"
@@ -5255,6 +5771,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/pyproject-hooks@1.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.0.0"
@@ -5277,6 +5794,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/requests@2.31.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.31.0"
@@ -5299,6 +5817,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/resolvelib@1.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.0.1"
@@ -5321,6 +5840,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/rich@13.4.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "13.4.2"
@@ -5343,6 +5863,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/setuptools@68.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "68.0.0"
@@ -5365,6 +5886,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/six@1.16.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.16.0"
@@ -5387,6 +5909,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/tenacity@8.2.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "8.2.2"
@@ -5410,6 +5933,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/tomli@2.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.0.1"
@@ -5432,6 +5956,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/truststore@0.8.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.8.0"
@@ -5454,6 +5979,7 @@
         "usr/local/lib/python3.11/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/typeguard@4.3.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "4.3.0"
@@ -5476,6 +6002,7 @@
         "usr/local/lib/python3.11/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/typing-extensions@4.12.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "4.12.2"
@@ -5498,6 +6025,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/typing-extensions@4.7.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "4.7.1"
@@ -5520,6 +6048,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/urllib3@1.26.17",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.26.17"
@@ -5542,6 +6071,7 @@
         "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
       ],
       "purl": "pkg:pypi/webencodings@0.5.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.5.1"
@@ -5564,6 +6094,7 @@
         "usr/local/lib/python3.11/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/wheel@0.45.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.45.1"
@@ -5586,16 +6117,22 @@
         "usr/local/lib/python3.11/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/METADATA"
       ],
       "purl": "pkg:pypi/zipp@3.19.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.19.2"
     }
   ],
-  "generated_utc": "2026-11-23T06:17:11+00:00",
+  "generated_utc": "2026-11-23T07:02:08+00:00",
   "kind": "image",
   "notes": [
     "os-release: ID=debian VERSION_ID=13"
   ],
+  "os": {
+    "id": "debian",
+    "pretty_name": "Debian GNU/Linux 13 (trixie)",
+    "version_id": "13"
+  },
   "stage": "S3",
   "stats": {
     "by_eco": {

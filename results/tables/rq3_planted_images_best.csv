@@ -1,0 +1,10 @@
+target,component,mechanism,syft,trivy,cdxgen
+C-P,cjson@1.7.18,vendored-source,False,False,False
+C-P,zlib@1.3.1,static-link,False,False,False
+J-P,commons-lang3@3.12.0,shaded-relocated,True,True,False
+J-P,gson@2.8.9,shaded,True,True,False
+J-P,log4j-core@2.14.1,manual-copy,True,True,True
+J-P,shaded-demo@1.0.0,manual-copy,True,True,True
+P-P,decorator@5.1.1,vendored-source,False,False,False
+P-P,github.com/mikefarah/yq/v4@v4.44.3,manual-download,False,False,False
+P-P,jq@1.7.1,manual-download,True,False,False

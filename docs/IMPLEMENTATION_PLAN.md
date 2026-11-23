@@ -343,6 +343,54 @@ Cochran's Q = 515.5 over 3,162 components (p ≈ 1e-112). Every pairwise McNemar
   - **Formats:** Syft and Trivy SPDX = CycloneDX identities in 100% of targets. cdxgen SPDX 3.0.1 matches in only 48% (Jaccard 0.99) and turns non-packages into purpose-less packages in 19/29 targets.
 - **Network:** when Maven Central blocks it, cdxgen's Java recall drops silently from 0.980 to 0.922 and precision from 0.990 to 0.931.
 
+### Day 4 — extras: best-effort configuration + RQ5 (24 Nov)
+
+**Status:** both extras are complete and verified. `verify_build` 206/206, `verify_gt` 146/146, 487 SBOMs parse (0 failures), 99/99 repeat pairs identical, 184 RQ5 scans (4 documented aborts).
+
+**Best-effort configuration** (`--config best`, rep 1, all 32 targets; flags verified present in every recorded command):
+
+| Tool | Options |
+|---|---|
+| Syft | `--override-default-catalogers all` plus its documented opt-ins (default off per `syft config`): transitive Maven resolution from the local Maven repository, npm dev dependencies, guessing unpinned Python versions |
+| Trivy | `--detection-priority comprehensive`, plus `--include-dev-deps` on source directories (the flag exists only for `trivy fs`) |
+| cdxgen | `--deep`. Java image jobs paced and verified online (45 hash identifications each). |
+
+Results (micro, strict):
+
+| | Images: recall / precision, default → best | Source + artifacts: recall / precision, default → best |
+|---|---|---|
+| Syft | 0.815 → 0.818 / 0.942 → 0.927 | **0.30 → 0.66 / 0.84 → 0.59** (transitive Maven resolution over-reports: 380 components vs 153 in GT) |
+| Trivy | 0.843 → 0.843 / 0.996 → 0.996 | 0.53 → 0.64 / 0.99 → 0.99 |
+| cdxgen | **identical** | 0.874 → 0.852 / 0.865 → 0.879 |
+
+- **Tuning fixes none of the image blind spots.** `--deep` changes cdxgen's package set on only 3 of 32 targets: the C source tree (27 source-file names reported as components, all false positives) and the two no-lockfile/unpinned targets.
+- **Registry drift.** cdxgen's lower source recall comes from *time*, not from `--deep`. On targets without a lockfile it installs dependencies itself, and hours later the registries served newer versions (`charset-normalizer` 3.5.2 → 3.5.3). SBOMs built from manifests without a lockfile are not reproducible over time.
+- **Syft's `guess-unpinned-requirements`** guesses only from a version constraint (`streamlit>=1.29.0` → 1.29.0, not the installed version); bare names stay unreported.
+
+**RQ5: vulnerability impact** (`scripts/vuln_scan.py`). Grype 0.122.1 and Trivy 0.76.2, both on frozen DB snapshots.
+- **Reference SBOM** = primary GT components written in **each scanner's native conventions** (Grype: purl `upstream` qualifier; Trivy: `aquasecurity:trivy:Src*` properties, `redhat` family, Debian point release, Go stdlib `v1.x`).
+- **Validated against direct image scans:** identical CVE sets (Jaccard 1.000) for both scanners on O-debian and J-P.
+- Building the reference exposed three convention mismatches; each is now handled and documented.
+
+| Scanner ← SBOM | Syft | Trivy | cdxgen |
+|---|---|---|---|
+| Grype, CVE recall | **0.995** | 0.41 | 0.99 |
+| Trivy, CVE recall | 0.35 | **0.994** | 0.09 (4 of 23 scans aborted) |
+| OS-package findings (Grype / Trivy) | 1.00 / 0.11 | 0.13 / 1.00 | 0.13 / 0.00 |
+| Application-package findings (Grype / Trivy) | 0.98 / 0.97 | 0.98 / 0.97 | 0.97 / 0.51 |
+
+- **Main RQ5 result:** cross-vendor loss is almost entirely on **OS packages**, and it is a metadata-convention problem, not a coverage problem. All tools list 100% of the OS packages; what is lost is the vendor-private binary-to-source-package link that distro security data needs. In the O-debian trial, 100% of the lost findings were on packages whose source name differs from the binary name.
+- **Trivy aborts** on cdxgen SBOMs that contain both deb and rpm entries (auditwheel data copied from inside wheels). The result is zero vulnerabilities reported on 4 Python images.
+- **Log4Shell** (CVE-2021-44228, planted in J-P) is flagged by all 6 SBOM-scanner pairs.
+
+**Root-cause analysis:** `docs/ROOT_CAUSES.md`. Every claim is backed by the tool's own configuration dump, cataloger list or source code (e.g. cdxgen `docker.js` looks only in directories named `site-packages`; `getPomPropertiesFromMavenDir` reads only `pomPropertiesFiles[0]`).
+
+**Infrastructure fixes:**
+- `run_tools.py` now merges records under an inter-process lock (stress-tested: 2 concurrent writers × 40 records, all 80 kept), so paced and bulk runs can run side by side.
+- RQ5 counts aborted scans as zero instead of silently dropping them, in both the summary and the per-layer table.
+
+**New outputs:** `results/tables/best_vs_default*.csv`, `rq5_*.csv`, `rq1_component_tests.csv`; `paper/figures/fig_rq5_scanners`, `fig_best_vs_default`; `tools/versions.lock` now also pins Grype and both vulnerability-DB snapshots.
+
 ## 9. Main risks for the 5-day schedule
 
 | Risk | Mitigation |

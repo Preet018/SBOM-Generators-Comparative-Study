@@ -54,6 +54,7 @@ class GT:
         self.target = target
         self.items: dict[tuple, dict] = {}
         self.notes: list[str] = []
+        self.os: dict = {}   # {"id": "debian", "version_id": "12"} of the image (needed to scan OS packages)
 
     def add(self, eco: str, name: str, version: str | None, *, mechanism: str, evidence: str,
             namespace: str | None = None, tier: str = "primary", scope: str | None = None, path: str | None = None,
@@ -69,13 +70,18 @@ class GT:
                 ns, _, nm = name.rpartition("/")
                 purl = PackageURL("golang", ns or None, nm, version).to_string()
             else:
-                purl = PackageURL(eco, namespace, name, version, qualifiers).to_string()
+                q = {k: v for k, v in (qualifiers or {}).items() if v}   # never emit "upstream=None"
+                purl = PackageURL(eco, namespace, name, version, q or None).to_string()
             comp = {"eco": eco, "namespace": namespace, "name": name, "version": version, "purl": purl,
                     "key": key, "tier": tier, "mechanism": mechanism, "mechanisms": [], "scope": scope, "paths": [],
-                    "instances": 0, "license": None, "hashes": {}, "alt_names": [], "evidence": evidence}
+                    "instances": 0, "license": None, "hashes": {}, "alt_names": [], "evidence": evidence,
+                    "qualifiers": {}}
             self.items[ident] = comp
         elif tier == "primary" and comp["tier"] == "secondary":   # primary evidence wins
             comp.update(tier="primary", mechanism=mechanism, evidence=evidence, mechanisms=[])
+        for qk, qv in (qualifiers or {}).items():   # arch, upstream (source package), epoch, vendored_in ...
+            if qv and qk not in comp["qualifiers"]:
+                comp["qualifiers"][qk] = qv
         # The same identity can arrive by several routes. Only routes at the component's own tier count as
         # inclusion mechanisms: a secondary echo (source-package name, archived wheel, embedded pom) of a
         # primary component must not be credited as a way that component got into the target (RQ3).
@@ -103,6 +109,7 @@ class GT:
             for c in comps:
                 stats[f"by_{field}"][c[field]] = stats[f"by_{field}"].get(c[field], 0) + 1
         return {"target": self.target["id"], "stage": self.target["stage"], "subject": self.target["subject"],
+                "os": self.os,
                 "kind": self.target["kind"], "generated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                 "stats": stats, "notes": self.notes, "components": comps}
 
@@ -187,10 +194,15 @@ def add_os_packages(gt: GT, fs: Rootfs) -> dict[str, str]:
             if "Package" not in para or not re.search(r"(^|\s)installed$", para.get("Status", "install ok installed")):
                 continue
             name, version = para["Package"], para.get("Version")
+            src = re.match(r"^(\S+)(?:\s+\(([^)]+)\))?", para.get("Source", ""))
+            # upstream = source package (Debian's security tracker keys CVEs by SOURCE package), Syft-style:
+            # "glibc" when the source version equals the binary version, "glibc@2.36-9" otherwise
+            upstream = None
+            if src:
+                upstream = src.group(1) if not src.group(2) or src.group(2) == version else f"{src.group(1)}@{src.group(2)}"
             gt.add("deb", name, version, namespace=distro, mechanism="os-pm", evidence=evidence,
                    path=f"var/lib/dpkg/{'status' if evidence == 'dpkg-status' else 'status.d'}",
-                   license=deb_license(fs, name), qualifiers={"arch": para.get("Architecture")} if para.get("Architecture") else None)
-            src = re.match(r"^(\S+)(?:\s+\(([^)]+)\))?", para.get("Source", ""))
+                   license=deb_license(fs, name), qualifiers={"arch": para.get("Architecture"), "upstream": upstream})
             if src:   # the source package this binary was built from (some tools report it too)
                 add_source_package(gt, "deb", src.group(1), src.group(2) or version, distro)
     for p in fs.glob(r"^var/lib/dpkg/info/[^/]+\.list$"):
@@ -213,7 +225,7 @@ def add_os_packages(gt: GT, fs: Rootfs) -> dict[str, str]:
             if "P" in fields:
                 gt.add("apk", fields["P"], fields.get("V"), namespace=distro, mechanism="os-pm",
                        evidence="apk-installed", path="lib/apk/db/installed", license=fields.get("L"),
-                       qualifiers={"arch": fields["A"]} if fields.get("A") else None)
+                       qualifiers={"arch": fields.get("A"), "upstream": fields.get("o")})
                 if fields.get("o"):   # origin = source package (aports name)
                     add_source_package(gt, "apk", fields["o"], fields.get("V"), distro)
 
@@ -223,11 +235,13 @@ def add_os_packages(gt: GT, fs: Rootfs) -> dict[str, str]:
             version = f"{'' if epoch in ('(none)', '') else epoch + ':'}{ver}-{rel}"
             tier = "secondary" if name == "gpg-pubkey" else "primary"   # pseudo-package for imported keys
             gt.add("rpm", name, version, namespace=distro, mechanism="os-pm", evidence="rpmdb", tier=tier,
-                   path=rpmdb[0], license=lic, qualifiers={"arch": arch} if arch != "(none)" else None)
+                   path=rpmdb[0], license=lic,
+                   qualifiers={"arch": None if arch == "(none)" else arch, "upstream": srpm, "epoch": epoch or None})
             m = re.match(r"^(.+)-([^-]+)-([^-]+)\.src\.rpm$", srpm or "")
             if m:
                 add_source_package(gt, "rpm", m.group(1), f"{m.group(2)}-{m.group(3)}", distro)
     gt.notes.append(f"os-release: ID={osr.get('ID')} VERSION_ID={osr.get('VERSION_ID')}")
+    gt.os = {"id": distro, "version_id": osr.get("VERSION_ID"), "pretty_name": osr.get("PRETTY_NAME")}
     return owners
 
 

@@ -1,0 +1,13 @@
+layer,scanner,sbom,ref_findings,found,extra,finding_recall
+application,grype,cdxgen,491,478,138,0.9735234215885947
+application,grype,syft,491,479,160,0.9755600814663951
+application,grype,trivy,491,479,72,0.9755600814663951
+application,trivy,cdxgen,366,185,39,0.505464480874317
+application,trivy,syft,366,354,65,0.9672131147540983
+application,trivy,trivy,366,354,70,0.9672131147540983
+os,grype,cdxgen,3752,479,1344,0.12766524520255865
+os,grype,syft,3752,3752,107,1.0
+os,grype,trivy,3752,474,0,0.1263326226012793
+os,trivy,cdxgen,3411,0,0,0.0
+os,trivy,syft,3411,373,6,0.10935209615948402
+os,trivy,trivy,3411,3411,0,1.0

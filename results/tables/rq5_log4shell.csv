@@ -1,0 +1,7 @@
+target,scanner,sbom,log4shell_found
+J-P,grype,syft,True
+J-P,grype,trivy,True
+J-P,grype,cdxgen,True
+J-P,trivy,syft,True
+J-P,trivy,trivy,True
+J-P,trivy,cdxgen,True

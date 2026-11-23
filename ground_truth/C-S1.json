@@ -21,6 +21,7 @@
       "namespace": null,
       "paths": [],
       "purl": "pkg:generic/glibc",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": null
@@ -46,16 +47,18 @@
       "namespace": null,
       "paths": [],
       "purl": "pkg:generic/musl",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": null
     }
   ],
-  "generated_utc": "2026-11-23T06:17:18+00:00",
+  "generated_utc": "2026-11-23T07:02:15+00:00",
   "kind": "dir",
   "notes": [
     "No package manager and no manifest: no primary components. libc/pthread are implicit system dependencies (secondary). The committed client/server are macOS Mach-O binaries."
   ],
+  "os": {},
   "stage": "S1",
   "stats": {
     "by_eco": {

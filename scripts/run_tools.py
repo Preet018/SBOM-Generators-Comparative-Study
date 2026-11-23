@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import shutil
 import subprocess
 import threading
@@ -80,7 +81,9 @@ def tool_args(tool: str, target: dict, config: str, formats: list[str], stem: st
                           "--format", "cyclonedx" if fmt == "cyclonedx" else "spdx-json",
                           "--output", f"/out/{stem}{'.spdx' if fmt == 'spdx' else ''}.json"]
         if config == "best":
-            args += ["--include-dev-deps", "--detection-priority", "comprehensive"]
+            args += ["--detection-priority", "comprehensive"]
+            if kind == "dir":                 # only the `fs` subcommand has this flag (npm, yarn, gradle)
+                args += ["--include-dev-deps"]
         return args + sub[1:]
 
     if tool == "cdxgen":
@@ -151,9 +154,20 @@ def run_job(job: dict, images: dict[str, str]) -> dict:
 
     name = f"p16-{tool}-{config}-r{rep}-{tid.lower()}"
     env = ["-e", "SYFT_CHECK_FOR_APP_UPDATE=false", "-e", "CDXGEN_NO_PROGRESS=1"]
+    if tool == "syft" and config == "best":
+        # Syft's documented opt-in options (all default off, see `syft config`). Maven resolution reads the same
+        # pre-populated local repository Trivy uses, not the network (Maven Central rate-limits Go clients).
+        env += ["-e", "SYFT_JAVA_RESOLVE_TRANSITIVE_DEPENDENCIES=true",
+                "-e", "SYFT_JAVA_USE_MAVEN_LOCAL_REPOSITORY=true",
+                "-e", "SYFT_JAVA_MAVEN_LOCAL_REPOSITORY_DIR=/m2/repository",
+                "-e", "SYFT_JAVASCRIPT_INCLUDE_DEV_DEPENDENCIES=true",
+                "-e", "SYFT_PYTHON_GUESS_UNPINNED_REQUIREMENTS=true"]
+        if M2_CACHE.exists():
+            mounts += ["-v", f"{plain(M2_CACHE)}:/m2:ro"]
     cmd = ["docker", "run", "--rm", "--name", name, *env, *mounts, images[tool],
            *tool_args(tool, target, config, formats, stem)]
     record["command"] = " ".join(cmd[cmd.index(images[tool]):])  # host paths left out of the record
+    record["env"] = [e for e in env if e != "-e"]                # tool options passed as environment variables
 
     for p in expected_outputs(out_dir, stem, formats):
         p.unlink(missing_ok=True)
@@ -189,6 +203,33 @@ def run_job(job: dict, images: dict[str, str]) -> dict:
 
 
 # ----------------------------------------------------------------------------- main
+LOCK_FILE = RESULTS_DIR / ".tool_runs.lock"
+
+
+def save_records(updates: dict, key) -> None:
+    """Merge this process's new records into results/tool_runs.json under an inter-process lock.
+    Several runner processes may run at once (e.g. paced cdxgen jobs next to a Syft re-run); re-reading the file
+    under the lock means no process ever overwrites records written by another."""
+    deadline = time.time() + 300
+    while True:
+        try:
+            fd = os.open(plain(LOCK_FILE), os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+            break
+        except FileExistsError:
+            if time.time() > deadline:
+                raise RuntimeError(f"could not acquire {LOCK_FILE} (stale lock? delete it if no runner is active)")
+            time.sleep(0.2)
+    try:
+        current = json.loads(RUNS_FILE.read_text(encoding="utf-8")) if RUNS_FILE.exists() else {"runs": []}
+        merged = {key(r): r for r in current["runs"]}
+        merged.update(updates)
+        write_json(RUNS_FILE, {"runs": sorted(merged.values(), key=lambda r: (r["config"], r["tool"], r["rep"], r["target"])),
+                               "updated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds")})
+    finally:
+        os.close(fd)
+        os.unlink(plain(LOCK_FILE))
+
+
 def build_jobs(targets: list[dict], tools: list[str], reps: list[int], config: str) -> dict[str, list[dict]]:
     jobs: dict[str, list[dict]] = {t: [] for t in tools}
     for rep in sorted(reps):
@@ -264,8 +305,11 @@ def main() -> int:
                 log(f"[{done[0]:3}/{total}] {tool:6} rep{job['rep']} {job['target']['id']:16} {'+'.join(job['formats']):15} "
                     f"{record['status']:6} exit={record.get('exit_code')} {record.get('seconds', 0):7.1f}s "
                     f"comps={ {f: (o or {}).get('components') for f, o in (record.get('outputs') or {}).items()} }")
-                write_json(RUNS_FILE, {"runs": sorted(runs.values(), key=lambda r: (r["config"], r["tool"], r["rep"], r["target"])),
-                                       "updated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds")})
+                mine = {k: record}
+                if tool == "cdxgen" and job["formats"] == ["cyclonedx", "spdx"] and record["status"] != "ok":
+                    ck = (job["config"], tool, job["rep"], job["target"]["id"], ("cyclonedx",))
+                    mine[ck] = runs[ck]
+                save_records(mine, key)
 
     with ThreadPoolExecutor(max_workers=len(args.tools)) as pool:
         list(pool.map(worker, args.tools))

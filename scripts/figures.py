@@ -161,11 +161,80 @@ def fig_rq3():
     save(fig, "fig_rq3_mechanisms")
 
 
+def heat(ax, vals, rows, cols, title):
+    ax.imshow(vals, cmap=SEQ, vmin=0, vmax=1, aspect="auto")
+    for i in range(vals.shape[0]):
+        for j in range(vals.shape[1]):
+            v = vals[i, j]
+            ax.text(j, i, f"{v:.2f}", ha="center", va="center", fontsize=8, color="#ffffff" if v > 0.55 else INK)
+    ax.set_xticks(range(len(cols)))
+    ax.set_xticklabels(cols)
+    ax.xaxis.tick_top()
+    ax.set_yticks(range(len(rows)))
+    ax.set_yticklabels(rows)
+    ax.set_xticks(np.arange(-0.5, len(cols)), minor=True)
+    ax.set_yticks(np.arange(-0.5, len(rows)), minor=True)
+    ax.grid(which="minor", color=SURFACE, linewidth=2)
+    ax.tick_params(which="minor", length=0)
+    for s in ax.spines.values():
+        s.set_visible(False)
+    ax.set_title(title, fontsize=8.5, color=INK, loc="left", pad=18)
+
+
+def fig_rq5():
+    d = pd.read_csv(T / "rq5_by_layer.csv")
+    fig, axes = plt.subplots(1, 2, figsize=(WIDTH * 0.85, 1.9))
+    for ax, layer, title in zip(axes, ["os", "application"], ["OS-package findings", "Application-package findings"]):
+        s = d[d.layer == layer]
+        vals = np.array([[s[(s.sbom == src) & (s.scanner == sc)].finding_recall.iloc[0] for sc in ("grype", "trivy")]
+                         for src in TOOLS])
+        heat(ax, vals, [f"{LABEL[t]} SBOM" for t in TOOLS], ["Grype", "Trivy"], title)
+    fig.tight_layout()
+    save(fig, "fig_rq5_scanners")
+
+
+def fig_best():
+    d = pd.read_csv(T / "best_vs_default.csv")
+    fig, axes = plt.subplots(1, 2, figsize=(WIDTH, 1.9), sharey=True)
+    groups = ["source+artifact", "images"]
+    for ax, metric, title in zip(axes, ["recall_strict", "precision_strict"], ["Recall (strict)", "Precision (strict)"]):
+        for gi, group in enumerate(groups):
+            for j, tool in enumerate(TOOLS):
+                y = gi + (j - 1) * 0.25
+                x = d[(d.group == group) & (d.tool == tool)].set_index("config")[metric]
+                ax.plot([x["default"], x["best"]], [y, y], color=COLOR[tool], linewidth=1.5, alpha=0.6)
+                ax.plot(x["default"], y, marker=MARKER[tool], color=SURFACE, markeredgecolor=COLOR[tool],
+                        markeredgewidth=1.5, markersize=6, linestyle="")
+                ax.plot(x["best"], y, marker=MARKER[tool], color=COLOR[tool], markeredgecolor=SURFACE,
+                        markeredgewidth=1.0, markersize=6, linestyle="")
+        ax.set_xlim(0.2, 1.03)
+        ax.xaxis.grid(True, color=GRID, linewidth=0.6)
+        ax.set_axisbelow(True)
+        ax.set_title(title, fontsize=8.5, color=INK, loc="left")
+        ax.axhline(0.5, color=GRID, linewidth=0.5)
+    axes[0].set_yticks(range(len(groups)))
+    axes[0].set_yticklabels(["Source trees &\nartifacts", "Container\nimages"])
+    axes[0].invert_yaxis()
+    handles = [plt.Line2D([], [], color=COLOR[t], marker=MARKER[t], linestyle="", markersize=6,
+                          markeredgecolor=SURFACE, label=LABEL[t]) for t in TOOLS]
+    handles += [plt.Line2D([], [], color=INK2, marker="o", markerfacecolor=SURFACE, linestyle="", markersize=6,
+                           label="default"),
+                plt.Line2D([], [], color=INK2, marker="o", linestyle="", markersize=6, label="best-effort")]
+    fig.legend(handles=handles, loc="upper center", ncol=5, bbox_to_anchor=(0.5, 1.12), handletextpad=0.3,
+               columnspacing=1.2)
+    fig.tight_layout()
+    save(fig, "fig_best_vs_default")
+
+
 def main() -> int:
     style()
     fig_rq1()
     fig_rq2()
     fig_rq3()
+    if (T / "rq5_by_layer.csv").exists():
+        fig_rq5()
+    if (T / "best_vs_default.csv").exists():
+        fig_best()
     return 0
 
 

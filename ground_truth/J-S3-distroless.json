@@ -18,6 +18,9 @@
         "var/lib/dpkg/status.d"
       ],
       "purl": "pkg:deb/debian/base-files@13.8%2Bdeb13u7?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "13.8+deb13u7"
@@ -40,6 +43,9 @@
         "var/lib/dpkg/status.d"
       ],
       "purl": "pkg:deb/debian/ca-certificates@20250419%2Bdeb13u1?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
       "scope": null,
       "tier": "primary",
       "version": "20250419+deb13u1"
@@ -61,7 +67,11 @@
       "paths": [
         "var/lib/dpkg/status.d"
       ],
-      "purl": "pkg:deb/debian/fontconfig-config@2.15.0-2.3?arch=amd64",
+      "purl": "pkg:deb/debian/fontconfig-config@2.15.0-2.3?arch=amd64&upstream=fontconfig",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "fontconfig"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.15.0-2.3"
@@ -83,7 +93,11 @@
       "paths": [
         "var/lib/dpkg/status.d"
       ],
-      "purl": "pkg:deb/debian/fonts-dejavu-core@2.37-8?arch=all",
+      "purl": "pkg:deb/debian/fonts-dejavu-core@2.37-8?arch=all&upstream=fonts-dejavu",
+      "qualifiers": {
+        "arch": "all",
+        "upstream": "fonts-dejavu"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.37-8"
@@ -105,7 +119,11 @@
       "paths": [
         "var/lib/dpkg/status.d"
       ],
-      "purl": "pkg:deb/debian/gcc-14-base@14.2.0-19?arch=amd64",
+      "purl": "pkg:deb/debian/gcc-14-base@14.2.0-19?arch=amd64&upstream=gcc-14",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gcc-14"
+      },
       "scope": null,
       "tier": "primary",
       "version": "14.2.0-19"
@@ -127,7 +145,11 @@
       "paths": [
         "var/lib/dpkg/status.d"
       ],
-      "purl": "pkg:deb/debian/libbrotli1@1.1.0-2%2Bdeb13u1?arch=amd64",
+      "purl": "pkg:deb/debian/libbrotli1@1.1.0-2%2Bdeb13u1?arch=amd64&upstream=brotli",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "brotli"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.1.0-2+deb13u1"
@@ -149,7 +171,11 @@
       "paths": [
         "var/lib/dpkg/status.d"
       ],
-      "purl": "pkg:deb/debian/libbz2-1.0@1.0.8-6?arch=amd64",
+      "purl": "pkg:deb/debian/libbz2-1.0@1.0.8-6?arch=amd64&upstream=bzip2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "bzip2"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.0.8-6"
@@ -171,7 +197,11 @@
       "paths": [
         "var/lib/dpkg/status.d"
       ],
-      "purl": "pkg:deb/debian/libc-bin@2.41-12%2Bdeb13u4?arch=amd64",
+      "purl": "pkg:deb/debian/libc-bin@2.41-12%2Bdeb13u4?arch=amd64&upstream=glibc",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "glibc"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.41-12+deb13u4"
@@ -193,7 +223,11 @@
       "paths": [
         "var/lib/dpkg/status.d"
       ],
-      "purl": "pkg:deb/debian/libc6@2.41-12%2Bdeb13u4?arch=amd64",
+      "purl": "pkg:deb/debian/libc6@2.41-12%2Bdeb13u4?arch=amd64&upstream=glibc",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "glibc"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.41-12+deb13u4"
@@ -215,7 +249,11 @@
       "paths": [
         "var/lib/dpkg/status.d"
       ],
-      "purl": "pkg:deb/debian/libcrypt1@1:4.4.38-1?arch=amd64",
+      "purl": "pkg:deb/debian/libcrypt1@1:4.4.38-1?arch=amd64&upstream=libxcrypt",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libxcrypt"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:4.4.38-1"
@@ -237,7 +275,11 @@
       "paths": [
         "var/lib/dpkg/status.d"
       ],
-      "purl": "pkg:deb/debian/libexpat1@2.9.0-1~deb13u1?arch=amd64",
+      "purl": "pkg:deb/debian/libexpat1@2.9.0-1~deb13u1?arch=amd64&upstream=expat",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "expat"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.9.0-1~deb13u1"
@@ -259,7 +301,11 @@
       "paths": [
         "var/lib/dpkg/status.d"
       ],
-      "purl": "pkg:deb/debian/libfontconfig1@2.15.0-2.3?arch=amd64",
+      "purl": "pkg:deb/debian/libfontconfig1@2.15.0-2.3?arch=amd64&upstream=fontconfig",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "fontconfig"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.15.0-2.3"
@@ -281,7 +327,11 @@
       "paths": [
         "var/lib/dpkg/status.d"
       ],
-      "purl": "pkg:deb/debian/libfreetype6@2.13.3%2Bdfsg-1%2Bdeb13u1?arch=amd64",
+      "purl": "pkg:deb/debian/libfreetype6@2.13.3%2Bdfsg-1%2Bdeb13u1?arch=amd64&upstream=freetype",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "freetype"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.13.3+dfsg-1+deb13u1"
@@ -303,7 +353,11 @@
       "paths": [
         "var/lib/dpkg/status.d"
       ],
-      "purl": "pkg:deb/debian/libgcc-s1@14.2.0-19?arch=amd64",
+      "purl": "pkg:deb/debian/libgcc-s1@14.2.0-19?arch=amd64&upstream=gcc-14",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gcc-14"
+      },
       "scope": null,
       "tier": "primary",
       "version": "14.2.0-19"
@@ -325,7 +379,11 @@
       "paths": [
         "var/lib/dpkg/status.d"
       ],
-      "purl": "pkg:deb/debian/libjpeg62-turbo@1:2.1.5-4?arch=amd64",
+      "purl": "pkg:deb/debian/libjpeg62-turbo@1:2.1.5-4?arch=amd64&upstream=libjpeg-turbo",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libjpeg-turbo"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:2.1.5-4"
@@ -347,7 +405,11 @@
       "paths": [
         "var/lib/dpkg/status.d"
       ],
-      "purl": "pkg:deb/debian/liblcms2-2@2.16-2%2Bdeb13u2?arch=amd64",
+      "purl": "pkg:deb/debian/liblcms2-2@2.16-2%2Bdeb13u2?arch=amd64&upstream=lcms2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "lcms2"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.16-2+deb13u2"
@@ -369,7 +431,11 @@
       "paths": [
         "var/lib/dpkg/status.d"
       ],
-      "purl": "pkg:deb/debian/libpng16-16t64@1.6.48-1%2Bdeb13u6?arch=amd64",
+      "purl": "pkg:deb/debian/libpng16-16t64@1.6.48-1%2Bdeb13u6?arch=amd64&upstream=libpng1.6",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libpng1.6"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.6.48-1+deb13u6"
@@ -391,7 +457,11 @@
       "paths": [
         "var/lib/dpkg/status.d"
       ],
-      "purl": "pkg:deb/debian/libstdc%2B%2B6@14.2.0-19?arch=amd64",
+      "purl": "pkg:deb/debian/libstdc%2B%2B6@14.2.0-19?arch=amd64&upstream=gcc-14",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gcc-14"
+      },
       "scope": null,
       "tier": "primary",
       "version": "14.2.0-19"
@@ -413,7 +483,11 @@
       "paths": [
         "var/lib/dpkg/status.d"
       ],
-      "purl": "pkg:deb/debian/libuuid1@2.41.5-0%2Bdeb13u1?arch=amd64",
+      "purl": "pkg:deb/debian/libuuid1@2.41.5-0%2Bdeb13u1?arch=amd64&upstream=util-linux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.41.5-0+deb13u1"
@@ -436,6 +510,9 @@
         "var/lib/dpkg/status.d"
       ],
       "purl": "pkg:deb/debian/media-types@13.0.0?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
       "scope": null,
       "tier": "primary",
       "version": "13.0.0"
@@ -458,6 +535,9 @@
         "var/lib/dpkg/status.d"
       ],
       "purl": "pkg:deb/debian/netbase@6.5?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
       "scope": null,
       "tier": "primary",
       "version": "6.5"
@@ -480,6 +560,9 @@
         "var/lib/dpkg/status.d"
       ],
       "purl": "pkg:deb/debian/temurin-25-jre@25.0.5.1.0%2B2-0?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "25.0.5.1.0+2-0"
@@ -502,6 +585,9 @@
         "var/lib/dpkg/status.d"
       ],
       "purl": "pkg:deb/debian/tzdata@2026f-0%2Bdeb13u1?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2026f-0+deb13u1"
@@ -523,7 +609,11 @@
       "paths": [
         "var/lib/dpkg/status.d"
       ],
-      "purl": "pkg:deb/debian/tzdata-legacy@2026f-0%2Bdeb13u1?arch=all",
+      "purl": "pkg:deb/debian/tzdata-legacy@2026f-0%2Bdeb13u1?arch=all&upstream=tzdata",
+      "qualifiers": {
+        "arch": "all",
+        "upstream": "tzdata"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2026f-0+deb13u1"
@@ -545,7 +635,11 @@
       "paths": [
         "var/lib/dpkg/status.d"
       ],
-      "purl": "pkg:deb/debian/zlib1g@1:1.3.dfsg%2Breally1.3.1-1%2Bdeb13u1?arch=amd64",
+      "purl": "pkg:deb/debian/zlib1g@1:1.3.dfsg%2Breally1.3.1-1%2Bdeb13u1?arch=amd64&upstream=zlib",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "zlib"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:1.3.dfsg+really1.3.1-1+deb13u1"
@@ -571,6 +665,7 @@
         "app/app.jar!/BOOT-INF/lib/logback-classic-1.5.34.jar"
       ],
       "purl": "pkg:maven/ch.qos.logback/logback-classic@1.5.34",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.5.34"
@@ -596,6 +691,7 @@
         "app/app.jar!/BOOT-INF/lib/logback-core-1.5.34.jar"
       ],
       "purl": "pkg:maven/ch.qos.logback/logback-core@1.5.34",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.5.34"
@@ -621,6 +717,7 @@
         "app/app.jar!/BOOT-INF/lib/jackson-annotations-2.21.jar"
       ],
       "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.21",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.21"
@@ -646,6 +743,7 @@
         "app/app.jar!/BOOT-INF/lib/jackson-core-2.21.4.jar"
       ],
       "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.21.4"
@@ -671,6 +769,7 @@
         "app/app.jar!/BOOT-INF/lib/jackson-databind-2.21.4.jar"
       ],
       "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.21.4"
@@ -696,6 +795,7 @@
         "app/app.jar!/BOOT-INF/lib/jackson-dataformat-yaml-2.21.4.jar"
       ],
       "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.21.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.21.4"
@@ -721,6 +821,7 @@
         "app/app.jar!/BOOT-INF/lib/jackson-datatype-jsr310-2.21.4.jar"
       ],
       "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.21.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.21.4"
@@ -746,6 +847,7 @@
         "app/app.jar!/BOOT-INF/lib/classmate-1.7.3.jar"
       ],
       "purl": "pkg:maven/com.fasterxml/classmate@1.7.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.7.3"
@@ -771,6 +873,7 @@
         "app/app.jar!/BOOT-INF/lib/mysql-connector-j-9.7.0.jar"
       ],
       "purl": "pkg:maven/com.mysql/mysql-connector-j@9.7.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "9.7.0"
@@ -796,6 +899,7 @@
         "app/app.jar!/BOOT-INF/lib/razorpay-java-1.4.10.jar"
       ],
       "purl": "pkg:maven/com.razorpay/razorpay-java@1.4.10",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.4.10"
@@ -821,6 +925,7 @@
         "app/app.jar!/BOOT-INF/lib/logging-interceptor-3.10.0.jar"
       ],
       "purl": "pkg:maven/com.squareup.okhttp3/logging-interceptor@3.10.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.10.0"
@@ -846,6 +951,7 @@
         "app/app.jar!/BOOT-INF/lib/okhttp-3.10.0.jar"
       ],
       "purl": "pkg:maven/com.squareup.okhttp3/okhttp@3.10.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.10.0"
@@ -871,6 +977,7 @@
         "app/app.jar!/BOOT-INF/lib/okio-1.14.0.jar"
       ],
       "purl": "pkg:maven/com.squareup.okio/okio@1.14.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.14.0"
@@ -896,6 +1003,7 @@
         "app/app.jar!/BOOT-INF/lib/istack-commons-runtime-4.1.2.jar"
       ],
       "purl": "pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.2"
@@ -921,6 +1029,7 @@
         "app/app.jar!/BOOT-INF/lib/HikariCP-7.0.2.jar"
       ],
       "purl": "pkg:maven/com.zaxxer/HikariCP@7.0.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.2"
@@ -946,6 +1055,7 @@
         "app/app.jar!/BOOT-INF/lib/commons-codec-1.21.0.jar"
       ],
       "purl": "pkg:maven/commons-codec/commons-codec@1.21.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.21.0"
@@ -971,6 +1081,7 @@
         "app/app.jar!/BOOT-INF/lib/commons-logging-1.3.6.jar"
       ],
       "purl": "pkg:maven/commons-logging/commons-logging@1.3.6",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.3.6"
@@ -996,6 +1107,7 @@
         "app/app.jar!/BOOT-INF/lib/jjwt-api-0.13.0.jar"
       ],
       "purl": "pkg:maven/io.jsonwebtoken/jjwt-api@0.13.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.13.0"
@@ -1021,6 +1133,7 @@
         "app/app.jar!/BOOT-INF/lib/jjwt-impl-0.13.0.jar"
       ],
       "purl": "pkg:maven/io.jsonwebtoken/jjwt-impl@0.13.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.13.0"
@@ -1046,6 +1159,7 @@
         "app/app.jar!/BOOT-INF/lib/jjwt-jackson-0.13.0.jar"
       ],
       "purl": "pkg:maven/io.jsonwebtoken/jjwt-jackson@0.13.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "0.13.0"
@@ -1071,6 +1185,7 @@
         "app/app.jar!/BOOT-INF/lib/micrometer-commons-1.17.0.jar"
       ],
       "purl": "pkg:maven/io.micrometer/micrometer-commons@1.17.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.17.0"
@@ -1096,6 +1211,7 @@
         "app/app.jar!/BOOT-INF/lib/micrometer-observation-1.17.0.jar"
       ],
       "purl": "pkg:maven/io.micrometer/micrometer-observation@1.17.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.17.0"
@@ -1121,6 +1237,7 @@
         "app/app.jar!/BOOT-INF/lib/swagger-annotations-jakarta-2.2.52.jar"
       ],
       "purl": "pkg:maven/io.swagger.core.v3/swagger-annotations-jakarta@2.2.52",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.2.52"
@@ -1146,6 +1263,7 @@
         "app/app.jar!/BOOT-INF/lib/swagger-core-jakarta-2.2.52.jar"
       ],
       "purl": "pkg:maven/io.swagger.core.v3/swagger-core-jakarta@2.2.52",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.2.52"
@@ -1171,6 +1289,7 @@
         "app/app.jar!/BOOT-INF/lib/swagger-models-jakarta-2.2.52.jar"
       ],
       "purl": "pkg:maven/io.swagger.core.v3/swagger-models-jakarta@2.2.52",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.2.52"
@@ -1196,6 +1315,7 @@
         "app/app.jar!/BOOT-INF/lib/jakarta.activation-api-2.1.4.jar"
       ],
       "purl": "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.1.4"
@@ -1221,6 +1341,7 @@
         "app/app.jar!/BOOT-INF/lib/jakarta.annotation-api-3.0.0.jar"
       ],
       "purl": "pkg:maven/jakarta.annotation/jakarta.annotation-api@3.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.0.0"
@@ -1246,6 +1367,7 @@
         "app/app.jar!/BOOT-INF/lib/jakarta.inject-api-2.0.1.jar"
       ],
       "purl": "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.0.1"
@@ -1271,6 +1393,7 @@
         "app/app.jar!/BOOT-INF/lib/jakarta.mail-api-2.1.5.jar"
       ],
       "purl": "pkg:maven/jakarta.mail/jakarta.mail-api@2.1.5",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.1.5"
@@ -1296,6 +1419,7 @@
         "app/app.jar!/BOOT-INF/lib/jakarta.persistence-api-3.2.0.jar"
       ],
       "purl": "pkg:maven/jakarta.persistence/jakarta.persistence-api@3.2.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.2.0"
@@ -1321,6 +1445,7 @@
         "app/app.jar!/BOOT-INF/lib/jakarta.transaction-api-2.0.1.jar"
       ],
       "purl": "pkg:maven/jakarta.transaction/jakarta.transaction-api@2.0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.0.1"
@@ -1346,6 +1471,7 @@
         "app/app.jar!/BOOT-INF/lib/jakarta.validation-api-3.1.1.jar"
       ],
       "purl": "pkg:maven/jakarta.validation/jakarta.validation-api@3.1.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.1.1"
@@ -1371,6 +1497,7 @@
         "app/app.jar!/BOOT-INF/lib/jakarta.xml.bind-api-4.0.5.jar"
       ],
       "purl": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.5",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.5"
@@ -1396,6 +1523,7 @@
         "app/app.jar!/BOOT-INF/lib/byte-buddy-1.18.10.jar"
       ],
       "purl": "pkg:maven/net.bytebuddy/byte-buddy@1.18.10",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.18.10"
@@ -1421,6 +1549,7 @@
         "app/app.jar!/BOOT-INF/lib/antlr4-runtime-4.13.2.jar"
       ],
       "purl": "pkg:maven/org.antlr/antlr4-runtime@4.13.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.13.2"
@@ -1446,6 +1575,7 @@
         "app/app.jar!/BOOT-INF/lib/commons-lang3-3.20.0.jar"
       ],
       "purl": "pkg:maven/org.apache.commons/commons-lang3@3.20.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.20.0"
@@ -1471,6 +1601,7 @@
         "app/app.jar!/BOOT-INF/lib/commons-text-1.3.jar"
       ],
       "purl": "pkg:maven/org.apache.commons/commons-text@1.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.3"
@@ -1496,6 +1627,7 @@
         "app/app.jar!/BOOT-INF/lib/log4j-api-2.25.4.jar"
       ],
       "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.25.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.25.4"
@@ -1521,6 +1653,7 @@
         "app/app.jar!/BOOT-INF/lib/log4j-to-slf4j-2.25.4.jar"
       ],
       "purl": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.25.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.25.4"
@@ -1546,6 +1679,7 @@
         "app/app.jar!/BOOT-INF/lib/tomcat-embed-core-11.0.22.jar"
       ],
       "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@11.0.22",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "11.0.22"
@@ -1571,6 +1705,7 @@
         "app/app.jar!/BOOT-INF/lib/tomcat-embed-el-11.0.22.jar"
       ],
       "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@11.0.22",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "11.0.22"
@@ -1596,6 +1731,7 @@
         "app/app.jar!/BOOT-INF/lib/tomcat-embed-websocket-11.0.22.jar"
       ],
       "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@11.0.22",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "11.0.22"
@@ -1621,6 +1757,7 @@
         "app/app.jar!/BOOT-INF/lib/aspectjweaver-1.9.25.1.jar"
       ],
       "purl": "pkg:maven/org.aspectj/aspectjweaver@1.9.25.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.9.25.1"
@@ -1646,6 +1783,7 @@
         "app/app.jar!/BOOT-INF/lib/angus-activation-2.0.3.jar"
       ],
       "purl": "pkg:maven/org.eclipse.angus/angus-activation@2.0.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.0.3"
@@ -1671,6 +1809,7 @@
         "app/app.jar!/BOOT-INF/lib/angus-mail-2.0.5.jar"
       ],
       "purl": "pkg:maven/org.eclipse.angus/angus-mail@2.0.5",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.0.5"
@@ -1696,6 +1835,7 @@
         "app/app.jar!/BOOT-INF/lib/jaxb-core-4.0.9.jar"
       ],
       "purl": "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.9",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.9"
@@ -1721,6 +1861,7 @@
         "app/app.jar!/BOOT-INF/lib/jaxb-runtime-4.0.9.jar"
       ],
       "purl": "pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.9",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.9"
@@ -1746,6 +1887,7 @@
         "app/app.jar!/BOOT-INF/lib/txw2-4.0.9.jar"
       ],
       "purl": "pkg:maven/org.glassfish.jaxb/txw2@4.0.9",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.0.9"
@@ -1771,6 +1913,7 @@
         "app/app.jar!/BOOT-INF/lib/hibernate-models-1.1.1.jar"
       ],
       "purl": "pkg:maven/org.hibernate.models/hibernate-models@1.1.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.1.1"
@@ -1796,6 +1939,7 @@
         "app/app.jar!/BOOT-INF/lib/hibernate-core-7.4.1.Final.jar"
       ],
       "purl": "pkg:maven/org.hibernate.orm/hibernate-core@7.4.1.Final",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.4.1.Final"
@@ -1821,6 +1965,7 @@
         "app/app.jar!/BOOT-INF/lib/hibernate-validator-9.1.0.Final.jar"
       ],
       "purl": "pkg:maven/org.hibernate.validator/hibernate-validator@9.1.0.Final",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "9.1.0.Final"
@@ -1846,6 +1991,7 @@
         "app/app.jar!/BOOT-INF/lib/jboss-logging-3.6.3.Final.jar"
       ],
       "purl": "pkg:maven/org.jboss.logging/jboss-logging@3.6.3.Final",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.6.3.Final"
@@ -1871,6 +2017,7 @@
         "app/app.jar!/BOOT-INF/lib/json-20231013.jar"
       ],
       "purl": "pkg:maven/org.json/json@20231013",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "20231013"
@@ -1896,6 +2043,7 @@
         "app/app.jar!/BOOT-INF/lib/jspecify-1.0.0.jar"
       ],
       "purl": "pkg:maven/org.jspecify/jspecify@1.0.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.0.0"
@@ -1921,6 +2069,7 @@
         "app/app.jar!/BOOT-INF/lib/jul-to-slf4j-2.0.18.jar"
       ],
       "purl": "pkg:maven/org.slf4j/jul-to-slf4j@2.0.18",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.0.18"
@@ -1946,6 +2095,7 @@
         "app/app.jar!/BOOT-INF/lib/slf4j-api-2.0.18.jar"
       ],
       "purl": "pkg:maven/org.slf4j/slf4j-api@2.0.18",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.0.18"
@@ -1971,6 +2121,7 @@
         "app/app.jar!/BOOT-INF/lib/springdoc-openapi-starter-common-3.1.0.jar"
       ],
       "purl": "pkg:maven/org.springdoc/springdoc-openapi-starter-common@3.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.1.0"
@@ -1996,6 +2147,7 @@
         "app/app.jar!/BOOT-INF/lib/springdoc-openapi-starter-webmvc-api-3.1.0.jar"
       ],
       "purl": "pkg:maven/org.springdoc/springdoc-openapi-starter-webmvc-api@3.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.1.0"
@@ -2021,6 +2173,7 @@
         "app/app.jar!/BOOT-INF/lib/springdoc-openapi-starter-webmvc-ui-3.1.0.jar"
       ],
       "purl": "pkg:maven/org.springdoc/springdoc-openapi-starter-webmvc-ui@3.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.1.0"
@@ -2046,6 +2199,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-boot-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2071,6 +2225,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-boot-autoconfigure-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2096,6 +2251,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-boot-data-commons-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot-data-commons@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2121,6 +2277,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-boot-data-jpa-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot-data-jpa@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2146,6 +2303,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-boot-hibernate-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot-hibernate@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2171,6 +2329,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-boot-http-converter-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot-http-converter@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2196,6 +2355,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-boot-jackson-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot-jackson@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2221,6 +2381,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-boot-jarmode-tools-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot-jarmode-tools@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2246,6 +2407,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-boot-jdbc-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot-jdbc@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2271,6 +2433,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-boot-jpa-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot-jpa@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2296,6 +2459,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-boot-mail-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot-mail@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2321,6 +2485,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-boot-persistence-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot-persistence@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2346,6 +2511,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-boot-security-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot-security@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2371,6 +2537,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-boot-servlet-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot-servlet@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2396,6 +2563,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-boot-sql-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot-sql@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2421,6 +2589,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-boot-tomcat-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot-tomcat@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2446,6 +2615,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-boot-transaction-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot-transaction@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2471,6 +2641,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-boot-validation-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot-validation@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2496,6 +2667,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-boot-web-server-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot-web-server@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2521,6 +2693,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-boot-webmvc-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot-webmvc@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2546,6 +2719,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-data-commons-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.data/spring-data-commons@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2571,6 +2745,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-data-jpa-4.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.data/spring-data-jpa@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "4.1.0"
@@ -2596,6 +2771,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-security-config-7.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.security/spring-security-config@7.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.1.0"
@@ -2621,6 +2797,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-security-core-7.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.security/spring-security-core@7.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.1.0"
@@ -2646,6 +2823,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-security-crypto-7.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.security/spring-security-crypto@7.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.1.0"
@@ -2671,6 +2849,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-security-web-7.1.0.jar"
       ],
       "purl": "pkg:maven/org.springframework.security/spring-security-web@7.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.1.0"
@@ -2696,6 +2875,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-aop-7.0.8.jar"
       ],
       "purl": "pkg:maven/org.springframework/spring-aop@7.0.8",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.8"
@@ -2721,6 +2901,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-aspects-7.0.8.jar"
       ],
       "purl": "pkg:maven/org.springframework/spring-aspects@7.0.8",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.8"
@@ -2746,6 +2927,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-beans-7.0.8.jar"
       ],
       "purl": "pkg:maven/org.springframework/spring-beans@7.0.8",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.8"
@@ -2771,6 +2953,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-context-7.0.8.jar"
       ],
       "purl": "pkg:maven/org.springframework/spring-context@7.0.8",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.8"
@@ -2796,6 +2979,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-context-support-7.0.8.jar"
       ],
       "purl": "pkg:maven/org.springframework/spring-context-support@7.0.8",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.8"
@@ -2821,6 +3005,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-core-7.0.8.jar"
       ],
       "purl": "pkg:maven/org.springframework/spring-core@7.0.8",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.8"
@@ -2846,6 +3031,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-expression-7.0.8.jar"
       ],
       "purl": "pkg:maven/org.springframework/spring-expression@7.0.8",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.8"
@@ -2871,6 +3057,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-jdbc-7.0.8.jar"
       ],
       "purl": "pkg:maven/org.springframework/spring-jdbc@7.0.8",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.8"
@@ -2896,6 +3083,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-orm-7.0.8.jar"
       ],
       "purl": "pkg:maven/org.springframework/spring-orm@7.0.8",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.8"
@@ -2921,6 +3109,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-tx-7.0.8.jar"
       ],
       "purl": "pkg:maven/org.springframework/spring-tx@7.0.8",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.8"
@@ -2946,6 +3135,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-web-7.0.8.jar"
       ],
       "purl": "pkg:maven/org.springframework/spring-web@7.0.8",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.8"
@@ -2971,6 +3161,7 @@
         "app/app.jar!/BOOT-INF/lib/spring-webmvc-7.0.8.jar"
       ],
       "purl": "pkg:maven/org.springframework/spring-webmvc@7.0.8",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "7.0.8"
@@ -2996,6 +3187,7 @@
         "app/app.jar!/BOOT-INF/lib/swagger-ui-5.32.11.jar"
       ],
       "purl": "pkg:maven/org.webjars/swagger-ui@5.32.11",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "5.32.11"
@@ -3021,6 +3213,7 @@
         "app/app.jar!/BOOT-INF/lib/webjars-locator-lite-1.1.3.jar"
       ],
       "purl": "pkg:maven/org.webjars/webjars-locator-lite@1.1.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.1.3"
@@ -3046,6 +3239,7 @@
         "app/app.jar!/BOOT-INF/lib/snakeyaml-2.6.jar"
       ],
       "purl": "pkg:maven/org.yaml/snakeyaml@2.6",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "2.6"
@@ -3071,6 +3265,7 @@
         "app/app.jar!/BOOT-INF/lib/jackson-core-3.1.4.jar"
       ],
       "purl": "pkg:maven/tools.jackson.core/jackson-core@3.1.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.1.4"
@@ -3096,6 +3291,7 @@
         "app/app.jar!/BOOT-INF/lib/jackson-databind-3.1.4.jar"
       ],
       "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.1.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "3.1.4"
@@ -3116,6 +3312,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/brotli@1.1.0-2%2Bdeb13u1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.1.0-2+deb13u1"
@@ -3136,6 +3333,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/bzip2@1.0.8-6",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.0.8-6"
@@ -3156,6 +3354,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/expat@2.9.0-1~deb13u1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.9.0-1~deb13u1"
@@ -3176,6 +3375,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/fontconfig@2.15.0-2.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.15.0-2.3"
@@ -3196,6 +3396,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/fonts-dejavu@2.37-8",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.37-8"
@@ -3216,6 +3417,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/freetype@2.13.3%2Bdfsg-1%2Bdeb13u1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.13.3+dfsg-1+deb13u1"
@@ -3236,6 +3438,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/gcc-14@14.2.0-19",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "14.2.0-19"
@@ -3256,6 +3459,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/glibc@2.41-12%2Bdeb13u4",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.41-12+deb13u4"
@@ -3276,6 +3480,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/lcms2@2.16-2%2Bdeb13u2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.16-2+deb13u2"
@@ -3296,6 +3501,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libjpeg-turbo@1:2.1.5-4",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1:2.1.5-4"
@@ -3316,6 +3522,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libpng1.6@1.6.48-1%2Bdeb13u6",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.6.48-1+deb13u6"
@@ -3336,6 +3543,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/libxcrypt@1:4.4.38-1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1:4.4.38-1"
@@ -3356,6 +3564,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/util-linux@2.41.5-0%2Bdeb13u1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.41.5-0+deb13u1"
@@ -3376,6 +3585,7 @@
       "namespace": "debian",
       "paths": [],
       "purl": "pkg:deb/debian/zlib@1:1.3.dfsg%2Breally1.3.1-1%2Bdeb13u1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1:1.3.dfsg+really1.3.1-1+deb13u1"
@@ -3401,6 +3611,7 @@
         "usr/lib/jvm/temurin-25-jre-amd64/lib/jrt-fs.jar"
       ],
       "purl": "pkg:maven/jrt-fs@25.0.5.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "25.0.5.1"
@@ -3426,6 +3637,7 @@
         "app/app.jar"
       ],
       "purl": "pkg:maven/com.bakery/bakery-inventory-management@0.0.1-SNAPSHOT",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.0.1-SNAPSHOT"
@@ -3448,6 +3660,7 @@
         "app/app.jar!/BOOT-INF/lib/angus-mail-2.0.5.jar"
       ],
       "purl": "pkg:maven/org.eclipse.angus/angus-core@2.0.5",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.0.5"
@@ -3470,6 +3683,7 @@
         "app/app.jar!/BOOT-INF/lib/angus-mail-2.0.5.jar"
       ],
       "purl": "pkg:maven/org.eclipse.angus/imap@2.0.5",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.0.5"
@@ -3492,6 +3706,7 @@
         "app/app.jar!/BOOT-INF/lib/angus-mail-2.0.5.jar"
       ],
       "purl": "pkg:maven/org.eclipse.angus/logging-mailhandler@2.0.5",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.0.5"
@@ -3514,6 +3729,7 @@
         "app/app.jar!/BOOT-INF/lib/angus-mail-2.0.5.jar"
       ],
       "purl": "pkg:maven/org.eclipse.angus/pop3@2.0.5",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.0.5"
@@ -3536,6 +3752,7 @@
         "app/app.jar!/BOOT-INF/lib/angus-mail-2.0.5.jar"
       ],
       "purl": "pkg:maven/org.eclipse.angus/smtp@2.0.5",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.0.5"
@@ -3558,17 +3775,23 @@
         "app/app.jar"
       ],
       "purl": "pkg:maven/org.springframework.boot/spring-boot-loader@4.1.0",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "4.1.0"
     }
   ],
-  "generated_utc": "2026-11-23T06:17:00+00:00",
+  "generated_utc": "2026-11-23T07:01:54+00:00",
   "kind": "image",
   "notes": [
     "os-release: ID=debian VERSION_ID=13",
     "JDK at usr/lib/jvm/temurin-25-jre-amd64/release belongs to an OS package; not counted again as a runtime"
   ],
+  "os": {
+    "id": "debian",
+    "pretty_name": "Distroless",
+    "version_id": "13"
+  },
   "stage": "S3",
   "stats": {
     "by_eco": {

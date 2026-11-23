@@ -3,3 +3,9 @@
 SYFT_IMAGE=anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a  # syft 1.57.2 (built 2026-11-16)
 TRIVY_IMAGE=aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb  # trivy 0.76.2
 CDXGEN_IMAGE=ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e  # cdxgen 13.2.0 (Node.js 24.21.0)
+
+# Vulnerability scanners for RQ5 (frozen DB snapshots: downloaded once, never updated during the study)
+GRYPE_IMAGE=anchore/grype@sha256:661583704a253c0448ed63998b5ea2cd9d5a76ee71eedc4aed439b8ce3e93a1c  # grype 0.122.1
+# Grype DB: schema v6.1.10, built 2026-11-22T06:19:59Z (vulnerability-db_v6.1.10_2026-11-22T00:23:04Z), GRYPE_DB_AUTO_UPDATE=false
+# Trivy vulnerability DB: version 2, UpdatedAt 2026-11-23 01:05:17 UTC (scans run with --skip-db-update --offline-scan)
+# Trivy Java DB (SBOM generation): version 1, UpdatedAt 2026-11-22 00:57:27 UTC (--skip-java-db-update)

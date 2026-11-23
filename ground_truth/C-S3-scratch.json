@@ -21,17 +21,23 @@
         "app/server"
       ],
       "purl": "pkg:generic/musl@1.2.5-r13",
+      "qualifiers": {},
       "scope": null,
       "tier": "primary",
       "version": "1.2.5-r13"
     }
   ],
-  "generated_utc": "2026-11-23T06:17:18+00:00",
+  "generated_utc": "2026-11-23T07:02:16+00:00",
   "kind": "image",
   "notes": [
     "os-release: ID=None VERSION_ID=None",
     "app/server: interp=None needed=[]"
   ],
+  "os": {
+    "id": null,
+    "pretty_name": null,
+    "version_id": null
+  },
   "stage": "S3",
   "stats": {
     "by_eco": {

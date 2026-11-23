@@ -20,16 +20,18 @@
       "namespace": null,
       "paths": [],
       "purl": "pkg:generic/glibc",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": null
     }
   ],
-  "generated_utc": "2026-11-23T06:17:18+00:00",
+  "generated_utc": "2026-11-23T07:02:15+00:00",
   "kind": "file",
   "notes": [
     "server: interp=/lib64/ld-linux-x86-64.so.2 needed=['libc.so.6'] (dynamic dependencies are not contained in the artifact)"
   ],
+  "os": {},
   "stage": "S2",
   "stats": {
     "by_eco": {

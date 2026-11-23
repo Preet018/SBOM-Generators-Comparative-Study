@@ -18,6 +18,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/apt@2.8.4ubuntu0.1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.8.4ubuntu0.1"
@@ -40,6 +43,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/base-files@13ubuntu10.5?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "13ubuntu10.5"
@@ -62,6 +68,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/base-passwd@3.6.3build1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.6.3build1"
@@ -84,6 +93,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/bash@5.2.21-2ubuntu4?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "5.2.21-2ubuntu4"
@@ -105,7 +117,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/bsdutils@1:2.39.3-9ubuntu6.6?arch=amd64",
+      "purl": "pkg:deb/ubuntu/bsdutils@1:2.39.3-9ubuntu6.6?arch=amd64&upstream=util-linux%402.39.3-9ubuntu6.6",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux@2.39.3-9ubuntu6.6"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:2.39.3-9ubuntu6.6"
@@ -128,6 +144,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/coreutils@9.4-3ubuntu6.3?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "9.4-3ubuntu6.3"
@@ -150,6 +169,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/dash@0.5.12-6ubuntu5?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "0.5.12-6ubuntu5"
@@ -172,6 +194,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/debconf@1.5.86ubuntu1?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.5.86ubuntu1"
@@ -194,6 +219,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/debianutils@5.17build1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "5.17build1"
@@ -216,6 +244,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/diffutils@1:3.10-1ubuntu0.1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:3.10-1ubuntu0.1"
@@ -238,6 +269,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/dpkg@1.22.6ubuntu6.6?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.22.6ubuntu6.6"
@@ -260,6 +294,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/e2fsprogs@1.47.0-2.4~exp1ubuntu4.1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.47.0-2.4~exp1ubuntu4.1"
@@ -282,6 +319,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/findutils@4.9.0-5build1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "4.9.0-5build1"
@@ -303,7 +343,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/gcc-14-base@14.2.0-4ubuntu2~24.04.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/gcc-14-base@14.2.0-4ubuntu2~24.04.1?arch=amd64&upstream=gcc-14",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gcc-14"
+      },
       "scope": null,
       "tier": "primary",
       "version": "14.2.0-4ubuntu2~24.04.1"
@@ -325,7 +369,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/gpgv@2.4.4-2ubuntu17.6?arch=amd64",
+      "purl": "pkg:deb/ubuntu/gpgv@2.4.4-2ubuntu17.6?arch=amd64&upstream=gnupg2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gnupg2"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.4.4-2ubuntu17.6"
@@ -348,6 +396,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/grep@3.11-4build1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.11-4build1"
@@ -370,6 +421,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/gzip@1.12-1ubuntu3.2?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.12-1ubuntu3.2"
@@ -392,6 +446,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/hostname@3.23%2Bnmu2ubuntu2?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.23+nmu2ubuntu2"
@@ -414,6 +471,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/init-system-helpers@1.66ubuntu1?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.66ubuntu1"
@@ -435,7 +495,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libacl1@2.3.2-1build1.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libacl1@2.3.2-1build1.1?arch=amd64&upstream=acl",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "acl"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.3.2-1build1.1"
@@ -457,7 +521,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libapt-pkg6.0t64@2.8.4ubuntu0.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libapt-pkg6.0t64@2.8.4ubuntu0.1?arch=amd64&upstream=apt",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "apt"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.8.4ubuntu0.1"
@@ -479,7 +547,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libassuan0@2.5.6-1build1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libassuan0@2.5.6-1build1?arch=amd64&upstream=libassuan",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libassuan"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.5.6-1build1"
@@ -501,7 +573,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libattr1@1:2.5.2-1ubuntu0.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libattr1@1:2.5.2-1ubuntu0.1?arch=amd64&upstream=attr",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "attr"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:2.5.2-1ubuntu0.1"
@@ -523,7 +599,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libaudit-common@1:3.1.2-2.1ubuntu0.1?arch=all",
+      "purl": "pkg:deb/ubuntu/libaudit-common@1:3.1.2-2.1ubuntu0.1?arch=all&upstream=audit",
+      "qualifiers": {
+        "arch": "all",
+        "upstream": "audit"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:3.1.2-2.1ubuntu0.1"
@@ -545,7 +625,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libaudit1@1:3.1.2-2.1ubuntu0.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libaudit1@1:3.1.2-2.1ubuntu0.1?arch=amd64&upstream=audit",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "audit"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:3.1.2-2.1ubuntu0.1"
@@ -567,7 +651,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libblkid1@2.39.3-9ubuntu6.6?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libblkid1@2.39.3-9ubuntu6.6?arch=amd64&upstream=util-linux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.39.3-9ubuntu6.6"
@@ -589,7 +677,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libbz2-1.0@1.0.8-5.1ubuntu0.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libbz2-1.0@1.0.8-5.1ubuntu0.1?arch=amd64&upstream=bzip2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "bzip2"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.0.8-5.1ubuntu0.1"
@@ -611,7 +703,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libc-bin@2.39-0ubuntu8.9?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libc-bin@2.39-0ubuntu8.9?arch=amd64&upstream=glibc",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "glibc"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.39-0ubuntu8.9"
@@ -633,7 +729,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libc6@2.39-0ubuntu8.9?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libc6@2.39-0ubuntu8.9?arch=amd64&upstream=glibc",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "glibc"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.39-0ubuntu8.9"
@@ -655,7 +755,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libcap-ng0@0.8.4-2build2?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libcap-ng0@0.8.4-2build2?arch=amd64&upstream=libcap-ng",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libcap-ng"
+      },
       "scope": null,
       "tier": "primary",
       "version": "0.8.4-2build2"
@@ -678,6 +782,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/libcap2@1:2.66-5ubuntu2.4?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:2.66-5ubuntu2.4"
@@ -699,7 +806,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libcom-err2@1.47.0-2.4~exp1ubuntu4.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libcom-err2@1.47.0-2.4~exp1ubuntu4.1?arch=amd64&upstream=e2fsprogs",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "e2fsprogs"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.47.0-2.4~exp1ubuntu4.1"
@@ -721,7 +832,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libcrypt1@1:4.4.36-4build1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libcrypt1@1:4.4.36-4build1?arch=amd64&upstream=libxcrypt",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libxcrypt"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:4.4.36-4build1"
@@ -743,7 +858,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libdb5.3t64@5.3.28%2Bdfsg2-7?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libdb5.3t64@5.3.28%2Bdfsg2-7?arch=amd64&upstream=db5.3",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "db5.3"
+      },
       "scope": null,
       "tier": "primary",
       "version": "5.3.28+dfsg2-7"
@@ -765,7 +884,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libdebconfclient0@0.271ubuntu3?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libdebconfclient0@0.271ubuntu3?arch=amd64&upstream=cdebconf",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "cdebconf"
+      },
       "scope": null,
       "tier": "primary",
       "version": "0.271ubuntu3"
@@ -787,7 +910,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libext2fs2t64@1.47.0-2.4~exp1ubuntu4.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libext2fs2t64@1.47.0-2.4~exp1ubuntu4.1?arch=amd64&upstream=e2fsprogs",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "e2fsprogs"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.47.0-2.4~exp1ubuntu4.1"
@@ -809,7 +936,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libffi8@3.4.6-1build1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libffi8@3.4.6-1build1?arch=amd64&upstream=libffi",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libffi"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.4.6-1build1"
@@ -831,7 +962,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libgcc-s1@14.2.0-4ubuntu2~24.04.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libgcc-s1@14.2.0-4ubuntu2~24.04.1?arch=amd64&upstream=gcc-14",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gcc-14"
+      },
       "scope": null,
       "tier": "primary",
       "version": "14.2.0-4ubuntu2~24.04.1"
@@ -854,6 +989,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/libgcrypt20@1.10.3-2ubuntu0.2?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.10.3-2ubuntu0.2"
@@ -875,7 +1013,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libgmp10@2:6.3.0%2Bdfsg-2ubuntu6.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libgmp10@2:6.3.0%2Bdfsg-2ubuntu6.1?arch=amd64&upstream=gmp",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gmp"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2:6.3.0+dfsg-2ubuntu6.1"
@@ -897,7 +1039,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libgnutls30t64@3.8.3-1.1ubuntu3.6?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libgnutls30t64@3.8.3-1.1ubuntu3.6?arch=amd64&upstream=gnutls28",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gnutls28"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.8.3-1.1ubuntu3.6"
@@ -919,7 +1065,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libgpg-error0@1.47-3build2.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libgpg-error0@1.47-3build2.1?arch=amd64&upstream=libgpg-error",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libgpg-error"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.47-3build2.1"
@@ -941,7 +1091,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libhogweed6t64@3.9.1-2.2build1.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libhogweed6t64@3.9.1-2.2build1.1?arch=amd64&upstream=nettle",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "nettle"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.9.1-2.2build1.1"
@@ -963,7 +1117,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libidn2-0@2.3.7-2build1.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libidn2-0@2.3.7-2build1.1?arch=amd64&upstream=libidn2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libidn2"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.3.7-2build1.1"
@@ -985,7 +1143,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/liblz4-1@1.9.4-1build1.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/liblz4-1@1.9.4-1build1.1?arch=amd64&upstream=lz4",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "lz4"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.9.4-1build1.1"
@@ -1007,7 +1169,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/liblzma5@5.6.1%2Breally5.4.5-1ubuntu0.4?arch=amd64",
+      "purl": "pkg:deb/ubuntu/liblzma5@5.6.1%2Breally5.4.5-1ubuntu0.4?arch=amd64&upstream=xz-utils",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "xz-utils"
+      },
       "scope": null,
       "tier": "primary",
       "version": "5.6.1+really5.4.5-1ubuntu0.4"
@@ -1029,7 +1195,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libmd0@1.1.0-2build1.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libmd0@1.1.0-2build1.1?arch=amd64&upstream=libmd",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libmd"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.1.0-2build1.1"
@@ -1051,7 +1221,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libmount1@2.39.3-9ubuntu6.6?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libmount1@2.39.3-9ubuntu6.6?arch=amd64&upstream=util-linux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.39.3-9ubuntu6.6"
@@ -1073,7 +1247,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libncursesw6@6.4%2B20240113-1ubuntu2.2?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libncursesw6@6.4%2B20240113-1ubuntu2.2?arch=amd64&upstream=ncurses",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "ncurses"
+      },
       "scope": null,
       "tier": "primary",
       "version": "6.4+20240113-1ubuntu2.2"
@@ -1095,7 +1273,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libnettle8t64@3.9.1-2.2build1.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libnettle8t64@3.9.1-2.2build1.1?arch=amd64&upstream=nettle",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "nettle"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.9.1-2.2build1.1"
@@ -1117,7 +1299,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libnpth0t64@1.6-3.1build1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libnpth0t64@1.6-3.1build1?arch=amd64&upstream=npth",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "npth"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.6-3.1build1"
@@ -1139,7 +1325,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libp11-kit0@0.25.3-4ubuntu2.2?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libp11-kit0@0.25.3-4ubuntu2.2?arch=amd64&upstream=p11-kit",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "p11-kit"
+      },
       "scope": null,
       "tier": "primary",
       "version": "0.25.3-4ubuntu2.2"
@@ -1161,7 +1351,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libpam-modules@1.5.3-5ubuntu5.7?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libpam-modules@1.5.3-5ubuntu5.7?arch=amd64&upstream=pam",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "pam"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.5.3-5ubuntu5.7"
@@ -1183,7 +1377,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libpam-modules-bin@1.5.3-5ubuntu5.7?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libpam-modules-bin@1.5.3-5ubuntu5.7?arch=amd64&upstream=pam",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "pam"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.5.3-5ubuntu5.7"
@@ -1205,7 +1403,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libpam-runtime@1.5.3-5ubuntu5.7?arch=all",
+      "purl": "pkg:deb/ubuntu/libpam-runtime@1.5.3-5ubuntu5.7?arch=all&upstream=pam",
+      "qualifiers": {
+        "arch": "all",
+        "upstream": "pam"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.5.3-5ubuntu5.7"
@@ -1227,7 +1429,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libpam0g@1.5.3-5ubuntu5.7?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libpam0g@1.5.3-5ubuntu5.7?arch=amd64&upstream=pam",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "pam"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.5.3-5ubuntu5.7"
@@ -1249,7 +1455,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libpcre2-8-0@10.42-4ubuntu2.2?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libpcre2-8-0@10.42-4ubuntu2.2?arch=amd64&upstream=pcre2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "pcre2"
+      },
       "scope": null,
       "tier": "primary",
       "version": "10.42-4ubuntu2.2"
@@ -1271,7 +1481,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libproc2-0@2:4.0.4-4ubuntu3.3?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libproc2-0@2:4.0.4-4ubuntu3.3?arch=amd64&upstream=procps",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "procps"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2:4.0.4-4ubuntu3.3"
@@ -1293,7 +1507,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libseccomp2@2.5.5-1ubuntu3.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libseccomp2@2.5.5-1ubuntu3.1?arch=amd64&upstream=libseccomp",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libseccomp"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.5.5-1ubuntu3.1"
@@ -1315,7 +1533,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libselinux1@3.5-2ubuntu2.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libselinux1@3.5-2ubuntu2.1?arch=amd64&upstream=libselinux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libselinux"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.5-2ubuntu2.1"
@@ -1337,7 +1559,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libsemanage-common@3.5-1build5?arch=all",
+      "purl": "pkg:deb/ubuntu/libsemanage-common@3.5-1build5?arch=all&upstream=libsemanage",
+      "qualifiers": {
+        "arch": "all",
+        "upstream": "libsemanage"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.5-1build5"
@@ -1359,7 +1585,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libsemanage2@3.5-1build5?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libsemanage2@3.5-1build5?arch=amd64&upstream=libsemanage",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libsemanage"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.5-1build5"
@@ -1381,7 +1611,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libsepol2@3.5-2build1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libsepol2@3.5-2build1?arch=amd64&upstream=libsepol",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libsepol"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.5-2build1"
@@ -1403,7 +1637,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libsmartcols1@2.39.3-9ubuntu6.6?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libsmartcols1@2.39.3-9ubuntu6.6?arch=amd64&upstream=util-linux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.39.3-9ubuntu6.6"
@@ -1425,7 +1663,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libss2@1.47.0-2.4~exp1ubuntu4.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libss2@1.47.0-2.4~exp1ubuntu4.1?arch=amd64&upstream=e2fsprogs",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "e2fsprogs"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.47.0-2.4~exp1ubuntu4.1"
@@ -1447,7 +1689,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.16?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.16?arch=amd64&upstream=openssl",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "openssl"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.0.13-0ubuntu3.16"
@@ -1469,7 +1715,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libstdc%2B%2B6@14.2.0-4ubuntu2~24.04.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libstdc%2B%2B6@14.2.0-4ubuntu2~24.04.1?arch=amd64&upstream=gcc-14",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gcc-14"
+      },
       "scope": null,
       "tier": "primary",
       "version": "14.2.0-4ubuntu2~24.04.1"
@@ -1491,7 +1741,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libsystemd0@255.4-1ubuntu8.18?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libsystemd0@255.4-1ubuntu8.18?arch=amd64&upstream=systemd",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "systemd"
+      },
       "scope": null,
       "tier": "primary",
       "version": "255.4-1ubuntu8.18"
@@ -1514,6 +1768,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/libtasn1-6@4.19.0-3ubuntu0.24.04.2?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "4.19.0-3ubuntu0.24.04.2"
@@ -1535,7 +1792,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libtinfo6@6.4%2B20240113-1ubuntu2.2?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libtinfo6@6.4%2B20240113-1ubuntu2.2?arch=amd64&upstream=ncurses",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "ncurses"
+      },
       "scope": null,
       "tier": "primary",
       "version": "6.4+20240113-1ubuntu2.2"
@@ -1557,7 +1818,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libudev1@255.4-1ubuntu8.18?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libudev1@255.4-1ubuntu8.18?arch=amd64&upstream=systemd",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "systemd"
+      },
       "scope": null,
       "tier": "primary",
       "version": "255.4-1ubuntu8.18"
@@ -1579,7 +1844,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libunistring5@1.1-2build1.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libunistring5@1.1-2build1.1?arch=amd64&upstream=libunistring",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libunistring"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.1-2build1.1"
@@ -1601,7 +1870,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libuuid1@2.39.3-9ubuntu6.6?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libuuid1@2.39.3-9ubuntu6.6?arch=amd64&upstream=util-linux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.39.3-9ubuntu6.6"
@@ -1623,7 +1896,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libxxhash0@0.8.2-2build1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libxxhash0@0.8.2-2build1?arch=amd64&upstream=xxhash",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "xxhash"
+      },
       "scope": null,
       "tier": "primary",
       "version": "0.8.2-2build1"
@@ -1645,7 +1922,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/libzstd1@1.5.5%2Bdfsg2-2build1.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/libzstd1@1.5.5%2Bdfsg2-2build1.1?arch=amd64&upstream=libzstd",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libzstd"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.5.5+dfsg2-2build1.1"
@@ -1667,7 +1948,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/login@1:4.13%2Bdfsg1-4ubuntu3.2?arch=amd64",
+      "purl": "pkg:deb/ubuntu/login@1:4.13%2Bdfsg1-4ubuntu3.2?arch=amd64&upstream=shadow",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "shadow"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:4.13+dfsg1-4ubuntu3.2"
@@ -1689,7 +1974,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/logsave@1.47.0-2.4~exp1ubuntu4.1?arch=amd64",
+      "purl": "pkg:deb/ubuntu/logsave@1.47.0-2.4~exp1ubuntu4.1?arch=amd64&upstream=e2fsprogs",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "e2fsprogs"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.47.0-2.4~exp1ubuntu4.1"
@@ -1712,6 +2001,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/mawk@1.3.4.20240123-1build1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.3.4.20240123-1build1"
@@ -1733,7 +2025,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/mount@2.39.3-9ubuntu6.6?arch=amd64",
+      "purl": "pkg:deb/ubuntu/mount@2.39.3-9ubuntu6.6?arch=amd64&upstream=util-linux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.39.3-9ubuntu6.6"
@@ -1755,7 +2051,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/ncurses-base@6.4%2B20240113-1ubuntu2.2?arch=all",
+      "purl": "pkg:deb/ubuntu/ncurses-base@6.4%2B20240113-1ubuntu2.2?arch=all&upstream=ncurses",
+      "qualifiers": {
+        "arch": "all",
+        "upstream": "ncurses"
+      },
       "scope": null,
       "tier": "primary",
       "version": "6.4+20240113-1ubuntu2.2"
@@ -1777,7 +2077,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/ncurses-bin@6.4%2B20240113-1ubuntu2.2?arch=amd64",
+      "purl": "pkg:deb/ubuntu/ncurses-bin@6.4%2B20240113-1ubuntu2.2?arch=amd64&upstream=ncurses",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "ncurses"
+      },
       "scope": null,
       "tier": "primary",
       "version": "6.4+20240113-1ubuntu2.2"
@@ -1799,7 +2103,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/passwd@1:4.13%2Bdfsg1-4ubuntu3.2?arch=amd64",
+      "purl": "pkg:deb/ubuntu/passwd@1:4.13%2Bdfsg1-4ubuntu3.2?arch=amd64&upstream=shadow",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "shadow"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:4.13+dfsg1-4ubuntu3.2"
@@ -1821,7 +2129,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/perl-base@5.38.2-3.2ubuntu0.7?arch=amd64",
+      "purl": "pkg:deb/ubuntu/perl-base@5.38.2-3.2ubuntu0.7?arch=amd64&upstream=perl",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "perl"
+      },
       "scope": null,
       "tier": "primary",
       "version": "5.38.2-3.2ubuntu0.7"
@@ -1844,6 +2156,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/procps@2:4.0.4-4ubuntu3.3",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2:4.0.4-4ubuntu3.3"
@@ -1866,6 +2181,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/sed@4.9-2ubuntu0.24.04.1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "4.9-2ubuntu0.24.04.1"
@@ -1888,6 +2206,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/sensible-utils@0.0.22?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
       "scope": null,
       "tier": "primary",
       "version": "0.0.22"
@@ -1909,7 +2230,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/sysvinit-utils@3.08-6ubuntu3?arch=amd64",
+      "purl": "pkg:deb/ubuntu/sysvinit-utils@3.08-6ubuntu3?arch=amd64&upstream=sysvinit",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "sysvinit"
+      },
       "scope": null,
       "tier": "primary",
       "version": "3.08-6ubuntu3"
@@ -1932,6 +2257,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/tar@1.35%2Bdfsg-3ubuntu0.4?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1.35+dfsg-3ubuntu0.4"
@@ -1954,6 +2282,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/ubuntu-keyring@2023.11.28.1?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2023.11.28.1"
@@ -1976,6 +2307,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/unminimize@0.2.1?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "0.2.1"
@@ -1998,6 +2332,9 @@
         "var/lib/dpkg/status"
       ],
       "purl": "pkg:deb/ubuntu/util-linux@2.39.3-9ubuntu6.6",
+      "qualifiers": {
+        "arch": "amd64"
+      },
       "scope": null,
       "tier": "primary",
       "version": "2.39.3-9ubuntu6.6"
@@ -2019,7 +2356,11 @@
       "paths": [
         "var/lib/dpkg/status"
       ],
-      "purl": "pkg:deb/ubuntu/zlib1g@1:1.3.dfsg-3.1ubuntu2.3?arch=amd64",
+      "purl": "pkg:deb/ubuntu/zlib1g@1:1.3.dfsg-3.1ubuntu2.3?arch=amd64&upstream=zlib",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "zlib"
+      },
       "scope": null,
       "tier": "primary",
       "version": "1:1.3.dfsg-3.1ubuntu2.3"
@@ -2040,6 +2381,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/acl@2.3.2-1build1.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.3.2-1build1.1"
@@ -2060,6 +2402,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/attr@1:2.5.2-1ubuntu0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1:2.5.2-1ubuntu0.1"
@@ -2080,6 +2423,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/audit@1:3.1.2-2.1ubuntu0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1:3.1.2-2.1ubuntu0.1"
@@ -2100,6 +2444,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/bzip2@1.0.8-5.1ubuntu0.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.0.8-5.1ubuntu0.1"
@@ -2120,6 +2465,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/cdebconf@0.271ubuntu3",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.271ubuntu3"
@@ -2140,6 +2486,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/db5.3@5.3.28%2Bdfsg2-7",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "5.3.28+dfsg2-7"
@@ -2160,6 +2507,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/gcc-14@14.2.0-4ubuntu2~24.04.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "14.2.0-4ubuntu2~24.04.1"
@@ -2180,6 +2528,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/glibc@2.39-0ubuntu8.9",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.39-0ubuntu8.9"
@@ -2200,6 +2549,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/gmp@2:6.3.0%2Bdfsg-2ubuntu6.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2:6.3.0+dfsg-2ubuntu6.1"
@@ -2220,6 +2570,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/gnupg2@2.4.4-2ubuntu17.6",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.4.4-2ubuntu17.6"
@@ -2240,6 +2591,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/gnutls28@3.8.3-1.1ubuntu3.6",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.8.3-1.1ubuntu3.6"
@@ -2260,6 +2612,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/libassuan@2.5.6-1build1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.5.6-1build1"
@@ -2280,6 +2633,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/libcap-ng@0.8.4-2build2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.8.4-2build2"
@@ -2300,6 +2654,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/libffi@3.4.6-1build1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.4.6-1build1"
@@ -2320,6 +2675,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/libgpg-error@1.47-3build2.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.47-3build2.1"
@@ -2340,6 +2696,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/libidn2@2.3.7-2build1.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.3.7-2build1.1"
@@ -2360,6 +2717,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/libmd@1.1.0-2build1.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.1.0-2build1.1"
@@ -2380,6 +2738,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/libseccomp@2.5.5-1ubuntu3.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "2.5.5-1ubuntu3.1"
@@ -2400,6 +2759,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/libselinux@3.5-2ubuntu2.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.5-2ubuntu2.1"
@@ -2420,6 +2780,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/libsemanage@3.5-1build5",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.5-1build5"
@@ -2440,6 +2801,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/libsepol@3.5-2build1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.5-2build1"
@@ -2460,6 +2822,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/libunistring@1.1-2build1.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.1-2build1.1"
@@ -2480,6 +2843,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/libxcrypt@1:4.4.36-4build1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1:4.4.36-4build1"
@@ -2500,6 +2864,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/libzstd@1.5.5%2Bdfsg2-2build1.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.5.5+dfsg2-2build1.1"
@@ -2520,6 +2885,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/lz4@1.9.4-1build1.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.9.4-1build1.1"
@@ -2540,6 +2906,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/ncurses@6.4%2B20240113-1ubuntu2.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "6.4+20240113-1ubuntu2.2"
@@ -2560,6 +2927,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/nettle@3.9.1-2.2build1.1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.9.1-2.2build1.1"
@@ -2580,6 +2948,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/npth@1.6-3.1build1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.6-3.1build1"
@@ -2600,6 +2969,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.16",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.0.13-0ubuntu3.16"
@@ -2620,6 +2990,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/p11-kit@0.25.3-4ubuntu2.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.25.3-4ubuntu2.2"
@@ -2640,6 +3011,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/pam@1.5.3-5ubuntu5.7",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1.5.3-5ubuntu5.7"
@@ -2660,6 +3032,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/pcre2@10.42-4ubuntu2.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "10.42-4ubuntu2.2"
@@ -2680,6 +3053,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/perl@5.38.2-3.2ubuntu0.7",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "5.38.2-3.2ubuntu0.7"
@@ -2700,6 +3074,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/shadow@1:4.13%2Bdfsg1-4ubuntu3.2",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1:4.13+dfsg1-4ubuntu3.2"
@@ -2720,6 +3095,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/systemd@255.4-1ubuntu8.18",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "255.4-1ubuntu8.18"
@@ -2740,6 +3116,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/sysvinit@3.08-6ubuntu3",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "3.08-6ubuntu3"
@@ -2760,6 +3137,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/xxhash@0.8.2-2build1",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "0.8.2-2build1"
@@ -2780,6 +3158,7 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/xz-utils@5.6.1%2Breally5.4.5-1ubuntu0.4",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "5.6.1+really5.4.5-1ubuntu0.4"
@@ -2800,16 +3179,22 @@
       "namespace": "ubuntu",
       "paths": [],
       "purl": "pkg:deb/ubuntu/zlib@1:1.3.dfsg-3.1ubuntu2.3",
+      "qualifiers": {},
       "scope": null,
       "tier": "secondary",
       "version": "1:1.3.dfsg-3.1ubuntu2.3"
     }
   ],
-  "generated_utc": "2026-11-23T06:17:19+00:00",
+  "generated_utc": "2026-11-23T07:02:17+00:00",
   "kind": "image",
   "notes": [
     "os-release: ID=ubuntu VERSION_ID=24.04"
   ],
+  "os": {
+    "id": "ubuntu",
+    "pretty_name": "Ubuntu 24.04.5 LTS",
+    "version_id": "24.04"
+  },
   "stage": "S3",
   "stats": {
     "by_eco": {
