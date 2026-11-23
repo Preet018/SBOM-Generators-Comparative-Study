@@ -1,0 +1,5625 @@
+{
+  "components": [
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM rpds-py.cyclonedx.json in rpds_py",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::archery",
+      "license": "MIT",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "archery",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/archery@1.2.3",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.2.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM rpds-py.cyclonedx.json in rpds_py",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::heck",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "heck",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/heck@0.5.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.5.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM rpds-py.cyclonedx.json in rpds_py",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::libc",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "libc",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/libc@0.2.177",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.2.177"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM rpds-py.cyclonedx.json in rpds_py",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::once_cell",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "once_cell",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/once_cell@1.21.3",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.21.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM rpds-py.cyclonedx.json in rpds_py",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::proc-macro2",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "proc-macro2",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/proc-macro2@1.0.103",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.0.103"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM rpds-py.cyclonedx.json in rpds_py",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::pyo3",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "pyo3",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/pyo3@0.29.3",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.29.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM rpds-py.cyclonedx.json in rpds_py",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::pyo3-build-config",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "pyo3-build-config",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/pyo3-build-config@0.29.3",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.29.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM rpds-py.cyclonedx.json in rpds_py",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::pyo3-ffi",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "pyo3-ffi",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/pyo3-ffi@0.29.3",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.29.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM rpds-py.cyclonedx.json in rpds_py",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::pyo3-macros",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "pyo3-macros",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/pyo3-macros@0.29.3",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.29.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM rpds-py.cyclonedx.json in rpds_py",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::pyo3-macros-backend",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "pyo3-macros-backend",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/pyo3-macros-backend@0.29.3",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.29.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM rpds-py.cyclonedx.json in rpds_py",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::quote",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "quote",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/quote@1.0.42",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.0.42"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM rpds-py.cyclonedx.json in rpds_py",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::rpds",
+      "license": "MIT",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "rpds",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/rpds@1.2.1",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.2.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM rpds-py.cyclonedx.json in rpds_py",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::smallvec",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "smallvec",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/smallvec@1.15.1",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.15.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM rpds-py.cyclonedx.json in rpds_py",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::syn",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "syn",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/syn@2.0.111",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.0.111"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM rpds-py.cyclonedx.json in rpds_py",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::target-lexicon",
+      "license": "Apache-2.0 WITH LLVM-exception",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "target-lexicon",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/target-lexicon@0.13.3",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.13.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM rpds-py.cyclonedx.json in rpds_py",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::triomphe",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "triomphe",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/triomphe@0.1.16",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.1.16"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM rpds-py.cyclonedx.json in rpds_py",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::unicode-ident",
+      "license": "(MIT OR Apache-2.0) AND Unicode-3.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "unicode-ident",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/sboms/rpds-py.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/unicode-ident@1.0.22",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.0.22"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::adduser",
+      "license": "GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "adduser",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/adduser@3.152?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.152"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::apt",
+      "license": "GPL-2+ AND GPL-2+ and curl AND BSD-3-clause AND Expat AND GPL-2 AND curl",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "apt",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/apt@3.0.4?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.0.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::base-files",
+      "license": "GPL-2+ AND verbatim",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "base-files",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/base-files@13.8%2Bdeb13u7?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "13.8+deb13u7"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::base-passwd",
+      "license": "GPL-2 AND public-domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "base-passwd",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/base-passwd@3.6.7?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.6.7"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::bash",
+      "license": "GPL-3+ AND GPL-3+ with Bison exception AND GPL-2+ AND GFDL-NIV-1.3 AND Latex2e AND BSD-4-clause-UC and MIT-like AND BSD-4-clause-UC AND MIT-like AND permissive",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "bash",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/bash@5.2.37-2%2Bb10?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "5.2.37-2+b10"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::bsdutils",
+      "license": "GPL-2+ AND GPL-2 AND GPL-3+ AND LGPL-2.1+ AND public-domain AND BSD-4-clause AND Expat AND ISC AND BSD-3-clause AND BSLA AND LGPL-2+ AND LGPL AND BSD-2-clause AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "bsdutils",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/bsdutils@1:2.41.5-0%2Bdeb13u1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:2.41.5-0+deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::ca-certificates",
+      "license": "GPL-2+ AND MPL-2.0",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "ca-certificates",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/ca-certificates@20250419%2Bdeb13u1?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "20250419+deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::coreutils",
+      "license": "GPL-3+ AND GPL-3+ and BSD-4-clause-UC AND BSD-4-clause-UC AND GPL-3+ and ISC AND ISC AND FSFULLR AND GFDL-NIV-1.3",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "coreutils",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/coreutils@9.7-3?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "9.7-3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::dash",
+      "license": "BSD-3-Clause AND public-domain AND GPL-2+ AND BSD-3-clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "dash",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/dash@0.5.12-12?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.5.12-12"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::debconf",
+      "license": "BSD-2-clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "debconf",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/debconf@1.5.91?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.5.91"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::debian-archive-keyring",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "debian-archive-keyring",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/debian-archive-keyring@2025.1?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "2025.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::debianutils",
+      "license": "GPL-2+ AND public-domain AND SMAIL-GPL",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "debianutils",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/debianutils@5.23.2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "5.23.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::diffutils",
+      "license": "GPL-3+ AND FSFULLR AND GPL-3+ and FSFULLR AND LGPL-2.1+ AND GPL-3+ with autoconf exception AND GPL-3+ with texinfo exception AND LGPL-2.0+ AND GPL-2+ AND X11 AND FSFAP AND GFDL-NIV-1.3 AND LGPL-3.0+ AND LGPL-3.0+ or GPL-2+ AND public-domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "diffutils",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/diffutils@1:3.10-4?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:3.10-4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::dpkg",
+      "license": "GPL-2+ AND public-domain-s-s-d",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "dpkg",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/dpkg@1.22.22?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.22.22"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::findutils",
+      "license": "GFDL-NIV-1.3+ or GFDL-NIV-1.3+ AND GPL-3+ AND FSFAP AND GFDL-NIV-1.3+ AND GPL-2+ with Autoconf-data exception AND GPL-3+ with Autoconf-data exception AND FSFULLR AND GPL-2+ AND X11 AND public-domain AND LGPL-2.1+ AND GPL with automake exception AND LGPL-2+ AND LGPL-3+ AND BSD-3-clause or GPL-3+ AND GPL-3+ with Bison-2.2 exception AND LGPL-3 AND FSFULLR or GPL or LGPL AND ISC or LGPL-2.1+ AND BSD-3-clause or LGPL-3+ AND BSD-3-clause or LGPL-2.1+ AND BSD-3-clause AND GPL AND ISC AND LGPL",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "findutils",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/findutils@4.10.0-3?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.10.0-3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::gcc-14-base",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gcc-14-base",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/gcc-14-base@14.2.0-19?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "14.2.0-19"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::grep",
+      "license": "GPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "grep",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/grep@3.11-4?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.11-4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::gzip",
+      "license": "GPL-3+ AND GFDL-1.3+-no-invariant AND FSF-manpages",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gzip",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/gzip@1.13-1%2Bdeb13u1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.13-1+deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::hostname",
+      "license": "GPL-2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "hostname",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/hostname@3.25?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.25"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::init-system-helpers",
+      "license": "BSD-3-clause AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "init-system-helpers",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/init-system-helpers@1.69~deb13u1?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.69~deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libacl1",
+      "license": "GPL-2+ AND LGPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libacl1",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libacl1@2.3.2-2%2Bb1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.3.2-2+b1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libapt-pkg7.0",
+      "license": "GPL-2+ AND GPL-2+ and curl AND BSD-3-clause AND Expat AND GPL-2 AND curl",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libapt-pkg7.0",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libapt-pkg7.0@3.0.4?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.0.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libattr1",
+      "license": "GPL-2+ AND LGPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libattr1",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libattr1@1:2.5.2-3?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:2.5.2-3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libaudit-common",
+      "license": "GPL-2 AND LGPL-2.1",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libaudit-common",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libaudit-common@1:4.0.2-2%2Bdeb13u1?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:4.0.2-2+deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libaudit1",
+      "license": "GPL-2 AND LGPL-2.1",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libaudit1",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libaudit1@1:4.0.2-2%2Bdeb13u1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:4.0.2-2+deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libblkid1",
+      "license": "GPL-2+ AND GPL-2 AND GPL-3+ AND LGPL-2.1+ AND public-domain AND BSD-4-clause AND Expat AND ISC AND BSD-3-clause AND BSLA AND LGPL-2+ AND LGPL AND BSD-2-clause AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libblkid1",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libblkid1@2.41.5-0%2Bdeb13u1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.41.5-0+deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libbsd0",
+      "license": "BSD-3-clause AND BSD-3-clause-Regents AND BSD-3-clause-Regents and BSD-2-clause-NetBSD AND BSD-3-clause-author AND BSD-3-clause-John-Birrell AND BSD-5-clause-Peter-Wemm AND BSD-2-clause-NetBSD AND BSD-2-clause AND BSD-2-clause-verbatim AND BSD-2-clause-author AND ISC AND ISC-Original AND Expat AND public-domain AND Beerware",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libbsd0",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libbsd0@0.12.2-2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.12.2-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libbz2-1.0",
+      "license": "BSD-variant AND GPL-2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libbz2-1.0",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libbz2-1.0@1.0.8-6?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.0.8-6"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libc-bin",
+      "license": "LGPL-2.1+ AND LGPL-2+ AND LGPL-2.1+-with-link-exception AND LGPL-3+ AND GPL-2+ AND GPL-2+-with-link-exception AND LGPL-2.1+ and GPL-2 AND GPL-3+ AND FSFAP AND Carnegie AND Carnegie and LGPL-2.1+ AND Inner-Net and LGPL-2.1+ AND MIT-like-Lord AND BSD-like-Spencer AND PCRE AND BSD-3-clause-Carnegie AND Unicode-DFS-2016 AND BSL-1.0 AND SunPro AND LGPL-2.1+ and SunPro AND CORE-MATH AND BSD-3-clause-Berkeley AND BSD-3-clause-Berkeley and BSD-3-clause-WIDE AND BSD-3-clause-Berkeley and LGPL-2.1+ AND BSD-2-clause or GPL-2 AND BSD-3-clause-Oracle AND BSD-3-clause-Berkeley and DEC AND BSD-3-clause-Berkeley and DEC and IBM and ISC AND BSD-3-clause-Berkeley and DEC and ISC AND BSD-3-clause-Berkeley and DEC and ISC and LGPL-2.1+ AND BSD-3-clause-Berkeley and DEC and LGPL-2.1+ AND BSD-3-clause-Berkeley and ISC AND BSD-3-clause-Berkeley and LGPL-2.1+ and Univ-Coimbra AND IBM and ISC AND ISC AND ISC and LGPL-2.1+ AND public-domain AND BSD-2-clause AND BSD-3-clause-WIDE AND Univ-Coimbra AND DEC AND GPL-2 AND IBM AND Inner-Net",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libc-bin",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libc-bin@2.41-12%2Bdeb13u4?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.41-12+deb13u4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libc6",
+      "license": "LGPL-2.1+ AND LGPL-2+ AND LGPL-2.1+-with-link-exception AND LGPL-3+ AND GPL-2+ AND GPL-2+-with-link-exception AND LGPL-2.1+ and GPL-2 AND GPL-3+ AND FSFAP AND Carnegie AND Carnegie and LGPL-2.1+ AND Inner-Net and LGPL-2.1+ AND MIT-like-Lord AND BSD-like-Spencer AND PCRE AND BSD-3-clause-Carnegie AND Unicode-DFS-2016 AND BSL-1.0 AND SunPro AND LGPL-2.1+ and SunPro AND CORE-MATH AND BSD-3-clause-Berkeley AND BSD-3-clause-Berkeley and BSD-3-clause-WIDE AND BSD-3-clause-Berkeley and LGPL-2.1+ AND BSD-2-clause or GPL-2 AND BSD-3-clause-Oracle AND BSD-3-clause-Berkeley and DEC AND BSD-3-clause-Berkeley and DEC and IBM and ISC AND BSD-3-clause-Berkeley and DEC and ISC AND BSD-3-clause-Berkeley and DEC and ISC and LGPL-2.1+ AND BSD-3-clause-Berkeley and DEC and LGPL-2.1+ AND BSD-3-clause-Berkeley and ISC AND BSD-3-clause-Berkeley and LGPL-2.1+ and Univ-Coimbra AND IBM and ISC AND ISC AND ISC and LGPL-2.1+ AND public-domain AND BSD-2-clause AND BSD-3-clause-WIDE AND Univ-Coimbra AND DEC AND GPL-2 AND IBM AND Inner-Net",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libc6",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libc6@2.41-12%2Bdeb13u4?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.41-12+deb13u4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libcap-ng0",
+      "license": "LGPL-2.1+ AND GPL-2+ AND GPL-3",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libcap-ng0",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libcap-ng0@0.8.5-4%2Bb1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.8.5-4+b1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libcap2",
+      "license": "BSD-3-clause or GPL-2 AND BSD-3-clause or GPL-2+ AND BSD-3-clause AND GPL-2 AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libcap2",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libcap2@1:2.75-10%2Bdeb13u1%2Bb3?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:2.75-10+deb13u1+b3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libcrypt1",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libcrypt1",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libcrypt1@1:4.4.38-1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:4.4.38-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libdb5.3t64",
+      "license": "Sleepycat and BSD-3-clause AND Sleepycat AND BSD-3-clause AND Ms-PL AND GPL or Artistic AND X11 AND MIT-old AND TCL-like AND BSD-3-clause-fjord AND GPL-3 AND zlib AND Artistic or BSD-3-clause AND GPL",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libdb5.3t64",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libdb5.3t64@5.3.28%2Bdfsg2-9?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "5.3.28+dfsg2-9"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libdebconfclient0",
+      "license": "BSD-2-Clause AND GPL-2+ AND BSD-2-clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libdebconfclient0",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libdebconfclient0@0.280?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.280"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libffi8",
+      "license": "Expat AND X11 AND GPL-2+ AND GPL-3+ AND MPL-1.1 or GPL-2+ or LGPL-2.1+ AND public-domain AND GPL",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libffi8",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libffi8@3.4.8-2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.4.8-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libgcc-s1",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libgcc-s1",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libgcc-s1@14.2.0-19?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "14.2.0-19"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libgdbm6t64",
+      "license": "GPL-3+ AND GPL-2+ AND GFDL-NIV-1.3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libgdbm6t64",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libgdbm6t64@1.24-2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.24-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libgmp10",
+      "license": "GPL-2+ or LGPL-3+ AND GPL-3+ AND GPL-3+ with Bison exception AND GPL-2+ AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libgmp10",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libgmp10@2:6.3.0%2Bdfsg-3?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2:6.3.0+dfsg-3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libhogweed6t64",
+      "license": "LGPL-3+ or GPL-2+ AND LGPL-2+ AND Expat AND GPL-2+ AND GPL-3+ with Autoconf exception AND public-domain AND GPL-2 AND GAP AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libhogweed6t64",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libhogweed6t64@3.10.1-1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.10.1-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::liblastlog2-2",
+      "license": "GPL-2+ AND GPL-2 AND GPL-3+ AND LGPL-2.1+ AND public-domain AND BSD-4-clause AND Expat AND ISC AND BSD-3-clause AND BSLA AND LGPL-2+ AND LGPL AND BSD-2-clause AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "liblastlog2-2",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/liblastlog2-2@2.41.5-0%2Bdeb13u1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.41.5-0+deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::liblz4-1",
+      "license": "GPL-2+ AND BSD-2-clause AND BSD-2-clause or GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "liblz4-1",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/liblz4-1@1.10.0-4?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.10.0-4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::liblzma5",
+      "license": "Different licenses apply to different files in this package. Here AND 0BSD AND GPL-2+ AND LGPL-2.1+ AND FSFULLR AND GPL-3.0-or-later-WITH-Autoconf-exception-macro AND none AND PD AND permissive-nowarranty AND FSFUL AND noderivs AND PD-debian",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "liblzma5",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/liblzma5@5.8.1-1%2Bdeb13u2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "5.8.1-1+deb13u2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libmd0",
+      "license": "BSD-3-clause AND BSD-3-clause-Aaron-D-Gifford AND BSD-2-clause AND BSD-2-clause-NetBSD AND ISC AND Beerware AND public-domain-md4 AND public-domain-md5 AND public-domain-sha1",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libmd0",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libmd0@1.1.0-2%2Bb1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.1.0-2+b1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libmount1",
+      "license": "GPL-2+ AND GPL-2 AND GPL-3+ AND LGPL-2.1+ AND public-domain AND BSD-4-clause AND Expat AND ISC AND BSD-3-clause AND BSLA AND LGPL-2+ AND LGPL AND BSD-2-clause AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libmount1",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libmount1@2.41.5-0%2Bdeb13u1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.41.5-0+deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libncursesw6",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libncursesw6",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libncursesw6@6.5%2B20250216-2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "6.5+20250216-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libnettle8t64",
+      "license": "LGPL-3+ or GPL-2+ AND LGPL-2+ AND Expat AND GPL-2+ AND GPL-3+ with Autoconf exception AND public-domain AND GPL-2 AND GAP AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libnettle8t64",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libnettle8t64@3.10.1-1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.10.1-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libpam-modules",
+      "license": "BSD-3-clause or GPL AND GPL-2 AND GPL-2+ AND GPL-3 AND GPL-3+ with Bison exception AND BSD-tcp_wrappers AND LGPL-2+ AND public-domain AND Beerware",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libpam-modules",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libpam-modules@1.7.0-5?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.7.0-5"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libpam-modules-bin",
+      "license": "BSD-3-clause or GPL AND GPL-2 AND GPL-2+ AND GPL-3 AND GPL-3+ with Bison exception AND BSD-tcp_wrappers AND LGPL-2+ AND public-domain AND Beerware",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libpam-modules-bin",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libpam-modules-bin@1.7.0-5?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.7.0-5"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libpam-runtime",
+      "license": "BSD-3-clause or GPL AND GPL-2 AND GPL-2+ AND GPL-3 AND GPL-3+ with Bison exception AND BSD-tcp_wrappers AND LGPL-2+ AND public-domain AND Beerware",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libpam-runtime",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libpam-runtime@1.7.0-5?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.7.0-5"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libpam0g",
+      "license": "BSD-3-clause or GPL AND GPL-2 AND GPL-2+ AND GPL-3 AND GPL-3+ with Bison exception AND BSD-tcp_wrappers AND LGPL-2+ AND public-domain AND Beerware",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libpam0g",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libpam0g@1.7.0-5?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.7.0-5"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libpcre2-8-0",
+      "license": "BSD-3-clause-Cambridge with BINARY LIBRARY-LIKE PACKAGES exception AND BSD-3-clause AND X11 AND BSD-2-clause AND public-domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libpcre2-8-0",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libpcre2-8-0@10.46-1~deb13u3?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "10.46-1~deb13u3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libreadline8t64",
+      "license": "GPL-3+ AND GPL-2+ AND GFDL-NIV-1.3+ AND ISC-no-attribution AND GPL-3",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libreadline8t64",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libreadline8t64@8.2-6?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "8.2-6"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libseccomp2",
+      "license": "LGPL-2.1",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libseccomp2",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libseccomp2@2.6.0-2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.6.0-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libselinux1",
+      "license": "public-domain AND GPL-2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libselinux1",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libselinux1@3.8.1-1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.8.1-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libsemanage-common",
+      "license": "LGPL-2.1+ AND GPL-2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsemanage-common",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libsemanage-common@3.8.1-1?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.8.1-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libsemanage2",
+      "license": "LGPL-2.1+ AND GPL-2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsemanage2",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libsemanage2@3.8.1-1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.8.1-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libsepol2",
+      "license": "LGPL-2.1+ AND Zlib AND GPL-2 AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsepol2",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libsepol2@3.8.1-1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.8.1-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libsmartcols1",
+      "license": "GPL-2+ AND GPL-2 AND GPL-3+ AND LGPL-2.1+ AND public-domain AND BSD-4-clause AND Expat AND ISC AND BSD-3-clause AND BSLA AND LGPL-2+ AND LGPL AND BSD-2-clause AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsmartcols1",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libsmartcols1@2.41.5-0%2Bdeb13u1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.41.5-0+deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libsqlite3-0",
+      "license": "public-domain AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsqlite3-0",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libsqlite3-0@3.46.1-7%2Bdeb13u2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.46.1-7+deb13u2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libssl3t64",
+      "license": "Apache-2.0 AND Artistic or GPL-1+ AND Artistic AND GPL-1+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libssl3t64",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libssl3t64@3.5.7-1~deb13u3?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.5.7-1~deb13u3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libstdc++6",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libstdc++6",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libstdc%2B%2B6@14.2.0-19?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "14.2.0-19"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libsystemd0",
+      "license": "LGPL-2.1+ AND CC0-1.0 AND GPL-2 with Linux-syscall-note exception AND Expat AND public-domain AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsystemd0",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libsystemd0@257.13-1~deb13u1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "257.13-1~deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libtinfo6",
+      "license": "MIT/X11 AND X11 AND BSD-3-clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libtinfo6",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libtinfo6@6.5%2B20250216-2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "6.5+20250216-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libudev1",
+      "license": "LGPL-2.1+ AND CC0-1.0 AND GPL-2 with Linux-syscall-note exception AND Expat AND public-domain AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libudev1",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libudev1@257.13-1~deb13u1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "257.13-1~deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libuuid1",
+      "license": "GPL-2+ AND GPL-2 AND GPL-3+ AND LGPL-2.1+ AND public-domain AND BSD-4-clause AND Expat AND ISC AND BSD-3-clause AND BSLA AND LGPL-2+ AND LGPL AND BSD-2-clause AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libuuid1",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libuuid1@2.41.5-0%2Bdeb13u1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.41.5-0+deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libxxhash0",
+      "license": "BSD-2-clause AND GPL-2+ AND BSD-2-clause or GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libxxhash0",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libxxhash0@0.8.3-2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.8.3-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libzstd1",
+      "license": "BSD-3-clause or GPL-2 AND zlib AND Expat AND GPL-2 AND BSD-3-clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libzstd1",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/libzstd1@1.5.7%2Bdfsg-1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.5.7+dfsg-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::login",
+      "license": "GPL-2+ AND GPL-2 AND GPL-3+ AND LGPL-2.1+ AND public-domain AND BSD-4-clause AND Expat AND ISC AND BSD-3-clause AND BSLA AND LGPL-2+ AND LGPL AND BSD-2-clause AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "login",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/login@1:4.16.0-2%2Breally2.41.5-0%2Bdeb13u1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:4.16.0-2+really2.41.5-0+deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::login.defs",
+      "license": "BSD-3-clause AND GPL-1 AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "login.defs",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/login.defs@1:4.17.4-2?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:4.17.4-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::mawk",
+      "license": "GPL-2.0-only AND X11 AND CC-BY-3.0",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "mawk",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/mawk@1.3.4.20250131-1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.3.4.20250131-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::mount",
+      "license": "GPL-2+ AND GPL-2 AND GPL-3+ AND LGPL-2.1+ AND public-domain AND BSD-4-clause AND Expat AND ISC AND BSD-3-clause AND BSLA AND LGPL-2+ AND LGPL AND BSD-2-clause AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "mount",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/mount@2.41.5-0%2Bdeb13u1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.41.5-0+deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::ncurses-base",
+      "license": "MIT/X11 AND X11 AND BSD-3-clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "ncurses-base",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/ncurses-base@6.5%2B20250216-2?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "6.5+20250216-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::ncurses-bin",
+      "license": "MIT/X11 AND X11 AND BSD-3-clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "ncurses-bin",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/ncurses-bin@6.5%2B20250216-2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "6.5+20250216-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::netbase",
+      "license": "GPL-2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "netbase",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/netbase@6.5?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "6.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 2,
+      "key": "deb::openssl",
+      "license": "Apache-2.0 AND Artistic or GPL-1+ AND Artistic AND GPL-1+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "openssl",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/openssl@3.5.7-1~deb13u3",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.5.7-1~deb13u3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::openssl-provider-legacy",
+      "license": "Apache-2.0 AND Artistic or GPL-1+ AND Artistic AND GPL-1+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "openssl-provider-legacy",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/openssl-provider-legacy@3.5.7-1~deb13u3?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.5.7-1~deb13u3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::passwd",
+      "license": "BSD-3-clause AND GPL-1 AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "passwd",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/passwd@1:4.17.4-2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:4.17.4-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::perl-base",
+      "license": "GPL-1+ or Artistic AND Expat AND REGCOMP, and GPL-1+ or Artistic AND GPL-3+-WITH-BISON-EXCEPTION AND Unicode AND GPL-1+ or Artistic, and Unicode AND BZIP AND ZLIB AND Artistic AND GPL-2+ or Artistic AND Expat or GPL-1+ or Artistic AND FSFAP AND BSD-3-clause-with-weird-numbering AND CC0-1.0 AND Artistic or GPL-1+ AND TEXT-TABS AND GPL-1+ or Artistic, and BSD-4-clause-POWERDOG AND GPL-1+ or Artistic, and BSD-3-clause-GENERIC AND BSD-3-clause AND SDBM-PUBLIC-DOMAIN AND DONT-CHANGE-THE-GPL AND GPL-1+ or Artistic or Artistic-dist AND Artistic-dist AND Artistic or GPL-1+ or Artistic-dist AND GPL-1+ or Artistic, and Expat AND LGPL-2.1 AND GPL-1+ AND GPL-2+ AND Artistic-2 AND BSD-4-clause-POWERDOG AND BSD-3-clause-GENERIC AND REGCOMP",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "perl-base",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/perl-base@5.40.1-6%2Bdeb13u1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "5.40.1-6+deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::readline-common",
+      "license": "GPL-3+ AND GPL-2+ AND GFDL-NIV-1.3+ AND ISC-no-attribution AND GPL-3",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "readline-common",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/readline-common@8.2-6?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "8.2-6"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::sed",
+      "license": "GPL-3+ AND X11 AND GFDL-NIV-1.3+ AND GPL-3+ and ISC AND ISC AND BSD-4-clause-UC AND BSL-1 AND pcre",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "sed",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/sed@4.9-2%2Bdeb13u1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.9-2+deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::sqv",
+      "license": "LGPL-2.0-or-later",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "sqv",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/sqv@1.3.0-3%2Bb2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.3.0-3+b2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::sysvinit-utils",
+      "license": "GPL-2.0+ AND LGPL-2.1+ AND GPL-3.0 AND GPL-2.0",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "sysvinit-utils",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/sysvinit-utils@3.14-4?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.14-4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::tar",
+      "license": "GPL-3+ AND GPL-3+ with Bison exception AND LGPL-2.1+ AND LGPL-3+ AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "tar",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/tar@1.35%2Bdfsg-3.1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.35+dfsg-3.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::tzdata",
+      "license": "public-domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "tzdata",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/tzdata@2026f-0%2Bdeb13u1?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "2026f-0+deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 2,
+      "key": "deb::util-linux",
+      "license": "GPL-2+ AND GPL-2 AND GPL-3+ AND LGPL-2.1+ AND public-domain AND BSD-4-clause AND Expat AND ISC AND BSD-3-clause AND BSLA AND LGPL-2+ AND LGPL AND BSD-2-clause AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "util-linux",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/util-linux@2.41.5-0%2Bdeb13u1",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.41.5-0+deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::zlib1g",
+      "license": "Zlib",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "zlib1g",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/debian/zlib1g@1:1.3.dfsg%2Breally1.3.1-1%2Bb1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:1.3.dfsg+really1.3.1-1+b1"
+    },
+    {
+      "alt_names": [
+        "avif",
+        "libavif"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file; version declared by pillow's embedded SBOM",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::libavif",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "libavif",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow.libs/libavif-c6062d5f.so.16.4.2"
+      ],
+      "purl": "pkg:generic/libavif@1.4.2",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.4.2"
+    },
+    {
+      "alt_names": [
+        "brotlicommon",
+        "libbrotlicommon"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::libbrotlicommon",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "libbrotlicommon",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow.libs/libbrotlicommon-53534446.so.1.2.0"
+      ],
+      "purl": "pkg:generic/libbrotlicommon?vendored_in=pillow",
+      "scope": null,
+      "tier": "primary",
+      "version": null
+    },
+    {
+      "alt_names": [
+        "brotlidec",
+        "libbrotlidec"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::libbrotlidec",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "libbrotlidec",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow.libs/libbrotlidec-7e5462ba.so.1.2.0"
+      ],
+      "purl": "pkg:generic/libbrotlidec?vendored_in=pillow",
+      "scope": null,
+      "tier": "primary",
+      "version": null
+    },
+    {
+      "alt_names": [
+        "freetype",
+        "libfreetype"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::libfreetype",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "libfreetype",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow.libs/libfreetype-57f805ba.so.6.20.6"
+      ],
+      "purl": "pkg:generic/libfreetype?vendored_in=pillow",
+      "scope": null,
+      "tier": "primary",
+      "version": null
+    },
+    {
+      "alt_names": [
+        "gfortran",
+        "libgfortran"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::libgfortran",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "libgfortran",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/numpy.libs/libgfortran-040039e1-0352e75f.so.5.0.0"
+      ],
+      "purl": "pkg:generic/libgfortran?vendored_in=numpy",
+      "scope": null,
+      "tier": "primary",
+      "version": null
+    },
+    {
+      "alt_names": [
+        "harfbuzz",
+        "libharfbuzz"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::libharfbuzz",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "libharfbuzz",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow.libs/libharfbuzz-fb49c9fc.so.0.61450.0"
+      ],
+      "purl": "pkg:generic/libharfbuzz?vendored_in=pillow",
+      "scope": null,
+      "tier": "primary",
+      "version": null
+    },
+    {
+      "alt_names": [
+        "jpeg",
+        "libjpeg"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::libjpeg",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "libjpeg",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow.libs/libjpeg-6dc8d115.so.62.4.0"
+      ],
+      "purl": "pkg:generic/libjpeg?vendored_in=pillow",
+      "scope": null,
+      "tier": "primary",
+      "version": null
+    },
+    {
+      "alt_names": [
+        "lcms2",
+        "liblcms2"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::liblcms2",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "liblcms2",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow.libs/liblcms2-88eaba2f.so.2.0.19"
+      ],
+      "purl": "pkg:generic/liblcms2?vendored_in=pillow",
+      "scope": null,
+      "tier": "primary",
+      "version": null
+    },
+    {
+      "alt_names": [
+        "liblzma",
+        "lzma"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::liblzma",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "liblzma",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow.libs/liblzma-de26b416.so.5.8.4"
+      ],
+      "purl": "pkg:generic/liblzma?vendored_in=pillow",
+      "scope": null,
+      "tier": "primary",
+      "version": null
+    },
+    {
+      "alt_names": [
+        "libopenjp2",
+        "openjp2"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::libopenjp2",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "libopenjp2",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow.libs/libopenjp2-e530e1bf.so.2.5.4"
+      ],
+      "purl": "pkg:generic/libopenjp2?vendored_in=pillow",
+      "scope": null,
+      "tier": "primary",
+      "version": null
+    },
+    {
+      "alt_names": [
+        "libpng16",
+        "png16"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::libpng16",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "libpng16",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow.libs/libpng16-1d1ba958.so.16.58.0"
+      ],
+      "purl": "pkg:generic/libpng16?vendored_in=pillow",
+      "scope": null,
+      "tier": "primary",
+      "version": null
+    },
+    {
+      "alt_names": [
+        "libquadmath",
+        "quadmath"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::libquadmath",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "libquadmath",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/numpy.libs/libquadmath-96973f99-934c22de.so.0.0.0"
+      ],
+      "purl": "pkg:generic/libquadmath?vendored_in=numpy",
+      "scope": null,
+      "tier": "primary",
+      "version": null
+    },
+    {
+      "alt_names": [
+        "libscipy_openblas64_",
+        "openblas",
+        "scipy_openblas64_"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::libscipy_openblas64_",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "libscipy_openblas64_",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/numpy.libs/libscipy_openblas64_-32a4b2a6.so"
+      ],
+      "purl": "pkg:generic/libscipy_openblas64_?vendored_in=numpy",
+      "scope": null,
+      "tier": "primary",
+      "version": null
+    },
+    {
+      "alt_names": [
+        "libsharpyuv",
+        "sharpyuv"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::libsharpyuv",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "libsharpyuv",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow.libs/libsharpyuv-0066295b.so.0.1.2"
+      ],
+      "purl": "pkg:generic/libsharpyuv?vendored_in=pillow",
+      "scope": null,
+      "tier": "primary",
+      "version": null
+    },
+    {
+      "alt_names": [
+        "libtiff",
+        "tiff"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file; version declared by pillow's embedded SBOM",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::libtiff",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "libtiff",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow.libs/libtiff-20b7e810.so.6.3.0"
+      ],
+      "purl": "pkg:generic/libtiff@4.7.2",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.7.2"
+    },
+    {
+      "alt_names": [
+        "libwebp",
+        "webp"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file; version declared by pillow's embedded SBOM",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::libwebp",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "libwebp",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow.libs/libwebp-51b0b3f7.so.7.2.0"
+      ],
+      "purl": "pkg:generic/libwebp@1.6.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.6.0"
+    },
+    {
+      "alt_names": [
+        "libwebpdemux",
+        "webpdemux"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::libwebpdemux",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "libwebpdemux",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow.libs/libwebpdemux-9fe2abcc.so.2.0.17"
+      ],
+      "purl": "pkg:generic/libwebpdemux?vendored_in=pillow",
+      "scope": null,
+      "tier": "primary",
+      "version": null
+    },
+    {
+      "alt_names": [
+        "libwebpmux",
+        "webpmux"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::libwebpmux",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "libwebpmux",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow.libs/libwebpmux-8fb1c9f6.so.3.1.2"
+      ],
+      "purl": "pkg:generic/libwebpmux?vendored_in=pillow",
+      "scope": null,
+      "tier": "primary",
+      "version": null
+    },
+    {
+      "alt_names": [
+        "Xau",
+        "libXau"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file; identity from auditwheel SBOM (pillow-13.0.0.dist-info)",
+      "hashes": {},
+      "identified_as": [
+        "pkg:rpm/almalinux/libXau@1.0.9-3.el8"
+      ],
+      "instances": 1,
+      "key": "generic::libxau",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "libXau",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow.libs/libXau-154567c4.so.6.0.0"
+      ],
+      "purl": "pkg:generic/libXau?vendored_in=pillow",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.0.9-3.el8"
+    },
+    {
+      "alt_names": [
+        "libxcb",
+        "xcb"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file; version declared by pillow's embedded SBOM",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::libxcb",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "libxcb",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow.libs/libxcb-9065bb12.so.1.1.0"
+      ],
+      "purl": "pkg:generic/libxcb@1.17.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.17.0"
+    },
+    {
+      "alt_names": [
+        "libzstd",
+        "zstd"
+      ],
+      "eco": "generic",
+      "evidence": "wheel .libs file",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::libzstd",
+      "license": null,
+      "mechanism": "wheel-vendored-so",
+      "mechanisms": [
+        "wheel-vendored-so"
+      ],
+      "name": "libzstd",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow.libs/libzstd-40ad5e7e.so.1.5.7"
+      ],
+      "purl": "pkg:generic/libzstd?vendored_in=pillow",
+      "scope": null,
+      "tier": "primary",
+      "version": null
+    },
+    {
+      "alt_names": [
+        "python",
+        "python3",
+        "cpython"
+      ],
+      "eco": "generic",
+      "evidence": "image ENV PYTHON_VERSION",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::python",
+      "license": null,
+      "mechanism": "runtime-outside-pm",
+      "mechanisms": [
+        "runtime-outside-pm"
+      ],
+      "name": "python",
+      "namespace": null,
+      "paths": [
+        "usr/local/bin/python3.11"
+      ],
+      "purl": "pkg:generic/python@3.11.18",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.11.18"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::altair",
+      "license": "BSD License",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "altair",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/altair-6.3.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/altair@6.3.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "6.3.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::anyio",
+      "license": "MIT",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "anyio",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/anyio-4.16.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/anyio@4.16.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.16.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::attrs",
+      "license": "MIT",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "attrs",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/attrs-26.1.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/attrs@26.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "26.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::certifi",
+      "license": "MPL-2.0",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "certifi",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/certifi-2026.11.20.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/certifi@2026.11.20",
+      "scope": null,
+      "tier": "primary",
+      "version": "2026.11.20"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::charset-normalizer",
+      "license": "MIT",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "charset-normalizer",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/charset_normalizer-3.5.2.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/charset-normalizer@3.5.2",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.5.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::click",
+      "license": "BSD-3-Clause",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "click",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/click-8.5.1.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/click@8.5.1",
+      "scope": null,
+      "tier": "primary",
+      "version": "8.5.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::dnspython",
+      "license": "ISC",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "dnspython",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/dnspython-2.9.2.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/dnspython@2.9.2",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.9.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::h11",
+      "license": "MIT",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "h11",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/h11-0.16.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/h11@0.16.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.16.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::idna",
+      "license": "BSD-3-Clause",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "idna",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/idna-3.20.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/idna@3.20",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.20"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::itsdangerous",
+      "license": "BSD License",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "itsdangerous",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/itsdangerous-2.2.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/itsdangerous@2.2.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.2.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::jinja2",
+      "license": "BSD License",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "Jinja2",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/jinja2-3.1.6.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/jinja2@3.1.6",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.1.6"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::jsonschema",
+      "license": "MIT",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "jsonschema",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/jsonschema-4.26.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/jsonschema@4.26.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.26.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::jsonschema-specifications",
+      "license": "MIT",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "jsonschema-specifications",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/jsonschema_specifications-2025.9.1.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/jsonschema-specifications@2025.9.1",
+      "scope": null,
+      "tier": "primary",
+      "version": "2025.9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::markupsafe",
+      "license": "BSD-3-Clause",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "MarkupSafe",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/markupsafe-3.0.4.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/markupsafe@3.0.4",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.0.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::narwhals",
+      "license": "MIT",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "narwhals",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/narwhals-2.29.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/narwhals@2.29.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.29.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::numpy",
+      "license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "numpy",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/numpy-2.4.6.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/numpy@2.4.6",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.4.6"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::packaging",
+      "license": "Apache-2.0 OR BSD-2-Clause",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "packaging",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/packaging-26.3.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/packaging@26.3",
+      "scope": null,
+      "tier": "primary",
+      "version": "26.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::pandas",
+      "license": "BSD-3-Clause",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "pandas",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pandas-3.1.1.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/pandas@3.1.1",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.1.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::pillow",
+      "license": "MIT-CMU",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "pillow",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/pillow@13.0.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "13.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 2,
+      "key": "pypi::pip",
+      "license": "MIT",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "pip",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip-24.0.dist-info/METADATA",
+        "usr/local/lib/python3.11/ensurepip/_bundled/pip-24.0-py3-none-any.whl"
+      ],
+      "purl": "pkg:pypi/pip@24.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "24.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::protobuf",
+      "license": "3-Clause BSD License",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "protobuf",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/protobuf-7.36.2.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/protobuf@7.36.2",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.36.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::pyarrow",
+      "license": "Apache-2.0",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "pyarrow",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pyarrow-26.0.1.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/pyarrow@26.0.1",
+      "scope": null,
+      "tier": "primary",
+      "version": "26.0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::pydeck",
+      "license": "Apache License 2.0",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "pydeck",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pydeck-0.9.3.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/pydeck@0.9.3",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.9.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::pymongo",
+      "license": "Apache-2.0",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "pymongo",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pymongo-4.20.1.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/pymongo@4.20.1",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.20.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::python-dateutil",
+      "license": "BSD-3-Clause",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "python-dateutil",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/python_dateutil-4.0.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/python-dateutil@4.0.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::python-multipart",
+      "license": "Apache-2.0",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "python-multipart",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/python_multipart-0.0.34.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/python-multipart@0.0.34",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.0.34"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::referencing",
+      "license": "MIT",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "referencing",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/referencing-0.37.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/referencing@0.37.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.37.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::requests",
+      "license": "Apache-2.0",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "requests",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/requests-2.34.2.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/requests@2.34.2",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.34.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::rpds-py",
+      "license": "MIT",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "rpds-py",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/rpds_py-2026.9.1.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/rpds-py@2026.9.1",
+      "scope": null,
+      "tier": "primary",
+      "version": "2026.9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 2,
+      "key": "pypi::setuptools",
+      "license": null,
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "setuptools",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/setuptools-79.0.1.dist-info/METADATA",
+        "usr/local/lib/python3.11/ensurepip/_bundled/setuptools-79.0.1-py3-none-any.whl"
+      ],
+      "purl": "pkg:pypi/setuptools@79.0.1",
+      "scope": null,
+      "tier": "primary",
+      "version": "79.0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::starlette",
+      "license": "BSD-3-Clause",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "starlette",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/starlette-1.10.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/starlette@1.10.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.10.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::streamlit",
+      "license": "Apache-2.0",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "streamlit",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/streamlit-1.67.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/streamlit@1.67.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.67.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::typing-extensions",
+      "license": "PSF-2.0",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "typing_extensions",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/typing_extensions-4.16.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/typing-extensions@4.16.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.16.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::tzdata",
+      "license": "Apache-2.0",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "tzdata",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/tzdata-2026.6.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/tzdata@2026.6",
+      "scope": null,
+      "tier": "primary",
+      "version": "2026.6"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::urllib3",
+      "license": "MIT",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "urllib3",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/urllib3-2.8.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/urllib3@2.8.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.8.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::uvicorn",
+      "license": "BSD-3-Clause",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "uvicorn",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/uvicorn-0.54.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/uvicorn@0.54.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.54.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::watchdog",
+      "license": "Apache-2.0",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "watchdog",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/watchdog-7.1.1.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/watchdog@7.1.1",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.1.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::websockets",
+      "license": "BSD-3-Clause",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "websockets",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/websockets-17.4.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/websockets@17.4",
+      "scope": null,
+      "tier": "primary",
+      "version": "17.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::wheel",
+      "license": "MIT",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "wheel",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/wheel-0.46.3.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/wheel@0.46.3",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.46.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::acl",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "acl",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/acl@2.3.2-2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.3.2-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::attr",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "attr",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/attr@1:2.5.2-3",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1:2.5.2-3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::audit",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "audit",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/audit@1:4.0.2-2%2Bdeb13u1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1:4.0.2-2+deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::bash",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "bash",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/bash@5.2.37-2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "5.2.37-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::bzip2",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "bzip2",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/bzip2@1.0.8-6",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.0.8-6"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::cdebconf",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "cdebconf",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/cdebconf@0.280",
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.280"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::db5.3",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "db5.3",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/db5.3@5.3.28%2Bdfsg2-9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "5.3.28+dfsg2-9"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::gcc-14",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "gcc-14",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/gcc-14@14.2.0-19",
+      "scope": null,
+      "tier": "secondary",
+      "version": "14.2.0-19"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::gdbm",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "gdbm",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/gdbm@1.24-2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.24-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::glibc",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "glibc",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/glibc@2.41-12%2Bdeb13u4",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.41-12+deb13u4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::gmp",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "gmp",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/gmp@2:6.3.0%2Bdfsg-3",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2:6.3.0+dfsg-3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libbsd",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libbsd",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/libbsd@0.12.2-2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.12.2-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libcap-ng",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libcap-ng",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/libcap-ng@0.8.5-4",
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.8.5-4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libcap2",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libcap2",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/libcap2@1:2.75-10%2Bdeb13u1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1:2.75-10+deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libffi",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libffi",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/libffi@3.4.8-2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.4.8-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libmd",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libmd",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/libmd@1.1.0-2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.1.0-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libseccomp",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libseccomp",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/libseccomp@2.6.0-2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.6.0-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libselinux",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libselinux",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/libselinux@3.8.1-1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.8.1-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libsemanage",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libsemanage",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/libsemanage@3.8.1-1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.8.1-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libsepol",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libsepol",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/libsepol@3.8.1-1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.8.1-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libxcrypt",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libxcrypt",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/libxcrypt@1:4.4.38-1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1:4.4.38-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libzstd",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libzstd",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/libzstd@1.5.7%2Bdfsg-1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.5.7+dfsg-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::lz4",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "lz4",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/lz4@1.10.0-4",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.10.0-4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::ncurses",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "ncurses",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/ncurses@6.5%2B20250216-2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "6.5+20250216-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::nettle",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "nettle",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/nettle@3.10.1-1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.10.1-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::pam",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "pam",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/pam@1.7.0-5",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.7.0-5"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::pcre2",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "pcre2",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/pcre2@10.46-1~deb13u3",
+      "scope": null,
+      "tier": "secondary",
+      "version": "10.46-1~deb13u3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::perl",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "perl",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/perl@5.40.1-6%2Bdeb13u1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "5.40.1-6+deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::readline",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "readline",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/readline@8.2-6",
+      "scope": null,
+      "tier": "secondary",
+      "version": "8.2-6"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::rust-sequoia-sqv",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "rust-sequoia-sqv",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/rust-sequoia-sqv@1.3.0-3",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.3.0-3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::shadow",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "shadow",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/shadow@1:4.17.4-2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1:4.17.4-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::sqlite3",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "sqlite3",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/sqlite3@3.46.1-7%2Bdeb13u2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.46.1-7+deb13u2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::systemd",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "systemd",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/systemd@257.13-1~deb13u1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "257.13-1~deb13u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::sysvinit",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "sysvinit",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/sysvinit@3.14-4",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.14-4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::xxhash",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "xxhash",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/xxhash@0.8.3-2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.8.3-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::xz-utils",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "xz-utils",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/xz-utils@5.8.1-1%2Bdeb13u2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "5.8.1-1+deb13u2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::zlib",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "zlib",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/zlib@1:1.3.dfsg%2Breally1.3.1-1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1:1.3.dfsg+really1.3.1-1"
+    },
+    {
+      "alt_names": [
+        "FreeType"
+      ],
+      "eco": "generic",
+      "evidence": "embedded SBOM pillow-13.0.0.cdx.json in pillow (no purl)",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::freetype",
+      "license": null,
+      "mechanism": "wheel-embedded-sbom-noid",
+      "mechanisms": [
+        "wheel-embedded-sbom-noid"
+      ],
+      "name": "FreeType",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
+      ],
+      "purl": "pkg:generic/FreeType@2.14.3",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.14.3"
+    },
+    {
+      "alt_names": [
+        "FriBiDi"
+      ],
+      "eco": "generic",
+      "evidence": "embedded SBOM pillow-13.0.0.cdx.json in pillow (no purl)",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::fribidi",
+      "license": null,
+      "mechanism": "wheel-embedded-sbom-noid",
+      "mechanisms": [
+        "wheel-embedded-sbom-noid"
+      ],
+      "name": "FriBiDi",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
+      ],
+      "purl": "pkg:generic/FriBiDi@1.0.17",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.0.17"
+    },
+    {
+      "alt_names": [
+        "fribidi-shim"
+      ],
+      "eco": "generic",
+      "evidence": "embedded SBOM pillow-13.0.0.cdx.json in pillow (no purl)",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::fribidi-shim",
+      "license": null,
+      "mechanism": "wheel-embedded-sbom-noid",
+      "mechanisms": [
+        "wheel-embedded-sbom-noid"
+      ],
+      "name": "fribidi-shim",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
+      ],
+      "purl": "pkg:generic/fribidi-shim@1.x",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.x"
+    },
+    {
+      "alt_names": [
+        "HarfBuzz"
+      ],
+      "eco": "generic",
+      "evidence": "embedded SBOM pillow-13.0.0.cdx.json in pillow (no purl)",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::harfbuzz",
+      "license": null,
+      "mechanism": "wheel-embedded-sbom-noid",
+      "mechanisms": [
+        "wheel-embedded-sbom-noid"
+      ],
+      "name": "HarfBuzz",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
+      ],
+      "purl": "pkg:generic/HarfBuzz@14.5.0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "14.5.0"
+    },
+    {
+      "alt_names": [
+        "libimagequant"
+      ],
+      "eco": "generic",
+      "evidence": "embedded SBOM pillow-13.0.0.cdx.json in pillow (no purl)",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::libimagequant",
+      "license": null,
+      "mechanism": "wheel-embedded-sbom-noid",
+      "mechanisms": [
+        "wheel-embedded-sbom-noid"
+      ],
+      "name": "libimagequant",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
+      ],
+      "purl": "pkg:generic/libimagequant@4.4.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "4.4.1"
+    },
+    {
+      "alt_names": [
+        "libjpeg / libjpeg-turbo"
+      ],
+      "eco": "generic",
+      "evidence": "embedded SBOM pillow-13.0.0.cdx.json in pillow (no purl)",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::libjpeg / libjpeg-turbo",
+      "license": null,
+      "mechanism": "wheel-embedded-sbom-noid",
+      "mechanisms": [
+        "wheel-embedded-sbom-noid"
+      ],
+      "name": "libjpeg / libjpeg-turbo",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
+      ],
+      "purl": "pkg:generic/libjpeg%20/%20libjpeg-turbo@3.2.0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.2.0"
+    },
+    {
+      "alt_names": [
+        "Little CMS 2"
+      ],
+      "eco": "generic",
+      "evidence": "embedded SBOM pillow-13.0.0.cdx.json in pillow (no purl)",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::little cms 2",
+      "license": null,
+      "mechanism": "wheel-embedded-sbom-noid",
+      "mechanisms": [
+        "wheel-embedded-sbom-noid"
+      ],
+      "name": "Little CMS 2",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
+      ],
+      "purl": "pkg:generic/Little%20CMS%202@2.19.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.19.1"
+    },
+    {
+      "alt_names": [
+        "OpenJPEG"
+      ],
+      "eco": "generic",
+      "evidence": "embedded SBOM pillow-13.0.0.cdx.json in pillow (no purl)",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::openjpeg",
+      "license": null,
+      "mechanism": "wheel-embedded-sbom-noid",
+      "mechanisms": [
+        "wheel-embedded-sbom-noid"
+      ],
+      "name": "OpenJPEG",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
+      ],
+      "purl": "pkg:generic/OpenJPEG@2.5.4",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.5.4"
+    },
+    {
+      "alt_names": [
+        "pybind11"
+      ],
+      "eco": "generic",
+      "evidence": "embedded SBOM pillow-13.0.0.cdx.json in pillow (no purl)",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::pybind11",
+      "license": null,
+      "mechanism": "wheel-embedded-sbom-noid",
+      "mechanisms": [
+        "wheel-embedded-sbom-noid"
+      ],
+      "name": "pybind11",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
+      ],
+      "purl": "pkg:generic/pybind11",
+      "scope": null,
+      "tier": "secondary",
+      "version": null
+    },
+    {
+      "alt_names": [
+        "pythoncapi_compat"
+      ],
+      "eco": "generic",
+      "evidence": "embedded SBOM pillow-13.0.0.cdx.json in pillow (no purl)",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::pythoncapi_compat",
+      "license": null,
+      "mechanism": "wheel-embedded-sbom-noid",
+      "mechanisms": [
+        "wheel-embedded-sbom-noid"
+      ],
+      "name": "pythoncapi_compat",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
+      ],
+      "purl": "pkg:generic/pythoncapi_compat",
+      "scope": null,
+      "tier": "secondary",
+      "version": null
+    },
+    {
+      "alt_names": [
+        "raqm"
+      ],
+      "eco": "generic",
+      "evidence": "embedded SBOM pillow-13.0.0.cdx.json in pillow (no purl)",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::raqm",
+      "license": null,
+      "mechanism": "wheel-embedded-sbom-noid",
+      "mechanisms": [
+        "wheel-embedded-sbom-noid"
+      ],
+      "name": "raqm",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
+      ],
+      "purl": "pkg:generic/raqm@0.11.0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.11.0"
+    },
+    {
+      "alt_names": [
+        "zlib"
+      ],
+      "eco": "generic",
+      "evidence": "embedded SBOM pillow-13.0.0.cdx.json in pillow (no purl)",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::zlib",
+      "license": null,
+      "mechanism": "wheel-embedded-sbom-noid",
+      "mechanisms": [
+        "wheel-embedded-sbom-noid"
+      ],
+      "name": "zlib",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json"
+      ],
+      "purl": "pkg:generic/zlib@2.3.3",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.3.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::autocommand",
+      "license": "LGPLv3",
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "autocommand",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/autocommand@2.2.2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.2.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::backports-tarfile",
+      "license": "MIT License",
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "backports.tarfile",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/backports.tarfile@1.2.0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.2.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::cachecontrol",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "CacheControl",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/cachecontrol@0.13.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.13.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::certifi",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "certifi",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/certifi@2023.7.22",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2023.7.22"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::chardet",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "chardet",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/chardet@5.1.0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "5.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::colorama",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "colorama",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/colorama@0.4.6",
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.4.6"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::distlib",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "distlib",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/distlib@0.3.8",
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.3.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::distro",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "distro",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/distro@1.8.0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.8.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::idna",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "idna",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/idna@3.4",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::importlib-metadata",
+      "license": "Apache Software License",
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "importlib_metadata",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/importlib-metadata@8.0.0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "8.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::inflect",
+      "license": "MIT License",
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "inflect",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/setuptools/_vendor/inflect-7.3.1.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/inflect@7.3.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "7.3.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::jaraco-collections",
+      "license": "MIT License",
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "jaraco.collections",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/jaraco.collections@5.1.0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "5.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::jaraco-context",
+      "license": "MIT License",
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "jaraco.context",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/setuptools/_vendor/jaraco.context-5.3.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/jaraco.context@5.3.0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "5.3.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::jaraco-functools",
+      "license": "MIT License",
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "jaraco.functools",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/jaraco.functools@4.0.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "4.0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::jaraco-text",
+      "license": "MIT License",
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "jaraco.text",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/setuptools/_vendor/jaraco.text-3.12.1.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/jaraco.text@3.12.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.12.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::more-itertools",
+      "license": "MIT License",
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "more-itertools",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/setuptools/_vendor/more_itertools-10.3.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/more-itertools@10.3.0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "10.3.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::msgpack",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "msgpack",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/msgpack@1.0.5",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.0.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::packaging",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "packaging",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/packaging@21.3",
+      "scope": null,
+      "tier": "secondary",
+      "version": "21.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::packaging",
+      "license": "Apache Software License OR BSD License",
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "packaging",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/setuptools/_vendor/packaging-24.2.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/packaging@24.2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "24.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::platformdirs",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "platformdirs",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/platformdirs@3.8.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.8.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::platformdirs",
+      "license": "MIT",
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "platformdirs",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/setuptools/_vendor/platformdirs-4.2.2.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/platformdirs@4.2.2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "4.2.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::pygments",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "pygments",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/pygments@2.15.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.15.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::pyparsing",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "pyparsing",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/pyparsing@3.1.0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::pyproject-hooks",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "pyproject-hooks",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/pyproject-hooks@1.0.0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::requests",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "requests",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/requests@2.31.0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.31.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::resolvelib",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "resolvelib",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/resolvelib@1.0.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::rich",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "rich",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/rich@13.4.2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "13.4.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::setuptools",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "setuptools",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/setuptools@68.0.0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "68.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::six",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "six",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/six@1.16.0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.16.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::tenacity",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "tenacity",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/tenacity@8.2.2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "8.2.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 2,
+      "key": "pypi::tomli",
+      "license": "MIT License",
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "tomli",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/setuptools/_vendor/tomli-2.0.1.dist-info/METADATA",
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/tomli@2.0.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::truststore",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "truststore",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/truststore@0.8.0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.8.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::typeguard",
+      "license": "MIT",
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "typeguard",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/setuptools/_vendor/typeguard-4.3.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/typeguard@4.3.0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "4.3.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::typing-extensions",
+      "license": "Python Software Foundation License",
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "typing_extensions",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/typing-extensions@4.12.2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "4.12.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::typing-extensions",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "typing_extensions",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/typing-extensions@4.7.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "4.7.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::urllib3",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "urllib3",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/urllib3@1.26.17",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.26.17"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::webencodings",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "webencodings",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/webencodings@0.5.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.5.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::wheel",
+      "license": "MIT License",
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "wheel",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/wheel@0.45.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.45.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::zipp",
+      "license": "MIT License",
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "zipp",
+      "namespace": null,
+      "paths": [
+        "usr/local/lib/python3.11/site-packages/setuptools/_vendor/zipp-3.19.2.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/zipp@3.19.2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.19.2"
+    }
+  ],
+  "generated_utc": "2026-11-23T06:17:11+00:00",
+  "kind": "image",
+  "notes": [
+    "os-release: ID=debian VERSION_ID=13"
+  ],
+  "stage": "S3",
+  "stats": {
+    "by_eco": {
+      "cargo": 17,
+      "deb": 124,
+      "generic": 34,
+      "pypi": 78
+    },
+    "by_mechanism": {
+      "lang-pm": 39,
+      "os-pm": 87,
+      "runtime-outside-pm": 1,
+      "source-package": 37,
+      "vendored-source": 39,
+      "wheel-embedded-sbom": 17,
+      "wheel-embedded-sbom-noid": 12,
+      "wheel-vendored-so": 21
+    },
+    "by_tier": {
+      "primary": 165,
+      "secondary": 88
+    },
+    "total": 253
+  },
+  "subject": "log-anomaly",
+  "target": "P-S3-front"
+}

@@ -1,0 +1,141 @@
+# Catalog of every scan target in the study (see docs/IMPLEMENTATION_PLAN.md, section 3).
+#
+# kind:   dir   = a directory tree is scanned            (stage S1 source trees, N-S2 bundle)
+#         file  = a single built file is scanned          (stage S2 artifacts)
+#         image = a container image is scanned (as a docker-save tar)
+# how:    path   = use a repo directory as-is
+#         derive = make a modified copy of a repo directory in work/staging/<id>
+#         build  = docker build (images, or --output for artifacts)
+#         pull   = pull a public image unchanged
+# Paths are relative to the repository root. Image targets are tagged p16/<lower-case id>.
+# Order matters: a target may only depend on targets listed above it.
+
+buildinfo:   # ground-truth inputs produced by build stages (docker build --output)
+  - id: bakery-backend
+    dockerfile: variants/bakery-backend/Dockerfile
+    context: corpus/bakery-inventory-management/bakery-inventory-backend
+    target: buildinfo
+    build_contexts: {planted: variants/bakery-backend/planted}
+  - id: bakery-frontend
+    dockerfile: variants/bakery-frontend/Dockerfile
+    context: corpus/bakery-inventory-management/bakery-inventory-frontend
+    target: buildinfo
+  - id: log-anomaly
+    dockerfile: variants/log-anomaly/Dockerfile.buildinfo
+    context: corpus/log-anomaly-detection
+    target: buildinfo
+  - id: tcp-server
+    dockerfile: variants/tcp-server/Dockerfile
+    context: corpus/multi-client-tcp-server
+    target: buildinfo
+    build_contexts: {planted: variants/tcp-server/planted}
+
+targets:
+  # ---------------- Bakery backend (Java 25 / Spring Boot 4.1 / Maven) ----------------
+  - {id: J-S1, subject: bakery-backend, ecosystem: java, stage: S1, kind: dir, how: path,
+     path: corpus/bakery-inventory-management/bakery-inventory-backend}
+  - id: J-S2
+    subject: bakery-backend
+    ecosystem: java
+    stage: S2
+    kind: file
+    how: build
+    file: app.jar
+    build: &backend
+      dockerfile: variants/bakery-backend/Dockerfile
+      context: corpus/bakery-inventory-management/bakery-inventory-backend
+      target: artifact
+      build_contexts: {planted: variants/bakery-backend/planted}
+  - {id: J-S3-ubuntu, subject: bakery-backend, ecosystem: java, stage: S3, kind: image, how: build,
+     build: {<<: *backend, target: s3-ubuntu}}
+  - {id: J-S3-alpine, subject: bakery-backend, ecosystem: java, stage: S3, kind: image, how: build,
+     build: {<<: *backend, target: s3-alpine}}
+  - {id: J-S3-distroless, subject: bakery-backend, ecosystem: java, stage: S3, kind: image, how: build,
+     build: {<<: *backend, target: s3-distroless}}
+  - {id: J-S3-layered, subject: bakery-backend, ecosystem: java, stage: S3, kind: image, how: build,
+     build: {<<: *backend, target: s3-layered}}
+  - {id: J-P, subject: bakery-backend, ecosystem: java, stage: P, kind: image, how: build,
+     planted: variants/bakery-backend/planted/planted.json,
+     build: {<<: *backend, target: planted-image}}
+
+  # ---------------- Bakery frontend (React 19 + Vite 8 / npm) ----------------
+  - {id: N-S1, subject: bakery-frontend, ecosystem: npm, stage: S1, kind: dir, how: path,
+     path: corpus/bakery-inventory-management/bakery-inventory-frontend}
+  - {id: N-S1-nolock, subject: bakery-frontend, ecosystem: npm, stage: S1, kind: dir, how: derive,
+     derive: {from: corpus/bakery-inventory-management/bakery-inventory-frontend, recipe: exclude, exclude: [package-lock.json]}}
+  - id: N-S2
+    subject: bakery-frontend
+    ecosystem: npm
+    stage: S2
+    kind: dir
+    how: build
+    file: dist
+    build: &frontend
+      dockerfile: variants/bakery-frontend/Dockerfile
+      context: corpus/bakery-inventory-management/bakery-inventory-frontend
+      target: artifact
+  - {id: N-S3-nginx, subject: bakery-frontend, ecosystem: npm, stage: S3, kind: image, how: build,
+     build: {<<: *frontend, target: s3-nginx}}
+  - {id: N-S3-node, subject: bakery-frontend, ecosystem: npm, stage: S3, kind: image, how: build,
+     build: {<<: *frontend, target: s3-node}}
+
+  # ---------------- Log Anomaly Detection (Python / pip) ----------------
+  - {id: P-S1, subject: log-anomaly, ecosystem: python, stage: S1, kind: dir, how: path,
+     path: corpus/log-anomaly-detection}
+  - {id: P-S1-pinned, subject: log-anomaly, ecosystem: python, stage: S1, kind: dir, how: derive,
+     derive: {from: corpus/log-anomaly-detection, recipe: pin_requirements, buildinfo: log-anomaly}}
+  # The project's own Dockerfiles, built unchanged with the same contexts as its docker-compose.yml
+  - {id: P-S3-pred, subject: log-anomaly, ecosystem: python, stage: S3, kind: image, how: build, original: true,
+     build: {dockerfile: corpus/log-anomaly-detection/prediction_service/Dockerfile, context: corpus/log-anomaly-detection}}
+  - {id: P-S3-drift, subject: log-anomaly, ecosystem: python, stage: S3, kind: image, how: build, original: true,
+     build: {dockerfile: corpus/log-anomaly-detection/drift_service/Dockerfile, context: corpus/log-anomaly-detection/drift_service}}
+  - {id: P-S3-front, subject: log-anomaly, ecosystem: python, stage: S3, kind: image, how: build, original: true,
+     build: {dockerfile: corpus/log-anomaly-detection/frontend/Dockerfile, context: corpus/log-anomaly-detection/frontend}}
+  - {id: P-S3-ml, subject: log-anomaly, ecosystem: python, stage: S3, kind: image, how: build, original: true,
+     build: {dockerfile: corpus/log-anomaly-detection/ml_pipeline/Dockerfile, context: corpus/log-anomaly-detection/ml_pipeline}}
+  - {id: P-S3-distroless, subject: log-anomaly, ecosystem: python, stage: S3, kind: image, how: build,
+     build: {dockerfile: variants/log-anomaly/Dockerfile.variants, context: corpus/log-anomaly-detection, target: s3-distroless}}
+  # CUT (22 Nov): scikit-learn ships no musllinux wheel for this version, so pip falls back to a source
+  # build that needs a C/Fortran toolchain (meson: "Unknown compiler"). Adding compilers would change
+  # the image under test, so the variant is dropped (cut list item 2). Reported in the paper as a finding.
+  - {id: P-S3-alpine, subject: log-anomaly, ecosystem: python, stage: S3, kind: image, how: build, optional: true,
+     cut: "scikit-learn has no musllinux wheel; source build needs a compiler toolchain",
+     build: {dockerfile: variants/log-anomaly/Dockerfile.variants, context: corpus/log-anomaly-detection, target: s3-alpine}}
+  - {id: P-P, subject: log-anomaly, ecosystem: python, stage: P, kind: image, how: build, depends_on: [P-S3-pred],
+     planted: variants/log-anomaly/planted/planted.json,
+     build: {dockerfile: variants/log-anomaly/Dockerfile.variants, context: corpus/log-anomaly-detection, target: planted-image,
+             build_args: {PRED_IMAGE: "p16/p-s3-pred:latest"}}}
+  - {id: M-S3, subject: log-anomaly, ecosystem: os, stage: S3, kind: image, how: build, original: true,
+     build: {dockerfile: corpus/log-anomaly-detection/data_storage/Dockerfile, context: corpus/log-anomaly-detection/data_storage}}
+
+  # ---------------- Multi-client TCP server (C / no package manager) ----------------
+  - {id: C-S1, subject: tcp-server, ecosystem: c, stage: S1, kind: dir, how: path,
+     path: corpus/multi-client-tcp-server}
+  - id: C-S2
+    subject: tcp-server
+    ecosystem: c
+    stage: S2
+    kind: file
+    how: build
+    file: server
+    build: &tcp
+      dockerfile: variants/tcp-server/Dockerfile
+      context: corpus/multi-client-tcp-server
+      target: artifact
+      build_contexts: {planted: variants/tcp-server/planted}
+  - {id: C-S3-debian, subject: tcp-server, ecosystem: c, stage: S3, kind: image, how: build,
+     build: {<<: *tcp, target: s3-debian}}
+  - {id: C-S3-alpine, subject: tcp-server, ecosystem: c, stage: S3, kind: image, how: build,
+     build: {<<: *tcp, target: s3-alpine}}
+  - {id: C-S3-scratch, subject: tcp-server, ecosystem: c, stage: S3, kind: image, how: build,
+     build: {<<: *tcp, target: s3-scratch}}
+  - {id: C-P, subject: tcp-server, ecosystem: c, stage: P, kind: image, how: build,
+     planted: variants/tcp-server/planted/planted.json,
+     build: {<<: *tcp, target: planted-image}}
+
+  # ---------------- OS baselines (public images, unchanged) ----------------
+  - {id: O-debian, subject: os-baseline, ecosystem: os, stage: S3, kind: image, how: pull, image: "debian:bookworm-slim"}
+  - {id: O-ubuntu, subject: os-baseline, ecosystem: os, stage: S3, kind: image, how: pull, image: "ubuntu:24.04"}
+  - {id: O-alpine, subject: os-baseline, ecosystem: os, stage: S3, kind: image, how: pull, image: "alpine:3.22"}
+  - {id: O-ubi, subject: os-baseline, ecosystem: os, stage: S3, kind: image, how: pull, image: "registry.access.redhat.com/ubi9/ubi-minimal"}
+  - {id: O-distroless, subject: os-baseline, ecosystem: os, stage: S3, kind: image, how: pull, image: "gcr.io/distroless/base-debian12"}

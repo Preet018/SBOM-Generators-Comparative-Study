@@ -1,0 +1,18 @@
+# syntax=docker/dockerfile:1
+# Ground-truth inputs for the Log Anomaly SOURCE stage (S1):
+# what pip would resolve today for each unpinned requirements.txt, as JSON install reports.
+# Build context: corpus/log-anomaly-detection.  Output: work/buildinfo/log-anomaly/ via --output.
+FROM python:3.11-slim AS resolve
+WORKDIR /src
+COPY requirements.txt ./root/requirements.txt
+COPY prediction_service/requirements.txt ./prediction_service/requirements.txt
+COPY drift_service/requirements.txt ./drift_service/requirements.txt
+COPY frontend/requirements.txt ./frontend/requirements.txt
+COPY ml_pipeline/requirements.txt ./ml_pipeline/requirements.txt
+RUN mkdir -p /gt && for d in root prediction_service drift_service frontend ml_pipeline; do \
+      pip install --dry-run --ignore-installed --quiet --report /gt/pip-report-$d.json -r $d/requirements.txt || exit 1; \
+    done \
+ && python --version > /gt/python-version.txt
+
+FROM scratch AS buildinfo
+COPY --from=resolve /gt/ /

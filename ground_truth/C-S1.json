@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "alt_names": [
+        "glibc",
+        "libc6",
+        "libc",
+        "musl-libc"
+      ],
+      "eco": "generic",
+      "evidence": "#include <pthread.h> etc.",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::glibc",
+      "license": null,
+      "mechanism": "system-implicit",
+      "mechanisms": [
+        "system-implicit"
+      ],
+      "name": "glibc",
+      "namespace": null,
+      "paths": [],
+      "purl": "pkg:generic/glibc",
+      "scope": null,
+      "tier": "secondary",
+      "version": null
+    },
+    {
+      "alt_names": [
+        "musl",
+        "libc6",
+        "libc",
+        "musl-libc"
+      ],
+      "eco": "generic",
+      "evidence": "#include <pthread.h> etc.",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::musl",
+      "license": null,
+      "mechanism": "system-implicit",
+      "mechanisms": [
+        "system-implicit"
+      ],
+      "name": "musl",
+      "namespace": null,
+      "paths": [],
+      "purl": "pkg:generic/musl",
+      "scope": null,
+      "tier": "secondary",
+      "version": null
+    }
+  ],
+  "generated_utc": "2026-11-23T06:17:18+00:00",
+  "kind": "dir",
+  "notes": [
+    "No package manager and no manifest: no primary components. libc/pthread are implicit system dependencies (secondary). The committed client/server are macOS Mach-O binaries."
+  ],
+  "stage": "S1",
+  "stats": {
+    "by_eco": {
+      "generic": 2
+    },
+    "by_mechanism": {
+      "system-implicit": 2
+    },
+    "by_tier": {
+      "secondary": 2
+    },
+    "total": 2
+  },
+  "subject": "tcp-server",
+  "target": "C-S1"
+}

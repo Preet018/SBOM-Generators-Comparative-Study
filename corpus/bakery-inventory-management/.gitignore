@@ -1,0 +1,33 @@
+# Maven / Java
+**/target/
+
+# IDE
+**/.idea/
+**/.settings/
+**/*.iml
+**/.classpath
+**/.project
+**/.factorypath
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Frontend / Node
+**/node_modules/
+**/dist/
+**/.vite/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime uploaded files
+**/uploads/
+
+# Local project context
+Bakery Inventory Management System - Project Context.md

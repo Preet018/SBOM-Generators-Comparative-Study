@@ -1,0 +1,5 @@
+# SBOM generators used in the study, pinned by image digest (pulled 22 Nov 2026).
+# Format: name=image@digest  # version reported by the tool
+SYFT_IMAGE=anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a  # syft 1.57.2 (built 2026-11-16)
+TRIVY_IMAGE=aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb  # trivy 0.76.2
+CDXGEN_IMAGE=ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e  # cdxgen 13.2.0 (Node.js 24.21.0)

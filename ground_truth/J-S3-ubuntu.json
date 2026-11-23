@@ -1,0 +1,6158 @@
+{
+  "components": [
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::adduser",
+      "license": "GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "adduser",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/adduser@3.153ubuntu1?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.153ubuntu1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::apt",
+      "license": "GPL-2+ AND GPL-2+ and curl AND BSD-3-clause AND Expat AND GPL-2 AND curl",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "apt",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/apt@3.2.1ubuntu0.1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.2.1ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::base-files",
+      "license": "GPL-2+ AND verbatim",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "base-files",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/base-files@14ubuntu6.3?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "14ubuntu6.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::base-passwd",
+      "license": "GPL-2 AND public-domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "base-passwd",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/base-passwd@3.6.8?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.6.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::bash",
+      "license": "GPL-3+ AND GPL-3+ with Bison exception AND GPL-2+ AND GFDL-NIV-1.3 AND Latex2e AND BSD-4-clause-UC and MIT-like AND BSD-4-clause-UC AND MIT-like AND permissive",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "bash",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/bash@5.3-2ubuntu1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "5.3-2ubuntu1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::bsdutils",
+      "license": "GPL-2+ AND GPL-2 AND GPL-3+ AND LGPL-2.1+ AND public-domain AND BSD-4-clause AND Expat AND ISC AND BSD-3-clause AND BSLA AND LGPL-2+ AND LGPL AND BSD-2-clause AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "bsdutils",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/bsdutils@1:2.41.3-3ubuntu2.2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:2.41.3-3ubuntu2.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::ca-certificates",
+      "license": "GPL-2+ AND MPL-2.0",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "ca-certificates",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/ca-certificates@20260816ubuntu0.26.04.2?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "20260816ubuntu0.26.04.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::coreutils",
+      "license": "GPL-3",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "coreutils",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/coreutils@9.5-1ubuntu2%2B0.0.0~ubuntu25?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "9.5-1ubuntu2+0.0.0~ubuntu25"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::coreutils-from-uutils",
+      "license": "GPL-3",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "coreutils-from-uutils",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/coreutils-from-uutils@0.0.0~ubuntu25?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.0.0~ubuntu25"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::dash",
+      "license": "BSD-3-Clause AND public-domain AND GPL-2+ AND BSD-3-clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "dash",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/dash@0.5.12-12ubuntu3?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.5.12-12ubuntu3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::debconf",
+      "license": "BSD-2-clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "debconf",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/debconf@1.5.92?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.5.92"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::debianutils",
+      "license": "GPL-2+ AND public-domain AND SMAIL-GPL",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "debianutils",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/debianutils@5.23.2build1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "5.23.2build1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::diffutils",
+      "license": "GPL-3+ AND FSFULLR AND GPL-3+ and FSFULLR AND LGPL-2.1+ AND GPL-3+ with autoconf exception AND GPL-3+ with texinfo exception AND LGPL-2.0+ AND GPL-2+ AND X11 AND FSFAP AND GFDL-NIV-1.3 AND LGPL-3.0+ AND LGPL-3.0+ or GPL-2+ AND public-domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "diffutils",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/diffutils@1:3.12-1ubuntu0.1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:3.12-1ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::dpkg",
+      "license": "GPL-2+ AND public-domain-s-s-d",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "dpkg",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/dpkg@1.23.7ubuntu1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.23.7ubuntu1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::e2fsprogs",
+      "license": "GPL-2 AND GPL-2+ AND 0BSD AND Expat AND BSD-3-Clause-Variant AND BSD-3-Clause AND BSD-4-Clause-CMU AND LGPL-2 AND Apache-2 AND ISC AND GPL or MIT-US-export AND Kazlib AND Latex2e AND GPL-2+ with Texinfo exception",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "e2fsprogs",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/e2fsprogs@1.47.2-3ubuntu4?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.47.2-3ubuntu4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::findutils",
+      "license": "GFDL-NIV-1.3+ or GFDL-NIV-1.3+ AND GPL-3+ AND FSFAP AND GFDL-NIV-1.3+ AND GPL-2+ with Autoconf-data exception AND GPL-3+ with Autoconf-data exception AND FSFULLR AND GPL-2+ AND X11 AND public-domain AND LGPL-2.1+ AND GPL with automake exception AND LGPL-2+ AND LGPL-3+ AND BSD-3-clause or GPL-3+ AND GPL-3+ with Bison-2.2 exception AND LGPL-3 AND FSFULLR or GPL or LGPL AND ISC or LGPL-2.1+ AND BSD-3-clause or LGPL-3+ AND BSD-3-clause or LGPL-2.1+ AND BSD-3-clause AND GPL AND ISC AND LGPL",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "findutils",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/findutils@4.10.0-3build2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.10.0-3build2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::fontconfig",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "fontconfig",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/fontconfig@2.17.1-3ubuntu1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.17.1-3ubuntu1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::fontconfig-config",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "fontconfig-config",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/fontconfig-config@2.17.1-3ubuntu1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.17.1-3ubuntu1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::fonts-dejavu-core",
+      "license": "bitstream-vera AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "fonts-dejavu-core",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/fonts-dejavu-core@2.37-8build1?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.37-8build1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::fonts-dejavu-mono",
+      "license": "bitstream-vera AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "fonts-dejavu-mono",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/fonts-dejavu-mono@2.37-8build1?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.37-8build1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::gcc-16-base",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gcc-16-base",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/gcc-16-base@16-20260322-1ubuntu1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "16-20260322-1ubuntu1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::gnu-coreutils",
+      "license": "GPL-3+ AND GPL-3+ and BSD-4-clause-UC AND BSD-4-clause-UC AND GPL-3+ and ISC AND ISC AND FSFULLR AND GFDL-NIV-1.3",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gnu-coreutils",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/gnu-coreutils@9.7-3ubuntu2.1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "9.7-3ubuntu2.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::gpgv",
+      "license": "GPL-3+ AND permissive AND LGPL-2.1+ AND LGPL-3+ or GPL-2+ AND Expat AND GPL-3+ or BSD-3-clause AND LGPL-3+ AND RFC-Reference AND TinySCHEME AND CC0-1.0 AND BSD-3-clause AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gpgv",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/gpgv@2.4.8-4ubuntu3.1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.4.8-4ubuntu3.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::grep",
+      "license": "GPL-3+ AND FSFAP AND FSFAP or GFDL-1.3+ AND FSFUL AND FSFULLR AND FSFULLR and/or GPL and/or LGPL AND X11 AND ISC or LGPL-2.1+ AND BSD-3-clause or GPL-3+ AND GFDL-1.3+ AND public-domain AND GPL AND LGPL-2+ AND GPL-2+ AND LGPL-3+ AND LGPL-2.1+ AND LGPL AND ISC AND BSD-3-clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "grep",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/grep@3.12-1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.12-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::gzip",
+      "license": "GPL-3+ AND GFDL-1.3+-no-invariant AND FSF-manpages",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gzip",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/gzip@1.14-1~exp2ubuntu1.1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.14-1~exp2ubuntu1.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::hostname",
+      "license": "GPL-2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "hostname",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/hostname@3.25build1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.25build1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::init-system-helpers",
+      "license": "BSD-3-clause AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "init-system-helpers",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/init-system-helpers@1.69?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.69"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libacl1",
+      "license": "GPL-2+ AND LGPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libacl1",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libacl1@2.3.2-2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.3.2-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libapt-pkg7.0",
+      "license": "GPL-2+ AND GPL-2+ and curl AND BSD-3-clause AND Expat AND GPL-2 AND curl",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libapt-pkg7.0",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libapt-pkg7.0@3.2.1ubuntu0.1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.2.1ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libattr1",
+      "license": "GPL-2+ AND LGPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libattr1",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libattr1@1:2.5.2-4ubuntu0.1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:2.5.2-4ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libaudit-common",
+      "license": "GPL-2 AND LGPL-2.1",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libaudit-common",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libaudit-common@1:4.1.2-1ubuntu0.1?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:4.1.2-1ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libaudit1",
+      "license": "GPL-2 AND LGPL-2.1",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libaudit1",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libaudit1@1:4.1.2-1ubuntu0.1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:4.1.2-1ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libblkid1",
+      "license": "GPL-2+ AND GPL-2 AND GPL-3+ AND LGPL-2.1+ AND public-domain AND BSD-4-clause AND Expat AND ISC AND BSD-3-clause AND BSLA AND LGPL-2+ AND LGPL AND BSD-2-clause AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libblkid1",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libblkid1@2.41.3-3ubuntu2.2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.41.3-3ubuntu2.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libbrotli1",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libbrotli1",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libbrotli1@1.2.0-3ubuntu0.1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.2.0-3ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libbsd0",
+      "license": "BSD-3-clause AND BSD-3-clause-Regents AND BSD-3-clause-Regents and BSD-2-clause-NetBSD AND BSD-3-clause-author AND BSD-3-clause-John-Birrell AND BSD-5-clause-Peter-Wemm AND BSD-2-clause-NetBSD AND BSD-2-clause AND BSD-2-clause-verbatim AND BSD-2-clause-author AND ISC AND ISC-Original AND Expat AND public-domain AND Beerware",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libbsd0",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libbsd0@0.12.2-2build2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.12.2-2build2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libbz2-1.0",
+      "license": "BSD-variant AND GPL-2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libbz2-1.0",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libbz2-1.0@1.0.8-6ubuntu0.1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.0.8-6ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libc-bin",
+      "license": "LGPL-2.1+ AND GFDL-1.3 AND LGPL-2+ AND LGPL-2.1+-with-link-exception AND LGPL-3+ AND GPL-2+ AND GPL-2+-with-link-exception AND LGPL-2.1+ and GPL-2 AND GPL-3+ AND FSFAP AND Carnegie AND Carnegie and LGPL-2.1+ AND Inner-Net and LGPL-2.1+ AND MIT-like-Lord AND BSD-like-Spencer AND PCRE AND BSD-3-clause-Carnegie AND Unicode-DFS-2016 AND BSL-1.0 AND SunPro AND LGPL-2.1+ and SunPro AND CORE-MATH AND BSD-3-clause-Berkeley AND BSD-3-clause-Berkeley and BSD-3-clause-WIDE AND BSD-3-clause-Berkeley and LGPL-2.1+ AND BSD-2-clause or GPL-2 AND BSD-3-clause-Oracle AND BSD-3-clause-Berkeley and DEC AND BSD-3-clause-Berkeley and DEC and IBM and ISC AND BSD-3-clause-Berkeley and DEC and ISC AND BSD-3-clause-Berkeley and DEC and ISC and LGPL-2.1+ AND BSD-3-clause-Berkeley and DEC and LGPL-2.1+ AND BSD-3-clause-Berkeley and ISC AND BSD-3-clause-Berkeley and LGPL-2.1+ and Univ-Coimbra AND IBM and ISC AND ISC AND ISC and LGPL-2.1+ AND public-domain AND BSD-2-clause AND BSD-3-clause-WIDE AND Univ-Coimbra AND DEC AND GPL-2 AND IBM AND Inner-Net",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libc-bin",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libc-bin@2.43-2ubuntu2.7?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.43-2ubuntu2.7"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libc-gconv-modules-extra",
+      "license": "LGPL-2.1+ AND GFDL-1.3 AND LGPL-2+ AND LGPL-2.1+-with-link-exception AND LGPL-3+ AND GPL-2+ AND GPL-2+-with-link-exception AND LGPL-2.1+ and GPL-2 AND GPL-3+ AND FSFAP AND Carnegie AND Carnegie and LGPL-2.1+ AND Inner-Net and LGPL-2.1+ AND MIT-like-Lord AND BSD-like-Spencer AND PCRE AND BSD-3-clause-Carnegie AND Unicode-DFS-2016 AND BSL-1.0 AND SunPro AND LGPL-2.1+ and SunPro AND CORE-MATH AND BSD-3-clause-Berkeley AND BSD-3-clause-Berkeley and BSD-3-clause-WIDE AND BSD-3-clause-Berkeley and LGPL-2.1+ AND BSD-2-clause or GPL-2 AND BSD-3-clause-Oracle AND BSD-3-clause-Berkeley and DEC AND BSD-3-clause-Berkeley and DEC and IBM and ISC AND BSD-3-clause-Berkeley and DEC and ISC AND BSD-3-clause-Berkeley and DEC and ISC and LGPL-2.1+ AND BSD-3-clause-Berkeley and DEC and LGPL-2.1+ AND BSD-3-clause-Berkeley and ISC AND BSD-3-clause-Berkeley and LGPL-2.1+ and Univ-Coimbra AND IBM and ISC AND ISC AND ISC and LGPL-2.1+ AND public-domain AND BSD-2-clause AND BSD-3-clause-WIDE AND Univ-Coimbra AND DEC AND GPL-2 AND IBM AND Inner-Net",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libc-gconv-modules-extra",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libc-gconv-modules-extra@2.43-2ubuntu2.7?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.43-2ubuntu2.7"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libc6",
+      "license": "LGPL-2.1+ AND GFDL-1.3 AND LGPL-2+ AND LGPL-2.1+-with-link-exception AND LGPL-3+ AND GPL-2+ AND GPL-2+-with-link-exception AND LGPL-2.1+ and GPL-2 AND GPL-3+ AND FSFAP AND Carnegie AND Carnegie and LGPL-2.1+ AND Inner-Net and LGPL-2.1+ AND MIT-like-Lord AND BSD-like-Spencer AND PCRE AND BSD-3-clause-Carnegie AND Unicode-DFS-2016 AND BSL-1.0 AND SunPro AND LGPL-2.1+ and SunPro AND CORE-MATH AND BSD-3-clause-Berkeley AND BSD-3-clause-Berkeley and BSD-3-clause-WIDE AND BSD-3-clause-Berkeley and LGPL-2.1+ AND BSD-2-clause or GPL-2 AND BSD-3-clause-Oracle AND BSD-3-clause-Berkeley and DEC AND BSD-3-clause-Berkeley and DEC and IBM and ISC AND BSD-3-clause-Berkeley and DEC and ISC AND BSD-3-clause-Berkeley and DEC and ISC and LGPL-2.1+ AND BSD-3-clause-Berkeley and DEC and LGPL-2.1+ AND BSD-3-clause-Berkeley and ISC AND BSD-3-clause-Berkeley and LGPL-2.1+ and Univ-Coimbra AND IBM and ISC AND ISC AND ISC and LGPL-2.1+ AND public-domain AND BSD-2-clause AND BSD-3-clause-WIDE AND Univ-Coimbra AND DEC AND GPL-2 AND IBM AND Inner-Net",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libc6",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libc6@2.43-2ubuntu2.7?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.43-2ubuntu2.7"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libcap-ng0",
+      "license": "LGPL-2.1+ AND GPL-2+ AND GPL-3",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libcap-ng0",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libcap-ng0@0.8.5-4build5?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.8.5-4build5"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libcom-err2",
+      "license": "GPL-2 AND GPL-2+ AND 0BSD AND Expat AND BSD-3-Clause-Variant AND BSD-3-Clause AND BSD-4-Clause-CMU AND LGPL-2 AND Apache-2 AND ISC AND GPL or MIT-US-export AND Kazlib AND Latex2e AND GPL-2+ with Texinfo exception",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libcom-err2",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libcom-err2@1.47.2-3ubuntu4?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.47.2-3ubuntu4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libcrypt1",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libcrypt1",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libcrypt1@1:4.5.1-1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:4.5.1-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libdb5.3t64",
+      "license": "Sleepycat and BSD-3-clause AND Sleepycat AND BSD-3-clause AND Ms-PL AND GPL or Artistic AND X11 AND MIT-old AND TCL-like AND BSD-3-clause-fjord AND GPL-3 AND zlib AND Artistic or BSD-3-clause AND GPL",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libdb5.3t64",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libdb5.3t64@5.3.28%2Bdfsg2-10ubuntu1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "5.3.28+dfsg2-10ubuntu1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libdebconfclient0",
+      "license": "BSD-2-Clause AND GPL-2+ AND BSD-2-clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libdebconfclient0",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libdebconfclient0@0.280ubuntu1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.280ubuntu1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libexpat1",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libexpat1",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libexpat1@2.7.4-1ubuntu0.2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.7.4-1ubuntu0.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libext2fs2t64",
+      "license": "GPL-2 AND GPL-2+ AND 0BSD AND Expat AND BSD-3-Clause-Variant AND BSD-3-Clause AND BSD-4-Clause-CMU AND LGPL-2 AND Apache-2 AND ISC AND GPL or MIT-US-export AND Kazlib AND Latex2e AND GPL-2+ with Texinfo exception",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libext2fs2t64",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libext2fs2t64@1.47.2-3ubuntu4?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.47.2-3ubuntu4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libffi8",
+      "license": "Expat AND X11 AND GPL-2+ AND GPL-3+ AND MPL-1.1 or GPL-2+ or LGPL-2.1+ AND public-domain AND GPL",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libffi8",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libffi8@3.5.2-4?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.5.2-4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libfontconfig1",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libfontconfig1",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libfontconfig1@2.17.1-3ubuntu1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.17.1-3ubuntu1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libfreetype6",
+      "license": "FTL AND FTL and Expat AND BSD-3-Clause AND FSFAP AND GPL-3+ AND Expat AND GPL-2+ AND Public-Domain AND MIT-SMC AND BSL-1.0 AND MIT-Modern-Variant AND Zlib AND OpenGroup-MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libfreetype6",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libfreetype6@2.14.2%2Bdfsg-1ubuntu0.2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.14.2+dfsg-1ubuntu0.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libgcc-s1",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libgcc-s1",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libgcc-s1@16-20260322-1ubuntu1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "16-20260322-1ubuntu1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libgcrypt20",
+      "license": "Most of the package is licensed under the GNU Lesser General Public",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libgcrypt20",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libgcrypt20@1.12.0-2ubuntu1.1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.12.0-2ubuntu1.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libgmp10",
+      "license": "GPL-2+ or LGPL-3+ AND GPL-3+ AND GPL-3+ with Bison exception AND GPL-2+ AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libgmp10",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libgmp10@2:6.3.0%2Bdfsg-5ubuntu2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2:6.3.0+dfsg-5ubuntu2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libgpg-error0",
+      "license": "LGPL-2.1+ AND LGPL-2.1+ or BSD-3-clause AND g10-permissive AND GPL-3+ AND BSD-3-clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libgpg-error0",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libgpg-error0@1.58-2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.58-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::liblz4-1",
+      "license": "GPL-2+ AND BSD-2-clause AND BSD-2-clause or GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "liblz4-1",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/liblz4-1@1.10.0-8?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.10.0-8"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::liblzma5",
+      "license": "0BSD AND GPL-2+ AND LGPL-2.1+ AND FSFULLR AND GPL-3.0-or-later-WITH-Autoconf-exception-macro AND none AND PD AND permissive-nowarranty AND FSFUL AND PD-debian",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "liblzma5",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/liblzma5@5.8.3-1ubuntu0.1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "5.8.3-1ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libmd0",
+      "license": "BSD-3-clause AND BSD-3-clause-Aaron-D-Gifford AND BSD-2-clause AND BSD-2-clause-NetBSD AND ISC AND Beerware AND public-domain-md4 AND public-domain-md5 AND public-domain-sha1",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libmd0",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libmd0@1.1.0-2build4?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.1.0-2build4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libmount1",
+      "license": "GPL-2+ AND GPL-2 AND GPL-3+ AND LGPL-2.1+ AND public-domain AND BSD-4-clause AND Expat AND ISC AND BSD-3-clause AND BSLA AND LGPL-2+ AND LGPL AND BSD-2-clause AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libmount1",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libmount1@2.41.3-3ubuntu2.2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.41.3-3ubuntu2.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libncursesw6",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libncursesw6",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libncursesw6@6.6%2B20251231-1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "6.6+20251231-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libp11-kit0",
+      "license": "BSD-3-clause AND FSFULLR AND GPL-2+ with Autoconf-data exception AND GPL-3+ with Autoconf-data exception AND X11 AND ISC AND customFSFULLRWD AND LGPL-2.1+ AND Apache-2.0 AND FSFAP",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libp11-kit0",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libp11-kit0@0.26.2-2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.26.2-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libpam-modules",
+      "license": "BSD-3-clause or GPL AND GPL-2 AND GPL-2+ AND GPL-3 AND GPL-3+ with Bison exception AND BSD-tcp_wrappers AND LGPL-2+ AND public-domain AND Beerware",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libpam-modules",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libpam-modules@1.7.0-5ubuntu3.2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.7.0-5ubuntu3.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libpam-modules-bin",
+      "license": "BSD-3-clause or GPL AND GPL-2 AND GPL-2+ AND GPL-3 AND GPL-3+ with Bison exception AND BSD-tcp_wrappers AND LGPL-2+ AND public-domain AND Beerware",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libpam-modules-bin",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libpam-modules-bin@1.7.0-5ubuntu3.2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.7.0-5ubuntu3.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libpam-runtime",
+      "license": "BSD-3-clause or GPL AND GPL-2 AND GPL-2+ AND GPL-3 AND GPL-3+ with Bison exception AND BSD-tcp_wrappers AND LGPL-2+ AND public-domain AND Beerware",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libpam-runtime",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libpam-runtime@1.7.0-5ubuntu3.2?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.7.0-5ubuntu3.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libpam0g",
+      "license": "BSD-3-clause or GPL AND GPL-2 AND GPL-2+ AND GPL-3 AND GPL-3+ with Bison exception AND BSD-tcp_wrappers AND LGPL-2+ AND public-domain AND Beerware",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libpam0g",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libpam0g@1.7.0-5ubuntu3.2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.7.0-5ubuntu3.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libpcre2-8-0",
+      "license": "BSD-3-clause-Cambridge with BINARY LIBRARY-LIKE PACKAGES exception AND BSD-3-clause AND X11 AND BSD-2-clause AND public-domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libpcre2-8-0",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libpcre2-8-0@10.46-1ubuntu0.1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "10.46-1ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libpng16-16t64",
+      "license": "libpng AND expat AND GPL-2+ or BSD-like-with-advertising-clause AND libpng OR Apache-2.0 OR BSD-3-clause AND Apache-2.0 AND GPL-2+ AND BSD-like-with-advertising-clause AND BSD-3-clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libpng16-16t64",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libpng16-16t64@1.6.57-1ubuntu0.1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.6.57-1ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libproc2-0",
+      "license": "LGPL-2.1+ AND LGPL-2.0+ AND GPL-2.0+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libproc2-0",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libproc2-0@2:4.0.4-9ubuntu1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2:4.0.4-9ubuntu1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libseccomp2",
+      "license": "LGPL-2.1",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libseccomp2",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libseccomp2@2.6.0-2ubuntu5?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.6.0-2ubuntu5"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libselinux1",
+      "license": "public-domain AND GPL-2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libselinux1",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libselinux1@3.9-4build1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.9-4build1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libsemanage-common",
+      "license": "LGPL-2.1+ AND GPL-2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsemanage-common",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libsemanage-common@3.9-1build1?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.9-1build1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libsemanage2",
+      "license": "LGPL-2.1+ AND GPL-2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsemanage2",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libsemanage2@3.9-1build1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.9-1build1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libsepol2",
+      "license": "LGPL-2.1+ AND Zlib AND GPL-2 AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsepol2",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libsepol2@3.9-2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.9-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libsmartcols1",
+      "license": "GPL-2+ AND GPL-2 AND GPL-3+ AND LGPL-2.1+ AND public-domain AND BSD-4-clause AND Expat AND ISC AND BSD-3-clause AND BSLA AND LGPL-2+ AND LGPL AND BSD-2-clause AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsmartcols1",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libsmartcols1@2.41.3-3ubuntu2.2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.41.3-3ubuntu2.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libss2",
+      "license": "GPL-2 AND GPL-2+ AND 0BSD AND Expat AND BSD-3-Clause-Variant AND BSD-3-Clause AND BSD-4-Clause-CMU AND LGPL-2 AND Apache-2 AND ISC AND GPL or MIT-US-export AND Kazlib AND Latex2e AND GPL-2+ with Texinfo exception",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libss2",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libss2@1.47.2-3ubuntu4?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.47.2-3ubuntu4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libssl3t64",
+      "license": "Apache-2.0 AND Artistic or GPL-1+ AND Artistic AND GPL-1+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libssl3t64",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libssl3t64@3.5.5-1ubuntu3.7?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.5.5-1ubuntu3.7"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libstdc++6",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libstdc++6",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libstdc%2B%2B6@16-20260322-1ubuntu1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "16-20260322-1ubuntu1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libsystemd0",
+      "license": "LGPL-2.1+ AND CC0-1.0 AND GPL-2 with Linux-syscall-note exception AND Expat AND public-domain AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsystemd0",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libsystemd0@259.9-0ubuntu0.1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "259.9-0ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libtasn1-6",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libtasn1-6",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libtasn1-6@4.21.0-2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.21.0-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libtinfo6",
+      "license": "MIT/X11 AND X11 AND BSD-3-clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libtinfo6",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libtinfo6@6.6%2B20251231-1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "6.6+20251231-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libudev1",
+      "license": "LGPL-2.1+ AND CC0-1.0 AND GPL-2 with Linux-syscall-note exception AND Expat AND public-domain AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libudev1",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libudev1@259.9-0ubuntu0.1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "259.9-0ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libuuid1",
+      "license": "GPL-2+ AND GPL-2 AND GPL-3+ AND LGPL-2.1+ AND public-domain AND BSD-4-clause AND Expat AND ISC AND BSD-3-clause AND BSLA AND LGPL-2+ AND LGPL AND BSD-2-clause AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libuuid1",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libuuid1@2.41.3-3ubuntu2.2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.41.3-3ubuntu2.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libxxhash0",
+      "license": "BSD-2-clause AND GPL-2+ AND BSD-2-clause or GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libxxhash0",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libxxhash0@0.8.3-2build1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.8.3-2build1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libzstd1",
+      "license": "BSD-3-clause or GPL-2 AND zlib AND Expat AND GPL-2 AND BSD-3-clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libzstd1",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/libzstd1@1.5.7%2Bdfsg-3?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.5.7+dfsg-3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::locales",
+      "license": "LGPL-2.1+ AND GFDL-1.3 AND LGPL-2+ AND LGPL-2.1+-with-link-exception AND LGPL-3+ AND GPL-2+ AND GPL-2+-with-link-exception AND LGPL-2.1+ and GPL-2 AND GPL-3+ AND FSFAP AND Carnegie AND Carnegie and LGPL-2.1+ AND Inner-Net and LGPL-2.1+ AND MIT-like-Lord AND BSD-like-Spencer AND PCRE AND BSD-3-clause-Carnegie AND Unicode-DFS-2016 AND BSL-1.0 AND SunPro AND LGPL-2.1+ and SunPro AND CORE-MATH AND BSD-3-clause-Berkeley AND BSD-3-clause-Berkeley and BSD-3-clause-WIDE AND BSD-3-clause-Berkeley and LGPL-2.1+ AND BSD-2-clause or GPL-2 AND BSD-3-clause-Oracle AND BSD-3-clause-Berkeley and DEC AND BSD-3-clause-Berkeley and DEC and IBM and ISC AND BSD-3-clause-Berkeley and DEC and ISC AND BSD-3-clause-Berkeley and DEC and ISC and LGPL-2.1+ AND BSD-3-clause-Berkeley and DEC and LGPL-2.1+ AND BSD-3-clause-Berkeley and ISC AND BSD-3-clause-Berkeley and LGPL-2.1+ and Univ-Coimbra AND IBM and ISC AND ISC AND ISC and LGPL-2.1+ AND public-domain AND BSD-2-clause AND BSD-3-clause-WIDE AND Univ-Coimbra AND DEC AND GPL-2 AND IBM AND Inner-Net",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "locales",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/locales@2.43-2ubuntu2.7?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.43-2ubuntu2.7"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::login",
+      "license": "GPL-2+ AND GPL-2 AND GPL-3+ AND LGPL-2.1+ AND public-domain AND BSD-4-clause AND Expat AND ISC AND BSD-3-clause AND BSLA AND LGPL-2+ AND LGPL AND BSD-2-clause AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "login",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/login@1:4.16.0-2%2Breally2.41.3-3ubuntu2.2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:4.16.0-2+really2.41.3-3ubuntu2.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::login.defs",
+      "license": "BSD-3-clause AND GPL-1 AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "login.defs",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/login.defs@1:4.17.4-2ubuntu3?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:4.17.4-2ubuntu3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::logsave",
+      "license": "GPL-2 AND GPL-2+ AND 0BSD AND Expat AND BSD-3-Clause-Variant AND BSD-3-Clause AND BSD-4-Clause-CMU AND LGPL-2 AND Apache-2 AND ISC AND GPL or MIT-US-export AND Kazlib AND Latex2e AND GPL-2+ with Texinfo exception",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "logsave",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/logsave@1.47.2-3ubuntu4?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.47.2-3ubuntu4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::mawk",
+      "license": "GPL-2.0-only AND X11 AND CC-BY-3.0",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "mawk",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/mawk@1.3.4.20260129-1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.3.4.20260129-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::mount",
+      "license": "GPL-2+ AND GPL-2 AND GPL-3+ AND LGPL-2.1+ AND public-domain AND BSD-4-clause AND Expat AND ISC AND BSD-3-clause AND BSLA AND LGPL-2+ AND LGPL AND BSD-2-clause AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "mount",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/mount@2.41.3-3ubuntu2.2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.41.3-3ubuntu2.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::ncurses-base",
+      "license": "MIT/X11 AND X11 AND BSD-3-clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "ncurses-base",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/ncurses-base@6.6%2B20251231-1?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "6.6+20251231-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::ncurses-bin",
+      "license": "MIT/X11 AND X11 AND BSD-3-clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "ncurses-bin",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/ncurses-bin@6.6%2B20251231-1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "6.6+20251231-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 2,
+      "key": "deb::openssl",
+      "license": "Apache-2.0 AND Artistic or GPL-1+ AND Artistic AND GPL-1+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "openssl",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3.7",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.5.5-1ubuntu3.7"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::openssl-provider-legacy",
+      "license": "Apache-2.0 AND Artistic or GPL-1+ AND Artistic AND GPL-1+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "openssl-provider-legacy",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu3.7?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.5.5-1ubuntu3.7"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 2,
+      "key": "deb::p11-kit",
+      "license": "BSD-3-clause AND FSFULLR AND GPL-2+ with Autoconf-data exception AND GPL-3+ with Autoconf-data exception AND X11 AND ISC AND customFSFULLRWD AND LGPL-2.1+ AND Apache-2.0 AND FSFAP",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "p11-kit",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/p11-kit@0.26.2-2",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.26.2-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::p11-kit-modules",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "p11-kit-modules",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/p11-kit-modules@0.26.2-2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.26.2-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::passwd",
+      "license": "BSD-3-clause AND GPL-1 AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "passwd",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/passwd@1:4.17.4-2ubuntu3?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:4.17.4-2ubuntu3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::perl-base",
+      "license": "GPL-1+ or Artistic AND Expat AND REGCOMP, and GPL-1+ or Artistic AND GPL-3+-WITH-BISON-EXCEPTION AND Unicode AND GPL-1+ or Artistic, and Unicode AND BZIP AND ZLIB AND Artistic AND GPL-2+ or Artistic AND Expat or GPL-1+ or Artistic AND FSFAP AND BSD-3-clause-with-weird-numbering AND CC0-1.0 AND Artistic or GPL-1+ AND TEXT-TABS AND GPL-1+ or Artistic, and BSD-4-clause-POWERDOG AND GPL-1+ or Artistic, and BSD-3-clause-GENERIC AND BSD-3-clause AND SDBM-PUBLIC-DOMAIN AND DONT-CHANGE-THE-GPL AND GPL-1+ or Artistic or Artistic-dist AND Artistic-dist AND Artistic or GPL-1+ or Artistic-dist AND GPL-1+ or Artistic, and Expat AND LGPL-2.1 AND GPL-1+ AND GPL-2+ AND Artistic-2 AND BSD-4-clause-POWERDOG AND BSD-3-clause-GENERIC AND REGCOMP",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "perl-base",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/perl-base@5.40.1-7ubuntu0.3?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "5.40.1-7ubuntu0.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 2,
+      "key": "deb::procps",
+      "license": "LGPL-2.1+ AND LGPL-2.0+ AND GPL-2.0+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "procps",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/procps@2:4.0.4-9ubuntu1",
+      "scope": null,
+      "tier": "primary",
+      "version": "2:4.0.4-9ubuntu1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::rust-coreutils",
+      "license": "MIT AND permissive AND MIT or Apache-2.0 AND CC-BY-4.0 AND Apache-2.0",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "rust-coreutils",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/rust-coreutils@0.10.0-1ubuntu2~26.04.1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.10.0-1ubuntu2~26.04.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::sed",
+      "license": "GPL-3+ AND X11 AND GFDL-NIV-1.3+ AND GPL-3+ and ISC AND ISC AND BSD-4-clause-UC AND BSL-1 AND pcre",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "sed",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/sed@4.9-2ubuntu1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.9-2ubuntu1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::sensible-utils",
+      "license": "GPL-2+ AND All-permissive AND configure AND installsh",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "sensible-utils",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/sensible-utils@0.0.26build1?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.0.26build1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::sysvinit-utils",
+      "license": "GPL-2.0+ AND LGPL-2.1+ AND GPL-3.0 AND GPL-2.0",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "sysvinit-utils",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/sysvinit-utils@3.15-5ubuntu1?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.15-5ubuntu1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::tar",
+      "license": "GPL-3+ AND GPL-3+ with Bison exception AND LGPL-2.1+ AND LGPL-3+ AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "tar",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/tar@1.35%2Bdfsg-4ubuntu0.4?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.35+dfsg-4ubuntu0.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::tzdata",
+      "license": "public-domain AND ICU",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "tzdata",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/tzdata@2026e-0ubuntu0.26.04.1?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "2026e-0ubuntu0.26.04.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::ubuntu-keyring",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "ubuntu-keyring",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/ubuntu-keyring@2023.11.28.1build1?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "2023.11.28.1build1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 2,
+      "key": "deb::util-linux",
+      "license": "GPL-2+ AND GPL-2 AND GPL-3+ AND LGPL-2.1+ AND public-domain AND BSD-4-clause AND Expat AND ISC AND BSD-3-clause AND BSLA AND LGPL-2+ AND LGPL AND BSD-2-clause AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "util-linux",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/util-linux@2.41.3-3ubuntu2.2",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.41.3-3ubuntu2.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::zlib1g",
+      "license": "Zlib",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "zlib1g",
+      "namespace": "ubuntu",
+      "paths": [
+        "var/lib/dpkg/status"
+      ],
+      "purl": "pkg:deb/ubuntu/zlib1g@1:1.3.dfsg%2Breally1.3.1-1ubuntu3.2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:1.3.dfsg+really1.3.1-1ubuntu3.2"
+    },
+    {
+      "alt_names": [
+        "java",
+        "jre",
+        "jdk",
+        "openjdk",
+        "temurin",
+        "eclipse-temurin",
+        "java-runtime"
+      ],
+      "eco": "generic",
+      "evidence": "opt/java/openjdk/release",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::openjdk",
+      "license": null,
+      "mechanism": "runtime-outside-pm",
+      "mechanisms": [
+        "runtime-outside-pm"
+      ],
+      "name": "openjdk",
+      "namespace": null,
+      "paths": [
+        "opt/java/openjdk"
+      ],
+      "purl": "pkg:generic/openjdk@25.0.5.1",
+      "scope": null,
+      "tier": "primary",
+      "version": "25.0.5.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/canonical/go-flags",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/canonical/go-flags",
+      "namespace": null,
+      "paths": [
+        "usr/bin/pebble"
+      ],
+      "purl": "pkg:golang/github.com/canonical/go-flags@v0.0.0-20230403090104-105d09a091b8",
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20230403090104-105d09a091b8"
+    },
+    {
+      "alt_names": [
+        "pebble"
+      ],
+      "eco": "golang",
+      "evidence": "Go build info (main module)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/canonical/pebble",
+      "license": null,
+      "mechanism": "manual-download",
+      "mechanisms": [
+        "manual-download"
+      ],
+      "name": "github.com/canonical/pebble",
+      "namespace": null,
+      "paths": [
+        "usr/bin/pebble"
+      ],
+      "purl": "pkg:golang/github.com/canonical/pebble@v1.33.3-0.20261021134118-f036f355de35",
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.33.3-0.20261021134118-f036f355de35"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/canonical/x-go",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/canonical/x-go",
+      "namespace": null,
+      "paths": [
+        "usr/bin/pebble"
+      ],
+      "purl": "pkg:golang/github.com/canonical/x-go@v0.0.0-20230522092633-7947a7587f5b",
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20230522092633-7947a7587f5b"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/gehirninc/crypt",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/GehirnInc/crypt",
+      "namespace": null,
+      "paths": [
+        "usr/bin/pebble"
+      ],
+      "purl": "pkg:golang/github.com/GehirnInc/crypt@v0.0.0-20230320061759-8cc1b52080c5",
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20230320061759-8cc1b52080c5"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/gorilla/websocket",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/gorilla/websocket",
+      "namespace": null,
+      "paths": [
+        "usr/bin/pebble"
+      ],
+      "purl": "pkg:golang/github.com/gorilla/websocket@v1.5.3",
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.5.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::golang.org/x/sys",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "golang.org/x/sys",
+      "namespace": null,
+      "paths": [
+        "usr/bin/pebble"
+      ],
+      "purl": "pkg:golang/golang.org/x/sys@v0.48.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.48.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::golang.org/x/term",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "golang.org/x/term",
+      "namespace": null,
+      "paths": [
+        "usr/bin/pebble"
+      ],
+      "purl": "pkg:golang/golang.org/x/term@v0.46.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.46.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::gopkg.in/tomb.v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "gopkg.in/tomb.v2",
+      "namespace": null,
+      "paths": [
+        "usr/bin/pebble"
+      ],
+      "purl": "pkg:golang/gopkg.in/tomb.v2@v2.0.0-20161208151619-d5d1b5820637",
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.0.0-20161208151619-d5d1b5820637"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::gopkg.in/yaml.v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "gopkg.in/yaml.v2",
+      "namespace": null,
+      "paths": [
+        "usr/bin/pebble"
+      ],
+      "purl": "pkg:golang/gopkg.in/yaml.v2@v2.4.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.4.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::gopkg.in/yaml.v3",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "gopkg.in/yaml.v3",
+      "namespace": null,
+      "paths": [
+        "usr/bin/pebble"
+      ],
+      "purl": "pkg:golang/gopkg.in/yaml.v3@v3.0.1",
+      "scope": null,
+      "tier": "primary",
+      "version": "v3.0.1"
+    },
+    {
+      "alt_names": [
+        "stdlib",
+        "go"
+      ],
+      "eco": "golang",
+      "evidence": "Go build info (toolchain)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::stdlib",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "stdlib",
+      "namespace": null,
+      "paths": [
+        "usr/bin/pebble"
+      ],
+      "purl": "pkg:golang/stdlib@go1.27.3",
+      "scope": null,
+      "tier": "primary",
+      "version": "go1.27.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "e598899bad5824511cd3019299254230468e1fa2",
+        "sha256": "b65e05076a5c1aadb659b4fe4bc5fee31cb26cd70390292eb03e4a7a24cff10f"
+      },
+      "instances": 1,
+      "key": "maven:ch.qos.logback:logback-classic",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "logback-classic",
+      "namespace": "ch.qos.logback",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/logback-classic-1.5.34.jar"
+      ],
+      "purl": "pkg:maven/ch.qos.logback/logback-classic@1.5.34",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.5.34"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "378692f76c337b3325c15bffb89e013dc1f897b4",
+        "sha256": "42eda264c0c650c2bec59e66151a88b708a8663dc1b49d788202d53e78b8caae"
+      },
+      "instances": 1,
+      "key": "maven:ch.qos.logback:logback-core",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "logback-core",
+      "namespace": "ch.qos.logback",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/logback-core-1.5.34.jar"
+      ],
+      "purl": "pkg:maven/ch.qos.logback/logback-core@1.5.34",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.5.34"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "b1bc1868bf02dc0bd6c7836257a036a331005309",
+        "sha256": "53ca085f4a150f703f49e1aabd935bd03b43e1ea3d55d135438292af22cef56b"
+      },
+      "instances": 1,
+      "key": "maven:com.fasterxml.jackson.core:jackson-annotations",
+      "license": "The Apache Software License, Version 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jackson-annotations",
+      "namespace": "com.fasterxml.jackson.core",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jackson-annotations-2.21.jar"
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.21",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.21"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "56a503ba45016714394807ea89f95f5093760089",
+        "sha256": "4b40a06396f239f8de2da57419adde6e94e5edc18a2171d471ea05eeed4e5c2d"
+      },
+      "instances": 1,
+      "key": "maven:com.fasterxml.jackson.core:jackson-core",
+      "license": "The Apache Software License, Version 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jackson-core",
+      "namespace": "com.fasterxml.jackson.core",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jackson-core-2.21.4.jar"
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.4",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.21.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "09e495680be707d466527d734368ebf36e464da2",
+        "sha256": "3888e9e69ab66fbacaacc9aea0e9ffbf15368288e4aca468b024dba11c09fbf9"
+      },
+      "instances": 1,
+      "key": "maven:com.fasterxml.jackson.core:jackson-databind",
+      "license": "The Apache Software License, Version 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jackson-databind",
+      "namespace": "com.fasterxml.jackson.core",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jackson-databind-2.21.4.jar"
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.4",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.21.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "d506a8a96ba24172110aca439e78fd6a38a11799",
+        "sha256": "055eb4c008ab12f0cb63e93a6454463d032fde0fca85943d69f8dc7469489e4b"
+      },
+      "instances": 1,
+      "key": "maven:com.fasterxml.jackson.dataformat:jackson-dataformat-yaml",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jackson-dataformat-yaml",
+      "namespace": "com.fasterxml.jackson.dataformat",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jackson-dataformat-yaml-2.21.4.jar"
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.21.4",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.21.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "51f9ede30826b05cdf8a70b47bc68bd6271dfaaa",
+        "sha256": "d1ac4b98b70304e56448423589fde5e775b100889643ad1ead62cc7811633684"
+      },
+      "instances": 1,
+      "key": "maven:com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jackson-datatype-jsr310",
+      "namespace": "com.fasterxml.jackson.datatype",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jackson-datatype-jsr310-2.21.4.jar"
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.21.4",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.21.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "f61c7e7b81e9249b0f6a05914eff9d54fb09f4a0",
+        "sha256": "75fbda45456f123fb6e2028a6189442d8d0730b357adce4c0a6d7e789f70669b"
+      },
+      "instances": 1,
+      "key": "maven:com.fasterxml:classmate",
+      "license": "Apache License, Version 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "classmate",
+      "namespace": "com.fasterxml",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/classmate-1.7.3.jar"
+      ],
+      "purl": "pkg:maven/com.fasterxml/classmate@1.7.3",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.7.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "4e6e3e8765e4a9d0609744b3e8fe75afe1b98cba",
+        "sha256": "0353648eaa1c91e0f4020c959abf756bc866ffd583df22ae6b6f6e0cbd43eb44"
+      },
+      "instances": 1,
+      "key": "maven:com.mysql:mysql-connector-j",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "mysql-connector-j",
+      "namespace": "com.mysql",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/mysql-connector-j-9.7.0.jar"
+      ],
+      "purl": "pkg:maven/com.mysql/mysql-connector-j@9.7.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "9.7.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "20261003ad30e8bce2ee85ec338da8a6a824c585",
+        "sha256": "b1438d32df49bc98727a4ebaa08573f25a02648ae8a6a642e30376f82d1cb73e"
+      },
+      "instances": 1,
+      "key": "maven:com.razorpay:razorpay-java",
+      "license": "MIT License",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "razorpay-java",
+      "namespace": "com.razorpay",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/razorpay-java-1.4.10.jar"
+      ],
+      "purl": "pkg:maven/com.razorpay/razorpay-java@1.4.10",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.4.10"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "55f574ec622f65ac9c0e2e922d3ffa01dc4f139e",
+        "sha256": "f86fca703c2d6fc76cba73c46957d2b1161dff20f1e271f79adef27bbf1bdfa1"
+      },
+      "instances": 1,
+      "key": "maven:com.squareup.okhttp3:logging-interceptor",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "logging-interceptor",
+      "namespace": "com.squareup.okhttp3",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/logging-interceptor-3.10.0.jar"
+      ],
+      "purl": "pkg:maven/com.squareup.okhttp3/logging-interceptor@3.10.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.10.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e",
+        "sha256": "4aca3e552afb1ceb47f8956685f6295a276e49fa03f9066f8b6be83bec56fb66"
+      },
+      "instances": 1,
+      "key": "maven:com.squareup.okhttp3:okhttp",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "okhttp",
+      "namespace": "com.squareup.okhttp3",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/okhttp-3.10.0.jar"
+      ],
+      "purl": "pkg:maven/com.squareup.okhttp3/okhttp@3.10.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.10.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "102d7be47241d781ef95f1581d414b0943053130",
+        "sha256": "4633c331f50642ebe795dc089d6a5928aff43071c9d17e7840a009eea2fe95a3"
+      },
+      "instances": 1,
+      "key": "maven:com.squareup.okio:okio",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "okio",
+      "namespace": "com.squareup.okio",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/okio-1.14.0.jar"
+      ],
+      "purl": "pkg:maven/com.squareup.okio/okio@1.14.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.14.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "18ec117c85f3ba0ac65409136afa8e42bc74e739",
+        "sha256": "7fd6792361f4dd00f8c56af4a20cecc0066deea4a8f3dec38348af23fc2296ee"
+      },
+      "instances": 1,
+      "key": "maven:com.sun.istack:istack-commons-runtime",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "istack-commons-runtime",
+      "namespace": "com.sun.istack",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/istack-commons-runtime-4.1.2.jar"
+      ],
+      "purl": "pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "c2b43c946b86a14a96342379e22b004c56c6166d",
+        "sha256": "f1e612fa27345be3107a85431e8a8aeb205c15364ab2f2d411e40a9d7bb08095"
+      },
+      "instances": 1,
+      "key": "maven:com.zaxxer:hikaricp",
+      "license": "The Apache Software License, Version 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "HikariCP",
+      "namespace": "com.zaxxer",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/HikariCP-7.0.2.jar"
+      ],
+      "purl": "pkg:maven/com.zaxxer/HikariCP@7.0.2",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "d95f998db5f89900fe895daf6cd2cddcb2f1d64b",
+        "sha256": "4da851cb6abfb98bfe9eb77c5e5fc47f5414fa28b94e21b7fd9a646705dc167f"
+      },
+      "instances": 1,
+      "key": "maven:commons-codec:commons-codec",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "commons-codec",
+      "namespace": "commons-codec",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/commons-codec-1.21.0.jar"
+      ],
+      "purl": "pkg:maven/commons-codec/commons-codec@1.21.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.21.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "63e78ca6cd446c0ad166d14f03ed99e7efb3896d",
+        "sha256": "f8ead8943401081dea0aa824b5b1ba40a0e4ed297a572a0f02258150a0b62357"
+      },
+      "instances": 1,
+      "key": "maven:commons-logging:commons-logging",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "commons-logging",
+      "namespace": "commons-logging",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/commons-logging-1.3.6.jar"
+      ],
+      "purl": "pkg:maven/commons-logging/commons-logging@1.3.6",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.3.6"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "ce631a0342b08953355f333b488d2b03445b9f3e",
+        "sha256": "5af8a971c7215acb6c3708794a3912c56eb7066ca3b1ee73f87988c9e0d6c067"
+      },
+      "instances": 1,
+      "key": "maven:io.jsonwebtoken:jjwt-api",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jjwt-api",
+      "namespace": "io.jsonwebtoken",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jjwt-api-0.13.0.jar"
+      ],
+      "purl": "pkg:maven/io.jsonwebtoken/jjwt-api@0.13.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.13.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "9e7c70dd7014909556755fb01c465dd184b4b1d9",
+        "sha256": "b351baaa302889a416e83683f110948017cee671303262522d4ba477688ca89f"
+      },
+      "instances": 1,
+      "key": "maven:io.jsonwebtoken:jjwt-impl",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jjwt-impl",
+      "namespace": "io.jsonwebtoken",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jjwt-impl-0.13.0.jar"
+      ],
+      "purl": "pkg:maven/io.jsonwebtoken/jjwt-impl@0.13.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.13.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "cfe37531887657716ec20b5ef22f22b32e8bf4a8",
+        "sha256": "e5ca43b49deca1ad818b2572f0af4d902370205089bdcd15d5dbb6095d17416b"
+      },
+      "instances": 1,
+      "key": "maven:io.jsonwebtoken:jjwt-jackson",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jjwt-jackson",
+      "namespace": "io.jsonwebtoken",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jjwt-jackson-0.13.0.jar"
+      ],
+      "purl": "pkg:maven/io.jsonwebtoken/jjwt-jackson@0.13.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.13.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "2edbb561cdd2b2777fbcd83aa9f2204ebabf592b",
+        "sha256": "03919dc71e2417ec4b5c254c4ba924963c972e124190f73cdcb68ed51c6eede6"
+      },
+      "instances": 1,
+      "key": "maven:io.micrometer:micrometer-commons",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "micrometer-commons",
+      "namespace": "io.micrometer",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/micrometer-commons-1.17.0.jar"
+      ],
+      "purl": "pkg:maven/io.micrometer/micrometer-commons@1.17.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.17.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "2037bdaeb5725bdddb2390cbf93be3c19f8b8b48",
+        "sha256": "2fc95a327578d3b2a81c3ff40e646a4a21e46b0153ccbbf91690142bf80d9661"
+      },
+      "instances": 1,
+      "key": "maven:io.micrometer:micrometer-observation",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "micrometer-observation",
+      "namespace": "io.micrometer",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/micrometer-observation-1.17.0.jar"
+      ],
+      "purl": "pkg:maven/io.micrometer/micrometer-observation@1.17.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.17.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "03806bb2a46610b20b5841c7f711b2d660ca5848",
+        "sha256": "330742c7666396e96f1b22db00b749774d3ccfb40c35ea9f557a39c6f3c56778"
+      },
+      "instances": 1,
+      "key": "maven:io.swagger.core.v3:swagger-annotations-jakarta",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "swagger-annotations-jakarta",
+      "namespace": "io.swagger.core.v3",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/swagger-annotations-jakarta-2.2.52.jar"
+      ],
+      "purl": "pkg:maven/io.swagger.core.v3/swagger-annotations-jakarta@2.2.52",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.2.52"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "a0e9e1f3c23867c1db9a811722b927826419bc2f",
+        "sha256": "70370a0401852f851414dd51d496201e7490578bfe5a24dd71de032f4ca7ad88"
+      },
+      "instances": 1,
+      "key": "maven:io.swagger.core.v3:swagger-core-jakarta",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "swagger-core-jakarta",
+      "namespace": "io.swagger.core.v3",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/swagger-core-jakarta-2.2.52.jar"
+      ],
+      "purl": "pkg:maven/io.swagger.core.v3/swagger-core-jakarta@2.2.52",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.2.52"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "56506ea5ef31546ae741e06532e63c43ca937c56",
+        "sha256": "0bbb5b2d24d62b4d565c8fc4809e1517b601e17aa62e1b910b6c19c5b7665f36"
+      },
+      "instances": 1,
+      "key": "maven:io.swagger.core.v3:swagger-models-jakarta",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "swagger-models-jakarta",
+      "namespace": "io.swagger.core.v3",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/swagger-models-jakarta-2.2.52.jar"
+      ],
+      "purl": "pkg:maven/io.swagger.core.v3/swagger-models-jakarta@2.2.52",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.2.52"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "9e5c2a0d75dde71a0bedc4dbdbe47b78a5dc50f8",
+        "sha256": "c9db52100ce6c8aac95cc39075f95720d2e561b11f8051b81c121ad4effd7004"
+      },
+      "instances": 1,
+      "key": "maven:jakarta.activation:jakarta.activation-api",
+      "license": "EDL 1.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jakarta.activation-api",
+      "namespace": "jakarta.activation",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jakarta.activation-api-2.1.4.jar"
+      ],
+      "purl": "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.1.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "54f928fadec906a99d558536756d171917b9d936",
+        "sha256": "b01f55552284cfb149411e64eabca75e942d26d2e1786b32914250e4330afaa2"
+      },
+      "instances": 1,
+      "key": "maven:jakarta.annotation:jakarta.annotation-api",
+      "license": "EPL 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jakarta.annotation-api",
+      "namespace": "jakarta.annotation",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jakarta.annotation-api-3.0.0.jar"
+      ],
+      "purl": "pkg:maven/jakarta.annotation/jakarta.annotation-api@3.0.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "4c28afe1991a941d7702fe1362c365f0a8641d1e",
+        "sha256": "f7dc98062fccf14126abb751b64fab12c312566e8cbdc8483598bffcea93af7c"
+      },
+      "instances": 1,
+      "key": "maven:jakarta.inject:jakarta.inject-api",
+      "license": "The Apache Software License, Version 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jakarta.inject-api",
+      "namespace": "jakarta.inject",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jakarta.inject-api-2.0.1.jar"
+      ],
+      "purl": "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "be9b3b677ed6083f575c437ebc442a6a4bd2b931",
+        "sha256": "aa493753acb7a8c45ba8f4c9cf1230a74e20237056dd5b5c8bc86c583e8cfa0e"
+      },
+      "instances": 1,
+      "key": "maven:jakarta.mail:jakarta.mail-api",
+      "license": "EPL 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jakarta.mail-api",
+      "namespace": "jakarta.mail",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jakarta.mail-api-2.1.5.jar"
+      ],
+      "purl": "pkg:maven/jakarta.mail/jakarta.mail-api@2.1.5",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.1.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "bb75a113f3fa191c2c7ee7b206d8e674251b3129",
+        "sha256": "be8a26b0e75c84c1b7600f759256fbc68d60333d89ec0ce3f784fc3ffa09aa8c"
+      },
+      "instances": 1,
+      "key": "maven:jakarta.persistence:jakarta.persistence-api",
+      "license": "Eclipse Public License v. 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jakarta.persistence-api",
+      "namespace": "jakarta.persistence",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jakarta.persistence-api-3.2.0.jar"
+      ],
+      "purl": "pkg:maven/jakarta.persistence/jakarta.persistence-api@3.2.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.2.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "51a520e3fae406abb84e2e1148e6746ce3f80a1a",
+        "sha256": "50c0a7c760c13ae6c042acf182b28f0047413db95b4636fb8879bcffab5ba875"
+      },
+      "instances": 1,
+      "key": "maven:jakarta.transaction:jakarta.transaction-api",
+      "license": "EPL 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jakarta.transaction-api",
+      "namespace": "jakarta.transaction",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jakarta.transaction-api-2.0.1.jar"
+      ],
+      "purl": "pkg:maven/jakarta.transaction/jakarta.transaction-api@2.0.1",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "ec8622148afc5564235d17af80ea80288d0e7f92",
+        "sha256": "63ce00156388c365f3ac1be71fcfaf114682fc0c452020b5df6e7ec236e142ab"
+      },
+      "instances": 1,
+      "key": "maven:jakarta.validation:jakarta.validation-api",
+      "license": "Apache License 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jakarta.validation-api",
+      "namespace": "jakarta.validation",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jakarta.validation-api-3.1.1.jar"
+      ],
+      "purl": "pkg:maven/jakarta.validation/jakarta.validation-api@3.1.1",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.1.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "161811f36cad3c65991502e80317f2f6703361df",
+        "sha256": "5e489b6c874c4119e003ff1403db523ee3a8959ec499f3de29e77245efccf216"
+      },
+      "instances": 1,
+      "key": "maven:jakarta.xml.bind:jakarta.xml.bind-api",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jakarta.xml.bind-api",
+      "namespace": "jakarta.xml.bind",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jakarta.xml.bind-api-4.0.5.jar"
+      ],
+      "purl": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.5",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.0.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "5b34812ced047973a6d42654d50c3b69124ce587",
+        "sha256": "8b31f4ea806afaa900b67bffd8498760d1f65464f4c2ea78cdbda2f3e633898b"
+      },
+      "instances": 1,
+      "key": "maven:net.bytebuddy:byte-buddy",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "byte-buddy",
+      "namespace": "net.bytebuddy",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/byte-buddy-1.18.10.jar"
+      ],
+      "purl": "pkg:maven/net.bytebuddy/byte-buddy@1.18.10",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.18.10"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "fc3db6d844df652a3d5db31c87fa12757f13691d",
+        "sha256": "dd3e8a13a2d669bf84fb8d834de35ce4875f27157698d206241ec8488aadcaf7"
+      },
+      "instances": 1,
+      "key": "maven:org.antlr:antlr4-runtime",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "antlr4-runtime",
+      "namespace": "org.antlr",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/antlr4-runtime-4.13.2.jar"
+      ],
+      "purl": "pkg:maven/org.antlr/antlr4-runtime@4.13.2",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.13.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "65897b3e5731220962e659e001904af3c3cbeba9",
+        "sha256": "69e5c9fa35da7a51a5fd2099dfe56a2d8d32cf233e2f6d770e796146440263f4"
+      },
+      "instances": 1,
+      "key": "maven:org.apache.commons:commons-lang3",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "commons-lang3",
+      "namespace": "org.apache.commons",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/commons-lang3-3.20.0.jar"
+      ],
+      "purl": "pkg:maven/org.apache.commons/commons-lang3@3.20.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.20.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "9abf61708a66ab5e55f6169a200dbfc584b546d9",
+        "sha256": "8185b3a5311092d83ed1f184c2d093b3105d726bbd76867c32b3511542bb99a8"
+      },
+      "instances": 1,
+      "key": "maven:org.apache.commons:commons-text",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "commons-text",
+      "namespace": "org.apache.commons",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/commons-text-1.3.jar"
+      ],
+      "purl": "pkg:maven/org.apache.commons/commons-text@1.3",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "89ff2217b193fb187b134aa6ebcbfa8a28b018a9",
+        "sha256": "c4b642a7f047275215de117e0e3847eb2c7711d84a0aa7433e7b3c096daf341d"
+      },
+      "instances": 1,
+      "key": "maven:org.apache.logging.log4j:log4j-api",
+      "license": "Apache-2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "log4j-api",
+      "namespace": "org.apache.logging.log4j",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/log4j-api-2.25.4.jar"
+      ],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.25.4",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.25.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "68df56640a5d245192e91bd2ac89e504b477cc10",
+        "sha256": "d7b78fc0aaaa5e8ada388b29d718b0ab187e512965bed0b259bb4ab299f13db2"
+      },
+      "instances": 1,
+      "key": "maven:org.apache.logging.log4j:log4j-to-slf4j",
+      "license": "Apache-2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "log4j-to-slf4j",
+      "namespace": "org.apache.logging.log4j",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/log4j-to-slf4j-2.25.4.jar"
+      ],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.25.4",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.25.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "cc7307efaa60c0d31784bf053ec4aa48a404f44b",
+        "sha256": "78cd7cd7c104b6b87142c1b0bd902e1ce005b0245c3cefa8a06759148947200b"
+      },
+      "instances": 1,
+      "key": "maven:org.apache.tomcat.embed:tomcat-embed-core",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "tomcat-embed-core",
+      "namespace": "org.apache.tomcat.embed",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/tomcat-embed-core-11.0.22.jar"
+      ],
+      "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@11.0.22",
+      "scope": null,
+      "tier": "primary",
+      "version": "11.0.22"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "db92447e16c3561e9ca7bf9311b6b6389816699e",
+        "sha256": "1b34c33b858c141df36c501b4d809e68036c406bca3671a86facae297917c7de"
+      },
+      "instances": 1,
+      "key": "maven:org.apache.tomcat.embed:tomcat-embed-el",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "tomcat-embed-el",
+      "namespace": "org.apache.tomcat.embed",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/tomcat-embed-el-11.0.22.jar"
+      ],
+      "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@11.0.22",
+      "scope": null,
+      "tier": "primary",
+      "version": "11.0.22"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "5686ff1ad745491d981d771514027d8fc55aed4f",
+        "sha256": "210e0c7ab194a76cc7283df0be365276091b042369dae125fb477828ba67e922"
+      },
+      "instances": 1,
+      "key": "maven:org.apache.tomcat.embed:tomcat-embed-websocket",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "tomcat-embed-websocket",
+      "namespace": "org.apache.tomcat.embed",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/tomcat-embed-websocket-11.0.22.jar"
+      ],
+      "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@11.0.22",
+      "scope": null,
+      "tier": "primary",
+      "version": "11.0.22"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "a713c790da4d794c7dfb542b550d4e44898d5e23",
+        "sha256": "4fe86fdc18faea571f29129c70eaad5d121363504a06d7907be88f6c60ba3116"
+      },
+      "instances": 1,
+      "key": "maven:org.aspectj:aspectjweaver",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "aspectjweaver",
+      "namespace": "org.aspectj",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/aspectjweaver-1.9.25.1.jar"
+      ],
+      "purl": "pkg:maven/org.aspectj/aspectjweaver@1.9.25.1",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.9.25.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "7f80607ea5014fef0b1779e6c33d63a88a45a563",
+        "sha256": "a6bd35c538cf90fff941ad6258c40c08fca0b5c9c3f536c657114f27ce0527a7"
+      },
+      "instances": 1,
+      "key": "maven:org.eclipse.angus:angus-activation",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "angus-activation",
+      "namespace": "org.eclipse.angus",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/angus-activation-2.0.3.jar"
+      ],
+      "purl": "pkg:maven/org.eclipse.angus/angus-activation@2.0.3",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.0.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "427f6d52ec0782f7efaca0c0732042e347a6cb4f",
+        "sha256": "b4d8c30d35f455def6c7a05fe595a1e62ea2b80cac3efec1e9ccf4118b23168a"
+      },
+      "instances": 1,
+      "key": "maven:org.eclipse.angus:angus-mail",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "angus-mail",
+      "namespace": "org.eclipse.angus",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/angus-mail-2.0.5.jar"
+      ],
+      "purl": "pkg:maven/org.eclipse.angus/angus-mail@2.0.5",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.0.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "3f32ec949d109d666fa30994223d1c25a47b105f",
+        "sha256": "6b014df25d22c8446cc2df0a378c5b2137747f197a731d99eb24c756b26f7e8d"
+      },
+      "instances": 1,
+      "key": "maven:org.glassfish.jaxb:jaxb-core",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jaxb-core",
+      "namespace": "org.glassfish.jaxb",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jaxb-core-4.0.9.jar"
+      ],
+      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.9",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.0.9"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "500c199572538675d2819c938fbafe34935d8d6b",
+        "sha256": "93e09b7316b6af68d6e2083e4c297daf28e8957f45d725077af812c0b12c39ab"
+      },
+      "instances": 1,
+      "key": "maven:org.glassfish.jaxb:jaxb-runtime",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jaxb-runtime",
+      "namespace": "org.glassfish.jaxb",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jaxb-runtime-4.0.9.jar"
+      ],
+      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.9",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.0.9"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "70325ebdebca3e7aae1dfa395fd41fc25d8a6f4e",
+        "sha256": "d6343e5945d87266ca4e8974a0a2a876e1bd147a00fb65ed3f2e1a3a00f3a82a"
+      },
+      "instances": 1,
+      "key": "maven:org.glassfish.jaxb:txw2",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "txw2",
+      "namespace": "org.glassfish.jaxb",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/txw2-4.0.9.jar"
+      ],
+      "purl": "pkg:maven/org.glassfish.jaxb/txw2@4.0.9",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.0.9"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "c890a4cc781fd8720e0e2613b4a24b33cdaa80a1",
+        "sha256": "7cb645f2ebe5fcb63e21d26259cef62d93a1ca77c400bda6992c92cb19826a89"
+      },
+      "instances": 1,
+      "key": "maven:org.hibernate.models:hibernate-models",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "hibernate-models",
+      "namespace": "org.hibernate.models",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/hibernate-models-1.1.1.jar"
+      ],
+      "purl": "pkg:maven/org.hibernate.models/hibernate-models@1.1.1",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.1.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "b405096e4aa04ff9c99a3e6e632eb2b8d252e1f1",
+        "sha256": "e4bfe7df423f3555f322eefb1ab51f28df439844610ef76c36d92a85d483004e"
+      },
+      "instances": 1,
+      "key": "maven:org.hibernate.orm:hibernate-core",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "hibernate-core",
+      "namespace": "org.hibernate.orm",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/hibernate-core-7.4.1.Final.jar"
+      ],
+      "purl": "pkg:maven/org.hibernate.orm/hibernate-core@7.4.1.Final",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.4.1.Final"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "53505ad984428ab42b4a4f3456aab9ec343bf2f2",
+        "sha256": "4dea20c780d12e8ad6e1fe7d695460af74f8668df9eb58910991919194412188"
+      },
+      "instances": 1,
+      "key": "maven:org.hibernate.validator:hibernate-validator",
+      "license": "Apache License 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "hibernate-validator",
+      "namespace": "org.hibernate.validator",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/hibernate-validator-9.1.0.Final.jar"
+      ],
+      "purl": "pkg:maven/org.hibernate.validator/hibernate-validator@9.1.0.Final",
+      "scope": null,
+      "tier": "primary",
+      "version": "9.1.0.Final"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "1cc9f976725720bb4a66f80af3e3aa6b9890d969",
+        "sha256": "7c12ee575508f81e22b1db9334b969d0ec54ef0fd1dcba24eeab1a44235fc366"
+      },
+      "instances": 1,
+      "key": "maven:org.jboss.logging:jboss-logging",
+      "license": "Apache License 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jboss-logging",
+      "namespace": "org.jboss.logging",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jboss-logging-3.6.3.Final.jar"
+      ],
+      "purl": "pkg:maven/org.jboss.logging/jboss-logging@3.6.3.Final",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.6.3.Final"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "e22e0c040fe16f04ffdb85d851d77b07fc05ea52",
+        "sha256": "0f18192df289114e17aa1a0d0a7f8372cc9f5c7e4f7e39adcf8906fe714fa7d3"
+      },
+      "instances": 1,
+      "key": "maven:org.json:json",
+      "license": "Public Domain",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "json",
+      "namespace": "org.json",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/json-20231013.jar"
+      ],
+      "purl": "pkg:maven/org.json/json@20231013",
+      "scope": null,
+      "tier": "primary",
+      "version": "20231013"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "7425a601c1c7ec76645a78d22b8c6a627edee507",
+        "sha256": "1fad6e6be7557781e4d33729d49ae1cdc8fdda6fe477bb0cc68ce351eafdfbab"
+      },
+      "instances": 1,
+      "key": "maven:org.jspecify:jspecify",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jspecify",
+      "namespace": "org.jspecify",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jspecify-1.0.0.jar"
+      ],
+      "purl": "pkg:maven/org.jspecify/jspecify@1.0.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "79739c98001d5c9d078d087d5a348ec9e474ec8f",
+        "sha256": "cbb7d1aaaa9e871eb1a06594abd911bf97027152976edf1edc315be75239204e"
+      },
+      "instances": 1,
+      "key": "maven:org.slf4j:jul-to-slf4j",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jul-to-slf4j",
+      "namespace": "org.slf4j",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jul-to-slf4j-2.0.18.jar"
+      ],
+      "purl": "pkg:maven/org.slf4j/jul-to-slf4j@2.0.18",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.0.18"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "78a9e7a37cd6360e0b818e86341b24123d28d4df",
+        "sha256": "44508fd1576500688c790b190acdd16fec4f8c79a3e0b900afd70503cf055f55"
+      },
+      "instances": 1,
+      "key": "maven:org.slf4j:slf4j-api",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "slf4j-api",
+      "namespace": "org.slf4j",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/slf4j-api-2.0.18.jar"
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@2.0.18",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.0.18"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "47a9cf5e6c2623214b9676c49f9e774b9849dd63",
+        "sha256": "9a19f8a8885ef1d3e1c25a5849c541a72eac9f13d345c63dc40472d3522a674f"
+      },
+      "instances": 1,
+      "key": "maven:org.springdoc:springdoc-openapi-starter-common",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "springdoc-openapi-starter-common",
+      "namespace": "org.springdoc",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/springdoc-openapi-starter-common-3.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springdoc/springdoc-openapi-starter-common@3.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "7d8f1418900b44b7ce0d4a04fa9945f728f6e660",
+        "sha256": "3e37f6d0767d16d3ef1caf8617da05dac6f9976077fb63aff63d3d73bb7791e0"
+      },
+      "instances": 1,
+      "key": "maven:org.springdoc:springdoc-openapi-starter-webmvc-api",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "springdoc-openapi-starter-webmvc-api",
+      "namespace": "org.springdoc",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/springdoc-openapi-starter-webmvc-api-3.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springdoc/springdoc-openapi-starter-webmvc-api@3.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "2c0f10ae1f33e4125f42b3fb777b962690b86f67",
+        "sha256": "2140dfb17c96751a77ba7e9555301bac4de9fc5cbcf149fd55f17f95651c1004"
+      },
+      "instances": 1,
+      "key": "maven:org.springdoc:springdoc-openapi-starter-webmvc-ui",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "springdoc-openapi-starter-webmvc-ui",
+      "namespace": "org.springdoc",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/springdoc-openapi-starter-webmvc-ui-3.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springdoc/springdoc-openapi-starter-webmvc-ui@3.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "bcf26d4c27ab080ef60c13220e96a37d687f9e26",
+        "sha256": "b23951a3a7f867e38db4729b8594e1b72374516f386b1dd9cf4d5317d6d3f91f"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "a921df4e39389e43dacac5615a1185708ee8a960",
+        "sha256": "0fcaa3050ba835ca6b3879f81cd48dc590a6262f53bbf10d2a95c70bf7c048ac"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-autoconfigure",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-autoconfigure",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-autoconfigure-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "3d587cffcde8c18fa784e0486a2c0a8a4728f262",
+        "sha256": "44613292a91c231d81d39d05b10550b9988e7dcaf3b931b700e86fb0ac029937"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-data-commons",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-data-commons",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-data-commons-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-data-commons@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "d29dbdc6734afe2f4d5c56cf3112c491c3582642",
+        "sha256": "5c9fe8ee830a45bba829e7bd150aa0633c18d50870561d85299af1e8418daac4"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-data-jpa",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-data-jpa",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-data-jpa-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-data-jpa@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "af702315125871004a8a7df290f55ac5e5617d91",
+        "sha256": "fcdcf4b490a8fa0e6ce466334bc8ae752a80e1ff1c9eb58a101e2fff878a2863"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-hibernate",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-hibernate",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-hibernate-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-hibernate@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "c3b90921e920dfa7dcb78a5045f18ca0e4bc0b44",
+        "sha256": "f82c8913ea17a60630a5d26fa006cf79f28c7d920dbbef8760f5bc7053706fea"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-http-converter",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-http-converter",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-http-converter-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-http-converter@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "bada14f54b1961279f9942c54b5039c90cd6a252",
+        "sha256": "10b6e63a40b257168854093f413eaab8b8a9afb7e989fcc7f6732b42c3f173d1"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-jackson",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-jackson",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-jackson-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-jackson@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from spring-boot plugin",
+      "hashes": {
+        "sha1": "7ee213c8fe8ed444fc6ca92d4aaa86424645a041",
+        "sha256": "20b66fc7cffe830b51ce2cc36df77a0dd695cf197828902503e04492087c84b6"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-jarmode-tools",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-jarmode-tools",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-jarmode-tools-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-jarmode-tools@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "71f00c6af0ae910530d9fce8f5ae6e54c595f690",
+        "sha256": "3b5aab97e72d8a15a40546c31365ed2090cf25451e18762add8ed22cbb4ead43"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-jdbc",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-jdbc",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-jdbc-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-jdbc@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "bf645cdf194c71f829225793a5d6545d9dfe96ae",
+        "sha256": "cd61301aebef59f3d2874ebd51862ed52d342d8c162874791475486232316d95"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-jpa",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-jpa",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-jpa-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-jpa@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "b8051f1cfbd57903eaa11612f6a1e51828e6fe8c",
+        "sha256": "9e33897373e22dc31984fc13c1319036ba696d7de83ae002203381b75007a7c0"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-mail",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-mail",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-mail-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-mail@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "12b6d5aa8a97c458a5c8eba8e8cb0e38e326d9d8",
+        "sha256": "d9d926224c738bd6152718c078134e3aea1057db4d6a452c37ad120893e0e4d6"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-persistence",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-persistence",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-persistence-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-persistence@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "1fe5f10c43305d43d8ac22ae5b721010f4394449",
+        "sha256": "5e30a3ea1d62c5ef2af5a8bcf31237583f216f40dbb0b76ec2eda72981ea2bac"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-security",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-security",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-security-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-security@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "a067e9b4b7c255a8587852b6eb842413cc458e70",
+        "sha256": "5f694a7c6c357a87032bc92db0e7e0e03b64010f77892e5992c86b10f568a5ae"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-servlet",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-servlet",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-servlet-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-servlet@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "7a5ef86020d10e926b2e98e1d7b4b79258fb2f38",
+        "sha256": "2826a5380675337f4c5b3e90db02279e68a2c9a7eb2b2ac312828c05fb827a9a"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-sql",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-sql",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-sql-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-sql@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "0502aeed70cb11c3754c365324acd9f3ee746354",
+        "sha256": "011e662eb6f9f4a80c5dacf914cfca8a25a33fcd753736ec453dcf701337dd24"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-tomcat",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-tomcat",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-tomcat-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-tomcat@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "93b102fb7c2eb6558b8e52fb24f1152c837db3f6",
+        "sha256": "5402dfeef5d6633b485d6ce8d1cfb2116c7a55e70f8f5dbd31b69ca43e006f13"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-transaction",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-transaction",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-transaction-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-transaction@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "fcd0b07c0c7e29f42e495f91710154dbc81d2c8c",
+        "sha256": "38e3409dc8050e14afcfe14b7bb09f10d1077c7fbd33150ba2698d53dd79b4cc"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-validation",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-validation",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-validation-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-validation@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "e67513b382c2cef7b8bc364e8e85cd7f0940e331",
+        "sha256": "a8541ccbd29f5a8db7e6092fa83463aa4d1c002fac07b8b5babe118ad6c4a3d3"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-web-server",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-web-server",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-web-server-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-web-server@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "2cb542ef7d4fa572d3031616544db20b6f7de4c7",
+        "sha256": "ab21735a550cbfefaa4ad6ffbb1a891592580ef05ad729cd2025bc0245862b55"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-webmvc",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-webmvc",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-webmvc-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-webmvc@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "e8d1077d09c20e9ecf3574a72ce5cc90a29b902a",
+        "sha256": "c9e41d45b30aacc0ce50c4426f0650a3544c066ab5d6d0304840e6f878388c5c"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.data:spring-data-commons",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-data-commons",
+      "namespace": "org.springframework.data",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-data-commons-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.data/spring-data-commons@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "6387c88a4a9637f129e0ebcad50ada478ad01c3f",
+        "sha256": "60b72b0513faecb3ef51f53f35d74de68b193af06dc7c1c66b54e265762bad66"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.data:spring-data-jpa",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-data-jpa",
+      "namespace": "org.springframework.data",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-data-jpa-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.data/spring-data-jpa@4.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "ebc863ad43703c6f5517881e16d3d73de80cd193",
+        "sha256": "3234035bb5ccd45a9367ce526723d6b8da501c5c3f725b54a98354f922c2e978"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.security:spring-security-config",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-security-config",
+      "namespace": "org.springframework.security",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-security-config-7.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.security/spring-security-config@7.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "50064b46aed22d05aa181b2c95d47989c7c99160",
+        "sha256": "f8cecce9e65db9fe9ea42ca92b04d6e4e4320ff9d492aa60b753716ea397262c"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.security:spring-security-core",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-security-core",
+      "namespace": "org.springframework.security",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-security-core-7.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.security/spring-security-core@7.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "819461a33c5b10b92bb1a125db933a17fc0db792",
+        "sha256": "6f6957548a28451712e53b94a3e77057735b2fcec04c99ca6dd555b574453a98"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.security:spring-security-crypto",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-security-crypto",
+      "namespace": "org.springframework.security",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-security-crypto-7.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.security/spring-security-crypto@7.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "cec1635393d11a56da5ff111253c88056d5cc0eb",
+        "sha256": "1deee612104ce85ec815076b80578cd8e82c07067e122068f09fbfef860b3cb1"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.security:spring-security-web",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-security-web",
+      "namespace": "org.springframework.security",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-security-web-7.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.security/spring-security-web@7.1.0",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "b73e58e9b7dbc4db6b4ebbe3336be0e901b0d261",
+        "sha256": "1178f039e087884174e2affc46e484f4a8bd7f2a4e011d33dd9137709f740f80"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-aop",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-aop",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-aop-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-aop@7.0.8",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "daf535194ee6cd1e1e23c7368c58b5f02fe18f65",
+        "sha256": "f5e7eb54ff5b6355976977401852c0f0670312aa2f18c153d29ff02943883b06"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-aspects",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-aspects",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-aspects-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-aspects@7.0.8",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "829cdf4c82a9409e0e10922b9e57e2ef12d5f04d",
+        "sha256": "6ec2e361a8872a71d8b1ff66f1bcb8cfa29fcc437931998919da7cecfb59b45b"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-beans",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-beans",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-beans-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-beans@7.0.8",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "6c58b590fd8d71afc36797cf6555e82500f1eb64",
+        "sha256": "1eb7d552414ebac00e30ab3e809138d810785f6d2c4271db77cdf0181f308f19"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-context",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-context",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-context-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-context@7.0.8",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "1c9bd9da34fca09f3423d86f8e33bd9c099232eb",
+        "sha256": "9ab80715682c47ad66a1a2c0e9ab2be9ec3d828276f281597f12c5208147b92e"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-context-support",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-context-support",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-context-support-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-context-support@7.0.8",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "025f5ebd179f92d7d12779e3761c96da4b0109ad",
+        "sha256": "726ba2a5130833644bdf267a55ff26e1f52e8dcc9aa1ffa06904ca9c14619f25"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-core",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-core",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-core-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-core@7.0.8",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "bb844eefd513820e356b575d7ea0f7084147af59",
+        "sha256": "3c97c38ab59c77ee886e08ccf8096f6bb58a1245f68dfed7a40e93f41c435f9a"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-expression",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-expression",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-expression-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-expression@7.0.8",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "f979da380cd01fd363510ca98a7f544d1959a914",
+        "sha256": "7d6bbf130ed919d5f4f01ec0ea771ab59ac3936ab29f50fd3a705c0119871e32"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-jdbc",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-jdbc",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-jdbc-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-jdbc@7.0.8",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "8c40fad8ecc72337353818da54ef2d104b3fa7a9",
+        "sha256": "3ff1ad6ab4ebcc7dc9ef02f40aa60790bddead11b0e0fc7f75cb20f41f7d291e"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-orm",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-orm",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-orm-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-orm@7.0.8",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "96c66acfb3920457421a9cb3648a32e62f42f815",
+        "sha256": "57e8fdb6de949e7ec2617683fec03af0253bdbdf4bf3d2651a926a94413df283"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-tx",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-tx",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-tx-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-tx@7.0.8",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "d7cddac31ee023d25d37f48e2ff0e168cf635c14",
+        "sha256": "4d4ed7ecb0453d25d735ea27d025ea36b003c3d29cb7d006bedd6d5188a2f5c0"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-web",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-web",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-web-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-web@7.0.8",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "d08172cf66f9625a42935d596ca4c83d21265996",
+        "sha256": "48f7e1e2d0d46e98ed3fa30d5a64cb1f7ed2aa339a82edcd87289ed8ff216f04"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-webmvc",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-webmvc",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-webmvc-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-webmvc@7.0.8",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "87f61a7e69ca597db9d1825e6c3d03035d74ee26",
+        "sha256": "046a4e08502c6244d251278abfd4bcf9db193f79517fc882f4efe84a31f7b1c1"
+      },
+      "instances": 1,
+      "key": "maven:org.webjars:swagger-ui",
+      "license": "Apache-2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "swagger-ui",
+      "namespace": "org.webjars",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/swagger-ui-5.32.11.jar"
+      ],
+      "purl": "pkg:maven/org.webjars/swagger-ui@5.32.11",
+      "scope": null,
+      "tier": "primary",
+      "version": "5.32.11"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "217ce590453251b39b72c4a9af3986998f6fdbd9",
+        "sha256": "7b67c4e69437a9c32b9c901bfaa056c7e2f1db62401757f02387c1f014bd00c4"
+      },
+      "instances": 1,
+      "key": "maven:org.webjars:webjars-locator-lite",
+      "license": "MIT",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "webjars-locator-lite",
+      "namespace": "org.webjars",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/webjars-locator-lite-1.1.3.jar"
+      ],
+      "purl": "pkg:maven/org.webjars/webjars-locator-lite@1.1.3",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.1.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "2bc14918a2f8d5414749ab12d0c590cd3198b8c1",
+        "sha256": "c8f7a98e7394adda02f6317249710e4d1b4c7a25aa8c7eace0c2eea52eb8bf85"
+      },
+      "instances": 1,
+      "key": "maven:org.yaml:snakeyaml",
+      "license": "Apache License, Version 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "snakeyaml",
+      "namespace": "org.yaml",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/snakeyaml-2.6.jar"
+      ],
+      "purl": "pkg:maven/org.yaml/snakeyaml@2.6",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.6"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "f9fd39204bd3d4922b42f6a54b81f46bd8ed575a",
+        "sha256": "3bda1cd6eff0a8d47bdfcaeae7c2bd5311d6c8ed494ef5f3e51029bb44aa9bdf"
+      },
+      "instances": 1,
+      "key": "maven:tools.jackson.core:jackson-core",
+      "license": "The Apache Software License, Version 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jackson-core",
+      "namespace": "tools.jackson.core",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jackson-core-3.1.4.jar"
+      ],
+      "purl": "pkg:maven/tools.jackson.core/jackson-core@3.1.4",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.1.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "c7be3c757289893a791b2a4967ec09d1a8b6c576",
+        "sha256": "14034bfdf392b6ebec1b4bb6c1de29d604f0aa97251259a19d5f19af8719bb20"
+      },
+      "instances": 1,
+      "key": "maven:tools.jackson.core:jackson-databind",
+      "license": "The Apache Software License, Version 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jackson-databind",
+      "namespace": "tools.jackson.core",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jackson-databind-3.1.4.jar"
+      ],
+      "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.1.4",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.1.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::acl",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "acl",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/acl@2.3.2-2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.3.2-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::attr",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "attr",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/attr@1:2.5.2-4ubuntu0.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1:2.5.2-4ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::audit",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "audit",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/audit@1:4.1.2-1ubuntu0.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1:4.1.2-1ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::brotli",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "brotli",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/brotli@1.2.0-3ubuntu0.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.2.0-3ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::bzip2",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "bzip2",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/bzip2@1.0.8-6ubuntu0.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.0.8-6ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::cdebconf",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "cdebconf",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/cdebconf@0.280ubuntu1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.280ubuntu1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::coreutils",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "coreutils",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/coreutils@9.7-3ubuntu2.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "9.7-3ubuntu2.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::coreutils-from",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "coreutils-from",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/coreutils-from@0.0.0~ubuntu25",
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.0.0~ubuntu25"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::db5.3",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "db5.3",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/db5.3@5.3.28%2Bdfsg2-10ubuntu1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "5.3.28+dfsg2-10ubuntu1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::expat",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "expat",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/expat@2.7.4-1ubuntu0.2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.7.4-1ubuntu0.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::fonts-dejavu",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "fonts-dejavu",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/fonts-dejavu@2.37-8build1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.37-8build1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::freetype",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "freetype",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/freetype@2.14.2%2Bdfsg-1ubuntu0.2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.14.2+dfsg-1ubuntu0.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::gcc-16",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "gcc-16",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/gcc-16@16-20260322-1ubuntu1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "16-20260322-1ubuntu1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::glibc",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "glibc",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/glibc@2.43-2ubuntu2.7",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.43-2ubuntu2.7"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::gmp",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "gmp",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/gmp@2:6.3.0%2Bdfsg-5ubuntu2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2:6.3.0+dfsg-5ubuntu2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::gnupg2",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "gnupg2",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/gnupg2@2.4.8-4ubuntu3.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.4.8-4ubuntu3.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libbsd",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libbsd",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/libbsd@0.12.2-2build2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.12.2-2build2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libcap-ng",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libcap-ng",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/libcap-ng@0.8.5-4build5",
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.8.5-4build5"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libffi",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libffi",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/libffi@3.5.2-4",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.5.2-4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libgpg-error",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libgpg-error",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/libgpg-error@1.58-2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.58-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libmd",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libmd",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/libmd@1.1.0-2build4",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.1.0-2build4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libpng1.6",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libpng1.6",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/libpng1.6@1.6.57-1ubuntu0.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.6.57-1ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libseccomp",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libseccomp",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/libseccomp@2.6.0-2ubuntu5",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.6.0-2ubuntu5"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libselinux",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libselinux",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/libselinux@3.9-4build1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.9-4build1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libsemanage",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libsemanage",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/libsemanage@3.9-1build1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.9-1build1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libsepol",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libsepol",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/libsepol@3.9-2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.9-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libxcrypt",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libxcrypt",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/libxcrypt@1:4.5.1-1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1:4.5.1-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libzstd",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libzstd",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/libzstd@1.5.7%2Bdfsg-3",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.5.7+dfsg-3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::lz4",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "lz4",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/lz4@1.10.0-8",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.10.0-8"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::ncurses",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "ncurses",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/ncurses@6.6%2B20251231-1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "6.6+20251231-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::pam",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "pam",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/pam@1.7.0-5ubuntu3.2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.7.0-5ubuntu3.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::pcre2",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "pcre2",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/pcre2@10.46-1ubuntu0.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "10.46-1ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::perl",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "perl",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/perl@5.40.1-7ubuntu0.3",
+      "scope": null,
+      "tier": "secondary",
+      "version": "5.40.1-7ubuntu0.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::shadow",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "shadow",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/shadow@1:4.17.4-2ubuntu3",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1:4.17.4-2ubuntu3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::systemd",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "systemd",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/systemd@259.9-0ubuntu0.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "259.9-0ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::sysvinit",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "sysvinit",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/sysvinit@3.15-5ubuntu1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.15-5ubuntu1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::xxhash",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "xxhash",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/xxhash@0.8.3-2build1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.8.3-2build1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::xz-utils",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "xz-utils",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/xz-utils@5.8.3-1ubuntu0.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "5.8.3-1ubuntu0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::zlib",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "zlib",
+      "namespace": "ubuntu",
+      "paths": [],
+      "purl": "pkg:deb/ubuntu/zlib@1:1.3.dfsg%2Breally1.3.1-1ubuntu3.2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1:1.3.dfsg+really1.3.1-1ubuntu3.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename (groupId unknown)",
+      "hashes": {
+        "sha1": "c3731659acbfa5d6f4e9c8c2e4e1219bb26facf8",
+        "sha256": "bb9e387af34a44532fca6c2a37c6918e1ab2033b43f0f2a07dd76cb3a6f79348"
+      },
+      "instances": 1,
+      "key": "maven::jrt-fs",
+      "license": null,
+      "mechanism": "runtime-internal",
+      "mechanisms": [
+        "runtime-internal"
+      ],
+      "name": "jrt-fs",
+      "namespace": null,
+      "paths": [
+        "opt/java/openjdk/lib/jrt-fs.jar"
+      ],
+      "purl": "pkg:maven/jrt-fs@25.0.5.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "25.0.5.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "f28a048ba919ba711b2e6622af6aecf81fc14623",
+        "sha256": "f0a4547ba42ab6d998a6172b28ea827e2aa91219fa9b0af5c3f02f57bd06d2a0"
+      },
+      "instances": 1,
+      "key": "maven:com.bakery:bakery-inventory-management",
+      "license": null,
+      "mechanism": "self",
+      "mechanisms": [
+        "self"
+      ],
+      "name": "bakery-inventory-management",
+      "namespace": "com.bakery",
+      "paths": [
+        "app/app.jar"
+      ],
+      "purl": "pkg:maven/com.bakery/bakery-inventory-management@0.0.1-SNAPSHOT",
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.0.1-SNAPSHOT"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties inside angus-mail-2.0.5.jar",
+      "hashes": {},
+      "instances": 1,
+      "key": "maven:org.eclipse.angus:angus-core",
+      "license": null,
+      "mechanism": "embedded-pom",
+      "mechanisms": [
+        "embedded-pom"
+      ],
+      "name": "angus-core",
+      "namespace": "org.eclipse.angus",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/angus-mail-2.0.5.jar"
+      ],
+      "purl": "pkg:maven/org.eclipse.angus/angus-core@2.0.5",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.0.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties inside angus-mail-2.0.5.jar",
+      "hashes": {},
+      "instances": 1,
+      "key": "maven:org.eclipse.angus:imap",
+      "license": null,
+      "mechanism": "embedded-pom",
+      "mechanisms": [
+        "embedded-pom"
+      ],
+      "name": "imap",
+      "namespace": "org.eclipse.angus",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/angus-mail-2.0.5.jar"
+      ],
+      "purl": "pkg:maven/org.eclipse.angus/imap@2.0.5",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.0.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties inside angus-mail-2.0.5.jar",
+      "hashes": {},
+      "instances": 1,
+      "key": "maven:org.eclipse.angus:logging-mailhandler",
+      "license": null,
+      "mechanism": "embedded-pom",
+      "mechanisms": [
+        "embedded-pom"
+      ],
+      "name": "logging-mailhandler",
+      "namespace": "org.eclipse.angus",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/angus-mail-2.0.5.jar"
+      ],
+      "purl": "pkg:maven/org.eclipse.angus/logging-mailhandler@2.0.5",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.0.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties inside angus-mail-2.0.5.jar",
+      "hashes": {},
+      "instances": 1,
+      "key": "maven:org.eclipse.angus:pop3",
+      "license": null,
+      "mechanism": "embedded-pom",
+      "mechanisms": [
+        "embedded-pom"
+      ],
+      "name": "pop3",
+      "namespace": "org.eclipse.angus",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/angus-mail-2.0.5.jar"
+      ],
+      "purl": "pkg:maven/org.eclipse.angus/pop3@2.0.5",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.0.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties inside angus-mail-2.0.5.jar",
+      "hashes": {},
+      "instances": 1,
+      "key": "maven:org.eclipse.angus:smtp",
+      "license": null,
+      "mechanism": "embedded-pom",
+      "mechanisms": [
+        "embedded-pom"
+      ],
+      "name": "smtp",
+      "namespace": "org.eclipse.angus",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/angus-mail-2.0.5.jar"
+      ],
+      "purl": "pkg:maven/org.eclipse.angus/smtp@2.0.5",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.0.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "loader classes in fat JAR",
+      "hashes": {},
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-loader",
+      "license": null,
+      "mechanism": "boot-loader-classes",
+      "mechanisms": [
+        "boot-loader-classes"
+      ],
+      "name": "spring-boot-loader",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-loader@4.1.0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "4.1.0"
+    }
+  ],
+  "generated_utc": "2026-11-23T06:16:58+00:00",
+  "kind": "image",
+  "notes": [
+    "os-release: ID=ubuntu VERSION_ID=26.04"
+  ],
+  "stage": "S3",
+  "stats": {
+    "by_eco": {
+      "deb": 145,
+      "generic": 1,
+      "golang": 11,
+      "maven": 110
+    },
+    "by_mechanism": {
+      "boot-loader-classes": 1,
+      "embedded-pom": 5,
+      "go-module-in-binary": 10,
+      "manual-download": 1,
+      "nested-jar": 102,
+      "os-pm": 106,
+      "runtime-internal": 1,
+      "runtime-outside-pm": 1,
+      "self": 1,
+      "source-package": 39
+    },
+    "by_tier": {
+      "primary": 220,
+      "secondary": 47
+    },
+    "total": 267
+  },
+  "subject": "bakery-backend",
+  "target": "J-S3-ubuntu"
+}

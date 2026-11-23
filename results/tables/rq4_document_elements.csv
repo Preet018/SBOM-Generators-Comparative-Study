@@ -1,0 +1,4 @@
+tool,timestamp,tool_name,author,supplier_doc,dependency_graph,lifecycle_phase
+syft,1.0,1.0,0.0,0.0,0.78125,0.0
+trivy,1.0,1.0,0.0,0.0,0.8125,0.0
+cdxgen,1.0,1.0,1.0,0.0,0.84375,1.0

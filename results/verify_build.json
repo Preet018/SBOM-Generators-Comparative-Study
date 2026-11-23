@@ -1,0 +1,1242 @@
+{
+  "checks": [
+    {
+      "check": "corpus unchanged since snapshot",
+      "detail": "[]",
+      "ok": true,
+      "target": "corpus"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "J-S1"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "J-S2"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "J-S3-ubuntu"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "J-S3-alpine"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "J-S3-distroless"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "J-S3-layered"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "J-P"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "N-S1"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "N-S1-nolock"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "N-S2"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "N-S3-nginx"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "N-S3-node"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "P-S1"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "P-S1-pinned"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "P-S3-pred"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "P-S3-drift"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "P-S3-front"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "P-S3-ml"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "P-S3-distroless"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "P-P"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "M-S3"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "C-S1"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "C-S2"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "C-S3-debian"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "C-S3-alpine"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "C-S3-scratch"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "C-P"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "O-debian"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "O-ubuntu"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "O-alpine"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "O-ubi"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "O-distroless"
+    },
+    {
+      "check": "bakery-backend/maven-runtime.txt lists dependencies",
+      "detail": "114",
+      "ok": true,
+      "target": "buildinfo"
+    },
+    {
+      "check": "bakery-backend/maven-all.txt lists dependencies",
+      "detail": "153",
+      "ok": true,
+      "target": "buildinfo"
+    },
+    {
+      "check": "bakery-backend/maven-tree.txt lists dependencies",
+      "detail": "0",
+      "ok": true,
+      "target": "buildinfo"
+    },
+    {
+      "check": "bakery-frontend/npm-ls-all.json valid",
+      "detail": "",
+      "ok": true,
+      "target": "buildinfo"
+    },
+    {
+      "check": "bakery-frontend/npm-ls-prod.json valid",
+      "detail": "",
+      "ok": true,
+      "target": "buildinfo"
+    },
+    {
+      "check": "bakery-frontend sourcemaps kept for ground truth",
+      "detail": "1",
+      "ok": true,
+      "target": "buildinfo"
+    },
+    {
+      "check": "log-anomaly: 5 pip dry-run reports",
+      "detail": "['pip-report-drift_service.json', 'pip-report-frontend.json', 'pip-report-ml_pipeline.json', 'pip-report-prediction_service.json', 'pip-report-root.json']",
+      "ok": true,
+      "target": "buildinfo"
+    },
+    {
+      "check": "tcp-server/glibc-readelf-server.txt present",
+      "detail": "",
+      "ok": true,
+      "target": "buildinfo"
+    },
+    {
+      "check": "tcp-server/musl-version.txt present",
+      "detail": "",
+      "ok": true,
+      "target": "buildinfo"
+    },
+    {
+      "check": "tcp-server/planted-readelf-server.txt present",
+      "detail": "",
+      "ok": true,
+      "target": "buildinfo"
+    },
+    {
+      "check": "tcp-server/musl-version.txt is exactly one 'musl-<version>' line",
+      "detail": "musl-1.2.5-r13",
+      "ok": true,
+      "target": "buildinfo"
+    },
+    {
+      "check": "image installs exactly the versions in pip-report-prediction_service",
+      "detail": "{}",
+      "ok": true,
+      "target": "P-S3-pred"
+    },
+    {
+      "check": "image installs exactly the versions in pip-report-drift_service",
+      "detail": "{}",
+      "ok": true,
+      "target": "P-S3-drift"
+    },
+    {
+      "check": "image installs exactly the versions in pip-report-frontend",
+      "detail": "{}",
+      "ok": true,
+      "target": "P-S3-front"
+    },
+    {
+      "check": "image installs exactly the versions in pip-report-ml_pipeline",
+      "detail": "{}",
+      "ok": true,
+      "target": "P-S3-ml"
+    },
+    {
+      "check": "root pins == current pip report",
+      "detail": "",
+      "ok": true,
+      "target": "P-S1-pinned"
+    },
+    {
+      "check": "prediction_service pins == current pip report",
+      "detail": "",
+      "ok": true,
+      "target": "P-S1-pinned"
+    },
+    {
+      "check": "drift_service pins == current pip report",
+      "detail": "",
+      "ok": true,
+      "target": "P-S1-pinned"
+    },
+    {
+      "check": "frontend pins == current pip report",
+      "detail": "",
+      "ok": true,
+      "target": "P-S1-pinned"
+    },
+    {
+      "check": "ml_pipeline pins == current pip report",
+      "detail": "",
+      "ok": true,
+      "target": "P-S1-pinned"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "corpus/bakery-inventory-management/bakery-inventory-backend",
+      "ok": true,
+      "target": "J-S1"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/artifacts/J-S2/app.jar",
+      "ok": true,
+      "target": "J-S2"
+    },
+    {
+      "check": "fat JAR has BOOT-INF/lib (>30 jars)",
+      "detail": "102",
+      "ok": true,
+      "target": "J-S2"
+    },
+    {
+      "check": "devtools excluded from fat JAR (Spring Boot default)",
+      "detail": "",
+      "ok": true,
+      "target": "J-S2"
+    },
+    {
+      "check": "test-scope jars absent (no junit/mockito)",
+      "detail": "",
+      "ok": true,
+      "target": "J-S2"
+    },
+    {
+      "check": "INFO lombok in fat JAR?",
+      "detail": "False",
+      "ok": true,
+      "target": "J-S2"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/J-S3-ubuntu.tar",
+      "ok": true,
+      "target": "J-S3-ubuntu"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "J-S3-ubuntu"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "8871 entries",
+      "ok": true,
+      "target": "J-S3-ubuntu"
+    },
+    {
+      "check": "/app/app.jar present",
+      "detail": "",
+      "ok": true,
+      "target": "J-S3-ubuntu"
+    },
+    {
+      "check": "java runtime present",
+      "detail": "['opt/java/openjdk/bin/java']",
+      "ok": true,
+      "target": "J-S3-ubuntu"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/J-S3-alpine.tar",
+      "ok": true,
+      "target": "J-S3-alpine"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "J-S3-alpine"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "2170 entries",
+      "ok": true,
+      "target": "J-S3-alpine"
+    },
+    {
+      "check": "/app/app.jar present",
+      "detail": "",
+      "ok": true,
+      "target": "J-S3-alpine"
+    },
+    {
+      "check": "java runtime present",
+      "detail": "['opt/java/openjdk/bin/java']",
+      "ok": true,
+      "target": "J-S3-alpine"
+    },
+    {
+      "check": "apk database present",
+      "detail": "",
+      "ok": true,
+      "target": "J-S3-alpine"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/J-S3-distroless.tar",
+      "ok": true,
+      "target": "J-S3-distroless"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "J-S3-distroless"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "2309 entries",
+      "ok": true,
+      "target": "J-S3-distroless"
+    },
+    {
+      "check": "/app/app.jar present",
+      "detail": "",
+      "ok": true,
+      "target": "J-S3-distroless"
+    },
+    {
+      "check": "java runtime present",
+      "detail": "['usr/bin/java', 'usr/lib/jvm/temurin-25-jre-amd64/bin/java']",
+      "ok": true,
+      "target": "J-S3-distroless"
+    },
+    {
+      "check": "distroless dpkg status.d present",
+      "detail": "",
+      "ok": true,
+      "target": "J-S3-distroless"
+    },
+    {
+      "check": "no shell (distroless)",
+      "detail": "",
+      "ok": true,
+      "target": "J-S3-distroless"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/J-S3-layered.tar",
+      "ok": true,
+      "target": "J-S3-layered"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "J-S3-layered"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "8974 entries",
+      "ok": true,
+      "target": "J-S3-layered"
+    },
+    {
+      "check": "exploded lib/*.jar present (>30)",
+      "detail": "102",
+      "ok": true,
+      "target": "J-S3-layered"
+    },
+    {
+      "check": "thin app.jar present",
+      "detail": "",
+      "ok": true,
+      "target": "J-S3-layered"
+    },
+    {
+      "check": "java runtime present",
+      "detail": "['opt/java/openjdk/bin/java']",
+      "ok": true,
+      "target": "J-S3-layered"
+    },
+    {
+      "check": "exploded lib/ == fat JAR BOOT-INF/lib",
+      "detail": "only-layered=[] only-fat=[]",
+      "ok": true,
+      "target": "J-S3-layered"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/J-P.tar",
+      "ok": true,
+      "target": "J-P"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "J-P"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "8874 entries",
+      "ok": true,
+      "target": "J-P"
+    },
+    {
+      "check": "/app/app.jar present",
+      "detail": "",
+      "ok": true,
+      "target": "J-P"
+    },
+    {
+      "check": "java runtime present",
+      "detail": "['opt/java/openjdk/bin/java']",
+      "ok": true,
+      "target": "J-P"
+    },
+    {
+      "check": "planted log4j-core-2.14.1.jar",
+      "detail": "",
+      "ok": true,
+      "target": "J-P"
+    },
+    {
+      "check": "planted shaded-demo-1.0.0.jar",
+      "detail": "",
+      "ok": true,
+      "target": "J-P"
+    },
+    {
+      "check": "shaded: commons-lang3 relocated to org/p16/shaded/lang3",
+      "detail": "",
+      "ok": true,
+      "target": "J-P"
+    },
+    {
+      "check": "shaded: gson classes bundled unrelocated",
+      "detail": "",
+      "ok": true,
+      "target": "J-P"
+    },
+    {
+      "check": "INFO shaded JAR keeps META-INF/maven pom.properties",
+      "detail": "['META-INF/maven/com.google.code.gson/gson/pom.properties', 'META-INF/maven/org.apache.commons/commons-lang3/pom.properties', 'META-INF/maven/org.p16.planted/shaded-demo/pom.properties']",
+      "ok": true,
+      "target": "J-P"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "corpus/bakery-inventory-management/bakery-inventory-frontend",
+      "ok": true,
+      "target": "N-S1"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/staging/N-S1-nolock",
+      "ok": true,
+      "target": "N-S1-nolock"
+    },
+    {
+      "check": "package-lock.json removed",
+      "detail": "",
+      "ok": true,
+      "target": "N-S1-nolock"
+    },
+    {
+      "check": "package.json kept",
+      "detail": "",
+      "ok": true,
+      "target": "N-S1-nolock"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/artifacts/N-S2/dist",
+      "ok": true,
+      "target": "N-S2"
+    },
+    {
+      "check": "index.html + JS bundle",
+      "detail": "",
+      "ok": true,
+      "target": "N-S2"
+    },
+    {
+      "check": "no sourcemaps shipped",
+      "detail": "",
+      "ok": true,
+      "target": "N-S2"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/N-S3-nginx.tar",
+      "ok": true,
+      "target": "N-S3-nginx"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "N-S3-nginx"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "2138 entries",
+      "ok": true,
+      "target": "N-S3-nginx"
+    },
+    {
+      "check": "bundle served from nginx html dir",
+      "detail": "",
+      "ok": true,
+      "target": "N-S3-nginx"
+    },
+    {
+      "check": "no node_modules in image",
+      "detail": "",
+      "ok": true,
+      "target": "N-S3-nginx"
+    },
+    {
+      "check": "no sourcemaps in image",
+      "detail": "",
+      "ok": true,
+      "target": "N-S3-nginx"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/N-S3-node.tar",
+      "ok": true,
+      "target": "N-S3-node"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "N-S3-node"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "13590 entries",
+      "ok": true,
+      "target": "N-S3-node"
+    },
+    {
+      "check": "node_modules with vite (dev dep) present",
+      "detail": "",
+      "ok": true,
+      "target": "N-S3-node"
+    },
+    {
+      "check": "node_modules with react (prod dep) present",
+      "detail": "",
+      "ok": true,
+      "target": "N-S3-node"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "corpus/log-anomaly-detection",
+      "ok": true,
+      "target": "P-S1"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/staging/P-S1-pinned",
+      "ok": true,
+      "target": "P-S1-pinned"
+    },
+    {
+      "check": "all 5 requirements.txt fully pinned",
+      "detail": "5 files, unpinned=[]",
+      "ok": true,
+      "target": "P-S1-pinned"
+    },
+    {
+      "check": "pymongo NOT pinned (it is not in the source manifests)",
+      "detail": "",
+      "ok": true,
+      "target": "P-S1-pinned"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/P-S3-pred.tar",
+      "ok": true,
+      "target": "P-S3-pred"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "P-S3-pred"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "19463 entries",
+      "ok": true,
+      "target": "P-S3-pred"
+    },
+    {
+      "check": "pymongo installed (Dockerfile-only dependency)",
+      "detail": "",
+      "ok": true,
+      "target": "P-S3-pred"
+    },
+    {
+      "check": "pandas installed",
+      "detail": "",
+      "ok": true,
+      "target": "P-S3-pred"
+    },
+    {
+      "check": "wheel-vendored native libs (*.libs/*.so) present",
+      "detail": "9 files",
+      "ok": true,
+      "target": "P-S3-pred"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/P-S3-drift.tar",
+      "ok": true,
+      "target": "P-S3-drift"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "P-S3-drift"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "16531 entries",
+      "ok": true,
+      "target": "P-S3-drift"
+    },
+    {
+      "check": "pymongo installed (Dockerfile-only dependency)",
+      "detail": "",
+      "ok": true,
+      "target": "P-S3-drift"
+    },
+    {
+      "check": "pandas installed",
+      "detail": "",
+      "ok": true,
+      "target": "P-S3-drift"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/P-S3-front.tar",
+      "ok": true,
+      "target": "P-S3-front"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "P-S3-front"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "17851 entries",
+      "ok": true,
+      "target": "P-S3-front"
+    },
+    {
+      "check": "pymongo installed (Dockerfile-only dependency)",
+      "detail": "",
+      "ok": true,
+      "target": "P-S3-front"
+    },
+    {
+      "check": "pandas installed",
+      "detail": "",
+      "ok": true,
+      "target": "P-S3-front"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/P-S3-ml.tar",
+      "ok": true,
+      "target": "P-S3-ml"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "P-S3-ml"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "18684 entries",
+      "ok": true,
+      "target": "P-S3-ml"
+    },
+    {
+      "check": "pymongo installed (Dockerfile-only dependency)",
+      "detail": "",
+      "ok": true,
+      "target": "P-S3-ml"
+    },
+    {
+      "check": "pandas installed",
+      "detail": "",
+      "ok": true,
+      "target": "P-S3-ml"
+    },
+    {
+      "check": "wheel-vendored native libs (*.libs/*.so) present",
+      "detail": "9 files",
+      "ok": true,
+      "target": "P-S3-ml"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/P-S3-distroless.tar",
+      "ok": true,
+      "target": "P-S3-distroless"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "P-S3-distroless"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "15367 entries",
+      "ok": true,
+      "target": "P-S3-distroless"
+    },
+    {
+      "check": "pymongo installed (Dockerfile-only dependency)",
+      "detail": "",
+      "ok": true,
+      "target": "P-S3-distroless"
+    },
+    {
+      "check": "pandas installed",
+      "detail": "",
+      "ok": true,
+      "target": "P-S3-distroless"
+    },
+    {
+      "check": "wheel-vendored native libs (*.libs/*.so) present",
+      "detail": "9 files",
+      "ok": true,
+      "target": "P-S3-distroless"
+    },
+    {
+      "check": "packages under /app/deps (pip --target)",
+      "detail": "",
+      "ok": true,
+      "target": "P-S3-distroless"
+    },
+    {
+      "check": "no pip in final image",
+      "detail": "",
+      "ok": true,
+      "target": "P-S3-distroless"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/P-P.tar",
+      "ok": true,
+      "target": "P-P"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "P-P"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "19467 entries",
+      "ok": true,
+      "target": "P-P"
+    },
+    {
+      "check": "pymongo installed (Dockerfile-only dependency)",
+      "detail": "",
+      "ok": true,
+      "target": "P-P"
+    },
+    {
+      "check": "pandas installed",
+      "detail": "",
+      "ok": true,
+      "target": "P-P"
+    },
+    {
+      "check": "wheel-vendored native libs (*.libs/*.so) present",
+      "detail": "9 files",
+      "ok": true,
+      "target": "P-P"
+    },
+    {
+      "check": "planted usr/local/bin/jq is x86-64 ELF",
+      "detail": "{'elf': True, 'x86_64': True, 'dynamic': False, 'interp': None, 'needed': []}",
+      "ok": true,
+      "target": "P-P"
+    },
+    {
+      "check": "planted usr/local/bin/yq is x86-64 ELF",
+      "detail": "{'elf': True, 'x86_64': True, 'dynamic': False, 'interp': None, 'needed': []}",
+      "ok": true,
+      "target": "P-P"
+    },
+    {
+      "check": "planted jq is static (no interpreter)",
+      "detail": "",
+      "ok": true,
+      "target": "P-P"
+    },
+    {
+      "check": "vendored decorator.py present",
+      "detail": "",
+      "ok": true,
+      "target": "P-P"
+    },
+    {
+      "check": "no decorator dist-info anywhere (pure vendored copy)",
+      "detail": "",
+      "ok": true,
+      "target": "P-P"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/M-S3.tar",
+      "ok": true,
+      "target": "M-S3"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "M-S3"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "6190 entries",
+      "ok": true,
+      "target": "M-S3"
+    },
+    {
+      "check": "project init.js copied",
+      "detail": "",
+      "ok": true,
+      "target": "M-S3"
+    },
+    {
+      "check": "mongod binary present",
+      "detail": "",
+      "ok": true,
+      "target": "M-S3"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "corpus/multi-client-tcp-server",
+      "ok": true,
+      "target": "C-S1"
+    },
+    {
+      "check": "committed server binary is Mach-O (foreign binary case)",
+      "detail": "{'elf': False, 'macho': True}",
+      "ok": true,
+      "target": "C-S1"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/artifacts/C-S2/server",
+      "ok": true,
+      "target": "C-S2"
+    },
+    {
+      "check": "server is x86-64 ELF, dynamic glibc",
+      "detail": "{'elf': True, 'x86_64': True, 'dynamic': True, 'interp': '/lib64/ld-linux-x86-64.so.2', 'needed': ['libc.so.6']}",
+      "ok": true,
+      "target": "C-S2"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/C-S3-debian.tar",
+      "ok": true,
+      "target": "C-S3-debian"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "C-S3-debian"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "4233 entries",
+      "ok": true,
+      "target": "C-S3-debian"
+    },
+    {
+      "check": "server is dynamic ELF via ld-linux-x86-64",
+      "detail": "{'elf': True, 'x86_64': True, 'dynamic': True, 'interp': '/lib64/ld-linux-x86-64.so.2', 'needed': ['libc.so.6']}",
+      "ok": true,
+      "target": "C-S3-debian"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/C-S3-alpine.tar",
+      "ok": true,
+      "target": "C-S3-alpine"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "C-S3-alpine"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "526 entries",
+      "ok": true,
+      "target": "C-S3-alpine"
+    },
+    {
+      "check": "server is dynamic ELF via ld-musl-x86_64",
+      "detail": "{'elf': True, 'x86_64': True, 'dynamic': True, 'interp': '/lib/ld-musl-x86_64.so.1', 'needed': ['libc.musl-x86_64.so.1']}",
+      "ok": true,
+      "target": "C-S3-alpine"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/C-S3-scratch.tar",
+      "ok": true,
+      "target": "C-S3-scratch"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "C-S3-scratch"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "14 entries",
+      "ok": true,
+      "target": "C-S3-scratch"
+    },
+    {
+      "check": "server is static ELF (no interpreter)",
+      "detail": "{'elf': True, 'x86_64': True, 'dynamic': False, 'interp': None, 'needed': []}",
+      "ok": true,
+      "target": "C-S3-scratch"
+    },
+    {
+      "check": "image contains only the binary (export placeholders ignored)",
+      "detail": "['app/server']",
+      "ok": true,
+      "target": "C-S3-scratch"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/C-P.tar",
+      "ok": true,
+      "target": "C-P"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "C-P"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "4233 entries",
+      "ok": true,
+      "target": "C-P"
+    },
+    {
+      "check": "server is dynamic ELF via ld-linux-x86-64",
+      "detail": "{'elf': True, 'x86_64': True, 'dynamic': True, 'interp': '/lib64/ld-linux-x86-64.so.2', 'needed': ['libc.so.6']}",
+      "ok": true,
+      "target": "C-P"
+    },
+    {
+      "check": "zlib 1.3.1 statically linked (deflate + inflate banners in binary)",
+      "detail": "",
+      "ok": true,
+      "target": "C-P"
+    },
+    {
+      "check": "cJSON compiled in (symbol name in binary)",
+      "detail": "",
+      "ok": true,
+      "target": "C-P"
+    },
+    {
+      "check": "libz NOT a dynamic dependency",
+      "detail": "",
+      "ok": true,
+      "target": "C-P"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/O-debian.tar",
+      "ok": true,
+      "target": "O-debian"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "O-debian"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "4231 entries",
+      "ok": true,
+      "target": "O-debian"
+    },
+    {
+      "check": "dpkg status present",
+      "detail": "",
+      "ok": true,
+      "target": "O-debian"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/O-ubuntu.tar",
+      "ok": true,
+      "target": "O-ubuntu"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "O-ubuntu"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "3447 entries",
+      "ok": true,
+      "target": "O-ubuntu"
+    },
+    {
+      "check": "dpkg status present",
+      "detail": "",
+      "ok": true,
+      "target": "O-ubuntu"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/O-alpine.tar",
+      "ok": true,
+      "target": "O-alpine"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "O-alpine"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "524 entries",
+      "ok": true,
+      "target": "O-alpine"
+    },
+    {
+      "check": "apk installed db present",
+      "detail": "",
+      "ok": true,
+      "target": "O-alpine"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/O-ubi.tar",
+      "ok": true,
+      "target": "O-ubi"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "O-ubi"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "2660 entries",
+      "ok": true,
+      "target": "O-ubi"
+    },
+    {
+      "check": "rpm database present",
+      "detail": "",
+      "ok": true,
+      "target": "O-ubi"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/O-distroless.tar",
+      "ok": true,
+      "target": "O-distroless"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "O-distroless"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "1752 entries",
+      "ok": true,
+      "target": "O-distroless"
+    },
+    {
+      "check": "distroless dpkg status.d present",
+      "detail": "",
+      "ok": true,
+      "target": "O-distroless"
+    }
+  ],
+  "failed": 0,
+  "total": 206
+}

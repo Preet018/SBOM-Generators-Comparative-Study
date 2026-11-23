@@ -1,0 +1,692 @@
+{
+  "base_images": {
+    "alpine:3.22": [
+      "sha256:49340b346798875b5592e5d420241f2f9cfba5f47e62ebb1446a1b34734e898f"
+    ],
+    "debian:bookworm-slim": [
+      "sha256:734a72b3d6142a71993b4bc580ca01d8ca687f77a2c422d96a961d3376b179bc"
+    ],
+    "eclipse-temurin:25-jre": [
+      "sha256:4ed132f6832e9804b123e89a849a7b4502756ae64a4ee08ebab939d9d5d0a9fa"
+    ],
+    "eclipse-temurin:25-jre-alpine": [
+      "sha256:69c2a26e9894016e274c880fa542956d005b3755f84db765145185e87405bd89"
+    ],
+    "gcc:14": [
+      "sha256:a6f425a380ee03e682df3b436fc9077c544fb0fea0a9cab943c3b8320db10765"
+    ],
+    "gcr.io/distroless/base-debian12": [
+      "p16/o-distroless@sha256:fabbf1c0c357a3d42550111351daed089b20a2c954df13ee2fcff60602515e84",
+      "gcr.io/distroless/base-debian12@sha256:fabbf1c0c357a3d42550111351daed089b20a2c954df13ee2fcff60602515e84"
+    ],
+    "gcr.io/distroless/java25-debian13": [
+      "sha256:c5837324f25f1222828bb1741d62f83f179d5b63a7e0349bbf3a2c6e2fae5ea6"
+    ],
+    "gcr.io/distroless/python3-debian12": [
+      "sha256:2fdb05402a2cf21cf78fdb3ba4c5db167241e9e498140f5bf689d7efb773731f"
+    ],
+    "maven:3-eclipse-temurin-25": [
+      "sha256:84bd96155bf37d1be2858433aee89320f487c2d21faf06406640e7dc2b82d686"
+    ],
+    "mongo:6.0": [
+      "sha256:8b6d8f5bbedb25cb73517b65cf99f13aeb75ad5b157a56c479287a840bbad3ac"
+    ],
+    "nginx:alpine": [
+      "sha256:fb4658584bd9a916ffb6f6e365f97c25cfdb2923801f551ea08356e695f14ff7"
+    ],
+    "node:22-slim": [
+      "sha256:e9f565d32859f0cbfb52125eafe8be39390f24dac302dc3cdf566e8ba3ab21ee"
+    ],
+    "python:3.11-alpine": [
+      "sha256:7fbad8e4652eae0186429a6f26cf5b23e27e8c6fd7ac4d0cfd7a6988cdeea1e1"
+    ],
+    "python:3.11-slim": [
+      "sha256:07d4824036af339fa1b6ef769cc99d9c10a141769538b52b3b597c84f7a7b535"
+    ],
+    "registry.access.redhat.com/ubi9/ubi-minimal": [
+      "p16/o-ubi@sha256:08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352",
+      "registry.access.redhat.com/ubi9/ubi-minimal@sha256:08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352"
+    ],
+    "ubuntu:24.04": [
+      "ubuntu@sha256:9c7f200c07e3d4a03e7249d2c16bf66a51120fb876aa2242cf31451412543289",
+      "p16/o-ubuntu@sha256:9c7f200c07e3d4a03e7249d2c16bf66a51120fb876aa2242cf31451412543289"
+    ]
+  },
+  "buildinfo": {
+    "bakery-backend": {
+      "files": 3,
+      "status": "ok"
+    },
+    "bakery-frontend": {
+      "files": 10,
+      "status": "ok"
+    },
+    "log-anomaly": {
+      "files": 6,
+      "status": "ok"
+    },
+    "tcp-server": {
+      "files": {
+        "glibc-readelf-server.txt": "82d2f437651cb6fc732d3b049dbf3b1c6d774935fd3c21f30ad77dd24eaa599c",
+        "musl-version.txt": "ef03175b05f68176115f9232ccdc7755dee5c11e120e22bf38166d551960c751",
+        "planted-readelf-server.txt": "321b3aa6e06cff10dc1d74c4f7cc0ad731385516f8541494cee76a82f7366088"
+      },
+      "status": "ok"
+    }
+  },
+  "environment": {
+    "docker_server": "29.1.3",
+    "platform": "linux/amd64",
+    "updated_utc": "2026-11-22T19:37:13+00:00"
+  },
+  "targets": {
+    "C-P": {
+      "architecture": "amd64",
+      "build_seconds": 9.8,
+      "how": "build",
+      "id": "C-P",
+      "image": "p16/c-p:latest",
+      "image_id": "sha256:224843323135f7873656882446b8481be960067b07fe26b17192e8916fe11404",
+      "image_tar": "work/images/C-P.tar",
+      "image_tar_sha256": "31b74c0acd61470f528c8a9d244694e26c1aac331f6236bdf94c97a11b156bde",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/c-p@sha256:224843323135f7873656882446b8481be960067b07fe26b17192e8916fe11404"
+      ],
+      "rootfs_tar": "work/rootfs/C-P.tar",
+      "rootfs_tar_sha256": "03370d310f03a6c3447dbf6a1718a1330120dafe804055c494a8e0d1ef0927d6",
+      "scan_input": "work/images/C-P.tar",
+      "size_bytes": 28353787,
+      "stage": "P",
+      "status": "ok",
+      "subject": "tcp-server"
+    },
+    "C-S1": {
+      "build_seconds": 0.0,
+      "how": "path",
+      "id": "C-S1",
+      "kind": "dir",
+      "scan_input": "corpus/multi-client-tcp-server",
+      "stage": "S1",
+      "status": "ok",
+      "subject": "tcp-server"
+    },
+    "C-S2": {
+      "artifact_sha256": "5aafb478cfde1ba61de59bfe68baeaf7be25a2fdcee29398b05f61b084c53ea8",
+      "build_seconds": 4.6,
+      "how": "build",
+      "id": "C-S2",
+      "kind": "file",
+      "scan_input": "work/artifacts/C-S2/server",
+      "stage": "S2",
+      "status": "ok",
+      "subject": "tcp-server"
+    },
+    "C-S3-alpine": {
+      "architecture": "amd64",
+      "build_seconds": 5.4,
+      "how": "build",
+      "id": "C-S3-alpine",
+      "image": "p16/c-s3-alpine:latest",
+      "image_id": "sha256:ebc3d33da7aee22da34213cea6ed352aab038b0069c6b47bd488fecc970a917c",
+      "image_tar": "work/images/C-S3-alpine.tar",
+      "image_tar_sha256": "2104d2d59048d938a485aff4db152fe69525a7925965e63907a7f31380bd246b",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/c-s3-alpine@sha256:ebc3d33da7aee22da34213cea6ed352aab038b0069c6b47bd488fecc970a917c"
+      ],
+      "rootfs_tar": "work/rootfs/C-S3-alpine.tar",
+      "rootfs_tar_sha256": "63f6c5b8f11ebbdddb62f0c592887dfaf6793e4b12743f8bf1b32503f33806ff",
+      "scan_input": "work/images/C-S3-alpine.tar",
+      "size_bytes": 3827837,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "tcp-server"
+    },
+    "C-S3-debian": {
+      "architecture": "amd64",
+      "build_seconds": 10.9,
+      "how": "build",
+      "id": "C-S3-debian",
+      "image": "p16/c-s3-debian:latest",
+      "image_id": "sha256:07fc359a4a0ca3738f7717a532d5f281cd951e5ea4dc1d1b105e17f0819eaab9",
+      "image_tar": "work/images/C-S3-debian.tar",
+      "image_tar_sha256": "68942652b1f75c17c74ddc6583e3b27c14facb693a1cc6cc05242d608664797c",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/c-s3-debian@sha256:07fc359a4a0ca3738f7717a532d5f281cd951e5ea4dc1d1b105e17f0819eaab9"
+      ],
+      "rootfs_tar": "work/rootfs/C-S3-debian.tar",
+      "rootfs_tar_sha256": "c62e927db987ecaed4c0b3909b7f73bd71fb8926c80a780e3ee3f2f4c1628d7d",
+      "scan_input": "work/images/C-S3-debian.tar",
+      "size_bytes": 28281167,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "tcp-server"
+    },
+    "C-S3-scratch": {
+      "architecture": "amd64",
+      "build_seconds": 3.6,
+      "how": "build",
+      "id": "C-S3-scratch",
+      "image": "p16/c-s3-scratch:latest",
+      "image_id": "sha256:ea307b306f321fd4fdb81c373ce28376122a04191560d688e875df6b5a7cd766",
+      "image_tar": "work/images/C-S3-scratch.tar",
+      "image_tar_sha256": "de2aee72fc2f318640ed740ae88cc1c975d072a850a4e167f26643670e754174",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/c-s3-scratch@sha256:ea307b306f321fd4fdb81c373ce28376122a04191560d688e875df6b5a7cd766"
+      ],
+      "rootfs_tar": "work/rootfs/C-S3-scratch.tar",
+      "rootfs_tar_sha256": "28726c9e00c309320a18f44efa76d812eeaf023199377e26e9fecd7d403db965",
+      "scan_input": "work/images/C-S3-scratch.tar",
+      "size_bytes": 234346,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "tcp-server"
+    },
+    "J-P": {
+      "architecture": "amd64",
+      "build_seconds": 46.6,
+      "how": "build",
+      "id": "J-P",
+      "image": "p16/j-p:latest",
+      "image_id": "sha256:b391b64f8c7199963bd7087d85a18e035988cbba1af60eddcec214da1852660c",
+      "image_tar": "work/images/J-P.tar",
+      "image_tar_sha256": "d588da1ddc3e83afdc801dec9138e458751e51091d5fd1046d7055dded1063b8",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/j-p@sha256:b391b64f8c7199963bd7087d85a18e035988cbba1af60eddcec214da1852660c"
+      ],
+      "rootfs_tar": "work/rootfs/J-P.tar",
+      "rootfs_tar_sha256": "730aa07a7164277017eaf5d1dd94ba5921e620ed8c267ea0c4876cc9b3c2d007",
+      "scan_input": "work/images/J-P.tar",
+      "size_bytes": 186035772,
+      "stage": "P",
+      "status": "ok",
+      "subject": "bakery-backend"
+    },
+    "J-S1": {
+      "build_seconds": 0.0,
+      "how": "path",
+      "id": "J-S1",
+      "kind": "dir",
+      "scan_input": "corpus/bakery-inventory-management/bakery-inventory-backend",
+      "stage": "S1",
+      "status": "ok",
+      "subject": "bakery-backend"
+    },
+    "J-S2": {
+      "artifact_sha256": "f0a4547ba42ab6d998a6172b28ea827e2aa91219fa9b0af5c3f02f57bd06d2a0",
+      "build_seconds": 13.1,
+      "how": "build",
+      "id": "J-S2",
+      "kind": "file",
+      "scan_input": "work/artifacts/J-S2/app.jar",
+      "stage": "S2",
+      "status": "ok",
+      "subject": "bakery-backend"
+    },
+    "J-S3-alpine": {
+      "architecture": "amd64",
+      "build_seconds": 32.2,
+      "how": "build",
+      "id": "J-S3-alpine",
+      "image": "p16/j-s3-alpine:latest",
+      "image_id": "sha256:b2e8bbc4499d985a513ad67eaa1110da2c85726b89251fa6e06962e3e9c7f4cf",
+      "image_tar": "work/images/J-S3-alpine.tar",
+      "image_tar_sha256": "e4c5e7804daf8dba4f6f4faa1c2586d3e1e27c706778ff45b7b91835ee5c9cf1",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/j-s3-alpine@sha256:b2e8bbc4499d985a513ad67eaa1110da2c85726b89251fa6e06962e3e9c7f4cf"
+      ],
+      "rootfs_tar": "work/rootfs/J-S3-alpine.tar",
+      "rootfs_tar_sha256": "98c2ca142f93e6f1201251f0f761211bc36de83a9cc04603b8fef314d230b7cc",
+      "scan_input": "work/images/J-S3-alpine.tar",
+      "size_bytes": 137998403,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "bakery-backend"
+    },
+    "J-S3-distroless": {
+      "architecture": "amd64",
+      "build_seconds": 56.1,
+      "how": "build",
+      "id": "J-S3-distroless",
+      "image": "p16/j-s3-distroless:latest",
+      "image_id": "sha256:166061753daf8267e73ab0ca4d3bff1b4c792dd4c20c7e4ae25a05e5d7ab4224",
+      "image_tar": "work/images/J-S3-distroless.tar",
+      "image_tar_sha256": "3318028ab7fadc74d7b2a7ad9d22de19d7bfb072b27238be7e6330c141752721",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/j-s3-distroless@sha256:166061753daf8267e73ab0ca4d3bff1b4c792dd4c20c7e4ae25a05e5d7ab4224"
+      ],
+      "rootfs_tar": "work/rootfs/J-S3-distroless.tar",
+      "rootfs_tar_sha256": "6f13d64d5c6aed14ea1b08417f18127b65a3bd52b20fcd683a1b0214b423d157",
+      "scan_input": "work/images/J-S3-distroless.tar",
+      "size_bytes": 133302797,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "bakery-backend"
+    },
+    "J-S3-layered": {
+      "architecture": "amd64",
+      "build_seconds": 31.2,
+      "how": "build",
+      "id": "J-S3-layered",
+      "image": "p16/j-s3-layered:latest",
+      "image_id": "sha256:5c56c28858c075e8d01f9f7ec577809b7a115bc8a9f379673d4429891d127f74",
+      "image_tar": "work/images/J-S3-layered.tar",
+      "image_tar_sha256": "91f214d8e9a7131801dc30f33904b4b67cb8558dc28829f3a428baa8daf46ae7",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/j-s3-layered@sha256:5c56c28858c075e8d01f9f7ec577809b7a115bc8a9f379673d4429891d127f74"
+      ],
+      "rootfs_tar": "work/rootfs/J-S3-layered.tar",
+      "rootfs_tar_sha256": "4fc03f453399323ac99dbf42e3c169398bab17aef3006cacd01e3b5b0380926f",
+      "scan_input": "work/images/J-S3-layered.tar",
+      "size_bytes": 183525735,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "bakery-backend"
+    },
+    "J-S3-ubuntu": {
+      "architecture": "amd64",
+      "build_seconds": 40.2,
+      "how": "build",
+      "id": "J-S3-ubuntu",
+      "image": "p16/j-s3-ubuntu:latest",
+      "image_id": "sha256:562de2cf6d034edc7f5d3d0ff56f085bbfd56f52312032d2009fbdbdb92b0230",
+      "image_tar": "work/images/J-S3-ubuntu.tar",
+      "image_tar_sha256": "3cd88279a73ea9a824202bb23b8a042520fd3e756b22251bf36b2ad317b468cc",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/j-s3-ubuntu@sha256:562de2cf6d034edc7f5d3d0ff56f085bbfd56f52312032d2009fbdbdb92b0230"
+      ],
+      "rootfs_tar": "work/rootfs/J-S3-ubuntu.tar",
+      "rootfs_tar_sha256": "2b6d0cfecfba07342df192ac78e4de0b869d1328f53a330e14d6bff166c5cc50",
+      "scan_input": "work/images/J-S3-ubuntu.tar",
+      "size_bytes": 183707949,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "bakery-backend"
+    },
+    "M-S3": {
+      "architecture": "amd64",
+      "build_seconds": 50.9,
+      "how": "build",
+      "id": "M-S3",
+      "image": "p16/m-s3:latest",
+      "image_id": "sha256:195ff6547fe86730040378362723cf8c3334e2a500dedf92909da582f506538d",
+      "image_tar": "work/images/M-S3.tar",
+      "image_tar_sha256": "18e88880c33edbf245a920b821dd902d3ac1b2c0b19646f379f7facf34c691ba",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/m-s3@sha256:195ff6547fe86730040378362723cf8c3334e2a500dedf92909da582f506538d"
+      ],
+      "rootfs_tar": "work/rootfs/M-S3.tar",
+      "rootfs_tar_sha256": "e755b8897927967a1b8d71584e9de69c0552349f5403be488e8e2f2ea777e4d2",
+      "scan_input": "work/images/M-S3.tar",
+      "size_bytes": 278906755,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "log-anomaly"
+    },
+    "N-S1": {
+      "build_seconds": 0.0,
+      "how": "path",
+      "id": "N-S1",
+      "kind": "dir",
+      "scan_input": "corpus/bakery-inventory-management/bakery-inventory-frontend",
+      "stage": "S1",
+      "status": "ok",
+      "subject": "bakery-frontend"
+    },
+    "N-S1-nolock": {
+      "build_seconds": 0.2,
+      "how": "derive",
+      "id": "N-S1-nolock",
+      "kind": "dir",
+      "scan_input": "work/staging/N-S1-nolock",
+      "stage": "S1",
+      "status": "ok",
+      "subject": "bakery-frontend"
+    },
+    "N-S2": {
+      "build_seconds": 4.2,
+      "how": "build",
+      "id": "N-S2",
+      "kind": "dir",
+      "scan_input": "work/artifacts/N-S2/dist",
+      "stage": "S2",
+      "status": "ok",
+      "subject": "bakery-frontend"
+    },
+    "N-S3-nginx": {
+      "architecture": "amd64",
+      "build_seconds": 14.2,
+      "how": "build",
+      "id": "N-S3-nginx",
+      "image": "p16/n-s3-nginx:latest",
+      "image_id": "sha256:383873657506cff06bd058c2b1767f3df66eb689e76426585788b485f2e5ef97",
+      "image_tar": "work/images/N-S3-nginx.tar",
+      "image_tar_sha256": "f52b55a9ded923df889b15a3f71d583a9a298329600e22373dd2699e1be30116",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/n-s3-nginx@sha256:383873657506cff06bd058c2b1767f3df66eb689e76426585788b485f2e5ef97"
+      ],
+      "rootfs_tar": "work/rootfs/N-S3-nginx.tar",
+      "rootfs_tar_sha256": "cfead5a6c92bc194907967b868c8f65e0480edc42ce96fc9d928cb63d2106dfb",
+      "scan_input": "work/images/N-S3-nginx.tar",
+      "size_bytes": 30087559,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "bakery-frontend"
+    },
+    "N-S3-node": {
+      "architecture": "amd64",
+      "build_seconds": 41.6,
+      "how": "build",
+      "id": "N-S3-node",
+      "image": "p16/n-s3-node:latest",
+      "image_id": "sha256:fa7946b938105675443b29c4851bf9b8d3fb97cd12a95e430cdb0395f6e06f05",
+      "image_tar": "work/images/N-S3-node.tar",
+      "image_tar_sha256": "403ea57859c3f636708da92b9f55b75ccab3204b8436e6f6779a76a54f4d1919",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/n-s3-node@sha256:fa7946b938105675443b29c4851bf9b8d3fb97cd12a95e430cdb0395f6e06f05"
+      ],
+      "rootfs_tar": "work/rootfs/N-S3-node.tar",
+      "rootfs_tar_sha256": "1ce553cac5e252f010d33091496b035091f706c6e4f75bddc5a230a5bfbf2b4e",
+      "scan_input": "work/images/N-S3-node.tar",
+      "size_bytes": 173945649,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "bakery-frontend"
+    },
+    "O-alpine": {
+      "architecture": "amd64",
+      "build_seconds": 5.9,
+      "how": "pull",
+      "id": "O-alpine",
+      "image": "alpine:3.22",
+      "image_id": "sha256:49340b346798875b5592e5d420241f2f9cfba5f47e62ebb1446a1b34734e898f",
+      "image_tar": "work/images/O-alpine.tar",
+      "image_tar_sha256": "5ac1262c81ce10d65ad4519fc943f0dbb591f9a2bc87480f695c321a1d0c5435",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "alpine@sha256:49340b346798875b5592e5d420241f2f9cfba5f47e62ebb1446a1b34734e898f",
+        "p16/o-alpine@sha256:49340b346798875b5592e5d420241f2f9cfba5f47e62ebb1446a1b34734e898f"
+      ],
+      "rootfs_tar": "work/rootfs/O-alpine.tar",
+      "rootfs_tar_sha256": "e2b73dea06544dd9d692fbd026e3159c2247d1c3f5242446cd52241a075a2301",
+      "scan_input": "work/images/O-alpine.tar",
+      "size_bytes": 3805226,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "os-baseline"
+    },
+    "O-debian": {
+      "architecture": "amd64",
+      "build_seconds": 20.8,
+      "how": "pull",
+      "id": "O-debian",
+      "image": "debian:bookworm-slim",
+      "image_id": "sha256:734a72b3d6142a71993b4bc580ca01d8ca687f77a2c422d96a961d3376b179bc",
+      "image_tar": "work/images/O-debian.tar",
+      "image_tar_sha256": "95b58e19a2c1ff54e1a1143eb8ad494e11eb289c23443d44604456f8a969696a",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "debian@sha256:734a72b3d6142a71993b4bc580ca01d8ca687f77a2c422d96a961d3376b179bc",
+        "p16/o-debian@sha256:734a72b3d6142a71993b4bc580ca01d8ca687f77a2c422d96a961d3376b179bc"
+      ],
+      "rootfs_tar": "work/rootfs/O-debian.tar",
+      "rootfs_tar_sha256": "553fe35fcbac953182b4ed828bf1adeda14a83e3c54c42f1c593f4b9e4b3c8af",
+      "scan_input": "work/images/O-debian.tar",
+      "size_bytes": 28255107,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "os-baseline"
+    },
+    "O-distroless": {
+      "architecture": "amd64",
+      "build_seconds": 16.6,
+      "how": "pull",
+      "id": "O-distroless",
+      "image": "gcr.io/distroless/base-debian12",
+      "image_id": "sha256:fabbf1c0c357a3d42550111351daed089b20a2c954df13ee2fcff60602515e84",
+      "image_tar": "work/images/O-distroless.tar",
+      "image_tar_sha256": "e448bb8307c1d0c816c2e3f38f6a6d1843103641e5bb3ed03b36717d5ecde05e",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/o-distroless@sha256:fabbf1c0c357a3d42550111351daed089b20a2c954df13ee2fcff60602515e84",
+        "gcr.io/distroless/base-debian12@sha256:fabbf1c0c357a3d42550111351daed089b20a2c954df13ee2fcff60602515e84"
+      ],
+      "rootfs_tar": "work/rootfs/O-distroless.tar",
+      "rootfs_tar_sha256": "305d3bdcfd4788a617084dcce5c334115806a6deee4782254ca17316c3776d06",
+      "scan_input": "work/images/O-distroless.tar",
+      "size_bytes": 8181088,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "os-baseline"
+    },
+    "O-ubi": {
+      "architecture": "amd64",
+      "build_seconds": 14.7,
+      "how": "pull",
+      "id": "O-ubi",
+      "image": "registry.access.redhat.com/ubi9/ubi-minimal",
+      "image_id": "sha256:08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352",
+      "image_tar": "work/images/O-ubi.tar",
+      "image_tar_sha256": "c51a59ae686bd771e75232789489044b207eb2d010bbe9ece61af5fec25d55c6",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/o-ubi@sha256:08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352",
+        "registry.access.redhat.com/ubi9/ubi-minimal@sha256:08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352"
+      ],
+      "rootfs_tar": "work/rootfs/O-ubi.tar",
+      "rootfs_tar_sha256": "3e824c564f169983af0fc033364de06e70ffc64d6fa00bdf45499fd51203cd6f",
+      "scan_input": "work/images/O-ubi.tar",
+      "size_bytes": 40654091,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "os-baseline"
+    },
+    "O-ubuntu": {
+      "architecture": "amd64",
+      "build_seconds": 19.3,
+      "how": "pull",
+      "id": "O-ubuntu",
+      "image": "ubuntu:24.04",
+      "image_id": "sha256:9c7f200c07e3d4a03e7249d2c16bf66a51120fb876aa2242cf31451412543289",
+      "image_tar": "work/images/O-ubuntu.tar",
+      "image_tar_sha256": "cdafd3809c85cd97ec33155e34e4505dca521bce49e48988319abc040f4084d6",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "ubuntu@sha256:9c7f200c07e3d4a03e7249d2c16bf66a51120fb876aa2242cf31451412543289",
+        "p16/o-ubuntu@sha256:9c7f200c07e3d4a03e7249d2c16bf66a51120fb876aa2242cf31451412543289"
+      ],
+      "rootfs_tar": "work/rootfs/O-ubuntu.tar",
+      "rootfs_tar_sha256": "0ead4da5e8c0858f69635557ed1536e88e59f6892b066422b4da6989311e4937",
+      "scan_input": "work/images/O-ubuntu.tar",
+      "size_bytes": 29802461,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "os-baseline"
+    },
+    "P-P": {
+      "architecture": "amd64",
+      "build_seconds": 36.8,
+      "how": "build",
+      "id": "P-P",
+      "image": "p16/p-p:latest",
+      "image_id": "sha256:d57a71a6f18658260c23c3fdd882ed16c2622cde6db247f69055c5e4d27ca3ec",
+      "image_tar": "work/images/P-P.tar",
+      "image_tar_sha256": "3ca361648215f7c29a16f9fdd07ff82c3a44a85b6d15522a1b016d01915bf1bc",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/p-p@sha256:d57a71a6f18658260c23c3fdd882ed16c2622cde6db247f69055c5e4d27ca3ec"
+      ],
+      "rootfs_tar": "work/rootfs/P-P.tar",
+      "rootfs_tar_sha256": "80c1ad97f682189d018a54d08ef4fbad2477a75685133d1d027e5348c1deecbd",
+      "scan_input": "work/images/P-P.tar",
+      "size_bytes": 172741573,
+      "stage": "P",
+      "status": "ok",
+      "subject": "log-anomaly"
+    },
+    "P-S1": {
+      "build_seconds": 0.0,
+      "how": "path",
+      "id": "P-S1",
+      "kind": "dir",
+      "scan_input": "corpus/log-anomaly-detection",
+      "stage": "S1",
+      "status": "ok",
+      "subject": "log-anomaly"
+    },
+    "P-S1-pinned": {
+      "build_seconds": 0.2,
+      "how": "derive",
+      "id": "P-S1-pinned",
+      "kind": "dir",
+      "scan_input": "work/staging/P-S1-pinned",
+      "stage": "S1",
+      "status": "ok",
+      "subject": "log-anomaly"
+    },
+    "P-S3-alpine": {
+      "id": "P-S3-alpine",
+      "reason": "scikit-learn has no musllinux wheel; source build needs a compiler toolchain",
+      "status": "cut"
+    },
+    "P-S3-distroless": {
+      "architecture": "amd64",
+      "build_seconds": 119.5,
+      "how": "build",
+      "id": "P-S3-distroless",
+      "image": "p16/p-s3-distroless:latest",
+      "image_id": "sha256:5ca7beb44152486711d2955d2eca195bf593b54ec2c9d7d26ae773020dbd77ed",
+      "image_tar": "work/images/P-S3-distroless.tar",
+      "image_tar_sha256": "16a15c47618a7947bfdc6454933de220fb1956a028d132ffcd980020e6764ece",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/p-s3-distroless@sha256:5ca7beb44152486711d2955d2eca195bf593b54ec2c9d7d26ae773020dbd77ed"
+      ],
+      "rootfs_tar": "work/rootfs/P-S3-distroless.tar",
+      "rootfs_tar_sha256": "a2201dabdb768b5ec5f7260e288cf8252d48dfff4a9642a4ae084e93269740e5",
+      "scan_input": "work/images/P-S3-distroless.tar",
+      "size_bytes": 137570231,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "log-anomaly"
+    },
+    "P-S3-drift": {
+      "architecture": "amd64",
+      "build_seconds": 90.5,
+      "how": "build",
+      "id": "P-S3-drift",
+      "image": "p16/p-s3-drift:latest",
+      "image_id": "sha256:e3536e02e28200ad01a00cf2280aa4491be922f6420caf45c7f0d38075230cd8",
+      "image_tar": "work/images/P-S3-drift.tar",
+      "image_tar_sha256": "e135000e882c3fd99f48de2c1fd17fb15d32ee92b1925571e157b4033aa2beef",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/p-s3-drift@sha256:e3536e02e28200ad01a00cf2280aa4491be922f6420caf45c7f0d38075230cd8"
+      ],
+      "rootfs_tar": "work/rootfs/P-S3-drift.tar",
+      "rootfs_tar_sha256": "0af1c469b852f5ba52878ab2d5dd050d8ee3eae37336161c05a358256d8a199f",
+      "scan_input": "work/images/P-S3-drift.tar",
+      "size_bytes": 145325159,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "log-anomaly"
+    },
+    "P-S3-front": {
+      "architecture": "amd64",
+      "build_seconds": 120.2,
+      "how": "build",
+      "id": "P-S3-front",
+      "image": "p16/p-s3-front:latest",
+      "image_id": "sha256:e466f1dc6415e4ed00291db8aef50a25b0804b3ecfb349962539d2b0bb9791e9",
+      "image_tar": "work/images/P-S3-front.tar",
+      "image_tar_sha256": "709629f08b782c181889e7c272c15c1a3d2705fd6e5fd27eef13ba9ed5a8bc69",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/p-s3-front@sha256:e466f1dc6415e4ed00291db8aef50a25b0804b3ecfb349962539d2b0bb9791e9"
+      ],
+      "rootfs_tar": "work/rootfs/P-S3-front.tar",
+      "rootfs_tar_sha256": "b89211ea57d7a81beb62030edc4895c77514aa0308f73e953e6988fe455ed531",
+      "scan_input": "work/images/P-S3-front.tar",
+      "size_bytes": 195742953,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "log-anomaly"
+    },
+    "P-S3-ml": {
+      "architecture": "amd64",
+      "build_seconds": 99.8,
+      "how": "build",
+      "id": "P-S3-ml",
+      "image": "p16/p-s3-ml:latest",
+      "image_id": "sha256:35071f4a7940af0041e5c60ab3b4d22f7a3986a9849f02dffd3414ddc4c843f9",
+      "image_tar": "work/images/P-S3-ml.tar",
+      "image_tar_sha256": "d0de38460b67c68098f13cba654379b246d9560fe6dcadc00f7a2d1ee0174074",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/p-s3-ml@sha256:35071f4a7940af0041e5c60ab3b4d22f7a3986a9849f02dffd3414ddc4c843f9"
+      ],
+      "rootfs_tar": "work/rootfs/P-S3-ml.tar",
+      "rootfs_tar_sha256": "d0a9f3796ccf527306365177ae25d2b34806db471c8ffee5c5ef3cedcc12deb9",
+      "scan_input": "work/images/P-S3-ml.tar",
+      "size_bytes": 160955258,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "log-anomaly"
+    },
+    "P-S3-pred": {
+      "architecture": "amd64",
+      "build_seconds": 114.2,
+      "how": "build",
+      "id": "P-S3-pred",
+      "image": "p16/p-s3-pred:latest",
+      "image_id": "sha256:29f43ee798bf490cb1bc7088a8ed042debd63dff35d3dca93cc2cae437bfe9fd",
+      "image_tar": "work/images/P-S3-pred.tar",
+      "image_tar_sha256": "aef21d0c0356a9448488492fabf5a78bc5f9b25032381fed9a5fc372b623cabc",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/p-s3-pred@sha256:29f43ee798bf490cb1bc7088a8ed042debd63dff35d3dca93cc2cae437bfe9fd"
+      ],
+      "rootfs_tar": "work/rootfs/P-S3-pred.tar",
+      "rootfs_tar_sha256": "0daa10dae80d04096e7eddde3ddfd5782988f73bac154d97127d4b3787990739",
+      "scan_input": "work/images/P-S3-pred.tar",
+      "size_bytes": 167597092,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "log-anomaly"
+    }
+  }
+}

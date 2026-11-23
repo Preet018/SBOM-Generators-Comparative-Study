@@ -1,0 +1,50 @@
+{
+  "components": [
+    {
+      "alt_names": [
+        "musl",
+        "musl-libc"
+      ],
+      "eco": "generic",
+      "evidence": "buildinfo musl-version.txt (apk info -v musl in the build stage)",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::musl",
+      "license": null,
+      "mechanism": "static-link",
+      "mechanisms": [
+        "static-link"
+      ],
+      "name": "musl",
+      "namespace": null,
+      "paths": [
+        "app/server"
+      ],
+      "purl": "pkg:generic/musl@1.2.5-r13",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.2.5-r13"
+    }
+  ],
+  "generated_utc": "2026-11-23T06:17:18+00:00",
+  "kind": "image",
+  "notes": [
+    "os-release: ID=None VERSION_ID=None",
+    "app/server: interp=None needed=[]"
+  ],
+  "stage": "S3",
+  "stats": {
+    "by_eco": {
+      "generic": 1
+    },
+    "by_mechanism": {
+      "static-link": 1
+    },
+    "by_tier": {
+      "primary": 1
+    },
+    "total": 1
+  },
+  "subject": "tcp-server",
+  "target": "C-S3-scratch"
+}

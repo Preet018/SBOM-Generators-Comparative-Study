@@ -1,0 +1,6 @@
+# Host-side analysis scripts (scripts/*.py). Exact versions are pinned in requirements.lock.txt after install.
+pyyaml
+packageurl-python
+pandas
+matplotlib
+scipy

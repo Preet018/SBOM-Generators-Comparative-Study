@@ -1,0 +1,121 @@
+package com.bakery.inventory.controller;
+
+import com.bakery.inventory.dto.auth.EmailVerificationRequest;
+import com.bakery.inventory.dto.auth.LoginRequest;
+import com.bakery.inventory.dto.auth.LoginResponse;
+import com.bakery.inventory.dto.useraccount.AccountDeleteRequest;
+import com.bakery.inventory.dto.useraccount.AccountRegistrationRequest;
+import com.bakery.inventory.security.CustomUserDetails;
+import com.bakery.inventory.service.AuthService;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
+import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping("/api/auth")
+@RequiredArgsConstructor
+@Validated
+public class AuthController {
+    private final AuthService authService;
+
+    @PostMapping("/register")
+    public ResponseEntity<String> registerCustomer(@Valid @RequestBody AccountRegistrationRequest request) {
+        authService.registerCustomer(request);
+
+        return ResponseEntity.ok(
+                "Verification code sent to your email. Please enter the OTP to complete registration."
+        );
+    }
+
+    @PostMapping("/verify-registration")
+    public ResponseEntity<String> verifyRegistration(@Valid @RequestBody EmailVerificationRequest request) {
+        authService.verifyRegistration(request);
+
+        return ResponseEntity
+                .status(HttpStatus.CREATED)
+                .body("Customer registered successfully. You can now log in.");
+    }
+
+    @PostMapping("/register/resend-otp")
+    public ResponseEntity<String> resendRegistrationOtp(@NotBlank(message = "Email is required") @Email(message = "Email must be valid") @Size(max = 150, message = "Email must not exceed 150 characters") @RequestParam String email) {
+        authService.resendRegistrationOtp(email);
+
+        return ResponseEntity.ok(
+                "A verification OTP has been sent to your email."
+        );
+    }
+
+    @PostMapping("/login")
+    public ResponseEntity<LoginResponse> login(@Valid @RequestBody LoginRequest request) {
+        return ResponseEntity.ok(
+                authService.login(request)
+        );
+    }
+
+    @PostMapping("/verify-email")
+    public ResponseEntity<String> verifyEmail(@Valid @RequestBody EmailVerificationRequest request) {
+        authService.verifyEmail(request);
+
+        return ResponseEntity.ok(
+                "Email verified successfully. You can now log in."
+        );
+    }
+
+    @PostMapping("/request-verification")
+    public ResponseEntity<String> requestVerificationOtp(@NotBlank(message = "Email is required") @Email(message = "Email must be valid") @Size(max = 150, message = "Email must not exceed 150 characters") @RequestParam String email) {
+        authService.requestVerificationOtp(email);
+
+        return ResponseEntity.ok(
+                "A verification OTP has been sent to your email."
+        );
+    }
+
+    @PostMapping("/account-deletion/otp")
+    public ResponseEntity<String> requestAccountDeletionOtp(Authentication authentication) {
+        CustomUserDetails userDetails = (CustomUserDetails) authentication.getPrincipal();
+
+        authService.sendAccountDeletionOtp(userDetails.getUserId());
+
+        return ResponseEntity.ok(
+                "Account deletion OTP has been sent to your registered email."
+        );
+    }
+
+    @DeleteMapping("/account")
+    public ResponseEntity<String> deleteOwnAccount(Authentication authentication, @Valid @RequestBody AccountDeleteRequest request) {
+        CustomUserDetails userDetails = (CustomUserDetails) authentication.getPrincipal();
+
+        authService.deleteOwnAccount(userDetails.getUserId(), request);
+
+        return ResponseEntity.ok(
+                "Account deleted successfully."
+        );
+    }
+
+    // CHANGE: Request OTP for password reset (generic response to prevent account enumeration)
+    @PostMapping("/password-reset/otp")
+    public ResponseEntity<String> requestPasswordResetOtp(@NotBlank(message = "Username or email is required") @RequestParam String usernameOrEmail) {
+        authService.sendPasswordResetOtp(usernameOrEmail);
+
+        return ResponseEntity.ok(
+                "If an account exists for the provided information, a password reset OTP has been sent to the registered email."
+        );
+    }
+
+    // CHANGE: Added POST /api/auth/change-password endpoint with OTP verification
+    @PostMapping("/change-password")
+    public ResponseEntity<String> changePassword(@Valid @RequestBody com.bakery.inventory.dto.auth.PasswordChangeRequest request) {
+        authService.changePassword(request);
+
+        return ResponseEntity.ok(
+                "Password changed successfully. Please log in with your new password."
+        );
+    }
+}

@@ -1,0 +1,7084 @@
+{
+  "determinism": [
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "C-P",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "C-S1",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "C-S2",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "C-S3-alpine",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "C-S3-debian",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "C-S3-scratch",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-P",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-S1",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-S2",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-S3-alpine",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-S3-distroless",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-S3-layered",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-S3-ubuntu",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "M-S3",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "N-S1",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "N-S1-nolock",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "N-S2",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "N-S3-nginx",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "N-S3-node",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "O-alpine",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "O-debian",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "O-distroless",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "O-ubi",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "O-ubuntu",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-P",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S1",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S1-pinned",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S3-distroless",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S3-drift",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S3-front",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S3-ml",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S3-pred",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "C-P",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "C-S1",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "C-S2",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "C-S3-alpine",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "C-S3-debian",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "C-S3-scratch",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-P",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-S1",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-S2",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-S3-alpine",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-S3-distroless",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-S3-layered",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-S3-ubuntu",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "M-S3",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "N-S1",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "N-S1-nolock",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "N-S2",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "N-S3-nginx",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "N-S3-node",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "O-alpine",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "O-debian",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "O-distroless",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "O-ubi",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "O-ubuntu",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-P",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S1",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S1-pinned",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S3-distroless",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S3-drift",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S3-front",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S3-ml",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S3-pred",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "C-P",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "C-S1",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "C-S2",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "C-S3-alpine",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "C-S3-debian",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "C-S3-scratch",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-P",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-S1",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-S2",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-S3-alpine",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-S3-distroless",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-S3-layered",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-S3-ubuntu",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "M-S3",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "N-S1",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "N-S1-nolock",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "N-S2",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "N-S3-nginx",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "N-S3-node",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "O-alpine",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "O-debian",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "O-distroless",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "O-ubi",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "O-ubuntu",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-P",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S1",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S1-pinned",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S3-distroless",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S3-drift",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S3-front",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S3-ml",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "P-S3-pred",
+      "tool": "trivy"
+    },
+    {
+      "config": "netblocked",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-P",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "netblocked",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-S3-distroless",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "netblocked",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "J-S3-layered",
+      "tool": "cdxgen"
+    }
+  ],
+  "sboms": [
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 20,
+        "data": 2,
+        "file": 1496
+      },
+      "duplicates": 4,
+      "ecos": {
+        "deb": 130
+      },
+      "format": "cyclonedx",
+      "packages": 130,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "C-P",
+      "tool": "cdxgen",
+      "unique_identities": 126,
+      "with_purl": 130,
+      "with_version": 130
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 70,
+        "document-subject": 1,
+        "software_File": 1496
+      },
+      "duplicates": 4,
+      "ecos": {
+        "deb": 130,
+        "generic": 2,
+        "unknown": 20
+      },
+      "format": "spdx",
+      "packages": 152,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "C-P",
+      "tool": "cdxgen",
+      "unique_identities": 148,
+      "with_purl": 132,
+      "with_version": 152
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "C-S1",
+      "tool": "cdxgen",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "C-S2",
+      "tool": "cdxgen",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 5,
+        "file": 77
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 20
+      },
+      "format": "cyclonedx",
+      "packages": 20,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "C-S3-alpine",
+      "tool": "cdxgen",
+      "unique_identities": 20,
+      "with_purl": 20,
+      "with_version": 20
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 13,
+        "document-subject": 1,
+        "software_File": 77
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 20,
+        "unknown": 5
+      },
+      "format": "spdx",
+      "packages": 25,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "C-S3-alpine",
+      "tool": "cdxgen",
+      "unique_identities": 25,
+      "with_purl": 20,
+      "with_version": 25
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 20,
+        "data": 2,
+        "file": 1496
+      },
+      "duplicates": 4,
+      "ecos": {
+        "deb": 130
+      },
+      "format": "cyclonedx",
+      "packages": 130,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "C-S3-debian",
+      "tool": "cdxgen",
+      "unique_identities": 126,
+      "with_purl": 130,
+      "with_version": 130
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 70,
+        "document-subject": 1,
+        "software_File": 1496
+      },
+      "duplicates": 4,
+      "ecos": {
+        "deb": 130,
+        "generic": 2,
+        "unknown": 20
+      },
+      "format": "spdx",
+      "packages": 152,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "C-S3-debian",
+      "tool": "cdxgen",
+      "unique_identities": 148,
+      "with_purl": 132,
+      "with_version": 152
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "C-S3-scratch",
+      "tool": "cdxgen",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {},
+      "format": "spdx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "C-S3-scratch",
+      "tool": "cdxgen",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 127,
+        "data": 2,
+        "file": 4876
+      },
+      "duplicates": 6,
+      "ecos": {
+        "deb": 151,
+        "golang": 10,
+        "maven": 104,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 266,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-P",
+      "tool": "cdxgen",
+      "unique_identities": 260,
+      "with_purl": 265,
+      "with_version": 266
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 81,
+        "document-subject": 1,
+        "software_File": 4876
+      },
+      "duplicates": 6,
+      "ecos": {
+        "deb": 151,
+        "generic": 2,
+        "golang": 10,
+        "maven": 104,
+        "unknown": 128
+      },
+      "format": "spdx",
+      "packages": 395,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "J-P",
+      "tool": "cdxgen",
+      "unique_identities": 389,
+      "with_purl": 267,
+      "with_version": 395
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "maven": 153
+      },
+      "format": "cyclonedx",
+      "packages": 153,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-S1",
+      "tool": "cdxgen",
+      "unique_identities": 153,
+      "with_purl": 153,
+      "with_version": 153
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 70,
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 153
+      },
+      "format": "spdx",
+      "packages": 153,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "J-S1",
+      "tool": "cdxgen",
+      "unique_identities": 153,
+      "with_purl": 153,
+      "with_version": 153
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "maven": 102
+      },
+      "format": "cyclonedx",
+      "packages": 102,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-S2",
+      "tool": "cdxgen",
+      "unique_identities": 102,
+      "with_purl": 102,
+      "with_version": 102
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 102
+      },
+      "format": "spdx",
+      "packages": 102,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "J-S2",
+      "tool": "cdxgen",
+      "unique_identities": 102,
+      "with_purl": 102,
+      "with_version": 102
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 121,
+        "file": 410
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 54,
+        "maven": 102
+      },
+      "format": "cyclonedx",
+      "packages": 156,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-S3-alpine",
+      "tool": "cdxgen",
+      "unique_identities": 156,
+      "with_purl": 156,
+      "with_version": 156
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 38,
+        "document-subject": 1,
+        "software_File": 410
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 54,
+        "maven": 102,
+        "unknown": 121
+      },
+      "format": "spdx",
+      "packages": 277,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "J-S3-alpine",
+      "tool": "cdxgen",
+      "unique_identities": 277,
+      "with_purl": 156,
+      "with_version": 277
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 518
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 39,
+        "maven": 102
+      },
+      "format": "cyclonedx",
+      "packages": 141,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-S3-distroless",
+      "tool": "cdxgen",
+      "unique_identities": 141,
+      "with_purl": 141,
+      "with_version": 141
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 1,
+        "document-subject": 1,
+        "software_File": 518
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 39,
+        "maven": 102
+      },
+      "format": "spdx",
+      "packages": 141,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "J-S3-distroless",
+      "tool": "cdxgen",
+      "unique_identities": 141,
+      "with_purl": 141,
+      "with_version": 141
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 127,
+        "data": 2,
+        "file": 4876
+      },
+      "duplicates": 6,
+      "ecos": {
+        "deb": 151,
+        "golang": 10,
+        "maven": 103,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 265,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-S3-layered",
+      "tool": "cdxgen",
+      "unique_identities": 259,
+      "with_purl": 264,
+      "with_version": 265
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 81,
+        "document-subject": 1,
+        "software_File": 4876
+      },
+      "duplicates": 6,
+      "ecos": {
+        "deb": 151,
+        "generic": 2,
+        "golang": 10,
+        "maven": 103,
+        "unknown": 128
+      },
+      "format": "spdx",
+      "packages": 394,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "J-S3-layered",
+      "tool": "cdxgen",
+      "unique_identities": 388,
+      "with_purl": 266,
+      "with_version": 394
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 127,
+        "data": 2,
+        "file": 4876
+      },
+      "duplicates": 6,
+      "ecos": {
+        "deb": 151,
+        "golang": 10,
+        "maven": 102,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 264,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-S3-ubuntu",
+      "tool": "cdxgen",
+      "unique_identities": 258,
+      "with_purl": 263,
+      "with_version": 264
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 81,
+        "document-subject": 1,
+        "software_File": 4876
+      },
+      "duplicates": 6,
+      "ecos": {
+        "deb": 151,
+        "generic": 2,
+        "golang": 10,
+        "maven": 102,
+        "unknown": 128
+      },
+      "format": "spdx",
+      "packages": 393,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "J-S3-ubuntu",
+      "tool": "cdxgen",
+      "unique_identities": 387,
+      "with_purl": 265,
+      "with_version": 393
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 153,
+        "data": 5,
+        "file": 1793
+      },
+      "duplicates": 6,
+      "ecos": {
+        "deb": 186,
+        "golang": 33,
+        "npm": 1,
+        "unknown": 2
+      },
+      "format": "cyclonedx",
+      "packages": 222,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "M-S3",
+      "tool": "cdxgen",
+      "unique_identities": 216,
+      "with_purl": 220,
+      "with_version": 221
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 103,
+        "document-subject": 1,
+        "software_File": 1793
+      },
+      "duplicates": 6,
+      "ecos": {
+        "deb": 186,
+        "generic": 5,
+        "golang": 33,
+        "npm": 1,
+        "unknown": 155
+      },
+      "format": "spdx",
+      "packages": 380,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "M-S3",
+      "tool": "cdxgen",
+      "unique_identities": 374,
+      "with_purl": 225,
+      "with_version": 379
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "npm": 99
+      },
+      "format": "cyclonedx",
+      "packages": 99,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "N-S1",
+      "tool": "cdxgen",
+      "unique_identities": 99,
+      "with_purl": 99,
+      "with_version": 99
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 30,
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "npm": 99
+      },
+      "format": "spdx",
+      "packages": 99,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "N-S1",
+      "tool": "cdxgen",
+      "unique_identities": 99,
+      "with_purl": 99,
+      "with_version": 99
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "npm": 106
+      },
+      "format": "cyclonedx",
+      "packages": 106,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "N-S1-nolock",
+      "tool": "cdxgen",
+      "unique_identities": 106,
+      "with_purl": 106,
+      "with_version": 106
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 36,
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "npm": 106
+      },
+      "format": "spdx",
+      "packages": 106,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "N-S1-nolock",
+      "tool": "cdxgen",
+      "unique_identities": 106,
+      "with_purl": 106,
+      "with_version": 106
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "N-S2",
+      "tool": "cdxgen",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 122,
+        "file": 598
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 89
+      },
+      "format": "cyclonedx",
+      "packages": 89,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "N-S3-nginx",
+      "tool": "cdxgen",
+      "unique_identities": 89,
+      "with_purl": 89,
+      "with_version": 89
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 69,
+        "document-subject": 1,
+        "software_File": 598
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 89,
+        "unknown": 124
+      },
+      "format": "spdx",
+      "packages": 213,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "N-S3-nginx",
+      "tool": "cdxgen",
+      "unique_identities": 213,
+      "with_purl": 89,
+      "with_version": 213
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 20,
+        "data": 2,
+        "file": 1513
+      },
+      "duplicates": 4,
+      "ecos": {
+        "deb": 130,
+        "npm": 244
+      },
+      "format": "cyclonedx",
+      "packages": 374,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "N-S3-node",
+      "tool": "cdxgen",
+      "unique_identities": 370,
+      "with_purl": 374,
+      "with_version": 374
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 70,
+        "document-subject": 1,
+        "software_File": 1513
+      },
+      "duplicates": 4,
+      "ecos": {
+        "deb": 130,
+        "generic": 2,
+        "npm": 244,
+        "unknown": 20
+      },
+      "format": "spdx",
+      "packages": 396,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "N-S3-node",
+      "tool": "cdxgen",
+      "unique_identities": 392,
+      "with_purl": 376,
+      "with_version": 396
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 5,
+        "file": 77
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 20
+      },
+      "format": "cyclonedx",
+      "packages": 20,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "O-alpine",
+      "tool": "cdxgen",
+      "unique_identities": 20,
+      "with_purl": 20,
+      "with_version": 20
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 13,
+        "document-subject": 1,
+        "software_File": 77
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 20,
+        "unknown": 5
+      },
+      "format": "spdx",
+      "packages": 25,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "O-alpine",
+      "tool": "cdxgen",
+      "unique_identities": 25,
+      "with_purl": 20,
+      "with_version": 25
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 20,
+        "data": 2,
+        "file": 1496
+      },
+      "duplicates": 4,
+      "ecos": {
+        "deb": 130
+      },
+      "format": "cyclonedx",
+      "packages": 130,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "O-debian",
+      "tool": "cdxgen",
+      "unique_identities": 126,
+      "with_purl": 130,
+      "with_version": 130
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 70,
+        "document-subject": 1,
+        "software_File": 1496
+      },
+      "duplicates": 4,
+      "ecos": {
+        "deb": 130,
+        "generic": 2,
+        "unknown": 20
+      },
+      "format": "spdx",
+      "packages": 152,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "O-debian",
+      "tool": "cdxgen",
+      "unique_identities": 148,
+      "with_purl": 132,
+      "with_version": 152
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 309
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 9
+      },
+      "format": "cyclonedx",
+      "packages": 9,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "O-distroless",
+      "tool": "cdxgen",
+      "unique_identities": 9,
+      "with_purl": 9,
+      "with_version": 9
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 1,
+        "document-subject": 1,
+        "software_File": 309
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 9
+      },
+      "format": "spdx",
+      "packages": 9,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "O-distroless",
+      "tool": "cdxgen",
+      "unique_identities": 9,
+      "with_purl": 9,
+      "with_version": 9
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 4,
+        "data": 9,
+        "file": 955
+      },
+      "duplicates": 2,
+      "ecos": {
+        "rpm": 141
+      },
+      "format": "cyclonedx",
+      "packages": 141,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "O-ubi",
+      "tool": "cdxgen",
+      "unique_identities": 139,
+      "with_purl": 141,
+      "with_version": 141
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 109,
+        "document-subject": 1,
+        "software_File": 955
+      },
+      "duplicates": 2,
+      "ecos": {
+        "generic": 9,
+        "rpm": 141,
+        "unknown": 4
+      },
+      "format": "spdx",
+      "packages": 154,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "O-ubi",
+      "tool": "cdxgen",
+      "unique_identities": 152,
+      "with_purl": 150,
+      "with_version": 154
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 7,
+        "data": 2,
+        "file": 1679
+      },
+      "duplicates": 4,
+      "ecos": {
+        "deb": 135
+      },
+      "format": "cyclonedx",
+      "packages": 135,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "O-ubuntu",
+      "tool": "cdxgen",
+      "unique_identities": 131,
+      "with_purl": 135,
+      "with_version": 135
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 71,
+        "document-subject": 1,
+        "software_File": 1679
+      },
+      "duplicates": 4,
+      "ecos": {
+        "deb": 135,
+        "generic": 2,
+        "unknown": 7
+      },
+      "format": "spdx",
+      "packages": 144,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "O-ubuntu",
+      "tool": "cdxgen",
+      "unique_identities": 140,
+      "with_purl": 137,
+      "with_version": 144
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 168,
+        "data": 2,
+        "file": 1752
+      },
+      "duplicates": 7,
+      "ecos": {
+        "cargo": 101,
+        "deb": 128,
+        "generic": 3,
+        "golang": 22,
+        "pypi": 55,
+        "rpm": 1,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 311,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-P",
+      "tool": "cdxgen",
+      "unique_identities": 304,
+      "with_purl": 310,
+      "with_version": 300
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 130,
+        "document-subject": 1,
+        "software_File": 1752
+      },
+      "duplicates": 7,
+      "ecos": {
+        "cargo": 101,
+        "deb": 128,
+        "generic": 5,
+        "golang": 22,
+        "pypi": 55,
+        "rpm": 1,
+        "unknown": 169
+      },
+      "format": "spdx",
+      "packages": 481,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "P-P",
+      "tool": "cdxgen",
+      "unique_identities": 474,
+      "with_purl": 312,
+      "with_version": 470
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "pypi": 56
+      },
+      "format": "cyclonedx",
+      "packages": 56,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S1",
+      "tool": "cdxgen",
+      "unique_identities": 56,
+      "with_purl": 56,
+      "with_version": 47
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 22,
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "pypi": 56
+      },
+      "format": "spdx",
+      "packages": 56,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "P-S1",
+      "tool": "cdxgen",
+      "unique_identities": 56,
+      "with_purl": 56,
+      "with_version": 47
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "pypi": 46
+      },
+      "format": "cyclonedx",
+      "packages": 46,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S1-pinned",
+      "tool": "cdxgen",
+      "unique_identities": 46,
+      "with_purl": 46,
+      "with_version": 46
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 22,
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "pypi": 46
+      },
+      "format": "spdx",
+      "packages": 46,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "P-S1-pinned",
+      "tool": "cdxgen",
+      "unique_identities": 46,
+      "with_purl": 46,
+      "with_version": 46
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1007
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 55,
+        "generic": 3
+      },
+      "format": "cyclonedx",
+      "packages": 58,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S3-distroless",
+      "tool": "cdxgen",
+      "unique_identities": 58,
+      "with_purl": 58,
+      "with_version": 55
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 1,
+        "document-subject": 1,
+        "software_File": 1007
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 55,
+        "generic": 3
+      },
+      "format": "spdx",
+      "packages": 58,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "P-S3-distroless",
+      "tool": "cdxgen",
+      "unique_identities": 58,
+      "with_purl": 58,
+      "with_version": 55
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 168,
+        "data": 2,
+        "file": 1751
+      },
+      "duplicates": 6,
+      "ecos": {
+        "cargo": 101,
+        "deb": 128,
+        "generic": 2,
+        "pypi": 51
+      },
+      "format": "cyclonedx",
+      "packages": 282,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S3-drift",
+      "tool": "cdxgen",
+      "unique_identities": 276,
+      "with_purl": 282,
+      "with_version": 274
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 129,
+        "document-subject": 1,
+        "software_File": 1751
+      },
+      "duplicates": 6,
+      "ecos": {
+        "cargo": 101,
+        "deb": 128,
+        "generic": 4,
+        "pypi": 51,
+        "unknown": 168
+      },
+      "format": "spdx",
+      "packages": 452,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "P-S3-drift",
+      "tool": "cdxgen",
+      "unique_identities": 446,
+      "with_purl": 284,
+      "with_version": 444
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 168,
+        "data": 2,
+        "file": 1754
+      },
+      "duplicates": 15,
+      "ecos": {
+        "cargo": 17,
+        "deb": 128,
+        "generic": 2,
+        "pypi": 83,
+        "rpm": 1
+      },
+      "format": "cyclonedx",
+      "packages": 231,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S3-front",
+      "tool": "cdxgen",
+      "unique_identities": 216,
+      "with_purl": 231,
+      "with_version": 225
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 82,
+        "document-subject": 1,
+        "software_File": 1754
+      },
+      "duplicates": 15,
+      "ecos": {
+        "cargo": 17,
+        "deb": 128,
+        "generic": 4,
+        "pypi": 83,
+        "rpm": 1,
+        "unknown": 168
+      },
+      "format": "spdx",
+      "packages": 401,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "P-S3-front",
+      "tool": "cdxgen",
+      "unique_identities": 386,
+      "with_purl": 233,
+      "with_version": 395
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 168,
+        "data": 2,
+        "file": 1749
+      },
+      "duplicates": 7,
+      "ecos": {
+        "deb": 128,
+        "generic": 3,
+        "pypi": 43,
+        "rpm": 1
+      },
+      "format": "cyclonedx",
+      "packages": 175,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S3-ml",
+      "tool": "cdxgen",
+      "unique_identities": 168,
+      "with_purl": 175,
+      "with_version": 167
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 65,
+        "document-subject": 1,
+        "software_File": 1749
+      },
+      "duplicates": 7,
+      "ecos": {
+        "deb": 128,
+        "generic": 5,
+        "pypi": 43,
+        "rpm": 1,
+        "unknown": 168
+      },
+      "format": "spdx",
+      "packages": 345,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "P-S3-ml",
+      "tool": "cdxgen",
+      "unique_identities": 338,
+      "with_purl": 177,
+      "with_version": 337
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 168,
+        "data": 2,
+        "file": 1750
+      },
+      "duplicates": 7,
+      "ecos": {
+        "cargo": 101,
+        "deb": 128,
+        "generic": 3,
+        "pypi": 55,
+        "rpm": 1
+      },
+      "format": "cyclonedx",
+      "packages": 288,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S3-pred",
+      "tool": "cdxgen",
+      "unique_identities": 281,
+      "with_purl": 288,
+      "with_version": 278
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 130,
+        "document-subject": 1,
+        "software_File": 1750
+      },
+      "duplicates": 7,
+      "ecos": {
+        "cargo": 101,
+        "deb": 128,
+        "generic": 5,
+        "pypi": 55,
+        "rpm": 1,
+        "unknown": 168
+      },
+      "format": "spdx",
+      "packages": 458,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "P-S3-pred",
+      "tool": "cdxgen",
+      "unique_identities": 451,
+      "with_purl": 290,
+      "with_version": 448
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 20,
+        "data": 2,
+        "file": 1496
+      },
+      "duplicates": 4,
+      "ecos": {
+        "deb": 130
+      },
+      "format": "cyclonedx",
+      "packages": 130,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "C-P",
+      "tool": "cdxgen",
+      "unique_identities": 126,
+      "with_purl": 130,
+      "with_version": 130
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "C-S1",
+      "tool": "cdxgen",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "C-S2",
+      "tool": "cdxgen",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 5,
+        "file": 77
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 20
+      },
+      "format": "cyclonedx",
+      "packages": 20,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "C-S3-alpine",
+      "tool": "cdxgen",
+      "unique_identities": 20,
+      "with_purl": 20,
+      "with_version": 20
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 20,
+        "data": 2,
+        "file": 1496
+      },
+      "duplicates": 4,
+      "ecos": {
+        "deb": 130
+      },
+      "format": "cyclonedx",
+      "packages": 130,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "C-S3-debian",
+      "tool": "cdxgen",
+      "unique_identities": 126,
+      "with_purl": 130,
+      "with_version": 130
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "C-S3-scratch",
+      "tool": "cdxgen",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 127,
+        "data": 2,
+        "file": 4876
+      },
+      "duplicates": 6,
+      "ecos": {
+        "deb": 151,
+        "golang": 10,
+        "maven": 104,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 266,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-P",
+      "tool": "cdxgen",
+      "unique_identities": 260,
+      "with_purl": 265,
+      "with_version": 266
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "maven": 153
+      },
+      "format": "cyclonedx",
+      "packages": 153,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S1",
+      "tool": "cdxgen",
+      "unique_identities": 153,
+      "with_purl": 153,
+      "with_version": 153
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "maven": 102
+      },
+      "format": "cyclonedx",
+      "packages": 102,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S2",
+      "tool": "cdxgen",
+      "unique_identities": 102,
+      "with_purl": 102,
+      "with_version": 102
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 121,
+        "file": 410
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 54,
+        "maven": 102
+      },
+      "format": "cyclonedx",
+      "packages": 156,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S3-alpine",
+      "tool": "cdxgen",
+      "unique_identities": 156,
+      "with_purl": 156,
+      "with_version": 156
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 518
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 39,
+        "maven": 102
+      },
+      "format": "cyclonedx",
+      "packages": 141,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S3-distroless",
+      "tool": "cdxgen",
+      "unique_identities": 141,
+      "with_purl": 141,
+      "with_version": 141
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 127,
+        "data": 2,
+        "file": 4876
+      },
+      "duplicates": 6,
+      "ecos": {
+        "deb": 151,
+        "golang": 10,
+        "maven": 103,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 265,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S3-layered",
+      "tool": "cdxgen",
+      "unique_identities": 259,
+      "with_purl": 264,
+      "with_version": 265
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 127,
+        "data": 2,
+        "file": 4876
+      },
+      "duplicates": 6,
+      "ecos": {
+        "deb": 151,
+        "golang": 10,
+        "maven": 102,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 264,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S3-ubuntu",
+      "tool": "cdxgen",
+      "unique_identities": 258,
+      "with_purl": 263,
+      "with_version": 264
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 153,
+        "data": 5,
+        "file": 1793
+      },
+      "duplicates": 6,
+      "ecos": {
+        "deb": 186,
+        "golang": 33,
+        "npm": 1,
+        "unknown": 2
+      },
+      "format": "cyclonedx",
+      "packages": 222,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "M-S3",
+      "tool": "cdxgen",
+      "unique_identities": 216,
+      "with_purl": 220,
+      "with_version": 221
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "npm": 99
+      },
+      "format": "cyclonedx",
+      "packages": 99,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "N-S1",
+      "tool": "cdxgen",
+      "unique_identities": 99,
+      "with_purl": 99,
+      "with_version": 99
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "npm": 106
+      },
+      "format": "cyclonedx",
+      "packages": 106,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "N-S1-nolock",
+      "tool": "cdxgen",
+      "unique_identities": 106,
+      "with_purl": 106,
+      "with_version": 106
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "N-S2",
+      "tool": "cdxgen",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 122,
+        "file": 598
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 89
+      },
+      "format": "cyclonedx",
+      "packages": 89,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "N-S3-nginx",
+      "tool": "cdxgen",
+      "unique_identities": 89,
+      "with_purl": 89,
+      "with_version": 89
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 20,
+        "data": 2,
+        "file": 1513
+      },
+      "duplicates": 4,
+      "ecos": {
+        "deb": 130,
+        "npm": 244
+      },
+      "format": "cyclonedx",
+      "packages": 374,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "N-S3-node",
+      "tool": "cdxgen",
+      "unique_identities": 370,
+      "with_purl": 374,
+      "with_version": 374
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 5,
+        "file": 77
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 20
+      },
+      "format": "cyclonedx",
+      "packages": 20,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "O-alpine",
+      "tool": "cdxgen",
+      "unique_identities": 20,
+      "with_purl": 20,
+      "with_version": 20
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 20,
+        "data": 2,
+        "file": 1496
+      },
+      "duplicates": 4,
+      "ecos": {
+        "deb": 130
+      },
+      "format": "cyclonedx",
+      "packages": 130,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "O-debian",
+      "tool": "cdxgen",
+      "unique_identities": 126,
+      "with_purl": 130,
+      "with_version": 130
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 309
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 9
+      },
+      "format": "cyclonedx",
+      "packages": 9,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "O-distroless",
+      "tool": "cdxgen",
+      "unique_identities": 9,
+      "with_purl": 9,
+      "with_version": 9
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 4,
+        "data": 9,
+        "file": 955
+      },
+      "duplicates": 2,
+      "ecos": {
+        "rpm": 141
+      },
+      "format": "cyclonedx",
+      "packages": 141,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "O-ubi",
+      "tool": "cdxgen",
+      "unique_identities": 139,
+      "with_purl": 141,
+      "with_version": 141
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 7,
+        "data": 2,
+        "file": 1679
+      },
+      "duplicates": 4,
+      "ecos": {
+        "deb": 135
+      },
+      "format": "cyclonedx",
+      "packages": 135,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "O-ubuntu",
+      "tool": "cdxgen",
+      "unique_identities": 131,
+      "with_purl": 135,
+      "with_version": 135
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 168,
+        "data": 2,
+        "file": 1752
+      },
+      "duplicates": 7,
+      "ecos": {
+        "cargo": 101,
+        "deb": 128,
+        "generic": 3,
+        "golang": 22,
+        "pypi": 55,
+        "rpm": 1,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 311,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-P",
+      "tool": "cdxgen",
+      "unique_identities": 304,
+      "with_purl": 310,
+      "with_version": 300
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "pypi": 56
+      },
+      "format": "cyclonedx",
+      "packages": 56,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S1",
+      "tool": "cdxgen",
+      "unique_identities": 56,
+      "with_purl": 56,
+      "with_version": 47
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "pypi": 46
+      },
+      "format": "cyclonedx",
+      "packages": 46,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S1-pinned",
+      "tool": "cdxgen",
+      "unique_identities": 46,
+      "with_purl": 46,
+      "with_version": 46
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1007
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 55,
+        "generic": 3
+      },
+      "format": "cyclonedx",
+      "packages": 58,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S3-distroless",
+      "tool": "cdxgen",
+      "unique_identities": 58,
+      "with_purl": 58,
+      "with_version": 55
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 168,
+        "data": 2,
+        "file": 1751
+      },
+      "duplicates": 6,
+      "ecos": {
+        "cargo": 101,
+        "deb": 128,
+        "generic": 2,
+        "pypi": 51
+      },
+      "format": "cyclonedx",
+      "packages": 282,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S3-drift",
+      "tool": "cdxgen",
+      "unique_identities": 276,
+      "with_purl": 282,
+      "with_version": 274
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 168,
+        "data": 2,
+        "file": 1754
+      },
+      "duplicates": 15,
+      "ecos": {
+        "cargo": 17,
+        "deb": 128,
+        "generic": 2,
+        "pypi": 83,
+        "rpm": 1
+      },
+      "format": "cyclonedx",
+      "packages": 231,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S3-front",
+      "tool": "cdxgen",
+      "unique_identities": 216,
+      "with_purl": 231,
+      "with_version": 225
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 168,
+        "data": 2,
+        "file": 1749
+      },
+      "duplicates": 7,
+      "ecos": {
+        "deb": 128,
+        "generic": 3,
+        "pypi": 43,
+        "rpm": 1
+      },
+      "format": "cyclonedx",
+      "packages": 175,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S3-ml",
+      "tool": "cdxgen",
+      "unique_identities": 168,
+      "with_purl": 175,
+      "with_version": 167
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 168,
+        "data": 2,
+        "file": 1750
+      },
+      "duplicates": 7,
+      "ecos": {
+        "cargo": 101,
+        "deb": 128,
+        "generic": 3,
+        "pypi": 55,
+        "rpm": 1
+      },
+      "format": "cyclonedx",
+      "packages": 288,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S3-pred",
+      "tool": "cdxgen",
+      "unique_identities": 281,
+      "with_purl": 288,
+      "with_version": 278
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 2988,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 88
+      },
+      "format": "cyclonedx",
+      "packages": 88,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "C-P",
+      "tool": "syft",
+      "unique_identities": 88,
+      "with_purl": 88,
+      "with_version": 88
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 88
+      },
+      "format": "spdx",
+      "packages": 88,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "C-P",
+      "tool": "syft",
+      "unique_identities": 88,
+      "with_purl": 88,
+      "with_version": 88
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "C-S1",
+      "tool": "syft",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {},
+      "format": "spdx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "C-S1",
+      "tool": "syft",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "C-S2",
+      "tool": "syft",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {},
+      "format": "spdx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "C-S2",
+      "tool": "syft",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 81,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 16
+      },
+      "format": "cyclonedx",
+      "packages": 16,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "C-S3-alpine",
+      "tool": "syft",
+      "unique_identities": 16,
+      "with_purl": 16,
+      "with_version": 16
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 16
+      },
+      "format": "spdx",
+      "packages": 16,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "C-S3-alpine",
+      "tool": "syft",
+      "unique_identities": 16,
+      "with_purl": 16,
+      "with_version": 16
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 2988,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 88
+      },
+      "format": "cyclonedx",
+      "packages": 88,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "C-S3-debian",
+      "tool": "syft",
+      "unique_identities": 88,
+      "with_purl": 88,
+      "with_version": 88
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 88
+      },
+      "format": "spdx",
+      "packages": 88,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "C-S3-debian",
+      "tool": "syft",
+      "unique_identities": 88,
+      "with_purl": 88,
+      "with_version": 88
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "C-S3-scratch",
+      "tool": "syft",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {},
+      "format": "spdx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "C-S3-scratch",
+      "tool": "syft",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 6840,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 106,
+        "generic": 1,
+        "golang": 11,
+        "maven": 114
+      },
+      "format": "cyclonedx",
+      "packages": 232,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-P",
+      "tool": "syft",
+      "unique_identities": 232,
+      "with_purl": 232,
+      "with_version": 232
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 106,
+        "generic": 1,
+        "golang": 11,
+        "maven": 114
+      },
+      "format": "spdx",
+      "packages": 232,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "J-P",
+      "tool": "syft",
+      "unique_identities": 232,
+      "with_purl": 232,
+      "with_version": 232
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 18
+      },
+      "format": "cyclonedx",
+      "packages": 18,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-S1",
+      "tool": "syft",
+      "unique_identities": 18,
+      "with_purl": 18,
+      "with_version": 6
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 18
+      },
+      "format": "spdx",
+      "packages": 18,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "J-S1",
+      "tool": "syft",
+      "unique_identities": 18,
+      "with_purl": 18,
+      "with_version": 6
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 109
+      },
+      "format": "cyclonedx",
+      "packages": 109,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-S2",
+      "tool": "syft",
+      "unique_identities": 109,
+      "with_purl": 109,
+      "with_version": 109
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 109
+      },
+      "format": "spdx",
+      "packages": 109,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "J-S2",
+      "tool": "syft",
+      "unique_identities": 109,
+      "with_purl": 109,
+      "with_version": 109
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1136,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 44,
+        "generic": 1,
+        "maven": 110
+      },
+      "format": "cyclonedx",
+      "packages": 155,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-S3-alpine",
+      "tool": "syft",
+      "unique_identities": 155,
+      "with_purl": 155,
+      "with_version": 155
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 44,
+        "generic": 1,
+        "maven": 110
+      },
+      "format": "spdx",
+      "packages": 155,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "J-S3-alpine",
+      "tool": "syft",
+      "unique_identities": 155,
+      "with_purl": 155,
+      "with_version": 155
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1538,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 25,
+        "maven": 110
+      },
+      "format": "cyclonedx",
+      "packages": 135,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-S3-distroless",
+      "tool": "syft",
+      "unique_identities": 135,
+      "with_purl": 135,
+      "with_version": 135
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 25,
+        "maven": 110
+      },
+      "format": "spdx",
+      "packages": 135,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "J-S3-distroless",
+      "tool": "syft",
+      "unique_identities": 135,
+      "with_purl": 135,
+      "with_version": 135
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 6940,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 106,
+        "generic": 1,
+        "golang": 11,
+        "maven": 110
+      },
+      "format": "cyclonedx",
+      "packages": 228,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-S3-layered",
+      "tool": "syft",
+      "unique_identities": 228,
+      "with_purl": 228,
+      "with_version": 228
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 106,
+        "generic": 1,
+        "golang": 11,
+        "maven": 110
+      },
+      "format": "spdx",
+      "packages": 228,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "J-S3-layered",
+      "tool": "syft",
+      "unique_identities": 228,
+      "with_purl": 228,
+      "with_version": 228
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 6838,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 106,
+        "generic": 1,
+        "golang": 11,
+        "maven": 110
+      },
+      "format": "cyclonedx",
+      "packages": 228,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-S3-ubuntu",
+      "tool": "syft",
+      "unique_identities": 228,
+      "with_purl": 228,
+      "with_version": 228
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 106,
+        "generic": 1,
+        "golang": 11,
+        "maven": 110
+      },
+      "format": "spdx",
+      "packages": 228,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "J-S3-ubuntu",
+      "tool": "syft",
+      "unique_identities": 228,
+      "with_purl": 228,
+      "with_version": 228
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 3978,
+        "operating-system": 1
+      },
+      "duplicates": 196,
+      "ecos": {
+        "deb": 130,
+        "golang": 231,
+        "npm": 1
+      },
+      "format": "cyclonedx",
+      "packages": 362,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "M-S3",
+      "tool": "syft",
+      "unique_identities": 166,
+      "with_purl": 362,
+      "with_version": 354
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 196,
+      "ecos": {
+        "deb": 130,
+        "golang": 231,
+        "npm": 1
+      },
+      "format": "spdx",
+      "packages": 362,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "M-S3",
+      "tool": "syft",
+      "unique_identities": 166,
+      "with_purl": 362,
+      "with_version": 354
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "npm": 36
+      },
+      "format": "cyclonedx",
+      "packages": 36,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "N-S1",
+      "tool": "syft",
+      "unique_identities": 36,
+      "with_purl": 36,
+      "with_version": 36
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "npm": 36
+      },
+      "format": "spdx",
+      "packages": 36,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "N-S1",
+      "tool": "syft",
+      "unique_identities": 36,
+      "with_purl": 36,
+      "with_version": 36
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "N-S1-nolock",
+      "tool": "syft",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {},
+      "format": "spdx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "N-S1-nolock",
+      "tool": "syft",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "N-S2",
+      "tool": "syft",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {},
+      "format": "spdx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "N-S2",
+      "tool": "syft",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1213,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 72
+      },
+      "format": "cyclonedx",
+      "packages": 72,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "N-S3-nginx",
+      "tool": "syft",
+      "unique_identities": 72,
+      "with_purl": 72,
+      "with_version": 72
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 72
+      },
+      "format": "spdx",
+      "packages": 72,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "N-S3-nginx",
+      "tool": "syft",
+      "unique_identities": 72,
+      "with_purl": 72,
+      "with_version": 72
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 3247,
+        "operating-system": 1
+      },
+      "duplicates": 14,
+      "ecos": {
+        "deb": 88,
+        "generic": 1,
+        "npm": 258
+      },
+      "format": "cyclonedx",
+      "packages": 347,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "N-S3-node",
+      "tool": "syft",
+      "unique_identities": 333,
+      "with_purl": 347,
+      "with_version": 347
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 14,
+      "ecos": {
+        "deb": 88,
+        "generic": 1,
+        "npm": 258
+      },
+      "format": "spdx",
+      "packages": 347,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "N-S3-node",
+      "tool": "syft",
+      "unique_identities": 333,
+      "with_purl": 347,
+      "with_version": 347
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 81,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 16
+      },
+      "format": "cyclonedx",
+      "packages": 16,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "O-alpine",
+      "tool": "syft",
+      "unique_identities": 16,
+      "with_purl": 16,
+      "with_version": 16
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 16
+      },
+      "format": "spdx",
+      "packages": 16,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "O-alpine",
+      "tool": "syft",
+      "unique_identities": 16,
+      "with_purl": 16,
+      "with_version": 16
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 2988,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 88
+      },
+      "format": "cyclonedx",
+      "packages": 88,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "O-debian",
+      "tool": "syft",
+      "unique_identities": 88,
+      "with_purl": 88,
+      "with_version": 88
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 88
+      },
+      "format": "spdx",
+      "packages": 88,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "O-debian",
+      "tool": "syft",
+      "unique_identities": 88,
+      "with_purl": 88,
+      "with_version": 88
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1246,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 7
+      },
+      "format": "cyclonedx",
+      "packages": 7,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "O-distroless",
+      "tool": "syft",
+      "unique_identities": 7,
+      "with_purl": 7,
+      "with_version": 7
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 7
+      },
+      "format": "spdx",
+      "packages": 7,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "O-distroless",
+      "tool": "syft",
+      "unique_identities": 7,
+      "with_purl": 7,
+      "with_version": 7
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1215,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "rpm": 109
+      },
+      "format": "cyclonedx",
+      "packages": 109,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "O-ubi",
+      "tool": "syft",
+      "unique_identities": 109,
+      "with_purl": 109,
+      "with_version": 109
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "rpm": 109
+      },
+      "format": "spdx",
+      "packages": 109,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "O-ubi",
+      "tool": "syft",
+      "unique_identities": 109,
+      "with_purl": 109,
+      "with_version": 109
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 2266,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 92
+      },
+      "format": "cyclonedx",
+      "packages": 92,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "O-ubuntu",
+      "tool": "syft",
+      "unique_identities": 92,
+      "with_purl": 92,
+      "with_version": 92
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 92
+      },
+      "format": "spdx",
+      "packages": 92,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "O-ubuntu",
+      "tool": "syft",
+      "unique_identities": 92,
+      "with_purl": 92,
+      "with_version": 92
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 2776,
+        "operating-system": 1
+      },
+      "duplicates": 5,
+      "ecos": {
+        "deb": 87,
+        "generic": 2,
+        "golang": 23,
+        "pypi": 47,
+        "unknown": 14
+      },
+      "format": "cyclonedx",
+      "packages": 173,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-P",
+      "tool": "syft",
+      "unique_identities": 168,
+      "with_purl": 159,
+      "with_version": 165
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 5,
+      "ecos": {
+        "deb": 87,
+        "generic": 2,
+        "golang": 23,
+        "pypi": 47,
+        "unknown": 14
+      },
+      "format": "spdx",
+      "packages": 173,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "P-P",
+      "tool": "syft",
+      "unique_identities": 168,
+      "with_purl": 159,
+      "with_version": 165
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S1",
+      "tool": "syft",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {},
+      "format": "spdx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "P-S1",
+      "tool": "syft",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 5
+      },
+      "duplicates": 66,
+      "ecos": {
+        "pypi": 112
+      },
+      "format": "cyclonedx",
+      "packages": 112,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S1-pinned",
+      "tool": "syft",
+      "unique_identities": 46,
+      "with_purl": 112,
+      "with_version": 112
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 66,
+      "ecos": {
+        "pypi": 112
+      },
+      "format": "spdx",
+      "packages": 112,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "P-S1-pinned",
+      "tool": "syft",
+      "unique_identities": 46,
+      "with_purl": 112,
+      "with_version": 112
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 2127,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 34,
+        "pypi": 27
+      },
+      "format": "cyclonedx",
+      "packages": 61,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S3-distroless",
+      "tool": "syft",
+      "unique_identities": 61,
+      "with_purl": 61,
+      "with_version": 61
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 34,
+        "pypi": 27
+      },
+      "format": "spdx",
+      "packages": 61,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "P-S3-distroless",
+      "tool": "syft",
+      "unique_identities": 61,
+      "with_purl": 61,
+      "with_version": 61
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 2772,
+        "operating-system": 1
+      },
+      "duplicates": 5,
+      "ecos": {
+        "deb": 87,
+        "generic": 1,
+        "pypi": 45,
+        "unknown": 14
+      },
+      "format": "cyclonedx",
+      "packages": 147,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S3-drift",
+      "tool": "syft",
+      "unique_identities": 142,
+      "with_purl": 133,
+      "with_version": 139
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 5,
+      "ecos": {
+        "deb": 87,
+        "generic": 1,
+        "pypi": 45,
+        "unknown": 14
+      },
+      "format": "spdx",
+      "packages": 147,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "P-S3-drift",
+      "tool": "syft",
+      "unique_identities": 142,
+      "with_purl": 133,
+      "with_version": 139
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 2798,
+        "operating-system": 1
+      },
+      "duplicates": 5,
+      "ecos": {
+        "deb": 87,
+        "generic": 1,
+        "pypi": 55,
+        "unknown": 14
+      },
+      "format": "cyclonedx",
+      "packages": 157,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S3-front",
+      "tool": "syft",
+      "unique_identities": 152,
+      "with_purl": 143,
+      "with_version": 149
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 5,
+      "ecos": {
+        "deb": 87,
+        "generic": 1,
+        "pypi": 55,
+        "unknown": 14
+      },
+      "format": "spdx",
+      "packages": 157,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "P-S3-front",
+      "tool": "syft",
+      "unique_identities": 152,
+      "with_purl": 143,
+      "with_version": 149
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 2755,
+        "operating-system": 1
+      },
+      "duplicates": 5,
+      "ecos": {
+        "deb": 87,
+        "generic": 1,
+        "pypi": 37,
+        "unknown": 14
+      },
+      "format": "cyclonedx",
+      "packages": 139,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S3-ml",
+      "tool": "syft",
+      "unique_identities": 134,
+      "with_purl": 125,
+      "with_version": 131
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 5,
+      "ecos": {
+        "deb": 87,
+        "generic": 1,
+        "pypi": 37,
+        "unknown": 14
+      },
+      "format": "spdx",
+      "packages": 139,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "P-S3-ml",
+      "tool": "syft",
+      "unique_identities": 134,
+      "with_purl": 125,
+      "with_version": 131
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 2774,
+        "operating-system": 1
+      },
+      "duplicates": 5,
+      "ecos": {
+        "deb": 87,
+        "generic": 1,
+        "pypi": 47,
+        "unknown": 14
+      },
+      "format": "cyclonedx",
+      "packages": 149,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S3-pred",
+      "tool": "syft",
+      "unique_identities": 144,
+      "with_purl": 135,
+      "with_version": 141
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 5,
+      "ecos": {
+        "deb": 87,
+        "generic": 1,
+        "pypi": 47,
+        "unknown": 14
+      },
+      "format": "spdx",
+      "packages": 149,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "P-S3-pred",
+      "tool": "syft",
+      "unique_identities": 144,
+      "with_purl": 135,
+      "with_version": 141
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 2988,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 88
+      },
+      "format": "cyclonedx",
+      "packages": 88,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "C-P",
+      "tool": "syft",
+      "unique_identities": 88,
+      "with_purl": 88,
+      "with_version": 88
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "C-S1",
+      "tool": "syft",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "C-S2",
+      "tool": "syft",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 81,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 16
+      },
+      "format": "cyclonedx",
+      "packages": 16,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "C-S3-alpine",
+      "tool": "syft",
+      "unique_identities": 16,
+      "with_purl": 16,
+      "with_version": 16
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 2988,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 88
+      },
+      "format": "cyclonedx",
+      "packages": 88,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "C-S3-debian",
+      "tool": "syft",
+      "unique_identities": 88,
+      "with_purl": 88,
+      "with_version": 88
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "C-S3-scratch",
+      "tool": "syft",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 6840,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 106,
+        "generic": 1,
+        "golang": 11,
+        "maven": 114
+      },
+      "format": "cyclonedx",
+      "packages": 232,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-P",
+      "tool": "syft",
+      "unique_identities": 232,
+      "with_purl": 232,
+      "with_version": 232
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 18
+      },
+      "format": "cyclonedx",
+      "packages": 18,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S1",
+      "tool": "syft",
+      "unique_identities": 18,
+      "with_purl": 18,
+      "with_version": 6
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 109
+      },
+      "format": "cyclonedx",
+      "packages": 109,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S2",
+      "tool": "syft",
+      "unique_identities": 109,
+      "with_purl": 109,
+      "with_version": 109
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1136,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 44,
+        "generic": 1,
+        "maven": 110
+      },
+      "format": "cyclonedx",
+      "packages": 155,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S3-alpine",
+      "tool": "syft",
+      "unique_identities": 155,
+      "with_purl": 155,
+      "with_version": 155
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1538,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 25,
+        "maven": 110
+      },
+      "format": "cyclonedx",
+      "packages": 135,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S3-distroless",
+      "tool": "syft",
+      "unique_identities": 135,
+      "with_purl": 135,
+      "with_version": 135
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 6940,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 106,
+        "generic": 1,
+        "golang": 11,
+        "maven": 110
+      },
+      "format": "cyclonedx",
+      "packages": 228,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S3-layered",
+      "tool": "syft",
+      "unique_identities": 228,
+      "with_purl": 228,
+      "with_version": 228
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 6838,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 106,
+        "generic": 1,
+        "golang": 11,
+        "maven": 110
+      },
+      "format": "cyclonedx",
+      "packages": 228,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S3-ubuntu",
+      "tool": "syft",
+      "unique_identities": 228,
+      "with_purl": 228,
+      "with_version": 228
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 3978,
+        "operating-system": 1
+      },
+      "duplicates": 196,
+      "ecos": {
+        "deb": 130,
+        "golang": 231,
+        "npm": 1
+      },
+      "format": "cyclonedx",
+      "packages": 362,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "M-S3",
+      "tool": "syft",
+      "unique_identities": 166,
+      "with_purl": 362,
+      "with_version": 354
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "npm": 36
+      },
+      "format": "cyclonedx",
+      "packages": 36,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "N-S1",
+      "tool": "syft",
+      "unique_identities": 36,
+      "with_purl": 36,
+      "with_version": 36
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "N-S1-nolock",
+      "tool": "syft",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "N-S2",
+      "tool": "syft",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1213,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 72
+      },
+      "format": "cyclonedx",
+      "packages": 72,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "N-S3-nginx",
+      "tool": "syft",
+      "unique_identities": 72,
+      "with_purl": 72,
+      "with_version": 72
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 3247,
+        "operating-system": 1
+      },
+      "duplicates": 14,
+      "ecos": {
+        "deb": 88,
+        "generic": 1,
+        "npm": 258
+      },
+      "format": "cyclonedx",
+      "packages": 347,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "N-S3-node",
+      "tool": "syft",
+      "unique_identities": 333,
+      "with_purl": 347,
+      "with_version": 347
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 81,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 16
+      },
+      "format": "cyclonedx",
+      "packages": 16,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "O-alpine",
+      "tool": "syft",
+      "unique_identities": 16,
+      "with_purl": 16,
+      "with_version": 16
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 2988,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 88
+      },
+      "format": "cyclonedx",
+      "packages": 88,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "O-debian",
+      "tool": "syft",
+      "unique_identities": 88,
+      "with_purl": 88,
+      "with_version": 88
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1246,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 7
+      },
+      "format": "cyclonedx",
+      "packages": 7,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "O-distroless",
+      "tool": "syft",
+      "unique_identities": 7,
+      "with_purl": 7,
+      "with_version": 7
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1215,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "rpm": 109
+      },
+      "format": "cyclonedx",
+      "packages": 109,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "O-ubi",
+      "tool": "syft",
+      "unique_identities": 109,
+      "with_purl": 109,
+      "with_version": 109
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 2266,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 92
+      },
+      "format": "cyclonedx",
+      "packages": 92,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "O-ubuntu",
+      "tool": "syft",
+      "unique_identities": 92,
+      "with_purl": 92,
+      "with_version": 92
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 2776,
+        "operating-system": 1
+      },
+      "duplicates": 5,
+      "ecos": {
+        "deb": 87,
+        "generic": 2,
+        "golang": 23,
+        "pypi": 47,
+        "unknown": 14
+      },
+      "format": "cyclonedx",
+      "packages": 173,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-P",
+      "tool": "syft",
+      "unique_identities": 168,
+      "with_purl": 159,
+      "with_version": 165
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S1",
+      "tool": "syft",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 5
+      },
+      "duplicates": 66,
+      "ecos": {
+        "pypi": 112
+      },
+      "format": "cyclonedx",
+      "packages": 112,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S1-pinned",
+      "tool": "syft",
+      "unique_identities": 46,
+      "with_purl": 112,
+      "with_version": 112
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 2127,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 34,
+        "pypi": 27
+      },
+      "format": "cyclonedx",
+      "packages": 61,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S3-distroless",
+      "tool": "syft",
+      "unique_identities": 61,
+      "with_purl": 61,
+      "with_version": 61
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 2772,
+        "operating-system": 1
+      },
+      "duplicates": 5,
+      "ecos": {
+        "deb": 87,
+        "generic": 1,
+        "pypi": 45,
+        "unknown": 14
+      },
+      "format": "cyclonedx",
+      "packages": 147,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S3-drift",
+      "tool": "syft",
+      "unique_identities": 142,
+      "with_purl": 133,
+      "with_version": 139
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 2798,
+        "operating-system": 1
+      },
+      "duplicates": 5,
+      "ecos": {
+        "deb": 87,
+        "generic": 1,
+        "pypi": 55,
+        "unknown": 14
+      },
+      "format": "cyclonedx",
+      "packages": 157,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S3-front",
+      "tool": "syft",
+      "unique_identities": 152,
+      "with_purl": 143,
+      "with_version": 149
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 2755,
+        "operating-system": 1
+      },
+      "duplicates": 5,
+      "ecos": {
+        "deb": 87,
+        "generic": 1,
+        "pypi": 37,
+        "unknown": 14
+      },
+      "format": "cyclonedx",
+      "packages": 139,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S3-ml",
+      "tool": "syft",
+      "unique_identities": 134,
+      "with_purl": 125,
+      "with_version": 131
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 2774,
+        "operating-system": 1
+      },
+      "duplicates": 5,
+      "ecos": {
+        "deb": 87,
+        "generic": 1,
+        "pypi": 47,
+        "unknown": 14
+      },
+      "format": "cyclonedx",
+      "packages": 149,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S3-pred",
+      "tool": "syft",
+      "unique_identities": 144,
+      "with_purl": 135,
+      "with_version": 141
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 88
+      },
+      "format": "cyclonedx",
+      "packages": 88,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "C-P",
+      "tool": "trivy",
+      "unique_identities": 88,
+      "with_purl": 88,
+      "with_version": 88
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 88
+      },
+      "format": "spdx",
+      "packages": 88,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "C-P",
+      "tool": "trivy",
+      "unique_identities": 88,
+      "with_purl": 88,
+      "with_version": 88
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "C-S1",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {},
+      "format": "spdx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "C-S1",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "C-S2",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {},
+      "format": "spdx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "C-S2",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 16
+      },
+      "format": "cyclonedx",
+      "packages": 16,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "C-S3-alpine",
+      "tool": "trivy",
+      "unique_identities": 16,
+      "with_purl": 16,
+      "with_version": 16
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 16
+      },
+      "format": "spdx",
+      "packages": 16,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "C-S3-alpine",
+      "tool": "trivy",
+      "unique_identities": 16,
+      "with_purl": 16,
+      "with_version": 16
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 88
+      },
+      "format": "cyclonedx",
+      "packages": 88,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "C-S3-debian",
+      "tool": "trivy",
+      "unique_identities": 88,
+      "with_purl": 88,
+      "with_version": 88
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 88
+      },
+      "format": "spdx",
+      "packages": 88,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "C-S3-debian",
+      "tool": "trivy",
+      "unique_identities": 88,
+      "with_purl": 88,
+      "with_version": 88
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "C-S3-scratch",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {},
+      "format": "spdx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "C-S3-scratch",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 106,
+        "golang": 11,
+        "maven": 112
+      },
+      "format": "cyclonedx",
+      "packages": 229,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-P",
+      "tool": "trivy",
+      "unique_identities": 229,
+      "with_purl": 229,
+      "with_version": 229
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 106,
+        "golang": 11,
+        "maven": 112
+      },
+      "format": "spdx",
+      "packages": 229,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "J-P",
+      "tool": "trivy",
+      "unique_identities": 229,
+      "with_purl": 229,
+      "with_version": 229
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 112
+      },
+      "format": "cyclonedx",
+      "packages": 112,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-S1",
+      "tool": "trivy",
+      "unique_identities": 112,
+      "with_purl": 112,
+      "with_version": 112
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 112
+      },
+      "format": "spdx",
+      "packages": 112,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "J-S1",
+      "tool": "trivy",
+      "unique_identities": 112,
+      "with_purl": 112,
+      "with_version": 112
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "maven": 108
+      },
+      "format": "cyclonedx",
+      "packages": 108,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-S2",
+      "tool": "trivy",
+      "unique_identities": 108,
+      "with_purl": 108,
+      "with_version": 108
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 108
+      },
+      "format": "spdx",
+      "packages": 108,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "J-S2",
+      "tool": "trivy",
+      "unique_identities": 108,
+      "with_purl": 108,
+      "with_version": 108
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 44,
+        "maven": 108
+      },
+      "format": "cyclonedx",
+      "packages": 152,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-S3-alpine",
+      "tool": "trivy",
+      "unique_identities": 152,
+      "with_purl": 152,
+      "with_version": 152
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 44,
+        "maven": 108
+      },
+      "format": "spdx",
+      "packages": 152,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "J-S3-alpine",
+      "tool": "trivy",
+      "unique_identities": 152,
+      "with_purl": 152,
+      "with_version": 152
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 25,
+        "maven": 108
+      },
+      "format": "cyclonedx",
+      "packages": 133,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-S3-distroless",
+      "tool": "trivy",
+      "unique_identities": 133,
+      "with_purl": 133,
+      "with_version": 133
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 25,
+        "maven": 108
+      },
+      "format": "spdx",
+      "packages": 133,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "J-S3-distroless",
+      "tool": "trivy",
+      "unique_identities": 133,
+      "with_purl": 133,
+      "with_version": 133
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 106,
+        "golang": 11,
+        "maven": 108
+      },
+      "format": "cyclonedx",
+      "packages": 225,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-S3-layered",
+      "tool": "trivy",
+      "unique_identities": 225,
+      "with_purl": 225,
+      "with_version": 225
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 106,
+        "golang": 11,
+        "maven": 108
+      },
+      "format": "spdx",
+      "packages": 225,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "J-S3-layered",
+      "tool": "trivy",
+      "unique_identities": 225,
+      "with_purl": 225,
+      "with_version": 225
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 106,
+        "golang": 11,
+        "maven": 108
+      },
+      "format": "cyclonedx",
+      "packages": 225,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-S3-ubuntu",
+      "tool": "trivy",
+      "unique_identities": 225,
+      "with_purl": 225,
+      "with_version": 225
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 106,
+        "golang": 11,
+        "maven": 108
+      },
+      "format": "spdx",
+      "packages": 225,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "J-S3-ubuntu",
+      "tool": "trivy",
+      "unique_identities": 225,
+      "with_purl": 225,
+      "with_version": 225
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 9
+      },
+      "duplicates": 196,
+      "ecos": {
+        "deb": 130,
+        "golang": 231,
+        "npm": 1
+      },
+      "format": "cyclonedx",
+      "packages": 362,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "M-S3",
+      "tool": "trivy",
+      "unique_identities": 166,
+      "with_purl": 362,
+      "with_version": 354
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1,
+        "trivy-aggregation-node": 9
+      },
+      "duplicates": 196,
+      "ecos": {
+        "deb": 130,
+        "golang": 231,
+        "npm": 1
+      },
+      "format": "spdx",
+      "packages": 362,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "M-S3",
+      "tool": "trivy",
+      "unique_identities": 166,
+      "with_purl": 362,
+      "with_version": 354
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "npm": 35
+      },
+      "format": "cyclonedx",
+      "packages": 35,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "N-S1",
+      "tool": "trivy",
+      "unique_identities": 35,
+      "with_purl": 35,
+      "with_version": 35
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "npm": 35
+      },
+      "format": "spdx",
+      "packages": 35,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "N-S1",
+      "tool": "trivy",
+      "unique_identities": 35,
+      "with_purl": 35,
+      "with_version": 35
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "N-S1-nolock",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {},
+      "format": "spdx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "N-S1-nolock",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "N-S2",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {},
+      "format": "spdx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "N-S2",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 72
+      },
+      "format": "cyclonedx",
+      "packages": 72,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "N-S3-nginx",
+      "tool": "trivy",
+      "unique_identities": 72,
+      "with_purl": 72,
+      "with_version": 72
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 72
+      },
+      "format": "spdx",
+      "packages": 72,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "N-S3-nginx",
+      "tool": "trivy",
+      "unique_identities": 72,
+      "with_purl": 72,
+      "with_version": 72
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 14,
+      "ecos": {
+        "deb": 88,
+        "npm": 258
+      },
+      "format": "cyclonedx",
+      "packages": 346,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "N-S3-node",
+      "tool": "trivy",
+      "unique_identities": 332,
+      "with_purl": 346,
+      "with_version": 346
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 14,
+      "ecos": {
+        "deb": 88,
+        "npm": 258
+      },
+      "format": "spdx",
+      "packages": 346,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "N-S3-node",
+      "tool": "trivy",
+      "unique_identities": 332,
+      "with_purl": 346,
+      "with_version": 346
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 16
+      },
+      "format": "cyclonedx",
+      "packages": 16,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "O-alpine",
+      "tool": "trivy",
+      "unique_identities": 16,
+      "with_purl": 16,
+      "with_version": 16
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 16
+      },
+      "format": "spdx",
+      "packages": 16,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "O-alpine",
+      "tool": "trivy",
+      "unique_identities": 16,
+      "with_purl": 16,
+      "with_version": 16
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 88
+      },
+      "format": "cyclonedx",
+      "packages": 88,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "O-debian",
+      "tool": "trivy",
+      "unique_identities": 88,
+      "with_purl": 88,
+      "with_version": 88
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 88
+      },
+      "format": "spdx",
+      "packages": 88,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "O-debian",
+      "tool": "trivy",
+      "unique_identities": 88,
+      "with_purl": 88,
+      "with_version": 88
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 7
+      },
+      "format": "cyclonedx",
+      "packages": 7,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "O-distroless",
+      "tool": "trivy",
+      "unique_identities": 7,
+      "with_purl": 7,
+      "with_version": 7
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 7
+      },
+      "format": "spdx",
+      "packages": 7,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "O-distroless",
+      "tool": "trivy",
+      "unique_identities": 7,
+      "with_purl": 7,
+      "with_version": 7
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "rpm": 109
+      },
+      "format": "cyclonedx",
+      "packages": 109,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "O-ubi",
+      "tool": "trivy",
+      "unique_identities": 109,
+      "with_purl": 109,
+      "with_version": 109
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "rpm": 109
+      },
+      "format": "spdx",
+      "packages": 109,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "O-ubi",
+      "tool": "trivy",
+      "unique_identities": 109,
+      "with_purl": 109,
+      "with_version": 109
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 92
+      },
+      "format": "cyclonedx",
+      "packages": 92,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "O-ubuntu",
+      "tool": "trivy",
+      "unique_identities": 92,
+      "with_purl": 92,
+      "with_version": 92
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 92
+      },
+      "format": "spdx",
+      "packages": 92,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "O-ubuntu",
+      "tool": "trivy",
+      "unique_identities": 92,
+      "with_purl": 92,
+      "with_version": 92
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 87,
+        "golang": 23,
+        "pypi": 47
+      },
+      "format": "cyclonedx",
+      "packages": 157,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-P",
+      "tool": "trivy",
+      "unique_identities": 157,
+      "with_purl": 157,
+      "with_version": 156
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 87,
+        "golang": 23,
+        "pypi": 47
+      },
+      "format": "spdx",
+      "packages": 157,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "P-P",
+      "tool": "trivy",
+      "unique_identities": 157,
+      "with_purl": 157,
+      "with_version": 156
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S1",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {},
+      "format": "spdx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "P-S1",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "trivy-aggregation-node": 5
+      },
+      "duplicates": 66,
+      "ecos": {
+        "pypi": 112
+      },
+      "format": "cyclonedx",
+      "packages": 112,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S1-pinned",
+      "tool": "trivy",
+      "unique_identities": 46,
+      "with_purl": 112,
+      "with_version": 112
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "trivy-aggregation-node": 5
+      },
+      "duplicates": 66,
+      "ecos": {
+        "pypi": 112
+      },
+      "format": "spdx",
+      "packages": 112,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "P-S1-pinned",
+      "tool": "trivy",
+      "unique_identities": 46,
+      "with_purl": 112,
+      "with_version": 112
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 34,
+        "pypi": 27
+      },
+      "format": "cyclonedx",
+      "packages": 61,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S3-distroless",
+      "tool": "trivy",
+      "unique_identities": 61,
+      "with_purl": 61,
+      "with_version": 61
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 34,
+        "pypi": 27
+      },
+      "format": "spdx",
+      "packages": 61,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "P-S3-distroless",
+      "tool": "trivy",
+      "unique_identities": 61,
+      "with_purl": 61,
+      "with_version": 61
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 87,
+        "pypi": 45
+      },
+      "format": "cyclonedx",
+      "packages": 132,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S3-drift",
+      "tool": "trivy",
+      "unique_identities": 132,
+      "with_purl": 132,
+      "with_version": 132
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 87,
+        "pypi": 45
+      },
+      "format": "spdx",
+      "packages": 132,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "P-S3-drift",
+      "tool": "trivy",
+      "unique_identities": 132,
+      "with_purl": 132,
+      "with_version": 132
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 87,
+        "pypi": 55
+      },
+      "format": "cyclonedx",
+      "packages": 142,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S3-front",
+      "tool": "trivy",
+      "unique_identities": 142,
+      "with_purl": 142,
+      "with_version": 142
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 87,
+        "pypi": 55
+      },
+      "format": "spdx",
+      "packages": 142,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "P-S3-front",
+      "tool": "trivy",
+      "unique_identities": 142,
+      "with_purl": 142,
+      "with_version": 142
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 87,
+        "pypi": 37
+      },
+      "format": "cyclonedx",
+      "packages": 124,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S3-ml",
+      "tool": "trivy",
+      "unique_identities": 124,
+      "with_purl": 124,
+      "with_version": 124
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 87,
+        "pypi": 37
+      },
+      "format": "spdx",
+      "packages": 124,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "P-S3-ml",
+      "tool": "trivy",
+      "unique_identities": 124,
+      "with_purl": 124,
+      "with_version": 124
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 87,
+        "pypi": 47
+      },
+      "format": "cyclonedx",
+      "packages": 134,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "P-S3-pred",
+      "tool": "trivy",
+      "unique_identities": 134,
+      "with_purl": 134,
+      "with_version": 134
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 87,
+        "pypi": 47
+      },
+      "format": "spdx",
+      "packages": 134,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "P-S3-pred",
+      "tool": "trivy",
+      "unique_identities": 134,
+      "with_purl": 134,
+      "with_version": 134
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 88
+      },
+      "format": "cyclonedx",
+      "packages": 88,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "C-P",
+      "tool": "trivy",
+      "unique_identities": 88,
+      "with_purl": 88,
+      "with_version": 88
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "C-S1",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "C-S2",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 16
+      },
+      "format": "cyclonedx",
+      "packages": 16,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "C-S3-alpine",
+      "tool": "trivy",
+      "unique_identities": 16,
+      "with_purl": 16,
+      "with_version": 16
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 88
+      },
+      "format": "cyclonedx",
+      "packages": 88,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "C-S3-debian",
+      "tool": "trivy",
+      "unique_identities": 88,
+      "with_purl": 88,
+      "with_version": 88
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "C-S3-scratch",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 106,
+        "golang": 11,
+        "maven": 112
+      },
+      "format": "cyclonedx",
+      "packages": 229,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-P",
+      "tool": "trivy",
+      "unique_identities": 229,
+      "with_purl": 229,
+      "with_version": 229
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 112
+      },
+      "format": "cyclonedx",
+      "packages": 112,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S1",
+      "tool": "trivy",
+      "unique_identities": 112,
+      "with_purl": 112,
+      "with_version": 112
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "maven": 108
+      },
+      "format": "cyclonedx",
+      "packages": 108,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S2",
+      "tool": "trivy",
+      "unique_identities": 108,
+      "with_purl": 108,
+      "with_version": 108
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 44,
+        "maven": 108
+      },
+      "format": "cyclonedx",
+      "packages": 152,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S3-alpine",
+      "tool": "trivy",
+      "unique_identities": 152,
+      "with_purl": 152,
+      "with_version": 152
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 25,
+        "maven": 108
+      },
+      "format": "cyclonedx",
+      "packages": 133,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S3-distroless",
+      "tool": "trivy",
+      "unique_identities": 133,
+      "with_purl": 133,
+      "with_version": 133
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 106,
+        "golang": 11,
+        "maven": 108
+      },
+      "format": "cyclonedx",
+      "packages": 225,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S3-layered",
+      "tool": "trivy",
+      "unique_identities": 225,
+      "with_purl": 225,
+      "with_version": 225
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 106,
+        "golang": 11,
+        "maven": 108
+      },
+      "format": "cyclonedx",
+      "packages": 225,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S3-ubuntu",
+      "tool": "trivy",
+      "unique_identities": 225,
+      "with_purl": 225,
+      "with_version": 225
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 9
+      },
+      "duplicates": 196,
+      "ecos": {
+        "deb": 130,
+        "golang": 231,
+        "npm": 1
+      },
+      "format": "cyclonedx",
+      "packages": 362,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "M-S3",
+      "tool": "trivy",
+      "unique_identities": 166,
+      "with_purl": 362,
+      "with_version": 354
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "npm": 35
+      },
+      "format": "cyclonedx",
+      "packages": 35,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "N-S1",
+      "tool": "trivy",
+      "unique_identities": 35,
+      "with_purl": 35,
+      "with_version": 35
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "N-S1-nolock",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "N-S2",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 72
+      },
+      "format": "cyclonedx",
+      "packages": 72,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "N-S3-nginx",
+      "tool": "trivy",
+      "unique_identities": 72,
+      "with_purl": 72,
+      "with_version": 72
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 14,
+      "ecos": {
+        "deb": 88,
+        "npm": 258
+      },
+      "format": "cyclonedx",
+      "packages": 346,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "N-S3-node",
+      "tool": "trivy",
+      "unique_identities": 332,
+      "with_purl": 346,
+      "with_version": 346
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 16
+      },
+      "format": "cyclonedx",
+      "packages": 16,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "O-alpine",
+      "tool": "trivy",
+      "unique_identities": 16,
+      "with_purl": 16,
+      "with_version": 16
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 88
+      },
+      "format": "cyclonedx",
+      "packages": 88,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "O-debian",
+      "tool": "trivy",
+      "unique_identities": 88,
+      "with_purl": 88,
+      "with_version": 88
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 7
+      },
+      "format": "cyclonedx",
+      "packages": 7,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "O-distroless",
+      "tool": "trivy",
+      "unique_identities": 7,
+      "with_purl": 7,
+      "with_version": 7
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "rpm": 109
+      },
+      "format": "cyclonedx",
+      "packages": 109,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "O-ubi",
+      "tool": "trivy",
+      "unique_identities": 109,
+      "with_purl": 109,
+      "with_version": 109
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 92
+      },
+      "format": "cyclonedx",
+      "packages": 92,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "O-ubuntu",
+      "tool": "trivy",
+      "unique_identities": 92,
+      "with_purl": 92,
+      "with_version": 92
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 87,
+        "golang": 23,
+        "pypi": 47
+      },
+      "format": "cyclonedx",
+      "packages": 157,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-P",
+      "tool": "trivy",
+      "unique_identities": 157,
+      "with_purl": 157,
+      "with_version": 156
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S1",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "trivy-aggregation-node": 5
+      },
+      "duplicates": 66,
+      "ecos": {
+        "pypi": 112
+      },
+      "format": "cyclonedx",
+      "packages": 112,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S1-pinned",
+      "tool": "trivy",
+      "unique_identities": 46,
+      "with_purl": 112,
+      "with_version": 112
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 34,
+        "pypi": 27
+      },
+      "format": "cyclonedx",
+      "packages": 61,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S3-distroless",
+      "tool": "trivy",
+      "unique_identities": 61,
+      "with_purl": 61,
+      "with_version": 61
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 87,
+        "pypi": 45
+      },
+      "format": "cyclonedx",
+      "packages": 132,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S3-drift",
+      "tool": "trivy",
+      "unique_identities": 132,
+      "with_purl": 132,
+      "with_version": 132
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 87,
+        "pypi": 55
+      },
+      "format": "cyclonedx",
+      "packages": 142,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S3-front",
+      "tool": "trivy",
+      "unique_identities": 142,
+      "with_purl": 142,
+      "with_version": 142
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 87,
+        "pypi": 37
+      },
+      "format": "cyclonedx",
+      "packages": 124,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S3-ml",
+      "tool": "trivy",
+      "unique_identities": 124,
+      "with_purl": 124,
+      "with_version": 124
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 87,
+        "pypi": 47
+      },
+      "format": "cyclonedx",
+      "packages": 134,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "P-S3-pred",
+      "tool": "trivy",
+      "unique_identities": 134,
+      "with_purl": 134,
+      "with_version": 134
+    },
+    {
+      "config": "netblocked",
+      "dropped": {
+        "cryptographic-asset": 127,
+        "data": 2,
+        "file": 4876
+      },
+      "duplicates": 6,
+      "ecos": {
+        "deb": 151,
+        "golang": 10,
+        "maven": 104,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 266,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-P",
+      "tool": "cdxgen",
+      "unique_identities": 260,
+      "with_purl": 265,
+      "with_version": 266
+    },
+    {
+      "config": "netblocked",
+      "dropped": {
+        "Relationship": 81,
+        "document-subject": 1,
+        "software_File": 4876
+      },
+      "duplicates": 6,
+      "ecos": {
+        "deb": 151,
+        "generic": 2,
+        "golang": 10,
+        "maven": 104,
+        "unknown": 128
+      },
+      "format": "spdx",
+      "packages": 395,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "J-P",
+      "tool": "cdxgen",
+      "unique_identities": 389,
+      "with_purl": 267,
+      "with_version": 395
+    },
+    {
+      "config": "netblocked",
+      "dropped": {
+        "file": 518
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 39,
+        "maven": 102
+      },
+      "format": "cyclonedx",
+      "packages": 141,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-S3-distroless",
+      "tool": "cdxgen",
+      "unique_identities": 141,
+      "with_purl": 141,
+      "with_version": 141
+    },
+    {
+      "config": "netblocked",
+      "dropped": {
+        "Relationship": 1,
+        "document-subject": 1,
+        "software_File": 518
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 39,
+        "maven": 102
+      },
+      "format": "spdx",
+      "packages": 141,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "J-S3-distroless",
+      "tool": "cdxgen",
+      "unique_identities": 141,
+      "with_purl": 141,
+      "with_version": 141
+    },
+    {
+      "config": "netblocked",
+      "dropped": {
+        "cryptographic-asset": 127,
+        "data": 2,
+        "file": 4876
+      },
+      "duplicates": 6,
+      "ecos": {
+        "deb": 151,
+        "golang": 10,
+        "maven": 103,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 265,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "J-S3-layered",
+      "tool": "cdxgen",
+      "unique_identities": 259,
+      "with_purl": 264,
+      "with_version": 265
+    },
+    {
+      "config": "netblocked",
+      "dropped": {
+        "Relationship": 81,
+        "document-subject": 1,
+        "software_File": 4876
+      },
+      "duplicates": 6,
+      "ecos": {
+        "deb": 151,
+        "generic": 2,
+        "golang": 10,
+        "maven": 103,
+        "unknown": 128
+      },
+      "format": "spdx",
+      "packages": 394,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "J-S3-layered",
+      "tool": "cdxgen",
+      "unique_identities": 388,
+      "with_purl": 266,
+      "with_version": 394
+    },
+    {
+      "config": "netblocked",
+      "dropped": {
+        "cryptographic-asset": 127,
+        "data": 2,
+        "file": 4876
+      },
+      "duplicates": 6,
+      "ecos": {
+        "deb": 151,
+        "golang": 10,
+        "maven": 104,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 266,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-P",
+      "tool": "cdxgen",
+      "unique_identities": 260,
+      "with_purl": 265,
+      "with_version": 266
+    },
+    {
+      "config": "netblocked",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "maven": 102
+      },
+      "format": "cyclonedx",
+      "packages": 102,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S2",
+      "tool": "cdxgen",
+      "unique_identities": 102,
+      "with_purl": 102,
+      "with_version": 102
+    },
+    {
+      "config": "netblocked",
+      "dropped": {
+        "cryptographic-asset": 121,
+        "file": 410
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 54,
+        "maven": 102
+      },
+      "format": "cyclonedx",
+      "packages": 156,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S3-alpine",
+      "tool": "cdxgen",
+      "unique_identities": 156,
+      "with_purl": 156,
+      "with_version": 156
+    },
+    {
+      "config": "netblocked",
+      "dropped": {
+        "file": 518
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 39,
+        "maven": 102
+      },
+      "format": "cyclonedx",
+      "packages": 141,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S3-distroless",
+      "tool": "cdxgen",
+      "unique_identities": 141,
+      "with_purl": 141,
+      "with_version": 141
+    },
+    {
+      "config": "netblocked",
+      "dropped": {
+        "cryptographic-asset": 127,
+        "data": 2,
+        "file": 4876
+      },
+      "duplicates": 6,
+      "ecos": {
+        "deb": 151,
+        "golang": 10,
+        "maven": 103,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 265,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S3-layered",
+      "tool": "cdxgen",
+      "unique_identities": 259,
+      "with_purl": 264,
+      "with_version": 265
+    },
+    {
+      "config": "netblocked",
+      "dropped": {
+        "cryptographic-asset": 127,
+        "data": 2,
+        "file": 4876
+      },
+      "duplicates": 6,
+      "ecos": {
+        "deb": 151,
+        "golang": 10,
+        "maven": 102,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 264,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "J-S3-ubuntu",
+      "tool": "cdxgen",
+      "unique_identities": 258,
+      "with_purl": 263,
+      "with_version": 264
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+customer_id,type,amount,balance_after,timestamp
+1,LOAN_CREDIT,100.00,1100.00,2025-10-31 19:18:47

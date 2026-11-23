@@ -1,0 +1,13 @@
+mechanism,tool,gt_components,found_strict,recall_strict,targets
+lang-pm,syft,443,86,0.19413092550790068,5
+nested-jar,syft,102,81,0.7941176470588235,1
+bundled-js,syft,6,0,0.0,1
+dockerfile-install,syft,4,0,0.0,2
+lang-pm,trivy,443,192,0.43340857787810383,5
+nested-jar,trivy,102,100,0.9803921568627451,1
+bundled-js,trivy,6,0,0.0,1
+dockerfile-install,trivy,4,0,0.0,2
+lang-pm,cdxgen,443,385,0.8690744920993227,5
+nested-jar,cdxgen,102,100,0.9803921568627451,1
+bundled-js,cdxgen,6,0,0.0,1
+dockerfile-install,cdxgen,4,0,0.0,2

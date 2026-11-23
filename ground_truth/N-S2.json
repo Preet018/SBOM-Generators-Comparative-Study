@@ -1,0 +1,176 @@
+{
+  "components": [
+    {
+      "alt_names": [],
+      "eco": "npm",
+      "evidence": "sourcemap (51 source files)",
+      "hashes": {},
+      "instances": 1,
+      "key": "npm::axios",
+      "license": "MIT",
+      "mechanism": "bundled-js",
+      "mechanisms": [
+        "bundled-js"
+      ],
+      "name": "axios",
+      "namespace": null,
+      "paths": [
+        "node_modules/axios"
+      ],
+      "purl": "pkg:npm/axios@1.19.0",
+      "scope": "runtime",
+      "tier": "primary",
+      "version": "1.19.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "npm",
+      "evidence": "sourcemap (81 source files)",
+      "hashes": {},
+      "instances": 1,
+      "key": "npm::lucide-react",
+      "license": "ISC",
+      "mechanism": "bundled-js",
+      "mechanisms": [
+        "bundled-js"
+      ],
+      "name": "lucide-react",
+      "namespace": null,
+      "paths": [
+        "node_modules/lucide-react"
+      ],
+      "purl": "pkg:npm/lucide-react@1.34.0",
+      "scope": "runtime",
+      "tier": "primary",
+      "version": "1.34.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "npm",
+      "evidence": "sourcemap (4 source files)",
+      "hashes": {},
+      "instances": 1,
+      "key": "npm::react",
+      "license": "MIT",
+      "mechanism": "bundled-js",
+      "mechanisms": [
+        "bundled-js"
+      ],
+      "name": "react",
+      "namespace": null,
+      "paths": [
+        "node_modules/react"
+      ],
+      "purl": "pkg:npm/react@19.2.8",
+      "scope": "runtime",
+      "tier": "primary",
+      "version": "19.2.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "npm",
+      "evidence": "sourcemap (4 source files)",
+      "hashes": {},
+      "instances": 1,
+      "key": "npm::react-dom",
+      "license": "MIT",
+      "mechanism": "bundled-js",
+      "mechanisms": [
+        "bundled-js"
+      ],
+      "name": "react-dom",
+      "namespace": null,
+      "paths": [
+        "node_modules/react-dom"
+      ],
+      "purl": "pkg:npm/react-dom@19.2.8",
+      "scope": "runtime",
+      "tier": "primary",
+      "version": "19.2.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "npm",
+      "evidence": "sourcemap (1 source files)",
+      "hashes": {},
+      "instances": 1,
+      "key": "npm::react-router",
+      "license": "MIT",
+      "mechanism": "bundled-js",
+      "mechanisms": [
+        "bundled-js"
+      ],
+      "name": "react-router",
+      "namespace": null,
+      "paths": [
+        "node_modules/react-router"
+      ],
+      "purl": "pkg:npm/react-router@7.18.2",
+      "scope": "runtime",
+      "tier": "primary",
+      "version": "7.18.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "npm",
+      "evidence": "sourcemap (2 source files)",
+      "hashes": {},
+      "instances": 1,
+      "key": "npm::scheduler",
+      "license": "MIT",
+      "mechanism": "bundled-js",
+      "mechanisms": [
+        "bundled-js"
+      ],
+      "name": "scheduler",
+      "namespace": null,
+      "paths": [
+        "node_modules/scheduler"
+      ],
+      "purl": "pkg:npm/scheduler@0.27.0",
+      "scope": "runtime",
+      "tier": "primary",
+      "version": "0.27.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "npm",
+      "evidence": "package.json",
+      "hashes": {},
+      "instances": 1,
+      "key": "npm::bakery-inventory-frontend",
+      "license": null,
+      "mechanism": "self",
+      "mechanisms": [
+        "self"
+      ],
+      "name": "bakery-inventory-frontend",
+      "namespace": null,
+      "paths": [],
+      "purl": "pkg:npm/bakery-inventory-frontend@0.0.0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.0.0"
+    }
+  ],
+  "generated_utc": "2026-11-23T06:17:02+00:00",
+  "kind": "dir",
+  "notes": [],
+  "stage": "S2",
+  "stats": {
+    "by_eco": {
+      "npm": 7
+    },
+    "by_mechanism": {
+      "bundled-js": 6,
+      "self": 1
+    },
+    "by_tier": {
+      "primary": 6,
+      "secondary": 1
+    },
+    "total": 7
+  },
+  "subject": "bakery-frontend",
+  "target": "N-S2"
+}

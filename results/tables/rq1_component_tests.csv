@@ -1,0 +1,5 @@
+test,n_components,statistic,p,detail,p_holm
+Cochran's Q (component found by tool),3162,515.4780793319416,1.1624045520700595e-112,syft=0.815; trivy=0.843; cdxgen=0.937,
+McNemar exact syft vs trivy,3162,,1.9275817215653917e-18,"only syft=12, only trivy=100",1.9275817215653917e-18
+McNemar exact syft vs cdxgen,3162,,5.5134875024347084e-80,"only syft=46, only cdxgen=433",1.6540462507304126e-79
+McNemar exact trivy vs cdxgen,3162,,8.182911461677546e-63,"only trivy=34, only cdxgen=333",1.6365822923355091e-62

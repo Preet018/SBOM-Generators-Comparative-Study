@@ -1,0 +1,882 @@
+{
+  "checks": [
+    {
+      "check": "deb packages (dpkg-query): GT == oracle (106 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "J-S3-ubuntu"
+    },
+    {
+      "check": "apk packages (apk info -v): GT == oracle (44 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "J-S3-alpine"
+    },
+    {
+      "check": "deb packages (dpkg-query): GT == oracle (106 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "J-S3-layered"
+    },
+    {
+      "check": "deb packages (dpkg-query): GT == oracle (106 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "J-P"
+    },
+    {
+      "check": "apk packages (apk info -v): GT == oracle (72 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "N-S3-nginx"
+    },
+    {
+      "check": "deb packages (dpkg-query): GT == oracle (88 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "N-S3-node"
+    },
+    {
+      "check": "deb packages (dpkg-query): GT == oracle (87 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "P-S3-pred"
+    },
+    {
+      "check": "deb packages (dpkg-query): GT == oracle (87 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "P-S3-drift"
+    },
+    {
+      "check": "deb packages (dpkg-query): GT == oracle (87 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "P-S3-front"
+    },
+    {
+      "check": "deb packages (dpkg-query): GT == oracle (87 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "P-S3-ml"
+    },
+    {
+      "check": "deb packages (dpkg-query): GT == oracle (87 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "P-P"
+    },
+    {
+      "check": "deb packages (dpkg-query): GT == oracle (130 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "M-S3"
+    },
+    {
+      "check": "deb packages (dpkg-query): GT == oracle (88 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "C-S3-debian"
+    },
+    {
+      "check": "apk packages (apk info -v): GT == oracle (16 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "C-S3-alpine"
+    },
+    {
+      "check": "deb packages (dpkg-query): GT == oracle (88 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "C-P"
+    },
+    {
+      "check": "deb packages (dpkg-query): GT == oracle (88 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "O-debian"
+    },
+    {
+      "check": "deb packages (dpkg-query): GT == oracle (92 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "O-ubuntu"
+    },
+    {
+      "check": "apk packages (apk info -v): GT == oracle (16 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "O-alpine"
+    },
+    {
+      "check": "rpm packages (rpm -qa): GT == oracle (109 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "O-ubi"
+    },
+    {
+      "check": "pip-installed Python packages (pip list): GT == oracle (31 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "P-S3-pred"
+    },
+    {
+      "check": "pip-installed Python packages (pip list): GT == oracle (29 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "P-S3-drift"
+    },
+    {
+      "check": "pip-installed Python packages (pip list): GT == oracle (39 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "P-S3-front"
+    },
+    {
+      "check": "pip-installed Python packages (pip list): GT == oracle (21 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "P-S3-ml"
+    },
+    {
+      "check": "pip-installed Python packages (pip list): GT == oracle (31 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "P-P"
+    },
+    {
+      "check": "app node_modules (npm query '*'): GT == oracle (59 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "N-S3-node"
+    },
+    {
+      "check": "npm's own dependency tree is inside GT runtime-bundled",
+      "detail": "missing=[]",
+      "ok": true,
+      "target": "N-S3-node"
+    },
+    {
+      "check": "Go deps of usr/local/bin/yq == go version -m (21 deps, go1.22.5)",
+      "detail": "ours-only=[] official-only=[] go=go1.22.5/go1.22.5",
+      "ok": true,
+      "target": "P-P"
+    },
+    {
+      "check": "Go deps of usr/local/bin/gosu == go version -m (2 deps, go1.24.6)",
+      "detail": "ours-only=[] official-only=[] go=go1.24.6/go1.24.6",
+      "ok": true,
+      "target": "M-S3"
+    },
+    {
+      "check": "Go deps of usr/bin/mongodump == go version -m (27 deps, go1.25.9)",
+      "detail": "ours-only=[] official-only=[] go=go1.25.9/go1.25.9",
+      "ok": true,
+      "target": "M-S3"
+    },
+    {
+      "check": "Go deps of usr/bin/pebble == go version -m (9 deps, go1.27.3)",
+      "detail": "ours-only=[] official-only=[] go=go1.27.3/go1.27.3",
+      "ok": true,
+      "target": "J-S3-ubuntu"
+    },
+    {
+      "check": "ELF DT_NEEDED parser == readelf ['libc.so.6']",
+      "detail": "ours=['libc.so.6']",
+      "ok": true,
+      "target": "C-S3-debian"
+    },
+    {
+      "check": "pebble not owned by any dpkg package (dpkg -S) and GT says manual-download",
+      "detail": "dpkg-query: no path found matching pattern /usr/bin/pebble\n-rwxr-xr-x 1 root root 10584224 Oct 21 13:46 /usr/bin/pebble",
+      "ok": true,
+      "target": "J-S3-ubuntu"
+    },
+    {
+      "check": "nested JARs == Maven runtime - 13 documented exclusions + jarmode-tools",
+      "detail": "missing=[] extra=[]",
+      "ok": true,
+      "target": "J-S2"
+    },
+    {
+      "check": "nested JARs == Maven runtime - 13 documented exclusions + jarmode-tools",
+      "detail": "missing=[] extra=[]",
+      "ok": true,
+      "target": "J-S3-ubuntu"
+    },
+    {
+      "check": "nested JARs == Maven runtime - 13 documented exclusions + jarmode-tools",
+      "detail": "missing=[] extra=[]",
+      "ok": true,
+      "target": "J-S3-alpine"
+    },
+    {
+      "check": "nested JARs == Maven runtime - 13 documented exclusions + jarmode-tools",
+      "detail": "missing=[] extra=[]",
+      "ok": true,
+      "target": "J-S3-distroless"
+    },
+    {
+      "check": "nested JARs == Maven runtime - 13 documented exclusions + jarmode-tools",
+      "detail": "missing=[] extra=[]",
+      "ok": true,
+      "target": "J-P"
+    },
+    {
+      "check": "exploded lib/ == same set as the fat JAR",
+      "detail": "missing=[] extra=[]",
+      "ok": true,
+      "target": "J-S3-layered"
+    },
+    {
+      "check": "every application JAR has a groupId",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S2"
+    },
+    {
+      "check": "every application JAR has a groupId",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S3-ubuntu"
+    },
+    {
+      "check": "every application JAR has a groupId",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S3-layered"
+    },
+    {
+      "check": "all 4 planted components in GT as primary",
+      "detail": "[('gson', '2.8.9', 'shaded'), ('commons-lang3', '3.12.0', 'shaded-relocated'), ('log4j-core', '2.14.1', 'manual-copy'), ('shaded-demo', '1.0.0', 'manual-copy')]",
+      "ok": true,
+      "target": "J-P"
+    },
+    {
+      "check": "all 3 planted components in GT as primary",
+      "detail": "[('jq', '1.7.1', 'manual-download'), ('github.com/mikefarah/yq/v4', 'v4.44.3', 'manual-download'), ('decorator', '5.1.1', 'vendored-source')]",
+      "ok": true,
+      "target": "P-P"
+    },
+    {
+      "check": "all 2 planted components in GT as primary",
+      "detail": "[('zlib', '1.3.1', 'static-link'), ('cjson', '1.7.18', 'vendored-source')]",
+      "ok": true,
+      "target": "C-P"
+    },
+    {
+      "check": "source GT (requirements closure + Dockerfile installs) installed by the 4 images",
+      "detail": "not installed anywhere=[]",
+      "ok": true,
+      "target": "P-S1"
+    },
+    {
+      "check": "6 bundled packages, none of them dev-only",
+      "detail": "[]",
+      "ok": true,
+      "target": "N-S2"
+    },
+    {
+      "check": "6 bundled packages, none of them dev-only",
+      "detail": "[]",
+      "ok": true,
+      "target": "N-S3-nginx"
+    },
+    {
+      "check": "embedded wheel SBOMs: 101 cargo crates primary, 1 .so identified by auditwheel",
+      "detail": "(101, [('libgomp', ['pkg:rpm/almalinux/libgomp@8.5.0-28.el8_10.alma.1'])])",
+      "ok": true,
+      "target": "P-S3-pred"
+    },
+    {
+      "check": "embedded wheel SBOMs: 17 cargo crates primary, 1 .so identified by auditwheel",
+      "detail": "(17, [('libXau', ['pkg:rpm/almalinux/libXau@1.0.9-3.el8'])])",
+      "ok": true,
+      "target": "P-S3-front"
+    },
+    {
+      "check": "embedded wheel SBOMs: 101 cargo crates primary, 1 .so identified by auditwheel",
+      "detail": "(101, [('libgomp', ['pkg:rpm/almalinux/libgomp@8.5.0-28.el8_10.alma.1'])])",
+      "ok": true,
+      "target": "P-S3-distroless"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S1"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S2"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S3-ubuntu"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S3-alpine"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S3-distroless"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S3-layered"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-P"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "N-S1"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "N-S1-nolock"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "N-S2"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "N-S3-nginx"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "N-S3-node"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S1"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S1-pinned"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S3-pred"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S3-drift"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S3-front"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S3-ml"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S3-distroless"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-P"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "M-S3"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "C-S1"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "C-S2"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "C-S3-debian"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "C-S3-alpine"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "C-S3-scratch"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "C-P"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "O-debian"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "O-ubuntu"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "O-alpine"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "O-ubi"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "O-distroless"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S1"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S1"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S2"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S2"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S3-ubuntu"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S3-ubuntu"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S3-alpine"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S3-alpine"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S3-distroless"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S3-distroless"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S3-layered"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-S3-layered"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-P"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "J-P"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "N-S1"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "N-S1"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "N-S1-nolock"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "N-S1-nolock"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "N-S2"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "N-S2"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "N-S3-nginx"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "N-S3-nginx"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "N-S3-node"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "N-S3-node"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S1"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S1"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S1-pinned"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S1-pinned"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S3-pred"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S3-pred"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S3-drift"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S3-drift"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S3-front"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S3-front"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S3-ml"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S3-ml"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S3-distroless"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-S3-distroless"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-P"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "P-P"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "M-S3"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "M-S3"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "C-S1"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "C-S1"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "C-S2"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "C-S2"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "C-S3-debian"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "C-S3-debian"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "C-S3-alpine"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "C-S3-alpine"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "C-S3-scratch"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "C-S3-scratch"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "C-P"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "C-P"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "O-debian"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "O-debian"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "O-ubuntu"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "O-ubuntu"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "O-alpine"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "O-alpine"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "O-ubi"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "O-ubi"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "O-distroless"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "O-distroless"
+    }
+  ],
+  "failed": 0,
+  "total": 146
+}

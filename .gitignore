@@ -1,0 +1,24 @@
+# Large or regenerable build outputs (image tars, exported rootfs, staging copies, logs)
+work/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# LaTeX build files
+paper/**/*.aux
+paper/**/*.log
+paper/**/*.out
+paper/**/*.bbl
+paper/**/*.blg
+paper/**/*.synctex.gz
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Per-component match details: large (~20 MB) and regenerated exactly by scripts/score.py
+results/matches/

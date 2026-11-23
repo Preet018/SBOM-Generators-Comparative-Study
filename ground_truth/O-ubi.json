@@ -1,0 +1,3024 @@
+{
+  "components": [
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::alternatives",
+      "license": "GPL-2.0-only",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "alternatives",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/alternatives@1.24-2.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.24-2.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::audit-libs",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "audit-libs",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/audit-libs@3.1.5-9.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.1.5-9.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::basesystem",
+      "license": "Public Domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "basesystem",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/basesystem@11-13.el9?arch=noarch",
+      "scope": null,
+      "tier": "primary",
+      "version": "11-13.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::bash",
+      "license": "GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "bash",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/bash@5.1.8-9.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "5.1.8-9.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::bzip2-libs",
+      "license": "BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "bzip2-libs",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/bzip2-libs@1.0.8-11.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.0.8-11.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::ca-certificates",
+      "license": "MIT AND GPL-2.0-or-later",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "ca-certificates",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/ca-certificates@2026.2.92_v9.0.319-90.3.el9_8?arch=noarch",
+      "scope": null,
+      "tier": "primary",
+      "version": "2026.2.92_v9.0.319-90.3.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::coreutils-single",
+      "license": "GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "coreutils-single",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/coreutils-single@8.32-43.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "8.32-43.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::crypto-policies",
+      "license": "LGPL-2.1-or-later",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "crypto-policies",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/crypto-policies@20260714-1.git65b74f7.el9?arch=noarch",
+      "scope": null,
+      "tier": "primary",
+      "version": "20260714-1.git65b74f7.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::curl-minimal",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "curl-minimal",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/curl-minimal@7.76.1-44.el9_9.1?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.76.1-44.el9_9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::cyrus-sasl-lib",
+      "license": "BSD with advertising",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "cyrus-sasl-lib",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/cyrus-sasl-lib@2.1.27-22.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.1.27-22.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::dejavu-sans-fonts",
+      "license": "Bitstream Vera and Public Domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "dejavu-sans-fonts",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/dejavu-sans-fonts@2.37-18.el9?arch=noarch",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.37-18.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::dnf-data",
+      "license": "GPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "dnf-data",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/dnf-data@4.14.0-37.el9?arch=noarch",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.14.0-37.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::file-libs",
+      "license": "BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "file-libs",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/file-libs@5.39-19.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "5.39-19.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::filesystem",
+      "license": "Public Domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "filesystem",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/filesystem@3.16-5.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.16-5.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::findutils",
+      "license": "GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "findutils",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/findutils@1:4.8.0-7.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:4.8.0-7.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::fonts-filesystem",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "fonts-filesystem",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/fonts-filesystem@1:2.0.5-7.el9.1?arch=noarch",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:2.0.5-7.el9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gawk",
+      "license": "GPLv3+ and GPLv2+ and LGPLv2+ and BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gawk",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/gawk@5.1.0-7.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "5.1.0-7.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gdbm-libs",
+      "license": "GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gdbm-libs",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/gdbm-libs@1:1.23-1.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:1.23-1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::glib2",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "glib2",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/glib2@2.68.4-29.el9_9.1?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.68.4-29.el9_9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 2,
+      "key": "rpm::glibc",
+      "license": "LGPL-2.1-or-later AND SunPro AND LGPL-2.1-or-later WITH GCC-exception-2.0 AND BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.1-or-later WITH GNU-compiler-exception AND GPL-2.0-only AND ISC AND LicenseRef-Fedora-Public-Domain AND HPND AND CMU-Mach AND LGPL-2.0-or-later AND Unicode-3.0 AND GFDL-1.1-or-later AND GPL-1.0-or-later AND FSFUL AND MIT AND Inner-Net-2.0 AND X11 AND GPL-2.0-or-later WITH GCC-exception-2.0 AND GFDL-1.3-only AND GFDL-1.1-only AND GPL-3.0-or-later AND GPL-3.0-or-later WITH Autoconf-exception-generic-3.0 AND GPL-3.0-or-later WITH Texinfo-exception",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "glibc",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/glibc@2.34-290.el9_9",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.34-290.el9_9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::glibc-common",
+      "license": "LGPL-2.1-or-later AND SunPro AND LGPL-2.1-or-later WITH GCC-exception-2.0 AND BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.1-or-later WITH GNU-compiler-exception AND GPL-2.0-only AND ISC AND LicenseRef-Fedora-Public-Domain AND HPND AND CMU-Mach AND LGPL-2.0-or-later AND Unicode-3.0 AND GFDL-1.1-or-later AND GPL-1.0-or-later AND FSFUL AND MIT AND Inner-Net-2.0 AND X11 AND GPL-2.0-or-later WITH GCC-exception-2.0 AND GFDL-1.3-only AND GFDL-1.1-only AND GPL-3.0-or-later AND GPL-3.0-or-later WITH Autoconf-exception-generic-3.0 AND GPL-3.0-or-later WITH Texinfo-exception",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "glibc-common",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/glibc-common@2.34-290.el9_9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.34-290.el9_9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::glibc-minimal-langpack",
+      "license": "LGPL-2.1-or-later AND SunPro AND LGPL-2.1-or-later WITH GCC-exception-2.0 AND BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.1-or-later WITH GNU-compiler-exception AND GPL-2.0-only AND ISC AND LicenseRef-Fedora-Public-Domain AND HPND AND CMU-Mach AND LGPL-2.0-or-later AND Unicode-3.0 AND GFDL-1.1-or-later AND GPL-1.0-or-later AND FSFUL AND MIT AND Inner-Net-2.0 AND X11 AND GPL-2.0-or-later WITH GCC-exception-2.0 AND GFDL-1.3-only AND GFDL-1.1-only AND GPL-3.0-or-later AND GPL-3.0-or-later WITH Autoconf-exception-generic-3.0 AND GPL-3.0-or-later WITH Texinfo-exception",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "glibc-minimal-langpack",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/glibc-minimal-langpack@2.34-290.el9_9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.34-290.el9_9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gmp",
+      "license": "LGPLv3+ or GPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gmp",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/gmp@1:6.2.0-13.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:6.2.0-13.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gnupg2",
+      "license": "GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gnupg2",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/gnupg2@2.3.3-5.el9_7?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.3.3-5.el9_7"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gnutls",
+      "license": "GPLv3+ and LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gnutls",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/gnutls@3.8.10-9.el9_8?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.8.10-9.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gobject-introspection",
+      "license": "GPLv2+ and LGPLv2+ and MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gobject-introspection",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/gobject-introspection@1.68.0-11.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.68.0-11.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gpgme",
+      "license": "LGPLv2+ and GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gpgme",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/gpgme@1.15.1-6.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.15.1-6.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::grep",
+      "license": "GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "grep",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/grep@3.6-5.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.6-5.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::json-c",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "json-c",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/json-c@0.14-11.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.14-11.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::json-glib",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "json-glib",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/json-glib@1.6.6-1.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.6.6-1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::keyutils-libs",
+      "license": "GPLv2+ and LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "keyutils-libs",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/keyutils-libs@1.6.3-1.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.6.3-1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::krb5-libs",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "krb5-libs",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/krb5-libs@1.21.1-10.el9_9.2?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.21.1-10.el9_9.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::langpacks-core-en",
+      "license": "GPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "langpacks-core-en",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/langpacks-core-en@3.0-16.el9?arch=noarch",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.0-16.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::langpacks-core-font-en",
+      "license": "GPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "langpacks-core-font-en",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/langpacks-core-font-en@3.0-16.el9?arch=noarch",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.0-16.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::langpacks-en",
+      "license": "GPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "langpacks-en",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/langpacks-en@3.0-16.el9?arch=noarch",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.0-16.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libacl",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libacl",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libacl@2.4.0-2.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.4.0-2.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libarchive",
+      "license": "BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libarchive",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libarchive@3.5.3-11.el9_8?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.5.3-11.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libassuan",
+      "license": "LGPLv2+ and GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libassuan",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libassuan@2.5.5-3.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.5.5-3.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libattr",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libattr",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libattr@2.6.0-2.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.6.0-2.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libblkid",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libblkid",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libblkid@2.37.4-28.el9_9.1?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.37.4-28.el9_9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libcap",
+      "license": "BSD or GPLv2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libcap",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libcap@2.48-10.el9_8.1?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.48-10.el9_8.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libcap-ng",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libcap-ng",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libcap-ng@0.8.2-7.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.8.2-7.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libcom_err",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libcom_err",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libcom_err@1.46.5-8.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.46.5-8.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libcurl-minimal",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libcurl-minimal",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libcurl-minimal@7.76.1-44.el9_9.1?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "7.76.1-44.el9_9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libdnf",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libdnf",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libdnf@0.69.0-20.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.69.0-20.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libevent",
+      "license": "BSD and ISC",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libevent",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libevent@2.1.13-1.el9_8?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.1.13-1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libffi",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libffi",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libffi@3.4.2-8.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.4.2-8.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libgcc",
+      "license": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libgcc",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libgcc@11.5.0-17.el9_9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "11.5.0-17.el9_9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libgcrypt",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libgcrypt",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libgcrypt@1.10.0-13.el9_8?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.10.0-13.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libgpg-error",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libgpg-error",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libgpg-error@1.42-5.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.42-5.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libidn2",
+      "license": "(GPLv2+ or LGPLv3+) and GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libidn2",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libidn2@2.3.0-7.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.3.0-7.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libksba",
+      "license": "(LGPLv3+ or GPLv2+) and GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libksba",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libksba@1.5.1-7.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.5.1-7.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libmodulemd",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libmodulemd",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libmodulemd@2.13.0-2.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.13.0-2.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libmount",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libmount",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libmount@2.37.4-28.el9_9.1?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.37.4-28.el9_9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libnghttp2",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libnghttp2",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libnghttp2@1.43.0-8.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.43.0-8.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libpeas",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libpeas",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libpeas@1.30.0-4.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.30.0-4.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::librepo",
+      "license": "LGPL-2.1-or-later",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "librepo",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/librepo@1.19.0-1.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.19.0-1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libreport-filesystem",
+      "license": "GPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libreport-filesystem",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libreport-filesystem@2.15.2-6.el9?arch=noarch",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.15.2-6.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::librhsm",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "librhsm",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/librhsm@0.0.3-9.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.0.3-9.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libselinux",
+      "license": "Public Domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libselinux",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libselinux@3.6-4.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.6-4.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libsemanage",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsemanage",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libsemanage@3.6-5.el9_6?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.6-5.el9_6"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libsepol",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsepol",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libsepol@3.6-3.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.6-3.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libsigsegv",
+      "license": "GPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsigsegv",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libsigsegv@2.13-4.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.13-4.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libsmartcols",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsmartcols",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libsmartcols@2.37.4-28.el9_9.1?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.37.4-28.el9_9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libsolv",
+      "license": "BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsolv",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libsolv@0.7.24-6.el9_8?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.7.24-6.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libstdc++",
+      "license": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libstdc++",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libstdc%2B%2B@11.5.0-17.el9_9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "11.5.0-17.el9_9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libtasn1",
+      "license": "GPLv3+ and LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libtasn1",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libtasn1@4.16.0-10.el9_8?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.16.0-10.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libtool-ltdl",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libtool-ltdl",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libtool-ltdl@2.4.6-46.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.4.6-46.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libunistring",
+      "license": "GPLv2+ or LGPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libunistring",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libunistring@0.9.10-15.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.9.10-15.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libusbx",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libusbx",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libusbx@1.0.30-1.el9_8?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.0.30-1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libuuid",
+      "license": "BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libuuid",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libuuid@2.37.4-28.el9_9.1?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.37.4-28.el9_9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libverto",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libverto",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libverto@0.3.2-3.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.3.2-3.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libxcrypt",
+      "license": "LGPLv2+ and BSD and Public Domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libxcrypt",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libxcrypt@4.4.18-3.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.4.18-3.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libxml2",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libxml2",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libxml2@2.9.13-18.el9_9.1?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.9.13-18.el9_9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libyaml",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libyaml",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libyaml@0.2.5-7.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.2.5-7.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libzstd",
+      "license": "BSD and GPLv2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libzstd",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/libzstd@1.5.5-1.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.5.5-1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::lua-libs",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "lua-libs",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/lua-libs@5.4.4-4.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "5.4.4-4.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::lz4-libs",
+      "license": "GPLv2+ and BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "lz4-libs",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/lz4-libs@1.9.3-5.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.9.3-5.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::microdnf",
+      "license": "GPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "microdnf",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/microdnf@3.9.1-3.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.9.1-3.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::mpfr",
+      "license": "LGPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "mpfr",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/mpfr@4.1.0-10.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0-10.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::ncurses-base",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "ncurses-base",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/ncurses-base@6.2-12.20210508.el9?arch=noarch",
+      "scope": null,
+      "tier": "primary",
+      "version": "6.2-12.20210508.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::ncurses-libs",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "ncurses-libs",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/ncurses-libs@6.2-12.20210508.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "6.2-12.20210508.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::nettle",
+      "license": "LGPLv3+ or GPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "nettle",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/nettle@3.10.1-1.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.10.1-1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::npth",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "npth",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/npth@1.6-8.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.6-8.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::openldap",
+      "license": "OLDAP-2.8",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "openldap",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/openldap@2.6.13-1.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.6.13-1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 2,
+      "key": "rpm::openssl-fips-provider",
+      "license": "ASL 2.0",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "openssl-fips-provider",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/openssl-fips-provider@3.0.7-11.el9_8",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.0.7-11.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::openssl-fips-provider-so",
+      "license": "ASL 2.0",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "openssl-fips-provider-so",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/openssl-fips-provider-so@3.0.7-11.el9_8?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.0.7-11.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::openssl-libs",
+      "license": "Apache-2.0",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "openssl-libs",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/openssl-libs@1:3.5.9-1.el9_9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1:3.5.9-1.el9_9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::p11-kit",
+      "license": "BSD-3-Clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "p11-kit",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/p11-kit@0.26.4-1.el9_8?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.26.4-1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::p11-kit-trust",
+      "license": "BSD-3-Clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "p11-kit-trust",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/p11-kit-trust@0.26.4-1.el9_8?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "0.26.4-1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::pcre",
+      "license": "BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "pcre",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/pcre@8.44-4.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "8.44-4.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 2,
+      "key": "rpm::pcre2",
+      "license": "BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "pcre2",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/pcre2@10.40-7.el9_8",
+      "scope": null,
+      "tier": "primary",
+      "version": "10.40-7.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::pcre2-syntax",
+      "license": "BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "pcre2-syntax",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/pcre2-syntax@10.40-7.el9_8?arch=noarch",
+      "scope": null,
+      "tier": "primary",
+      "version": "10.40-7.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::popt",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "popt",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/popt@1.18-8.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.18-8.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::readline",
+      "license": "GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "readline",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/readline@8.1-4.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "8.1-4.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::redhat-release",
+      "license": "GPLv2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "redhat-release",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/redhat-release@9.9-1.0.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "9.9-1.0.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::rootfiles",
+      "license": "Public Domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "rootfiles",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/rootfiles@8.1-35.el9?arch=noarch",
+      "scope": null,
+      "tier": "primary",
+      "version": "8.1-35.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::rpm",
+      "license": "GPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "rpm",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/rpm@4.16.1.3-43.el9_9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.16.1.3-43.el9_9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::rpm-libs",
+      "license": "GPLv2+ and LGPLv2+ with exceptions",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "rpm-libs",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/rpm-libs@4.16.1.3-43.el9_9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.16.1.3-43.el9_9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::sed",
+      "license": "GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "sed",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/sed@4.8-10.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "4.8-10.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::setup",
+      "license": "Public Domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "setup",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/setup@2.13.7-10.el9?arch=noarch",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.13.7-10.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::shadow-utils",
+      "license": "BSD and GPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "shadow-utils",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/shadow-utils@2:4.9-17.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2:4.9-17.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::sqlite-libs",
+      "license": "Public Domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "sqlite-libs",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/sqlite-libs@3.34.1-11.el9_8?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.34.1-11.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::systemd-libs",
+      "license": "LGPLv2+ and MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "systemd-libs",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/systemd-libs@252-79.el9_9.1?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "252-79.el9_9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::tzdata",
+      "license": "Public Domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "tzdata",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/tzdata@2026f-1.el9_9?arch=noarch",
+      "scope": null,
+      "tier": "primary",
+      "version": "2026f-1.el9_9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::xz-libs",
+      "license": "Public Domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "xz-libs",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/xz-libs@5.2.5-8.el9_9.1?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "5.2.5-8.el9_9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::zlib",
+      "license": "zlib and Boost",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "zlib",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/zlib@1.2.11-40.el9?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.2.11-40.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::acl",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "acl",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/acl@2.4.0-2.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.4.0-2.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::attr",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "attr",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/attr@2.6.0-2.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.6.0-2.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::audit",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "audit",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/audit@3.1.5-9.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.1.5-9.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::bzip2",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "bzip2",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/bzip2@1.0.8-11.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.0.8-11.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::chkconfig",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "chkconfig",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/chkconfig@1.24-2.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.24-2.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::coreutils",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "coreutils",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/coreutils@8.32-43.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "8.32-43.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::curl",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "curl",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/curl@7.76.1-44.el9_9.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "7.76.1-44.el9_9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::cyrus-sasl",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "cyrus-sasl",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/cyrus-sasl@2.1.27-22.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.1.27-22.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::dejavu-fonts",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "dejavu-fonts",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/dejavu-fonts@2.37-18.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.37-18.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::dnf",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "dnf",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/dnf@4.14.0-37.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "4.14.0-37.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::e2fsprogs",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "e2fsprogs",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/e2fsprogs@1.46.5-8.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.46.5-8.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::file",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "file",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/file@5.39-19.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "5.39-19.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::fonts-rpm-macros",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "fonts-rpm-macros",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/fonts-rpm-macros@2.0.5-7.el9.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.0.5-7.el9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gcc",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "gcc",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/gcc@11.5.0-17.el9_9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "11.5.0-17.el9_9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gdbm",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "gdbm",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/gdbm@1.23-1.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.23-1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gpg-pubkey",
+      "license": "pubkey",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gpg-pubkey",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/gpg-pubkey@5a6340b3-6229229e",
+      "scope": null,
+      "tier": "secondary",
+      "version": "5a6340b3-6229229e"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gpg-pubkey",
+      "license": "pubkey",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gpg-pubkey",
+      "namespace": "rhel",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/rhel/gpg-pubkey@fd431d51-4ae0493b",
+      "scope": null,
+      "tier": "secondary",
+      "version": "fd431d51-4ae0493b"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::keyutils",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "keyutils",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/keyutils@1.6.3-1.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.6.3-1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::krb5",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "krb5",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/krb5@1.21.1-10.el9_9.2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.21.1-10.el9_9.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::langpacks",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "langpacks",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/langpacks@3.0-16.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.0-16.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libreport",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libreport",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/libreport@2.15.2-6.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.15.2-6.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libtool",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libtool",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/libtool@2.4.6-46.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.4.6-46.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::lua",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "lua",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/lua@5.4.4-4.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "5.4.4-4.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::lz4",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "lz4",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/lz4@1.9.3-5.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.9.3-5.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::ncurses",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "ncurses",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/ncurses@6.2-12.20210508.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "6.2-12.20210508.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::nghttp2",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "nghttp2",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/nghttp2@1.43.0-8.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.43.0-8.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::openssl",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "openssl",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/openssl@3.5.9-1.el9_9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.5.9-1.el9_9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::sqlite",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "sqlite",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/sqlite@3.34.1-11.el9_8",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.34.1-11.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::systemd",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "systemd",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/systemd@252-79.el9_9.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "252-79.el9_9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::util-linux",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "util-linux",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/util-linux@2.37.4-28.el9_9.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.37.4-28.el9_9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::xz",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "xz",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/xz@5.2.5-8.el9_9.1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "5.2.5-8.el9_9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::zstd",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "zstd",
+      "namespace": "rhel",
+      "paths": [],
+      "purl": "pkg:rpm/rhel/zstd@1.5.5-1.el9",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.5.5-1.el9"
+    }
+  ],
+  "generated_utc": "2026-11-23T06:17:21+00:00",
+  "kind": "image",
+  "notes": [
+    "os-release: ID=rhel VERSION_ID=9.9"
+  ],
+  "stage": "S3",
+  "stats": {
+    "by_eco": {
+      "rpm": 139
+    },
+    "by_mechanism": {
+      "os-pm": 109,
+      "source-package": 30
+    },
+    "by_tier": {
+      "primary": 107,
+      "secondary": 32
+    },
+    "total": 139
+  },
+  "subject": "os-baseline",
+  "target": "O-ubi"
+}

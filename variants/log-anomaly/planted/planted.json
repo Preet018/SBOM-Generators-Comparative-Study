@@ -1,0 +1,9 @@
+{
+  "target": "P-P",
+  "note": "Components planted on top of P-S3-pred (the project's own prediction-service image). Never executed.",
+  "components": [
+    {"purl": "pkg:github/jqlang/jq@1.7.1", "alt_names": ["jq"], "path": "/usr/local/bin/jq", "mechanism": "manual-download", "note": "Statically linked C binary downloaded from GitHub releases."},
+    {"purl": "pkg:golang/github.com/mikefarah/yq/v4@v4.44.3", "alt_names": ["yq"], "path": "/usr/local/bin/yq", "mechanism": "manual-download", "note": "Go binary downloaded from GitHub releases. Its embedded Go modules are added to the ground truth from `go version -m` on Day 2."},
+    {"purl": "pkg:pypi/decorator@5.1.1", "path": "/app/vendor/decorator.py", "mechanism": "vendored-source", "note": "Single-file module copied in without .dist-info metadata (decorator, not six: pip already vendors six 1.16.0)."}
+  ]
+}

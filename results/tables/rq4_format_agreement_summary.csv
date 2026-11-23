@@ -1,0 +1,4 @@
+tool,pairs,identical_ids,mean_jaccard,targets_with_extra_purlless,spec
+syft,32,1.0,1.0,0,SPDX-2.3
+trivy,32,1.0,1.0,0,SPDX-2.3
+cdxgen,29,0.4827586206896552,0.9925598025156859,19,SPDX-3.0.1

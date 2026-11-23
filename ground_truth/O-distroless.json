@@ -1,0 +1,220 @@
+{
+  "components": [
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::base-files",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "base-files",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/base-files@12.4%2Bdeb12u15?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "12.4+deb12u15"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::ca-certificates",
+      "license": "GPL-2+ AND MPL-2.0",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "ca-certificates",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/ca-certificates@20250419~deb12u1?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "20250419~deb12u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libc6",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libc6",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u14?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.36-9+deb12u14"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libssl3",
+      "license": "Apache-2.0 AND Artistic or GPL-1+ AND Artistic AND GPL-1+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libssl3",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/libssl3@3.0.20-1~deb12u2?arch=amd64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.0.20-1~deb12u2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::media-types",
+      "license": "ad-hoc",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "media-types",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/media-types@10.0.0?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "10.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::netbase",
+      "license": "GPL-2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "netbase",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/netbase@6.4?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "6.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::tzdata",
+      "license": "public-domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "tzdata",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/tzdata@2026b-0%2Bdeb12u1?arch=all",
+      "scope": null,
+      "tier": "primary",
+      "version": "2026b-0+deb12u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::glibc",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "glibc",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/glibc@2.36-9%2Bdeb12u14",
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.36-9+deb12u14"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::openssl",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "openssl",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/openssl@3.0.20-1~deb12u2",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.0.20-1~deb12u2"
+    }
+  ],
+  "generated_utc": "2026-11-23T06:17:21+00:00",
+  "kind": "image",
+  "notes": [
+    "os-release: ID=debian VERSION_ID=12"
+  ],
+  "stage": "S3",
+  "stats": {
+    "by_eco": {
+      "deb": 9
+    },
+    "by_mechanism": {
+      "os-pm": 7,
+      "source-package": 2
+    },
+    "by_tier": {
+      "primary": 7,
+      "secondary": 2
+    },
+    "total": 9
+  },
+  "subject": "os-baseline",
+  "target": "O-distroless"
+}

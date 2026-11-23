@@ -1,0 +1,51 @@
+# syntax=docker/dockerfile:1
+# Study-made variants of the Log Anomaly prediction service.
+# The project's own 5 Dockerfiles are built UNCHANGED from corpus/ (see targets.yaml).
+# Build context: corpus/log-anomaly-detection (same context the project's docker-compose uses for prediction-service)
+
+# Global ARG (must come before the first FROM to be usable in a later FROM line).
+ARG PRED_IMAGE=p16/p-s3-pred:latest
+
+# ---------- S3: distroless (multi-stage; packages installed with pip --target) ----------
+FROM python:3.11-slim AS distroless-build
+WORKDIR /build
+COPY prediction_service/requirements.txt .
+RUN pip install --no-cache-dir --target /deps -r requirements.txt pymongo
+
+FROM gcr.io/distroless/python3-debian12 AS s3-distroless
+WORKDIR /app
+COPY --from=distroless-build /deps /app/deps
+COPY prediction_service/app.py prediction_service/model_loader.py prediction_service/model_class.py \
+     prediction_service/preprocess.py prediction_service/feature_engineering.py prediction_service/utils.py ./
+COPY models/ ./models/
+ENV PYTHONPATH=/app/deps
+EXPOSE 8000
+CMD ["app.py"]
+
+# ---------- S3: Alpine (musl) version of the project's own prediction-service Dockerfile ----------
+FROM python:3.11-alpine AS s3-alpine
+ENV PYTHONUNBUFFERED=1
+WORKDIR /app
+COPY prediction_service/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt && \
+    pip install --no-cache-dir pymongo
+COPY prediction_service/app.py prediction_service/model_loader.py prediction_service/model_class.py \
+     prediction_service/preprocess.py prediction_service/feature_engineering.py prediction_service/utils.py ./
+COPY models/ ./models/
+EXPOSE 8000
+CMD ["python", "app.py"]
+
+# ---------- P: the project's prediction-service image plus planted components ----------
+# A vendored single-file module (decorator.py, copied without its package metadata).
+# Not six: pip itself already vendors six 1.16.0 in every python image, which would make a planted
+# six indistinguishable from the pre-existing copy. decorator is present in none of the Python images.
+FROM python:3.11-slim AS vendored
+RUN pip download --no-deps --only-binary=:all: decorator==5.1.1 -d /dl \
+ && python -c "import zipfile,glob; zipfile.ZipFile(glob.glob('/dl/decorator-5.1.1-*.whl')[0]).extract('decorator.py','/out')"
+
+FROM ${PRED_IMAGE} AS planted-image
+# Manually downloaded binaries, installed without any package manager:
+#   jq 1.7.1 (C, statically linked) and yq v4.44.3 (Go, carries Go build info).
+ADD --chmod=755 https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-amd64 /usr/local/bin/jq
+ADD --chmod=755 https://github.com/mikefarah/yq/releases/download/v4.44.3/yq_linux_amd64 /usr/local/bin/yq
+COPY --from=vendored /out/decorator.py /app/vendor/decorator.py

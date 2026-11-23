@@ -1,0 +1,10 @@
+{
+  "target": "J-P",
+  "note": "Components planted on top of J-S3-ubuntu. Never executed; present only as files in the image.",
+  "components": [
+    {"purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1", "path": "/opt/lib/log4j-core-2.14.1.jar", "mechanism": "manual-copy", "note": "Old JAR copied in by hand (Log4Shell-era version, CVE-2021-44228)."},
+    {"purl": "pkg:maven/org.p16.planted/shaded-demo@1.0.0", "path": "/opt/lib/shaded-demo-1.0.0.jar", "mechanism": "manual-copy", "note": "The uber-JAR itself."},
+    {"purl": "pkg:maven/org.apache.commons/commons-lang3@3.12.0", "path": "/opt/lib/shaded-demo-1.0.0.jar", "mechanism": "shaded-relocated", "note": "Classes relocated to org.p16.shaded.lang3 inside the uber-JAR."},
+    {"purl": "pkg:maven/com.google.code.gson/gson@2.8.9", "path": "/opt/lib/shaded-demo-1.0.0.jar", "mechanism": "shaded", "note": "Classes copied into the uber-JAR without relocation."}
+  ]
+}

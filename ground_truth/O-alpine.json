@@ -1,0 +1,458 @@
+{
+  "components": [
+    {
+      "alt_names": [],
+      "eco": "apk",
+      "evidence": "apk-installed",
+      "hashes": {},
+      "instances": 1,
+      "key": "apk::alpine-baselayout",
+      "license": "GPL-2.0-only",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "alpine-baselayout",
+      "namespace": "alpine",
+      "paths": [
+        "lib/apk/db/installed"
+      ],
+      "purl": "pkg:apk/alpine/alpine-baselayout@3.7.0-r0?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.7.0-r0"
+    },
+    {
+      "alt_names": [],
+      "eco": "apk",
+      "evidence": "apk-installed",
+      "hashes": {},
+      "instances": 1,
+      "key": "apk::alpine-baselayout-data",
+      "license": "GPL-2.0-only",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "alpine-baselayout-data",
+      "namespace": "alpine",
+      "paths": [
+        "lib/apk/db/installed"
+      ],
+      "purl": "pkg:apk/alpine/alpine-baselayout-data@3.7.0-r0?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.7.0-r0"
+    },
+    {
+      "alt_names": [],
+      "eco": "apk",
+      "evidence": "apk-installed",
+      "hashes": {},
+      "instances": 1,
+      "key": "apk::alpine-keys",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "alpine-keys",
+      "namespace": "alpine",
+      "paths": [
+        "lib/apk/db/installed"
+      ],
+      "purl": "pkg:apk/alpine/alpine-keys@2.5-r0?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.5-r0"
+    },
+    {
+      "alt_names": [],
+      "eco": "apk",
+      "evidence": "apk-installed",
+      "hashes": {},
+      "instances": 1,
+      "key": "apk::alpine-release",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "alpine-release",
+      "namespace": "alpine",
+      "paths": [
+        "lib/apk/db/installed"
+      ],
+      "purl": "pkg:apk/alpine/alpine-release@3.22.8-r0?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.22.8-r0"
+    },
+    {
+      "alt_names": [],
+      "eco": "apk",
+      "evidence": "apk-installed",
+      "hashes": {},
+      "instances": 1,
+      "key": "apk::apk-tools",
+      "license": "GPL-2.0-only",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "apk-tools",
+      "namespace": "alpine",
+      "paths": [
+        "lib/apk/db/installed"
+      ],
+      "purl": "pkg:apk/alpine/apk-tools@2.14.13-r0?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.14.13-r0"
+    },
+    {
+      "alt_names": [],
+      "eco": "apk",
+      "evidence": "apk-installed",
+      "hashes": {},
+      "instances": 1,
+      "key": "apk::busybox",
+      "license": "GPL-2.0-only",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "busybox",
+      "namespace": "alpine",
+      "paths": [
+        "lib/apk/db/installed"
+      ],
+      "purl": "pkg:apk/alpine/busybox@1.37.0-r20?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.37.0-r20"
+    },
+    {
+      "alt_names": [],
+      "eco": "apk",
+      "evidence": "apk-installed",
+      "hashes": {},
+      "instances": 1,
+      "key": "apk::busybox-binsh",
+      "license": "GPL-2.0-only",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "busybox-binsh",
+      "namespace": "alpine",
+      "paths": [
+        "lib/apk/db/installed"
+      ],
+      "purl": "pkg:apk/alpine/busybox-binsh@1.37.0-r20?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.37.0-r20"
+    },
+    {
+      "alt_names": [],
+      "eco": "apk",
+      "evidence": "apk-installed",
+      "hashes": {},
+      "instances": 1,
+      "key": "apk::ca-certificates-bundle",
+      "license": "MPL-2.0 AND MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "ca-certificates-bundle",
+      "namespace": "alpine",
+      "paths": [
+        "lib/apk/db/installed"
+      ],
+      "purl": "pkg:apk/alpine/ca-certificates-bundle@20261020-r0?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "20261020-r0"
+    },
+    {
+      "alt_names": [],
+      "eco": "apk",
+      "evidence": "apk-installed",
+      "hashes": {},
+      "instances": 1,
+      "key": "apk::libapk2",
+      "license": "GPL-2.0-only",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libapk2",
+      "namespace": "alpine",
+      "paths": [
+        "lib/apk/db/installed"
+      ],
+      "purl": "pkg:apk/alpine/libapk2@2.14.13-r0?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "2.14.13-r0"
+    },
+    {
+      "alt_names": [],
+      "eco": "apk",
+      "evidence": "apk-installed",
+      "hashes": {},
+      "instances": 1,
+      "key": "apk::libcrypto3",
+      "license": "Apache-2.0",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libcrypto3",
+      "namespace": "alpine",
+      "paths": [
+        "lib/apk/db/installed"
+      ],
+      "purl": "pkg:apk/alpine/libcrypto3@3.5.9-r0?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.5.9-r0"
+    },
+    {
+      "alt_names": [],
+      "eco": "apk",
+      "evidence": "apk-installed",
+      "hashes": {},
+      "instances": 1,
+      "key": "apk::libssl3",
+      "license": "Apache-2.0",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libssl3",
+      "namespace": "alpine",
+      "paths": [
+        "lib/apk/db/installed"
+      ],
+      "purl": "pkg:apk/alpine/libssl3@3.5.9-r0?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "3.5.9-r0"
+    },
+    {
+      "alt_names": [],
+      "eco": "apk",
+      "evidence": "apk-installed",
+      "hashes": {},
+      "instances": 1,
+      "key": "apk::musl",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "musl",
+      "namespace": "alpine",
+      "paths": [
+        "lib/apk/db/installed"
+      ],
+      "purl": "pkg:apk/alpine/musl@1.2.5-r13?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.2.5-r13"
+    },
+    {
+      "alt_names": [],
+      "eco": "apk",
+      "evidence": "apk-installed",
+      "hashes": {},
+      "instances": 1,
+      "key": "apk::musl-utils",
+      "license": "MIT AND BSD-2-Clause AND GPL-2.0-or-later",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "musl-utils",
+      "namespace": "alpine",
+      "paths": [
+        "lib/apk/db/installed"
+      ],
+      "purl": "pkg:apk/alpine/musl-utils@1.2.5-r13?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.2.5-r13"
+    },
+    {
+      "alt_names": [],
+      "eco": "apk",
+      "evidence": "apk-installed",
+      "hashes": {},
+      "instances": 1,
+      "key": "apk::scanelf",
+      "license": "GPL-2.0-only",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "scanelf",
+      "namespace": "alpine",
+      "paths": [
+        "lib/apk/db/installed"
+      ],
+      "purl": "pkg:apk/alpine/scanelf@1.3.8-r1?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.3.8-r1"
+    },
+    {
+      "alt_names": [],
+      "eco": "apk",
+      "evidence": "apk-installed",
+      "hashes": {},
+      "instances": 1,
+      "key": "apk::ssl_client",
+      "license": "GPL-2.0-only",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "ssl_client",
+      "namespace": "alpine",
+      "paths": [
+        "lib/apk/db/installed"
+      ],
+      "purl": "pkg:apk/alpine/ssl_client@1.37.0-r20?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.37.0-r20"
+    },
+    {
+      "alt_names": [],
+      "eco": "apk",
+      "evidence": "apk-installed",
+      "hashes": {},
+      "instances": 1,
+      "key": "apk::zlib",
+      "license": "Zlib",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "zlib",
+      "namespace": "alpine",
+      "paths": [
+        "lib/apk/db/installed"
+      ],
+      "purl": "pkg:apk/alpine/zlib@1.3.2-r1?arch=x86_64",
+      "scope": null,
+      "tier": "primary",
+      "version": "1.3.2-r1"
+    },
+    {
+      "alt_names": [],
+      "eco": "apk",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "apk::alpine-base",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "alpine-base",
+      "namespace": "alpine",
+      "paths": [],
+      "purl": "pkg:apk/alpine/alpine-base@3.22.8-r0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.22.8-r0"
+    },
+    {
+      "alt_names": [],
+      "eco": "apk",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "apk::ca-certificates",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "ca-certificates",
+      "namespace": "alpine",
+      "paths": [],
+      "purl": "pkg:apk/alpine/ca-certificates@20261020-r0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "20261020-r0"
+    },
+    {
+      "alt_names": [],
+      "eco": "apk",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "apk::openssl",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "openssl",
+      "namespace": "alpine",
+      "paths": [],
+      "purl": "pkg:apk/alpine/openssl@3.5.9-r0",
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.5.9-r0"
+    },
+    {
+      "alt_names": [],
+      "eco": "apk",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "apk::pax-utils",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "pax-utils",
+      "namespace": "alpine",
+      "paths": [],
+      "purl": "pkg:apk/alpine/pax-utils@1.3.8-r1",
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.3.8-r1"
+    }
+  ],
+  "generated_utc": "2026-11-23T06:17:19+00:00",
+  "kind": "image",
+  "notes": [
+    "os-release: ID=alpine VERSION_ID=3.22.8"
+  ],
+  "stage": "S3",
+  "stats": {
+    "by_eco": {
+      "apk": 20
+    },
+    "by_mechanism": {
+      "os-pm": 16,
+      "source-package": 4
+    },
+    "by_tier": {
+      "primary": 16,
+      "secondary": 4
+    },
+    "total": 20
+  },
+  "subject": "os-baseline",
+  "target": "O-alpine"
+}
