@@ -19,7 +19,7 @@ A **Software Bill of Materials (SBOM)** lists every component inside a piece of 
 
 This project is a **comparative measurement study** of the three most widely used open-source SBOM generators, **Syft**, **Trivy** and **cdxgen**. Each tool is run on the *same applications* at **three lifecycle stages**: the source tree, the built artifact and the final container image. Every SBOM is scored against an **exact, independently extracted ground truth**. The study measures how complete and accurate each tool is, where and **why** each tool misses components, and how correct the reported fields are.
 
-The corpus has **50 scan targets, 34 of them container images**:
+The corpus has **45 scan targets, 34 of them container images**:
 - **Our own three projects** at every lifecycle stage: a Spring Boot (Maven) backend, a React/Vite frontend, Python microservices and a multi-threaded C server.
 - **A public Gradle project**, Spring PetClinic.
 - **Eight popular public images**, pre-screened and pinned by digest: postgres, mysql, jenkins, keycloak, ghost, airflow, prometheus and gitea.
@@ -46,7 +46,7 @@ The corpus has **50 scan targets, 34 of them container images**:
 ### 1. Corpus & Variants
 * **Our own three projects and Spring PetClinic** (frozen snapshot in `corpus/`). Each is built into several variants from `variants/`: source tree (S1), built artifact (S2), container images on different base images (S3), and images with planted hard cases (P).
 * **Eight popular public images**, selected by a documented screening (`scripts/screen_images.py`, `results/screening.json`), plus five OS baselines.
-* **50 scan targets** in total, catalogued in `targets.yaml`. Every public image and every tool is **pinned by digest**.
+* **45 scan targets** in total, catalogued in `targets.yaml`. Every public image and every tool is **pinned by digest**.
 
 ### 2. Ground Truth (never taken from the tools)
 * Read from **authoritative sources**: dpkg/apk/rpm databases, `*.dist-info` metadata, `node_modules/**/package.json`, Maven `pom.properties` and `mvn dependency:list`, Go build info, ELF `DT_NEEDED`, Vite sourcemaps, and SBOMs embedded in Python wheels (PEP 770).
@@ -69,7 +69,7 @@ The corpus has **50 scan targets, 34 of them container images**:
 
 ---
 
-## Results (34 container images, 50 targets)
+## Results (34 container images, 45 targets)
 
 | | Syft | Trivy | cdxgen |
 |---|:---:|:---:|:---:|

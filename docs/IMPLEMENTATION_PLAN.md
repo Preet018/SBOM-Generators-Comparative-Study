@@ -480,7 +480,7 @@ The dpkg oracle now also accepts held-installed packages (`hi`, used by Docker H
 | mysql | 0.764 | 0.764 | 1.000 |
 | jenkins / postgres / prometheus / gitea | ≥ 0.979 | ≥ 0.992 | ≥ 0.971 |
 
-### Strengthening, Step 3: full re-run on the extended corpus (50 targets, 34 images)
+### Strengthening, Step 3: full re-run on the extended corpus (45 targets, 34 images)
 
 **Tool runs:**
 - 125 bulk runs (default rep 1+2, best-effort rep 1) on the 13 new targets: all succeeded.
