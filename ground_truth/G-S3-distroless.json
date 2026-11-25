@@ -1,0 +1,3554 @@
+{
+  "components": [
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::base-files",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "base-files",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/base-files@12.4%2Bdeb12u13?arch=amd64",
+      "qualifiers": {
+        "arch": "amd64"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "12.4+deb12u13"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::fontconfig-config",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "fontconfig-config",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/fontconfig-config@2.14.1-4?arch=amd64&upstream=fontconfig",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "fontconfig"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.14.1-4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::fonts-dejavu-core",
+      "license": "bitstream-vera AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "fonts-dejavu-core",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/fonts-dejavu-core@2.37-6?arch=all&upstream=fonts-dejavu",
+      "qualifiers": {
+        "arch": "all",
+        "upstream": "fonts-dejavu"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.37-6"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::gcc-12-base",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gcc-12-base",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/gcc-12-base@12.2.0-14%2Bdeb12u1?arch=amd64&upstream=gcc-12",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gcc-12"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "12.2.0-14+deb12u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libbrotli1",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libbrotli1",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/libbrotli1@1.0.9-2%2Bb6?arch=amd64&upstream=brotli%401.0.9-2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "brotli@1.0.9-2"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.0.9-2+b6"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libc6",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libc6",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u13?arch=amd64&upstream=glibc",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "glibc"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.36-9+deb12u13"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libcrypt1",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libcrypt1",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/libcrypt1@1:4.4.33-2?arch=amd64&upstream=libxcrypt",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libxcrypt"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1:4.4.33-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libexpat1",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libexpat1",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/libexpat1@2.5.0-1%2Bdeb12u2?arch=amd64&upstream=expat",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "expat"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.5.0-1+deb12u2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libfontconfig1",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libfontconfig1",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/libfontconfig1@2.14.1-4?arch=amd64&upstream=fontconfig",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "fontconfig"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.14.1-4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libfreetype6",
+      "license": "FTL AND FTL and MIT AND BSD-3-Clause AND FSFAP AND GPL-3+ AND MIT AND GPL-2+ AND Public-Domain AND BSL-1.0 AND Zlib AND OpenGroup-BSD-like",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libfreetype6",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/libfreetype6@2.12.1%2Bdfsg-5%2Bdeb12u4?arch=amd64&upstream=freetype",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "freetype"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.12.1+dfsg-5+deb12u4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libgcc-s1",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libgcc-s1",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/libgcc-s1@12.2.0-14%2Bdeb12u1?arch=amd64&upstream=gcc-12",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gcc-12"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "12.2.0-14+deb12u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libglib2.0-0",
+      "license": "LGPL-2+ and LGPL-2.1+ and FSFULLR and CC0-1.0 and Janik-permissive and Iconv-PD and Mingw-PD and Old-GLib-Tests-permissive AND LGPL-2.1+ and Expat AND AFL-2.0 or LGPL-2.1+ AND Unicode-DFS-2016 AND Expat AND GPL-2+ AND GPL-2+ with Autoconf exception AND LGPL-3+ AND Apache-2.0 with LLVM exception AND LGPL-2.1+ and Kuchling-PD and Plumb-PD AND LGPL-2.1+ and BSD-3-clause-pcre AND bzip2-1.0.6 AND CC-BY-SA-3.0 AND AFL-2.0 AND BSD-3-clause-pcre AND CC0-1.0 AND FSFULLR AND Iconv-PD AND Janik-permissive AND Kuchling-PD AND LGPL-2+ AND LGPL-2.1+ AND Mingw-PD AND Old-GLib-Tests-permissive AND Plumb-PD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libglib2.0-0",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/libglib2.0-0@2.74.6-2%2Bdeb12u8?arch=amd64&upstream=glib2.0",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "glib2.0"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.74.6-2+deb12u8"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libgraphite2-3",
+      "license": "LGPL-2.1+ or MPL-1.1 or GPL-2+ AND LGPL-2.1+ AND public-domain AND Artistic or GPL-1+ AND LGPL-2.1+ or GPL-2+ or MPL-1.1 AND custom-sil-open-font-license AND Artistic AND GPL-1+ AND GPL-2+ AND MPL-1.1",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libgraphite2-3",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/libgraphite2-3@1.3.14-1?arch=amd64&upstream=graphite2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "graphite2"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.3.14-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libharfbuzz0b",
+      "license": "MIT AND Unicode AND ISC AND Apache-2.0 AND OFL-1.1 AND Monotype AND CC0-1.0 AND GPL-3+ AND GPL-2+ with Font exception AND UFL-1.0 AND FSFULLR AND GPL-2+ with AutoConf exception AND GPL-3+ with AutoConf exception AND FSFAP AND LGPL-2.1+ AND GPL-2+ with LibTool exception AND Expat AND FSFUL",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libharfbuzz0b",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/libharfbuzz0b@6.0.0%2Bdfsg-3?arch=amd64&upstream=harfbuzz",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "harfbuzz"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "6.0.0+dfsg-3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libjpeg62-turbo",
+      "license": "BSD-BY-LC-NE AND Zlib AND BSD-3-clause AND Expat AND NTP AND zlib",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libjpeg62-turbo",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/libjpeg62-turbo@1:2.1.5-2?arch=amd64&upstream=libjpeg-turbo",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libjpeg-turbo"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1:2.1.5-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::liblcms2-2",
+      "license": "MIT AND GPL-3 AND IJG AND GPL-2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "liblcms2-2",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/liblcms2-2@2.14-2?arch=amd64&upstream=lcms2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "lcms2"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.14-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libpcre2-8-0",
+      "license": "BSD-3-clause-Cambridge with BINARY LIBRARY-LIKE PACKAGES exception AND BSD-3-clause AND X11 AND BSD-2-clause AND public-domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libpcre2-8-0",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/libpcre2-8-0@10.42-1?arch=amd64&upstream=pcre2",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "pcre2"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "10.42-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libpng16-16",
+      "license": "libpng AND expat AND GPL-2+ or BSD-like-with-advertising-clause AND libpng OR Apache-2.0 OR BSD-3-clause AND Apache-2.0 AND GPL-2+ AND BSD-like-with-advertising-clause AND BSD-3-clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libpng16-16",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/libpng16-16@1.6.39-2%2Bdeb12u3?arch=amd64&upstream=libpng1.6",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "libpng1.6"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.6.39-2+deb12u3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libstdc++6",
+      "license": null,
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libstdc++6",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/libstdc%2B%2B6@12.2.0-14%2Bdeb12u1?arch=amd64&upstream=gcc-12",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "gcc-12"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "12.2.0-14+deb12u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libuuid1",
+      "license": "GPL-2+ AND GPL-2 AND GPL-3+ AND public-domain AND BSD-4-clause AND MIT AND BSD-3-clause AND BSLA AND LGPL-2+ AND LGPL-2.1+ AND LGPL AND LGPL-3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libuuid1",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/libuuid1@2.38.1-5%2Bdeb12u3?arch=amd64&upstream=util-linux",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "util-linux"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.38.1-5+deb12u3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::media-types",
+      "license": "ad-hoc",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "media-types",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/media-types@10.0.0?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "10.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::netbase",
+      "license": "GPL-2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "netbase",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/netbase@6.4?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "6.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::openjdk-17-jre-headless",
+      "license": "GPL with Classpath exception AND BSD-C3 AND MIT AND LGPL",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "openjdk-17-jre-headless",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/openjdk-17-jre-headless@17.0.18%2B8-1~deb12u1?arch=amd64&upstream=openjdk-17",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "openjdk-17"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "17.0.18+8-1~deb12u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::tzdata",
+      "license": "public-domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "tzdata",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/tzdata@2025b-0%2Bdeb12u2?arch=all",
+      "qualifiers": {
+        "arch": "all"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2025b-0+deb12u2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "dpkg-status.d",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::zlib1g",
+      "license": "Zlib",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "zlib1g",
+      "namespace": "debian",
+      "paths": [
+        "var/lib/dpkg/status.d"
+      ],
+      "purl": "pkg:deb/debian/zlib1g@1:1.2.13.dfsg-1?arch=amd64&upstream=zlib",
+      "qualifiers": {
+        "arch": "amd64",
+        "upstream": "zlib"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1:1.2.13.dfsg-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "e598899bad5824511cd3019299254230468e1fa2",
+        "sha256": "b65e05076a5c1aadb659b4fe4bc5fee31cb26cd70390292eb03e4a7a24cff10f"
+      },
+      "instances": 1,
+      "key": "maven:ch.qos.logback:logback-classic",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "logback-classic",
+      "namespace": "ch.qos.logback",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/logback-classic-1.5.34.jar"
+      ],
+      "purl": "pkg:maven/ch.qos.logback/logback-classic@1.5.34",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.5.34"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "378692f76c337b3325c15bffb89e013dc1f897b4",
+        "sha256": "42eda264c0c650c2bec59e66151a88b708a8663dc1b49d788202d53e78b8caae"
+      },
+      "instances": 1,
+      "key": "maven:ch.qos.logback:logback-core",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "logback-core",
+      "namespace": "ch.qos.logback",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/logback-core-1.5.34.jar"
+      ],
+      "purl": "pkg:maven/ch.qos.logback/logback-core@1.5.34",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.5.34"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "b1bc1868bf02dc0bd6c7836257a036a331005309",
+        "sha256": "53ca085f4a150f703f49e1aabd935bd03b43e1ea3d55d135438292af22cef56b"
+      },
+      "instances": 1,
+      "key": "maven:com.fasterxml.jackson.core:jackson-annotations",
+      "license": "The Apache Software License, Version 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jackson-annotations",
+      "namespace": "com.fasterxml.jackson.core",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jackson-annotations-2.21.jar"
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.21",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.21"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "f61c7e7b81e9249b0f6a05914eff9d54fb09f4a0",
+        "sha256": "75fbda45456f123fb6e2028a6189442d8d0730b357adce4c0a6d7e789f70669b"
+      },
+      "instances": 1,
+      "key": "maven:com.fasterxml:classmate",
+      "license": "Apache License, Version 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "classmate",
+      "namespace": "com.fasterxml",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/classmate-1.7.3.jar"
+      ],
+      "purl": "pkg:maven/com.fasterxml/classmate@1.7.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.7.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "c63b303adf59c733d2a96125ad6670e938a2c15d",
+        "sha256": "9d9d2cfd681fd9272ded3d27c9930db12f89f732345975aa113ebc223bbf1224"
+      },
+      "instances": 1,
+      "key": "maven:com.github.ben-manes.caffeine:caffeine",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "caffeine",
+      "namespace": "com.github.ben-manes.caffeine",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/caffeine-3.2.4.jar"
+      ],
+      "purl": "pkg:maven/com.github.ben-manes.caffeine/caffeine@3.2.4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "3.2.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "8b42a2e3865f6e0576da3fad51dbb96732ff0f14",
+        "sha256": "3b1003e51b8ae56fdbd7c71073e81d1683b97e6c4dff5a9151164d59b769d13c"
+      },
+      "instances": 1,
+      "key": "maven:com.google.errorprone:error_prone_annotations",
+      "license": "Apache 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "error_prone_annotations",
+      "namespace": "com.google.errorprone",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/error_prone_annotations-2.49.0.jar"
+      ],
+      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.49.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.49.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "686180ad33981ad943fdc0ab381e619b2c2fdfe5",
+        "sha256": "29b70e427cc1c40cdc376283adbb0cc62853073797bb5fe5761f81fe73d57ce0"
+      },
+      "instances": 1,
+      "key": "maven:com.h2database:h2",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "h2",
+      "namespace": "com.h2database",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/h2-2.4.240.jar"
+      ],
+      "purl": "pkg:maven/com.h2database/h2@2.4.240",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.4.240"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "4e6e3e8765e4a9d0609744b3e8fe75afe1b98cba",
+        "sha256": "0353648eaa1c91e0f4020c959abf756bc866ffd583df22ae6b6f6e0cbd43eb44"
+      },
+      "instances": 1,
+      "key": "maven:com.mysql:mysql-connector-j",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "mysql-connector-j",
+      "namespace": "com.mysql",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/mysql-connector-j-9.7.0.jar"
+      ],
+      "purl": "pkg:maven/com.mysql/mysql-connector-j@9.7.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "9.7.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "18ec117c85f3ba0ac65409136afa8e42bc74e739",
+        "sha256": "7fd6792361f4dd00f8c56af4a20cecc0066deea4a8f3dec38348af23fc2296ee"
+      },
+      "instances": 1,
+      "key": "maven:com.sun.istack:istack-commons-runtime",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "istack-commons-runtime",
+      "namespace": "com.sun.istack",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/istack-commons-runtime-4.1.2.jar"
+      ],
+      "purl": "pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "c2b43c946b86a14a96342379e22b004c56c6166d",
+        "sha256": "f1e612fa27345be3107a85431e8a8aeb205c15364ab2f2d411e40a9d7bb08095"
+      },
+      "instances": 1,
+      "key": "maven:com.zaxxer:hikaricp",
+      "license": "The Apache Software License, Version 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "HikariCP",
+      "namespace": "com.zaxxer",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/HikariCP-7.0.2.jar"
+      ],
+      "purl": "pkg:maven/com.zaxxer/HikariCP@7.0.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "63e78ca6cd446c0ad166d14f03ed99e7efb3896d",
+        "sha256": "f8ead8943401081dea0aa824b5b1ba40a0e4ed297a572a0f02258150a0b62357"
+      },
+      "instances": 1,
+      "key": "maven:commons-logging:commons-logging",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "commons-logging",
+      "namespace": "commons-logging",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/commons-logging-1.3.6.jar"
+      ],
+      "purl": "pkg:maven/commons-logging/commons-logging@1.3.6",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.3.6"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "2edbb561cdd2b2777fbcd83aa9f2204ebabf592b",
+        "sha256": "03919dc71e2417ec4b5c254c4ba924963c972e124190f73cdcb68ed51c6eede6"
+      },
+      "instances": 1,
+      "key": "maven:io.micrometer:micrometer-commons",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "micrometer-commons",
+      "namespace": "io.micrometer",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/micrometer-commons-1.17.0.jar"
+      ],
+      "purl": "pkg:maven/io.micrometer/micrometer-commons@1.17.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.17.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "b71d95b2819c5959bedf186e9a667e932b573dad",
+        "sha256": "73503e701a377fafeaf33b71b9b8910a8d7884cbba88ab27971b33b3753b65aa"
+      },
+      "instances": 1,
+      "key": "maven:io.micrometer:micrometer-core",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "micrometer-core",
+      "namespace": "io.micrometer",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/micrometer-core-1.17.0.jar"
+      ],
+      "purl": "pkg:maven/io.micrometer/micrometer-core@1.17.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.17.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "e8a0380f6a92110cd76d7d9a329a3c57740c6e3f",
+        "sha256": "4ae9dbc9072fea8c36684a745e0e944b9540fd15027dfe7af0a186f8df43272c"
+      },
+      "instances": 1,
+      "key": "maven:io.micrometer:micrometer-jakarta9",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "micrometer-jakarta9",
+      "namespace": "io.micrometer",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/micrometer-jakarta9-1.17.0.jar"
+      ],
+      "purl": "pkg:maven/io.micrometer/micrometer-jakarta9@1.17.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.17.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "2037bdaeb5725bdddb2390cbf93be3c19f8b8b48",
+        "sha256": "2fc95a327578d3b2a81c3ff40e646a4a21e46b0153ccbbf91690142bf80d9661"
+      },
+      "instances": 1,
+      "key": "maven:io.micrometer:micrometer-observation",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "micrometer-observation",
+      "namespace": "io.micrometer",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/micrometer-observation-1.17.0.jar"
+      ],
+      "purl": "pkg:maven/io.micrometer/micrometer-observation@1.17.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.17.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "9e5c2a0d75dde71a0bedc4dbdbe47b78a5dc50f8",
+        "sha256": "c9db52100ce6c8aac95cc39075f95720d2e561b11f8051b81c121ad4effd7004"
+      },
+      "instances": 1,
+      "key": "maven:jakarta.activation:jakarta.activation-api",
+      "license": "EDL 1.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jakarta.activation-api",
+      "namespace": "jakarta.activation",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jakarta.activation-api-2.1.4.jar"
+      ],
+      "purl": "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.1.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "54f928fadec906a99d558536756d171917b9d936",
+        "sha256": "b01f55552284cfb149411e64eabca75e942d26d2e1786b32914250e4330afaa2"
+      },
+      "instances": 1,
+      "key": "maven:jakarta.annotation:jakarta.annotation-api",
+      "license": "EPL 2.0 OR GPL2 w/ CPE",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jakarta.annotation-api",
+      "namespace": "jakarta.annotation",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jakarta.annotation-api-3.0.0.jar"
+      ],
+      "purl": "pkg:maven/jakarta.annotation/jakarta.annotation-api@3.0.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "3.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "4c28afe1991a941d7702fe1362c365f0a8641d1e",
+        "sha256": "f7dc98062fccf14126abb751b64fab12c312566e8cbdc8483598bffcea93af7c"
+      },
+      "instances": 1,
+      "key": "maven:jakarta.inject:jakarta.inject-api",
+      "license": "The Apache Software License, Version 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jakarta.inject-api",
+      "namespace": "jakarta.inject",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jakarta.inject-api-2.0.1.jar"
+      ],
+      "purl": "pkg:maven/jakarta.inject/jakarta.inject-api@2.0.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "bb75a113f3fa191c2c7ee7b206d8e674251b3129",
+        "sha256": "be8a26b0e75c84c1b7600f759256fbc68d60333d89ec0ce3f784fc3ffa09aa8c"
+      },
+      "instances": 1,
+      "key": "maven:jakarta.persistence:jakarta.persistence-api",
+      "license": "Eclipse Public License v. 2.0 OR Eclipse Distribution License v. 1.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jakarta.persistence-api",
+      "namespace": "jakarta.persistence",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jakarta.persistence-api-3.2.0.jar"
+      ],
+      "purl": "pkg:maven/jakarta.persistence/jakarta.persistence-api@3.2.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "3.2.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "51a520e3fae406abb84e2e1148e6746ce3f80a1a",
+        "sha256": "50c0a7c760c13ae6c042acf182b28f0047413db95b4636fb8879bcffab5ba875"
+      },
+      "instances": 1,
+      "key": "maven:jakarta.transaction:jakarta.transaction-api",
+      "license": "EPL 2.0 OR GPL2 w/ CPE",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jakarta.transaction-api",
+      "namespace": "jakarta.transaction",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jakarta.transaction-api-2.0.1.jar"
+      ],
+      "purl": "pkg:maven/jakarta.transaction/jakarta.transaction-api@2.0.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "ec8622148afc5564235d17af80ea80288d0e7f92",
+        "sha256": "63ce00156388c365f3ac1be71fcfaf114682fc0c452020b5df6e7ec236e142ab"
+      },
+      "instances": 1,
+      "key": "maven:jakarta.validation:jakarta.validation-api",
+      "license": "Apache License 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jakarta.validation-api",
+      "namespace": "jakarta.validation",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jakarta.validation-api-3.1.1.jar"
+      ],
+      "purl": "pkg:maven/jakarta.validation/jakarta.validation-api@3.1.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "3.1.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "161811f36cad3c65991502e80317f2f6703361df",
+        "sha256": "5e489b6c874c4119e003ff1403db523ee3a8959ec499f3de29e77245efccf216"
+      },
+      "instances": 1,
+      "key": "maven:jakarta.xml.bind:jakarta.xml.bind-api",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jakarta.xml.bind-api",
+      "namespace": "jakarta.xml.bind",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jakarta.xml.bind-api-4.0.5.jar"
+      ],
+      "purl": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.5",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.0.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "c56fb980eb5208bfee29a9a5b9d951aba076bd91",
+        "sha256": "9f34e007edfa82a7b2a2e1b969477dcf5099ce7f4f926fb54ce7e27c4a0cd54b"
+      },
+      "instances": 1,
+      "key": "maven:javax.cache:cache-api",
+      "license": "Apache License, Version 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "cache-api",
+      "namespace": "javax.cache",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/cache-api-1.1.1.jar"
+      ],
+      "purl": "pkg:maven/javax.cache/cache-api@1.1.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.1.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "5b34812ced047973a6d42654d50c3b69124ce587",
+        "sha256": "8b31f4ea806afaa900b67bffd8498760d1f65464f4c2ea78cdbda2f3e633898b"
+      },
+      "instances": 1,
+      "key": "maven:net.bytebuddy:byte-buddy",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "byte-buddy",
+      "namespace": "net.bytebuddy",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/byte-buddy-1.18.10.jar"
+      ],
+      "purl": "pkg:maven/net.bytebuddy/byte-buddy@1.18.10",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.18.10"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "fc3db6d844df652a3d5db31c87fa12757f13691d",
+        "sha256": "dd3e8a13a2d669bf84fb8d834de35ce4875f27157698d206241ec8488aadcaf7"
+      },
+      "instances": 1,
+      "key": "maven:org.antlr:antlr4-runtime",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "antlr4-runtime",
+      "namespace": "org.antlr",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/antlr4-runtime-4.13.2.jar"
+      ],
+      "purl": "pkg:maven/org.antlr/antlr4-runtime@4.13.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.13.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "89ff2217b193fb187b134aa6ebcbfa8a28b018a9",
+        "sha256": "c4b642a7f047275215de117e0e3847eb2c7711d84a0aa7433e7b3c096daf341d"
+      },
+      "instances": 1,
+      "key": "maven:org.apache.logging.log4j:log4j-api",
+      "license": "Apache-2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "log4j-api",
+      "namespace": "org.apache.logging.log4j",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/log4j-api-2.25.4.jar"
+      ],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.25.4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.25.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "68df56640a5d245192e91bd2ac89e504b477cc10",
+        "sha256": "d7b78fc0aaaa5e8ada388b29d718b0ab187e512965bed0b259bb4ab299f13db2"
+      },
+      "instances": 1,
+      "key": "maven:org.apache.logging.log4j:log4j-to-slf4j",
+      "license": "Apache-2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "log4j-to-slf4j",
+      "namespace": "org.apache.logging.log4j",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/log4j-to-slf4j-2.25.4.jar"
+      ],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.25.4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.25.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "cc7307efaa60c0d31784bf053ec4aa48a404f44b",
+        "sha256": "78cd7cd7c104b6b87142c1b0bd902e1ce005b0245c3cefa8a06759148947200b"
+      },
+      "instances": 1,
+      "key": "maven:org.apache.tomcat.embed:tomcat-embed-core",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "tomcat-embed-core",
+      "namespace": "org.apache.tomcat.embed",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/tomcat-embed-core-11.0.22.jar"
+      ],
+      "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@11.0.22",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "11.0.22"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "db92447e16c3561e9ca7bf9311b6b6389816699e",
+        "sha256": "1b34c33b858c141df36c501b4d809e68036c406bca3671a86facae297917c7de"
+      },
+      "instances": 1,
+      "key": "maven:org.apache.tomcat.embed:tomcat-embed-el",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "tomcat-embed-el",
+      "namespace": "org.apache.tomcat.embed",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/tomcat-embed-el-11.0.22.jar"
+      ],
+      "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@11.0.22",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "11.0.22"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "5686ff1ad745491d981d771514027d8fc55aed4f",
+        "sha256": "210e0c7ab194a76cc7283df0be365276091b042369dae125fb477828ba67e922"
+      },
+      "instances": 1,
+      "key": "maven:org.apache.tomcat.embed:tomcat-embed-websocket",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "tomcat-embed-websocket",
+      "namespace": "org.apache.tomcat.embed",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/tomcat-embed-websocket-11.0.22.jar"
+      ],
+      "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@11.0.22",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "11.0.22"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "a713c790da4d794c7dfb542b550d4e44898d5e23",
+        "sha256": "4fe86fdc18faea571f29129c70eaad5d121363504a06d7907be88f6c60ba3116"
+      },
+      "instances": 1,
+      "key": "maven:org.aspectj:aspectjweaver",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "aspectjweaver",
+      "namespace": "org.aspectj",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/aspectjweaver-1.9.25.1.jar"
+      ],
+      "purl": "pkg:maven/org.aspectj/aspectjweaver@1.9.25.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.9.25.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "e5d0e988d9124139d645bb5872b24dfa23e283cc",
+        "sha256": "75dd1c045492bff8e1963aabb28bfe903c2064e11e27fe2f0f0aff1ad3d84476"
+      },
+      "instances": 1,
+      "key": "maven:org.attoparser:attoparser",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "attoparser",
+      "namespace": "org.attoparser",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/attoparser-2.0.7.RELEASE.jar"
+      ],
+      "purl": "pkg:maven/org.attoparser/attoparser@2.0.7.RELEASE",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.0.7.RELEASE"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "7f80607ea5014fef0b1779e6c33d63a88a45a563",
+        "sha256": "a6bd35c538cf90fff941ad6258c40c08fca0b5c9c3f536c657114f27ce0527a7"
+      },
+      "instances": 1,
+      "key": "maven:org.eclipse.angus:angus-activation",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "angus-activation",
+      "namespace": "org.eclipse.angus",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/angus-activation-2.0.3.jar"
+      ],
+      "purl": "pkg:maven/org.eclipse.angus/angus-activation@2.0.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.0.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "3f32ec949d109d666fa30994223d1c25a47b105f",
+        "sha256": "6b014df25d22c8446cc2df0a378c5b2137747f197a731d99eb24c756b26f7e8d"
+      },
+      "instances": 1,
+      "key": "maven:org.glassfish.jaxb:jaxb-core",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jaxb-core",
+      "namespace": "org.glassfish.jaxb",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jaxb-core-4.0.9.jar"
+      ],
+      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.0.9"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "500c199572538675d2819c938fbafe34935d8d6b",
+        "sha256": "93e09b7316b6af68d6e2083e4c297daf28e8957f45d725077af812c0b12c39ab"
+      },
+      "instances": 1,
+      "key": "maven:org.glassfish.jaxb:jaxb-runtime",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jaxb-runtime",
+      "namespace": "org.glassfish.jaxb",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jaxb-runtime-4.0.9.jar"
+      ],
+      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.0.9"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "70325ebdebca3e7aae1dfa395fd41fc25d8a6f4e",
+        "sha256": "d6343e5945d87266ca4e8974a0a2a876e1bd147a00fb65ed3f2e1a3a00f3a82a"
+      },
+      "instances": 1,
+      "key": "maven:org.glassfish.jaxb:txw2",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "txw2",
+      "namespace": "org.glassfish.jaxb",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/txw2-4.0.9.jar"
+      ],
+      "purl": "pkg:maven/org.glassfish.jaxb/txw2@4.0.9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.0.9"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "7959933ebcc0f05b2eaa5af0a0c8689fa257b15c",
+        "sha256": "22d1d4316c4ec13a68b559e98c8256d69071593731da96136640f864fa14fad8"
+      },
+      "instances": 1,
+      "key": "maven:org.hdrhistogram:hdrhistogram",
+      "license": "Public Domain, per Creative Commons CC0 OR BSD-2-Clause",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "HdrHistogram",
+      "namespace": "org.hdrhistogram",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/HdrHistogram-2.2.2.jar"
+      ],
+      "purl": "pkg:maven/org.hdrhistogram/HdrHistogram@2.2.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.2.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "c890a4cc781fd8720e0e2613b4a24b33cdaa80a1",
+        "sha256": "7cb645f2ebe5fcb63e21d26259cef62d93a1ca77c400bda6992c92cb19826a89"
+      },
+      "instances": 1,
+      "key": "maven:org.hibernate.models:hibernate-models",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "hibernate-models",
+      "namespace": "org.hibernate.models",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/hibernate-models-1.1.1.jar"
+      ],
+      "purl": "pkg:maven/org.hibernate.models/hibernate-models@1.1.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.1.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "b405096e4aa04ff9c99a3e6e632eb2b8d252e1f1",
+        "sha256": "e4bfe7df423f3555f322eefb1ab51f28df439844610ef76c36d92a85d483004e"
+      },
+      "instances": 1,
+      "key": "maven:org.hibernate.orm:hibernate-core",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "hibernate-core",
+      "namespace": "org.hibernate.orm",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/hibernate-core-7.4.1.Final.jar"
+      ],
+      "purl": "pkg:maven/org.hibernate.orm/hibernate-core@7.4.1.Final",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "7.4.1.Final"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "53505ad984428ab42b4a4f3456aab9ec343bf2f2",
+        "sha256": "4dea20c780d12e8ad6e1fe7d695460af74f8668df9eb58910991919194412188"
+      },
+      "instances": 1,
+      "key": "maven:org.hibernate.validator:hibernate-validator",
+      "license": "Apache License 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "hibernate-validator",
+      "namespace": "org.hibernate.validator",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/hibernate-validator-9.1.0.Final.jar"
+      ],
+      "purl": "pkg:maven/org.hibernate.validator/hibernate-validator@9.1.0.Final",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "9.1.0.Final"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "1cc9f976725720bb4a66f80af3e3aa6b9890d969",
+        "sha256": "7c12ee575508f81e22b1db9334b969d0ec54ef0fd1dcba24eeab1a44235fc366"
+      },
+      "instances": 1,
+      "key": "maven:org.jboss.logging:jboss-logging",
+      "license": "Apache License 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jboss-logging",
+      "namespace": "org.jboss.logging",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jboss-logging-3.6.3.Final.jar"
+      ],
+      "purl": "pkg:maven/org.jboss.logging/jboss-logging@3.6.3.Final",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "3.6.3.Final"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "7425a601c1c7ec76645a78d22b8c6a627edee507",
+        "sha256": "1fad6e6be7557781e4d33729d49ae1cdc8fdda6fe477bb0cc68ce351eafdfbab"
+      },
+      "instances": 1,
+      "key": "maven:org.jspecify:jspecify",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jspecify",
+      "namespace": "org.jspecify",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jspecify-1.0.0.jar"
+      ],
+      "purl": "pkg:maven/org.jspecify/jspecify@1.0.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "4c21cdd1b3938f400703716d37c4e8ca4d332808",
+        "sha256": "1981b31d3993c58702783c1cddf10a34e48c1f413d70ff1cb6def0a143484647"
+      },
+      "instances": 1,
+      "key": "maven:org.postgresql:postgresql",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "postgresql",
+      "namespace": "org.postgresql",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/postgresql-42.7.11.jar"
+      ],
+      "purl": "pkg:maven/org.postgresql/postgresql@42.7.11",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "42.7.11"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "79739c98001d5c9d078d087d5a348ec9e474ec8f",
+        "sha256": "cbb7d1aaaa9e871eb1a06594abd911bf97027152976edf1edc315be75239204e"
+      },
+      "instances": 1,
+      "key": "maven:org.slf4j:jul-to-slf4j",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jul-to-slf4j",
+      "namespace": "org.slf4j",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jul-to-slf4j-2.0.18.jar"
+      ],
+      "purl": "pkg:maven/org.slf4j/jul-to-slf4j@2.0.18",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.0.18"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "78a9e7a37cd6360e0b818e86341b24123d28d4df",
+        "sha256": "44508fd1576500688c790b190acdd16fec4f8c79a3e0b900afd70503cf055f55"
+      },
+      "instances": 1,
+      "key": "maven:org.slf4j:slf4j-api",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "slf4j-api",
+      "namespace": "org.slf4j",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/slf4j-api-2.0.18.jar"
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@2.0.18",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.0.18"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "bcf26d4c27ab080ef60c13220e96a37d687f9e26",
+        "sha256": "b23951a3a7f867e38db4729b8594e1b72374516f386b1dd9cf4d5317d6d3f91f"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "aff3955601271f4efdff207afeffa832fcb2835f",
+        "sha256": "10279d87ab47a9a41cb69c56fc69494a54a3b84f25c853141ed234d4832e85b4"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-actuator",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-actuator",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-actuator-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-actuator@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "0a8c1a01cc75f6d39eb795d5cbc7c05d4b6c93ed",
+        "sha256": "1124c22bc848e5ed557fe4543698056ef7090f134f2ccbcafb3d6c18a5613b13"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-actuator-autoconfigure",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-actuator-autoconfigure",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-actuator-autoconfigure-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "a921df4e39389e43dacac5615a1185708ee8a960",
+        "sha256": "0fcaa3050ba835ca6b3879f81cd48dc590a6262f53bbf10d2a95c70bf7c048ac"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-autoconfigure",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-autoconfigure",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-autoconfigure-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "ed94c2d47058204b56f7ba43aed55331fb898bba",
+        "sha256": "b0ed05ab1621fabd83f8d2191c0593b105120fdb6b34e2b813634abe99591a90"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-cache",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-cache",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-cache-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-cache@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "3d587cffcde8c18fa784e0486a2c0a8a4728f262",
+        "sha256": "44613292a91c231d81d39d05b10550b9988e7dcaf3b931b700e86fb0ac029937"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-data-commons",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-data-commons",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-data-commons-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-data-commons@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "d29dbdc6734afe2f4d5c56cf3112c491c3582642",
+        "sha256": "5c9fe8ee830a45bba829e7bd150aa0633c18d50870561d85299af1e8418daac4"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-data-jpa",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-data-jpa",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-data-jpa-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-data-jpa@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "5ac1d047f93ca1658bfcfda813b5da3f5bb6765b",
+        "sha256": "cbd92b42254fe264a5d4556538049139aabbfdc367f5d06fb5b4cf97aa70fc18"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-health",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-health",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-health-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-health@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "af702315125871004a8a7df290f55ac5e5617d91",
+        "sha256": "fcdcf4b490a8fa0e6ce466334bc8ae752a80e1ff1c9eb58a101e2fff878a2863"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-hibernate",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-hibernate",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-hibernate-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-hibernate@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "c3b90921e920dfa7dcb78a5045f18ca0e4bc0b44",
+        "sha256": "f82c8913ea17a60630a5d26fa006cf79f28c7d920dbbef8760f5bc7053706fea"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-http-converter",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-http-converter",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-http-converter-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-http-converter@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "bada14f54b1961279f9942c54b5039c90cd6a252",
+        "sha256": "10b6e63a40b257168854093f413eaab8b8a9afb7e989fcc7f6732b42c3f173d1"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-jackson",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-jackson",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-jackson-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-jackson@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from spring-boot plugin",
+      "hashes": {
+        "sha1": "7ee213c8fe8ed444fc6ca92d4aaa86424645a041",
+        "sha256": "20b66fc7cffe830b51ce2cc36df77a0dd695cf197828902503e04492087c84b6"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-jarmode-tools",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-jarmode-tools",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-jarmode-tools-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-jarmode-tools@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "71f00c6af0ae910530d9fce8f5ae6e54c595f690",
+        "sha256": "3b5aab97e72d8a15a40546c31365ed2090cf25451e18762add8ed22cbb4ead43"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-jdbc",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-jdbc",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-jdbc-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-jdbc@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "bf645cdf194c71f829225793a5d6545d9dfe96ae",
+        "sha256": "cd61301aebef59f3d2874ebd51862ed52d342d8c162874791475486232316d95"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-jpa",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-jpa",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-jpa-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-jpa@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "91c5d35269ce2ae1b832180617b9a52fbfec4f29",
+        "sha256": "2030f79dbc59c9d84f1f4d6d2a423b46a8ba5cc277cbda75ac54a436b3ea96fb"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-micrometer-metrics",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-micrometer-metrics",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-micrometer-metrics-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-micrometer-metrics@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "f0e219fbac48d71acbabd7f4c8116f58d72d4102",
+        "sha256": "1f4a7a9755b38470157316dcec8a9f19b1b89864c5f742149b8db0c517f41853"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-micrometer-observation",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-micrometer-observation",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-micrometer-observation-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-micrometer-observation@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "12b6d5aa8a97c458a5c8eba8e8cb0e38e326d9d8",
+        "sha256": "d9d926224c738bd6152718c078134e3aea1057db4d6a452c37ad120893e0e4d6"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-persistence",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-persistence",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-persistence-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-persistence@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "a067e9b4b7c255a8587852b6eb842413cc458e70",
+        "sha256": "5f694a7c6c357a87032bc92db0e7e0e03b64010f77892e5992c86b10f568a5ae"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-servlet",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-servlet",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-servlet-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-servlet@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "7a5ef86020d10e926b2e98e1d7b4b79258fb2f38",
+        "sha256": "2826a5380675337f4c5b3e90db02279e68a2c9a7eb2b2ac312828c05fb827a9a"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-sql",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-sql",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-sql-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-sql@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "eea0a2aaa94223eac5641e791eba22d4182517b4",
+        "sha256": "5df118e86f83b58a8a3f8e7f37d114b72ae175aa3e2074d008c6548c20d0f751"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-thymeleaf",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-thymeleaf",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-thymeleaf-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-thymeleaf@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "0502aeed70cb11c3754c365324acd9f3ee746354",
+        "sha256": "011e662eb6f9f4a80c5dacf914cfca8a25a33fcd753736ec453dcf701337dd24"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-tomcat",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-tomcat",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-tomcat-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-tomcat@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "93b102fb7c2eb6558b8e52fb24f1152c837db3f6",
+        "sha256": "5402dfeef5d6633b485d6ce8d1cfb2116c7a55e70f8f5dbd31b69ca43e006f13"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-transaction",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-transaction",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-transaction-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-transaction@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "fcd0b07c0c7e29f42e495f91710154dbc81d2c8c",
+        "sha256": "38e3409dc8050e14afcfe14b7bb09f10d1077c7fbd33150ba2698d53dd79b4cc"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-validation",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-validation",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-validation-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-validation@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "e67513b382c2cef7b8bc364e8e85cd7f0940e331",
+        "sha256": "a8541ccbd29f5a8db7e6092fa83463aa4d1c002fac07b8b5babe118ad6c4a3d3"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-web-server",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-web-server",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-web-server-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-web-server@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "2cb542ef7d4fa572d3031616544db20b6f7de4c7",
+        "sha256": "ab21735a550cbfefaa4ad6ffbb1a891592580ef05ad729cd2025bc0245862b55"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-webmvc",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-boot-webmvc",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-boot-webmvc-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-webmvc@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "e8d1077d09c20e9ecf3574a72ce5cc90a29b902a",
+        "sha256": "c9e41d45b30aacc0ce50c4426f0650a3544c066ab5d6d0304840e6f878388c5c"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.data:spring-data-commons",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-data-commons",
+      "namespace": "org.springframework.data",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-data-commons-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.data/spring-data-commons@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "6387c88a4a9637f129e0ebcad50ada478ad01c3f",
+        "sha256": "60b72b0513faecb3ef51f53f35d74de68b193af06dc7c1c66b54e265762bad66"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.data:spring-data-jpa",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-data-jpa",
+      "namespace": "org.springframework.data",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-data-jpa-4.1.0.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.data/spring-data-jpa@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "b73e58e9b7dbc4db6b4ebbe3336be0e901b0d261",
+        "sha256": "1178f039e087884174e2affc46e484f4a8bd7f2a4e011d33dd9137709f740f80"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-aop",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-aop",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-aop-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-aop@7.0.8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "daf535194ee6cd1e1e23c7368c58b5f02fe18f65",
+        "sha256": "f5e7eb54ff5b6355976977401852c0f0670312aa2f18c153d29ff02943883b06"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-aspects",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-aspects",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-aspects-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-aspects@7.0.8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "829cdf4c82a9409e0e10922b9e57e2ef12d5f04d",
+        "sha256": "6ec2e361a8872a71d8b1ff66f1bcb8cfa29fcc437931998919da7cecfb59b45b"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-beans",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-beans",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-beans-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-beans@7.0.8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "6c58b590fd8d71afc36797cf6555e82500f1eb64",
+        "sha256": "1eb7d552414ebac00e30ab3e809138d810785f6d2c4271db77cdf0181f308f19"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-context",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-context",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-context-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-context@7.0.8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "1c9bd9da34fca09f3423d86f8e33bd9c099232eb",
+        "sha256": "9ab80715682c47ad66a1a2c0e9ab2be9ec3d828276f281597f12c5208147b92e"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-context-support",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-context-support",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-context-support-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-context-support@7.0.8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "025f5ebd179f92d7d12779e3761c96da4b0109ad",
+        "sha256": "726ba2a5130833644bdf267a55ff26e1f52e8dcc9aa1ffa06904ca9c14619f25"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-core",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-core",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-core-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-core@7.0.8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "bb844eefd513820e356b575d7ea0f7084147af59",
+        "sha256": "3c97c38ab59c77ee886e08ccf8096f6bb58a1245f68dfed7a40e93f41c435f9a"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-expression",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-expression",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-expression-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-expression@7.0.8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "f979da380cd01fd363510ca98a7f544d1959a914",
+        "sha256": "7d6bbf130ed919d5f4f01ec0ea771ab59ac3936ab29f50fd3a705c0119871e32"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-jdbc",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-jdbc",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-jdbc-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-jdbc@7.0.8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "8c40fad8ecc72337353818da54ef2d104b3fa7a9",
+        "sha256": "3ff1ad6ab4ebcc7dc9ef02f40aa60790bddead11b0e0fc7f75cb20f41f7d291e"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-orm",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-orm",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-orm-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-orm@7.0.8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "96c66acfb3920457421a9cb3648a32e62f42f815",
+        "sha256": "57e8fdb6de949e7ec2617683fec03af0253bdbdf4bf3d2651a926a94413df283"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-tx",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-tx",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-tx-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-tx@7.0.8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "d7cddac31ee023d25d37f48e2ff0e168cf635c14",
+        "sha256": "4d4ed7ecb0453d25d735ea27d025ea36b003c3d29cb7d006bedd6d5188a2f5c0"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-web",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-web",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-web-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-web@7.0.8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "d08172cf66f9625a42935d596ca4c83d21265996",
+        "sha256": "48f7e1e2d0d46e98ed3fa30d5a64cb1f7ed2aa339a82edcd87289ed8ff216f04"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework:spring-webmvc",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "spring-webmvc",
+      "namespace": "org.springframework",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/spring-webmvc-7.0.8.jar"
+      ],
+      "purl": "pkg:maven/org.springframework/spring-webmvc@7.0.8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "7.0.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "8986b45086f74f7773c440055a2f473817dd3fa8",
+        "sha256": "4011795f8494dd69e764b7709443dd13d3068ba8ac37624f61d7084f4429cbe2"
+      },
+      "instances": 1,
+      "key": "maven:org.thymeleaf:thymeleaf",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "thymeleaf",
+      "namespace": "org.thymeleaf",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/thymeleaf-3.1.5.RELEASE.jar"
+      ],
+      "purl": "pkg:maven/org.thymeleaf/thymeleaf@3.1.5.RELEASE",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "3.1.5.RELEASE"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "d9dcb89be976a321df29518cc634d89a83973800",
+        "sha256": "fd5d306052d7aa6769a8ec77778d328e6f7c83af5ac074df38035bbb1e9cd72b"
+      },
+      "instances": 1,
+      "key": "maven:org.thymeleaf:thymeleaf-spring6",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "thymeleaf-spring6",
+      "namespace": "org.thymeleaf",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/thymeleaf-spring6-3.1.5.RELEASE.jar"
+      ],
+      "purl": "pkg:maven/org.thymeleaf/thymeleaf-spring6@3.1.5.RELEASE",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "3.1.5.RELEASE"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename + groupId from mvn dependency:list",
+      "hashes": {
+        "sha1": "7b90360afb2b860e09e8347112800d12c12b2a13",
+        "sha256": "597cf87d5b1a4f385b9d1cec974b7b483abb3ee85fc5b3f8b62af8e4bec95c2c"
+      },
+      "instances": 1,
+      "key": "maven:org.unbescape:unbescape",
+      "license": null,
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "unbescape",
+      "namespace": "org.unbescape",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/unbescape-1.1.6.RELEASE.jar"
+      ],
+      "purl": "pkg:maven/org.unbescape/unbescape@1.1.6.RELEASE",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.1.6.RELEASE"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "1a2f960f569cba04bce1c79ff07ab8985a0f56a0",
+        "sha256": "991601b619666dd6d259d2dd3b38579f8f2a53341e22198ccb8d96ad7913e918"
+      },
+      "instances": 1,
+      "key": "maven:org.webjars.npm:bootstrap",
+      "license": "MIT",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "bootstrap",
+      "namespace": "org.webjars.npm",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/bootstrap-5.3.8.jar"
+      ],
+      "purl": "pkg:maven/org.webjars.npm/bootstrap@5.3.8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "5.3.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "309276dbcb8afe0482a1698a78b081b918e0e445",
+        "sha256": "d786751120afe993113902d3eaccb4f596cfd5c98583a2abd76f6a57a8af865a"
+      },
+      "instances": 1,
+      "key": "maven:org.webjars.npm:font-awesome",
+      "license": "Openfont-1.1",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "font-awesome",
+      "namespace": "org.webjars.npm",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/font-awesome-4.7.0.jar"
+      ],
+      "purl": "pkg:maven/org.webjars.npm/font-awesome@4.7.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.7.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "217ce590453251b39b72c4a9af3986998f6fdbd9",
+        "sha256": "7b67c4e69437a9c32b9c901bfaa056c7e2f1db62401757f02387c1f014bd00c4"
+      },
+      "instances": 1,
+      "key": "maven:org.webjars:webjars-locator-lite",
+      "license": "MIT",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "webjars-locator-lite",
+      "namespace": "org.webjars",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/webjars-locator-lite-1.1.3.jar"
+      ],
+      "purl": "pkg:maven/org.webjars/webjars-locator-lite@1.1.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.1.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "2bc14918a2f8d5414749ab12d0c590cd3198b8c1",
+        "sha256": "c8f7a98e7394adda02f6317249710e4d1b4c7a25aa8c7eace0c2eea52eb8bf85"
+      },
+      "instances": 1,
+      "key": "maven:org.yaml:snakeyaml",
+      "license": "Apache License, Version 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "snakeyaml",
+      "namespace": "org.yaml",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/snakeyaml-2.6.jar"
+      ],
+      "purl": "pkg:maven/org.yaml/snakeyaml@2.6",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.6"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "f9fd39204bd3d4922b42f6a54b81f46bd8ed575a",
+        "sha256": "3bda1cd6eff0a8d47bdfcaeae7c2bd5311d6c8ed494ef5f3e51029bb44aa9bdf"
+      },
+      "instances": 1,
+      "key": "maven:tools.jackson.core:jackson-core",
+      "license": "The Apache Software License, Version 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jackson-core",
+      "namespace": "tools.jackson.core",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jackson-core-3.1.4.jar"
+      ],
+      "purl": "pkg:maven/tools.jackson.core/jackson-core@3.1.4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "3.1.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "pom.properties",
+      "hashes": {
+        "sha1": "c7be3c757289893a791b2a4967ec09d1a8b6c576",
+        "sha256": "14034bfdf392b6ebec1b4bb6c1de29d604f0aa97251259a19d5f19af8719bb20"
+      },
+      "instances": 1,
+      "key": "maven:tools.jackson.core:jackson-databind",
+      "license": "The Apache Software License, Version 2.0",
+      "mechanism": "nested-jar",
+      "mechanisms": [
+        "nested-jar"
+      ],
+      "name": "jackson-databind",
+      "namespace": "tools.jackson.core",
+      "paths": [
+        "app/app.jar!/BOOT-INF/lib/jackson-databind-3.1.4.jar"
+      ],
+      "purl": "pkg:maven/tools.jackson.core/jackson-databind@3.1.4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "3.1.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::brotli",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "brotli",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/brotli@1.0.9-2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.0.9-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::expat",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "expat",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/expat@2.5.0-1%2Bdeb12u2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.5.0-1+deb12u2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::fontconfig",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "fontconfig",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/fontconfig@2.14.1-4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.14.1-4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::fonts-dejavu",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "fonts-dejavu",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/fonts-dejavu@2.37-6",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.37-6"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::freetype",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "freetype",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/freetype@2.12.1%2Bdfsg-5%2Bdeb12u4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.12.1+dfsg-5+deb12u4"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::gcc-12",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "gcc-12",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/gcc-12@12.2.0-14%2Bdeb12u1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "12.2.0-14+deb12u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::glib2.0",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "glib2.0",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/glib2.0@2.74.6-2%2Bdeb12u8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.74.6-2+deb12u8"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::glibc",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "glibc",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/glibc@2.36-9%2Bdeb12u13",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.36-9+deb12u13"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::graphite2",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "graphite2",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/graphite2@1.3.14-1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.3.14-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::harfbuzz",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "harfbuzz",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/harfbuzz@6.0.0%2Bdfsg-3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "6.0.0+dfsg-3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::lcms2",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "lcms2",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/lcms2@2.14-2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.14-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libjpeg-turbo",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libjpeg-turbo",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/libjpeg-turbo@1:2.1.5-2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1:2.1.5-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libpng1.6",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libpng1.6",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/libpng1.6@1.6.39-2%2Bdeb12u3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.6.39-2+deb12u3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::libxcrypt",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libxcrypt",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/libxcrypt@1:4.4.33-2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1:4.4.33-2"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::openjdk-17",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "openjdk-17",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/openjdk-17@17.0.18%2B8-1~deb12u1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "17.0.18+8-1~deb12u1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::pcre2",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "pcre2",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/pcre2@10.42-1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "10.42-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::util-linux",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "util-linux",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/util-linux@2.38.1-5%2Bdeb12u3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.38.1-5+deb12u3"
+    },
+    {
+      "alt_names": [],
+      "eco": "deb",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "deb::zlib",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "zlib",
+      "namespace": "debian",
+      "paths": [],
+      "purl": "pkg:deb/debian/zlib@1:1.2.13.dfsg-1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1:1.2.13.dfsg-1"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "filename (groupId unknown)",
+      "hashes": {
+        "sha1": "2e1da5bab2609fdf746cbd5d6cda7105bde64716",
+        "sha256": "e1a62a4758b424960c60c997f904f7c153ee247204fc6b5dda8f69e9add2eff6"
+      },
+      "instances": 1,
+      "key": "maven::jrt-fs",
+      "license": null,
+      "mechanism": "runtime-internal",
+      "mechanisms": [
+        "runtime-internal"
+      ],
+      "name": "jrt-fs",
+      "namespace": null,
+      "paths": [
+        "usr/lib/jvm/java-17-openjdk-amd64/lib/jrt-fs.jar"
+      ],
+      "purl": "pkg:maven/jrt-fs@17.0.18",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "17.0.18"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "loader classes in fat JAR",
+      "hashes": {},
+      "instances": 1,
+      "key": "maven:org.springframework.boot:spring-boot-loader",
+      "license": null,
+      "mechanism": "boot-loader-classes",
+      "mechanisms": [
+        "boot-loader-classes"
+      ],
+      "name": "spring-boot-loader",
+      "namespace": "org.springframework.boot",
+      "paths": [
+        "app/app.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-loader@4.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "4.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "maven",
+      "evidence": "MANIFEST Implementation-Title/-Version + groupId from build.gradle",
+      "hashes": {
+        "sha1": "8e9fadb25bbdd85e4c55fa6dcae52973dbb16e31",
+        "sha256": "5176b91010124c19aa0ca296fdb2f75f06ee03d26a4a3f2c44bb89988d1be944"
+      },
+      "instances": 1,
+      "key": "maven:org.springframework.samples:spring-petclinic",
+      "license": null,
+      "mechanism": "self",
+      "mechanisms": [
+        "self"
+      ],
+      "name": "spring-petclinic",
+      "namespace": "org.springframework.samples",
+      "paths": [
+        "app/app.jar"
+      ],
+      "purl": "pkg:maven/org.springframework.samples/spring-petclinic@4.0.0-SNAPSHOT",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "4.0.0-SNAPSHOT"
+    }
+  ],
+  "generated_utc": "2026-11-25T09:11:15+00:00",
+  "kind": "image",
+  "notes": [
+    "os-release: ID=debian VERSION_ID=12",
+    "JDK at usr/lib/jvm/java-17-openjdk-amd64/release belongs to an OS package; not counted again as a runtime"
+  ],
+  "os": {
+    "id": "debian",
+    "pretty_name": "Distroless",
+    "version_id": "12"
+  },
+  "stage": "S3",
+  "stats": {
+    "by_eco": {
+      "deb": 43,
+      "maven": 96
+    },
+    "by_mechanism": {
+      "boot-loader-classes": 1,
+      "nested-jar": 93,
+      "os-pm": 25,
+      "runtime-internal": 1,
+      "self": 1,
+      "source-package": 18
+    },
+    "by_tier": {
+      "primary": 118,
+      "secondary": 21
+    },
+    "total": 139
+  },
+  "subject": "petclinic-gradle",
+  "target": "G-S3-distroless"
+}

@@ -1,0 +1,5850 @@
+{
+  "components": [
+    {
+      "alt_names": [
+        "busybox"
+      ],
+      "eco": "generic",
+      "evidence": "version banner in the binary",
+      "hashes": {},
+      "instances": 1,
+      "key": "generic::busybox",
+      "license": null,
+      "mechanism": "no-package-db",
+      "mechanisms": [
+        "no-package-db"
+      ],
+      "name": "busybox",
+      "namespace": null,
+      "paths": [
+        "bin/busybox"
+      ],
+      "purl": "pkg:generic/busybox@1.38.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.38.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::cloud.google.com/go/auth",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "cloud.google.com/go/auth",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/cloud.google.com/go/auth@v0.24.1-0.20261001053825-dbc26066f70a",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.24.1-0.20261001053825-dbc26066f70a"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::cloud.google.com/go/auth/oauth2adapt",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "cloud.google.com/go/auth/oauth2adapt",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/cloud.google.com/go/auth/oauth2adapt@v0.3.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.3.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::cloud.google.com/go/compute/metadata",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "cloud.google.com/go/compute/metadata",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/cloud.google.com/go/compute/metadata@v0.10.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.10.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/alecthomas/kingpin/v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/alecthomas/kingpin/v2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/alecthomas/kingpin/v2@v2.4.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.4.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/alecthomas/units",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/alecthomas/units",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/alecthomas/units@v0.0.0-20240927000941-0f3dac36c52b",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20240927000941-0f3dac36c52b"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/armon/go-metrics",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/armon/go-metrics",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/armon/go-metrics@v0.4.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.4.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/aws-sdk-go",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/aws-sdk-go",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.55.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/aws-sdk-go-v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/aws-sdk-go-v2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2@v1.47.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.47.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/aws-sdk-go-v2/config",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/aws-sdk-go-v2/config",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/config@v1.33.9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.33.9"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/aws-sdk-go-v2/credentials",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/aws-sdk-go-v2/credentials",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/credentials@v1.20.9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.20.9"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/feature/ec2/imds@v1.20.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.20.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/aws-sdk-go-v2/internal/configsources",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/aws-sdk-go-v2/internal/configsources",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/internal/configsources@v1.5.6",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.5.6"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/internal/endpoints/v2@v2.8.6",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.8.6"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/aws-sdk-go-v2/internal/v4a",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/aws-sdk-go-v2/internal/v4a",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/internal/v4a@v1.5.6",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.5.6"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/aws-sdk-go-v2/service/ec2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/aws-sdk-go-v2/service/ec2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/ec2@v1.339.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.339.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/aws-sdk-go-v2/service/ecs",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/aws-sdk-go-v2/service/ecs",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/ecs@v1.101.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.101.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/aws-sdk-go-v2/service/elasticache",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/aws-sdk-go-v2/service/elasticache",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/elasticache@v1.63.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.63.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding@v1.13.21",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.13.21"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/internal/presigned-url@v1.14.6",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.14.6"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/aws-sdk-go-v2/service/kafka",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/aws-sdk-go-v2/service/kafka",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/kafka@v1.65.5",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.65.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/aws-sdk-go-v2/service/lightsail",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/aws-sdk-go-v2/service/lightsail",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/lightsail@v1.66.5",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.66.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/aws-sdk-go-v2/service/rds",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/aws-sdk-go-v2/service/rds",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/rds@v1.130.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.130.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/aws-sdk-go-v2/service/signin",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/aws-sdk-go-v2/service/signin",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/signin@v1.10.4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.10.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/aws-sdk-go-v2/service/sso",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/aws-sdk-go-v2/service/sso",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/sso@v1.38.4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.38.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/aws-sdk-go-v2/service/ssooidc",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/ssooidc@v1.43.4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.43.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/aws-sdk-go-v2/service/sts",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/aws-sdk-go-v2/service/sts",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/sts@v1.51.4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.51.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/aws/smithy-go",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/aws/smithy-go",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/aws/smithy-go@v1.28.5",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.28.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/azure/azure-sdk-for-go/sdk/azcore",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/azcore",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go/sdk/azcore@v1.23.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.23.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/azure/azure-sdk-for-go/sdk/azidentity",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go/sdk/azidentity@v1.15.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.15.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/azure/azure-sdk-for-go/sdk/internal",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/internal",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go/sdk/internal@v1.13.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.13.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/azure/azure-sdk-for-go/sdk/resourcemanager/compute/armcompute/v8",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/compute/armcompute/v8",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/compute/armcompute/v8@v8.4.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v8.4.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/azure/azure-sdk-for-go/sdk/resourcemanager/network/armnetwork/v8",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/network/armnetwork/v8",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/network/armnetwork/v8@v8.0.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v8.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/azuread/microsoft-authentication-library-for-go",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/AzureAD/microsoft-authentication-library-for-go",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/AzureAD/microsoft-authentication-library-for-go@v1.10.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.10.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/bahlo/generic-list-go",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/bahlo/generic-list-go",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/bahlo/generic-list-go@v0.2.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.2.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/bboreham/go-loser",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/bboreham/go-loser",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/bboreham/go-loser@v0.0.0-20230920113527-fcc2c21820a3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20230920113527-fcc2c21820a3"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/beorn7/perks",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/beorn7/perks",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/beorn7/perks@v1.0.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/buger/jsonparser",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/buger/jsonparser",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/buger/jsonparser@v1.1.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.1.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/cenkalti/backoff/v5",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/cenkalti/backoff/v5",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/cenkalti/backoff/v5@v5.0.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v5.0.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/cespare/xxhash/v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/cespare/xxhash/v2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/cespare/xxhash/v2@v2.3.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.3.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/cncf/xds/go",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/cncf/xds/go",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/cncf/xds/go@v0.0.0-20260202195803-dba9d589def2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20260202195803-dba9d589def2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/code-hex/go-generics-cache",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/Code-Hex/go-generics-cache",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/Code-Hex/go-generics-cache@v1.5.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.5.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/containerd/errdefs",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/containerd/errdefs",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/containerd/errdefs@v1.0.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/containerd/errdefs/pkg",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/containerd/errdefs/pkg",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/containerd/errdefs/pkg@v0.3.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.3.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/coreos/go-systemd/v22",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/coreos/go-systemd/v22",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/coreos/go-systemd/v22@v22.7.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v22.7.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/davecgh/go-spew",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/davecgh/go-spew",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/davecgh/go-spew@v1.1.2-0.20180830191138-d8f796af33cc",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.1.2-0.20180830191138-d8f796af33cc"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/dennwc/varint",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/dennwc/varint",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/dennwc/varint@v1.0.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/digitalocean/godo",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/digitalocean/godo",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/digitalocean/godo@v1.229.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.229.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/distribution/reference",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/distribution/reference",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/distribution/reference@v0.6.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.6.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/docker/go-connections",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/docker/go-connections",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/docker/go-connections@v0.8.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.8.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/docker/go-units",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/docker/go-units",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/docker/go-units@v0.5.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.5.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/edsrzf/mmap-go",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/edsrzf/mmap-go",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/edsrzf/mmap-go@v1.2.1-0.20241212181136-fad1cd13edbd",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.2.1-0.20241212181136-fad1cd13edbd"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/emicklei/go-restful/v3",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/emicklei/go-restful/v3",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/emicklei/go-restful/v3@v3.13.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v3.13.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/envoyproxy/go-control-plane/envoy",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/envoyproxy/go-control-plane/envoy",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/envoyproxy/go-control-plane/envoy@v1.40.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.40.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/envoyproxy/protoc-gen-validate",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/envoyproxy/protoc-gen-validate",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/envoyproxy/protoc-gen-validate@v1.3.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.3.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/facette/natsort",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/facette/natsort",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/facette/natsort@v0.0.0-20181210072756-2cd4dd1e2dcb",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20181210072756-2cd4dd1e2dcb"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/fatih/color",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/fatih/color",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/fatih/color@v1.19.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.19.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/felixge/fgprof",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/felixge/fgprof",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/felixge/fgprof@v0.9.5",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.9.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/felixge/httpsnoop",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/felixge/httpsnoop",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/felixge/httpsnoop@v1.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/fsnotify/fsnotify",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/fsnotify/fsnotify",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/fsnotify/fsnotify@v1.10.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.10.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/fxamacker/cbor/v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/fxamacker/cbor/v2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/fxamacker/cbor/v2@v2.9.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-logr/logr",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-logr/logr",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-logr/logr@v1.4.4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.4.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-logr/stdr",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-logr/stdr",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-logr/stdr@v1.2.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.2.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-openapi/analysis",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-openapi/analysis",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/analysis@v1.0.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-openapi/errors",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-openapi/errors",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/errors@v0.22.9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.22.9"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-openapi/jsonpointer",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-openapi/jsonpointer",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/jsonpointer@v1.0.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-openapi/jsonreference",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-openapi/jsonreference",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/jsonreference@v1.0.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-openapi/loads",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-openapi/loads",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/loads@v0.25.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.25.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-openapi/spec",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-openapi/spec",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/spec@v1.0.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-openapi/strfmt",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-openapi/strfmt",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/strfmt@v0.27.4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.27.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-openapi/swag",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-openapi/swag",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/swag@v0.29.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.29.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-openapi/swag/cmdutils",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-openapi/swag/cmdutils",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/swag/cmdutils@v0.29.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.29.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-openapi/swag/conv",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-openapi/swag/conv",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/swag/conv@v0.29.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.29.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-openapi/swag/fileutils",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-openapi/swag/fileutils",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/swag/fileutils@v0.29.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.29.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-openapi/swag/jsonutils",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-openapi/swag/jsonutils",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/swag/jsonutils@v0.29.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.29.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-openapi/swag/loading",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-openapi/swag/loading",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/swag/loading@v0.29.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.29.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-openapi/swag/mangling",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-openapi/swag/mangling",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/swag/mangling@v0.29.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.29.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-openapi/swag/netutils",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-openapi/swag/netutils",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/swag/netutils@v0.29.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.29.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-openapi/swag/pools",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-openapi/swag/pools",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/swag/pools@v0.29.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.29.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-openapi/swag/stringutils",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-openapi/swag/stringutils",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/swag/stringutils@v0.29.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.29.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-openapi/swag/typeutils",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-openapi/swag/typeutils",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/swag/typeutils@v0.29.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.29.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-openapi/swag/yamlutils",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-openapi/swag/yamlutils",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/swag/yamlutils@v0.29.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.29.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-openapi/validate",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-openapi/validate",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-openapi/validate@v1.0.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-resty/resty/v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-resty/resty/v2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-resty/resty/v2@v2.17.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.17.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-viper/mapstructure/v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-viper/mapstructure/v2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-viper/mapstructure/v2@v2.5.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.5.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/go-zookeeper/zk",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/go-zookeeper/zk",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/go-zookeeper/zk@v1.0.4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/gobwas/glob",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/gobwas/glob",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/gobwas/glob@v0.2.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.2.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/gofrs/flock",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/gofrs/flock",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/gofrs/flock@v0.13.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.13.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/gogo/protobuf",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/gogo/protobuf",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/gogo/protobuf@v1.3.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.3.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/golang-jwt/jwt/v5",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/golang-jwt/jwt/v5",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/golang-jwt/jwt/v5@v5.3.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v5.3.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/golang/snappy",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/golang/snappy",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/golang/snappy@v1.0.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/google/gnostic-models",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/google/gnostic-models",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/google/gnostic-models@v0.7.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.7.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/google/go-cmp",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/google/go-cmp",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/google/go-cmp@v0.7.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.7.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/google/go-querystring",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/google/go-querystring",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/google/go-querystring@v1.2.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.2.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/google/pprof",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/google/pprof",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/google/pprof@v0.0.0-20261016150608-1facf8f91b50",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20261016150608-1facf8f91b50"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/google/s2a-go",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/google/s2a-go",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/google/s2a-go@v0.1.11",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.1.11"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/google/uuid",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/google/uuid",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/google/uuid@v1.6.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.6.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/googleapis/enterprise-certificate-proxy",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/googleapis/enterprise-certificate-proxy",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/googleapis/enterprise-certificate-proxy@v0.3.23",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.3.23"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/googleapis/gax-go/v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/googleapis/gax-go/v2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/googleapis/gax-go/v2@v2.26.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.26.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/gophercloud/gophercloud/v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/gophercloud/gophercloud/v2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/gophercloud/gophercloud/v2@v2.15.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.15.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/gorilla/websocket",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/gorilla/websocket",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/gorilla/websocket@v1.5.4-0.20250319132907-e064f32e3674",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.5.4-0.20250319132907-e064f32e3674"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/grafana/regexp",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/grafana/regexp",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/grafana/regexp@v0.0.0-20250905093917-f7b3be9d1853",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20250905093917-f7b3be9d1853"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/grpc-ecosystem/grpc-gateway/v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/grpc-ecosystem/grpc-gateway/v2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/grpc-ecosystem/grpc-gateway/v2@v2.32.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.32.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/hashicorp/consul/api",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/hashicorp/consul/api",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/hashicorp/consul/api@v1.34.5",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.34.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/hashicorp/cronexpr",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/hashicorp/cronexpr",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/hashicorp/cronexpr@v1.1.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.1.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/hashicorp/errwrap",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/hashicorp/errwrap",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/hashicorp/errwrap@v1.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/hashicorp/go-cleanhttp",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/hashicorp/go-cleanhttp",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/hashicorp/go-cleanhttp@v0.5.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.5.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/hashicorp/go-hclog",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/hashicorp/go-hclog",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/hashicorp/go-hclog@v1.6.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.6.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/hashicorp/go-immutable-radix",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/hashicorp/go-immutable-radix",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/hashicorp/go-immutable-radix@v1.3.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.3.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/hashicorp/go-metrics",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/hashicorp/go-metrics",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/hashicorp/go-metrics@v0.6.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.6.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/hashicorp/go-multierror",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/hashicorp/go-multierror",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/hashicorp/go-multierror@v1.1.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.1.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/hashicorp/go-retryablehttp",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/hashicorp/go-retryablehttp",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/hashicorp/go-retryablehttp@v0.7.8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.7.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/hashicorp/go-rootcerts",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/hashicorp/go-rootcerts",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/hashicorp/go-rootcerts@v1.0.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/hashicorp/go-version",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/hashicorp/go-version",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/hashicorp/go-version@v1.9.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.9.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/hashicorp/golang-lru",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/hashicorp/golang-lru",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/hashicorp/golang-lru@v1.0.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/hashicorp/nomad/api",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/hashicorp/nomad/api",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/hashicorp/nomad/api@v0.0.0-20261016150620-df630b26e78a",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20261016150620-df630b26e78a"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/hashicorp/serf",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/hashicorp/serf",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/hashicorp/serf@v0.10.4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.10.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/hetznercloud/hcloud-go/v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/hetznercloud/hcloud-go/v2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/hetznercloud/hcloud-go/v2@v2.52.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.52.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/ionos-cloud/sdk-go/v6",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/ionos-cloud/sdk-go/v6",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/ionos-cloud/sdk-go/v6@v6.3.11",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v6.3.11"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/jmespath/go-jmespath",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/jmespath/go-jmespath",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/jmespath/go-jmespath@v0.4.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.4.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/jpillora/backoff",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/jpillora/backoff",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/jpillora/backoff@v1.0.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/json-iterator/go",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/json-iterator/go",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/json-iterator/go@v1.1.12",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.1.12"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/julienschmidt/httprouter",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/julienschmidt/httprouter",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/julienschmidt/httprouter@v1.3.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.3.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/kimmachinegun/automemlimit",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/KimMachineGun/automemlimit",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/KimMachineGun/automemlimit@v1.0.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/klauspost/compress",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/klauspost/compress",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/klauspost/compress@v1.20.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.20.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/knadh/koanf/maps",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/knadh/koanf/maps",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/knadh/koanf/maps@v0.1.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.1.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/knadh/koanf/providers/confmap",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/knadh/koanf/providers/confmap",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/knadh/koanf/providers/confmap@v1.0.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/knadh/koanf/v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/knadh/koanf/v2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/knadh/koanf/v2@v2.3.8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.3.8"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/kolo/xmlrpc",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/kolo/xmlrpc",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/kolo/xmlrpc@v0.0.0-20220921171641-a4b6fa1dd06b",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20220921171641-a4b6fa1dd06b"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/kylelemons/godebug",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/kylelemons/godebug",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/kylelemons/godebug@v1.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/linode/linodego",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/linode/linodego",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/linode/linodego@v1.69.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.69.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/mattn/go-colorable",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/mattn/go-colorable",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/mattn/go-colorable@v0.1.16",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.1.16"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/mattn/go-isatty",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/mattn/go-isatty",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/mattn/go-isatty@v0.0.24",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.24"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/mdlayher/socket",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/mdlayher/socket",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/mdlayher/socket@v0.6.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.6.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/mdlayher/vsock",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/mdlayher/vsock",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/mdlayher/vsock@v1.3.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.3.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/miekg/dns",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/miekg/dns",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/miekg/dns@v1.1.73",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.1.73"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/mitchellh/copystructure",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/mitchellh/copystructure",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/mitchellh/copystructure@v1.2.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.2.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/mitchellh/reflectwalk",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/mitchellh/reflectwalk",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/mitchellh/reflectwalk@v1.0.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/moby/docker-image-spec",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/moby/docker-image-spec",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/moby/docker-image-spec@v1.3.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.3.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/moby/moby/api",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/moby/moby/api",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/moby/moby/api@v1.56.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.56.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/moby/moby/client",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/moby/moby/client",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/moby/moby/client@v0.6.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.6.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/modern-go/concurrent",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/modern-go/concurrent",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20180306012644-bacd9c7ef1dd"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/modern-go/reflect2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/modern-go/reflect2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/modern-go/reflect2@v1.0.3-0.20250322232337-35a7c28c31ee",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.3-0.20250322232337-35a7c28c31ee"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/munnerz/goautoneg",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/munnerz/goautoneg",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20191010083416-a7dc8b61c822"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/mwitkow/go-conntrack",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/mwitkow/go-conntrack",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/mwitkow/go-conntrack@v0.0.0-20190716064945-2f068394615f",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20190716064945-2f068394615f"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/nsf/jsondiff",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/nsf/jsondiff",
+      "namespace": null,
+      "paths": [
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/nsf/jsondiff@v0.0.0-20260207060731-8e8d90c4c0ac",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20260207060731-8e8d90c4c0ac"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/oklog/run",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/oklog/run",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/oklog/run@v1.2.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.2.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/oklog/ulid/v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/oklog/ulid/v2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/oklog/ulid/v2@v2.1.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.1.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/open-telemetry/opentelemetry-collector-contrib/internal/exp/metrics",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/open-telemetry/opentelemetry-collector-contrib/internal/exp/metrics",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/open-telemetry/opentelemetry-collector-contrib/internal/exp/metrics@v0.163.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.163.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor@v0.163.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.163.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/opencontainers/go-digest",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/opencontainers/go-digest",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/opencontainers/go-digest@v1.0.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/opencontainers/image-spec",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/opencontainers/image-spec",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/opencontainers/image-spec@v1.1.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.1.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/oracle/oci-go-sdk/v65",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/oracle/oci-go-sdk/v65",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/oracle/oci-go-sdk/v65@v65.127.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v65.127.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/outscale/osc-sdk-go/v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/outscale/osc-sdk-go/v2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/outscale/osc-sdk-go/v2@v2.35.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.35.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/ovh/go-ovh",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/ovh/go-ovh",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/ovh/go-ovh@v1.9.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.9.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/pb33f/go-yaml",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/pb33f/go-yaml",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/pb33f/go-yaml@v0.1.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.1.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/pb33f/jsonpath",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/pb33f/jsonpath",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/pb33f/jsonpath@v0.8.4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.8.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/pb33f/libopenapi",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/pb33f/libopenapi",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/pb33f/libopenapi@v0.41.6",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.41.6"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/pb33f/ordered-map/v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/pb33f/ordered-map/v2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/pb33f/ordered-map/v2@v2.3.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.3.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/pbnjay/memory",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/pbnjay/memory",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/pbnjay/memory@v0.0.0-20210728143218-7b4eea64cf58",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20210728143218-7b4eea64cf58"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/pkg/browser",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/pkg/browser",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/pkg/browser@v0.0.0-20240102092130-5ac0b6a4141c",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20240102092130-5ac0b6a4141c"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/pmezard/go-difflib",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/pmezard/go-difflib",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/pmezard/go-difflib@v1.0.1-0.20181226105442-5d4384ee4fb2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.1-0.20181226105442-5d4384ee4fb2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/prometheus/alertmanager",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/prometheus/alertmanager",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/prometheus/alertmanager@v0.34.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.34.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/prometheus/client_golang",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/prometheus/client_golang",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/prometheus/client_golang@v1.25.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.25.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/prometheus/client_golang/exp",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/prometheus/client_golang/exp",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/prometheus/client_golang/exp@v0.0.0-20261019101427-217707f26b14",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20261019101427-217707f26b14"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/prometheus/client_model",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/prometheus/client_model",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/prometheus/client_model@v0.6.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.6.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/prometheus/common",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/prometheus/common",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/prometheus/common@v0.72.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.72.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/prometheus/common/assets",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/prometheus/common/assets",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/prometheus/common/assets@v0.2.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.2.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/prometheus/exporter-toolkit",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/prometheus/exporter-toolkit",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/prometheus/exporter-toolkit@v0.20.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.20.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/prometheus/otlptranslator",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/prometheus/otlptranslator",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/prometheus/otlptranslator@v1.0.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/prometheus/procfs",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/prometheus/procfs",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/prometheus/procfs@v0.22.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.22.0"
+    },
+    {
+      "alt_names": [
+        "prometheus",
+        "promtool"
+      ],
+      "eco": "golang",
+      "evidence": "Go build info (main module)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/prometheus/prometheus",
+      "license": null,
+      "mechanism": "manual-download",
+      "mechanisms": [
+        "manual-download"
+      ],
+      "name": "github.com/prometheus/prometheus",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/prometheus/prometheus@v0.0.0-20261105150651-e2e28adeee2c%2Bdirty",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20261105150651-e2e28adeee2c+dirty"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/prometheus/sigv4",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/prometheus/sigv4",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/prometheus/sigv4@v0.5.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.5.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/puzpuzpuz/xsync/v4",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/puzpuzpuz/xsync/v4",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/github.com/puzpuzpuz/xsync/v4@v4.5.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v4.5.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/scaleway/scaleway-sdk-go",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/scaleway/scaleway-sdk-go",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/scaleway/scaleway-sdk-go@v1.39.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.39.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/sony/gobreaker/v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/sony/gobreaker/v2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/sony/gobreaker/v2@v2.4.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.4.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/spf13/pflag",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/spf13/pflag",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/spf13/pflag@v1.0.10",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.10"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/stackitcloud/stackit-sdk-go/core",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/stackitcloud/stackit-sdk-go/core",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/stackitcloud/stackit-sdk-go/core@v0.27.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.27.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/stretchr/testify",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/stretchr/testify",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/stretchr/testify@v1.12.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.12.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/vultr/govultr/v3",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/vultr/govultr/v3",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/vultr/govultr/v3@v3.33.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v3.33.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/x448/float16",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/x448/float16",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/x448/float16@v0.8.4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.8.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/xhit/go-str2duration/v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/xhit/go-str2duration/v2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/xhit/go-str2duration/v2@v2.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::github.com/youmark/pkcs8",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/youmark/pkcs8",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/github.com/youmark/pkcs8@v0.0.0-20240726163527-a2c0da244d78",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20240726163527-a2c0da244d78"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::go.opentelemetry.io/auto/sdk",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/auto/sdk",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/auto/sdk@v1.2.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.2.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::go.opentelemetry.io/collector/component",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/collector/component",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/collector/component@v1.69.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.69.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::go.opentelemetry.io/collector/confmap",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/collector/confmap",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/collector/confmap@v1.69.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.69.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::go.opentelemetry.io/collector/consumer",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/collector/consumer",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/collector/consumer@v1.69.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.69.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::go.opentelemetry.io/collector/consumer/xconsumer",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/collector/consumer/xconsumer",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/collector/consumer/xconsumer@v0.163.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.163.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::go.opentelemetry.io/collector/featuregate",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/collector/featuregate",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/collector/featuregate@v1.69.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.69.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::go.opentelemetry.io/collector/internal/componentalias",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/collector/internal/componentalias",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/collector/internal/componentalias@v0.163.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.163.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::go.opentelemetry.io/collector/pdata",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/collector/pdata",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/collector/pdata@v1.69.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.69.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::go.opentelemetry.io/collector/pdata/pprofile",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/collector/pdata/pprofile",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/collector/pdata/pprofile@v0.163.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.163.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::go.opentelemetry.io/collector/pdata/xpdata",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/collector/pdata/xpdata",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/collector/pdata/xpdata@v0.163.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.163.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::go.opentelemetry.io/collector/pipeline",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/collector/pipeline",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/collector/pipeline@v1.69.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.69.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::go.opentelemetry.io/collector/processor",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/collector/processor",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/collector/processor@v1.69.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.69.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::go.opentelemetry.io/collector/processor/xprocessor",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/collector/processor/xprocessor",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/collector/processor/xprocessor@v0.163.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.163.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace@v0.72.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.72.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.72.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.72.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::go.opentelemetry.io/otel",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/otel",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/otel@v1.47.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.47.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::go.opentelemetry.io/otel/exporters/otlp/otlptrace",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlptrace@v1.47.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.47.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc@v1.47.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.47.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp@v1.47.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.47.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::go.opentelemetry.io/otel/log",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/otel/log",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/otel/log@v1.47.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.47.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::go.opentelemetry.io/otel/metric",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/otel/metric",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/otel/metric@v1.47.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.47.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::go.opentelemetry.io/otel/sdk",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/otel/sdk",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/otel/sdk@v1.47.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.47.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::go.opentelemetry.io/otel/trace",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/otel/trace",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/otel/trace@v1.47.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.47.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::go.opentelemetry.io/proto/otlp",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.opentelemetry.io/proto/otlp",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/go.opentelemetry.io/proto/otlp@v1.11.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.11.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::go.uber.org/atomic",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.uber.org/atomic",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/go.uber.org/atomic@v1.12.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.12.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::go.uber.org/automaxprocs",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.uber.org/automaxprocs",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/go.uber.org/automaxprocs@v1.6.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.6.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::go.uber.org/goleak",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.uber.org/goleak",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/go.uber.org/goleak@v1.3.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.3.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::go.uber.org/multierr",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.uber.org/multierr",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/go.uber.org/multierr@v1.11.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.11.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::go.uber.org/zap",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.uber.org/zap",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/go.uber.org/zap@v1.28.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.28.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::go.yaml.in/yaml/v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.yaml.in/yaml/v2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/go.yaml.in/yaml/v2@v2.4.4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.4.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::go.yaml.in/yaml/v3",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "go.yaml.in/yaml/v3",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/go.yaml.in/yaml/v3@v3.0.5",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v3.0.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::golang.org/x/crypto",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "golang.org/x/crypto",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/golang.org/x/crypto@v0.58.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.58.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::golang.org/x/exp",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "golang.org/x/exp",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/golang.org/x/exp@v0.0.0-20261014143641-f0251eb4aa3e",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20261014143641-f0251eb4aa3e"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::golang.org/x/net",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "golang.org/x/net",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/golang.org/x/net@v0.61.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.61.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::golang.org/x/oauth2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "golang.org/x/oauth2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/golang.org/x/oauth2@v0.37.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.37.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::golang.org/x/sync",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "golang.org/x/sync",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/golang.org/x/sync@v0.24.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.24.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::golang.org/x/sys",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "golang.org/x/sys",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/golang.org/x/sys@v0.49.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.49.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::golang.org/x/term",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "golang.org/x/term",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/golang.org/x/term@v0.47.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.47.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::golang.org/x/text",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "golang.org/x/text",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/golang.org/x/text@v0.43.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.43.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::golang.org/x/time",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "golang.org/x/time",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/golang.org/x/time@v0.16.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.16.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::google.golang.org/api",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "google.golang.org/api",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/google.golang.org/api@v0.305.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.305.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::google.golang.org/genproto/googleapis/api",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "google.golang.org/genproto/googleapis/api",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/google.golang.org/genproto/googleapis/api@v0.0.0-20261019180522-ce908d29299b",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20261019180522-ce908d29299b"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::google.golang.org/genproto/googleapis/rpc",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "google.golang.org/genproto/googleapis/rpc",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/google.golang.org/genproto/googleapis/rpc@v0.0.0-20261012220534-4341edf3f941",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20261012220534-4341edf3f941"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::google.golang.org/grpc",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "google.golang.org/grpc",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/google.golang.org/grpc@v1.84.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.84.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::google.golang.org/protobuf",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "google.golang.org/protobuf",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/google.golang.org/protobuf@v1.36.12",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.36.12"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::gopkg.in/evanphx/json-patch.v4",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "gopkg.in/evanphx/json-patch.v4",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/gopkg.in/evanphx/json-patch.v4@v4.13.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v4.13.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::gopkg.in/inf.v0",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "gopkg.in/inf.v0",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/gopkg.in/inf.v0@v0.9.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::gopkg.in/ini.v1",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "gopkg.in/ini.v1",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/gopkg.in/ini.v1@v1.67.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.67.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::gopkg.in/yaml.v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "gopkg.in/yaml.v2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/gopkg.in/yaml.v2@v2.4.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.4.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::k8s.io/api",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "k8s.io/api",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/k8s.io/api@v0.37.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.37.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::k8s.io/apimachinery",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "k8s.io/apimachinery",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/k8s.io/apimachinery@v0.37.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.37.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::k8s.io/client-go",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "k8s.io/client-go",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/k8s.io/client-go@v0.37.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.37.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::k8s.io/klog",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "k8s.io/klog",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus"
+      ],
+      "purl": "pkg:golang/k8s.io/klog@v1.0.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::k8s.io/klog/v2",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "k8s.io/klog/v2",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/k8s.io/klog/v2@v2.140.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v2.140.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::k8s.io/kube-openapi",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "k8s.io/kube-openapi",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/k8s.io/kube-openapi@v0.0.0-20260721132016-d427ff9ee9ad",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20260721132016-d427ff9ee9ad"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::k8s.io/utils",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "k8s.io/utils",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/k8s.io/utils@v0.0.0-20260626114624-be93311217bd",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20260626114624-be93311217bd"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::sigs.k8s.io/json",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "sigs.k8s.io/json",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/sigs.k8s.io/json@v0.0.0-20250730193827-2d320260d730",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.0.0-20250730193827-2d320260d730"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::sigs.k8s.io/randfill",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "sigs.k8s.io/randfill",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/sigs.k8s.io/randfill@v1.0.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::sigs.k8s.io/structured-merge-diff/v6",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "sigs.k8s.io/structured-merge-diff/v6",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/sigs.k8s.io/structured-merge-diff/v6@v6.4.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v6.4.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::sigs.k8s.io/yaml",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "sigs.k8s.io/yaml",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/sigs.k8s.io/yaml@v1.6.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.6.0"
+    },
+    {
+      "alt_names": [
+        "stdlib",
+        "go"
+      ],
+      "eco": "golang",
+      "evidence": "Go build info (toolchain)",
+      "hashes": {},
+      "instances": 2,
+      "key": "golang::stdlib",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "stdlib",
+      "namespace": null,
+      "paths": [
+        "bin/prometheus",
+        "bin/promtool"
+      ],
+      "purl": "pkg:golang/stdlib@go1.27.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "go1.27.3"
+    }
+  ],
+  "generated_utc": "2026-11-23T18:44:02+00:00",
+  "kind": "image",
+  "notes": [
+    "os-release: ID=None VERSION_ID=None"
+  ],
+  "os": {
+    "id": null,
+    "pretty_name": null,
+    "version_id": null
+  },
+  "stage": "S3",
+  "stats": {
+    "by_eco": {
+      "generic": 1,
+      "golang": 243
+    },
+    "by_mechanism": {
+      "go-module-in-binary": 242,
+      "manual-download": 1,
+      "no-package-db": 1
+    },
+    "by_tier": {
+      "primary": 244
+    },
+    "total": 244
+  },
+  "subject": "public-prometheus",
+  "target": "X-prometheus"
+}

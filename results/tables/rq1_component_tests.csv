@@ -1,5 +1,5 @@
 test,n_components,statistic,p,detail,p_holm
-Cochran's Q (component found by tool),3162,515.4780793319416,1.1624045520700595e-112,syft=0.815; trivy=0.843; cdxgen=0.937,
-McNemar exact syft vs trivy,3162,,1.9275817215653917e-18,"only syft=12, only trivy=100",1.9275817215653917e-18
-McNemar exact syft vs cdxgen,3162,,5.5134875024347084e-80,"only syft=46, only cdxgen=433",1.6540462507304126e-79
-McNemar exact trivy vs cdxgen,3162,,8.182911461677546e-63,"only trivy=34, only cdxgen=333",1.6365822923355091e-62
+Cochran's Q (component found by tool),8029,430.16771084337347,3.892856939259248e-94,syft=0.882; trivy=0.787; cdxgen=0.821,
+McNemar exact syft vs trivy,8029,,1.2910254450043075e-112,"only syft=994, only trivy=232",3.8730763350129226e-112
+McNemar exact syft vs cdxgen,8029,,1.2044597671275529e-26,"only syft=1278, only cdxgen=793",2.4089195342551058e-26
+McNemar exact trivy vs cdxgen,8029,,1.5013250290819393e-21,"only trivy=288, only cdxgen=565",1.5013250290819393e-21

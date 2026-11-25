@@ -686,7 +686,7 @@
       },
       "instances": 1,
       "key": "maven:jakarta.annotation:jakarta.annotation-api",
-      "license": "EPL 2.0",
+      "license": "EPL 2.0 OR GPL2 w/ CPE",
       "mechanism": "nested-jar",
       "mechanisms": [
         "nested-jar"
@@ -738,7 +738,7 @@
       },
       "instances": 1,
       "key": "maven:jakarta.mail:jakarta.mail-api",
-      "license": "EPL 2.0",
+      "license": "EPL 2.0 OR GPL2 w/ CPE OR EDL 1.0",
       "mechanism": "nested-jar",
       "mechanisms": [
         "nested-jar"
@@ -764,7 +764,7 @@
       },
       "instances": 1,
       "key": "maven:jakarta.persistence:jakarta.persistence-api",
-      "license": "Eclipse Public License v. 2.0",
+      "license": "Eclipse Public License v. 2.0 OR Eclipse Distribution License v. 1.0",
       "mechanism": "nested-jar",
       "mechanisms": [
         "nested-jar"
@@ -790,7 +790,7 @@
       },
       "instances": 1,
       "key": "maven:jakarta.transaction:jakarta.transaction-api",
-      "license": "EPL 2.0",
+      "license": "EPL 2.0 OR GPL2 w/ CPE",
       "mechanism": "nested-jar",
       "mechanisms": [
         "nested-jar"
@@ -2817,7 +2817,7 @@
       "version": "4.1.0"
     }
   ],
-  "generated_utc": "2026-11-23T07:01:51+00:00",
+  "generated_utc": "2026-11-25T09:11:08+00:00",
   "kind": "file",
   "notes": [],
   "os": {},

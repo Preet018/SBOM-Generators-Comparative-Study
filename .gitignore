@@ -22,3 +22,6 @@ Thumbs.db
 
 # Per-component match details: large (~20 MB) and regenerated exactly by scripts/score.py
 results/matches/
+
+# Replication package output (scripts/make_archive.py)
+dist/

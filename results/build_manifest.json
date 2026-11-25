@@ -3,8 +3,21 @@
     "alpine:3.22": [
       "sha256:49340b346798875b5592e5d420241f2f9cfba5f47e62ebb1446a1b34734e898f"
     ],
+    "apache/airflow:slim-latest@sha256:371c258d67cd0a34bac60a28c940b65968b98dff2554e12b981f1df75b4be570": [
+      "apache/airflow@sha256:371c258d67cd0a34bac60a28c940b65968b98dff2554e12b981f1df75b4be570",
+      "p16/x-airflow@sha256:371c258d67cd0a34bac60a28c940b65968b98dff2554e12b981f1df75b4be570"
+    ],
     "debian:bookworm-slim": [
       "sha256:734a72b3d6142a71993b4bc580ca01d8ca687f77a2c422d96a961d3376b179bc"
+    ],
+    "eclipse-temurin:17-jdk": [
+      "sha256:7a0b2bc7e1372bb05ee361fb79e8a9e822df47343b8716253b3bbaa75060653e"
+    ],
+    "eclipse-temurin:17-jre": [
+      "sha256:541b08fc7f494edf14e436ff6bfb55767e4a115c87bfc547b8c5de957b58737f"
+    ],
+    "eclipse-temurin:17-jre-alpine": [
+      "sha256:2b4113ae80e31f103b284dd3bc3e008add670cf8555417b5b289fa1128f2f0a3"
     ],
     "eclipse-temurin:25-jre": [
       "sha256:4ed132f6832e9804b123e89a849a7b4502756ae64a4ee08ebab939d9d5d0a9fa"
@@ -19,11 +32,26 @@
       "p16/o-distroless@sha256:fabbf1c0c357a3d42550111351daed089b20a2c954df13ee2fcff60602515e84",
       "gcr.io/distroless/base-debian12@sha256:fabbf1c0c357a3d42550111351daed089b20a2c954df13ee2fcff60602515e84"
     ],
+    "gcr.io/distroless/java17-debian12": [
+      "sha256:0210d5b77dfbe851916184405ddfc8297e7bc652029f7a485274cb71ea2462bc"
+    ],
     "gcr.io/distroless/java25-debian13": [
       "sha256:c5837324f25f1222828bb1741d62f83f179d5b63a7e0349bbf3a2c6e2fae5ea6"
     ],
     "gcr.io/distroless/python3-debian12": [
       "sha256:2fdb05402a2cf21cf78fdb3ba4c5db167241e9e498140f5bf689d7efb773731f"
+    ],
+    "ghost:6-alpine@sha256:baa6dbff91a28ba36c526d1f6e761deb2efe3c238c630c3f318b62f258c2d76e": [
+      "ghost@sha256:baa6dbff91a28ba36c526d1f6e761deb2efe3c238c630c3f318b62f258c2d76e",
+      "p16/x-ghost@sha256:baa6dbff91a28ba36c526d1f6e761deb2efe3c238c630c3f318b62f258c2d76e"
+    ],
+    "gitea/gitea:latest@sha256:aa90e8f00b755b0d665214ab9c14447ea44d3190dbe6b6d0cb46cd9c4f55d309": [
+      "gitea/gitea@sha256:aa90e8f00b755b0d665214ab9c14447ea44d3190dbe6b6d0cb46cd9c4f55d309",
+      "p16/x-gitea@sha256:aa90e8f00b755b0d665214ab9c14447ea44d3190dbe6b6d0cb46cd9c4f55d309"
+    ],
+    "jenkins/jenkins:lts-jdk21@sha256:74401de6a6f92e1afe1b02d1c8e3d0c33f263bfb5275dd8813f9150355f2367b": [
+      "jenkins/jenkins@sha256:74401de6a6f92e1afe1b02d1c8e3d0c33f263bfb5275dd8813f9150355f2367b",
+      "p16/x-jenkins@sha256:74401de6a6f92e1afe1b02d1c8e3d0c33f263bfb5275dd8813f9150355f2367b"
     ],
     "maven:3-eclipse-temurin-25": [
       "sha256:84bd96155bf37d1be2858433aee89320f487c2d21faf06406640e7dc2b82d686"
@@ -31,17 +59,33 @@
     "mongo:6.0": [
       "sha256:8b6d8f5bbedb25cb73517b65cf99f13aeb75ad5b157a56c479287a840bbad3ac"
     ],
+    "mysql:8.4@sha256:a81d043930e51745522bd5c430961cf8286f0a23f0a9a2a6e0108f7ea71b0902": [
+      "mysql@sha256:a81d043930e51745522bd5c430961cf8286f0a23f0a9a2a6e0108f7ea71b0902",
+      "p16/x-mysql@sha256:a81d043930e51745522bd5c430961cf8286f0a23f0a9a2a6e0108f7ea71b0902"
+    ],
     "nginx:alpine": [
       "sha256:fb4658584bd9a916ffb6f6e365f97c25cfdb2923801f551ea08356e695f14ff7"
     ],
     "node:22-slim": [
       "sha256:e9f565d32859f0cbfb52125eafe8be39390f24dac302dc3cdf566e8ba3ab21ee"
     ],
+    "postgres:17@sha256:223efeb196329b55b3b9a13db144956411dbc18e727e59f681c3e0aede6475cf": [
+      "postgres@sha256:223efeb196329b55b3b9a13db144956411dbc18e727e59f681c3e0aede6475cf",
+      "p16/x-postgres@sha256:223efeb196329b55b3b9a13db144956411dbc18e727e59f681c3e0aede6475cf"
+    ],
+    "prom/prometheus:latest@sha256:e04987641b57704f408e31f6373ba4138ecf27cb4a165d24aabb6c38fddd0f06": [
+      "p16/x-prometheus@sha256:e04987641b57704f408e31f6373ba4138ecf27cb4a165d24aabb6c38fddd0f06",
+      "prom/prometheus@sha256:e04987641b57704f408e31f6373ba4138ecf27cb4a165d24aabb6c38fddd0f06"
+    ],
     "python:3.11-alpine": [
       "sha256:7fbad8e4652eae0186429a6f26cf5b23e27e8c6fd7ac4d0cfd7a6988cdeea1e1"
     ],
     "python:3.11-slim": [
       "sha256:07d4824036af339fa1b6ef769cc99d9c10a141769538b52b3b597c84f7a7b535"
+    ],
+    "quay.io/keycloak/keycloak:latest@sha256:7e66a96e4739239070aeaf72e4c5decf0f7f682cfc725b9f7ea2b336eaba38b3": [
+      "p16/x-keycloak@sha256:7e66a96e4739239070aeaf72e4c5decf0f7f682cfc725b9f7ea2b336eaba38b3",
+      "quay.io/keycloak/keycloak@sha256:7e66a96e4739239070aeaf72e4c5decf0f7f682cfc725b9f7ea2b336eaba38b3"
     ],
     "registry.access.redhat.com/ubi9/ubi-minimal": [
       "p16/o-ubi@sha256:08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352",
@@ -65,6 +109,18 @@
       "files": 6,
       "status": "ok"
     },
+    "petclinic-gradle": {
+      "files": {
+        "gradle-checkstyle.txt": "c08f4fc4e54954bb20f8ffb5cff45e221bdf838d066893332abe6e33d2553ccf",
+        "gradle-developmentOnly.txt": "815f60c2e0559abe9c5c9759dc5d87b427277282503f8900895230fc2697bc72",
+        "gradle-productionRuntimeClasspath.txt": "078b0fb9c11cd261a8e49fcb608184cc2e98d76a74d032bbd5a50dcf54d82c83",
+        "gradle-runtime-tree.txt": "017fac723f964d293c8bbea34fe7d9304c6ff7ac2b6d4f6bb43473e460888309",
+        "gradle-runtimeClasspath.txt": "940e0e6e02b6b2cbfbe15b2e02f038d093ed0b488a3d862ec65cd2b304618129",
+        "gradle-testRuntimeClasspath.txt": "11015654f508f372fbfb243fc7bbbe106c9a58712f49143c5d36e8df8b8c32e8",
+        "gradle-version.txt": "211662e79a570d1db1292a7ad12384e30717ae79af72fd341ba226f0ca63c9bd"
+      },
+      "status": "ok"
+    },
     "tcp-server": {
       "files": {
         "glibc-readelf-server.txt": "82d2f437651cb6fc732d3b049dbf3b1c6d774935fd3c21f30ad77dd24eaa599c",
@@ -77,7 +133,7 @@
   "environment": {
     "docker_server": "29.1.3",
     "platform": "linux/amd64",
-    "updated_utc": "2026-11-22T19:37:13+00:00"
+    "updated_utc": "2026-11-23T18:08:59+00:00"
   },
   "targets": {
     "C-P": {
@@ -188,6 +244,93 @@
       "stage": "S3",
       "status": "ok",
       "subject": "tcp-server"
+    },
+    "G-S1": {
+      "build_seconds": 0.0,
+      "how": "path",
+      "id": "G-S1",
+      "kind": "dir",
+      "scan_input": "corpus/spring-petclinic-gradle",
+      "stage": "S1",
+      "status": "ok",
+      "subject": "petclinic-gradle"
+    },
+    "G-S2": {
+      "artifact_sha256": "5176b91010124c19aa0ca296fdb2f75f06ee03d26a4a3f2c44bb89988d1be944",
+      "build_seconds": 4.1,
+      "how": "build",
+      "id": "G-S2",
+      "kind": "file",
+      "scan_input": "work/artifacts/G-S2/app.jar",
+      "stage": "S2",
+      "status": "ok",
+      "subject": "petclinic-gradle"
+    },
+    "G-S3-alpine": {
+      "architecture": "amd64",
+      "build_seconds": 19.6,
+      "how": "build",
+      "id": "G-S3-alpine",
+      "image": "p16/g-s3-alpine:latest",
+      "image_id": "sha256:08249ae25a5ab5af6679fbdc64cc2fbac1398b22665d03136acb064f2db8fa7d",
+      "image_tar": "work/images/G-S3-alpine.tar",
+      "image_tar_sha256": "261b78b7130d6c5615274b39f6de5a8e51eb347584c4a0b8ddb2d74c895fef6d",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/g-s3-alpine@sha256:08249ae25a5ab5af6679fbdc64cc2fbac1398b22665d03136acb064f2db8fa7d"
+      ],
+      "rootfs_tar": "work/rootfs/G-S3-alpine.tar",
+      "rootfs_tar_sha256": "19fa67dd07462d809910651417d255ea682686a2c5451f16524dd4cc3f8e45d1",
+      "scan_input": "work/images/G-S3-alpine.tar",
+      "size_bytes": 130529296,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "petclinic-gradle"
+    },
+    "G-S3-distroless": {
+      "architecture": "amd64",
+      "build_seconds": 17.2,
+      "how": "build",
+      "id": "G-S3-distroless",
+      "image": "p16/g-s3-distroless:latest",
+      "image_id": "sha256:71bac815f9871e691c9cfbfde57212b19d8db58b50e524cad5e886232d3ded3a",
+      "image_tar": "work/images/G-S3-distroless.tar",
+      "image_tar_sha256": "196605bd3ad529dd10027730e059c14321fc95f558b5cec81ab8171032b5bd65",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/g-s3-distroless@sha256:71bac815f9871e691c9cfbfde57212b19d8db58b50e524cad5e886232d3ded3a"
+      ],
+      "rootfs_tar": "work/rootfs/G-S3-distroless.tar",
+      "rootfs_tar_sha256": "c5a860bb7538460188ac11cf3b721da19f9693a770565a09135199f52ccffbe5",
+      "scan_input": "work/images/G-S3-distroless.tar",
+      "size_bytes": 142404031,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "petclinic-gradle"
+    },
+    "G-S3-ubuntu": {
+      "architecture": "amd64",
+      "build_seconds": 28.2,
+      "how": "build",
+      "id": "G-S3-ubuntu",
+      "image": "p16/g-s3-ubuntu:latest",
+      "image_id": "sha256:77b098da337bdd172327fdd26893c0be815bec5bda23eaf0de6dd4ce3879a548",
+      "image_tar": "work/images/G-S3-ubuntu.tar",
+      "image_tar_sha256": "8fd2f0e54ca360d2c09aecc77e04d41dd5eb1ad34bfebebd7ec3c5f01f813703",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/g-s3-ubuntu@sha256:77b098da337bdd172327fdd26893c0be815bec5bda23eaf0de6dd4ce3879a548"
+      ],
+      "rootfs_tar": "work/rootfs/G-S3-ubuntu.tar",
+      "rootfs_tar_sha256": "6e06aba3ed50aafbf83dc0cf1652659f3daa43362034130919fa030bd1aa57bd",
+      "scan_input": "work/images/G-S3-ubuntu.tar",
+      "size_bytes": 176177769,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "petclinic-gradle"
     },
     "J-P": {
       "architecture": "amd64",
@@ -687,6 +830,190 @@
       "stage": "S3",
       "status": "ok",
       "subject": "log-anomaly"
+    },
+    "X-airflow": {
+      "architecture": "amd64",
+      "build_seconds": 46.1,
+      "how": "pull",
+      "id": "X-airflow",
+      "image": "apache/airflow:slim-latest@sha256:371c258d67cd0a34bac60a28c940b65968b98dff2554e12b981f1df75b4be570",
+      "image_id": "sha256:371c258d67cd0a34bac60a28c940b65968b98dff2554e12b981f1df75b4be570",
+      "image_tar": "work/images/X-airflow.tar",
+      "image_tar_sha256": "e7f8d7f2d67673b728308f61b53a5b41cb498c7f0c7765db6ccb672b70d3f85d",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "apache/airflow@sha256:371c258d67cd0a34bac60a28c940b65968b98dff2554e12b981f1df75b4be570",
+        "p16/x-airflow@sha256:371c258d67cd0a34bac60a28c940b65968b98dff2554e12b981f1df75b4be570"
+      ],
+      "rootfs_tar": "work/rootfs/X-airflow.tar",
+      "rootfs_tar_sha256": "be25aa03dc757bf5b45b56361ff0f4dad95d0341de8870ce6a84a3121fa20a8d",
+      "scan_input": "work/images/X-airflow.tar",
+      "size_bytes": 261714820,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "public-airflow"
+    },
+    "X-ghost": {
+      "architecture": "amd64",
+      "build_seconds": 144.4,
+      "how": "pull",
+      "id": "X-ghost",
+      "image": "ghost:6-alpine@sha256:baa6dbff91a28ba36c526d1f6e761deb2efe3c238c630c3f318b62f258c2d76e",
+      "image_id": "sha256:baa6dbff91a28ba36c526d1f6e761deb2efe3c238c630c3f318b62f258c2d76e",
+      "image_tar": "work/images/X-ghost.tar",
+      "image_tar_sha256": "c5058217d06fe1eeb506fb0edaa677f05d53978175d396ebf45c2ed53cdb95bb",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "ghost@sha256:baa6dbff91a28ba36c526d1f6e761deb2efe3c238c630c3f318b62f258c2d76e",
+        "p16/x-ghost@sha256:baa6dbff91a28ba36c526d1f6e761deb2efe3c238c630c3f318b62f258c2d76e"
+      ],
+      "rootfs_tar": "work/rootfs/X-ghost.tar",
+      "rootfs_tar_sha256": "a405b3b60b9be808dfad9ddf542cb5fa8d75f974b9bd51284b46da53d24f2d31",
+      "scan_input": "work/images/X-ghost.tar",
+      "size_bytes": 236169312,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "public-ghost"
+    },
+    "X-gitea": {
+      "architecture": "amd64",
+      "build_seconds": 12.5,
+      "how": "pull",
+      "id": "X-gitea",
+      "image": "gitea/gitea:latest@sha256:aa90e8f00b755b0d665214ab9c14447ea44d3190dbe6b6d0cb46cd9c4f55d309",
+      "image_id": "sha256:aa90e8f00b755b0d665214ab9c14447ea44d3190dbe6b6d0cb46cd9c4f55d309",
+      "image_tar": "work/images/X-gitea.tar",
+      "image_tar_sha256": "6497186f0562bdbae2c63d2091471c5c3e7d351bc9312ab9236f2200ecf0cd6e",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "gitea/gitea@sha256:aa90e8f00b755b0d665214ab9c14447ea44d3190dbe6b6d0cb46cd9c4f55d309",
+        "p16/x-gitea@sha256:aa90e8f00b755b0d665214ab9c14447ea44d3190dbe6b6d0cb46cd9c4f55d309"
+      ],
+      "rootfs_tar": "work/rootfs/X-gitea.tar",
+      "rootfs_tar_sha256": "d002a801ff1609849afd30f114c90728e78b965bce72acaca5ede6071dc3fc74",
+      "scan_input": "work/images/X-gitea.tar",
+      "size_bytes": 72193990,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "public-gitea"
+    },
+    "X-jenkins": {
+      "architecture": "amd64",
+      "build_seconds": 27.9,
+      "how": "pull",
+      "id": "X-jenkins",
+      "image": "jenkins/jenkins:lts-jdk21@sha256:74401de6a6f92e1afe1b02d1c8e3d0c33f263bfb5275dd8813f9150355f2367b",
+      "image_id": "sha256:74401de6a6f92e1afe1b02d1c8e3d0c33f263bfb5275dd8813f9150355f2367b",
+      "image_tar": "work/images/X-jenkins.tar",
+      "image_tar_sha256": "0d63aca0686da58bfebce22415f3ad3c9e243d7d568e92ea8d5b9f302dde30b8",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "jenkins/jenkins@sha256:74401de6a6f92e1afe1b02d1c8e3d0c33f263bfb5275dd8813f9150355f2367b",
+        "p16/x-jenkins@sha256:74401de6a6f92e1afe1b02d1c8e3d0c33f263bfb5275dd8813f9150355f2367b"
+      ],
+      "rootfs_tar": "work/rootfs/X-jenkins.tar",
+      "rootfs_tar_sha256": "4d1e2a8e37ab0cee47715bfff14af8f85bd12694db334a322242aeb9506f0c45",
+      "scan_input": "work/images/X-jenkins.tar",
+      "size_bytes": 243730511,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "public-jenkins"
+    },
+    "X-keycloak": {
+      "architecture": "amd64",
+      "build_seconds": 24.4,
+      "how": "pull",
+      "id": "X-keycloak",
+      "image": "quay.io/keycloak/keycloak:latest@sha256:7e66a96e4739239070aeaf72e4c5decf0f7f682cfc725b9f7ea2b336eaba38b3",
+      "image_id": "sha256:7e66a96e4739239070aeaf72e4c5decf0f7f682cfc725b9f7ea2b336eaba38b3",
+      "image_tar": "work/images/X-keycloak.tar",
+      "image_tar_sha256": "4f39e45e5099425f8533b858088fdf5b08df38f48324250d01bb2829585f6dd5",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/x-keycloak@sha256:7e66a96e4739239070aeaf72e4c5decf0f7f682cfc725b9f7ea2b336eaba38b3",
+        "quay.io/keycloak/keycloak@sha256:7e66a96e4739239070aeaf72e4c5decf0f7f682cfc725b9f7ea2b336eaba38b3"
+      ],
+      "rootfs_tar": "work/rootfs/X-keycloak.tar",
+      "rootfs_tar_sha256": "0edd67c56bde2285f69bab4e580f36db3ac1771659153b0055d01fd3b5acaf1b",
+      "scan_input": "work/images/X-keycloak.tar",
+      "size_bytes": 265086555,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "public-keycloak"
+    },
+    "X-mysql": {
+      "architecture": "amd64",
+      "build_seconds": 44.6,
+      "how": "pull",
+      "id": "X-mysql",
+      "image": "mysql:8.4@sha256:a81d043930e51745522bd5c430961cf8286f0a23f0a9a2a6e0108f7ea71b0902",
+      "image_id": "sha256:a81d043930e51745522bd5c430961cf8286f0a23f0a9a2a6e0108f7ea71b0902",
+      "image_tar": "work/images/X-mysql.tar",
+      "image_tar_sha256": "4aa62ff8949924e01da3e8eb1efa6e33d19466964c002a13399beb2240ed3434",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "mysql@sha256:a81d043930e51745522bd5c430961cf8286f0a23f0a9a2a6e0108f7ea71b0902",
+        "p16/x-mysql@sha256:a81d043930e51745522bd5c430961cf8286f0a23f0a9a2a6e0108f7ea71b0902"
+      ],
+      "rootfs_tar": "work/rootfs/X-mysql.tar",
+      "rootfs_tar_sha256": "92297451f94a73ef2efc215819e910d37c289bd922be5e58a6c83e783e477381",
+      "scan_input": "work/images/X-mysql.tar",
+      "size_bytes": 238268746,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "public-mysql"
+    },
+    "X-postgres": {
+      "architecture": "amd64",
+      "build_seconds": 26.6,
+      "how": "pull",
+      "id": "X-postgres",
+      "image": "postgres:17@sha256:223efeb196329b55b3b9a13db144956411dbc18e727e59f681c3e0aede6475cf",
+      "image_id": "sha256:223efeb196329b55b3b9a13db144956411dbc18e727e59f681c3e0aede6475cf",
+      "image_tar": "work/images/X-postgres.tar",
+      "image_tar_sha256": "a0ff997e7c0ff37b5eed26aa7f042aa8e7584c6bb50c8a85c51c68f5d212ed83",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "postgres@sha256:223efeb196329b55b3b9a13db144956411dbc18e727e59f681c3e0aede6475cf",
+        "p16/x-postgres@sha256:223efeb196329b55b3b9a13db144956411dbc18e727e59f681c3e0aede6475cf"
+      ],
+      "rootfs_tar": "work/rootfs/X-postgres.tar",
+      "rootfs_tar_sha256": "0d2b3986c7b68ca7da09c73de376065c728a35b51f7952d01adb21026edc31b2",
+      "scan_input": "work/images/X-postgres.tar",
+      "size_bytes": 167357805,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "public-postgres"
+    },
+    "X-prometheus": {
+      "architecture": "amd64",
+      "build_seconds": 14.5,
+      "how": "pull",
+      "id": "X-prometheus",
+      "image": "prom/prometheus:latest@sha256:e04987641b57704f408e31f6373ba4138ecf27cb4a165d24aabb6c38fddd0f06",
+      "image_id": "sha256:e04987641b57704f408e31f6373ba4138ecf27cb4a165d24aabb6c38fddd0f06",
+      "image_tar": "work/images/X-prometheus.tar",
+      "image_tar_sha256": "522f95807e97992f6eea609b12c6abf65a138b7c7178310eaea9cd470ee41287",
+      "kind": "image",
+      "os": "linux",
+      "repo_digests": [
+        "p16/x-prometheus@sha256:e04987641b57704f408e31f6373ba4138ecf27cb4a165d24aabb6c38fddd0f06",
+        "prom/prometheus@sha256:e04987641b57704f408e31f6373ba4138ecf27cb4a165d24aabb6c38fddd0f06"
+      ],
+      "rootfs_tar": "work/rootfs/X-prometheus.tar",
+      "rootfs_tar_sha256": "77c9504d046d28237c270f8c9d7520206818682de75b61ed4f786fcbb0d383a6",
+      "scan_input": "work/images/X-prometheus.tar",
+      "size_bytes": 116090172,
+      "stage": "S3",
+      "status": "ok",
+      "subject": "public-prometheus"
     }
   }
 }

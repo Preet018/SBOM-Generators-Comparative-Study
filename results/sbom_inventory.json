@@ -53,6 +53,46 @@
       "identical": true,
       "only_rep1": [],
       "only_rep2": [],
+      "target": "G-S1",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "G-S2",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "G-S3-alpine",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "G-S3-distroless",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "G-S3-ubuntu",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
       "target": "J-P",
       "tool": "cdxgen"
     },
@@ -254,6 +294,70 @@
       "only_rep1": [],
       "only_rep2": [],
       "target": "P-S3-pred",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-airflow",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-ghost",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-gitea",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-jenkins",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-keycloak",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-mysql",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-postgres",
+      "tool": "cdxgen"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-prometheus",
       "tool": "cdxgen"
     },
     {
@@ -309,6 +413,46 @@
       "identical": true,
       "only_rep1": [],
       "only_rep2": [],
+      "target": "G-S1",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "G-S2",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "G-S3-alpine",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "G-S3-distroless",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "G-S3-ubuntu",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
       "target": "J-P",
       "tool": "syft"
     },
@@ -510,6 +654,70 @@
       "only_rep1": [],
       "only_rep2": [],
       "target": "P-S3-pred",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-airflow",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-ghost",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-gitea",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-jenkins",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-keycloak",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-mysql",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-postgres",
+      "tool": "syft"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-prometheus",
       "tool": "syft"
     },
     {
@@ -565,6 +773,46 @@
       "identical": true,
       "only_rep1": [],
       "only_rep2": [],
+      "target": "G-S1",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "G-S2",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "G-S3-alpine",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "G-S3-distroless",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "G-S3-ubuntu",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
       "target": "J-P",
       "tool": "trivy"
     },
@@ -766,6 +1014,70 @@
       "only_rep1": [],
       "only_rep2": [],
       "target": "P-S3-pred",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-airflow",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-ghost",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-gitea",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-jenkins",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-keycloak",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-mysql",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-postgres",
+      "tool": "trivy"
+    },
+    {
+      "config": "default",
+      "identical": true,
+      "only_rep1": [],
+      "only_rep2": [],
+      "target": "X-prometheus",
       "tool": "trivy"
     },
     {
@@ -1020,6 +1332,226 @@
       "unique_identities": 0,
       "with_purl": 0,
       "with_version": 0
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "file": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "github": 5
+      },
+      "format": "cyclonedx",
+      "packages": 5,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S1",
+      "tool": "cdxgen",
+      "unique_identities": 5,
+      "with_purl": 5,
+      "with_version": 5
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1,
+        "software_File": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "github": 5
+      },
+      "format": "spdx",
+      "packages": 5,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "G-S1",
+      "tool": "cdxgen",
+      "unique_identities": 5,
+      "with_purl": 5,
+      "with_version": 5
+    },
+    {
+      "config": "best",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 93,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S2",
+      "tool": "cdxgen",
+      "unique_identities": 93,
+      "with_purl": 93,
+      "with_version": 93
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 93
+      },
+      "format": "spdx",
+      "packages": 93,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "G-S2",
+      "tool": "cdxgen",
+      "unique_identities": 93,
+      "with_purl": 93,
+      "with_version": 93
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "cryptographic-asset": 121,
+        "file": 501
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 88,
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 181,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S3-alpine",
+      "tool": "cdxgen",
+      "unique_identities": 181,
+      "with_purl": 181,
+      "with_version": 181
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "Relationship": 66,
+        "document-subject": 1,
+        "software_File": 501
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 88,
+        "maven": 93,
+        "unknown": 121
+      },
+      "format": "spdx",
+      "packages": 302,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "G-S3-alpine",
+      "tool": "cdxgen",
+      "unique_identities": 302,
+      "with_purl": 181,
+      "with_version": 302
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "file": 468
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 43,
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 136,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S3-distroless",
+      "tool": "cdxgen",
+      "unique_identities": 136,
+      "with_purl": 136,
+      "with_version": 136
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "Relationship": 1,
+        "document-subject": 1,
+        "software_File": 468
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 43,
+        "maven": 93
+      },
+      "format": "spdx",
+      "packages": 136,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "G-S3-distroless",
+      "tool": "cdxgen",
+      "unique_identities": 136,
+      "with_purl": 136,
+      "with_version": 136
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "cryptographic-asset": 127,
+        "data": 2,
+        "file": 4939
+      },
+      "duplicates": 9,
+      "ecos": {
+        "deb": 206,
+        "golang": 10,
+        "maven": 93,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 310,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S3-ubuntu",
+      "tool": "cdxgen",
+      "unique_identities": 301,
+      "with_purl": 309,
+      "with_version": 310
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "Relationship": 113,
+        "document-subject": 1,
+        "software_File": 4939
+      },
+      "duplicates": 9,
+      "ecos": {
+        "deb": 206,
+        "generic": 2,
+        "golang": 10,
+        "maven": 93,
+        "unknown": 128
+      },
+      "format": "spdx",
+      "packages": 439,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "G-S3-ubuntu",
+      "tool": "cdxgen",
+      "unique_identities": 430,
+      "with_purl": 311,
+      "with_version": 439
     },
     {
       "config": "best",
@@ -2191,6 +2723,400 @@
     {
       "config": "best",
       "dropped": {
+        "cryptographic-asset": 173,
+        "data": 7,
+        "file": 8671
+      },
+      "duplicates": 12,
+      "ecos": {
+        "cargo": 906,
+        "deb": 294,
+        "generic": 1,
+        "pypi": 140
+      },
+      "format": "cyclonedx",
+      "packages": 1341,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-airflow",
+      "tool": "cdxgen",
+      "unique_identities": 1329,
+      "with_purl": 1341,
+      "with_version": 1341
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "Relationship": 878,
+        "document-subject": 1,
+        "software_File": 8671
+      },
+      "duplicates": 12,
+      "ecos": {
+        "cargo": 906,
+        "deb": 294,
+        "generic": 8,
+        "pypi": 140,
+        "unknown": 173
+      },
+      "format": "spdx",
+      "packages": 1521,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "X-airflow",
+      "tool": "cdxgen",
+      "unique_identities": 1509,
+      "with_purl": 1348,
+      "with_version": 1521
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "cryptographic-asset": 3,
+        "file": 187
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 29,
+        "generic": 5,
+        "golang": 12,
+        "npm": 194,
+        "unknown": 2
+      },
+      "format": "cyclonedx",
+      "packages": 242,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-ghost",
+      "tool": "cdxgen",
+      "unique_identities": 242,
+      "with_purl": 240,
+      "with_version": 237
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "Relationship": 19,
+        "document-subject": 1,
+        "software_File": 187
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 29,
+        "generic": 5,
+        "golang": 12,
+        "npm": 194,
+        "unknown": 5
+      },
+      "format": "spdx",
+      "packages": 245,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "X-ghost",
+      "tool": "cdxgen",
+      "unique_identities": 245,
+      "with_purl": 240,
+      "with_version": 240
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "cryptographic-asset": 121,
+        "file": 623
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 102,
+        "golang": 218,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 321,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-gitea",
+      "tool": "cdxgen",
+      "unique_identities": 321,
+      "with_purl": 320,
+      "with_version": 321
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "Relationship": 81,
+        "document-subject": 1,
+        "software_File": 623
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 102,
+        "golang": 218,
+        "unknown": 122
+      },
+      "format": "spdx",
+      "packages": 442,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "X-gitea",
+      "tool": "cdxgen",
+      "unique_identities": 442,
+      "with_purl": 320,
+      "with_version": 442
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "cryptographic-asset": 168,
+        "data": 2,
+        "file": 4416
+      },
+      "duplicates": 7,
+      "ecos": {
+        "deb": 196,
+        "golang": 29,
+        "maven": 78,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 304,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-jenkins",
+      "tool": "cdxgen",
+      "unique_identities": 297,
+      "with_purl": 303,
+      "with_version": 303
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "Relationship": 106,
+        "document-subject": 1,
+        "software_File": 4416
+      },
+      "duplicates": 7,
+      "ecos": {
+        "deb": 196,
+        "generic": 2,
+        "golang": 29,
+        "maven": 78,
+        "unknown": 169
+      },
+      "format": "spdx",
+      "packages": 474,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "X-jenkins",
+      "tool": "cdxgen",
+      "unique_identities": 467,
+      "with_purl": 305,
+      "with_version": 473
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "cryptographic-asset": 4,
+        "data": 9,
+        "file": 1302
+      },
+      "duplicates": 2,
+      "ecos": {
+        "maven": 475,
+        "rpm": 56
+      },
+      "format": "cyclonedx",
+      "packages": 531,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-keycloak",
+      "tool": "cdxgen",
+      "unique_identities": 529,
+      "with_purl": 531,
+      "with_version": 531
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "Relationship": 46,
+        "document-subject": 1,
+        "software_File": 1302
+      },
+      "duplicates": 2,
+      "ecos": {
+        "generic": 9,
+        "maven": 475,
+        "rpm": 56,
+        "unknown": 4
+      },
+      "format": "spdx",
+      "packages": 544,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "X-keycloak",
+      "tool": "cdxgen",
+      "unique_identities": 542,
+      "with_purl": 540,
+      "with_version": 544
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "cryptographic-asset": 2,
+        "data": 22,
+        "file": 1024
+      },
+      "duplicates": 3,
+      "ecos": {
+        "cargo": 47,
+        "golang": 3,
+        "pypi": 20,
+        "rpm": 145,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 216,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-mysql",
+      "tool": "cdxgen",
+      "unique_identities": 213,
+      "with_purl": 215,
+      "with_version": 216
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "Relationship": 155,
+        "document-subject": 1,
+        "software_File": 1024
+      },
+      "duplicates": 3,
+      "ecos": {
+        "cargo": 47,
+        "generic": 22,
+        "golang": 3,
+        "pypi": 20,
+        "rpm": 145,
+        "unknown": 3
+      },
+      "format": "spdx",
+      "packages": 240,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "X-mysql",
+      "tool": "cdxgen",
+      "unique_identities": 237,
+      "with_purl": 237,
+      "with_version": 240
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "cryptographic-asset": 20,
+        "data": 3,
+        "file": 5712
+      },
+      "duplicates": 9,
+      "ecos": {
+        "deb": 209,
+        "golang": 3,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 213,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-postgres",
+      "tool": "cdxgen",
+      "unique_identities": 204,
+      "with_purl": 212,
+      "with_version": 213
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "Relationship": 118,
+        "document-subject": 1,
+        "software_File": 5712
+      },
+      "duplicates": 9,
+      "ecos": {
+        "deb": 209,
+        "generic": 3,
+        "golang": 3,
+        "unknown": 21
+      },
+      "format": "spdx",
+      "packages": 236,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "X-postgres",
+      "tool": "cdxgen",
+      "unique_identities": 227,
+      "with_purl": 215,
+      "with_version": 236
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "file": 4
+      },
+      "duplicates": 0,
+      "ecos": {
+        "golang": 242,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 243,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-prometheus",
+      "tool": "cdxgen",
+      "unique_identities": 243,
+      "with_purl": 242,
+      "with_version": 243
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "Relationship": 1,
+        "document-subject": 1,
+        "software_File": 4
+      },
+      "duplicates": 0,
+      "ecos": {
+        "golang": 242,
+        "unknown": 1
+      },
+      "format": "spdx",
+      "packages": 243,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "X-prometheus",
+      "tool": "cdxgen",
+      "unique_identities": 243,
+      "with_purl": 242,
+      "with_version": 243
+    },
+    {
+      "config": "best",
+      "dropped": {
         "file": 2988,
         "operating-system": 1
       },
@@ -2412,6 +3338,223 @@
       "unique_identities": 0,
       "with_purl": 0,
       "with_version": 0
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "file": 4
+      },
+      "duplicates": 2,
+      "ecos": {
+        "github": 7,
+        "maven": 1
+      },
+      "format": "cyclonedx",
+      "packages": 8,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S1",
+      "tool": "syft",
+      "unique_identities": 6,
+      "with_purl": 8,
+      "with_version": 7
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 2,
+      "ecos": {
+        "github": 7,
+        "maven": 1
+      },
+      "format": "spdx",
+      "packages": 8,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "G-S1",
+      "tool": "syft",
+      "unique_identities": 6,
+      "with_purl": 8,
+      "with_version": 7
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "file": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 93,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S2",
+      "tool": "syft",
+      "unique_identities": 93,
+      "with_purl": 93,
+      "with_version": 93
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 93
+      },
+      "format": "spdx",
+      "packages": 93,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "G-S2",
+      "tool": "syft",
+      "unique_identities": 93,
+      "with_purl": 93,
+      "with_version": 93
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "file": 1219,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 73,
+        "generic": 1,
+        "maven": 94
+      },
+      "format": "cyclonedx",
+      "packages": 168,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S3-alpine",
+      "tool": "syft",
+      "unique_identities": 168,
+      "with_purl": 168,
+      "with_version": 168
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 73,
+        "generic": 1,
+        "maven": 94
+      },
+      "format": "spdx",
+      "packages": 168,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "G-S3-alpine",
+      "tool": "syft",
+      "unique_identities": 168,
+      "with_purl": 168,
+      "with_version": 168
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "file": 1541,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 25,
+        "maven": 94
+      },
+      "format": "cyclonedx",
+      "packages": 119,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S3-distroless",
+      "tool": "syft",
+      "unique_identities": 119,
+      "with_purl": 119,
+      "with_version": 119
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 25,
+        "maven": 94
+      },
+      "format": "spdx",
+      "packages": 119,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "G-S3-distroless",
+      "tool": "syft",
+      "unique_identities": 119,
+      "with_purl": 119,
+      "with_version": 119
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "file": 7025,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 140,
+        "generic": 1,
+        "golang": 11,
+        "maven": 94
+      },
+      "format": "cyclonedx",
+      "packages": 246,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S3-ubuntu",
+      "tool": "syft",
+      "unique_identities": 246,
+      "with_purl": 246,
+      "with_version": 246
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 140,
+        "generic": 1,
+        "golang": 11,
+        "maven": 94
+      },
+      "format": "spdx",
+      "packages": 246,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "G-S3-ubuntu",
+      "tool": "syft",
+      "unique_identities": 246,
+      "with_purl": 246,
+      "with_version": 246
     },
     {
       "config": "best",
@@ -3547,6 +4690,370 @@
     {
       "config": "best",
       "dropped": {
+        "file": 12730,
+        "operating-system": 1
+      },
+      "duplicates": 1642,
+      "ecos": {
+        "cargo": 2357,
+        "deb": 210,
+        "golang": 85,
+        "pypi": 182,
+        "unknown": 8
+      },
+      "format": "cyclonedx",
+      "packages": 2842,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-airflow",
+      "tool": "syft",
+      "unique_identities": 1200,
+      "with_purl": 2834,
+      "with_version": 2839
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 1642,
+      "ecos": {
+        "cargo": 2357,
+        "deb": 210,
+        "golang": 85,
+        "pypi": 182,
+        "unknown": 8
+      },
+      "format": "spdx",
+      "packages": 2842,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-airflow",
+      "tool": "syft",
+      "unique_identities": 1200,
+      "with_purl": 2834,
+      "with_version": 2839
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "file": 1695,
+        "operating-system": 1
+      },
+      "duplicates": 1475,
+      "ecos": {
+        "apk": 23,
+        "generic": 1,
+        "github": 44,
+        "golang": 24,
+        "npm": 3019,
+        "unknown": 4
+      },
+      "format": "cyclonedx",
+      "packages": 3115,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-ghost",
+      "tool": "syft",
+      "unique_identities": 1640,
+      "with_purl": 3111,
+      "with_version": 3090
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 1475,
+      "ecos": {
+        "apk": 23,
+        "generic": 1,
+        "github": 44,
+        "golang": 24,
+        "npm": 3019,
+        "unknown": 4
+      },
+      "format": "spdx",
+      "packages": 3115,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-ghost",
+      "tool": "syft",
+      "unique_identities": 1640,
+      "with_purl": 3111,
+      "with_version": 3090
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "file": 634,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 87,
+        "golang": 219
+      },
+      "format": "cyclonedx",
+      "packages": 306,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-gitea",
+      "tool": "syft",
+      "unique_identities": 306,
+      "with_purl": 306,
+      "with_version": 306
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 87,
+        "golang": 219
+      },
+      "format": "spdx",
+      "packages": 306,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-gitea",
+      "tool": "syft",
+      "unique_identities": 306,
+      "with_purl": 306,
+      "with_version": 306
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "file": 8178,
+        "operating-system": 1
+      },
+      "duplicates": 18,
+      "ecos": {
+        "deb": 131,
+        "generic": 1,
+        "golang": 30,
+        "maven": 156
+      },
+      "format": "cyclonedx",
+      "packages": 318,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-jenkins",
+      "tool": "syft",
+      "unique_identities": 300,
+      "with_purl": 318,
+      "with_version": 316
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 18,
+      "ecos": {
+        "deb": 131,
+        "generic": 1,
+        "golang": 30,
+        "maven": 156
+      },
+      "format": "spdx",
+      "packages": 318,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-jenkins",
+      "tool": "syft",
+      "unique_identities": 300,
+      "with_purl": 318,
+      "with_version": 316
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "file": 4009,
+        "operating-system": 1
+      },
+      "duplicates": 27,
+      "ecos": {
+        "maven": 517,
+        "rpm": 44
+      },
+      "format": "cyclonedx",
+      "packages": 561,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-keycloak",
+      "tool": "syft",
+      "unique_identities": 534,
+      "with_purl": 561,
+      "with_version": 561
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 27,
+      "ecos": {
+        "maven": 517,
+        "rpm": 44
+      },
+      "format": "spdx",
+      "packages": 561,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-keycloak",
+      "tool": "syft",
+      "unique_identities": 534,
+      "with_purl": 561,
+      "with_version": 561
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "file": 23001,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "golang": 4,
+        "pypi": 20,
+        "rpm": 117
+      },
+      "format": "cyclonedx",
+      "packages": 141,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-mysql",
+      "tool": "syft",
+      "unique_identities": 141,
+      "with_purl": 141,
+      "with_version": 141
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "golang": 4,
+        "pypi": 20,
+        "rpm": 117
+      },
+      "format": "spdx",
+      "packages": 141,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-mysql",
+      "tool": "syft",
+      "unique_identities": 141,
+      "with_purl": 141,
+      "with_version": 141
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "file": 7806,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 145,
+        "golang": 4
+      },
+      "format": "cyclonedx",
+      "packages": 149,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-postgres",
+      "tool": "syft",
+      "unique_identities": 149,
+      "with_purl": 149,
+      "with_version": 149
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 145,
+        "golang": 4
+      },
+      "format": "spdx",
+      "packages": 149,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-postgres",
+      "tool": "syft",
+      "unique_identities": 149,
+      "with_purl": 149,
+      "with_version": 149
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "file": 3,
+        "operating-system": 1
+      },
+      "duplicates": 198,
+      "ecos": {
+        "generic": 1,
+        "golang": 441
+      },
+      "format": "cyclonedx",
+      "packages": 442,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-prometheus",
+      "tool": "syft",
+      "unique_identities": 244,
+      "with_purl": 442,
+      "with_version": 442
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 198,
+      "ecos": {
+        "generic": 1,
+        "golang": 441
+      },
+      "format": "spdx",
+      "packages": 442,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-prometheus",
+      "tool": "syft",
+      "unique_identities": 244,
+      "with_purl": 442,
+      "with_version": 442
+    },
+    {
+      "config": "best",
+      "dropped": {
         "operating-system": 1
       },
       "duplicates": 0,
@@ -3768,6 +5275,211 @@
       "unique_identities": 0,
       "with_purl": 0,
       "with_version": 0
+    },
+    {
+      "config": "best",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S1",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {},
+      "format": "spdx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "G-S1",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "best",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 93,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S2",
+      "tool": "trivy",
+      "unique_identities": 93,
+      "with_purl": 93,
+      "with_version": 93
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 93
+      },
+      "format": "spdx",
+      "packages": 93,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "G-S2",
+      "tool": "trivy",
+      "unique_identities": 93,
+      "with_purl": 93,
+      "with_version": 93
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 73,
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 166,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S3-alpine",
+      "tool": "trivy",
+      "unique_identities": 166,
+      "with_purl": 166,
+      "with_version": 166
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 73,
+        "maven": 93
+      },
+      "format": "spdx",
+      "packages": 166,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "G-S3-alpine",
+      "tool": "trivy",
+      "unique_identities": 166,
+      "with_purl": 166,
+      "with_version": 166
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 25,
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 118,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S3-distroless",
+      "tool": "trivy",
+      "unique_identities": 118,
+      "with_purl": 118,
+      "with_version": 118
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 25,
+        "maven": 93
+      },
+      "format": "spdx",
+      "packages": 118,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "G-S3-distroless",
+      "tool": "trivy",
+      "unique_identities": 118,
+      "with_purl": 118,
+      "with_version": 118
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 140,
+        "golang": 11,
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 244,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S3-ubuntu",
+      "tool": "trivy",
+      "unique_identities": 244,
+      "with_purl": 244,
+      "with_version": 244
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 140,
+        "golang": 11,
+        "maven": 93
+      },
+      "format": "spdx",
+      "packages": 244,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "G-S3-ubuntu",
+      "tool": "trivy",
+      "unique_identities": 244,
+      "with_purl": 244,
+      "with_version": 244
     },
     {
       "config": "best",
@@ -4863,6 +6575,370 @@
       "unique_identities": 134,
       "with_purl": 134,
       "with_version": 134
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 6
+      },
+      "duplicates": 1642,
+      "ecos": {
+        "cargo": 2357,
+        "deb": 210,
+        "golang": 85,
+        "pypi": 188
+      },
+      "format": "cyclonedx",
+      "packages": 2840,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-airflow",
+      "tool": "trivy",
+      "unique_identities": 1198,
+      "with_purl": 2840,
+      "with_version": 2840
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1,
+        "trivy-aggregation-node": 6
+      },
+      "duplicates": 1642,
+      "ecos": {
+        "cargo": 2357,
+        "deb": 210,
+        "golang": 85,
+        "pypi": 188
+      },
+      "format": "spdx",
+      "packages": 2840,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-airflow",
+      "tool": "trivy",
+      "unique_identities": 1198,
+      "with_purl": 2840,
+      "with_version": 2840
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 2
+      },
+      "duplicates": 37,
+      "ecos": {
+        "apk": 23,
+        "golang": 14,
+        "npm": 478
+      },
+      "format": "cyclonedx",
+      "packages": 515,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-ghost",
+      "tool": "trivy",
+      "unique_identities": 478,
+      "with_purl": 515,
+      "with_version": 515
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1,
+        "trivy-aggregation-node": 2
+      },
+      "duplicates": 37,
+      "ecos": {
+        "apk": 23,
+        "golang": 14,
+        "npm": 478
+      },
+      "format": "spdx",
+      "packages": 515,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-ghost",
+      "tool": "trivy",
+      "unique_identities": 478,
+      "with_purl": 515,
+      "with_version": 515
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 87,
+        "golang": 219
+      },
+      "format": "cyclonedx",
+      "packages": 306,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-gitea",
+      "tool": "trivy",
+      "unique_identities": 306,
+      "with_purl": 306,
+      "with_version": 306
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 87,
+        "golang": 219
+      },
+      "format": "spdx",
+      "packages": 306,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-gitea",
+      "tool": "trivy",
+      "unique_identities": 306,
+      "with_purl": 306,
+      "with_version": 306
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 18,
+      "ecos": {
+        "deb": 131,
+        "golang": 30,
+        "maven": 155
+      },
+      "format": "cyclonedx",
+      "packages": 316,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-jenkins",
+      "tool": "trivy",
+      "unique_identities": 298,
+      "with_purl": 316,
+      "with_version": 315
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 18,
+      "ecos": {
+        "deb": 131,
+        "golang": 30,
+        "maven": 155
+      },
+      "format": "spdx",
+      "packages": 316,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-jenkins",
+      "tool": "trivy",
+      "unique_identities": 298,
+      "with_purl": 316,
+      "with_version": 315
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 27,
+      "ecos": {
+        "maven": 515,
+        "rpm": 44
+      },
+      "format": "cyclonedx",
+      "packages": 559,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-keycloak",
+      "tool": "trivy",
+      "unique_identities": 532,
+      "with_purl": 559,
+      "with_version": 559
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 27,
+      "ecos": {
+        "maven": 515,
+        "rpm": 44
+      },
+      "format": "spdx",
+      "packages": 559,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-keycloak",
+      "tool": "trivy",
+      "unique_identities": 532,
+      "with_purl": 559,
+      "with_version": 559
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "golang": 4,
+        "pypi": 20,
+        "rpm": 117
+      },
+      "format": "cyclonedx",
+      "packages": 141,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-mysql",
+      "tool": "trivy",
+      "unique_identities": 141,
+      "with_purl": 141,
+      "with_version": 141
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "golang": 4,
+        "pypi": 20,
+        "rpm": 117
+      },
+      "format": "spdx",
+      "packages": 141,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-mysql",
+      "tool": "trivy",
+      "unique_identities": 141,
+      "with_purl": 141,
+      "with_version": 141
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 145,
+        "golang": 4
+      },
+      "format": "cyclonedx",
+      "packages": 149,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-postgres",
+      "tool": "trivy",
+      "unique_identities": 149,
+      "with_purl": 149,
+      "with_version": 149
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 145,
+        "golang": 4
+      },
+      "format": "spdx",
+      "packages": 149,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-postgres",
+      "tool": "trivy",
+      "unique_identities": 149,
+      "with_purl": 149,
+      "with_version": 149
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "trivy-aggregation-node": 2
+      },
+      "duplicates": 198,
+      "ecos": {
+        "golang": 441
+      },
+      "format": "cyclonedx",
+      "packages": 441,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-prometheus",
+      "tool": "trivy",
+      "unique_identities": 243,
+      "with_purl": 441,
+      "with_version": 441
+    },
+    {
+      "config": "best",
+      "dropped": {
+        "document-subject": 1,
+        "trivy-aggregation-node": 2
+      },
+      "duplicates": 198,
+      "ecos": {
+        "golang": 441
+      },
+      "format": "spdx",
+      "packages": 441,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-prometheus",
+      "tool": "trivy",
+      "unique_identities": 243,
+      "with_purl": 441,
+      "with_version": 441
     },
     {
       "config": "default",
@@ -5065,6 +7141,226 @@
       "unique_identities": 0,
       "with_purl": 0,
       "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "github": 5
+      },
+      "format": "cyclonedx",
+      "packages": 5,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S1",
+      "tool": "cdxgen",
+      "unique_identities": 5,
+      "with_purl": 5,
+      "with_version": 5
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "software_File": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "github": 5
+      },
+      "format": "spdx",
+      "packages": 5,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "G-S1",
+      "tool": "cdxgen",
+      "unique_identities": 5,
+      "with_purl": 5,
+      "with_version": 5
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 93,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S2",
+      "tool": "cdxgen",
+      "unique_identities": 93,
+      "with_purl": 93,
+      "with_version": 93
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 93
+      },
+      "format": "spdx",
+      "packages": 93,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "G-S2",
+      "tool": "cdxgen",
+      "unique_identities": 93,
+      "with_purl": 93,
+      "with_version": 93
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 121,
+        "file": 501
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 88,
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 181,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S3-alpine",
+      "tool": "cdxgen",
+      "unique_identities": 181,
+      "with_purl": 181,
+      "with_version": 181
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 66,
+        "document-subject": 1,
+        "software_File": 501
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 88,
+        "maven": 93,
+        "unknown": 121
+      },
+      "format": "spdx",
+      "packages": 302,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "G-S3-alpine",
+      "tool": "cdxgen",
+      "unique_identities": 302,
+      "with_purl": 181,
+      "with_version": 302
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 468
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 43,
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 136,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S3-distroless",
+      "tool": "cdxgen",
+      "unique_identities": 136,
+      "with_purl": 136,
+      "with_version": 136
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 1,
+        "document-subject": 1,
+        "software_File": 468
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 43,
+        "maven": 93
+      },
+      "format": "spdx",
+      "packages": 136,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "G-S3-distroless",
+      "tool": "cdxgen",
+      "unique_identities": 136,
+      "with_purl": 136,
+      "with_version": 136
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 127,
+        "data": 2,
+        "file": 4939
+      },
+      "duplicates": 9,
+      "ecos": {
+        "deb": 206,
+        "golang": 10,
+        "maven": 93,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 310,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S3-ubuntu",
+      "tool": "cdxgen",
+      "unique_identities": 301,
+      "with_purl": 309,
+      "with_version": 310
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 113,
+        "document-subject": 1,
+        "software_File": 4939
+      },
+      "duplicates": 9,
+      "ecos": {
+        "deb": 206,
+        "generic": 2,
+        "golang": 10,
+        "maven": 93,
+        "unknown": 128
+      },
+      "format": "spdx",
+      "packages": 439,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "G-S3-ubuntu",
+      "tool": "cdxgen",
+      "unique_identities": 430,
+      "with_purl": 311,
+      "with_version": 439
     },
     {
       "config": "default",
@@ -6236,6 +8532,400 @@
     {
       "config": "default",
       "dropped": {
+        "cryptographic-asset": 173,
+        "data": 7,
+        "file": 8671
+      },
+      "duplicates": 12,
+      "ecos": {
+        "cargo": 906,
+        "deb": 294,
+        "generic": 1,
+        "pypi": 140
+      },
+      "format": "cyclonedx",
+      "packages": 1341,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-airflow",
+      "tool": "cdxgen",
+      "unique_identities": 1329,
+      "with_purl": 1341,
+      "with_version": 1341
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 878,
+        "document-subject": 1,
+        "software_File": 8671
+      },
+      "duplicates": 12,
+      "ecos": {
+        "cargo": 906,
+        "deb": 294,
+        "generic": 8,
+        "pypi": 140,
+        "unknown": 173
+      },
+      "format": "spdx",
+      "packages": 1521,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "X-airflow",
+      "tool": "cdxgen",
+      "unique_identities": 1509,
+      "with_purl": 1348,
+      "with_version": 1521
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 3,
+        "file": 187
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 29,
+        "generic": 5,
+        "golang": 12,
+        "npm": 194,
+        "unknown": 2
+      },
+      "format": "cyclonedx",
+      "packages": 242,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-ghost",
+      "tool": "cdxgen",
+      "unique_identities": 242,
+      "with_purl": 240,
+      "with_version": 237
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 19,
+        "document-subject": 1,
+        "software_File": 187
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 29,
+        "generic": 5,
+        "golang": 12,
+        "npm": 194,
+        "unknown": 5
+      },
+      "format": "spdx",
+      "packages": 245,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "X-ghost",
+      "tool": "cdxgen",
+      "unique_identities": 245,
+      "with_purl": 240,
+      "with_version": 240
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 121,
+        "file": 623
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 102,
+        "golang": 218,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 321,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-gitea",
+      "tool": "cdxgen",
+      "unique_identities": 321,
+      "with_purl": 320,
+      "with_version": 321
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 81,
+        "document-subject": 1,
+        "software_File": 623
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 102,
+        "golang": 218,
+        "unknown": 122
+      },
+      "format": "spdx",
+      "packages": 442,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "X-gitea",
+      "tool": "cdxgen",
+      "unique_identities": 442,
+      "with_purl": 320,
+      "with_version": 442
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 168,
+        "data": 2,
+        "file": 4416
+      },
+      "duplicates": 7,
+      "ecos": {
+        "deb": 196,
+        "golang": 29,
+        "maven": 78,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 304,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-jenkins",
+      "tool": "cdxgen",
+      "unique_identities": 297,
+      "with_purl": 303,
+      "with_version": 303
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 106,
+        "document-subject": 1,
+        "software_File": 4416
+      },
+      "duplicates": 7,
+      "ecos": {
+        "deb": 196,
+        "generic": 2,
+        "golang": 29,
+        "maven": 78,
+        "unknown": 169
+      },
+      "format": "spdx",
+      "packages": 474,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "X-jenkins",
+      "tool": "cdxgen",
+      "unique_identities": 467,
+      "with_purl": 305,
+      "with_version": 473
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 4,
+        "data": 9,
+        "file": 1302
+      },
+      "duplicates": 2,
+      "ecos": {
+        "maven": 475,
+        "rpm": 56
+      },
+      "format": "cyclonedx",
+      "packages": 531,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-keycloak",
+      "tool": "cdxgen",
+      "unique_identities": 529,
+      "with_purl": 531,
+      "with_version": 531
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 46,
+        "document-subject": 1,
+        "software_File": 1302
+      },
+      "duplicates": 2,
+      "ecos": {
+        "generic": 9,
+        "maven": 475,
+        "rpm": 56,
+        "unknown": 4
+      },
+      "format": "spdx",
+      "packages": 544,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "X-keycloak",
+      "tool": "cdxgen",
+      "unique_identities": 542,
+      "with_purl": 540,
+      "with_version": 544
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 2,
+        "data": 22,
+        "file": 1024
+      },
+      "duplicates": 3,
+      "ecos": {
+        "cargo": 47,
+        "golang": 3,
+        "pypi": 20,
+        "rpm": 145,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 216,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-mysql",
+      "tool": "cdxgen",
+      "unique_identities": 213,
+      "with_purl": 215,
+      "with_version": 216
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 155,
+        "document-subject": 1,
+        "software_File": 1024
+      },
+      "duplicates": 3,
+      "ecos": {
+        "cargo": 47,
+        "generic": 22,
+        "golang": 3,
+        "pypi": 20,
+        "rpm": 145,
+        "unknown": 3
+      },
+      "format": "spdx",
+      "packages": 240,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "X-mysql",
+      "tool": "cdxgen",
+      "unique_identities": 237,
+      "with_purl": 237,
+      "with_version": 240
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 20,
+        "data": 3,
+        "file": 5712
+      },
+      "duplicates": 9,
+      "ecos": {
+        "deb": 209,
+        "golang": 3,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 213,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-postgres",
+      "tool": "cdxgen",
+      "unique_identities": 204,
+      "with_purl": 212,
+      "with_version": 213
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 118,
+        "document-subject": 1,
+        "software_File": 5712
+      },
+      "duplicates": 9,
+      "ecos": {
+        "deb": 209,
+        "generic": 3,
+        "golang": 3,
+        "unknown": 21
+      },
+      "format": "spdx",
+      "packages": 236,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "X-postgres",
+      "tool": "cdxgen",
+      "unique_identities": 227,
+      "with_purl": 215,
+      "with_version": 236
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 4
+      },
+      "duplicates": 0,
+      "ecos": {
+        "golang": 242,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 243,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-prometheus",
+      "tool": "cdxgen",
+      "unique_identities": 243,
+      "with_purl": 242,
+      "with_version": 243
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "Relationship": 1,
+        "document-subject": 1,
+        "software_File": 4
+      },
+      "duplicates": 0,
+      "ecos": {
+        "golang": 242,
+        "unknown": 1
+      },
+      "format": "spdx",
+      "packages": 243,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-3.0.1",
+      "target": "X-prometheus",
+      "tool": "cdxgen",
+      "unique_identities": 243,
+      "with_purl": 242,
+      "with_version": 243
+    },
+    {
+      "config": "default",
+      "dropped": {
         "cryptographic-asset": 20,
         "data": 2,
         "file": 1496
@@ -6345,6 +9035,112 @@
       "unique_identities": 0,
       "with_purl": 0,
       "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "github": 5
+      },
+      "format": "cyclonedx",
+      "packages": 5,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "G-S1",
+      "tool": "cdxgen",
+      "unique_identities": 5,
+      "with_purl": 5,
+      "with_version": 5
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 93,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "G-S2",
+      "tool": "cdxgen",
+      "unique_identities": 93,
+      "with_purl": 93,
+      "with_version": 93
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 121,
+        "file": 501
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 88,
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 181,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "G-S3-alpine",
+      "tool": "cdxgen",
+      "unique_identities": 181,
+      "with_purl": 181,
+      "with_version": 181
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 468
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 43,
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 136,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "G-S3-distroless",
+      "tool": "cdxgen",
+      "unique_identities": 136,
+      "with_purl": 136,
+      "with_version": 136
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 127,
+        "data": 2,
+        "file": 4939
+      },
+      "duplicates": 9,
+      "ecos": {
+        "deb": 206,
+        "golang": 10,
+        "maven": 93,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 310,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "G-S3-ubuntu",
+      "tool": "cdxgen",
+      "unique_identities": 301,
+      "with_purl": 309,
+      "with_version": 310
     },
     {
       "config": "default",
@@ -6918,6 +9714,198 @@
     {
       "config": "default",
       "dropped": {
+        "cryptographic-asset": 173,
+        "data": 7,
+        "file": 8671
+      },
+      "duplicates": 12,
+      "ecos": {
+        "cargo": 906,
+        "deb": 294,
+        "generic": 1,
+        "pypi": 140
+      },
+      "format": "cyclonedx",
+      "packages": 1341,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-airflow",
+      "tool": "cdxgen",
+      "unique_identities": 1329,
+      "with_purl": 1341,
+      "with_version": 1341
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 3,
+        "file": 187
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 29,
+        "generic": 5,
+        "golang": 12,
+        "npm": 194,
+        "unknown": 2
+      },
+      "format": "cyclonedx",
+      "packages": 242,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-ghost",
+      "tool": "cdxgen",
+      "unique_identities": 242,
+      "with_purl": 240,
+      "with_version": 237
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 121,
+        "file": 623
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 102,
+        "golang": 218,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 321,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-gitea",
+      "tool": "cdxgen",
+      "unique_identities": 321,
+      "with_purl": 320,
+      "with_version": 321
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 168,
+        "data": 2,
+        "file": 4416
+      },
+      "duplicates": 7,
+      "ecos": {
+        "deb": 196,
+        "golang": 29,
+        "maven": 78,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 304,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-jenkins",
+      "tool": "cdxgen",
+      "unique_identities": 297,
+      "with_purl": 303,
+      "with_version": 303
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 4,
+        "data": 9,
+        "file": 1302
+      },
+      "duplicates": 2,
+      "ecos": {
+        "maven": 475,
+        "rpm": 56
+      },
+      "format": "cyclonedx",
+      "packages": 531,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-keycloak",
+      "tool": "cdxgen",
+      "unique_identities": 529,
+      "with_purl": 531,
+      "with_version": 531
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 2,
+        "data": 22,
+        "file": 1024
+      },
+      "duplicates": 3,
+      "ecos": {
+        "cargo": 47,
+        "golang": 3,
+        "pypi": 20,
+        "rpm": 145,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 216,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-mysql",
+      "tool": "cdxgen",
+      "unique_identities": 213,
+      "with_purl": 215,
+      "with_version": 216
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "cryptographic-asset": 20,
+        "data": 3,
+        "file": 5712
+      },
+      "duplicates": 9,
+      "ecos": {
+        "deb": 209,
+        "golang": 3,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 213,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-postgres",
+      "tool": "cdxgen",
+      "unique_identities": 204,
+      "with_purl": 212,
+      "with_version": 213
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 4
+      },
+      "duplicates": 0,
+      "ecos": {
+        "golang": 242,
+        "unknown": 1
+      },
+      "format": "cyclonedx",
+      "packages": 243,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-prometheus",
+      "tool": "cdxgen",
+      "unique_identities": 243,
+      "with_purl": 242,
+      "with_version": 243
+    },
+    {
+      "config": "default",
+      "dropped": {
         "file": 2988,
         "operating-system": 1
       },
@@ -7139,6 +10127,223 @@
       "unique_identities": 0,
       "with_purl": 0,
       "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 4
+      },
+      "duplicates": 2,
+      "ecos": {
+        "github": 7,
+        "maven": 1
+      },
+      "format": "cyclonedx",
+      "packages": 8,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S1",
+      "tool": "syft",
+      "unique_identities": 6,
+      "with_purl": 8,
+      "with_version": 7
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 2,
+      "ecos": {
+        "github": 7,
+        "maven": 1
+      },
+      "format": "spdx",
+      "packages": 8,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "G-S1",
+      "tool": "syft",
+      "unique_identities": 6,
+      "with_purl": 8,
+      "with_version": 7
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 93,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S2",
+      "tool": "syft",
+      "unique_identities": 93,
+      "with_purl": 93,
+      "with_version": 93
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 93
+      },
+      "format": "spdx",
+      "packages": 93,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "G-S2",
+      "tool": "syft",
+      "unique_identities": 93,
+      "with_purl": 93,
+      "with_version": 93
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1219,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 73,
+        "generic": 1,
+        "maven": 94
+      },
+      "format": "cyclonedx",
+      "packages": 168,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S3-alpine",
+      "tool": "syft",
+      "unique_identities": 168,
+      "with_purl": 168,
+      "with_version": 168
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 73,
+        "generic": 1,
+        "maven": 94
+      },
+      "format": "spdx",
+      "packages": 168,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "G-S3-alpine",
+      "tool": "syft",
+      "unique_identities": 168,
+      "with_purl": 168,
+      "with_version": 168
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1541,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 25,
+        "maven": 94
+      },
+      "format": "cyclonedx",
+      "packages": 119,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S3-distroless",
+      "tool": "syft",
+      "unique_identities": 119,
+      "with_purl": 119,
+      "with_version": 119
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 25,
+        "maven": 94
+      },
+      "format": "spdx",
+      "packages": 119,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "G-S3-distroless",
+      "tool": "syft",
+      "unique_identities": 119,
+      "with_purl": 119,
+      "with_version": 119
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 7025,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 140,
+        "generic": 1,
+        "golang": 11,
+        "maven": 94
+      },
+      "format": "cyclonedx",
+      "packages": 246,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S3-ubuntu",
+      "tool": "syft",
+      "unique_identities": 246,
+      "with_purl": 246,
+      "with_version": 246
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 140,
+        "generic": 1,
+        "golang": 11,
+        "maven": 94
+      },
+      "format": "spdx",
+      "packages": 246,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "G-S3-ubuntu",
+      "tool": "syft",
+      "unique_identities": 246,
+      "with_purl": 246,
+      "with_version": 246
     },
     {
       "config": "default",
@@ -8250,6 +11455,368 @@
     {
       "config": "default",
       "dropped": {
+        "file": 12729,
+        "operating-system": 1
+      },
+      "duplicates": 1633,
+      "ecos": {
+        "cargo": 2357,
+        "deb": 210,
+        "golang": 85,
+        "pypi": 152,
+        "unknown": 6
+      },
+      "format": "cyclonedx",
+      "packages": 2810,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-airflow",
+      "tool": "syft",
+      "unique_identities": 1177,
+      "with_purl": 2804,
+      "with_version": 2809
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 1633,
+      "ecos": {
+        "cargo": 2357,
+        "deb": 210,
+        "golang": 85,
+        "pypi": 152,
+        "unknown": 6
+      },
+      "format": "spdx",
+      "packages": 2810,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-airflow",
+      "tool": "syft",
+      "unique_identities": 1177,
+      "with_purl": 2804,
+      "with_version": 2809
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1673,
+        "operating-system": 1
+      },
+      "duplicates": 161,
+      "ecos": {
+        "apk": 23,
+        "generic": 1,
+        "golang": 24,
+        "npm": 1497,
+        "unknown": 4
+      },
+      "format": "cyclonedx",
+      "packages": 1549,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-ghost",
+      "tool": "syft",
+      "unique_identities": 1388,
+      "with_purl": 1545,
+      "with_version": 1524
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 161,
+      "ecos": {
+        "apk": 23,
+        "generic": 1,
+        "golang": 24,
+        "npm": 1497,
+        "unknown": 4
+      },
+      "format": "spdx",
+      "packages": 1549,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-ghost",
+      "tool": "syft",
+      "unique_identities": 1388,
+      "with_purl": 1545,
+      "with_version": 1524
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 634,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 87,
+        "golang": 219
+      },
+      "format": "cyclonedx",
+      "packages": 306,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-gitea",
+      "tool": "syft",
+      "unique_identities": 306,
+      "with_purl": 306,
+      "with_version": 306
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 87,
+        "golang": 219
+      },
+      "format": "spdx",
+      "packages": 306,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-gitea",
+      "tool": "syft",
+      "unique_identities": 306,
+      "with_purl": 306,
+      "with_version": 306
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 8178,
+        "operating-system": 1
+      },
+      "duplicates": 18,
+      "ecos": {
+        "deb": 131,
+        "generic": 1,
+        "golang": 30,
+        "maven": 156
+      },
+      "format": "cyclonedx",
+      "packages": 318,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-jenkins",
+      "tool": "syft",
+      "unique_identities": 300,
+      "with_purl": 318,
+      "with_version": 316
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 18,
+      "ecos": {
+        "deb": 131,
+        "generic": 1,
+        "golang": 30,
+        "maven": 156
+      },
+      "format": "spdx",
+      "packages": 318,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-jenkins",
+      "tool": "syft",
+      "unique_identities": 300,
+      "with_purl": 318,
+      "with_version": 316
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 4009,
+        "operating-system": 1
+      },
+      "duplicates": 27,
+      "ecos": {
+        "maven": 517,
+        "rpm": 44
+      },
+      "format": "cyclonedx",
+      "packages": 561,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-keycloak",
+      "tool": "syft",
+      "unique_identities": 534,
+      "with_purl": 561,
+      "with_version": 561
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 27,
+      "ecos": {
+        "maven": 517,
+        "rpm": 44
+      },
+      "format": "spdx",
+      "packages": 561,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-keycloak",
+      "tool": "syft",
+      "unique_identities": 534,
+      "with_purl": 561,
+      "with_version": 561
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 23001,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "golang": 4,
+        "pypi": 20,
+        "rpm": 117
+      },
+      "format": "cyclonedx",
+      "packages": 141,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-mysql",
+      "tool": "syft",
+      "unique_identities": 141,
+      "with_purl": 141,
+      "with_version": 141
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "golang": 4,
+        "pypi": 20,
+        "rpm": 117
+      },
+      "format": "spdx",
+      "packages": 141,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-mysql",
+      "tool": "syft",
+      "unique_identities": 141,
+      "with_purl": 141,
+      "with_version": 141
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 7806,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 145,
+        "golang": 4
+      },
+      "format": "cyclonedx",
+      "packages": 149,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-postgres",
+      "tool": "syft",
+      "unique_identities": 149,
+      "with_purl": 149,
+      "with_version": 149
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 145,
+        "golang": 4
+      },
+      "format": "spdx",
+      "packages": 149,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-postgres",
+      "tool": "syft",
+      "unique_identities": 149,
+      "with_purl": 149,
+      "with_version": 149
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 3,
+        "operating-system": 1
+      },
+      "duplicates": 198,
+      "ecos": {
+        "generic": 1,
+        "golang": 441
+      },
+      "format": "cyclonedx",
+      "packages": 442,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-prometheus",
+      "tool": "syft",
+      "unique_identities": 244,
+      "with_purl": 442,
+      "with_version": 442
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 198,
+      "ecos": {
+        "generic": 1,
+        "golang": 441
+      },
+      "format": "spdx",
+      "packages": 442,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-prometheus",
+      "tool": "syft",
+      "unique_identities": 244,
+      "with_purl": 442,
+      "with_version": 442
+    },
+    {
+      "config": "default",
+      "dropped": {
         "file": 2988,
         "operating-system": 1
       },
@@ -8357,6 +11924,116 @@
       "unique_identities": 0,
       "with_purl": 0,
       "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 4
+      },
+      "duplicates": 2,
+      "ecos": {
+        "github": 7,
+        "maven": 1
+      },
+      "format": "cyclonedx",
+      "packages": 8,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "G-S1",
+      "tool": "syft",
+      "unique_identities": 6,
+      "with_purl": 8,
+      "with_version": 7
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 93,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "G-S2",
+      "tool": "syft",
+      "unique_identities": 93,
+      "with_purl": 93,
+      "with_version": 93
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1219,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 73,
+        "generic": 1,
+        "maven": 94
+      },
+      "format": "cyclonedx",
+      "packages": 168,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "G-S3-alpine",
+      "tool": "syft",
+      "unique_identities": 168,
+      "with_purl": 168,
+      "with_version": 168
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1541,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 25,
+        "maven": 94
+      },
+      "format": "cyclonedx",
+      "packages": 119,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "G-S3-distroless",
+      "tool": "syft",
+      "unique_identities": 119,
+      "with_purl": 119,
+      "with_version": 119
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 7025,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 140,
+        "generic": 1,
+        "golang": 11,
+        "maven": 94
+      },
+      "format": "cyclonedx",
+      "packages": 246,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "G-S3-ubuntu",
+      "tool": "syft",
+      "unique_identities": 246,
+      "with_purl": 246,
+      "with_version": 246
     },
     {
       "config": "default",
@@ -8921,6 +12598,191 @@
     {
       "config": "default",
       "dropped": {
+        "file": 12729,
+        "operating-system": 1
+      },
+      "duplicates": 1633,
+      "ecos": {
+        "cargo": 2357,
+        "deb": 210,
+        "golang": 85,
+        "pypi": 152,
+        "unknown": 6
+      },
+      "format": "cyclonedx",
+      "packages": 2810,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-airflow",
+      "tool": "syft",
+      "unique_identities": 1177,
+      "with_purl": 2804,
+      "with_version": 2809
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 1673,
+        "operating-system": 1
+      },
+      "duplicates": 161,
+      "ecos": {
+        "apk": 23,
+        "generic": 1,
+        "golang": 24,
+        "npm": 1497,
+        "unknown": 4
+      },
+      "format": "cyclonedx",
+      "packages": 1549,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-ghost",
+      "tool": "syft",
+      "unique_identities": 1388,
+      "with_purl": 1545,
+      "with_version": 1524
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 634,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 87,
+        "golang": 219
+      },
+      "format": "cyclonedx",
+      "packages": 306,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-gitea",
+      "tool": "syft",
+      "unique_identities": 306,
+      "with_purl": 306,
+      "with_version": 306
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 8178,
+        "operating-system": 1
+      },
+      "duplicates": 18,
+      "ecos": {
+        "deb": 131,
+        "generic": 1,
+        "golang": 30,
+        "maven": 156
+      },
+      "format": "cyclonedx",
+      "packages": 318,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-jenkins",
+      "tool": "syft",
+      "unique_identities": 300,
+      "with_purl": 318,
+      "with_version": 316
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 4009,
+        "operating-system": 1
+      },
+      "duplicates": 27,
+      "ecos": {
+        "maven": 517,
+        "rpm": 44
+      },
+      "format": "cyclonedx",
+      "packages": 561,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-keycloak",
+      "tool": "syft",
+      "unique_identities": 534,
+      "with_purl": 561,
+      "with_version": 561
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 23001,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "golang": 4,
+        "pypi": 20,
+        "rpm": 117
+      },
+      "format": "cyclonedx",
+      "packages": 141,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-mysql",
+      "tool": "syft",
+      "unique_identities": 141,
+      "with_purl": 141,
+      "with_version": 141
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 7806,
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 145,
+        "golang": 4
+      },
+      "format": "cyclonedx",
+      "packages": 149,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-postgres",
+      "tool": "syft",
+      "unique_identities": 149,
+      "with_purl": 149,
+      "with_version": 149
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "file": 3,
+        "operating-system": 1
+      },
+      "duplicates": 198,
+      "ecos": {
+        "generic": 1,
+        "golang": 441
+      },
+      "format": "cyclonedx",
+      "packages": 442,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-prometheus",
+      "tool": "syft",
+      "unique_identities": 244,
+      "with_purl": 442,
+      "with_version": 442
+    },
+    {
+      "config": "default",
+      "dropped": {
         "operating-system": 1
       },
       "duplicates": 0,
@@ -9142,6 +13004,211 @@
       "unique_identities": 0,
       "with_purl": 0,
       "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S1",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {},
+      "format": "spdx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "G-S1",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 93,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S2",
+      "tool": "trivy",
+      "unique_identities": 93,
+      "with_purl": 93,
+      "with_version": 93
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "maven": 93
+      },
+      "format": "spdx",
+      "packages": 93,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "G-S2",
+      "tool": "trivy",
+      "unique_identities": 93,
+      "with_purl": 93,
+      "with_version": 93
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 73,
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 166,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S3-alpine",
+      "tool": "trivy",
+      "unique_identities": 166,
+      "with_purl": 166,
+      "with_version": 166
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 73,
+        "maven": 93
+      },
+      "format": "spdx",
+      "packages": 166,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "G-S3-alpine",
+      "tool": "trivy",
+      "unique_identities": 166,
+      "with_purl": 166,
+      "with_version": 166
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 25,
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 118,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S3-distroless",
+      "tool": "trivy",
+      "unique_identities": 118,
+      "with_purl": 118,
+      "with_version": 118
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 25,
+        "maven": 93
+      },
+      "format": "spdx",
+      "packages": 118,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "G-S3-distroless",
+      "tool": "trivy",
+      "unique_identities": 118,
+      "with_purl": 118,
+      "with_version": 118
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 140,
+        "golang": 11,
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 244,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "G-S3-ubuntu",
+      "tool": "trivy",
+      "unique_identities": 244,
+      "with_purl": 244,
+      "with_version": 244
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 140,
+        "golang": 11,
+        "maven": 93
+      },
+      "format": "spdx",
+      "packages": 244,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "G-S3-ubuntu",
+      "tool": "trivy",
+      "unique_identities": 244,
+      "with_purl": 244,
+      "with_version": 244
     },
     {
       "config": "default",
@@ -10234,6 +14301,368 @@
     {
       "config": "default",
       "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 5
+      },
+      "duplicates": 1628,
+      "ecos": {
+        "cargo": 2357,
+        "deb": 210,
+        "pypi": 155
+      },
+      "format": "cyclonedx",
+      "packages": 2722,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-airflow",
+      "tool": "trivy",
+      "unique_identities": 1094,
+      "with_purl": 2722,
+      "with_version": 2722
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1,
+        "trivy-aggregation-node": 5
+      },
+      "duplicates": 1628,
+      "ecos": {
+        "cargo": 2357,
+        "deb": 210,
+        "pypi": 155
+      },
+      "format": "spdx",
+      "packages": 2722,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-airflow",
+      "tool": "trivy",
+      "unique_identities": 1094,
+      "with_purl": 2722,
+      "with_version": 2722
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 2
+      },
+      "duplicates": 37,
+      "ecos": {
+        "apk": 23,
+        "golang": 14,
+        "npm": 478
+      },
+      "format": "cyclonedx",
+      "packages": 515,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-ghost",
+      "tool": "trivy",
+      "unique_identities": 478,
+      "with_purl": 515,
+      "with_version": 515
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1,
+        "trivy-aggregation-node": 2
+      },
+      "duplicates": 37,
+      "ecos": {
+        "apk": 23,
+        "golang": 14,
+        "npm": 478
+      },
+      "format": "spdx",
+      "packages": 515,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-ghost",
+      "tool": "trivy",
+      "unique_identities": 478,
+      "with_purl": 515,
+      "with_version": 515
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 87,
+        "golang": 219
+      },
+      "format": "cyclonedx",
+      "packages": 306,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-gitea",
+      "tool": "trivy",
+      "unique_identities": 306,
+      "with_purl": 306,
+      "with_version": 306
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 87,
+        "golang": 219
+      },
+      "format": "spdx",
+      "packages": 306,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-gitea",
+      "tool": "trivy",
+      "unique_identities": 306,
+      "with_purl": 306,
+      "with_version": 306
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 18,
+      "ecos": {
+        "deb": 131,
+        "golang": 30,
+        "maven": 155
+      },
+      "format": "cyclonedx",
+      "packages": 316,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-jenkins",
+      "tool": "trivy",
+      "unique_identities": 298,
+      "with_purl": 316,
+      "with_version": 315
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 18,
+      "ecos": {
+        "deb": 131,
+        "golang": 30,
+        "maven": 155
+      },
+      "format": "spdx",
+      "packages": 316,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-jenkins",
+      "tool": "trivy",
+      "unique_identities": 298,
+      "with_purl": 316,
+      "with_version": 315
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 27,
+      "ecos": {
+        "maven": 515,
+        "rpm": 44
+      },
+      "format": "cyclonedx",
+      "packages": 559,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-keycloak",
+      "tool": "trivy",
+      "unique_identities": 532,
+      "with_purl": 559,
+      "with_version": 559
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1
+      },
+      "duplicates": 27,
+      "ecos": {
+        "maven": 515,
+        "rpm": 44
+      },
+      "format": "spdx",
+      "packages": 559,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-keycloak",
+      "tool": "trivy",
+      "unique_identities": 532,
+      "with_purl": 559,
+      "with_version": 559
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "golang": 4,
+        "pypi": 20,
+        "rpm": 117
+      },
+      "format": "cyclonedx",
+      "packages": 141,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-mysql",
+      "tool": "trivy",
+      "unique_identities": 141,
+      "with_purl": 141,
+      "with_version": 141
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "golang": 4,
+        "pypi": 20,
+        "rpm": 117
+      },
+      "format": "spdx",
+      "packages": 141,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-mysql",
+      "tool": "trivy",
+      "unique_identities": 141,
+      "with_purl": 141,
+      "with_version": 141
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 145,
+        "golang": 4
+      },
+      "format": "cyclonedx",
+      "packages": 149,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-postgres",
+      "tool": "trivy",
+      "unique_identities": 149,
+      "with_purl": 149,
+      "with_version": 149
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "purpose:OPERATING-SYSTEM": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 145,
+        "golang": 4
+      },
+      "format": "spdx",
+      "packages": 149,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-postgres",
+      "tool": "trivy",
+      "unique_identities": 149,
+      "with_purl": 149,
+      "with_version": 149
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "trivy-aggregation-node": 2
+      },
+      "duplicates": 198,
+      "ecos": {
+        "golang": 441
+      },
+      "format": "cyclonedx",
+      "packages": 441,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "1.7",
+      "target": "X-prometheus",
+      "tool": "trivy",
+      "unique_identities": 243,
+      "with_purl": 441,
+      "with_version": 441
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "document-subject": 1,
+        "trivy-aggregation-node": 2
+      },
+      "duplicates": 198,
+      "ecos": {
+        "golang": 441
+      },
+      "format": "spdx",
+      "packages": 441,
+      "parse_ok": true,
+      "rep": 1,
+      "spec": "SPDX-2.3",
+      "target": "X-prometheus",
+      "tool": "trivy",
+      "unique_identities": 243,
+      "with_purl": 441,
+      "with_version": 441
+    },
+    {
+      "config": "default",
+      "dropped": {
         "operating-system": 1
       },
       "duplicates": 0,
@@ -10338,6 +14767,105 @@
       "unique_identities": 0,
       "with_purl": 0,
       "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {},
+      "format": "cyclonedx",
+      "packages": 0,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "G-S1",
+      "tool": "trivy",
+      "unique_identities": 0,
+      "with_purl": 0,
+      "with_version": 0
+    },
+    {
+      "config": "default",
+      "dropped": {},
+      "duplicates": 0,
+      "ecos": {
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 93,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "G-S2",
+      "tool": "trivy",
+      "unique_identities": 93,
+      "with_purl": 93,
+      "with_version": 93
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 73,
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 166,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "G-S3-alpine",
+      "tool": "trivy",
+      "unique_identities": 166,
+      "with_purl": 166,
+      "with_version": 166
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 25,
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 118,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "G-S3-distroless",
+      "tool": "trivy",
+      "unique_identities": 118,
+      "with_purl": 118,
+      "with_version": 118
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 140,
+        "golang": 11,
+        "maven": 93
+      },
+      "format": "cyclonedx",
+      "packages": 244,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "G-S3-ubuntu",
+      "tool": "trivy",
+      "unique_identities": 244,
+      "with_purl": 244,
+      "with_version": 244
     },
     {
       "config": "default",
@@ -10867,6 +15395,183 @@
       "unique_identities": 134,
       "with_purl": 134,
       "with_version": 134
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 5
+      },
+      "duplicates": 1628,
+      "ecos": {
+        "cargo": 2357,
+        "deb": 210,
+        "pypi": 155
+      },
+      "format": "cyclonedx",
+      "packages": 2722,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-airflow",
+      "tool": "trivy",
+      "unique_identities": 1094,
+      "with_purl": 2722,
+      "with_version": 2722
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 2
+      },
+      "duplicates": 37,
+      "ecos": {
+        "apk": 23,
+        "golang": 14,
+        "npm": 478
+      },
+      "format": "cyclonedx",
+      "packages": 515,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-ghost",
+      "tool": "trivy",
+      "unique_identities": 478,
+      "with_purl": 515,
+      "with_version": 515
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "apk": 87,
+        "golang": 219
+      },
+      "format": "cyclonedx",
+      "packages": 306,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-gitea",
+      "tool": "trivy",
+      "unique_identities": 306,
+      "with_purl": 306,
+      "with_version": 306
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 18,
+      "ecos": {
+        "deb": 131,
+        "golang": 30,
+        "maven": 155
+      },
+      "format": "cyclonedx",
+      "packages": 316,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-jenkins",
+      "tool": "trivy",
+      "unique_identities": 298,
+      "with_purl": 316,
+      "with_version": 315
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1
+      },
+      "duplicates": 27,
+      "ecos": {
+        "maven": 515,
+        "rpm": 44
+      },
+      "format": "cyclonedx",
+      "packages": 559,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-keycloak",
+      "tool": "trivy",
+      "unique_identities": 532,
+      "with_purl": 559,
+      "with_version": 559
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "golang": 4,
+        "pypi": 20,
+        "rpm": 117
+      },
+      "format": "cyclonedx",
+      "packages": 141,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-mysql",
+      "tool": "trivy",
+      "unique_identities": 141,
+      "with_purl": 141,
+      "with_version": 141
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "operating-system": 1,
+        "trivy-aggregation-node": 1
+      },
+      "duplicates": 0,
+      "ecos": {
+        "deb": 145,
+        "golang": 4
+      },
+      "format": "cyclonedx",
+      "packages": 149,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-postgres",
+      "tool": "trivy",
+      "unique_identities": 149,
+      "with_purl": 149,
+      "with_version": 149
+    },
+    {
+      "config": "default",
+      "dropped": {
+        "trivy-aggregation-node": 2
+      },
+      "duplicates": 198,
+      "ecos": {
+        "golang": 441
+      },
+      "format": "cyclonedx",
+      "packages": 441,
+      "parse_ok": true,
+      "rep": 2,
+      "spec": "1.7",
+      "target": "X-prometheus",
+      "tool": "trivy",
+      "unique_identities": 243,
+      "with_purl": 441,
+      "with_version": 441
     },
     {
       "config": "netblocked",

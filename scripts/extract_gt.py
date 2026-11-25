@@ -119,18 +119,46 @@ def python_license(meta) -> str | None:
     if meta.get("License-Expression"):
         return meta["License-Expression"].strip()
     lic = (meta.get("License") or "").strip()
-    if lic and lic.upper() != "UNKNOWN" and len(lic) < 120:
-        return lic
     cls = [c.split("::")[-1].strip() for c in meta.get_all("Classifier") or [] if c.startswith("License ::")]
+    if lic and lic.upper() != "UNKNOWN" and len(lic) < 120:
+        # A license classifier from a FAMILY the License field does not mention (uvloop: "MIT License" plus
+        # "Apache Software License", two license files) means the package declares more than that field says:
+        # record both, so the GT states the full (possibly ambiguous) declaration instead of half of it.
+        extra = [c for c in cls if license_family(c) and license_family(c) not in license_family_set(lic)]
+        return " OR ".join([lic] + extra)
     return " OR ".join(cls) if cls else None
+
+
+LICENSE_FAMILIES = [("lesser general public", "lgpl"), ("lgpl", "lgpl"), ("affero", "agpl"), ("general public", "gpl"),
+                    ("gpl", "gpl"), ("apache", "apache"), ("bsd", "bsd"), ("mit", "mit"), ("mozilla", "mpl"),
+                    ("mpl", "mpl"), ("isc", "isc"), ("python", "psf"), ("psf", "psf"), ("eclipse", "epl"),
+                    ("epl", "epl"), ("zope", "zpl"), ("artistic", "artistic"), ("unlicense", "unlicense"),
+                    ("public domain", "public-domain"), ("cc0", "public-domain"), ("universal permissive", "upl"),
+                    ("upl", "upl"), ("historical permission", "hpnd"), ("hpnd", "hpnd")]
+
+
+def family_rx(kw: str) -> str:
+    # keyword, then a non-letter, the end, or a version ("LGPLv3", "GPLv2+")
+    return rf"\b{re.escape(kw)}(?=[^a-z]|v\d|$)"
+
+
+def license_family(text: str) -> str | None:
+    t = text.lower()
+    return next((fam for kw, fam in LICENSE_FAMILIES if re.search(family_rx(kw), t)), None)
+
+
+def license_family_set(text: str) -> set:
+    return {fam for kw, fam in LICENSE_FAMILIES if re.search(family_rx(kw), text.lower())}
 
 
 def npm_license(pkg: dict) -> str | None:
     lic = pkg.get("license") or pkg.get("licenses")
+    # legacy object form: {"type": "MIT", "url": ...}; some packages write "name" instead of "type"
+    pick = lambda d: d.get("type") or d.get("name") or str(d)   # noqa: E731
     if isinstance(lic, dict):
-        return lic.get("type")
+        return pick(lic)
     if isinstance(lic, list):
-        return " OR ".join(l.get("type", str(l)) if isinstance(l, dict) else str(l) for l in lic)
+        return " OR ".join(pick(l) if isinstance(l, dict) else str(l) for l in lic)
     return lic
 
 
@@ -229,7 +257,8 @@ def add_os_packages(gt: GT, fs: Rootfs) -> dict[str, str]:
                 if fields.get("o"):   # origin = source package (aports name)
                     add_source_package(gt, "apk", fields["o"], fields.get("V"), distro)
 
-    rpmdb = fs.glob(r"^(var/lib/rpm|usr/lib/sysimage/rpm)/rpmdb\.sqlite$")
+    rpmdb = rpm_dbfile(fs)
+    srpms: list[tuple[str, str]] = []
     if rpmdb:
         for name, epoch, ver, rel, arch, lic, srpm in query_rpmdb(fs, rpmdb[0], gt.target["id"]):
             version = f"{'' if epoch in ('(none)', '') else epoch + ':'}{ver}-{rel}"
@@ -239,10 +268,28 @@ def add_os_packages(gt: GT, fs: Rootfs) -> dict[str, str]:
                    qualifiers={"arch": None if arch == "(none)" else arch, "upstream": srpm, "epoch": epoch or None})
             m = re.match(r"^(.+)-([^-]+)-([^-]+)\.src\.rpm$", srpm or "")
             if m:
-                add_source_package(gt, "rpm", m.group(1), f"{m.group(2)}-{m.group(3)}", distro)
+                srpms.append((m.group(1), f"{m.group(2)}-{m.group(3)}"))
+        for name, version in srpms:   # after all binaries: add_source_package skips epoch twins of a binary
+            add_source_package(gt, "rpm", name, version, distro)
     gt.notes.append(f"os-release: ID={osr.get('ID')} VERSION_ID={osr.get('VERSION_ID')}")
     gt.os = {"id": distro, "version_id": osr.get("VERSION_ID"), "pretty_name": osr.get("PRETTY_NAME")}
     return owners
+
+
+def rpm_dbfile(fs: Rootfs) -> list[str]:
+    """The rpm database the image's own rpm uses. Some images (Oracle Linux 9 / mysql) carry BOTH
+    var/lib/rpm and an empty leftover usr/lib/sysimage/rpm: the distro macro %_dbpath decides which is real."""
+    found = fs.glob(r"^(var/lib/rpm|usr/lib/sysimage/rpm)/rpmdb\.sqlite$")
+    if len(found) <= 1:
+        return found
+    dbpath = None
+    for p in fs.glob(r"^(usr/lib/rpm/macros(\.d/[^/]+)?|etc/rpm/macros[^/]*)$"):   # later files override
+        for m in re.finditer(r"^%_dbpath\s+(\S+)", fs.text(p), re.M):
+            dbpath = m.group(1).replace("%{_var}", "/var").replace("%{_usr}", "/usr").lstrip("/")
+    chosen = [f for f in found if dbpath and posixpath.dirname(f) == dbpath]
+    if not chosen:
+        raise RuntimeError(f"two rpm databases {found} and no usable %_dbpath ({dbpath})")
+    return chosen
 
 
 def add_source_package(gt: GT, eco: str, name: str, version: str | None, distro: str | None):
@@ -454,8 +501,12 @@ def add_npm_installed(gt: GT, fs: Rootfs):
             entry = lock.get(path.removeprefix("app/").removesuffix("/package.json"), {})
             scope = "dev" if entry.get("dev") else "runtime"
             mech = "lang-pm"
-        else:
+        elif re.match(r"^usr/local/lib/node_modules/(npm|corepack)/", path):
             scope, mech = None, "runtime-bundled"   # npm/corepack shipped inside the Node.js distribution
+        else:
+            # installed by a package manager into some other project (e.g. Ghost and ghost-cli via pnpm, whose
+            # packages live in <root>/node_modules/.pnpm/), or globally with npm -g: a language package manager
+            scope, mech = None, "lang-pm"
         gt.add("npm", name, pkg["version"], namespace=scope_ns, mechanism=mech, scope=scope, evidence="package.json",
                path=path, license=npm_license(pkg))
 
@@ -532,6 +583,19 @@ _MAVEN_GROUPS: dict[tuple[str, str], str] | None = None
 BOOT_PLUGIN_JARS = {"spring-boot-jarmode-tools": "org.springframework.boot", "spring-boot-loader": "org.springframework.boot"}
 
 
+_PUBLIC_IDS: dict | None = None
+
+
+def public_java_ids() -> dict[str, dict]:
+    """SHA-1 -> Maven identity for pom-less JARs in the public images (results/public_java_ids.json, written by
+    resolve_public_java.py: candidates from the image's own build, confirmed by the repository's published SHA-1)."""
+    global _PUBLIC_IDS
+    if _PUBLIC_IDS is None:
+        f = ROOT / "results" / "public_java_ids.json"
+        _PUBLIC_IDS = json.loads(f.read_text(encoding="utf-8"))["by_sha1"] if f.exists() else {}
+    return _PUBLIC_IDS
+
+
 def maven_groups() -> dict[tuple[str, str], str]:
     """(artifactId, version) -> groupId from the build's own `mvn dependency:list` (all scopes).
     Needed because many JARs (Spring, Hibernate, MySQL Connector...) are not built with Maven and carry no
@@ -542,31 +606,129 @@ def maven_groups() -> dict[tuple[str, str], str]:
         text = (BUILDINFO_DIR / "bakery-backend" / "maven-all.txt").read_text(encoding="utf-8")
         for g, a, v in re.findall(r"^\s+([^:\s]+):([^:\s]+):jar:(?:[^:\s]+:)?([^:\s]+):\w+", text, re.M):
             _MAVEN_GROUPS[(a, v)] = g
+        for f in (BUILDINFO_DIR / "petclinic-gradle").glob("gradle-*Classpath.txt"):   # Gradle's resolved GAVs
+            for g, a, v in gradle_gavs(f):
+                _MAVEN_GROUPS.setdefault((a, v), g)
     return _MAVEN_GROUPS
 
 
-def jar_identity(data: bytes, fname: str) -> tuple[list[dict], dict]:
+def gradle_project_groups() -> dict[str, str]:
+    """rootProject.name -> group, read from the Gradle projects in the corpus (settings.gradle + build.gradle)."""
+    out = {}
+    for settings in (ROOT / "corpus").glob("*/settings.gradle"):
+        name = re.search(r"rootProject\.name\s*=\s*['\"]([^'\"]+)", settings.read_text(encoding="utf-8"))
+        build = settings.with_name("build.gradle")
+        group = re.search(r"^group\s*=\s*['\"]([^'\"]+)", build.read_text(encoding="utf-8"), re.M) if build.exists() else None
+        if name and group:
+            out[name.group(1)] = group.group(1)
+    return out
+
+
+def gradle_gavs(path: Path) -> list[tuple[str, str, str]]:
+    """group:artifact:version lines written by variants/petclinic-gradle/p16-resolved.init.gradle."""
+    out = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        parts = line.strip().split(":")
+        if len(parts) == 3 and all(parts):
+            out.append(tuple(parts))
+    return out
+
+
+def add_gradle_source(gt: GT):
+    """Source stage of the Gradle subject: what Gradle resolves per configuration, labelled by scope."""
+    bi = BUILDINFO_DIR / "petclinic-gradle"
+    runtime = set(gradle_gavs(bi / "gradle-runtimeClasspath.txt"))
+    if not runtime:
+        raise RuntimeError("empty gradle-runtimeClasspath.txt; build the petclinic-gradle buildinfo first")
+    # The Spring Boot plugin adds developmentOnly (devtools) to runtimeClasspath for bootRun. The resolved
+    # developmentOnly list also contains devtools' transitive deps (spring-boot, spring-core...), which are REAL
+    # runtime deps, so "dev" is defined exactly as runtimeClasspath - productionRuntimeClasspath (what bootJar ships).
+    production = set(gradle_gavs(bi / "gradle-productionRuntimeClasspath.txt"))
+    if not production:
+        raise RuntimeError("empty gradle-productionRuntimeClasspath.txt; rebuild the petclinic-gradle buildinfo")
+    dev = runtime - production
+    for g, a, v in sorted(runtime):
+        scope = "dev" if (g, a, v) in dev else "runtime"
+        gt.add("maven", a, v, namespace=g, mechanism="lang-pm", scope=scope,
+               evidence="gradle runtimeClasspath" + (" + developmentOnly" if scope == "dev" else ""))
+    for conf, scope in (("developmentOnly", "dev"), ("testRuntimeClasspath", "test")):
+        f = bi / f"gradle-{conf}.txt"
+        for g, a, v in (gradle_gavs(f) if f.exists() else []):
+            if (g, a, v) not in runtime:
+                gt.add("maven", a, v, namespace=g, mechanism="lang-pm", scope=scope, evidence=f"gradle {conf}")
+    f = bi / "gradle-checkstyle.txt"   # build-time lint tooling: declared, but never part of the application
+    for g, a, v in (gradle_gavs(f) if f.exists() else []):
+        gt.add("maven", a, v, namespace=g, mechanism="build-tool", tier="secondary", evidence="gradle checkstyle")
+    gt.add("maven", "spring-petclinic", "4.0.0-SNAPSHOT", namespace="org.springframework.samples", mechanism="self",
+           tier="secondary", evidence="build.gradle")
+
+
+def add_build_and_ci_files(gt: GT, tree: Path):
+    """Secondary records for build/CI tooling present in a source tree: Gradle wrapper JAR, GitHub Actions."""
+    wrapper = tree / "gradle" / "wrapper" / "gradle-wrapper.properties"
+    if wrapper.exists():
+        m = re.search(r"gradle-([\d.]+)-(?:bin|all)\.zip", wrapper.read_text(encoding="utf-8"))
+        gt.add("generic", "gradle", m.group(1) if m else None, mechanism="build-tool", tier="secondary",
+               evidence="gradle-wrapper.properties", alt_names=["gradle", "gradle-wrapper"])
+        gt.add("maven", "gradle-wrapper", None, namespace=None, mechanism="build-tool", tier="secondary",
+               evidence="gradle/wrapper/gradle-wrapper.jar", alt_names=["gradle-wrapper"])
+    for wf in sorted((tree / ".github" / "workflows").glob("*.y*ml")) if (tree / ".github" / "workflows").exists() else []:
+        for owner_repo, ref in re.findall(r"uses:\s*['\"]?([\w.\-]+/[\w.\-/]+)@([\w.\-]+)", wf.read_text(encoding="utf-8")):
+            # "owner/repo/sub/dir@ref" is an action in a sub-directory of owner/repo: purl name = repo, subpath = rest.
+            # Tools differ (Syft names it after the repo, cdxgen after the last path segment), so both are aliases.
+            owner, _, rest = owner_repo.partition("/")
+            repo, _, subpath = rest.partition("/")
+            alts = [owner_repo, f"{owner}/{repo}"] + ([rest, subpath.rsplit("/", 1)[-1]] if subpath else [])
+            gt.add("github", repo, ref, namespace=owner, mechanism="ci-action", tier="secondary",
+                   evidence=f".github/workflows/{wf.name}", alt_names=alts)
+
+
+def jar_identity(data: bytes, fname: str, public: bool = False) -> tuple[list[dict], dict]:
     """All Maven identities inside a JAR and the one that names the JAR itself."""
     poms, manifest = [], {}
     with zipfile.ZipFile(io.BytesIO(data)) as z:
         names = z.namelist()
         for n in names:
             if re.match(r"META-INF/maven/[^/]+/[^/]+/pom\.properties$", n):
-                props = dict(re.findall(r"^([\w.]+)=(.*)$", z.read(n).decode("utf-8", "replace"), re.M))
+                # values stripped: some JARs write pom.properties with CRLF line endings (mssql-jdbc)
+                props = {k: v.strip() for k, v in re.findall(r"^([\w.]+)=(.*)$", z.read(n).decode("utf-8", "replace"), re.M)}
                 if props.get("artifactId") and props.get("version"):
                     lic = None
                     pom_xml = n.replace("pom.properties", "pom.xml")
                     if pom_xml in names:
-                        mm = re.search(r"<licenses>.*?<name>\s*([^<]+?)\s*</name>", z.read(pom_xml).decode("utf-8", "replace"), re.S)
-                        lic = mm.group(1) if mm else None
+                        # every <license> of the <licenses> block: Maven's POM reference says several entries mean
+                        # the user may choose any of them (OR), as in EPL-2.0 OR GPL-2.0 WITH Classpath-exception
+                        block = re.search(r"<licenses>(.*?)</licenses>", z.read(pom_xml).decode("utf-8", "replace"), re.S)
+                        found = re.findall(r"<license>.*?<name>\s*([^<]+?)\s*</name>", block.group(1), re.S) if block else []
+                        lic = " OR ".join(dict.fromkeys(found)) or None
                     poms.append({"g": props.get("groupId", ""), "a": props["artifactId"], "v": props["version"].strip(), "license": lic})
         if "META-INF/MANIFEST.MF" in names:
             text = z.read("META-INF/MANIFEST.MF").decode("utf-8", "replace").replace("\r\n ", "").replace("\n ", "")
             manifest = dict(re.findall(r"^([\w-]+):\s*(.*?)\s*$", text, re.M))
     stem = fname.removesuffix(".jar")
     main = next((p for p in poms if stem == f"{p['a']}-{p['v']}" or stem.startswith(f"{p['a']}-{p['v']}-")), None)
+    if main is None:   # Quarkus fast-jar file name <groupId>.<artifactId>-<version>[-classifier].jar (Keycloak)
+        main = next((p for p in poms if stem == f"{p['g']}.{p['a']}-{p['v']}" or stem.startswith(f"{p['g']}.{p['a']}-{p['v']}-")), None)
     if main is None and len(poms) == 1:
         main = poms[0]
+    if main is None and sum(stem == p["a"] for p in poms) == 1:   # versionless file name (Jenkins' winstone.jar)
+        main = next(p for p in poms if stem == p["a"])
+    if main is None and manifest.get("Spring-Boot-Version") and manifest.get("Implementation-Title"):
+        # A Spring Boot application JAR built by Gradle carries no pom.properties for itself; its identity is in the
+        # MANIFEST (Implementation-Title/-Version) and its groupId in the project's own build.gradle.
+        a, v = manifest["Implementation-Title"], manifest.get("Implementation-Version")
+        main = {"g": gradle_project_groups().get(a), "a": a, "v": v, "license": None, "from_filename": True,
+                "group_from": "build.gradle"}
+    if main is None and public:
+        # Public image: identity only from the repository-confirmed resolution (never the corpus build lists).
+        hit = public_java_ids().get(hashlib.sha1(data).hexdigest())
+        if hit:
+            main = {"g": hit["g"], "a": hit["a"], "v": hit["v"], "license": None, "from_filename": True,
+                    "group_from": f"repository SHA-1 confirmation ({hit['source']})"}
+        else:
+            mm = re.match(r"^(.+?)-(\d[\w.\-+]*)$", stem)
+            main = {"g": None, "a": mm.group(1) if mm else stem, "v": mm.group(2) if mm else None, "license": None,
+                    "from_filename": True, "group_from": None, "unresolved": True}
     if main is None:
         # No pom.properties naming this JAR. The filename (artifactId-version.jar, as Maven writes it) is the
         # reliable source; MANIFEST Implementation-Version can be a SPEC version (Tomcat says "6.1" = Servlet 6.1).
@@ -582,11 +744,17 @@ def jar_identity(data: bytes, fname: str) -> tuple[list[dict], dict]:
 
 def add_jar(gt: GT, data: bytes, path: str, mechanism: str, tier: str = "primary", depth: int = 0):
     fname = Path(path).name
-    others, main = jar_identity(data, fname)
+    public = gt.target["id"].startswith("X-")
+    others, main = jar_identity(data, fname, public)
+    if main.get("unresolved") and tier == "primary":
+        # pom-less JAR whose identity no repository confirms (Quarkus build products, a renamed CLI jar):
+        # a tool naming it is not wrong, but it cannot count for recall
+        mechanism, tier = "identity-unresolved", "secondary"
     hashes = {"sha1": hashlib.sha1(data).hexdigest(), "sha256": hashlib.sha256(data).hexdigest()}
     evidence = "pom.properties"
     if main.get("from_filename"):
-        evidence = "filename" + (f" + groupId from {main['group_from']}" if main.get("group_from") else " (groupId unknown)")
+        source = "MANIFEST Implementation-Title/-Version" if main.get("group_from") == "build.gradle" else "filename"
+        evidence = source + (f" + groupId from {main['group_from']}" if main.get("group_from") else " (groupId unknown)")
     gt.add("maven", main["a"], main["v"], namespace=main["g"] or None, mechanism=mechanism, tier=tier,
            evidence=evidence, path=path, license=main.get("license"), hashes=hashes)
     for p in others:   # extra pom.properties inside the same JAR (shaded / embedded artifacts)
@@ -594,7 +762,8 @@ def add_jar(gt: GT, data: bytes, path: str, mechanism: str, tier: str = "primary
                evidence=f"pom.properties inside {fname}", path=path, license=p.get("license"))
     if depth == 0:
         with zipfile.ZipFile(io.BytesIO(data)) as z:
-            nested = [n for n in z.namelist() if re.match(r"(BOOT-INF|WEB-INF)/lib/[^/]+\.jar$", n)]
+            nested = [n for n in z.namelist() if re.match(r"(BOOT-INF|WEB-INF)/lib/[^/]+\.jar$", n)
+                      or (path.endswith((".war", ".ear")) and n.endswith(".jar"))]   # e.g. Jenkins executable/winstone.jar
             for n in nested:
                 add_jar(gt, z.read(n), f"{path}!/{n}", "nested-jar", "primary", depth + 1)
             if nested:   # a Spring Boot fat JAR: its own identity is the application itself
@@ -616,7 +785,7 @@ def boot_version(gt: GT) -> str | None:
 
 def add_java_image(gt: GT, fs: Rootfs, owners: dict[str, str]):
     for path, _ in list(fs.files()):
-        if not path.endswith(".jar"):
+        if not path.endswith((".jar", ".war", ".ear")):
             continue
         if re.match(r"^(opt/java/openjdk|usr/lib/jvm)/", path):
             mech, tier = "runtime-internal", "secondary"
@@ -694,6 +863,46 @@ def add_go_binaries(gt: GT, fs: Rootfs, owners: dict[str, str]):
                path=path, alt_names=["stdlib", "go"])
 
 
+def add_npm_roots(gt: GT, fs: Rootfs):
+    """npm project roots (a package.json with a node_modules/ next to it, e.g. Ghost itself and ghost-cli) and the
+    sub-packages they ship outside node_modules (Ghost themes, ghost-cli extensions). They are real, versioned
+    pieces of the image but no package manager installed them as dependencies: secondary (a tool listing them is
+    right; recall does not require them). Test/fixture/benchmark package.json files are NOT components."""
+    roots = [posixpath.dirname(p) for p in fs.glob(r"package\.json$")
+             if "node_modules/" not in p and fs.glob("^" + re.escape(posixpath.dirname(p)) + r"/node_modules/")]
+    for p in fs.glob(r"package\.json$"):
+        if "node_modules/" in p or re.search(r"/(test|tests|fixtures?|examples?|benchmarks?|docs?)/", p):
+            continue
+        d = posixpath.dirname(p)
+        if d in roots:
+            mech = "project-root"
+        elif any(d.startswith(r + "/") for r in roots):
+            mech = "sub-package"
+        else:
+            continue
+        try:
+            pkg = json.loads(fs.text(p))
+        except ValueError:
+            continue
+        if not pkg.get("name"):
+            continue
+        scope, name = split_npm(pkg["name"])
+        gt.add("npm", name, pkg.get("version"), namespace=scope, mechanism=mech, tier="secondary",
+               evidence="package.json outside node_modules", path=p, license=npm_license(pkg))
+
+
+def add_unpackaged_busybox(gt: GT, fs: Rootfs, owners: dict[str, str]):
+    """busybox base images (prom/prometheus) have NO package database: the busybox binary is then a real
+    component known only from its own version banner. On Alpine it belongs to the apk package and is skipped."""
+    for path in fs.glob(r"^(usr/)?s?bin/busybox$"):
+        if merged_usr(path) in owners:
+            continue
+        m = re.search(rb"BusyBox v(\d+(?:\.\d+)+)", fs.read(path))
+        if m:
+            gt.add("generic", "busybox", m.group(1).decode(), mechanism="no-package-db",
+                   evidence="version banner in the binary", path=path, alt_names=["busybox"])
+
+
 def add_planted(gt: GT, planted_file: str):
     data = json.loads((ROOT / planted_file).read_text(encoding="utf-8"))
     for p in data["components"]:
@@ -726,6 +935,9 @@ def image_gt(gt: GT, target: dict):
     add_java_image(gt, fs, owners)
     add_runtimes(gt, fs, env, owners)
     add_go_binaries(gt, fs, owners)
+    if tid.startswith("X-"):
+        add_unpackaged_busybox(gt, fs, owners)
+        add_npm_roots(gt, fs)
     if tid == "N-S3-nginx":
         add_npm_bundled(gt)
     if tid.startswith("C-"):
@@ -753,9 +965,13 @@ def add_c_binary(gt: GT, fs: Rootfs, owners: dict[str, str]):
 
 def source_or_artifact_gt(gt: GT, target: dict):
     tid = target["id"]
+    if target["kind"] == "dir":
+        add_build_and_ci_files(gt, scan_path(target))
     if tid == "J-S1":
         add_maven_source(gt)
-    elif tid == "J-S2":
+    elif tid == "G-S1":
+        add_gradle_source(gt)
+    elif tid in ("J-S2", "G-S2"):
         add_jar(gt, scan_path(target).read_bytes(), "app.jar", "self", "secondary")
     elif tid in ("N-S1", "N-S1-nolock"):
         add_npm_lockfile(gt)

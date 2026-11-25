@@ -29,6 +29,11 @@ buildinfo:   # ground-truth inputs produced by build stages (docker build --outp
     context: corpus/multi-client-tcp-server
     target: buildinfo
     build_contexts: {planted: variants/tcp-server/planted}
+  - id: petclinic-gradle
+    dockerfile: variants/petclinic-gradle/Dockerfile
+    context: corpus/spring-petclinic-gradle
+    target: buildinfo
+    build_contexts: {p16: variants/petclinic-gradle}
 
 targets:
   # ---------------- Bakery backend (Java 25 / Spring Boot 4.1 / Maven) ----------------
@@ -57,6 +62,28 @@ targets:
   - {id: J-P, subject: bakery-backend, ecosystem: java, stage: P, kind: image, how: build,
      planted: variants/bakery-backend/planted/planted.json,
      build: {<<: *backend, target: planted-image}}
+
+  # ---------------- spring-petclinic (Spring Boot 4.1 / GRADLE 9.5.1 / Java 17), public sample app ----------------
+  - {id: G-S1, subject: petclinic-gradle, ecosystem: java, stage: S1, kind: dir, how: path,
+     path: corpus/spring-petclinic-gradle}
+  - id: G-S2
+    subject: petclinic-gradle
+    ecosystem: java
+    stage: S2
+    kind: file
+    how: build
+    file: app.jar
+    build: &petclinic
+      dockerfile: variants/petclinic-gradle/Dockerfile
+      context: corpus/spring-petclinic-gradle
+      target: artifact
+      build_contexts: {p16: variants/petclinic-gradle}
+  - {id: G-S3-ubuntu, subject: petclinic-gradle, ecosystem: java, stage: S3, kind: image, how: build,
+     build: {<<: *petclinic, target: s3-ubuntu}}
+  - {id: G-S3-alpine, subject: petclinic-gradle, ecosystem: java, stage: S3, kind: image, how: build,
+     build: {<<: *petclinic, target: s3-alpine}}
+  - {id: G-S3-distroless, subject: petclinic-gradle, ecosystem: java, stage: S3, kind: image, how: build,
+     build: {<<: *petclinic, target: s3-distroless}}
 
   # ---------------- Bakery frontend (React 19 + Vite 8 / npm) ----------------
   - {id: N-S1, subject: bakery-frontend, ecosystem: npm, stage: S1, kind: dir, how: path,
@@ -133,9 +160,20 @@ targets:
      planted: variants/tcp-server/planted/planted.json,
      build: {<<: *tcp, target: planted-image}}
 
-  # ---------------- OS baselines (public images, unchanged) ----------------
-  - {id: O-debian, subject: os-baseline, ecosystem: os, stage: S3, kind: image, how: pull, image: "debian:bookworm-slim"}
-  - {id: O-ubuntu, subject: os-baseline, ecosystem: os, stage: S3, kind: image, how: pull, image: "ubuntu:24.04"}
-  - {id: O-alpine, subject: os-baseline, ecosystem: os, stage: S3, kind: image, how: pull, image: "alpine:3.22"}
-  - {id: O-ubi, subject: os-baseline, ecosystem: os, stage: S3, kind: image, how: pull, image: "registry.access.redhat.com/ubi9/ubi-minimal"}
-  - {id: O-distroless, subject: os-baseline, ecosystem: os, stage: S3, kind: image, how: pull, image: "gcr.io/distroless/base-debian12"}
+  # ---------------- OS baselines (public images, unchanged; pinned to the digests scanned on 22 Nov 2026) ----------------
+  - {id: O-debian, subject: os-baseline, ecosystem: os, stage: S3, kind: image, how: pull, image: "debian:bookworm-slim@sha256:734a72b3d6142a71993b4bc580ca01d8ca687f77a2c422d96a961d3376b179bc"}
+  - {id: O-ubuntu, subject: os-baseline, ecosystem: os, stage: S3, kind: image, how: pull, image: "ubuntu:24.04@sha256:9c7f200c07e3d4a03e7249d2c16bf66a51120fb876aa2242cf31451412543289"}
+  - {id: O-alpine, subject: os-baseline, ecosystem: os, stage: S3, kind: image, how: pull, image: "alpine:3.22@sha256:49340b346798875b5592e5d420241f2f9cfba5f47e62ebb1446a1b34734e898f"}
+  - {id: O-ubi, subject: os-baseline, ecosystem: os, stage: S3, kind: image, how: pull, image: "registry.access.redhat.com/ubi9/ubi-minimal@sha256:08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352"}
+  - {id: O-distroless, subject: os-baseline, ecosystem: os, stage: S3, kind: image, how: pull, image: "gcr.io/distroless/base-debian12@sha256:fabbf1c0c357a3d42550111351daed089b20a2c954df13ee2fcff60602515e84"}
+
+  # ---------------- Popular public images (external validity; pre-screened, see results/screening.json) ----------------
+  # Pinned by digest. The tag in front of '@' is informational only: docker resolves the digest.
+  - {id: X-postgres, subject: public-postgres, ecosystem: os, stage: S3, kind: image, how: pull, image: "postgres:17@sha256:223efeb196329b55b3b9a13db144956411dbc18e727e59f681c3e0aede6475cf"}
+  - {id: X-mysql, subject: public-mysql, ecosystem: os, stage: S3, kind: image, how: pull, image: "mysql:8.4@sha256:a81d043930e51745522bd5c430961cf8286f0a23f0a9a2a6e0108f7ea71b0902"}
+  - {id: X-jenkins, subject: public-jenkins, ecosystem: java, stage: S3, kind: image, how: pull, image: "jenkins/jenkins:lts-jdk21@sha256:74401de6a6f92e1afe1b02d1c8e3d0c33f263bfb5275dd8813f9150355f2367b"}
+  - {id: X-keycloak, subject: public-keycloak, ecosystem: java, stage: S3, kind: image, how: pull, image: "quay.io/keycloak/keycloak:latest@sha256:7e66a96e4739239070aeaf72e4c5decf0f7f682cfc725b9f7ea2b336eaba38b3"}
+  - {id: X-ghost, subject: public-ghost, ecosystem: npm, stage: S3, kind: image, how: pull, image: "ghost:6-alpine@sha256:baa6dbff91a28ba36c526d1f6e761deb2efe3c238c630c3f318b62f258c2d76e"}
+  - {id: X-airflow, subject: public-airflow, ecosystem: python, stage: S3, kind: image, how: pull, image: "apache/airflow:slim-latest@sha256:371c258d67cd0a34bac60a28c940b65968b98dff2554e12b981f1df75b4be570"}
+  - {id: X-prometheus, subject: public-prometheus, ecosystem: go, stage: S3, kind: image, how: pull, image: "prom/prometheus:latest@sha256:e04987641b57704f408e31f6373ba4138ecf27cb4a165d24aabb6c38fddd0f06"}
+  - {id: X-gitea, subject: public-gitea, ecosystem: go, stage: S3, kind: image, how: pull, image: "gitea/gitea:latest@sha256:aa90e8f00b755b0d665214ab9c14447ea44d3190dbe6b6d0cb46cd9c4f55d309"}

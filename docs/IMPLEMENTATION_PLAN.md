@@ -391,6 +391,245 @@ Results (micro, strict):
 
 **New outputs:** `results/tables/best_vs_default*.csv`, `rq5_*.csv`, `rq1_component_tests.csv`; `paper/figures/fig_rq5_scanners`, `fig_best_vs_default`; `tools/versions.lock` now also pins Grype and both vulnerability-DB snapshots.
 
+### Strengthening, Step 1: Gradle subject (spring-petclinic)
+
+**Corpus:** `corpus/spring-petclinic-gradle/` is upstream commit `500158f`, with the Maven build files left out so it is a clean Gradle subject (Gradle 9.5.1, Spring Boot 4.1, Java 17 toolchain). The original three projects were re-checked byte for byte before the checksums were re-frozen.
+
+**Targets:** G-S1 (source), G-S2 (boot JAR), G-S3-ubuntu / -alpine / -distroless.
+
+**Ground truth:** comes from what Gradle itself resolved (`p16-resolved.init.gradle`, which reads the resolution API, not the printed tree).
+- G-S1: 105 runtime, 57 test and 1 dev (spring-boot-devtools) components. Secondary records cover checkstyle, the Gradle wrapper and the GitHub Actions.
+- Dev scope is `runtimeClasspath − productionRuntimeClasspath`. The new verifier caught a first version that wrongly labelled devtools' transitive dependencies as dev.
+- The JAR rule `nested = productionRuntimeClasspath − starters + jarmode-tools` (93 JARs) holds, as it does for Maven.
+- Checks: verify_build 236/236, verify_gt 177/177. Re-extracting all GT leaves the original 32 files identical (only the timestamps changed).
+
+**Smoke test (default config, rep 1, CycloneDX):**
+
+| Target | Syft | Trivy | cdxgen |
+|---|---|---|---|
+| G-S1 recall | 0.000 | 0.000 | 0.000 |
+| G-S2 recall strict (lenient) | 0.710 (0.989) | 0.978 (1.000) | 0.989 (1.000) |
+
+- **G-S1:** Syft and Trivy read only `gradle.lockfile`, and this project (like most Gradle projects) has none.
+- cdxgen runs Gradle, but its image has no Java 17 toolchain. The build fails ("Cannot find a Java installation … languageVersion=17"), yet cdxgen **exits 0 and writes an SBOM with no dependencies**. This is a silent failure.
+- **G-S2:** Gradle-published JARs (Spring's own modules, Hibernate, AspectJ, JSpecify) carry **no `pom.properties`**. Syft guesses their groupId (e.g. `pkg:maven/spring-boot-cache/spring-boot-cache`, `org.aspectj.weaver`), which gives 27 namespace-diff misses. Trivy and cdxgen look up the SHA-1 and mostly get it right.
+- Syft names the outer JAR after its `Main-Class` (`org.springframework.boot.loader.launch.jarlauncher:app`).
+- The petclinic JAR embeds its own CycloneDX SBOM (`META-INF/sbom/application.cdx.json`). Whether tools use it is checked in Step 3.
+- GT fix: an action in a sub-directory (`gradle/actions/setup-gradle@v4`) is recorded as purl name `actions` with subpath `setup-gradle`. Both spellings are aliases.
+
+### Strengthening, Step 2: popular public images (external validity)
+
+**Selection:** `scripts/screen_images.py` pulled 12 candidates. It inventoried each filesystem (package databases, ecosystems, JARs without `pom.properties`, bundled JS, Go/Rust binaries) and ran all three tools once (36 of 36 runs exited 0). The data is in `results/screening.json`.
+
+| Decision | Images | Reason |
+|---|---|---|
+| Added (8) | postgres:17, mysql:8.4, jenkins:lts-jdk21, keycloak 26.8.2, ghost:6-alpine, airflow 3.4.0 (slim), prometheus, gitea | They cover the OS families (Debian, Oracle Linux, UBI, Alpine, busybox with no package DB), Java (WAR, Quarkus), Node (pnpm), Python and Go. |
+| Rejected | python, node | Same official base images as existing corpus targets. |
+| Rejected | redis | 4 Rust modules without dependency metadata, which neither the GT nor any tool can check. The rest is Debian, already covered by postgres. |
+| Rejected | grafana | 85 bundled JS files without source maps, so the GT cannot verify them. Go is already covered. |
+
+Targets are `X-<name>` in `targets.yaml`, pinned by digest.
+
+**Ground truth extensions** (all re-verified; the original 37 targets are unchanged except one O-ubi fix, noted below):
+- **rpm database choice:** Oracle Linux 9 (mysql) has two rpm databases. The real one is chosen by the distro's `%_dbpath` macro (`/var/lib/rpm`); the other is an empty leftover.
+- **`pom.properties` with CRLF line endings:** values were kept with a trailing `\r` (`com.microsoft.sqlserver\r`). They are now stripped.
+- **WAR/EAR support:** nested `WEB-INF/lib` JARs plus other JARs inside a WAR, such as Jenkins' `executable/winstone.jar`. A JAR with a versionless file name is matched to its own pom by artifactId.
+- **Quarkus file names** (`<g>.<a>-<v>.jar`) are matched to their own pom.
+- **JARs without `pom.properties`:** `scripts/resolve_public_java.py` takes candidate identities from the image's own build:
+  - Jenkins: `mvn dependency:list` of the published jenkins-war pom;
+  - Keycloak: Quarkus file names;
+  - both: `<dependency>` declarations in pom.xml files inside the image.
+  
+  A candidate is accepted only if the repository's published SHA-1 equals the file's SHA-1. 95 were resolved: 21 Jenkins, 74 Keycloak.
+  - One accepted identity is a modified copy: Keycloak's h2 has a different hash, but exactly one coordinate exists and the MANIFEST version agrees.
+  - Unresolved JARs (Quarkus build products, Jenkins' renamed plugin-manager CLI) are recorded as secondary `identity-unresolved`.
+  - The result is committed as `results/public_java_ids.json`.
+- **busybox:** a base with no package database gets a busybox record taken from the binary's version banner.
+- **npm project roots and sub-packages:** Ghost itself, ghost-cli, themes and CLI extensions are recorded as secondary.
+- **rpm source packages** are now added after all binaries. Before, an epoch twin could duplicate (mysql openssl). In O-ubi, 3 records now keep their `arch`/`upstream` purl qualifiers; their identity, tier and counts are unchanged.
+
+**New oracles** (independent of the extractor):
+- Python's `importlib.metadata` per site-packages directory: in the image's own python3, or in python:3.13-slim when the image has none (mysqlsh).
+- pnpm's own `node_modules/.pnpm/lock.yaml` minus `.modules.yaml` skipped entries, for Ghost and ghost-cli (995 + 264).
+- The rpm sqlite `Name` index read with Python's `sqlite3`, for Keycloak's ubi-micro, which has no rpm binary.
+- The busybox banner from the running image.
+- `go version -m` on every Go binary in the public images (9 binaries).
+- Jenkins: WAR `WEB-INF/lib` == `mvn dependency:list` of jenkins-war, minus `commons-logging`, which Jenkins' root pom bans through an enforcer rule (`jcl-over-slf4j` replaces it).
+
+The dpkg oracle now also accepts held-installed packages (`hi`, used by Docker Hardened Images).
+
+**Checks:** verify_build 268/268, verify_gt 230/230.
+
+**False-positive and consensus-miss audit** (screening SBOMs at the same digests, scored against the final GT):
+- No component is missed by all three tools in any image.
+- Every remaining false-positive cluster was inspected and is a tool error:
+  - test-fixture `package.json` files reported as packages (Syft, Trivy on Ghost);
+  - a test-vector `Cargo.toml` in cryptography's docs reported as installed crates (cdxgen on mysql);
+  - Maven names derived from Quarkus file names (Syft OpenTelemetry, cdxgen rxjava/perfmark/h2);
+  - Keycloak's app JAR named `Keycloak/Keycloak` (cdxgen);
+  - CMake test files (cdxgen);
+  - pip's Windows "Simple Launcher" (Syft; counted the same way in the original corpus).
+
+**Preliminary recall** (screening run, default config, strict; Step 3 re-runs everything properly):
+
+| Image | Syft | Trivy | cdxgen |
+|---|---|---|---|
+| ghost (1,353 npm) | 1.000 | **0.345** | **0.166** |
+| airflow | 0.866 | 0.800 | 0.937 |
+| keycloak | 0.900 (lenient 0.996) | 0.992 | 0.988 |
+| mysql | 0.764 | 0.764 | 1.000 |
+| jenkins / postgres / prometheus / gitea | ≥ 0.979 | ≥ 0.992 | ≥ 0.971 |
+
+### Strengthening, Step 3: full re-run on the extended corpus (50 targets, 34 images)
+
+**Tool runs:**
+- 125 bulk runs (default rep 1+2, best-effort rep 1) on the 13 new targets: all succeeded.
+- The 18 cdxgen runs that need Maven Central (G-S2, G-S3-*, X-jenkins, X-keycloak, default rep 1+2 and best-effort) went through `rerun_online.py`, 40 minutes apart.
+- A run now counts only with the target's **full** number of hash lookups (55 / 19 / 71). The first rule (more than 0) had accepted a run throttled part-way (G-S3-ubuntu rep 2: 25 of 55). 18 of 18 runs passed after automatic retries.
+- Failed runs: only the same 5 known cdxgen SPDX aborts as before.
+
+**Regression:** the 1,427 metric rows of the original 32 targets are identical before and after. Determinism: 45 of 45 rep 1/rep 2 pairs identical for every tool.
+
+**RQ1 (images, strict, micro):**
+
+| Cohort | Syft | Trivy | cdxgen |
+|---|---|---|---|
+| All 34 images | **0.882** | 0.787 | 0.821 |
+| Own projects | 0.795 | 0.825 | **0.930** |
+| Public images (8) | **0.935** | 0.722 | 0.716 |
+| Gradle subject | 0.843 | 0.985 | **0.991** |
+| Precision, all | 0.955 | **0.995** | 0.991 |
+
+- Cochran's Q = 430 (p ≈ 4e-94); all pairwise McNemar tests are significant after Holm correction. Friedman per image: p = 0.14.
+- **The tool ranking depends on the corpus.** On our own projects cdxgen leads; on popular public images Syft leads, mostly because of Ghost's pnpm installs.
+
+**New root causes** (details and evidence in `docs/ROOT_CAUSES.md`):
+1. **pnpm hard links:** Trivy and cdxgen miss packages whose `package.json` is stored as a tar hard link. Ghost app: Trivy 5/890, cdxgen 0/890, Syft 890/890. Confirmed with the controlled probe `variants/probes/npm-hardlink/`.
+2. **The `.pnpm` directory:** cdxgen never enters it, because its glob skips dot-directories.
+3. **Gradle without a lockfile:** Syft and Trivy produce an empty SBOM. cdxgen also produces an empty SBOM, but silently, with exit 0, because its image lacks the Java 17 toolchain.
+4. **Gradle- and Bazel-built JARs** have no `pom.properties`, so Syft guesses groupIds (PetClinic JAR strict 0.71, lenient 0.99).
+5. **Embedded SBOMs are ignored:** no tool reads the SBOM that the PetClinic JAR carries (`META-INF/sbom/application.cdx.json`). That SBOM lists 69 components that are resolved at build time but not shipped.
+
+**RQ5 redone; the reference SBOM fixed.** Validating against direct image scans on all 34 images exposed three defects that the earlier two-image check had missed:
+- no CPEs (Grype matches part of Alpine's CVEs by CPE);
+- short Go module names (Trivy matches Go modules by component name);
+- no Oracle Linux family for Trivy.
+
+The reference now holds exactly the GT's primary components, written with the vendor generator's own record where that generator found the component. Result: across 68 pairs, no direct-scan CVE falls on a primary GT package that the reference misses, and every residual difference is classified (`rq5_reference_validation.csv`).
+
+| CVE recall, 34 images | Syft SBOM | Trivy SBOM | cdxgen SBOM |
+|---|---|---|---|
+| Grype | **0.994** | 0.431 | 0.945 |
+| Trivy | 0.325 | **0.993** | 0.086 (4 aborted, mixed deb+rpm) |
+
+- OS-package findings across vendors: 0.10 to 0.13 (cdxgen into Trivy 0.001). Application-package findings: 0.89 to 0.98, except cdxgen into Trivy (0.48).
+- Log4Shell is still found by all 6 pairs.
+
+**Also fixed in this step:**
+- **GT:** pnpm-installed npm packages were labelled "bundled with runtime" (only npm and corepack under `/usr/local/lib/node_modules` are). This affected X-ghost only, and only the RQ3 mechanism column.
+- `figures.py` refuses to print raw mechanism names.
+- `analyze.py` skips SBOMs still being written.
+- `vuln_scan.py` refuses to run without a reachable Docker engine.
+- The Grype DB is served from a SHA-256-verified Docker volume: 8 s instead of 146 s per scan, identical findings.
+
+**New outputs:** `results/tables/rq1_by_cohort.csv`, `rq5_reference_validation.csv`; the RQ2 figure gains the Gradle subject.
+
+### Strengthening, Step 4: sensitivity analysis
+
+**How:** `scripts/sensitivity.py` recomputes the main condition (default, rep 1, CycloneDX) from score.py's per-component match records, so no tool is re-run. Its baseline reproduces `metrics.csv` exactly on all 129 SBOMs; the script stops otherwise.
+
+Each variant changes only how GT components count:
+- `secondary`: not required for recall, but still correct if a tool lists it;
+- `drop`: out of scope entirely.
+
+Each variant was checked to remove exactly its intended components: 1,371 embedded crates, 16 tarball runtimes, 45 wheel `.so` files, 15 Go stdlib entries, 227 dev/test/optional source entries.
+
+**Recall on images** (strict, micro unless stated; precision in brackets):
+
+| Variant | Syft | Trivy | cdxgen | Order |
+|---|---|---|---|---|
+| Baseline | **0.882** (0.955) | 0.787 (0.995) | 0.821 (0.991) | S > C > T |
+| Lenient matching | **0.912** | 0.790 | 0.823 | S > C > T |
+| Embedded crates secondary | **0.954** | 0.840 | 0.800 | S > T > C |
+| No tarball runtimes / no wheel `.so` / no Go stdlib | ≤ ±0.005 each | | | S > C > T |
+| All GT variants combined | **0.961** | 0.847 | 0.805 | S > T > C |
+| Without Ghost | 0.858 | 0.876 | **0.954** | C > T > S |
+| **Macro** (each image weighs the same) | 0.853 | 0.863 | **0.906** | C > T > S |
+
+**Leave-one-image-out:** 33 of 34 omissions keep S > C > T. Only leaving out X-ghost reverses it (C > T > S).
+
+**Source trees and artifacts:** cdxgen > Trivy > Syft in every variant, micro and macro. Recall: baseline 0.711 / 0.472 / 0.287; runtime-only scope 0.779 / 0.656 / 0.399.
+
+**Findings for the paper:**
+1. **No single "best tool" for images.** The pooled ranking flips with the aggregation (micro vs macro), with a single image (Ghost, 1,353 npm packages) and with whether embedded-SBOM crates count as required. This agrees with the non-significant per-image Friedman test (p = 0.14). The component-level tests (Cochran's Q) are significant, but large images dominate them. The paper reports micro, macro and per-image results together, and frames tool choice by ecosystem and inclusion mechanism (RQ3), not by one headline number.
+2. **Stable results.** On source trees and artifacts cdxgen leads in every variant. Precision is stable everywhere: Trivy ≥ cdxgen > Syft. Lenient matching closes most of Syft's precision gap (0.955 → 0.989); its "errors" are mostly identity-format differences such as guessed groupIds.
+3. **GT modelling choices** (runtimes, wheel `.so`, Go stdlib, lenient vs strict) move recall by at most 0.03 on images, except the embedded-crates choice (up to 0.07), which decides second place between Trivy and cdxgen.
+
+**Outputs:** `results/tables/sensitivity.csv` (all variants, both groups, recall/precision with deltas and ranks), `sensitivity_loo.csv`.
+
+### Strengthening, Step 5: license correctness (RQ4)
+
+**Problem with the old metric:** it compared lower-cased word sets, so "Apache License, Version 2.0" (POM) and "Apache-2.0" (tool) counted as different. It reported Maven agreement of 0.26 (Syft) and 0.17 (Trivy), which was an artefact of the metric.
+
+**New method** (`scripts/licenses.py`):
+- **Mapping:** every license string is mapped to SPDX identifiers using the official SPDX License List v3.29.0 (`tools/spdx/`: ids, deprecated ids, full names, reference URLs), plus a curated alias table. Each alias names exactly one license and version (e.g. "GPL2 w/ CPE" = GPL-2.0 WITH Classpath-exception-2.0; EDL 1.0 = BSD-3-Clause).
+- **Expressions:** the whole text is tried as one license name first, then split on top-level OR/AND.
+- **Ambiguous texts are never guessed:** "BSD License", unversioned "Apache Software License", copyright notices, project URLs and Syft's `sha256:` license-text hashes are counted as unmappable and excluded from correctness.
+- **Comparison level:** license + version as a set; `-only`/`-or-later` are ignored, because POM and PyPI texts almost never state them. 18 unit cases pass.
+- **Scope:** correctness for Maven/npm/PyPI only; for OS packages (free-form, distro-specific) only presence is reported.
+
+**GT fixes found on the way** (only license fields changed; all identities and other fields were asserted unchanged):
+- Maven: all `<license>` entries of a POM are now recorded (OR), not just the first. Dual-licensed Jakarta and Jenkins artifacts had looked "partial". 56 records.
+- PyPI: when a license classifier names a family that the `License:` field lacks, both are recorded (uvloop: MIT + Apache). 4 records.
+- npm: legacy `{"name": ...}` license objects. 1 record.
+
+**Results** (correct = same SPDX set, among comparable pairs):
+
+| | Maven | npm | PyPI | Presence when the GT knows it |
+|---|---|---|---|---|
+| Syft | 0.991 (321) | 1.000 (1,740) | 1.000 (310) | Maven 1.00, npm 1.00, PyPI 0.92 |
+| Trivy | 1.000 (331) | 1.000 (757) | 0.994 (309) | 1.00 / 1.00 / 0.92 |
+| cdxgen | **none reported** (0 of 322) | 1.000 (570) | 1.000 (286) | **0.00** / 1.00 / 0.90 |
+
+- **OS packages (presence only):** Syft deb 0.99, rpm 1.00, apk 1.00; Trivy 0.92, 1.00, 1.00; cdxgen deb **0.00**, rpm 0.82, apk 1.00.
+- **Main finding:** when a tool reports a license, it is almost always right (0.999 / 0.999 / 1.000). The differences between tools are in **coverage**: cdxgen has no Maven or Debian licenses in images, and PyPI licenses are missing for about 8–10% everywhere.
+- **Limitation:** Maven GT licenses come from the POM inside the JAR. Only about 20% of JARs declare one there; the rest inherit theirs from a parent POM that the JAR does not contain. These are counted as `gt-unknown`, not guessed.
+
+**Manual spot-check** (`results/tables/rq4_license_spotcheck.csv`): all 6 non-matching comparisons plus 10 random matches (seed 16, stratified by ecosystem), each checked against the original file in the image (pom.xml / package.json / METADATA, and the LICENSE text where needed).
+- GT: 15 of 16 correct. The 16th (uvloop, incomplete) was fixed.
+- All 10 matches are correct.
+- All 5 remaining mismatches are tool errors: Syft reporting licenses of bundled code for 3 Jenkins JARs; Trivy reporting BSD-2-Clause as BSD-3-Clause for 2 packages (the LICENSE texts have two clauses).
+
+**Outputs:** `results/tables/rq4_licenses.csv`, `rq4_licenses_os_presence.csv`, `rq4_license_comparisons.csv`, `rq4_license_spotcheck.csv`; `rq4_field_correctness.csv` now uses the SPDX comparison.
+
+### Strengthening, Step 6: replication package
+
+**Built:**
+- **`run_all.sh` / `run_all.ps1`** with two levels:
+  - `analysis`: from the archived SBOMs, no Docker, exact;
+  - `full`: rebuild, GT, tools, paced network-verified cdxgen runs, RQ5.
+- **`scripts/check_reproduction.py`** compares regenerated results with the shipped ones (row-order independent, numbers within 1e-9) and exits 1 on any difference.
+- **`scripts/make_archive.py`** writes `dist/` with SHA256SUMS and MANIFEST.json:
+  - code archive: 8.7 MB, 608 files, exactly what a commit would contain (`git ls-files -co --exclude-standard`);
+  - data archive: 305 MB (1.8 GB unpacked);
+  - optional DB snapshots (`--with-db`).
+- **`docs/REPLICATION.md`**: levels, contents, steps, and the expected drift in a full re-run.
+- **README** rewritten with the final results and the new reproduction route.
+
+**Verified:**
+- **Fresh copy built only from the two archives** (new venv from `requirements.lock.txt`):
+  - `run_all.sh analysis` reproduced 46 of 46 result files exactly in about 4 minutes;
+  - `run_all.ps1 analysis` did the same on rebuilt archives (231 s).
+- **The checker detects tampering:** one recall value changed by 0.001 and one component name changed by one character are both reported.
+- **End to end for two digest-pinned targets (X-prometheus, O-alpine) in the fresh copy:** pull, export, GT extraction, all 3 tools, scoring. The GT is identical, all 6 SBOMs have identical component sets, and metrics/misses/false positives are identical.
+
+**Fixes found while testing:**
+- `run_all.sh` now skips the Windows Store `python3` stub, using the first interpreter that runs and is Python ≥ 3.11.
+- The OS baselines (O-*) were referenced by floating tags; `targets.yaml` now pins them to the digests that were scanned, confirmed against the local images.
+- The checker first compared typed values and misread missing cells; it now compares the raw text.
+
+**Not done yet:** `CITATION.cff` / `.zenodo.json` (they need the final author list and affiliations), the Zenodo upload (user's account), and the DB-snapshot archive (`--with-db`, several GB; build it just before upload).
+
 ## 9. Main risks for the 5-day schedule
 
 | Risk | Mitigation |

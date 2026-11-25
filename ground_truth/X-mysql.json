@@ -1,0 +1,5593 @@
+{
+  "components": [
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::asn1",
+      "license": "BSD-3-Clause",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "asn1",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/asn1@0.22.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.22.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::asn1_derive",
+      "license": "BSD-3-Clause",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "asn1_derive",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/asn1_derive@0.22.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.22.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::autocfg",
+      "license": "Apache-2.0 OR MIT",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "autocfg",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/autocfg@1.5.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.5.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::base64",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "base64",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/base64@0.22.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.22.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::bitflags",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "bitflags",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/bitflags@2.9.4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.9.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::cc",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "cc",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/cc@1.2.37",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.2.37"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::cfg-if",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "cfg-if",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/cfg-if@1.0.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.0.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::cryptography-cffi",
+      "license": "Apache-2.0 OR BSD-3-Clause",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "cryptography-cffi",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/cryptography-cffi@0.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::cryptography-crypto",
+      "license": "Apache-2.0 OR BSD-3-Clause",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "cryptography-crypto",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/cryptography-crypto@0.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::cryptography-keepalive",
+      "license": "Apache-2.0 OR BSD-3-Clause",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "cryptography-keepalive",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/cryptography-keepalive@0.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::cryptography-key-parsing",
+      "license": "Apache-2.0 OR BSD-3-Clause",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "cryptography-key-parsing",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/cryptography-key-parsing@0.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::cryptography-openssl",
+      "license": "Apache-2.0 OR BSD-3-Clause",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "cryptography-openssl",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/cryptography-openssl@0.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::cryptography-x509",
+      "license": "Apache-2.0 OR BSD-3-Clause",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "cryptography-x509",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/cryptography-x509@0.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::cryptography-x509-verification",
+      "license": "Apache-2.0 OR BSD-3-Clause",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "cryptography-x509-verification",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/cryptography-x509-verification@0.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.1.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::find-msvc-tools",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "find-msvc-tools",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/find-msvc-tools@0.1.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.1.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::foreign-types",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "foreign-types",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/foreign-types@0.3.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.3.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::foreign-types-shared",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "foreign-types-shared",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/foreign-types-shared@0.1.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.1.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::heck",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "heck",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/heck@0.5.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.5.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::indoc",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "indoc",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/indoc@2.0.6",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.0.6"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::itoa",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "itoa",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/itoa@1.0.15",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.0.15"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::libc",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "libc",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/libc@0.2.175",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.2.175"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::memoffset",
+      "license": "MIT",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "memoffset",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/memoffset@0.9.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.9.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::once_cell",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "once_cell",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/once_cell@1.21.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.21.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::openssl",
+      "license": "Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "openssl",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/openssl@0.10.74",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.10.74"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::openssl-macros",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "openssl-macros",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/openssl-macros@0.1.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.1.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::openssl-sys",
+      "license": "MIT",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "openssl-sys",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/openssl-sys@0.9.110",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.9.110"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::pem",
+      "license": "MIT",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "pem",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/pem@3.0.5",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "3.0.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::pkg-config",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "pkg-config",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/pkg-config@0.3.32",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.3.32"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::portable-atomic",
+      "license": "Apache-2.0 OR MIT",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "portable-atomic",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/portable-atomic@1.11.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.11.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::proc-macro2",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "proc-macro2",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/proc-macro2@1.0.101",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.0.101"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::pyo3",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "pyo3",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/pyo3@0.26.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.26.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::pyo3-build-config",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "pyo3-build-config",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/pyo3-build-config@0.26.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.26.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::pyo3-ffi",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "pyo3-ffi",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/pyo3-ffi@0.26.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.26.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::pyo3-macros",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "pyo3-macros",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/pyo3-macros@0.26.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.26.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::pyo3-macros-backend",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "pyo3-macros-backend",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/pyo3-macros-backend@0.26.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.26.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::quote",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "quote",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/quote@1.0.40",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.0.40"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::self_cell",
+      "license": "Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "self_cell",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/self_cell@1.2.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.2.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::shlex",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "shlex",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/shlex@1.3.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.3.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::syn",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "syn",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/syn@2.0.106",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.0.106"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::target-lexicon",
+      "license": "Apache-2.0 WITH LLVM-exception",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "target-lexicon",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/target-lexicon@0.13.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.13.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::unicode-ident",
+      "license": "(MIT OR Apache-2.0) AND Unicode-3.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "unicode-ident",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/unicode-ident@1.0.19",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.0.19"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::unindent",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "unindent",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/unindent@0.2.4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.2.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "cargo",
+      "evidence": "embedded SBOM cryptography-rust.cyclonedx.json in cryptography",
+      "hashes": {},
+      "instances": 1,
+      "key": "cargo::vcpkg",
+      "license": "MIT OR Apache-2.0",
+      "mechanism": "wheel-embedded-sbom",
+      "mechanisms": [
+        "wheel-embedded-sbom"
+      ],
+      "name": "vcpkg",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/sboms/cryptography-rust.cyclonedx.json"
+      ],
+      "purl": "pkg:cargo/vcpkg@0.2.15",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "0.2.15"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/moby/sys/user",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "github.com/moby/sys/user",
+      "namespace": null,
+      "paths": [
+        "usr/local/bin/gosu"
+      ],
+      "purl": "pkg:golang/github.com/moby/sys/user@v0.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.1.0"
+    },
+    {
+      "alt_names": [
+        "gosu"
+      ],
+      "eco": "golang",
+      "evidence": "Go build info (main module)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::github.com/tianon/gosu",
+      "license": null,
+      "mechanism": "manual-download",
+      "mechanisms": [
+        "manual-download"
+      ],
+      "name": "github.com/tianon/gosu",
+      "namespace": null,
+      "paths": [
+        "usr/local/bin/gosu"
+      ],
+      "purl": "pkg:golang/github.com/tianon/gosu@v1.19.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v1.19.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "golang",
+      "evidence": "Go build info (dep)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::golang.org/x/sys",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "golang.org/x/sys",
+      "namespace": null,
+      "paths": [
+        "usr/local/bin/gosu"
+      ],
+      "purl": "pkg:golang/golang.org/x/sys@v0.1.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "v0.1.0"
+    },
+    {
+      "alt_names": [
+        "stdlib",
+        "go"
+      ],
+      "eco": "golang",
+      "evidence": "Go build info (toolchain)",
+      "hashes": {},
+      "instances": 1,
+      "key": "golang::stdlib",
+      "license": null,
+      "mechanism": "go-module-in-binary",
+      "mechanisms": [
+        "go-module-in-binary"
+      ],
+      "name": "stdlib",
+      "namespace": null,
+      "paths": [
+        "usr/local/bin/gosu"
+      ],
+      "purl": "pkg:golang/stdlib@go1.24.6",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "go1.24.6"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::antlr4-python3-runtime",
+      "license": "BSD",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "antlr4-python3-runtime",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/antlr4_python3_runtime-4.13.2.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/antlr4-python3-runtime@4.13.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.13.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::bcrypt",
+      "license": "Apache-2.0",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "bcrypt",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/bcrypt-5.0.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/bcrypt@5.0.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "5.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::certifi",
+      "license": "MPL-2.0",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "certifi",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/certifi-2026.2.25.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/certifi@2026.2.25",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2026.2.25"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::cffi",
+      "license": "MIT",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "cffi",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cffi-2.0.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/cffi@2.0.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::circuitbreaker",
+      "license": "BSD-3-Clause",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "circuitbreaker",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/circuitbreaker-2.1.3.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/circuitbreaker@2.1.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.1.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::cryptography",
+      "license": "Apache-2.0 OR BSD-3-Clause",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "cryptography",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/cryptography-46.0.5.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/cryptography@46.0.5",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "46.0.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::invoke",
+      "license": "BSD",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "invoke",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/invoke-2.2.1.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/invoke@2.2.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.2.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::oci",
+      "license": "Apache Software License OR Universal Permissive License (UPL)",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "oci",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/oci-2.168.2.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/oci@2.168.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.168.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::paramiko",
+      "license": "LGPL-2.1",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "paramiko",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/paramiko-4.0.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/paramiko@4.0.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.0.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 2,
+      "key": "pypi::pip",
+      "license": "MIT",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "pip",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pip-25.3.dist-info/METADATA",
+        "usr/lib/mysqlsh/lib/python3.13/ensurepip/_bundled/pip-25.3-py3-none-any.whl"
+      ],
+      "purl": "pkg:pypi/pip@25.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "25.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::pycparser",
+      "license": "BSD-3-Clause",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "pycparser",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pycparser-3.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/pycparser@3.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "3.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::pynacl",
+      "license": "Apache-2.0",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "PyNaCl",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pynacl-1.6.2.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/pynacl@1.6.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.6.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::pyopenssl",
+      "license": "Apache License, Version 2.0",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "pyOpenSSL",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pyopenssl-25.3.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/pyopenssl@25.3.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "25.3.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::python-dateutil",
+      "license": "Dual License OR BSD License OR Apache Software License",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "python-dateutil",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/python_dateutil-2.9.0.post0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.9.0.post0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::pytz",
+      "license": "MIT",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "pytz",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pytz-2026.1.post1.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/pytz@2026.1.post1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2026.1.post1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::pyyaml",
+      "license": "MIT",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "PyYAML",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pyyaml-6.0.2.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/pyyaml@6.0.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "6.0.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::six",
+      "license": "MIT",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "six",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/six-1.17.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/six@1.17.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.17.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::svg-py",
+      "license": "MIT",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "svg.py",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/svg_py-1.6.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/svg.py@1.6.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "1.6.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::typing-extensions",
+      "license": "PSF-2.0",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "typing_extensions",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/typing_extensions-4.15.0.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/typing-extensions@4.15.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "4.15.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "dist-info",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::urllib3",
+      "license": "MIT",
+      "mechanism": "lang-pm",
+      "mechanisms": [
+        "lang-pm"
+      ],
+      "name": "urllib3",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/urllib3-2.6.3.dist-info/METADATA"
+      ],
+      "purl": "pkg:pypi/urllib3@2.6.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "primary",
+      "version": "2.6.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::alternatives",
+      "license": "GPL-2.0-only",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "alternatives",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/alternatives@1.24-2.0.1.el9?arch=x86_64&upstream=chkconfig-1.24-2.0.1.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "chkconfig-1.24-2.0.1.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.24-2.0.1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::audit-libs",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "audit-libs",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/audit-libs@3.1.5-8.0.1.el9?arch=x86_64&upstream=audit-3.1.5-8.0.1.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "audit-3.1.5-8.0.1.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "3.1.5-8.0.1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::basesystem",
+      "license": "Public Domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "basesystem",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/basesystem@11-13.el9?arch=noarch&upstream=basesystem-11-13.el9.src.rpm",
+      "qualifiers": {
+        "arch": "noarch",
+        "upstream": "basesystem-11-13.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "11-13.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::bash",
+      "license": "GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "bash",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/bash@5.1.8-9.el9?arch=x86_64&upstream=bash-5.1.8-9.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "bash-5.1.8-9.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "5.1.8-9.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::bzip2",
+      "license": "BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "bzip2",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/bzip2@1.0.8-11.el9?arch=x86_64&upstream=bzip2-1.0.8-11.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "bzip2-1.0.8-11.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.0.8-11.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::bzip2-libs",
+      "license": "BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "bzip2-libs",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/bzip2-libs@1.0.8-11.el9?arch=x86_64&upstream=bzip2-1.0.8-11.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "bzip2-1.0.8-11.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.0.8-11.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::ca-certificates",
+      "license": "MIT AND GPL-2.0-or-later",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "ca-certificates",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/ca-certificates@2026.2.92_v9.0.319-90.3.el9_8?arch=noarch&upstream=ca-certificates-2026.2.92_v9.0.319-90.3.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "noarch",
+        "upstream": "ca-certificates-2026.2.92_v9.0.319-90.3.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2026.2.92_v9.0.319-90.3.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::coreutils-single",
+      "license": "GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "coreutils-single",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/coreutils-single@8.32-41.0.1.el9_8.1?arch=x86_64&upstream=coreutils-8.32-41.0.1.el9_8.1.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "coreutils-8.32-41.0.1.el9_8.1.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "8.32-41.0.1.el9_8.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::crypto-policies",
+      "license": "LGPL-2.1-or-later",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "crypto-policies",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/crypto-policies@20260224-1.0.1.gitea0f072.el9_8?arch=noarch&upstream=crypto-policies-20260224-1.0.1.gitea0f072.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "noarch",
+        "upstream": "crypto-policies-20260224-1.0.1.gitea0f072.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "20260224-1.0.1.gitea0f072.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::curl",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "curl",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/curl@7.76.1-40.el9_8.9?arch=x86_64&upstream=curl-7.76.1-40.el9_8.9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "curl-7.76.1-40.el9_8.9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "7.76.1-40.el9_8.9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::cyrus-sasl-lib",
+      "license": "BSD with advertising",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "cyrus-sasl-lib",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/cyrus-sasl-lib@2.1.27-22.el9?arch=x86_64&upstream=cyrus-sasl-2.1.27-22.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "cyrus-sasl-2.1.27-22.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.1.27-22.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::dnf-data",
+      "license": "GPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "dnf-data",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/dnf-data@4.14.0-34.0.1.el9_8?arch=noarch&upstream=dnf-4.14.0-34.0.1.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "noarch",
+        "upstream": "dnf-4.14.0-34.0.1.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "4.14.0-34.0.1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::file-libs",
+      "license": "BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "file-libs",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/file-libs@5.39-17.el9?arch=x86_64&upstream=file-5.39-17.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "file-5.39-17.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "5.39-17.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::filesystem",
+      "license": "Public Domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "filesystem",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/filesystem@3.16-5.el9?arch=x86_64&upstream=filesystem-3.16-5.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "filesystem-3.16-5.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "3.16-5.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::findutils",
+      "license": "GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "findutils",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/findutils@1:4.8.0-7.el9?arch=x86_64&epoch=1&upstream=findutils-4.8.0-7.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "epoch": "1",
+        "upstream": "findutils-4.8.0-7.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1:4.8.0-7.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gawk",
+      "license": "GPLv3+ and GPLv2+ and LGPLv2+ and BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gawk",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/gawk@5.1.0-6.el9_8.1?arch=x86_64&upstream=gawk-5.1.0-6.el9_8.1.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "gawk-5.1.0-6.el9_8.1.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "5.1.0-6.el9_8.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gdbm-libs",
+      "license": "GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gdbm-libs",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/gdbm-libs@1:1.23-1.el9?arch=x86_64&epoch=1&upstream=gdbm-1.23-1.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "epoch": "1",
+        "upstream": "gdbm-1.23-1.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1:1.23-1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::glib2",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "glib2",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/glib2@2.68.4-19.el9_8.10?arch=x86_64&upstream=glib2-2.68.4-19.el9_8.10.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "glib2-2.68.4-19.el9_8.10.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.68.4-19.el9_8.10"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::glibc",
+      "license": "LGPL-2.1-or-later AND SunPro AND LGPL-2.1-or-later WITH GCC-exception-2.0 AND BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.1-or-later WITH GNU-compiler-exception AND GPL-2.0-only AND ISC AND LicenseRef-Fedora-Public-Domain AND HPND AND CMU-Mach AND LGPL-2.0-or-later AND Unicode-3.0 AND GFDL-1.1-or-later AND GPL-1.0-or-later AND FSFUL AND MIT AND Inner-Net-2.0 AND X11 AND GPL-2.0-or-later WITH GCC-exception-2.0 AND GFDL-1.3-only AND GFDL-1.1-only AND GPL-3.0-or-later AND GPL-3.0-or-later WITH Autoconf-exception-generic-3.0 AND GPL-3.0-or-later WITH Texinfo-exception",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "glibc",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/glibc@2.34-275.0.1.el9_8?arch=x86_64&upstream=glibc-2.34-275.0.1.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "glibc-2.34-275.0.1.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.34-275.0.1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::glibc-common",
+      "license": "LGPL-2.1-or-later AND SunPro AND LGPL-2.1-or-later WITH GCC-exception-2.0 AND BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.1-or-later WITH GNU-compiler-exception AND GPL-2.0-only AND ISC AND LicenseRef-Fedora-Public-Domain AND HPND AND CMU-Mach AND LGPL-2.0-or-later AND Unicode-3.0 AND GFDL-1.1-or-later AND GPL-1.0-or-later AND FSFUL AND MIT AND Inner-Net-2.0 AND X11 AND GPL-2.0-or-later WITH GCC-exception-2.0 AND GFDL-1.3-only AND GFDL-1.1-only AND GPL-3.0-or-later AND GPL-3.0-or-later WITH Autoconf-exception-generic-3.0 AND GPL-3.0-or-later WITH Texinfo-exception",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "glibc-common",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/glibc-common@2.34-275.0.1.el9_8?arch=x86_64&upstream=glibc-2.34-275.0.1.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "glibc-2.34-275.0.1.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.34-275.0.1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::glibc-minimal-langpack",
+      "license": "LGPL-2.1-or-later AND SunPro AND LGPL-2.1-or-later WITH GCC-exception-2.0 AND BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.1-or-later WITH GNU-compiler-exception AND GPL-2.0-only AND ISC AND LicenseRef-Fedora-Public-Domain AND HPND AND CMU-Mach AND LGPL-2.0-or-later AND Unicode-3.0 AND GFDL-1.1-or-later AND GPL-1.0-or-later AND FSFUL AND MIT AND Inner-Net-2.0 AND X11 AND GPL-2.0-or-later WITH GCC-exception-2.0 AND GFDL-1.3-only AND GFDL-1.1-only AND GPL-3.0-or-later AND GPL-3.0-or-later WITH Autoconf-exception-generic-3.0 AND GPL-3.0-or-later WITH Texinfo-exception",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "glibc-minimal-langpack",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/glibc-minimal-langpack@2.34-275.0.1.el9_8?arch=x86_64&upstream=glibc-2.34-275.0.1.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "glibc-2.34-275.0.1.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.34-275.0.1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gmp",
+      "license": "LGPLv3+ or GPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gmp",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/gmp@1:6.2.0-13.el9?arch=x86_64&epoch=1&upstream=gmp-6.2.0-13.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "epoch": "1",
+        "upstream": "gmp-6.2.0-13.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1:6.2.0-13.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gnupg2",
+      "license": "GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gnupg2",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/gnupg2@2.3.3-5.el9_7?arch=x86_64&upstream=gnupg2-2.3.3-5.el9_7.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "gnupg2-2.3.3-5.el9_7.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.3.3-5.el9_7"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gnutls",
+      "license": "GPLv3+ and LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gnutls",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/gnutls@3.8.10-9.el9_8?arch=x86_64&upstream=gnutls-3.8.10-9.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "gnutls-3.8.10-9.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "3.8.10-9.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gobject-introspection",
+      "license": "GPLv2+ and LGPLv2+ and MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gobject-introspection",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/gobject-introspection@1.68.0-11.el9?arch=x86_64&upstream=gobject-introspection-1.68.0-11.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "gobject-introspection-1.68.0-11.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.68.0-11.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gpgme",
+      "license": "LGPLv2+ and GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gpgme",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/gpgme@1.15.1-6.el9?arch=x86_64&upstream=gpgme-1.15.1-6.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "gpgme-1.15.1-6.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.15.1-6.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::grep",
+      "license": "GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "grep",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/grep@3.6-5.el9?arch=x86_64&upstream=grep-3.6-5.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "grep-3.6-5.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "3.6-5.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gzip",
+      "license": "GPLv3+ and GFDL",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gzip",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/gzip@1.12-2.el9_8?arch=x86_64&upstream=gzip-1.12-2.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "gzip-1.12-2.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.12-2.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::json-c",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "json-c",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/json-c@0.14-11.el9?arch=x86_64&upstream=json-c-0.14-11.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "json-c-0.14-11.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "0.14-11.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::keyutils-libs",
+      "license": "GPLv2+ and LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "keyutils-libs",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/keyutils-libs@1.6.3-1.el9?arch=x86_64&upstream=keyutils-1.6.3-1.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "keyutils-1.6.3-1.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.6.3-1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::krb5-libs",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "krb5-libs",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/krb5-libs@1.21.1-10.0.1.el9_8.1?arch=x86_64&upstream=krb5-1.21.1-10.0.1.el9_8.1.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "krb5-1.21.1-10.0.1.el9_8.1.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.21.1-10.0.1.el9_8.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libacl",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libacl",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libacl@2.4.0-1.el9_8?arch=x86_64&upstream=acl-2.4.0-1.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "acl-2.4.0-1.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.4.0-1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libaio",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libaio",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libaio@0.3.111-13.el9?arch=x86_64&upstream=libaio-0.3.111-13.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libaio-0.3.111-13.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "0.3.111-13.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libarchive",
+      "license": "BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libarchive",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libarchive@3.5.3-11.el9_8?arch=x86_64&upstream=libarchive-3.5.3-11.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libarchive-3.5.3-11.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "3.5.3-11.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libassuan",
+      "license": "LGPLv2+ and GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libassuan",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libassuan@2.5.5-3.el9?arch=x86_64&upstream=libassuan-2.5.5-3.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libassuan-2.5.5-3.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.5.5-3.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libattr",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libattr",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libattr@2.6.0-1.el9_8?arch=x86_64&upstream=attr-2.6.0-1.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "attr-2.6.0-1.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.6.0-1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libblkid",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libblkid",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libblkid@2.37.4-25.0.1.el9?arch=x86_64&upstream=util-linux-2.37.4-25.0.1.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "util-linux-2.37.4-25.0.1.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.37.4-25.0.1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libbrotli",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libbrotli",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libbrotli@1.0.9-10.0.1.el9_8?arch=x86_64&upstream=brotli-1.0.9-10.0.1.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "brotli-1.0.9-10.0.1.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.0.9-10.0.1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libcap",
+      "license": "BSD or GPLv2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libcap",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libcap@2.48-10.el9_8.1?arch=x86_64&upstream=libcap-2.48-10.el9_8.1.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libcap-2.48-10.el9_8.1.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.48-10.el9_8.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libcap-ng",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libcap-ng",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libcap-ng@0.8.2-7.el9?arch=x86_64&upstream=libcap-ng-0.8.2-7.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libcap-ng-0.8.2-7.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "0.8.2-7.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libcom_err",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libcom_err",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libcom_err@1.46.5-8.el9?arch=x86_64&upstream=e2fsprogs-1.46.5-8.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "e2fsprogs-1.46.5-8.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.46.5-8.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libcurl",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libcurl",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libcurl@7.76.1-40.el9_8.9?arch=x86_64&upstream=curl-7.76.1-40.el9_8.9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "curl-7.76.1-40.el9_8.9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "7.76.1-40.el9_8.9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libdnf",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libdnf",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libdnf@0.69.0-18.0.1.el9?arch=x86_64&upstream=libdnf-0.69.0-18.0.1.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libdnf-0.69.0-18.0.1.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "0.69.0-18.0.1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libevent",
+      "license": "BSD and ISC",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libevent",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libevent@2.1.13-1.el9_8?arch=x86_64&upstream=libevent-2.1.13-1.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libevent-2.1.13-1.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.1.13-1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libffi",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libffi",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libffi@3.4.2-8.el9?arch=x86_64&upstream=libffi-3.4.2-8.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libffi-3.4.2-8.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "3.4.2-8.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libgcc",
+      "license": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libgcc",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libgcc@11.5.0-14.0.1.el9?arch=x86_64&upstream=gcc-11.5.0-14.0.1.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "gcc-11.5.0-14.0.1.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "11.5.0-14.0.1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libgcrypt",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libgcrypt",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libgcrypt@1.10.0-13.el9_8?arch=x86_64&upstream=libgcrypt-1.10.0-13.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libgcrypt-1.10.0-13.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.10.0-13.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libgpg-error",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libgpg-error",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libgpg-error@1.42-5.el9?arch=x86_64&upstream=libgpg-error-1.42-5.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libgpg-error-1.42-5.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.42-5.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libidn2",
+      "license": "(GPLv2+ or LGPLv3+) and GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libidn2",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libidn2@2.3.0-7.el9?arch=x86_64&upstream=libidn2-2.3.0-7.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libidn2-2.3.0-7.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.3.0-7.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libksba",
+      "license": "(LGPLv3+ or GPLv2+) and GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libksba",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libksba@1.5.1-7.el9?arch=x86_64&upstream=libksba-1.5.1-7.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libksba-1.5.1-7.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.5.1-7.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libmodulemd",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libmodulemd",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libmodulemd@2.13.0-2.el9?arch=x86_64&upstream=libmodulemd-2.13.0-2.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libmodulemd-2.13.0-2.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.13.0-2.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libmount",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libmount",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libmount@2.37.4-25.0.1.el9?arch=x86_64&upstream=util-linux-2.37.4-25.0.1.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "util-linux-2.37.4-25.0.1.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.37.4-25.0.1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libnghttp2",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libnghttp2",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libnghttp2@1.43.0-6.el9_8.2?arch=x86_64&upstream=nghttp2-1.43.0-6.el9_8.2.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "nghttp2-1.43.0-6.el9_8.2.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.43.0-6.el9_8.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libpeas",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libpeas",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libpeas@1.30.0-4.el9?arch=x86_64&upstream=libpeas-1.30.0-4.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libpeas-1.30.0-4.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.30.0-4.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libpsl",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libpsl",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libpsl@0.21.1-5.el9?arch=x86_64&upstream=libpsl-0.21.1-5.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libpsl-0.21.1-5.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "0.21.1-5.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::librepo",
+      "license": "LGPL-2.1-or-later",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "librepo",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/librepo@1.19.0-1.el9?arch=x86_64&upstream=librepo-1.19.0-1.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "librepo-1.19.0-1.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.19.0-1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libreport-filesystem",
+      "license": "GPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libreport-filesystem",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libreport-filesystem@2.15.2-6.0.3.el9?arch=noarch&upstream=libreport-2.15.2-6.0.3.el9.src.rpm",
+      "qualifiers": {
+        "arch": "noarch",
+        "upstream": "libreport-2.15.2-6.0.3.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.15.2-6.0.3.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libselinux",
+      "license": "Public Domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libselinux",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libselinux@3.6-3.el9?arch=x86_64&upstream=libselinux-3.6-3.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libselinux-3.6-3.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "3.6-3.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libsemanage",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsemanage",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libsemanage@3.6-5.el9_6?arch=x86_64&upstream=libsemanage-3.6-5.el9_6.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libsemanage-3.6-5.el9_6.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "3.6-5.el9_6"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libsepol",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsepol",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libsepol@3.6-3.el9?arch=x86_64&upstream=libsepol-3.6-3.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libsepol-3.6-3.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "3.6-3.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libsigsegv",
+      "license": "GPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsigsegv",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libsigsegv@2.13-4.el9?arch=x86_64&upstream=libsigsegv-2.13-4.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libsigsegv-2.13-4.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.13-4.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libsmartcols",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsmartcols",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libsmartcols@2.37.4-25.0.1.el9?arch=x86_64&upstream=util-linux-2.37.4-25.0.1.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "util-linux-2.37.4-25.0.1.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.37.4-25.0.1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libsolv",
+      "license": "BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libsolv",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libsolv@0.7.24-6.el9_8?arch=x86_64&upstream=libsolv-0.7.24-6.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libsolv-0.7.24-6.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "0.7.24-6.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libssh",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libssh",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libssh@0.10.4-19.el9_8?arch=x86_64&upstream=libssh-0.10.4-19.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libssh-0.10.4-19.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "0.10.4-19.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libssh-config",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libssh-config",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libssh-config@0.10.4-19.el9_8?arch=noarch&upstream=libssh-0.10.4-19.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "noarch",
+        "upstream": "libssh-0.10.4-19.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "0.10.4-19.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libstdc++",
+      "license": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libstdc++",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libstdc%2B%2B@11.5.0-14.0.1.el9?arch=x86_64&upstream=gcc-11.5.0-14.0.1.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "gcc-11.5.0-14.0.1.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "11.5.0-14.0.1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libtasn1",
+      "license": "GPLv3+ and LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libtasn1",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libtasn1@4.16.0-10.el9_8?arch=x86_64&upstream=libtasn1-4.16.0-10.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libtasn1-4.16.0-10.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "4.16.0-10.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libtirpc",
+      "license": "SISSL and BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libtirpc",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libtirpc@1.3.3-9.el9?arch=x86_64&upstream=libtirpc-1.3.3-9.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libtirpc-1.3.3-9.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.3.3-9.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libtool-ltdl",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libtool-ltdl",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libtool-ltdl@2.4.6-46.el9?arch=x86_64&upstream=libtool-2.4.6-46.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libtool-2.4.6-46.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.4.6-46.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libunistring",
+      "license": "GPLv2+ or LGPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libunistring",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libunistring@0.9.10-15.el9?arch=x86_64&upstream=libunistring-0.9.10-15.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libunistring-0.9.10-15.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "0.9.10-15.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libuuid",
+      "license": "BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libuuid",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libuuid@2.37.4-25.0.1.el9?arch=x86_64&upstream=util-linux-2.37.4-25.0.1.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "util-linux-2.37.4-25.0.1.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.37.4-25.0.1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libverto",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libverto",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libverto@0.3.2-3.el9?arch=x86_64&upstream=libverto-0.3.2-3.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libverto-0.3.2-3.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "0.3.2-3.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libxcrypt",
+      "license": "LGPLv2+ and BSD and Public Domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libxcrypt",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libxcrypt@4.4.18-3.el9?arch=x86_64&upstream=libxcrypt-4.4.18-3.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libxcrypt-4.4.18-3.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "4.4.18-3.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libxml2",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libxml2",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libxml2@2.9.13-14.el9_8.5?arch=x86_64&upstream=libxml2-2.9.13-14.el9_8.5.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libxml2-2.9.13-14.el9_8.5.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.9.13-14.el9_8.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libyaml",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libyaml",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libyaml@0.2.5-7.el9?arch=x86_64&upstream=libyaml-0.2.5-7.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "libyaml-0.2.5-7.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "0.2.5-7.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libzstd",
+      "license": "BSD and GPLv2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "libzstd",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/libzstd@1.5.5-1.el9?arch=x86_64&upstream=zstd-1.5.5-1.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "zstd-1.5.5-1.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.5.5-1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::lua-libs",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "lua-libs",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/lua-libs@5.4.4-4.el9?arch=x86_64&upstream=lua-5.4.4-4.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "lua-5.4.4-4.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "5.4.4-4.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::lz4-libs",
+      "license": "GPLv2+ and BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "lz4-libs",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/lz4-libs@1.9.3-5.el9?arch=x86_64&upstream=lz4-1.9.3-5.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "lz4-1.9.3-5.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.9.3-5.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::microdnf",
+      "license": "GPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "microdnf",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/microdnf@3.9.1-3.el9?arch=x86_64&upstream=microdnf-3.9.1-3.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "microdnf-3.9.1-3.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "3.9.1-3.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::mpfr",
+      "license": "LGPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "mpfr",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/mpfr@4.1.0-10.el9?arch=x86_64&upstream=mpfr-4.1.0-10.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "mpfr-4.1.0-10.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "4.1.0-10.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::mysql-community-server-minimal",
+      "license": "Copyright (c) 2000, 2026, Oracle and/or its affiliates. Under GPLv2 license as shown in the Description field.",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "mysql-community-server-minimal",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/mysql-community-server-minimal@8.4.13-1.el9?arch=x86_64&upstream=mysql-community-minimal-8.4.13-1.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "mysql-community-minimal-8.4.13-1.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "8.4.13-1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::mysql-shell",
+      "license": "GPLv2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "mysql-shell",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/mysql-shell@8.4.10-1.el9?arch=x86_64&upstream=mysql-shell-8.4.10-1.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "mysql-shell-8.4.10-1.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "8.4.10-1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::ncurses-base",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "ncurses-base",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/ncurses-base@6.2-12.20210508.el9?arch=noarch&upstream=ncurses-6.2-12.20210508.el9.src.rpm",
+      "qualifiers": {
+        "arch": "noarch",
+        "upstream": "ncurses-6.2-12.20210508.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "6.2-12.20210508.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::ncurses-libs",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "ncurses-libs",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/ncurses-libs@6.2-12.20210508.el9?arch=x86_64&upstream=ncurses-6.2-12.20210508.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "ncurses-6.2-12.20210508.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "6.2-12.20210508.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::nettle",
+      "license": "LGPLv3+ or GPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "nettle",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/nettle@3.10.1-1.el9?arch=x86_64&upstream=nettle-3.10.1-1.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "nettle-3.10.1-1.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "3.10.1-1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::npth",
+      "license": "LGPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "npth",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/npth@1.6-8.el9?arch=x86_64&upstream=npth-1.6-8.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "npth-1.6-8.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.6-8.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::openldap",
+      "license": "OLDAP-2.8",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "openldap",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/openldap@2.6.8-4.el9?arch=x86_64&upstream=openldap-2.6.8-4.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "openldap-2.6.8-4.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.6.8-4.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::openssl",
+      "license": "Apache-2.0",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "openssl",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/openssl@1:3.5.8-2.0.1.el9_8?arch=x86_64&epoch=1&upstream=openssl-3.5.8-2.0.1.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "epoch": "1",
+        "upstream": "openssl-3.5.8-2.0.1.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1:3.5.8-2.0.1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::openssl-fips-provider",
+      "license": "ASL 2.0",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "openssl-fips-provider",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/openssl-fips-provider@3.0.7-11.0.1.el9_8?arch=x86_64&upstream=openssl-fips-provider-3.0.7-11.0.1.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "openssl-fips-provider-3.0.7-11.0.1.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "3.0.7-11.0.1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::openssl-fips-provider-so",
+      "license": "ASL 2.0",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "openssl-fips-provider-so",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/openssl-fips-provider-so@3.0.7-11.0.1.el9_8?arch=x86_64&upstream=openssl-fips-provider-3.0.7-11.0.1.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "openssl-fips-provider-3.0.7-11.0.1.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "3.0.7-11.0.1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::openssl-libs",
+      "license": "Apache-2.0",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "openssl-libs",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/openssl-libs@1:3.5.8-2.0.1.el9_8?arch=x86_64&epoch=1&upstream=openssl-3.5.8-2.0.1.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "epoch": "1",
+        "upstream": "openssl-3.5.8-2.0.1.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1:3.5.8-2.0.1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::oraclelinux-release",
+      "license": "GPL",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "oraclelinux-release",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/oraclelinux-release@9:9.8-1.0.7.el9?arch=x86_64&epoch=9&upstream=oraclelinux-release-9.8-1.0.7.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "epoch": "9",
+        "upstream": "oraclelinux-release-9.8-1.0.7.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "9:9.8-1.0.7.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::oraclelinux-release-el9",
+      "license": "GPLv2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "oraclelinux-release-el9",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/oraclelinux-release-el9@1.0-29.el9?arch=x86_64&upstream=oraclelinux-release-el9-1.0-29.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "oraclelinux-release-el9-1.0-29.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.0-29.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::p11-kit",
+      "license": "BSD-3-Clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "p11-kit",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/p11-kit@0.26.4-1.el9_8?arch=x86_64&upstream=p11-kit-0.26.4-1.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "p11-kit-0.26.4-1.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "0.26.4-1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::p11-kit-trust",
+      "license": "BSD-3-Clause",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "p11-kit-trust",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/p11-kit-trust@0.26.4-1.el9_8?arch=x86_64&upstream=p11-kit-0.26.4-1.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "p11-kit-0.26.4-1.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "0.26.4-1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::pcre",
+      "license": "BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "pcre",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/pcre@8.44-4.el9?arch=x86_64&upstream=pcre-8.44-4.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "pcre-8.44-4.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "8.44-4.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::pcre2",
+      "license": "BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "pcre2",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/pcre2@10.40-7.0.1.el9_8?arch=x86_64&upstream=pcre2-10.40-7.0.1.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "pcre2-10.40-7.0.1.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "10.40-7.0.1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::pcre2-syntax",
+      "license": "BSD",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "pcre2-syntax",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/pcre2-syntax@10.40-7.0.1.el9_8?arch=noarch&upstream=pcre2-10.40-7.0.1.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "noarch",
+        "upstream": "pcre2-10.40-7.0.1.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "10.40-7.0.1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::popt",
+      "license": "MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "popt",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/popt@1.18-8.el9?arch=x86_64&upstream=popt-1.18-8.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "popt-1.18-8.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.18-8.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::publicsuffix-list-dafsa",
+      "license": "MPLv2.0",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "publicsuffix-list-dafsa",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/publicsuffix-list-dafsa@20210518-3.el9?arch=noarch&upstream=publicsuffix-list-20210518-3.el9.src.rpm",
+      "qualifiers": {
+        "arch": "noarch",
+        "upstream": "publicsuffix-list-20210518-3.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "20210518-3.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::readline",
+      "license": "GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "readline",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/readline@8.1-4.el9?arch=x86_64&upstream=readline-8.1-4.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "readline-8.1-4.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "8.1-4.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::redhat-release",
+      "license": "GPLv2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "redhat-release",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/redhat-release@3:9.8-0.7.0.1.el9?arch=x86_64&epoch=3&upstream=redhat-release-9.8-0.7.0.1.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "epoch": "3",
+        "upstream": "redhat-release-9.8-0.7.0.1.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "3:9.8-0.7.0.1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::rpm",
+      "license": "GPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "rpm",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/rpm@4.16.1.3-40.el9?arch=x86_64&upstream=rpm-4.16.1.3-40.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "rpm-4.16.1.3-40.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "4.16.1.3-40.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::rpm-libs",
+      "license": "GPLv2+ and LGPLv2+ with exceptions",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "rpm-libs",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/rpm-libs@4.16.1.3-40.el9?arch=x86_64&upstream=rpm-4.16.1.3-40.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "rpm-4.16.1.3-40.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "4.16.1.3-40.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::sed",
+      "license": "GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "sed",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/sed@4.8-10.el9?arch=x86_64&upstream=sed-4.8-10.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "sed-4.8-10.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "4.8-10.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::setup",
+      "license": "Public Domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "setup",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/setup@2.13.7-10.el9?arch=noarch&upstream=setup-2.13.7-10.el9.src.rpm",
+      "qualifiers": {
+        "arch": "noarch",
+        "upstream": "setup-2.13.7-10.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2.13.7-10.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::shadow-utils",
+      "license": "BSD and GPLv2+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "shadow-utils",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/shadow-utils@2:4.9-16.el9?arch=x86_64&epoch=2&upstream=shadow-utils-4.9-16.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "epoch": "2",
+        "upstream": "shadow-utils-4.9-16.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2:4.9-16.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::sqlite-libs",
+      "license": "Public Domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "sqlite-libs",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/sqlite-libs@3.34.1-11.el9_8?arch=x86_64&upstream=sqlite-3.34.1-11.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "sqlite-3.34.1-11.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "3.34.1-11.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::systemd-libs",
+      "license": "LGPLv2+ and MIT",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "systemd-libs",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/systemd-libs@252-67.0.2.el9_8.6?arch=x86_64&upstream=systemd-252-67.0.2.el9_8.6.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "systemd-252-67.0.2.el9_8.6.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "252-67.0.2.el9_8.6"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::tar",
+      "license": "GPLv3+",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "tar",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/tar@2:1.34-13.el9_8?arch=x86_64&epoch=2&upstream=tar-1.34-13.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "epoch": "2",
+        "upstream": "tar-1.34-13.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2:1.34-13.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::tzdata",
+      "license": "Public Domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "tzdata",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/tzdata@2026e-1.el9_8?arch=noarch&upstream=tzdata-2026e-1.el9_8.src.rpm",
+      "qualifiers": {
+        "arch": "noarch",
+        "upstream": "tzdata-2026e-1.el9_8.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "2026e-1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::xz",
+      "license": "GPLv2+ and Public Domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "xz",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/xz@5.2.5-8.el9_8.1?arch=x86_64&upstream=xz-5.2.5-8.el9_8.1.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "xz-5.2.5-8.el9_8.1.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "5.2.5-8.el9_8.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::xz-libs",
+      "license": "Public Domain",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "xz-libs",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/xz-libs@5.2.5-8.el9_8.1?arch=x86_64&upstream=xz-5.2.5-8.el9_8.1.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "xz-5.2.5-8.el9_8.1.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "5.2.5-8.el9_8.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::zlib",
+      "license": "zlib and Boost",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "zlib",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/zlib@1.2.11-40.el9?arch=x86_64&upstream=zlib-1.2.11-40.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "zlib-1.2.11-40.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.2.11-40.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::zstd",
+      "license": "BSD and GPLv2",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "zstd",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/zstd@1.5.5-1.el9?arch=x86_64&upstream=zstd-1.5.5-1.el9.src.rpm",
+      "qualifiers": {
+        "arch": "x86_64",
+        "upstream": "zstd-1.5.5-1.el9.src.rpm"
+      },
+      "scope": null,
+      "tier": "primary",
+      "version": "1.5.5-1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::cachecontrol",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "CacheControl",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/cachecontrol@0.14.3",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.14.3"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::certifi",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "certifi",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/certifi@2025.10.5",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "2025.10.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::dependency-groups",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "dependency-groups",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/dependency-groups@1.3.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.3.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::distlib",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "distlib",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/distlib@0.4.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.4.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::distro",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "distro",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/distro@1.9.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.9.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::idna",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "idna",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/idna@3.10",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.10"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::msgpack",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "msgpack",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/msgpack@1.1.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.1.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::packaging",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "packaging",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/packaging@25.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "25.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::platformdirs",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "platformdirs",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/platformdirs@4.5.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "4.5.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::pygments",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "pygments",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/pygments@2.19.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.19.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::pyproject-hooks",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "pyproject-hooks",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/pyproject-hooks@1.2.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.2.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::requests",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "requests",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/requests@2.32.5",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.32.5"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::resolvelib",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "resolvelib",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/resolvelib@1.2.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.2.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::rich",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "rich",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/rich@14.2.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "14.2.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::setuptools",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "setuptools",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/setuptools@70.3.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "70.3.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::tomli",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "tomli",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/tomli@2.3.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.3.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::tomli-w",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "tomli-w",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/tomli-w@1.2.0",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.2.0"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::truststore",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "truststore",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/truststore@0.10.4",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "0.10.4"
+    },
+    {
+      "alt_names": [],
+      "eco": "pypi",
+      "evidence": "pip-vendor.txt",
+      "hashes": {},
+      "instances": 1,
+      "key": "pypi::urllib3",
+      "license": null,
+      "mechanism": "vendored-source",
+      "mechanisms": [
+        "vendored-source"
+      ],
+      "name": "urllib3",
+      "namespace": null,
+      "paths": [
+        "usr/lib/mysqlsh/lib/python3.13/site-packages/pip/_vendor/vendor.txt"
+      ],
+      "purl": "pkg:pypi/urllib3@1.26.20",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.26.20"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::acl",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "acl",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/acl@2.4.0-1.el9_8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.4.0-1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::attr",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "attr",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/attr@2.6.0-1.el9_8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.6.0-1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::audit",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "audit",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/audit@3.1.5-8.0.1.el9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.1.5-8.0.1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::brotli",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "brotli",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/brotli@1.0.9-10.0.1.el9_8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.0.9-10.0.1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::chkconfig",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "chkconfig",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/chkconfig@1.24-2.0.1.el9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.24-2.0.1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::coreutils",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "coreutils",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/coreutils@8.32-41.0.1.el9_8.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "8.32-41.0.1.el9_8.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::cyrus-sasl",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "cyrus-sasl",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/cyrus-sasl@2.1.27-22.el9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.1.27-22.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::dnf",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "dnf",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/dnf@4.14.0-34.0.1.el9_8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "4.14.0-34.0.1.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::e2fsprogs",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "e2fsprogs",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/e2fsprogs@1.46.5-8.el9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.46.5-8.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::file",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "file",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/file@5.39-17.el9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "5.39-17.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gcc",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "gcc",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/gcc@11.5.0-14.0.1.el9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "11.5.0-14.0.1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gdbm",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "gdbm",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/gdbm@1.23-1.el9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.23-1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gpg-pubkey",
+      "license": "pubkey",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gpg-pubkey",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/gpg-pubkey@8b4efbe6-61e77439",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "8b4efbe6-61e77439"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "rpmdb",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::gpg-pubkey",
+      "license": "pubkey",
+      "mechanism": "os-pm",
+      "mechanisms": [
+        "os-pm"
+      ],
+      "name": "gpg-pubkey",
+      "namespace": "ol",
+      "paths": [
+        "var/lib/rpm/rpmdb.sqlite"
+      ],
+      "purl": "pkg:rpm/ol/gpg-pubkey@8d8b756f-61e772ef",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "8d8b756f-61e772ef"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::keyutils",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "keyutils",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/keyutils@1.6.3-1.el9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.6.3-1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::krb5",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "krb5",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/krb5@1.21.1-10.0.1.el9_8.1",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.21.1-10.0.1.el9_8.1"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libreport",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libreport",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/libreport@2.15.2-6.0.3.el9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.15.2-6.0.3.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::libtool",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "libtool",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/libtool@2.4.6-46.el9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.4.6-46.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::lua",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "lua",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/lua@5.4.4-4.el9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "5.4.4-4.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::lz4",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "lz4",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/lz4@1.9.3-5.el9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.9.3-5.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::mysql-community-minimal",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "mysql-community-minimal",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/mysql-community-minimal@8.4.13-1.el9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "8.4.13-1.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::ncurses",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "ncurses",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/ncurses@6.2-12.20210508.el9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "6.2-12.20210508.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::nghttp2",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "nghttp2",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/nghttp2@1.43.0-6.el9_8.2",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "1.43.0-6.el9_8.2"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::publicsuffix-list",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "publicsuffix-list",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/publicsuffix-list@20210518-3.el9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "20210518-3.el9"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::sqlite",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "sqlite",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/sqlite@3.34.1-11.el9_8",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "3.34.1-11.el9_8"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::systemd",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "systemd",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/systemd@252-67.0.2.el9_8.6",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "252-67.0.2.el9_8.6"
+    },
+    {
+      "alt_names": [],
+      "eco": "rpm",
+      "evidence": "package database source field",
+      "hashes": {},
+      "instances": 1,
+      "key": "rpm::util-linux",
+      "license": null,
+      "mechanism": "source-package",
+      "mechanisms": [
+        "source-package"
+      ],
+      "name": "util-linux",
+      "namespace": "ol",
+      "paths": [],
+      "purl": "pkg:rpm/ol/util-linux@2.37.4-25.0.1.el9",
+      "qualifiers": {},
+      "scope": null,
+      "tier": "secondary",
+      "version": "2.37.4-25.0.1.el9"
+    }
+  ],
+  "generated_utc": "2026-11-25T09:20:34+00:00",
+  "kind": "image",
+  "notes": [
+    "os-release: ID=ol VERSION_ID=9.8"
+  ],
+  "os": {
+    "id": "ol",
+    "pretty_name": "Oracle Linux Server 9.8",
+    "version_id": "9.8"
+  },
+  "stage": "S3",
+  "stats": {
+    "by_eco": {
+      "cargo": 43,
+      "golang": 4,
+      "pypi": 39,
+      "rpm": 142
+    },
+    "by_mechanism": {
+      "go-module-in-binary": 3,
+      "lang-pm": 20,
+      "manual-download": 1,
+      "os-pm": 117,
+      "source-package": 25,
+      "vendored-source": 19,
+      "wheel-embedded-sbom": 43
+    },
+    "by_tier": {
+      "primary": 182,
+      "secondary": 46
+    },
+    "total": 228
+  },
+  "subject": "public-mysql",
+  "target": "X-mysql"
+}

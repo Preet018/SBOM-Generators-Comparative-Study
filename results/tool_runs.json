@@ -230,6 +230,181 @@
       "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
     },
     {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/G-S1.json --no-progress --format cyclonedx,spdx --deep /t",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "dir",
+      "log": "work/logs/tools/best-cdxgen-rep1-G-S1-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 12506,
+          "components": 6,
+          "path": "work/sboms/best/cdxgen/rep1/G-S1.json",
+          "sha256": "19a648bed54c86b4a04540fb1dc771e90ce6ad3bbabd2143599a6d88a472ac32"
+        },
+        "spdx": {
+          "bytes": 26182,
+          "components": 6,
+          "path": "work/sboms/best/cdxgen/rep1/G-S1.spdx.json",
+          "sha256": "331a990cd30fe5ecf98f241fd7a37d5d6dc9fcffc647935e24655ca16fa7a362"
+        }
+      },
+      "rep": 1,
+      "seconds": 142.6,
+      "status": "ok",
+      "target": "G-S1",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/G-S2.json --no-progress --format cyclonedx,spdx --deep /t",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "file",
+      "log": "work/logs/tools/best-cdxgen-rep1-G-S2-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 2200414,
+          "components": 93,
+          "path": "work/sboms/best/cdxgen/rep1/G-S2.json",
+          "sha256": "7d233ac0b32f825bfd541d1353c9f1a3cf3bfc4432ffd4a7eaf4f544a4ad0ca2"
+        },
+        "spdx": {
+          "bytes": 2291564,
+          "components": 94,
+          "path": "work/sboms/best/cdxgen/rep1/G-S2.spdx.json",
+          "sha256": "b791a854fc459c2d23b5ee80719234f3946e86d47b3530b297656507e3a0ad91"
+        }
+      },
+      "rep": 1,
+      "seconds": 68.7,
+      "status": "ok",
+      "target": "G-S2",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/G-S3-alpine.json --no-progress -t docker --format cyclonedx,spdx --deep /img/G-S3-alpine.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-cdxgen-rep1-G-S3-alpine-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 3078367,
+          "components": 803,
+          "path": "work/sboms/best/cdxgen/rep1/G-S3-alpine.json",
+          "sha256": "4c8b78d14f0b19fab5dc5c7251f276dd31ee4006dc04a2b9628df82d55b51f8a"
+        },
+        "spdx": {
+          "bytes": 4135899,
+          "components": 303,
+          "path": "work/sboms/best/cdxgen/rep1/G-S3-alpine.spdx.json",
+          "sha256": "4414052de629d8a8a673bc44d04e07459cf46757eb604e5225d069d913091ae8"
+        }
+      },
+      "rep": 1,
+      "seconds": 113.8,
+      "status": "ok",
+      "target": "G-S3-alpine",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/G-S3-distroless.json --no-progress -t docker --format cyclonedx,spdx --deep /img/G-S3-distroless.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-cdxgen-rep1-G-S3-distroless-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 2654859,
+          "components": 604,
+          "path": "work/sboms/best/cdxgen/rep1/G-S3-distroless.json",
+          "sha256": "3bbae88afa79c6b9e3c74f2e2d3a0df12f35b3df28023b644d2f7a9233655136"
+        },
+        "spdx": {
+          "bytes": 3313209,
+          "components": 137,
+          "path": "work/sboms/best/cdxgen/rep1/G-S3-distroless.spdx.json",
+          "sha256": "efec8b7c3ccfd20f78cb3791bd242946e98701f8a152d035a135291a3f8d9db9"
+        }
+      },
+      "rep": 1,
+      "seconds": 113.4,
+      "status": "ok",
+      "target": "G-S3-distroless",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/G-S3-ubuntu.json --no-progress -t docker --format cyclonedx,spdx --deep /img/G-S3-ubuntu.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-cdxgen-rep1-G-S3-ubuntu-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 6905477,
+          "components": 5378,
+          "path": "work/sboms/best/cdxgen/rep1/G-S3-ubuntu.json",
+          "sha256": "46ab728cbcef42c2a0bee37d14a547165d7bbe6a7a320cdf7b9daccfc7798996"
+        },
+        "spdx": {
+          "bytes": 13036911,
+          "components": 440,
+          "path": "work/sboms/best/cdxgen/rep1/G-S3-ubuntu.spdx.json",
+          "sha256": "105cd5e5573d9eefef9229221df6bb707b8204d5d8d85d4476b03e781f2524b9"
+        }
+      },
+      "rep": 1,
+      "seconds": 131.7,
+      "status": "ok",
+      "target": "G-S3-ubuntu",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
       "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/J-P.json --no-progress -t docker --format cyclonedx,spdx --deep /img/J-P.tar",
       "config": "best",
       "env": [
@@ -1155,6 +1330,286 @@
       "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
     },
     {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-airflow.json --no-progress -t docker --format cyclonedx,spdx --deep /img/X-airflow.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-cdxgen-rep1-X-airflow-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 9588930,
+          "components": 10192,
+          "path": "work/sboms/best/cdxgen/rep1/X-airflow.json",
+          "sha256": "146eadad16e11fe0e2df1e58812bca5a178a55081557ff06f5f92f9bf69966af"
+        },
+        "spdx": {
+          "bytes": 22401425,
+          "components": 1522,
+          "path": "work/sboms/best/cdxgen/rep1/X-airflow.spdx.json",
+          "sha256": "3a96273655490ae606a667bb5cf5561c50503f6fdefd99ae2bd55dcea1061b37"
+        }
+      },
+      "rep": 1,
+      "seconds": 105.8,
+      "status": "ok",
+      "target": "X-airflow",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-ghost.json --no-progress -t docker --format cyclonedx,spdx --deep /img/X-ghost.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-cdxgen-rep1-X-ghost-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 466987,
+          "components": 432,
+          "path": "work/sboms/best/cdxgen/rep1/X-ghost.json",
+          "sha256": "08c88f02151e6237cebf3f5fc57e5fd63246694bf44d13f06995134995ade68d"
+        },
+        "spdx": {
+          "bytes": 1023945,
+          "components": 246,
+          "path": "work/sboms/best/cdxgen/rep1/X-ghost.spdx.json",
+          "sha256": "d90232e5af6a29448076d668e88b35637301346ee26d0bad285dd375025c3565"
+        }
+      },
+      "rep": 1,
+      "seconds": 304.7,
+      "status": "ok",
+      "target": "X-ghost",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-gitea.json --no-progress -t docker --format cyclonedx,spdx --deep /img/X-gitea.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-cdxgen-rep1-X-gitea-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 1131128,
+          "components": 1065,
+          "path": "work/sboms/best/cdxgen/rep1/X-gitea.json",
+          "sha256": "5d50e3b99c50bf0553adcce5e8dcfb7b8b3c2db9ffa99dad47ca08686e98c91f"
+        },
+        "spdx": {
+          "bytes": 2480203,
+          "components": 443,
+          "path": "work/sboms/best/cdxgen/rep1/X-gitea.spdx.json",
+          "sha256": "72f4ff77b091684b1c88c7935e3aa941cc595f487b7a4e23eabe2aeb361d3c5e"
+        }
+      },
+      "rep": 1,
+      "seconds": 13.3,
+      "status": "ok",
+      "target": "X-gitea",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-jenkins.json --no-progress -t docker --format cyclonedx,spdx --deep /img/X-jenkins.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-cdxgen-rep1-X-jenkins-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 6520773,
+          "components": 4890,
+          "path": "work/sboms/best/cdxgen/rep1/X-jenkins.json",
+          "sha256": "27481b4d823e5ab3f27aaf2fd2b7a7e51232425c9ac82a0966e96e507d4931ac"
+        },
+        "spdx": {
+          "bytes": 12185813,
+          "components": 475,
+          "path": "work/sboms/best/cdxgen/rep1/X-jenkins.spdx.json",
+          "sha256": "1de318c9e3f569bb7248fd321369351b0711ba992a393c17fe3148f30d9b0384"
+        }
+      },
+      "rep": 1,
+      "seconds": 76.7,
+      "status": "ok",
+      "target": "X-jenkins",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-keycloak.json --no-progress -t docker --format cyclonedx,spdx --deep /img/X-keycloak.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-cdxgen-rep1-X-keycloak-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 6535930,
+          "components": 1846,
+          "path": "work/sboms/best/cdxgen/rep1/X-keycloak.json",
+          "sha256": "8232ba932dcff7d488e6ea819ba4c19c8696c83970816007126ffab9f3e7475f"
+        },
+        "spdx": {
+          "bytes": 8748202,
+          "components": 545,
+          "path": "work/sboms/best/cdxgen/rep1/X-keycloak.spdx.json",
+          "sha256": "84a237652c840fa7906f8622d787532879dd7d5c06bc1954777a91ac702d7071"
+        }
+      },
+      "rep": 1,
+      "seconds": 321.0,
+      "status": "ok",
+      "target": "X-keycloak",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-mysql.json --no-progress -t docker --format cyclonedx,spdx --deep /img/X-mysql.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-cdxgen-rep1-X-mysql-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 1239098,
+          "components": 1264,
+          "path": "work/sboms/best/cdxgen/rep1/X-mysql.json",
+          "sha256": "02563be74bbd1759236550e2c5270d4a6e40378da9f452fea4f1027161b0e084"
+        },
+        "spdx": {
+          "bytes": 3028812,
+          "components": 241,
+          "path": "work/sboms/best/cdxgen/rep1/X-mysql.spdx.json",
+          "sha256": "f982a1f26c6b8b2f752fb948010bc8bf4843c46495370a227aa0468d71aa2fd3"
+        }
+      },
+      "rep": 1,
+      "seconds": 130.6,
+      "status": "ok",
+      "target": "X-mysql",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-postgres.json --no-progress -t docker --format cyclonedx,spdx --deep /img/X-postgres.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-cdxgen-rep1-X-postgres-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 5459988,
+          "components": 5948,
+          "path": "work/sboms/best/cdxgen/rep1/X-postgres.json",
+          "sha256": "fcf8f1d414dcacf810bd35428f0d77d35cb3610e26d8ee3d10209f76192f2e1d"
+        },
+        "spdx": {
+          "bytes": 12276130,
+          "components": 237,
+          "path": "work/sboms/best/cdxgen/rep1/X-postgres.spdx.json",
+          "sha256": "e724ef418b97a36029e48b85a0a2be2311c17d1c5374e710aa86b550792c1a15"
+        }
+      },
+      "rep": 1,
+      "seconds": 51.0,
+      "status": "ok",
+      "target": "X-postgres",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-prometheus.json --no-progress -t docker --format cyclonedx,spdx --deep /img/X-prometheus.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-cdxgen-rep1-X-prometheus-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 137642,
+          "components": 247,
+          "path": "work/sboms/best/cdxgen/rep1/X-prometheus.json",
+          "sha256": "be8ac2a40dbd6f03f9840bf9fafea58312edbc15cfabaee08af1603ce4bc8a32"
+        },
+        "spdx": {
+          "bytes": 328735,
+          "components": 244,
+          "path": "work/sboms/best/cdxgen/rep1/X-prometheus.spdx.json",
+          "sha256": "9f3ce5812eb82b2e75593abc1393f7706c019da5a13eeceb6b6c388ceb78b063"
+        }
+      },
+      "rep": 1,
+      "seconds": 14.9,
+      "status": "ok",
+      "target": "X-prometheus",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
       "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/C-P.tar -o cyclonedx-json=/out/C-P.json -o spdx-json=/out/C-P.spdx.json --override-default-catalogers all",
       "config": "best",
       "env": [
@@ -1391,6 +1846,206 @@
       "seconds": 2.5,
       "status": "ok",
       "target": "C-S3-scratch",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a dir:/t -o cyclonedx-json=/out/G-S1.json -o spdx-json=/out/G-S1.spdx.json --override-default-catalogers all",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1",
+        "SYFT_JAVA_RESOLVE_TRANSITIVE_DEPENDENCIES=true",
+        "SYFT_JAVA_USE_MAVEN_LOCAL_REPOSITORY=true",
+        "SYFT_JAVA_MAVEN_LOCAL_REPOSITORY_DIR=/m2/repository",
+        "SYFT_JAVASCRIPT_INCLUDE_DEV_DEPENDENCIES=true",
+        "SYFT_PYTHON_GUESS_UNPINNED_REQUIREMENTS=true"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "dir",
+      "log": "work/logs/tools/best-syft-rep1-G-S1-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 10334,
+          "components": 12,
+          "path": "work/sboms/best/syft/rep1/G-S1.json",
+          "sha256": "350d0c3b802a67e0087784207ab619a6aed821fc05e8695f902ef425b7df5dcc"
+        },
+        "spdx": {
+          "bytes": 19469,
+          "components": 9,
+          "path": "work/sboms/best/syft/rep1/G-S1.spdx.json",
+          "sha256": "95cdf41afe2ba3810f0412c11b5fbcd6b20afd26ecc6c388f220abbda3d49462"
+        }
+      },
+      "rep": 1,
+      "seconds": 6.0,
+      "status": "ok",
+      "target": "G-S1",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a file:/t/app.jar -o cyclonedx-json=/out/G-S2.json -o spdx-json=/out/G-S2.spdx.json --override-default-catalogers all",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1",
+        "SYFT_JAVA_RESOLVE_TRANSITIVE_DEPENDENCIES=true",
+        "SYFT_JAVA_USE_MAVEN_LOCAL_REPOSITORY=true",
+        "SYFT_JAVA_MAVEN_LOCAL_REPOSITORY_DIR=/m2/repository",
+        "SYFT_JAVASCRIPT_INCLUDE_DEV_DEPENDENCIES=true",
+        "SYFT_PYTHON_GUESS_UNPINNED_REQUIREMENTS=true"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "file",
+      "log": "work/logs/tools/best-syft-rep1-G-S2-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 216076,
+          "components": 94,
+          "path": "work/sboms/best/syft/rep1/G-S2.json",
+          "sha256": "a35fc67e493708aeec02121b0e07d78d1e3c57c6d79c9a6888f387e446074df5"
+        },
+        "spdx": {
+          "bytes": 320155,
+          "components": 94,
+          "path": "work/sboms/best/syft/rep1/G-S2.spdx.json",
+          "sha256": "d7cb0d8ecbbb8455ac4cfefd33618ab997ca854b1e469b7ec7a509fce2055c18"
+        }
+      },
+      "rep": 1,
+      "seconds": 8.5,
+      "status": "ok",
+      "target": "G-S2",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/G-S3-alpine.tar -o cyclonedx-json=/out/G-S3-alpine.json -o spdx-json=/out/G-S3-alpine.spdx.json --override-default-catalogers all",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1",
+        "SYFT_JAVA_RESOLVE_TRANSITIVE_DEPENDENCIES=true",
+        "SYFT_JAVA_USE_MAVEN_LOCAL_REPOSITORY=true",
+        "SYFT_JAVA_MAVEN_LOCAL_REPOSITORY_DIR=/m2/repository",
+        "SYFT_JAVASCRIPT_INCLUDE_DEV_DEPENDENCIES=true",
+        "SYFT_PYTHON_GUESS_UNPINNED_REQUIREMENTS=true"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-syft-rep1-G-S3-alpine-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 733777,
+          "components": 1388,
+          "path": "work/sboms/best/syft/rep1/G-S3-alpine.json",
+          "sha256": "75e989b0bba5a72a5fa15f11999863b6b1fe59e5f81ebd7dc00abf0b921c8001"
+        },
+        "spdx": {
+          "bytes": 1394228,
+          "components": 169,
+          "path": "work/sboms/best/syft/rep1/G-S3-alpine.spdx.json",
+          "sha256": "a56934cf22eea47c11678933c3eb58d3f5a573decbc4c7d17d114fed6035d6f3"
+        }
+      },
+      "rep": 1,
+      "seconds": 16.5,
+      "status": "ok",
+      "target": "G-S3-alpine",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/G-S3-distroless.tar -o cyclonedx-json=/out/G-S3-distroless.json -o spdx-json=/out/G-S3-distroless.spdx.json --override-default-catalogers all",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1",
+        "SYFT_JAVA_RESOLVE_TRANSITIVE_DEPENDENCIES=true",
+        "SYFT_JAVA_USE_MAVEN_LOCAL_REPOSITORY=true",
+        "SYFT_JAVA_MAVEN_LOCAL_REPOSITORY_DIR=/m2/repository",
+        "SYFT_JAVASCRIPT_INCLUDE_DEV_DEPENDENCIES=true",
+        "SYFT_PYTHON_GUESS_UNPINNED_REQUIREMENTS=true"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-syft-rep1-G-S3-distroless-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 702723,
+          "components": 1661,
+          "path": "work/sboms/best/syft/rep1/G-S3-distroless.json",
+          "sha256": "3ba368a7f3eae36625f5d749a91fffbd83dc4fbe9b13ad10a231af9aa030475c"
+        },
+        "spdx": {
+          "bytes": 1540988,
+          "components": 120,
+          "path": "work/sboms/best/syft/rep1/G-S3-distroless.spdx.json",
+          "sha256": "9ef45fd77fc6317f1ab8f4326b29770e1c1b85faced192aac54c29be4e034bba"
+        }
+      },
+      "rep": 1,
+      "seconds": 20.5,
+      "status": "ok",
+      "target": "G-S3-distroless",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/G-S3-ubuntu.tar -o cyclonedx-json=/out/G-S3-ubuntu.json -o spdx-json=/out/G-S3-ubuntu.spdx.json --override-default-catalogers all",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1",
+        "SYFT_JAVA_RESOLVE_TRANSITIVE_DEPENDENCIES=true",
+        "SYFT_JAVA_USE_MAVEN_LOCAL_REPOSITORY=true",
+        "SYFT_JAVA_MAVEN_LOCAL_REPOSITORY_DIR=/m2/repository",
+        "SYFT_JAVASCRIPT_INCLUDE_DEV_DEPENDENCIES=true",
+        "SYFT_PYTHON_GUESS_UNPINNED_REQUIREMENTS=true"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-syft-rep1-G-S3-ubuntu-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 2516696,
+          "components": 7272,
+          "path": "work/sboms/best/syft/rep1/G-S3-ubuntu.json",
+          "sha256": "c91a18e91b5c0e31aac8945df56908a73bd8947ffebd51aaa06a6f3834340580"
+        },
+        "spdx": {
+          "bytes": 6002783,
+          "components": 247,
+          "path": "work/sboms/best/syft/rep1/G-S3-ubuntu.spdx.json",
+          "sha256": "38cfe71158be728dd6dd2974c04244c10fda4dc134c500e26467a727975dcf74"
+        }
+      },
+      "rep": 1,
+      "seconds": 19.6,
+      "status": "ok",
+      "target": "G-S3-ubuntu",
       "tool": "syft",
       "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
     },
@@ -2435,6 +3090,326 @@
       "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
     },
     {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-airflow.tar -o cyclonedx-json=/out/X-airflow.json -o spdx-json=/out/X-airflow.spdx.json --override-default-catalogers all",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1",
+        "SYFT_JAVA_RESOLVE_TRANSITIVE_DEPENDENCIES=true",
+        "SYFT_JAVA_USE_MAVEN_LOCAL_REPOSITORY=true",
+        "SYFT_JAVA_MAVEN_LOCAL_REPOSITORY_DIR=/m2/repository",
+        "SYFT_JAVASCRIPT_INCLUDE_DEV_DEPENDENCIES=true",
+        "SYFT_PYTHON_GUESS_UNPINNED_REQUIREMENTS=true"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-syft-rep1-X-airflow-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 8419472,
+          "components": 15573,
+          "path": "work/sboms/best/syft/rep1/X-airflow.json",
+          "sha256": "6fe79d5a6daf62e632d313090eafab0fe23f578df100cfafed2d2e1ceffcdcd2"
+        },
+        "spdx": {
+          "bytes": 18057690,
+          "components": 2843,
+          "path": "work/sboms/best/syft/rep1/X-airflow.spdx.json",
+          "sha256": "80fe861aa705636c63b66931799a6880ce7b2d66a006bd65c599dcda64485b25"
+        }
+      },
+      "rep": 1,
+      "seconds": 24.6,
+      "status": "ok",
+      "target": "X-airflow",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-ghost.tar -o cyclonedx-json=/out/X-ghost.json -o spdx-json=/out/X-ghost.spdx.json --override-default-catalogers all",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1",
+        "SYFT_JAVA_RESOLVE_TRANSITIVE_DEPENDENCIES=true",
+        "SYFT_JAVA_USE_MAVEN_LOCAL_REPOSITORY=true",
+        "SYFT_JAVA_MAVEN_LOCAL_REPOSITORY_DIR=/m2/repository",
+        "SYFT_JAVASCRIPT_INCLUDE_DEV_DEPENDENCIES=true",
+        "SYFT_PYTHON_GUESS_UNPINNED_REQUIREMENTS=true"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-syft-rep1-X-ghost-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 4942679,
+          "components": 4811,
+          "path": "work/sboms/best/syft/rep1/X-ghost.json",
+          "sha256": "f2765a409ff426cf9d1a9cbfe808ee6e7f3bb0c8bea9b75819a3b22d44dcc9b3"
+        },
+        "spdx": {
+          "bytes": 7963077,
+          "components": 3116,
+          "path": "work/sboms/best/syft/rep1/X-ghost.spdx.json",
+          "sha256": "4331a55ae90bb009f4521e50bc2ff461716ebb3f8708ada1c0c2bce1cf3a12fc"
+        }
+      },
+      "rep": 1,
+      "seconds": 43.1,
+      "status": "ok",
+      "target": "X-ghost",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-gitea.tar -o cyclonedx-json=/out/X-gitea.json -o spdx-json=/out/X-gitea.spdx.json --override-default-catalogers all",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1",
+        "SYFT_JAVA_RESOLVE_TRANSITIVE_DEPENDENCIES=true",
+        "SYFT_JAVA_USE_MAVEN_LOCAL_REPOSITORY=true",
+        "SYFT_JAVA_MAVEN_LOCAL_REPOSITORY_DIR=/m2/repository",
+        "SYFT_JAVASCRIPT_INCLUDE_DEV_DEPENDENCIES=true",
+        "SYFT_PYTHON_GUESS_UNPINNED_REQUIREMENTS=true"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-syft-rep1-X-gitea-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 630805,
+          "components": 941,
+          "path": "work/sboms/best/syft/rep1/X-gitea.json",
+          "sha256": "9b2e8bb3393baedb463fd5cc7218ab9fbb017067cc34b8cc8b6d56121d19201f"
+        },
+        "spdx": {
+          "bytes": 1011575,
+          "components": 307,
+          "path": "work/sboms/best/syft/rep1/X-gitea.spdx.json",
+          "sha256": "8166dd591c39be2989fc2a70ef706d51274317b576aa7815eec5e47a8faa106c"
+        }
+      },
+      "rep": 1,
+      "seconds": 10.7,
+      "status": "ok",
+      "target": "X-gitea",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-jenkins.tar -o cyclonedx-json=/out/X-jenkins.json -o spdx-json=/out/X-jenkins.spdx.json --override-default-catalogers all",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1",
+        "SYFT_JAVA_RESOLVE_TRANSITIVE_DEPENDENCIES=true",
+        "SYFT_JAVA_USE_MAVEN_LOCAL_REPOSITORY=true",
+        "SYFT_JAVA_MAVEN_LOCAL_REPOSITORY_DIR=/m2/repository",
+        "SYFT_JAVASCRIPT_INCLUDE_DEV_DEPENDENCIES=true",
+        "SYFT_PYTHON_GUESS_UNPINNED_REQUIREMENTS=true"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-syft-rep1-X-jenkins-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 2970143,
+          "components": 8497,
+          "path": "work/sboms/best/syft/rep1/X-jenkins.json",
+          "sha256": "488a9434b677751765ebf8d550f7c9839985665cf6b05e0d2ea95e20c3a4dc66"
+        },
+        "spdx": {
+          "bytes": 7055484,
+          "components": 319,
+          "path": "work/sboms/best/syft/rep1/X-jenkins.spdx.json",
+          "sha256": "69e6812c3e58837b09176725c53e1c13d4a8a58159648fde4d898dcbbf8b9dd1"
+        }
+      },
+      "rep": 1,
+      "seconds": 19.8,
+      "status": "ok",
+      "target": "X-jenkins",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-keycloak.tar -o cyclonedx-json=/out/X-keycloak.json -o spdx-json=/out/X-keycloak.spdx.json --override-default-catalogers all",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1",
+        "SYFT_JAVA_RESOLVE_TRANSITIVE_DEPENDENCIES=true",
+        "SYFT_JAVA_USE_MAVEN_LOCAL_REPOSITORY=true",
+        "SYFT_JAVA_MAVEN_LOCAL_REPOSITORY_DIR=/m2/repository",
+        "SYFT_JAVASCRIPT_INCLUDE_DEV_DEPENDENCIES=true",
+        "SYFT_PYTHON_GUESS_UNPINNED_REQUIREMENTS=true"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-syft-rep1-X-keycloak-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 2743562,
+          "components": 4571,
+          "path": "work/sboms/best/syft/rep1/X-keycloak.json",
+          "sha256": "76f09b8a46b61116ccd91eb58e8e2e0a17fc3497996a3443daefad1942e5e78e"
+        },
+        "spdx": {
+          "bytes": 5197238,
+          "components": 562,
+          "path": "work/sboms/best/syft/rep1/X-keycloak.spdx.json",
+          "sha256": "f8a9953849dcf2e2209e390c14738c60358ab41dfdb93583362af0c2492eac8c"
+        }
+      },
+      "rep": 1,
+      "seconds": 28.1,
+      "status": "ok",
+      "target": "X-keycloak",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-mysql.tar -o cyclonedx-json=/out/X-mysql.json -o spdx-json=/out/X-mysql.spdx.json --override-default-catalogers all",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1",
+        "SYFT_JAVA_RESOLVE_TRANSITIVE_DEPENDENCIES=true",
+        "SYFT_JAVA_USE_MAVEN_LOCAL_REPOSITORY=true",
+        "SYFT_JAVA_MAVEN_LOCAL_REPOSITORY_DIR=/m2/repository",
+        "SYFT_JAVASCRIPT_INCLUDE_DEV_DEPENDENCIES=true",
+        "SYFT_PYTHON_GUESS_UNPINNED_REQUIREMENTS=true"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-syft-rep1-X-mysql-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 7578964,
+          "components": 23143,
+          "path": "work/sboms/best/syft/rep1/X-mysql.json",
+          "sha256": "833bd9b3515bbe86212719c317a1a9d81d9fec98b55198f80755f738812d6165"
+        },
+        "spdx": {
+          "bytes": 18512708,
+          "components": 142,
+          "path": "work/sboms/best/syft/rep1/X-mysql.spdx.json",
+          "sha256": "285ab2f34ab0ae8cd735d7bea6c1da8f728184b0a4fab246d55dd2cf9323cf64"
+        }
+      },
+      "rep": 1,
+      "seconds": 30.7,
+      "status": "ok",
+      "target": "X-mysql",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-postgres.tar -o cyclonedx-json=/out/X-postgres.json -o spdx-json=/out/X-postgres.spdx.json --override-default-catalogers all",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1",
+        "SYFT_JAVA_RESOLVE_TRANSITIVE_DEPENDENCIES=true",
+        "SYFT_JAVA_USE_MAVEN_LOCAL_REPOSITORY=true",
+        "SYFT_JAVA_MAVEN_LOCAL_REPOSITORY_DIR=/m2/repository",
+        "SYFT_JAVASCRIPT_INCLUDE_DEV_DEPENDENCIES=true",
+        "SYFT_PYTHON_GUESS_UNPINNED_REQUIREMENTS=true"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-syft-rep1-X-postgres-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 2539755,
+          "components": 7956,
+          "path": "work/sboms/best/syft/rep1/X-postgres.json",
+          "sha256": "3f71ca05317209d6f00ed2eba0b19abf1dcd9a729ef6d9da5f4ac436c3c211ed"
+        },
+        "spdx": {
+          "bytes": 6312139,
+          "components": 150,
+          "path": "work/sboms/best/syft/rep1/X-postgres.spdx.json",
+          "sha256": "d8191be7b585041e22544cfa0bbc76f7b5b403c7e06abb63c9b6ac1e4544a581"
+        }
+      },
+      "rep": 1,
+      "seconds": 26.0,
+      "status": "ok",
+      "target": "X-postgres",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-prometheus.tar -o cyclonedx-json=/out/X-prometheus.json -o spdx-json=/out/X-prometheus.spdx.json --override-default-catalogers all",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1",
+        "SYFT_JAVA_RESOLVE_TRANSITIVE_DEPENDENCIES=true",
+        "SYFT_JAVA_USE_MAVEN_LOCAL_REPOSITORY=true",
+        "SYFT_JAVA_MAVEN_LOCAL_REPOSITORY_DIR=/m2/repository",
+        "SYFT_JAVASCRIPT_INCLUDE_DEV_DEPENDENCIES=true",
+        "SYFT_PYTHON_GUESS_UNPINNED_REQUIREMENTS=true"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-syft-rep1-X-prometheus-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 546055,
+          "components": 446,
+          "path": "work/sboms/best/syft/rep1/X-prometheus.json",
+          "sha256": "0e7ebf4a61bdaa31959556ee277be1868b3f294f6e2a9fc8e58fd4b0a01b29f0"
+        },
+        "spdx": {
+          "bytes": 932904,
+          "components": 443,
+          "path": "work/sboms/best/syft/rep1/X-prometheus.spdx.json",
+          "sha256": "0be1178e5c380586cc79c582cc7ba2a91babe32e6e7b7cd0c49ced800a891a45"
+        }
+      },
+      "rep": 1,
+      "seconds": 12.1,
+      "status": "ok",
+      "target": "X-prometheus",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
       "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/C-P.json --detection-priority comprehensive --input /img/C-P.tar",
       "config": "best",
       "exit_code": 0,
@@ -2719,6 +3694,286 @@
       "seconds": 1.1,
       "status": "ok",
       "target": "C-S3-scratch",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb fs --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/G-S1.json --detection-priority comprehensive --include-dev-deps /t",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "dir",
+      "log": "work/logs/tools/best-trivy-rep1-G-S1-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 972,
+          "components": 0,
+          "path": "work/sboms/best/trivy/rep1/G-S1.json",
+          "sha256": "e9c56dc3bebb9427c81ab48310d53d42774af0fd4b85fdbdc10eb2c5b2a5a8e0"
+        }
+      },
+      "rep": 1,
+      "seconds": 2.3,
+      "status": "ok",
+      "target": "G-S1",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb fs --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/G-S1.spdx.json --detection-priority comprehensive --include-dev-deps /t",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "dir",
+      "log": "work/logs/tools/best-trivy-rep1-G-S1-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 1057,
+          "components": 1,
+          "path": "work/sboms/best/trivy/rep1/G-S1.spdx.json",
+          "sha256": "a93ab1a170c5c229e0bd36cc87e9c0a9763fb7197f9ea9d7c6979e4eeb296375"
+        }
+      },
+      "rep": 1,
+      "seconds": 2.1,
+      "status": "ok",
+      "target": "G-S1",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb rootfs --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/G-S2.json --detection-priority comprehensive /t/app.jar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "file",
+      "log": "work/logs/tools/best-trivy-rep1-G-S2-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 92186,
+          "components": 93,
+          "path": "work/sboms/best/trivy/rep1/G-S2.json",
+          "sha256": "54b01883abb8fa72fdce5a2ef04a28327c222cff428798f3018c2a31f051014a"
+        }
+      },
+      "rep": 1,
+      "seconds": 5.1,
+      "status": "ok",
+      "target": "G-S2",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb rootfs --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/G-S2.spdx.json --detection-priority comprehensive /t/app.jar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "file",
+      "log": "work/logs/tools/best-trivy-rep1-G-S2-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 150475,
+          "components": 94,
+          "path": "work/sboms/best/trivy/rep1/G-S2.spdx.json",
+          "sha256": "d0f02dba87b9445eacc01a2ed2de9229b0b7684ed25ab44efab3b0a1ef2e9fb0"
+        }
+      },
+      "rep": 1,
+      "seconds": 5.0,
+      "status": "ok",
+      "target": "G-S2",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/G-S3-alpine.json --detection-priority comprehensive --input /img/G-S3-alpine.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-G-S3-alpine-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 250106,
+          "components": 167,
+          "path": "work/sboms/best/trivy/rep1/G-S3-alpine.json",
+          "sha256": "ff5ebf800213980b1f4346bf0785cdfab60362bfb32cce03205dabee451f2b4e"
+        }
+      },
+      "rep": 1,
+      "seconds": 38.9,
+      "status": "ok",
+      "target": "G-S3-alpine",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/G-S3-alpine.spdx.json --detection-priority comprehensive --input /img/G-S3-alpine.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-G-S3-alpine-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 374704,
+          "components": 168,
+          "path": "work/sboms/best/trivy/rep1/G-S3-alpine.spdx.json",
+          "sha256": "8b7b46baf7b3146215698a964d84395ce626939205abc1ab771a6d44da27c71d"
+        }
+      },
+      "rep": 1,
+      "seconds": 16.3,
+      "status": "ok",
+      "target": "G-S3-alpine",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/G-S3-distroless.json --detection-priority comprehensive --input /img/G-S3-distroless.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-G-S3-distroless-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 179108,
+          "components": 119,
+          "path": "work/sboms/best/trivy/rep1/G-S3-distroless.json",
+          "sha256": "7fb893b6b6c61a956612eb27d2fcb38f502137f5b339ad910e1b2f94929ae60e"
+        }
+      },
+      "rep": 1,
+      "seconds": 145.3,
+      "status": "ok",
+      "target": "G-S3-distroless",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/G-S3-distroless.spdx.json --detection-priority comprehensive --input /img/G-S3-distroless.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-G-S3-distroless-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 267164,
+          "components": 120,
+          "path": "work/sboms/best/trivy/rep1/G-S3-distroless.spdx.json",
+          "sha256": "128ba80f0bd5216ace511a9b720981e707f796c842c99fdef10160d72a5d3763"
+        }
+      },
+      "rep": 1,
+      "seconds": 11.4,
+      "status": "ok",
+      "target": "G-S3-distroless",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/G-S3-ubuntu.json --detection-priority comprehensive --input /img/G-S3-ubuntu.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-G-S3-ubuntu-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 468692,
+          "components": 246,
+          "path": "work/sboms/best/trivy/rep1/G-S3-ubuntu.json",
+          "sha256": "2fe2b5386201d4fde61111c616c165e252d372a5fa52438e649af71981b1937d"
+        }
+      },
+      "rep": 1,
+      "seconds": 56.7,
+      "status": "ok",
+      "target": "G-S3-ubuntu",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/G-S3-ubuntu.spdx.json --detection-priority comprehensive --input /img/G-S3-ubuntu.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-G-S3-ubuntu-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 589917,
+          "components": 247,
+          "path": "work/sboms/best/trivy/rep1/G-S3-ubuntu.spdx.json",
+          "sha256": "160393dc9a074dc9566de5ee2584f39b04d5584c5b32c5df4ad1f1a08eb77b47"
+        }
+      },
+      "rep": 1,
+      "seconds": 19.4,
+      "status": "ok",
+      "target": "G-S3-ubuntu",
       "tool": "trivy",
       "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
     },
@@ -3971,6 +5226,454 @@
       "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
     },
     {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-airflow.json --detection-priority comprehensive --input /img/X-airflow.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-X-airflow-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 3384202,
+          "components": 2847,
+          "path": "work/sboms/best/trivy/rep1/X-airflow.json",
+          "sha256": "24dca26439dc3fb864d8107841154913a8bb521d7bcc16a9918eabeb2dba6a90"
+        }
+      },
+      "rep": 1,
+      "seconds": 118.7,
+      "status": "ok",
+      "target": "X-airflow",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/X-airflow.spdx.json --detection-priority comprehensive --input /img/X-airflow.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-X-airflow-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 6924394,
+          "components": 2848,
+          "path": "work/sboms/best/trivy/rep1/X-airflow.spdx.json",
+          "sha256": "c1263b6660971d3659e306f24a95892ced4d72afcd63fc3f03a39db3e409fa50"
+        }
+      },
+      "rep": 1,
+      "seconds": 26.5,
+      "status": "ok",
+      "target": "X-airflow",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-ghost.json --detection-priority comprehensive --input /img/X-ghost.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-X-ghost-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 678233,
+          "components": 518,
+          "path": "work/sboms/best/trivy/rep1/X-ghost.json",
+          "sha256": "59f466c62882d1a5ae1a354f15fc4dfa80bfd3b6d06cc3bde8406431cb55ce62"
+        }
+      },
+      "rep": 1,
+      "seconds": 55.2,
+      "status": "ok",
+      "target": "X-ghost",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/X-ghost.spdx.json --detection-priority comprehensive --input /img/X-ghost.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-X-ghost-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 1187524,
+          "components": 519,
+          "path": "work/sboms/best/trivy/rep1/X-ghost.spdx.json",
+          "sha256": "dd7b193b95495a80c1622565597638d14dea50da59e7cf09938348a921049ce8"
+        }
+      },
+      "rep": 1,
+      "seconds": 19.6,
+      "status": "ok",
+      "target": "X-ghost",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-gitea.json --detection-priority comprehensive --input /img/X-gitea.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-X-gitea-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 372240,
+          "components": 308,
+          "path": "work/sboms/best/trivy/rep1/X-gitea.json",
+          "sha256": "f376cb55c60c4f277740a5d1bd0d5ff5c31b9eab84e37ae9fe93132c2a9e06a3"
+        }
+      },
+      "rep": 1,
+      "seconds": 15.6,
+      "status": "ok",
+      "target": "X-gitea",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/X-gitea.spdx.json --detection-priority comprehensive --input /img/X-gitea.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-X-gitea-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 603280,
+          "components": 309,
+          "path": "work/sboms/best/trivy/rep1/X-gitea.spdx.json",
+          "sha256": "7c7ef8eb47a0fe59f8efc4c8bac469c27727c444669207c1bb52f30e42bebda8"
+        }
+      },
+      "rep": 1,
+      "seconds": 8.7,
+      "status": "ok",
+      "target": "X-gitea",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-jenkins.json --detection-priority comprehensive --input /img/X-jenkins.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-X-jenkins-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 527315,
+          "components": 318,
+          "path": "work/sboms/best/trivy/rep1/X-jenkins.json",
+          "sha256": "68b765b37f6e1364cf3be130819d4f39d69956b4a5f65128e04ec898c0b4c72d"
+        }
+      },
+      "rep": 1,
+      "seconds": 133.4,
+      "status": "ok",
+      "target": "X-jenkins",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/X-jenkins.spdx.json --detection-priority comprehensive --input /img/X-jenkins.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-X-jenkins-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 729100,
+          "components": 319,
+          "path": "work/sboms/best/trivy/rep1/X-jenkins.spdx.json",
+          "sha256": "0a66676331a1c6e75fc63d4b32d309cfaaa4efb8b023c4720e58f6ec8d2a342c"
+        }
+      },
+      "rep": 1,
+      "seconds": 25.9,
+      "status": "ok",
+      "target": "X-jenkins",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-keycloak.json --detection-priority comprehensive --input /img/X-keycloak.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-X-keycloak-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 769872,
+          "components": 560,
+          "path": "work/sboms/best/trivy/rep1/X-keycloak.json",
+          "sha256": "400b4e8ebdc5e580fca6780fd58f04ade18ae8e7757af93de56642df066b8527"
+        }
+      },
+      "rep": 1,
+      "seconds": 67.1,
+      "status": "ok",
+      "target": "X-keycloak",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/X-keycloak.spdx.json --detection-priority comprehensive --input /img/X-keycloak.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-X-keycloak-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 1301896,
+          "components": 561,
+          "path": "work/sboms/best/trivy/rep1/X-keycloak.spdx.json",
+          "sha256": "96b7bceb88390a4a0bfc6984ede39da5024f33d8fea7bd5a218605b71ff7e9b9"
+        }
+      },
+      "rep": 1,
+      "seconds": 27.1,
+      "status": "ok",
+      "target": "X-keycloak",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-mysql.json --detection-priority comprehensive --input /img/X-mysql.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-X-mysql-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 250913,
+          "components": 143,
+          "path": "work/sboms/best/trivy/rep1/X-mysql.json",
+          "sha256": "3c0ead6a427b627aae1e6e92d852b6c795fe93649b5b0195893830c88577b5d2"
+        }
+      },
+      "rep": 1,
+      "seconds": 68.8,
+      "status": "ok",
+      "target": "X-mysql",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/X-mysql.spdx.json --detection-priority comprehensive --input /img/X-mysql.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-X-mysql-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 339547,
+          "components": 144,
+          "path": "work/sboms/best/trivy/rep1/X-mysql.spdx.json",
+          "sha256": "cb047ce9d7e66817da45a386883b3d5f58068e2b4521ec697e1a262fd673e811"
+        }
+      },
+      "rep": 1,
+      "seconds": 25.2,
+      "status": "ok",
+      "target": "X-mysql",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-postgres.json --detection-priority comprehensive --input /img/X-postgres.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-X-postgres-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 347498,
+          "components": 151,
+          "path": "work/sboms/best/trivy/rep1/X-postgres.json",
+          "sha256": "3367456e0a6b2f630c38cee14c4371fa8995104595d97f519a89f07a9412279d"
+        }
+      },
+      "rep": 1,
+      "seconds": 103.9,
+      "status": "ok",
+      "target": "X-postgres",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/X-postgres.spdx.json --detection-priority comprehensive --input /img/X-postgres.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-X-postgres-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 393665,
+          "components": 152,
+          "path": "work/sboms/best/trivy/rep1/X-postgres.spdx.json",
+          "sha256": "2743de1f0c056c182766015fd7e0f42700c3d63c03b962bf30e8afa8eeba5a12"
+        }
+      },
+      "rep": 1,
+      "seconds": 22.0,
+      "status": "ok",
+      "target": "X-postgres",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-prometheus.json --detection-priority comprehensive --input /img/X-prometheus.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-X-prometheus-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 437534,
+          "components": 443,
+          "path": "work/sboms/best/trivy/rep1/X-prometheus.json",
+          "sha256": "6f7f572c590e8f372943d6203e492170941233a308931094b985145717a8b60a"
+        }
+      },
+      "rep": 1,
+      "seconds": 48.9,
+      "status": "ok",
+      "target": "X-prometheus",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/X-prometheus.spdx.json --detection-priority comprehensive --input /img/X-prometheus.tar",
+      "config": "best",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/best-trivy-rep1-X-prometheus-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 803996,
+          "components": 444,
+          "path": "work/sboms/best/trivy/rep1/X-prometheus.spdx.json",
+          "sha256": "259bb161e8b064688a6c26bf06e5e7e12d49ddd833a379744cb9f11e62b0d320"
+        }
+      },
+      "rep": 1,
+      "seconds": 16.0,
+      "status": "ok",
+      "target": "X-prometheus",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
       "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/C-P.json --no-progress -t docker --format cyclonedx,spdx /img/C-P.tar",
       "config": "default",
       "exit_code": 0,
@@ -4183,6 +5886,181 @@
       "seconds": 6.0,
       "status": "ok",
       "target": "C-S3-scratch",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/G-S1.json --no-progress --format cyclonedx,spdx /t",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "dir",
+      "log": "work/logs/tools/default-cdxgen-rep1-G-S1-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 12506,
+          "components": 6,
+          "path": "work/sboms/default/cdxgen/rep1/G-S1.json",
+          "sha256": "946f9bcb79d78c4904be23724d68f756616104a8ddea78e3b2d04617df43a40a"
+        },
+        "spdx": {
+          "bytes": 26182,
+          "components": 6,
+          "path": "work/sboms/default/cdxgen/rep1/G-S1.spdx.json",
+          "sha256": "27854a2bc375fb28a6cc2312b95f98a53a36480410e2d9a5c0dc3d07d2694cf7"
+        }
+      },
+      "rep": 1,
+      "seconds": 128.2,
+      "status": "ok",
+      "target": "G-S1",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/G-S2.json --no-progress --format cyclonedx,spdx /t",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "file",
+      "log": "work/logs/tools/default-cdxgen-rep1-G-S2-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 2200413,
+          "components": 93,
+          "path": "work/sboms/default/cdxgen/rep1/G-S2.json",
+          "sha256": "ae80f316a1be5c65cce881446455af23cd574dd7296019d2351ffade3d98c26b"
+        },
+        "spdx": {
+          "bytes": 2291564,
+          "components": 94,
+          "path": "work/sboms/default/cdxgen/rep1/G-S2.spdx.json",
+          "sha256": "cbfa5f77b151f1870ab4a72d3f164984ea87d55ea4864e504be9bf8285322a62"
+        }
+      },
+      "rep": 1,
+      "seconds": 60.5,
+      "status": "ok",
+      "target": "G-S2",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/G-S3-alpine.json --no-progress -t docker --format cyclonedx,spdx /img/G-S3-alpine.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep1-G-S3-alpine-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 3078366,
+          "components": 803,
+          "path": "work/sboms/default/cdxgen/rep1/G-S3-alpine.json",
+          "sha256": "bf3ec21d46bf744e4ed052e368d59bdcdafe57b1ed1a58c1ce639e4d0fd388da"
+        },
+        "spdx": {
+          "bytes": 4135899,
+          "components": 303,
+          "path": "work/sboms/default/cdxgen/rep1/G-S3-alpine.spdx.json",
+          "sha256": "5c1253b4a5cada411df0db867e02dc7b66d571fea88f454638452b6d887e6d81"
+        }
+      },
+      "rep": 1,
+      "seconds": 130.3,
+      "status": "ok",
+      "target": "G-S3-alpine",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/G-S3-distroless.json --no-progress -t docker --format cyclonedx,spdx /img/G-S3-distroless.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep1-G-S3-distroless-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 2654858,
+          "components": 604,
+          "path": "work/sboms/default/cdxgen/rep1/G-S3-distroless.json",
+          "sha256": "12565310b15690d6bac25cd50eedff9458f9ce58d7c3866244ae4fc8a1100f72"
+        },
+        "spdx": {
+          "bytes": 3313209,
+          "components": 137,
+          "path": "work/sboms/default/cdxgen/rep1/G-S3-distroless.spdx.json",
+          "sha256": "dec6f3e773c3c24ded1af8365b1b926e3f90eafe10d2b3f817484fded2d76c93"
+        }
+      },
+      "rep": 1,
+      "seconds": 121.3,
+      "status": "ok",
+      "target": "G-S3-distroless",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/G-S3-ubuntu.json --no-progress -t docker --format cyclonedx,spdx /img/G-S3-ubuntu.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep1-G-S3-ubuntu-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 6905476,
+          "components": 5378,
+          "path": "work/sboms/default/cdxgen/rep1/G-S3-ubuntu.json",
+          "sha256": "c429968622786583e467d07e2ca3ca1be4a9b76bef91e79e294b0b06baf5bfdb"
+        },
+        "spdx": {
+          "bytes": 13036911,
+          "components": 440,
+          "path": "work/sboms/default/cdxgen/rep1/G-S3-ubuntu.spdx.json",
+          "sha256": "57d55fbaa32fffb4af6126d7c8f45242a538274bfd5c81e41be8224ec61a10b1"
+        }
+      },
+      "rep": 1,
+      "seconds": 160.4,
+      "status": "ok",
+      "target": "G-S3-ubuntu",
       "tool": "cdxgen",
       "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
     },
@@ -5010,6 +6888,286 @@
       "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
     },
     {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-airflow.json --no-progress -t docker --format cyclonedx,spdx /img/X-airflow.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep1-X-airflow-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 9588930,
+          "components": 10192,
+          "path": "work/sboms/default/cdxgen/rep1/X-airflow.json",
+          "sha256": "5d287d624eec444d2904c2f34bb76e438268bd95c4d8f63ef944879e577c0bbd"
+        },
+        "spdx": {
+          "bytes": 22401425,
+          "components": 1522,
+          "path": "work/sboms/default/cdxgen/rep1/X-airflow.spdx.json",
+          "sha256": "31c8d64552daa4a3b8dfea1540174ab98d3cbf36e4cd7a8afb2d69695ea7800b"
+        }
+      },
+      "rep": 1,
+      "seconds": 99.9,
+      "status": "ok",
+      "target": "X-airflow",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-ghost.json --no-progress -t docker --format cyclonedx,spdx /img/X-ghost.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep1-X-ghost-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 466987,
+          "components": 432,
+          "path": "work/sboms/default/cdxgen/rep1/X-ghost.json",
+          "sha256": "bcfd67eb822a843d619b6637b5eb8b0141b68f653d6fcbd342fa7eb87a03dda9"
+        },
+        "spdx": {
+          "bytes": 1023945,
+          "components": 246,
+          "path": "work/sboms/default/cdxgen/rep1/X-ghost.spdx.json",
+          "sha256": "bc98d87429fcaafe8de246033e041a6ef4317fb42e8559baa4ded4d7519b58db"
+        }
+      },
+      "rep": 1,
+      "seconds": 299.0,
+      "status": "ok",
+      "target": "X-ghost",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-gitea.json --no-progress -t docker --format cyclonedx,spdx /img/X-gitea.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep1-X-gitea-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 1131128,
+          "components": 1065,
+          "path": "work/sboms/default/cdxgen/rep1/X-gitea.json",
+          "sha256": "4a2366b138b889ab1193b8154baaba23232d2cc05cac7aa25c12d56c79d25202"
+        },
+        "spdx": {
+          "bytes": 2480203,
+          "components": 443,
+          "path": "work/sboms/default/cdxgen/rep1/X-gitea.spdx.json",
+          "sha256": "c8c06b736fbba3931578d0d11c94be23c2d9a9ef044c8d7d7b860afe603ac985"
+        }
+      },
+      "rep": 1,
+      "seconds": 12.7,
+      "status": "ok",
+      "target": "X-gitea",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-jenkins.json --no-progress -t docker --format cyclonedx,spdx /img/X-jenkins.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep1-X-jenkins-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 6520772,
+          "components": 4890,
+          "path": "work/sboms/default/cdxgen/rep1/X-jenkins.json",
+          "sha256": "e18a614d6ab466c2e48deab8e64a39469581e47098258b9865c506bca5ad1e0e"
+        },
+        "spdx": {
+          "bytes": 12185813,
+          "components": 475,
+          "path": "work/sboms/default/cdxgen/rep1/X-jenkins.spdx.json",
+          "sha256": "f61b116d0a73f3654addd6dd6660e87d406eb12371ae0da814a2a0fd5dec36f6"
+        }
+      },
+      "rep": 1,
+      "seconds": 85.7,
+      "status": "ok",
+      "target": "X-jenkins",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-keycloak.json --no-progress -t docker --format cyclonedx,spdx /img/X-keycloak.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep1-X-keycloak-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 6535929,
+          "components": 1846,
+          "path": "work/sboms/default/cdxgen/rep1/X-keycloak.json",
+          "sha256": "37dcab534110edf7c81ae1e837ec36bd35319f885087a820dd45a2ae70eb2c77"
+        },
+        "spdx": {
+          "bytes": 8748202,
+          "components": 545,
+          "path": "work/sboms/default/cdxgen/rep1/X-keycloak.spdx.json",
+          "sha256": "09448fe7145d524054a74c8dba80b528ae65952eedb8d5fe6c454ad7d6b4d3eb"
+        }
+      },
+      "rep": 1,
+      "seconds": 350.1,
+      "status": "ok",
+      "target": "X-keycloak",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-mysql.json --no-progress -t docker --format cyclonedx,spdx /img/X-mysql.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep1-X-mysql-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 1239098,
+          "components": 1264,
+          "path": "work/sboms/default/cdxgen/rep1/X-mysql.json",
+          "sha256": "b97638da6865f5ae8578995574360aa0ece7b15349a2419c6c4494b6dbeaba20"
+        },
+        "spdx": {
+          "bytes": 3028812,
+          "components": 241,
+          "path": "work/sboms/default/cdxgen/rep1/X-mysql.spdx.json",
+          "sha256": "ae7788d32c46424a29b0c3c6b327f10fe2c981fe3e8797907efc69e04c2f43a9"
+        }
+      },
+      "rep": 1,
+      "seconds": 128.9,
+      "status": "ok",
+      "target": "X-mysql",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-postgres.json --no-progress -t docker --format cyclonedx,spdx /img/X-postgres.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep1-X-postgres-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 5459988,
+          "components": 5948,
+          "path": "work/sboms/default/cdxgen/rep1/X-postgres.json",
+          "sha256": "be6283a1149bd162479546d93b7bdcfaedf1c5787670397939fef9f208938a33"
+        },
+        "spdx": {
+          "bytes": 12276130,
+          "components": 237,
+          "path": "work/sboms/default/cdxgen/rep1/X-postgres.spdx.json",
+          "sha256": "cdb90109c670c9969c12107c8b40f345a8abdb376796f00a0fabf5a2d6d77aea"
+        }
+      },
+      "rep": 1,
+      "seconds": 51.2,
+      "status": "ok",
+      "target": "X-postgres",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-prometheus.json --no-progress -t docker --format cyclonedx,spdx /img/X-prometheus.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep1-X-prometheus-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 137642,
+          "components": 247,
+          "path": "work/sboms/default/cdxgen/rep1/X-prometheus.json",
+          "sha256": "e423dd0c1925a7128b5aa6df437aafef9361172a4e90f8296c9d63149bb3d761"
+        },
+        "spdx": {
+          "bytes": 328735,
+          "components": 244,
+          "path": "work/sboms/default/cdxgen/rep1/X-prometheus.spdx.json",
+          "sha256": "fd8029262aeb2c7ba06481c1dc6ec451911f8e1d7ae46cff2f1acd5e58710740"
+        }
+      },
+      "rep": 1,
+      "seconds": 12.8,
+      "status": "ok",
+      "target": "X-prometheus",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
       "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/C-P.json --no-progress -t docker /img/C-P.tar",
       "config": "default",
       "exit_code": 0,
@@ -5150,6 +7308,146 @@
       "seconds": 5.1,
       "status": "ok",
       "target": "C-S3-scratch",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/G-S1.json --no-progress /t",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "dir",
+      "log": "work/logs/tools/default-cdxgen-rep2-G-S1-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 12506,
+          "components": 6,
+          "path": "work/sboms/default/cdxgen/rep2/G-S1.json",
+          "sha256": "13e810bc9089a0b6c08c8462cff53d3ac7a06401b97b7f087612929b7c9a04f8"
+        }
+      },
+      "rep": 2,
+      "seconds": 109.7,
+      "status": "ok",
+      "target": "G-S1",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/G-S2.json --no-progress /t",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "file",
+      "log": "work/logs/tools/default-cdxgen-rep2-G-S2-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 2200413,
+          "components": 93,
+          "path": "work/sboms/default/cdxgen/rep2/G-S2.json",
+          "sha256": "d5943afd277cdbe392bb075ab6f82f70f553673bb077f79f10659b12cff14054"
+        }
+      },
+      "rep": 2,
+      "seconds": 71.5,
+      "status": "ok",
+      "target": "G-S2",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/G-S3-alpine.json --no-progress -t docker /img/G-S3-alpine.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep2-G-S3-alpine-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 3078366,
+          "components": 803,
+          "path": "work/sboms/default/cdxgen/rep2/G-S3-alpine.json",
+          "sha256": "3a45b9b1320e33d05be4d9a5074b42f2c963c6dbc4a4b9c90beb8a5ea602bb5b"
+        }
+      },
+      "rep": 2,
+      "seconds": 141.1,
+      "status": "ok",
+      "target": "G-S3-alpine",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/G-S3-distroless.json --no-progress -t docker /img/G-S3-distroless.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep2-G-S3-distroless-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 2654858,
+          "components": 604,
+          "path": "work/sboms/default/cdxgen/rep2/G-S3-distroless.json",
+          "sha256": "2253add6abf576b9832d1976b46378298130b979cc014634dccbbeef15a4523b"
+        }
+      },
+      "rep": 2,
+      "seconds": 119.9,
+      "status": "ok",
+      "target": "G-S3-distroless",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/G-S3-ubuntu.json --no-progress -t docker /img/G-S3-ubuntu.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep2-G-S3-ubuntu-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 6905476,
+          "components": 5378,
+          "path": "work/sboms/default/cdxgen/rep2/G-S3-ubuntu.json",
+          "sha256": "bb9b5be12d2498af3e89f45cf283ced4687c7dfe4b4bad442feab9f19476ff1c"
+        }
+      },
+      "rep": 2,
+      "seconds": 130.0,
+      "status": "ok",
+      "target": "G-S3-ubuntu",
       "tool": "cdxgen",
       "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
     },
@@ -5778,6 +8076,230 @@
       "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
     },
     {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-airflow.json --no-progress -t docker /img/X-airflow.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep2-X-airflow-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 9588930,
+          "components": 10192,
+          "path": "work/sboms/default/cdxgen/rep2/X-airflow.json",
+          "sha256": "d27cf6bc10ecf62d3e09019f3274b694f48a98f53c0b64d1db5dcba593caf28a"
+        }
+      },
+      "rep": 2,
+      "seconds": 96.5,
+      "status": "ok",
+      "target": "X-airflow",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-ghost.json --no-progress -t docker /img/X-ghost.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep2-X-ghost-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 466987,
+          "components": 432,
+          "path": "work/sboms/default/cdxgen/rep2/X-ghost.json",
+          "sha256": "706af4a891e1d1cee5d3cef4cd7700c0f97a1e0f909df3cc08d664225ceabb07"
+        }
+      },
+      "rep": 2,
+      "seconds": 280.9,
+      "status": "ok",
+      "target": "X-ghost",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-gitea.json --no-progress -t docker /img/X-gitea.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep2-X-gitea-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 1131128,
+          "components": 1065,
+          "path": "work/sboms/default/cdxgen/rep2/X-gitea.json",
+          "sha256": "794d801887bb51a951e312eb19b931a5d1ea8164deb18e00190d9c9ae3a928e5"
+        }
+      },
+      "rep": 2,
+      "seconds": 12.8,
+      "status": "ok",
+      "target": "X-gitea",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-jenkins.json --no-progress -t docker /img/X-jenkins.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep2-X-jenkins-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 6520773,
+          "components": 4890,
+          "path": "work/sboms/default/cdxgen/rep2/X-jenkins.json",
+          "sha256": "7ced9f9289c9a61f6218c9caa56c6cd64c20982e6276609f4a98b1c82cc4ad73"
+        }
+      },
+      "rep": 2,
+      "seconds": 79.1,
+      "status": "ok",
+      "target": "X-jenkins",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-keycloak.json --no-progress -t docker /img/X-keycloak.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep2-X-keycloak-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 6535930,
+          "components": 1846,
+          "path": "work/sboms/default/cdxgen/rep2/X-keycloak.json",
+          "sha256": "ab38f1ce459c70533cc8aac5649a504cb7f78625d18062c3664607fd5e464498"
+        }
+      },
+      "rep": 2,
+      "seconds": 320.5,
+      "status": "ok",
+      "target": "X-keycloak",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-mysql.json --no-progress -t docker /img/X-mysql.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep2-X-mysql-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 1239098,
+          "components": 1264,
+          "path": "work/sboms/default/cdxgen/rep2/X-mysql.json",
+          "sha256": "921e6a5929e4a2e0b1b09b18f592585631b62cc0bc04f7576601bc897e9437d7"
+        }
+      },
+      "rep": 2,
+      "seconds": 110.6,
+      "status": "ok",
+      "target": "X-mysql",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-postgres.json --no-progress -t docker /img/X-postgres.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep2-X-postgres-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 5459988,
+          "components": 5948,
+          "path": "work/sboms/default/cdxgen/rep2/X-postgres.json",
+          "sha256": "8b9059e856d8df93dfca76049f0f036db28b2378c306cd9defa41b533f3698d8"
+        }
+      },
+      "rep": 2,
+      "seconds": 44.9,
+      "status": "ok",
+      "target": "X-postgres",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
+      "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/X-prometheus.json --no-progress -t docker /img/X-prometheus.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-cdxgen-rep2-X-prometheus-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 137642,
+          "components": 247,
+          "path": "work/sboms/default/cdxgen/rep2/X-prometheus.json",
+          "sha256": "c5e85ff856ed63ef62e02e9291ae1e6cadcffd8daeee41523db43c9b10458110"
+        }
+      },
+      "rep": 2,
+      "seconds": 12.6,
+      "status": "ok",
+      "target": "X-prometheus",
+      "tool": "cdxgen",
+      "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
+    },
+    {
       "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/C-P.tar -o cyclonedx-json=/out/C-P.json -o spdx-json=/out/C-P.spdx.json",
       "config": "default",
       "exit_code": 0,
@@ -5960,6 +8482,181 @@
       "seconds": 2.3,
       "status": "ok",
       "target": "C-S3-scratch",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a dir:/t -o cyclonedx-json=/out/G-S1.json -o spdx-json=/out/G-S1.spdx.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "dir",
+      "log": "work/logs/tools/default-syft-rep1-G-S1-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 10334,
+          "components": 12,
+          "path": "work/sboms/default/syft/rep1/G-S1.json",
+          "sha256": "cea3dbafeaf34fc849ed39df1cd1b295330a1cee1745ee0e53b53181d4cddfbc"
+        },
+        "spdx": {
+          "bytes": 19469,
+          "components": 9,
+          "path": "work/sboms/default/syft/rep1/G-S1.spdx.json",
+          "sha256": "d3a0ac4fa3b482f1aa99e4192879754fe71540c732b1cdf2402243f423e3db57"
+        }
+      },
+      "rep": 1,
+      "seconds": 7.6,
+      "status": "ok",
+      "target": "G-S1",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a file:/t/app.jar -o cyclonedx-json=/out/G-S2.json -o spdx-json=/out/G-S2.spdx.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "file",
+      "log": "work/logs/tools/default-syft-rep1-G-S2-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 216076,
+          "components": 94,
+          "path": "work/sboms/default/syft/rep1/G-S2.json",
+          "sha256": "74426288ec3fccbbe4b99de6c390ad1cda63ad20102b6719ad72cfced585a529"
+        },
+        "spdx": {
+          "bytes": 320155,
+          "components": 94,
+          "path": "work/sboms/default/syft/rep1/G-S2.spdx.json",
+          "sha256": "2e5ae9cfdfcf5064b18f08928750c6b3d153e781e1bf5bd53043f27806d7a583"
+        }
+      },
+      "rep": 1,
+      "seconds": 8.4,
+      "status": "ok",
+      "target": "G-S2",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/G-S3-alpine.tar -o cyclonedx-json=/out/G-S3-alpine.json -o spdx-json=/out/G-S3-alpine.spdx.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep1-G-S3-alpine-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 733777,
+          "components": 1388,
+          "path": "work/sboms/default/syft/rep1/G-S3-alpine.json",
+          "sha256": "21120a8768b7255002f0a28c68169daf60ef1b595f006cc5058d231b5574ba8d"
+        },
+        "spdx": {
+          "bytes": 1394228,
+          "components": 169,
+          "path": "work/sboms/default/syft/rep1/G-S3-alpine.spdx.json",
+          "sha256": "86a696eb790c3a0525755a5f627d31ccb53f469ef6bd59537556b7a76a08e8a5"
+        }
+      },
+      "rep": 1,
+      "seconds": 15.3,
+      "status": "ok",
+      "target": "G-S3-alpine",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/G-S3-distroless.tar -o cyclonedx-json=/out/G-S3-distroless.json -o spdx-json=/out/G-S3-distroless.spdx.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep1-G-S3-distroless-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 702723,
+          "components": 1661,
+          "path": "work/sboms/default/syft/rep1/G-S3-distroless.json",
+          "sha256": "01e183b6f1f4a1fa0a29f49ec5c39a409a0d4893d4b4596d3c85e3aad95fcff3"
+        },
+        "spdx": {
+          "bytes": 1540988,
+          "components": 120,
+          "path": "work/sboms/default/syft/rep1/G-S3-distroless.spdx.json",
+          "sha256": "426006a537fb433d3a1cd667f1af08b4b26d5d8b97833205714d20224ff0135e"
+        }
+      },
+      "rep": 1,
+      "seconds": 18.8,
+      "status": "ok",
+      "target": "G-S3-distroless",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/G-S3-ubuntu.tar -o cyclonedx-json=/out/G-S3-ubuntu.json -o spdx-json=/out/G-S3-ubuntu.spdx.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep1-G-S3-ubuntu-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 2516696,
+          "components": 7272,
+          "path": "work/sboms/default/syft/rep1/G-S3-ubuntu.json",
+          "sha256": "7d0012265ea5c025787253cc735b25555b65f46f6bfded8b5c8271053f970219"
+        },
+        "spdx": {
+          "bytes": 6002783,
+          "components": 247,
+          "path": "work/sboms/default/syft/rep1/G-S3-ubuntu.spdx.json",
+          "sha256": "da05922feeb1118282add46de45fc619cc9fa562b9c024238d9fa384058b26f5"
+        }
+      },
+      "rep": 1,
+      "seconds": 18.0,
+      "status": "ok",
+      "target": "G-S3-ubuntu",
       "tool": "syft",
       "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
     },
@@ -6770,6 +9467,286 @@
       "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
     },
     {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-airflow.tar -o cyclonedx-json=/out/X-airflow.json -o spdx-json=/out/X-airflow.spdx.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep1-X-airflow-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 8370793,
+          "components": 15540,
+          "path": "work/sboms/default/syft/rep1/X-airflow.json",
+          "sha256": "8eba79b620945360553f70ff705ce8b8fd709467729e846339fc2252d45ef92a"
+        },
+        "spdx": {
+          "bytes": 17966737,
+          "components": 2811,
+          "path": "work/sboms/default/syft/rep1/X-airflow.spdx.json",
+          "sha256": "a4fb0a210fac127ebce45c6c283f298ba54f0e3be8f35057f3ac49cfc61a869e"
+        }
+      },
+      "rep": 1,
+      "seconds": 23.8,
+      "status": "ok",
+      "target": "X-airflow",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-ghost.tar -o cyclonedx-json=/out/X-ghost.json -o spdx-json=/out/X-ghost.spdx.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep1-X-ghost-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 2858788,
+          "components": 3223,
+          "path": "work/sboms/default/syft/rep1/X-ghost.json",
+          "sha256": "576ae3b2ef241d0c7c8d6b0bb223686bba310323b3dcdaee3b76e630f394df25"
+        },
+        "spdx": {
+          "bytes": 4570773,
+          "components": 1550,
+          "path": "work/sboms/default/syft/rep1/X-ghost.spdx.json",
+          "sha256": "fcf5616161b6045557a23917f5d519a3d45a784f97ef3da5e9d114f9b30de470"
+        }
+      },
+      "rep": 1,
+      "seconds": 41.7,
+      "status": "ok",
+      "target": "X-ghost",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-gitea.tar -o cyclonedx-json=/out/X-gitea.json -o spdx-json=/out/X-gitea.spdx.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep1-X-gitea-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 630805,
+          "components": 941,
+          "path": "work/sboms/default/syft/rep1/X-gitea.json",
+          "sha256": "1b309b0549017aa7683090c55a5b2b67166b3102a023be1bdfd9491fef235868"
+        },
+        "spdx": {
+          "bytes": 1011575,
+          "components": 307,
+          "path": "work/sboms/default/syft/rep1/X-gitea.spdx.json",
+          "sha256": "4f89e4d7c90a93d611a19fc06cdfd8655eeeb60999a5c3665ad9cac107f03130"
+        }
+      },
+      "rep": 1,
+      "seconds": 9.0,
+      "status": "ok",
+      "target": "X-gitea",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-jenkins.tar -o cyclonedx-json=/out/X-jenkins.json -o spdx-json=/out/X-jenkins.spdx.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep1-X-jenkins-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 2969620,
+          "components": 8497,
+          "path": "work/sboms/default/syft/rep1/X-jenkins.json",
+          "sha256": "c7eeb06a0b261d73d28a26f5d4a341c89844045c58929f374e4dc39c13927b54"
+        },
+        "spdx": {
+          "bytes": 7055461,
+          "components": 319,
+          "path": "work/sboms/default/syft/rep1/X-jenkins.spdx.json",
+          "sha256": "a7a579f8114027cd9a1f67a85b296c0883f353b72e677cc9052342e68e78b3dd"
+        }
+      },
+      "rep": 1,
+      "seconds": 22.2,
+      "status": "ok",
+      "target": "X-jenkins",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-keycloak.tar -o cyclonedx-json=/out/X-keycloak.json -o spdx-json=/out/X-keycloak.spdx.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep1-X-keycloak-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 2743283,
+          "components": 4571,
+          "path": "work/sboms/default/syft/rep1/X-keycloak.json",
+          "sha256": "d29742ded86966730cfdde52ff0cec5a8ea72b0cbec95821f48291b44dbb119c"
+        },
+        "spdx": {
+          "bytes": 5197128,
+          "components": 562,
+          "path": "work/sboms/default/syft/rep1/X-keycloak.spdx.json",
+          "sha256": "6f7f407d06ece9ff514c0aa0386134b4eadad8c87566c0043d84131b2c9026e2"
+        }
+      },
+      "rep": 1,
+      "seconds": 24.9,
+      "status": "ok",
+      "target": "X-keycloak",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-mysql.tar -o cyclonedx-json=/out/X-mysql.json -o spdx-json=/out/X-mysql.spdx.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep1-X-mysql-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 7578964,
+          "components": 23143,
+          "path": "work/sboms/default/syft/rep1/X-mysql.json",
+          "sha256": "23375c0878e8695641d64b775a81025243794f9cdd0bc7c5ffc1e5969f8602db"
+        },
+        "spdx": {
+          "bytes": 18512708,
+          "components": 142,
+          "path": "work/sboms/default/syft/rep1/X-mysql.spdx.json",
+          "sha256": "308d2b52d247319853f89a64fb61e89b099713bfb601946309be963c4ab3814c"
+        }
+      },
+      "rep": 1,
+      "seconds": 32.7,
+      "status": "ok",
+      "target": "X-mysql",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-postgres.tar -o cyclonedx-json=/out/X-postgres.json -o spdx-json=/out/X-postgres.spdx.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep1-X-postgres-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 2539755,
+          "components": 7956,
+          "path": "work/sboms/default/syft/rep1/X-postgres.json",
+          "sha256": "2d7b88e697c880e0a1b921803f76c351b8cb30cb10a15b732c4c387dcd70374d"
+        },
+        "spdx": {
+          "bytes": 6312139,
+          "components": 150,
+          "path": "work/sboms/default/syft/rep1/X-postgres.spdx.json",
+          "sha256": "43ad5483d87b3a79349b8a094f7beb17915487454140ba9e18dc7baacc627ee3"
+        }
+      },
+      "rep": 1,
+      "seconds": 27.6,
+      "status": "ok",
+      "target": "X-postgres",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-prometheus.tar -o cyclonedx-json=/out/X-prometheus.json -o spdx-json=/out/X-prometheus.spdx.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx",
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep1-X-prometheus-cyclonedx+spdx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 546055,
+          "components": 446,
+          "path": "work/sboms/default/syft/rep1/X-prometheus.json",
+          "sha256": "83354603f69488140f2a3b3e6885afba1a378b1e7f23fe83ffa455ca720b3d83"
+        },
+        "spdx": {
+          "bytes": 932904,
+          "components": 443,
+          "path": "work/sboms/default/syft/rep1/X-prometheus.spdx.json",
+          "sha256": "eb267b47a18dd14d0127015321bd362cfd80bba4e2e0bbfd3257869197922f34"
+        }
+      },
+      "rep": 1,
+      "seconds": 11.6,
+      "status": "ok",
+      "target": "X-prometheus",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
       "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/C-P.tar -o cyclonedx-json=/out/C-P.json",
       "config": "default",
       "exit_code": 0,
@@ -6910,6 +9887,146 @@
       "seconds": 2.4,
       "status": "ok",
       "target": "C-S3-scratch",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a dir:/t -o cyclonedx-json=/out/G-S1.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "dir",
+      "log": "work/logs/tools/default-syft-rep2-G-S1-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 10334,
+          "components": 12,
+          "path": "work/sboms/default/syft/rep2/G-S1.json",
+          "sha256": "8afc17af3ead2f07db7d032b614d518eea86bcca68e849aec3657cf2ac8f0c00"
+        }
+      },
+      "rep": 2,
+      "seconds": 6.9,
+      "status": "ok",
+      "target": "G-S1",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a file:/t/app.jar -o cyclonedx-json=/out/G-S2.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "file",
+      "log": "work/logs/tools/default-syft-rep2-G-S2-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 216076,
+          "components": 94,
+          "path": "work/sboms/default/syft/rep2/G-S2.json",
+          "sha256": "86e5f5e321f4a8b92a120c5c722a9d4aa86088b0b643a85f5af56445ce2bb73a"
+        }
+      },
+      "rep": 2,
+      "seconds": 10.4,
+      "status": "ok",
+      "target": "G-S2",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/G-S3-alpine.tar -o cyclonedx-json=/out/G-S3-alpine.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep2-G-S3-alpine-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 733777,
+          "components": 1388,
+          "path": "work/sboms/default/syft/rep2/G-S3-alpine.json",
+          "sha256": "76ee72498dc80d8cae898a0081c61a18a3732cfd111a001b34926bac12f53f58"
+        }
+      },
+      "rep": 2,
+      "seconds": 13.0,
+      "status": "ok",
+      "target": "G-S3-alpine",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/G-S3-distroless.tar -o cyclonedx-json=/out/G-S3-distroless.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep2-G-S3-distroless-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 702723,
+          "components": 1661,
+          "path": "work/sboms/default/syft/rep2/G-S3-distroless.json",
+          "sha256": "6dd1d1ec3edf4de2786a42326827744ca6738ee0b4b976c3e9dac0222f41a44c"
+        }
+      },
+      "rep": 2,
+      "seconds": 16.2,
+      "status": "ok",
+      "target": "G-S3-distroless",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/G-S3-ubuntu.tar -o cyclonedx-json=/out/G-S3-ubuntu.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep2-G-S3-ubuntu-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 2516696,
+          "components": 7272,
+          "path": "work/sboms/default/syft/rep2/G-S3-ubuntu.json",
+          "sha256": "70e3ea18d1eae7aee57540b021e03a8ca4d2515bc45983e8a4e257a87225394a"
+        }
+      },
+      "rep": 2,
+      "seconds": 16.2,
+      "status": "ok",
+      "target": "G-S3-ubuntu",
       "tool": "syft",
       "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
     },
@@ -7538,6 +10655,230 @@
       "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
     },
     {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-airflow.tar -o cyclonedx-json=/out/X-airflow.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep2-X-airflow-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 8370793,
+          "components": 15540,
+          "path": "work/sboms/default/syft/rep2/X-airflow.json",
+          "sha256": "c4a7b68a9c79272cc103e7de2d9637ae75f45d2262b1f3dc756fb26720515e1e"
+        }
+      },
+      "rep": 2,
+      "seconds": 23.1,
+      "status": "ok",
+      "target": "X-airflow",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-ghost.tar -o cyclonedx-json=/out/X-ghost.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep2-X-ghost-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 2858788,
+          "components": 3223,
+          "path": "work/sboms/default/syft/rep2/X-ghost.json",
+          "sha256": "1ecfb05c49e80dad0654e035ae510f05159571c88ba177b2e74bc187b1038c46"
+        }
+      },
+      "rep": 2,
+      "seconds": 38.9,
+      "status": "ok",
+      "target": "X-ghost",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-gitea.tar -o cyclonedx-json=/out/X-gitea.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep2-X-gitea-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 630805,
+          "components": 941,
+          "path": "work/sboms/default/syft/rep2/X-gitea.json",
+          "sha256": "bcf1982c0d8d5e8630d0ffbaa93a42debd4980584bc84fe692c08aa4fed722aa"
+        }
+      },
+      "rep": 2,
+      "seconds": 8.6,
+      "status": "ok",
+      "target": "X-gitea",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-jenkins.tar -o cyclonedx-json=/out/X-jenkins.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep2-X-jenkins-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 2969620,
+          "components": 8497,
+          "path": "work/sboms/default/syft/rep2/X-jenkins.json",
+          "sha256": "2c055023758f4b9372d7a6d6d443c51df40a89d5ae297220e31b08ddfd959310"
+        }
+      },
+      "rep": 2,
+      "seconds": 17.7,
+      "status": "ok",
+      "target": "X-jenkins",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-keycloak.tar -o cyclonedx-json=/out/X-keycloak.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep2-X-keycloak-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 2743283,
+          "components": 4571,
+          "path": "work/sboms/default/syft/rep2/X-keycloak.json",
+          "sha256": "a3f4a026c9bca522ff0538251f9d14146f9b115577ba875ba61427fb9c2d1da2"
+        }
+      },
+      "rep": 2,
+      "seconds": 23.7,
+      "status": "ok",
+      "target": "X-keycloak",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-mysql.tar -o cyclonedx-json=/out/X-mysql.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep2-X-mysql-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 7578964,
+          "components": 23143,
+          "path": "work/sboms/default/syft/rep2/X-mysql.json",
+          "sha256": "65cda2ff9e4cb19f55924fa74b23912305f17ec4c66112d3ee8c8fe4fe302452"
+        }
+      },
+      "rep": 2,
+      "seconds": 29.0,
+      "status": "ok",
+      "target": "X-mysql",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-postgres.tar -o cyclonedx-json=/out/X-postgres.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep2-X-postgres-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 2539755,
+          "components": 7956,
+          "path": "work/sboms/default/syft/rep2/X-postgres.json",
+          "sha256": "a9036490f93592b6c89358c0eea2d6fd22321a761c8730632e921a3ec6cbb9b0"
+        }
+      },
+      "rep": 2,
+      "seconds": 19.7,
+      "status": "ok",
+      "target": "X-postgres",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
+      "command": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a docker-archive:/img/X-prometheus.tar -o cyclonedx-json=/out/X-prometheus.json",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-syft-rep2-X-prometheus-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 546055,
+          "components": 446,
+          "path": "work/sboms/default/syft/rep2/X-prometheus.json",
+          "sha256": "916c1531ccdd5c6ac7729bb24e94c52111dfd06e82871785e1f5e0ab67bf318d"
+        }
+      },
+      "rep": 2,
+      "seconds": 11.0,
+      "status": "ok",
+      "target": "X-prometheus",
+      "tool": "syft",
+      "tool_image": "anchore/syft@sha256:e97e20b6e6d1699c60296b66ab337941724f9bd06ac279d893eda89601fc4b2a"
+    },
+    {
       "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/C-P.json --input /img/C-P.tar",
       "config": "default",
       "exit_code": 0,
@@ -7822,6 +11163,286 @@
       "seconds": 1.1,
       "status": "ok",
       "target": "C-S3-scratch",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb fs --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/G-S1.json /t",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "dir",
+      "log": "work/logs/tools/default-trivy-rep1-G-S1-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 972,
+          "components": 0,
+          "path": "work/sboms/default/trivy/rep1/G-S1.json",
+          "sha256": "4d446325b499607f496788cd9c1ed26047563e89322b8b6b88d7e3fe6e82e757"
+        }
+      },
+      "rep": 1,
+      "seconds": 3.2,
+      "status": "ok",
+      "target": "G-S1",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb fs --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/G-S1.spdx.json /t",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "dir",
+      "log": "work/logs/tools/default-trivy-rep1-G-S1-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 1057,
+          "components": 1,
+          "path": "work/sboms/default/trivy/rep1/G-S1.spdx.json",
+          "sha256": "3e03ddae7b9439d1ced0ed242e63b506b893a29f999dfba0e05c66dc28216eb0"
+        }
+      },
+      "rep": 1,
+      "seconds": 2.4,
+      "status": "ok",
+      "target": "G-S1",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb rootfs --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/G-S2.json /t/app.jar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "file",
+      "log": "work/logs/tools/default-trivy-rep1-G-S2-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 92186,
+          "components": 93,
+          "path": "work/sboms/default/trivy/rep1/G-S2.json",
+          "sha256": "1b42bb93224ebb7a40b7875aa7a6b14e4f042d7e474405ad152a58c7b7ed7e39"
+        }
+      },
+      "rep": 1,
+      "seconds": 5.6,
+      "status": "ok",
+      "target": "G-S2",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb rootfs --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/G-S2.spdx.json /t/app.jar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "file",
+      "log": "work/logs/tools/default-trivy-rep1-G-S2-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 150475,
+          "components": 94,
+          "path": "work/sboms/default/trivy/rep1/G-S2.spdx.json",
+          "sha256": "8808f3cdc65ffe7e5503fc546e321b700840b0872b303e3069de379f73574d06"
+        }
+      },
+      "rep": 1,
+      "seconds": 5.3,
+      "status": "ok",
+      "target": "G-S2",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/G-S3-alpine.json --input /img/G-S3-alpine.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-G-S3-alpine-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 250106,
+          "components": 167,
+          "path": "work/sboms/default/trivy/rep1/G-S3-alpine.json",
+          "sha256": "906aefb56ed35f48cbd78b6091440a9959f0dc91ee2f76481191d1f956f51b96"
+        }
+      },
+      "rep": 1,
+      "seconds": 42.7,
+      "status": "ok",
+      "target": "G-S3-alpine",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/G-S3-alpine.spdx.json --input /img/G-S3-alpine.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-G-S3-alpine-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 374704,
+          "components": 168,
+          "path": "work/sboms/default/trivy/rep1/G-S3-alpine.spdx.json",
+          "sha256": "0373834f39a8f4cdf6b90f67ca1ca19c06b129bbfcea01eb8e1662ce1ff0e035"
+        }
+      },
+      "rep": 1,
+      "seconds": 16.2,
+      "status": "ok",
+      "target": "G-S3-alpine",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/G-S3-distroless.json --input /img/G-S3-distroless.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-G-S3-distroless-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 179108,
+          "components": 119,
+          "path": "work/sboms/default/trivy/rep1/G-S3-distroless.json",
+          "sha256": "97a0e8d5d6e47fdee53e448e7f5fad0f2d1b1cebec2200d2de75143cbf4fcdab"
+        }
+      },
+      "rep": 1,
+      "seconds": 145.9,
+      "status": "ok",
+      "target": "G-S3-distroless",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/G-S3-distroless.spdx.json --input /img/G-S3-distroless.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-G-S3-distroless-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 267164,
+          "components": 120,
+          "path": "work/sboms/default/trivy/rep1/G-S3-distroless.spdx.json",
+          "sha256": "907cbb46aad72e270e17fd46a9984f07dbff3fd6982a785b50437ca7af32b6b9"
+        }
+      },
+      "rep": 1,
+      "seconds": 12.0,
+      "status": "ok",
+      "target": "G-S3-distroless",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/G-S3-ubuntu.json --input /img/G-S3-ubuntu.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-G-S3-ubuntu-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 468692,
+          "components": 246,
+          "path": "work/sboms/default/trivy/rep1/G-S3-ubuntu.json",
+          "sha256": "e2db42e8050633a48344a3df51dcbce5fc8e81a81f2febd4ad46e1a5bd697172"
+        }
+      },
+      "rep": 1,
+      "seconds": 51.5,
+      "status": "ok",
+      "target": "G-S3-ubuntu",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/G-S3-ubuntu.spdx.json --input /img/G-S3-ubuntu.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-G-S3-ubuntu-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 589917,
+          "components": 247,
+          "path": "work/sboms/default/trivy/rep1/G-S3-ubuntu.spdx.json",
+          "sha256": "c32f06ed2ea49d840bd08db04f9d163d35473ffd170a22e6296138dec16d0b06"
+        }
+      },
+      "rep": 1,
+      "seconds": 17.3,
+      "status": "ok",
+      "target": "G-S3-ubuntu",
       "tool": "trivy",
       "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
     },
@@ -9074,6 +12695,454 @@
       "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
     },
     {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-airflow.json --input /img/X-airflow.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-X-airflow-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 3265140,
+          "components": 2728,
+          "path": "work/sboms/default/trivy/rep1/X-airflow.json",
+          "sha256": "a2f781358239f9838bc68e28331abe8ce2ad6710457c9b68432713b0494f7a8d"
+        }
+      },
+      "rep": 1,
+      "seconds": 27.1,
+      "status": "ok",
+      "target": "X-airflow",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/X-airflow.spdx.json --input /img/X-airflow.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-X-airflow-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 6709499,
+          "components": 2729,
+          "path": "work/sboms/default/trivy/rep1/X-airflow.spdx.json",
+          "sha256": "06448849c3703a3340a2959e05d141b60d9ebbbb3198822ad8867b846fd04884"
+        }
+      },
+      "rep": 1,
+      "seconds": 25.0,
+      "status": "ok",
+      "target": "X-airflow",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-ghost.json --input /img/X-ghost.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-X-ghost-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 678233,
+          "components": 518,
+          "path": "work/sboms/default/trivy/rep1/X-ghost.json",
+          "sha256": "0e2cf8619e7a0ba470407e97367f9824268df149d5909a0eeba40350db301765"
+        }
+      },
+      "rep": 1,
+      "seconds": 25.5,
+      "status": "ok",
+      "target": "X-ghost",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/X-ghost.spdx.json --input /img/X-ghost.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-X-ghost-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 1187524,
+          "components": 519,
+          "path": "work/sboms/default/trivy/rep1/X-ghost.spdx.json",
+          "sha256": "9703daa11274f1739e2a85e8b578ca26ba0b7c9b2064933a7de103ba9a5a27f6"
+        }
+      },
+      "rep": 1,
+      "seconds": 18.6,
+      "status": "ok",
+      "target": "X-ghost",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-gitea.json --input /img/X-gitea.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-X-gitea-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 372240,
+          "components": 308,
+          "path": "work/sboms/default/trivy/rep1/X-gitea.json",
+          "sha256": "f51c9210e34f0802310dd8ab0e8edc1086c0f76b9f46371d3a162f69ae95fb99"
+        }
+      },
+      "rep": 1,
+      "seconds": 7.9,
+      "status": "ok",
+      "target": "X-gitea",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/X-gitea.spdx.json --input /img/X-gitea.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-X-gitea-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 603280,
+          "components": 309,
+          "path": "work/sboms/default/trivy/rep1/X-gitea.spdx.json",
+          "sha256": "e15d8892af802bb12d0c6aa6d82726b6d0d7722060df575742865030709914bd"
+        }
+      },
+      "rep": 1,
+      "seconds": 7.1,
+      "status": "ok",
+      "target": "X-gitea",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-jenkins.json --input /img/X-jenkins.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-X-jenkins-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 527315,
+          "components": 318,
+          "path": "work/sboms/default/trivy/rep1/X-jenkins.json",
+          "sha256": "9172f50ef9961d1f562fb139854c340b05d58ef673c688073f883ec6994bdfa3"
+        }
+      },
+      "rep": 1,
+      "seconds": 28.3,
+      "status": "ok",
+      "target": "X-jenkins",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/X-jenkins.spdx.json --input /img/X-jenkins.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-X-jenkins-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 729100,
+          "components": 319,
+          "path": "work/sboms/default/trivy/rep1/X-jenkins.spdx.json",
+          "sha256": "c36cc67641c6fb542e4142539f45e3a25442b209329830e57bf3041ade65664a"
+        }
+      },
+      "rep": 1,
+      "seconds": 28.8,
+      "status": "ok",
+      "target": "X-jenkins",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-keycloak.json --input /img/X-keycloak.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-X-keycloak-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 769872,
+          "components": 560,
+          "path": "work/sboms/default/trivy/rep1/X-keycloak.json",
+          "sha256": "1555efbcf55bd678d5366c9906cad56479f270e9180dc026b98ceb0b8776c68d"
+        }
+      },
+      "rep": 1,
+      "seconds": 33.9,
+      "status": "ok",
+      "target": "X-keycloak",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/X-keycloak.spdx.json --input /img/X-keycloak.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-X-keycloak-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 1301896,
+          "components": 561,
+          "path": "work/sboms/default/trivy/rep1/X-keycloak.spdx.json",
+          "sha256": "a3c99cbb4bc76eded3cb409bd20d2d9195ffe6bc98e88e36280b8bb9e5e6fbc2"
+        }
+      },
+      "rep": 1,
+      "seconds": 25.8,
+      "status": "ok",
+      "target": "X-keycloak",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-mysql.json --input /img/X-mysql.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-X-mysql-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 250913,
+          "components": 143,
+          "path": "work/sboms/default/trivy/rep1/X-mysql.json",
+          "sha256": "065d23594262f33594fa08446509160a5a7b32521f97c4ee1049f48d9c348526"
+        }
+      },
+      "rep": 1,
+      "seconds": 28.8,
+      "status": "ok",
+      "target": "X-mysql",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/X-mysql.spdx.json --input /img/X-mysql.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-X-mysql-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 339547,
+          "components": 144,
+          "path": "work/sboms/default/trivy/rep1/X-mysql.spdx.json",
+          "sha256": "c1df90caab85f41ce8cb145a54777c828c2cb6c5cbcca31cad0d9a91959079ed"
+        }
+      },
+      "rep": 1,
+      "seconds": 27.5,
+      "status": "ok",
+      "target": "X-mysql",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-postgres.json --input /img/X-postgres.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-X-postgres-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 347498,
+          "components": 151,
+          "path": "work/sboms/default/trivy/rep1/X-postgres.json",
+          "sha256": "50eb730e5e6681eda233cf6cb54980ef28f7cbf876338915566ec84eccc85448"
+        }
+      },
+      "rep": 1,
+      "seconds": 29.7,
+      "status": "ok",
+      "target": "X-postgres",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/X-postgres.spdx.json --input /img/X-postgres.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-X-postgres-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 393665,
+          "components": 152,
+          "path": "work/sboms/default/trivy/rep1/X-postgres.spdx.json",
+          "sha256": "cd27fb038499170df43cfb43935de91ee54ca4d9adc0d6ee07371520427dfb52"
+        }
+      },
+      "rep": 1,
+      "seconds": 25.4,
+      "status": "ok",
+      "target": "X-postgres",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-prometheus.json --input /img/X-prometheus.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-X-prometheus-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 437534,
+          "components": 443,
+          "path": "work/sboms/default/trivy/rep1/X-prometheus.json",
+          "sha256": "07c5bbef51abccdbb19861eb5ef53c921596ee687419b1c7f965ffcddc041505"
+        }
+      },
+      "rep": 1,
+      "seconds": 16.2,
+      "status": "ok",
+      "target": "X-prometheus",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format spdx-json --output /out/X-prometheus.spdx.json --input /img/X-prometheus.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "spdx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep1-X-prometheus-spdx.log",
+      "outputs": {
+        "spdx": {
+          "bytes": 803996,
+          "components": 444,
+          "path": "work/sboms/default/trivy/rep1/X-prometheus.spdx.json",
+          "sha256": "c63c82249970cc7ddafea09afdf83b36a4fcb7de38d09662d681ea0a2a549fe5"
+        }
+      },
+      "rep": 1,
+      "seconds": 14.5,
+      "status": "ok",
+      "target": "X-prometheus",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
       "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/C-P.json --input /img/C-P.tar",
       "config": "default",
       "exit_code": 0,
@@ -9214,6 +13283,146 @@
       "seconds": 1.0,
       "status": "ok",
       "target": "C-S3-scratch",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb fs --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/G-S1.json /t",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "dir",
+      "log": "work/logs/tools/default-trivy-rep2-G-S1-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 972,
+          "components": 0,
+          "path": "work/sboms/default/trivy/rep2/G-S1.json",
+          "sha256": "8fe6b9e2d0be80d73136af2be43ae7904b7f227a7b8e7df85174f7c2d3d10008"
+        }
+      },
+      "rep": 2,
+      "seconds": 2.1,
+      "status": "ok",
+      "target": "G-S1",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb rootfs --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/G-S2.json /t/app.jar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "file",
+      "log": "work/logs/tools/default-trivy-rep2-G-S2-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 92186,
+          "components": 93,
+          "path": "work/sboms/default/trivy/rep2/G-S2.json",
+          "sha256": "e4a424fa15275b3264ee9ecad75a13819f7d1f3f1f96b839d9a258f74282dbe7"
+        }
+      },
+      "rep": 2,
+      "seconds": 4.9,
+      "status": "ok",
+      "target": "G-S2",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/G-S3-alpine.json --input /img/G-S3-alpine.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep2-G-S3-alpine-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 250106,
+          "components": 167,
+          "path": "work/sboms/default/trivy/rep2/G-S3-alpine.json",
+          "sha256": "0e8f99cdcbcce74363533844313abb87e4e66eafbfbd7be5d8cf95cea7ce0f8a"
+        }
+      },
+      "rep": 2,
+      "seconds": 16.4,
+      "status": "ok",
+      "target": "G-S3-alpine",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/G-S3-distroless.json --input /img/G-S3-distroless.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep2-G-S3-distroless-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 179108,
+          "components": 119,
+          "path": "work/sboms/default/trivy/rep2/G-S3-distroless.json",
+          "sha256": "cd6016060eb16ab819782deb46e8694dc49f387892ea18dca2bd667c0f09f771"
+        }
+      },
+      "rep": 2,
+      "seconds": 12.2,
+      "status": "ok",
+      "target": "G-S3-distroless",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/G-S3-ubuntu.json --input /img/G-S3-ubuntu.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep2-G-S3-ubuntu-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 468692,
+          "components": 246,
+          "path": "work/sboms/default/trivy/rep2/G-S3-ubuntu.json",
+          "sha256": "e5eb9638723a8a3223fa4fef7bdb7fbbda7b1490da77328fa7531b1eaa67288c"
+        }
+      },
+      "rep": 2,
+      "seconds": 15.3,
+      "status": "ok",
+      "target": "G-S3-ubuntu",
       "tool": "trivy",
       "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
     },
@@ -9842,6 +14051,230 @@
       "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
     },
     {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-airflow.json --input /img/X-airflow.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep2-X-airflow-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 3265140,
+          "components": 2728,
+          "path": "work/sboms/default/trivy/rep2/X-airflow.json",
+          "sha256": "ad7e7f5a0a7f05124fb2571376a672cf5a7750eadd1d85978a2aef54c2c1fb29"
+        }
+      },
+      "rep": 2,
+      "seconds": 29.6,
+      "status": "ok",
+      "target": "X-airflow",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-ghost.json --input /img/X-ghost.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep2-X-ghost-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 678233,
+          "components": 518,
+          "path": "work/sboms/default/trivy/rep2/X-ghost.json",
+          "sha256": "bff1ec3c9822d2cea2fdf7362df19b5fed2f7751bd8f7fb7d82396b2ffc716fc"
+        }
+      },
+      "rep": 2,
+      "seconds": 22.5,
+      "status": "ok",
+      "target": "X-ghost",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-gitea.json --input /img/X-gitea.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep2-X-gitea-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 372240,
+          "components": 308,
+          "path": "work/sboms/default/trivy/rep2/X-gitea.json",
+          "sha256": "d419499bdc9be42901f9ce34d8d914207619e1dfad1b14049b76e72da15ecb5e"
+        }
+      },
+      "rep": 2,
+      "seconds": 8.4,
+      "status": "ok",
+      "target": "X-gitea",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-jenkins.json --input /img/X-jenkins.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep2-X-jenkins-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 527315,
+          "components": 318,
+          "path": "work/sboms/default/trivy/rep2/X-jenkins.json",
+          "sha256": "c31a5a8c712f089bbad4eb1d48c1b9e8d91a19ecbcaf0f8526d157db439f459a"
+        }
+      },
+      "rep": 2,
+      "seconds": 35.0,
+      "status": "ok",
+      "target": "X-jenkins",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-keycloak.json --input /img/X-keycloak.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep2-X-keycloak-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 769872,
+          "components": 560,
+          "path": "work/sboms/default/trivy/rep2/X-keycloak.json",
+          "sha256": "f6a9aba62ac40af863d756db8a1e9191c63bc89f05ba56c25c06d0fade3cdd48"
+        }
+      },
+      "rep": 2,
+      "seconds": 33.7,
+      "status": "ok",
+      "target": "X-keycloak",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-mysql.json --input /img/X-mysql.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep2-X-mysql-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 250913,
+          "components": 143,
+          "path": "work/sboms/default/trivy/rep2/X-mysql.json",
+          "sha256": "baf56ee48ed70a30dd2295a20fc5200646ffe1d877528a0c223282f206241d9b"
+        }
+      },
+      "rep": 2,
+      "seconds": 32.2,
+      "status": "ok",
+      "target": "X-mysql",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-postgres.json --input /img/X-postgres.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep2-X-postgres-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 347498,
+          "components": 151,
+          "path": "work/sboms/default/trivy/rep2/X-postgres.json",
+          "sha256": "cce16e0c94cb9d19ad54f3b4d194eede79f3a344b925d4757e58cc78f6b28929"
+        }
+      },
+      "rep": 2,
+      "seconds": 24.3,
+      "status": "ok",
+      "target": "X-postgres",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
+      "command": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb image --cache-dir /cache --skip-java-db-update --skip-db-update --format cyclonedx --output /out/X-prometheus.json --input /img/X-prometheus.tar",
+      "config": "default",
+      "env": [
+        "SYFT_CHECK_FOR_APP_UPDATE=false",
+        "CDXGEN_NO_PROGRESS=1"
+      ],
+      "exit_code": 0,
+      "formats": [
+        "cyclonedx"
+      ],
+      "kind": "image",
+      "log": "work/logs/tools/default-trivy-rep2-X-prometheus-cyclonedx.log",
+      "outputs": {
+        "cyclonedx": {
+          "bytes": 437534,
+          "components": 443,
+          "path": "work/sboms/default/trivy/rep2/X-prometheus.json",
+          "sha256": "a3cf3d614cc698c53c29d910fe0e8e72947a28ee4cc79a6a179c3ecdb504d13e"
+        }
+      },
+      "rep": 2,
+      "seconds": 16.2,
+      "status": "ok",
+      "target": "X-prometheus",
+      "tool": "trivy",
+      "tool_image": "aquasec/trivy@sha256:8f6bb947dbc528902e11f2f5be52f7b519f6a39d5d148f41166f2040499768fb"
+    },
+    {
       "command": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e -o /out/J-P.json --no-progress -t docker --format cyclonedx,spdx /img/J-P.tar",
       "config": "netblocked",
       "exit_code": 0,
@@ -10097,5 +14530,5 @@
       "tool_image": "ghcr.io/cyclonedx/cdxgen@sha256:fe06e0320a76aa15fab6542caa0db5a44fcb1ff12af5146d4bef03e8920d444e"
     }
   ],
-  "updated_utc": "2026-11-23T12:00:08+00:00"
+  "updated_utc": "2026-11-24T06:12:21+00:00"
 }

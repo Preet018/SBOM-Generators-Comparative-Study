@@ -52,6 +52,36 @@
       "check": "manifest status ok",
       "detail": "ok",
       "ok": true,
+      "target": "G-S1"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "G-S2"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "G-S3-ubuntu"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "G-S3-alpine"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "G-S3-distroless"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
       "target": "N-S1"
     },
     {
@@ -197,6 +227,54 @@
       "detail": "ok",
       "ok": true,
       "target": "O-distroless"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "X-postgres"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "X-mysql"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "X-jenkins"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "X-keycloak"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "X-ghost"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "X-airflow"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "X-prometheus"
+    },
+    {
+      "check": "manifest status ok",
+      "detail": "ok",
+      "ok": true,
+      "target": "X-gitea"
     },
     {
       "check": "bakery-backend/maven-runtime.txt lists dependencies",
@@ -563,6 +641,156 @@
       "detail": "['META-INF/maven/com.google.code.gson/gson/pom.properties', 'META-INF/maven/org.apache.commons/commons-lang3/pom.properties', 'META-INF/maven/org.p16.planted/shaded-demo/pom.properties']",
       "ok": true,
       "target": "J-P"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "corpus/spring-petclinic-gradle",
+      "ok": true,
+      "target": "G-S1"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/artifacts/G-S2/app.jar",
+      "ok": true,
+      "target": "G-S2"
+    },
+    {
+      "check": "Gradle fat JAR has BOOT-INF/lib (>30 jars)",
+      "detail": "93",
+      "ok": true,
+      "target": "G-S2"
+    },
+    {
+      "check": "developmentOnly devtools excluded from fat JAR",
+      "detail": "",
+      "ok": true,
+      "target": "G-S2"
+    },
+    {
+      "check": "test-scope jars absent (no junit/testcontainers)",
+      "detail": "",
+      "ok": true,
+      "target": "G-S2"
+    },
+    {
+      "check": "MANIFEST identifies the app (Implementation-Title spring-petclinic)",
+      "detail": "",
+      "ok": true,
+      "target": "G-S2"
+    },
+    {
+      "check": "INFO embedded application SBOM in JAR",
+      "detail": "True",
+      "ok": true,
+      "target": "G-S2"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/G-S3-ubuntu.tar",
+      "ok": true,
+      "target": "G-S3-ubuntu"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "G-S3-ubuntu"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "9294 entries",
+      "ok": true,
+      "target": "G-S3-ubuntu"
+    },
+    {
+      "check": "/app/app.jar present",
+      "detail": "",
+      "ok": true,
+      "target": "G-S3-ubuntu"
+    },
+    {
+      "check": "java runtime present",
+      "detail": "['opt/java/openjdk/bin/java']",
+      "ok": true,
+      "target": "G-S3-ubuntu"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/G-S3-alpine.tar",
+      "ok": true,
+      "target": "G-S3-alpine"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "G-S3-alpine"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "2304 entries",
+      "ok": true,
+      "target": "G-S3-alpine"
+    },
+    {
+      "check": "/app/app.jar present",
+      "detail": "",
+      "ok": true,
+      "target": "G-S3-alpine"
+    },
+    {
+      "check": "java runtime present",
+      "detail": "['opt/java/openjdk/bin/java']",
+      "ok": true,
+      "target": "G-S3-alpine"
+    },
+    {
+      "check": "apk database present",
+      "detail": "",
+      "ok": true,
+      "target": "G-S3-alpine"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/G-S3-distroless.tar",
+      "ok": true,
+      "target": "G-S3-distroless"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "G-S3-distroless"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "2381 entries",
+      "ok": true,
+      "target": "G-S3-distroless"
+    },
+    {
+      "check": "/app/app.jar present",
+      "detail": "",
+      "ok": true,
+      "target": "G-S3-distroless"
+    },
+    {
+      "check": "java runtime present",
+      "detail": "['usr/bin/java', 'usr/lib/jvm/java-17-openjdk-amd64/bin/java']",
+      "ok": true,
+      "target": "G-S3-distroless"
+    },
+    {
+      "check": "distroless dpkg status.d present",
+      "detail": "",
+      "ok": true,
+      "target": "G-S3-distroless"
+    },
+    {
+      "check": "no shell (distroless)",
+      "detail": "",
+      "ok": true,
+      "target": "G-S3-distroless"
     },
     {
       "check": "scan input exists",
@@ -1235,8 +1463,152 @@
       "detail": "",
       "ok": true,
       "target": "O-distroless"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/X-postgres.tar",
+      "ok": true,
+      "target": "X-postgres"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "X-postgres"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "10320 entries",
+      "ok": true,
+      "target": "X-postgres"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/X-mysql.tar",
+      "ok": true,
+      "target": "X-mysql"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "X-mysql"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "25979 entries",
+      "ok": true,
+      "target": "X-mysql"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/X-jenkins.tar",
+      "ok": true,
+      "target": "X-jenkins"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "X-jenkins"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "11140 entries",
+      "ok": true,
+      "target": "X-jenkins"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/X-keycloak.tar",
+      "ok": true,
+      "target": "X-keycloak"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "X-keycloak"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "5511 entries",
+      "ok": true,
+      "target": "X-keycloak"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/X-ghost.tar",
+      "ok": true,
+      "target": "X-ghost"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "X-ghost"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "132532 entries",
+      "ok": true,
+      "target": "X-ghost"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/X-airflow.tar",
+      "ok": true,
+      "target": "X-airflow"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "X-airflow"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "28735 entries",
+      "ok": true,
+      "target": "X-airflow"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/X-prometheus.tar",
+      "ok": true,
+      "target": "X-prometheus"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "X-prometheus"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "969 entries",
+      "ok": true,
+      "target": "X-prometheus"
+    },
+    {
+      "check": "scan input exists",
+      "detail": "work/images/X-gitea.tar",
+      "ok": true,
+      "target": "X-gitea"
+    },
+    {
+      "check": "docker-archive valid, linux/amd64",
+      "detail": "linux/amd64",
+      "ok": true,
+      "target": "X-gitea"
+    },
+    {
+      "check": "rootfs export non-empty",
+      "detail": "1643 entries",
+      "ok": true,
+      "target": "X-gitea"
     }
   ],
   "failed": 0,
-  "total": 206
+  "total": 268
 }

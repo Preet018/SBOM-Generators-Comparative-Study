@@ -73,11 +73,24 @@ def check_target(c: Checker, t: dict, fat_jar_libs: set[str]):
         c.check(tid, "test-scope jars absent (no junit/mockito)",
                 not any(n.startswith(("junit", "mockito", "assertj")) for n in libs))
         c.check(tid, "INFO lombok in fat JAR?", True, any(n.startswith("lombok") for n in libs))
-    elif tid in ("J-S3-ubuntu", "J-S3-alpine", "J-S3-distroless", "J-P"):
+    elif tid == "G-S2":   # Gradle-built Spring Boot fat JAR (spring-petclinic)
+        with zipfile.ZipFile(path) as z:
+            names = z.namelist()
+            manifest = z.read("META-INF/MANIFEST.MF").decode("utf-8", "replace")
+        libs = {Path(n).name for n in names if n.startswith("BOOT-INF/lib/") and n.endswith(".jar")}
+        c.check(tid, "Gradle fat JAR has BOOT-INF/lib (>30 jars)", len(libs) > 30, len(libs))
+        c.check(tid, "developmentOnly devtools excluded from fat JAR",
+                not any(n.startswith("spring-boot-devtools") for n in libs))
+        c.check(tid, "test-scope jars absent (no junit/testcontainers)",
+                not any(n.startswith(("junit", "testcontainers", "assertj", "mockito")) for n in libs))
+        c.check(tid, "MANIFEST identifies the app (Implementation-Title spring-petclinic)",
+                "Implementation-Title: spring-petclinic" in manifest)
+        c.check(tid, "INFO embedded application SBOM in JAR", True, "Sbom-Location" in manifest)
+    elif tid in ("J-S3-ubuntu", "J-S3-alpine", "J-S3-distroless", "J-P", "G-S3-ubuntu", "G-S3-alpine", "G-S3-distroless"):
         check_java_image(c, tid, fs, layered=False)
-        if tid == "J-S3-alpine":
+        if tid in ("J-S3-alpine", "G-S3-alpine"):
             c.check(tid, "apk database present", fs.exists("lib/apk/db/installed"))
-        if tid == "J-S3-distroless":
+        if tid in ("J-S3-distroless", "G-S3-distroless"):
             c.check(tid, "distroless dpkg status.d present", bool(fs.glob(r"^var/lib/dpkg/status\.d/")))
             c.check(tid, "no shell (distroless)", not fs.exists("bin/sh"))
         if tid == "J-P":

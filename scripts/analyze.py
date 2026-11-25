@@ -16,6 +16,7 @@ import pandas as pd
 from scipy.stats import friedmanchisquare
 
 from common import RESULTS_DIR, ROOT, load_catalog, log
+from licenses import compare as compare_licenses
 from normalize import load_sbom
 from score import GTIndex, STRICT, vnorm
 
@@ -36,6 +37,29 @@ def micro(g: pd.DataFrame) -> pd.Series:
         "recall_lenient": g.tp_gt_lenient.sum() / gt if gt else None,
         "precision_strict": g.tp_tool_strict.sum() / tool if tool else None,
         "precision_lenient": g.tp_tool_lenient.sum() / tool if tool else None})
+
+
+# ----------------------------------------------------------------------------- cohorts
+def cohort(tid: str) -> str:
+    """Where a target comes from: our three projects, the OS baselines, the public Gradle subject, or the
+    pre-screened popular public images (external validity)."""
+    return {"O": "os-baselines", "G": "gradle-subject", "X": "public-images"}.get(tid.split("-")[0], "own-projects")
+
+
+def cohorts(m: pd.DataFrame) -> pd.DataFrame:
+    """RQ1 micro-averages per cohort, images and source/artifact separately: do the findings on our own projects
+    hold on independent, widely used images?"""
+    a = m[m.layer == "all"].copy()
+    a["cohort"] = a.target.map(cohort)
+    a["group"] = a.stage.map(lambda s: "images" if s in IMAGE_STAGES else "source+artifact")
+    rows = []
+    for (grp, coh, tool), g in a.groupby(["group", "cohort", "tool"]):
+        rows.append({"group": grp, "cohort": coh, "tool": tool, **micro(g).to_dict()})
+    for (grp, tool), g in a.groupby(["group", "tool"]):
+        rows.append({"group": grp, "cohort": "all", "tool": tool, **micro(g).to_dict()})
+    df = pd.DataFrame(rows)
+    df.to_csv(T / "rq1_by_cohort.csv", index=False)
+    return df
 
 
 # ----------------------------------------------------------------------------- RQ1
@@ -99,7 +123,8 @@ def rq2(m: pd.DataFrame):
                         values="recall_strict").reindex(columns=TOOLS).sort_index()
     tab.to_csv(T / "rq2_lifecycle.csv")
     # same application, application-layer only: how many of the app's OWN dependencies are found per stage
-    app_layer = {"bakery-backend": "java", "bakery-frontend": "npm", "log-anomaly": "python"}
+    app_layer = {"bakery-backend": "java", "bakery-frontend": "npm", "log-anomaly": "python",
+                 "petclinic-gradle": "java"}
     rows = []
     for subj, lyr in app_layer.items():
         s = m[(m.subject == subj) & (m.layer == lyr)]
@@ -162,11 +187,10 @@ def rq3(ms: pd.DataFrame, gts: dict, targets: dict, suffix: str = ""):
 
 
 # ----------------------------------------------------------------------------- RQ4
-def norm_lic(s: str | None) -> set:
-    if not s:
-        return set()
-    s = s.replace("(", " ").replace(")", " ")
-    return {t.strip().lower() for t in s.replace(" AND ", " OR ").replace(" and ", " OR ").split(" OR ") if t.strip()}
+# License CORRECTNESS is judged only where the ground truth states a license in a form that maps to SPDX:
+# Maven (pom.xml in the JAR), npm (package.json), PyPI (METADATA). OS package licenses (Debian copyright files,
+# rpm/apk fields) are free-form and distro-specific: for them only PRESENCE is reported.
+LICENSE_ECOS = ("maven", "npm", "pypi")
 
 
 def rq4(runs: list, gts: dict, targets: dict):
@@ -196,15 +220,18 @@ def rq4(runs: list, gts: dict, targets: dict):
                 continue
             g = idx.comps[gi]
             rc = raw_by_purl.get(c["purl"], {})
-            gl, tl = norm_lic(g.get("license")), set().union(*(norm_lic(x) for x in c["licenses"])) if c["licenses"] else set()
+            lic_class = compare_licenses(g.get("license"), c["licenses"]) if g["eco"] in LICENSE_ECOS else None
             # GT hashes: {"sha1": .., "sha256": ..} (JAR files). Tool hashes normalised to {"SHA1": .., "SHA256": ..}.
             gh, th = g.get("hashes") or {}, c.get("hashes") or {}
             comparable = [a for a in ("sha1", "sha256") if a in gh and a.upper() in th]
             hash_correct = all(th[a.upper()] == gh[a] for a in comparable) if comparable else None
             rows.append({"tool": r["tool"], "target": r["target"], "eco": g["eco"], "mechanism": g["mechanism"],
                          "purl_present": bool(c["purl"]), "purl_type_correct": c["eco"] == g["eco"],
-                         "license_present": bool(c["licenses"]), "gt_license_known": bool(gl),
-                         "license_overlap": bool(gl & tl) if gl and tl else None,
+                         "license_present": bool(c["licenses"]), "gt_license_known": bool(g.get("license")),
+                         "license_class": lic_class,
+                         "license_correct": {"equal": True, "partial": False, "conflict": False}.get(lic_class),
+                         "gt_license": g.get("license"), "tool_license": " | ".join(c["licenses"]),
+                         "key": g["key"], "version": g["version"],
                          "hash_present": bool(th), "gt_hash_known": bool(gh), "hash_correct": hash_correct,
                          "hash_algs": ",".join(sorted(th)),
                          "cpe_present": bool(c["cpes"]), "supplier_present": bool(rc.get("supplier") or rc.get("publisher") or rc.get("author"))})
@@ -212,16 +239,28 @@ def rq4(runs: list, gts: dict, targets: dict):
     agg = comp.groupby("tool").agg(
         matched=("eco", "size"), purl_present=("purl_present", "mean"), purl_type_correct=("purl_type_correct", "mean"),
         license_present=("license_present", "mean"),
-        license_correct_when_both_known=("license_overlap", lambda s: s.dropna().mean()),
-        license_comparisons=("license_overlap", lambda s: s.notna().sum()),
+        license_correct_when_both_known=("license_correct", lambda s: s.dropna().mean()),
+        license_comparisons=("license_correct", lambda s: s.notna().sum()),
         hash_present=("hash_present", "mean"),
         hash_correct_when_comparable=("hash_correct", lambda s: s.dropna().mean()),
         hash_comparisons=("hash_correct", lambda s: s.notna().sum()),
         cpe_present=("cpe_present", "mean"), supplier_present=("supplier_present", "mean")).reindex(TOOLS)
     agg.to_csv(T / "rq4_field_correctness.csv")
     comp.groupby(["tool", "eco"]).agg(n=("eco", "size"), license_present=("license_present", "mean"),
-                                      license_correct=("license_overlap", lambda s: s.dropna().mean()),
+                                      license_correct=("license_correct", lambda s: s.dropna().mean()),
                                       hash_present=("hash_present", "mean")).to_csv(T / "rq4_fields_by_eco.csv")
+    # licenses in detail: Maven / npm / PyPI correctness (SPDX-normalised), OS presence only
+    lic = comp[comp.eco.isin(LICENSE_ECOS)]
+    classes = ["equal", "partial", "conflict", "tool-none", "gt-unknown", "unmappable"]
+    t = lic.groupby(["tool", "eco"]).license_class.value_counts().unstack(fill_value=0).reindex(columns=classes, fill_value=0)
+    t["compared"] = t.equal + t.partial + t.conflict
+    t["correct"] = t.equal / t.compared
+    t["correct_or_partial"] = (t.equal + t.partial) / t.compared
+    t["present_when_gt_known"] = 1 - t["tool-none"] / (t.compared + t["tool-none"] + t.unmappable)
+    t.to_csv(T / "rq4_licenses.csv")
+    comp[~comp.eco.isin(LICENSE_ECOS)].groupby(["tool", "eco"]).license_present.mean().unstack()         .reindex(TOOLS).to_csv(T / "rq4_licenses_os_presence.csv")
+    lic[lic.license_class.isin(["equal", "partial", "conflict"])][
+        ["tool", "target", "eco", "key", "version", "gt_license", "tool_license", "license_class"]]         .to_csv(T / "rq4_license_comparisons.csv", index=False)
     d = pd.DataFrame(docs)
     d.groupby("tool").mean(numeric_only=True).reindex(TOOLS).to_csv(T / "rq4_document_elements.csv")
     return agg, d
@@ -247,7 +286,8 @@ def rq4_formats(runs: list, targets: dict):
             continue
         spdx_rec = next((x for x in runs if x["config"] == "default" and x["rep"] == 1 and x["tool"] == r["tool"]
                          and x["target"] == r["target"] and (x.get("outputs") or {}).get("spdx")), None)
-        if spdx_rec is None:
+        if spdx_rec is None or not (ROOT / cdx_out["path"]).exists() \
+                or not (ROOT / spdx_rec["outputs"]["spdx"]["path"]).exists():   # a run in progress
             continue
         a = load_sbom(ROOT / cdx_out["path"])["components"]
         b = load_sbom(ROOT / spdx_rec["outputs"]["spdx"]["path"])["components"]
@@ -326,6 +366,9 @@ def main() -> int:
     log("== RQ1 by layer ==\n" + by_layer[["gt_components", "recall_strict", "precision_strict"]].round(3).to_string())
     tests = component_tests(ms, gts, {t for t, v in targets.items() if v["stage"] in IMAGE_STAGES})
     log("== RQ1 component-level tests (images) ==\n" + tests.to_string())
+    coh = cohorts(m)
+    log("== RQ1 by cohort (micro) ==\n" + coh.pivot_table(index=["group", "cohort"], columns="tool",
+        values="recall_strict").reindex(columns=TOOLS).round(3).to_string())
     rq2(m)
     img_t = {k: v for k, v in targets.items() if v["stage"] in IMAGE_STAGES}
     src_t = {k: v for k, v in targets.items() if v["stage"] not in IMAGE_STAGES}

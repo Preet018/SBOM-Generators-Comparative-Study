@@ -9,6 +9,8 @@ Each job: wait until a probe shows Maven Central answering normally, run the job
 (cdxgen: >0 hash-comparison identifications; trivy: exit 0). A job that ran degraded is retried later.
 
 Usage: python scripts/rerun_online.py [--gap-minutes 35]
+       python scripts/rerun_online.py --targets G-S2 X-keycloak --reps 1 2 [--config best]
+       (jobs already verified online are skipped)
 """
 from __future__ import annotations
 
@@ -52,6 +54,12 @@ def probe(tool: str) -> int:
 JAVA_NET_TARGETS = ["J-S2", "J-S3-ubuntu", "J-S3-alpine", "J-S3-distroless", "J-S3-layered", "J-P"]
 
 
+# Full number of hash-comparison identifications per target, measured on runs with an unthrottled network.
+# A run that hits the rate limit PART-WAY stops looking up (cdxgen gives up after one error) and ends with fewer:
+# such a run is degraded too, and would later look like tool non-determinism.
+EXPECTED_LOOKUPS: dict[str, int] = {}
+
+
 def job_ok(tool: str, target: str, rep: int, config: str = "default") -> tuple[bool, str]:
     runs = json.loads((RESULTS_DIR / "tool_runs.json").read_text(encoding="utf-8"))["runs"]
     recs = [r for r in runs if r["config"] == config and r["tool"] == tool and r["target"] == target
@@ -60,7 +68,8 @@ def job_ok(tool: str, target: str, rep: int, config: str = "default") -> tuple[b
         return False, f"status={[r['status'] for r in recs]}"
     if tool == "cdxgen":
         n = hash_lookups(ROOT / recs[0]["outputs"]["cyclonedx"]["path"])
-        return n > 0, f"hash-comparison identifications={n}"
+        need = EXPECTED_LOOKUPS.get(target, 1)
+        return n >= need, f"hash-comparison identifications={n} (need {need})"
     return True, "exit 0"
 
 
@@ -69,10 +78,22 @@ def main() -> int:
     ap.add_argument("--gap-minutes", type=float, default=50)   # observed Retry-After: 2684 s (~45 min)
     ap.add_argument("--max-attempts", type=int, default=3)
     ap.add_argument("--config", choices=["default", "best"], default="default")
+    ap.add_argument("--targets", nargs="+", help="cdxgen jobs for these targets (with --reps) instead of JOBS")
+    ap.add_argument("--reps", nargs="+", type=int, default=[1])
+    ap.add_argument("--expect", nargs="+", default=[], metavar="TARGET=N",
+                    help="full hash-lookup count per target; a run with fewer is degraded")
     ap.add_argument("--java-cdxgen-rep1", action="store_true",
                     help="job list = cdxgen rep1 on the 6 network-dependent Java targets (instead of JOBS)")
     args = ap.parse_args()
-    pending = [("cdxgen", t, 1) for t in JAVA_NET_TARGETS] if args.java_cdxgen_rep1 else list(JOBS)
+    EXPECTED_LOOKUPS.update({k: int(v) for k, v in (e.split("=") for e in args.expect)})
+    if args.targets:
+        pending = [("cdxgen", t, r) for r in args.reps for t in args.targets]
+        done = [j for j in pending if job_ok(*j, args.config)[0]]
+        for j in done:
+            log(f"already verified online, skipped: {j} ({job_ok(*j, args.config)[1]})")
+        pending = [j for j in pending if j not in done]
+    else:
+        pending = [("cdxgen", t, 1) for t in JAVA_NET_TARGETS] if args.java_cdxgen_rep1 else list(JOBS)
     attempts: dict[tuple, int] = {}
     last_run = 0.0
     while pending:

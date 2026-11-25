@@ -1,0 +1,755 @@
+{
+  "candidates": {
+    "airflow": {
+      "image": {
+        "created": "2026-11-06T12:38:49.272514057Z",
+        "digest": "apache/airflow@sha256:371c258d67cd0a34bac60a28c940b65968b98dff2554e12b981f1df75b4be570",
+        "image_id": "sha256:371c258d67cd0a34bac60a28c940b65968b98dff2554e12b981f1df75b4be570",
+        "ref": "apache/airflow:slim-latest",
+        "size_mb": 262,
+        "version_env": {
+          "AIRFLOW_PIP_VERSION": "26.2.2",
+          "AIRFLOW_PYTHON_VERSION": "3.13.18",
+          "AIRFLOW_UV_VERSION": "0.13.6",
+          "AIRFLOW_VERSION": "3.4.0",
+          "PYTHON_VERSION": "3.13.18"
+        },
+        "version_labels": {
+          "com.docker.dhi.version": "3.13.18-debian13-dev",
+          "org.apache.airflow.python.version": "3.13.18",
+          "org.apache.airflow.version": "3.4.0",
+          "org.opencontainers.image.version": "3.4.0"
+        }
+      },
+      "inventory": {
+        "bundled_js_examples": [
+          "home/airflow/.local/lib/python3.13/site-packages/airflow/api_fastapi/auth/managers/simple/ui/dist/assets/index-D1l3b0BL.js",
+          "home/airflow/.local/lib/python3.13/site-packages/airflow/ui/dist/assets/chunk-NGNAAXSQ-DI_UYJZ4.js",
+          "home/airflow/.local/lib/python3.13/site-packages/airflow/ui/dist/assets/cytoscape.esm-CVyW_ZDf.js",
+          "home/airflow/.local/lib/python3.13/site-packages/airflow/ui/dist/assets/editor.api-CijLWgIw.js"
+        ],
+        "counts": {
+          "UNSUPPORTED:rust-auditable": 3,
+          "UNSUPPORTED:rust-binary": 5,
+          "golang:binaries": 1,
+          "golang:modules": 84,
+          "npm:bundled-js>300KB": 11,
+          "os:dpkg": 1,
+          "os:dpkg-status.d": 94,
+          "pypi:dist-info": 152
+        },
+        "go_binaries": [
+          "usr/bin/docker (go1.26.10, 83 deps)"
+        ]
+      },
+      "tools": {
+        "cdxgen": {
+          "components": 1341,
+          "exit": 0,
+          "purl_types": {
+            "cargo": 906,
+            "deb": 294,
+            "generic": 1,
+            "pypi": 140
+          },
+          "seconds": 81.4,
+          "unsupported": 906
+        },
+        "syft": {
+          "components": 2810,
+          "exit": 0,
+          "purl_types": {
+            "(no purl)": 6,
+            "cargo": 2357,
+            "deb": 210,
+            "golang": 85,
+            "pypi": 152
+          },
+          "seconds": 20.9,
+          "unsupported": 2357
+        },
+        "trivy": {
+          "components": 2727,
+          "exit": 0,
+          "purl_types": {
+            "(no purl)": 5,
+            "cargo": 2357,
+            "deb": 210,
+            "pypi": 155
+          },
+          "seconds": 99.9,
+          "unsupported": 2357
+        }
+      }
+    },
+    "ghost": {
+      "image": {
+        "created": "2026-11-17T19:46:13.082660709Z",
+        "digest": "ghost@sha256:baa6dbff91a28ba36c526d1f6e761deb2efe3c238c630c3f318b62f258c2d76e",
+        "image_id": "sha256:baa6dbff91a28ba36c526d1f6e761deb2efe3c238c630c3f318b62f258c2d76e",
+        "ref": "ghost:6-alpine",
+        "size_mb": 236,
+        "version_env": {
+          "GHOST_CLI_VERSION": "1.34.1",
+          "GHOST_VERSION": "6.78.0",
+          "GOSU_VERSION": "1.19",
+          "NODE_VERSION": "22.23.5",
+          "YARN_VERSION": "1.22.22"
+        },
+        "version_labels": {}
+      },
+      "inventory": {
+        "bundled_js_examples": [
+          "opt/yarn-v1.22.22/lib/cli.js",
+          "var/lib/ghost/versions/6.78.0/core/built/admin/assets/chart-Cf6NuIj-.js",
+          "var/lib/ghost/versions/6.78.0/core/built/admin/assets/dist-Bi9qob2Z.js",
+          "var/lib/ghost/versions/6.78.0/core/built/admin/assets/editor-DYb6jaJg.js"
+        ],
+        "counts": {
+          "golang:binaries": 2,
+          "golang:modules": 12,
+          "npm:bundled-js>300KB": 11,
+          "npm:node_modules-pkg": 1455,
+          "os:apk": 1
+        },
+        "go_binaries": [
+          "usr/local/bin/gosu (go1.24.6, 2 deps)",
+          "var/lib/ghost/.pnpm-store/v11/files/27/6de1cebc5745bf025c70d8d2cb8721bb1180bbde252bede2726933a1f704a47e0643f9eccf85e43fee80280c7803216414db32912c09f09a8e29f6e910a289-exec (go1.26.4, 8 deps)"
+        ]
+      },
+      "tools": {
+        "cdxgen": {
+          "components": 242,
+          "exit": 0,
+          "purl_types": {
+            "(no purl)": 2,
+            "apk": 29,
+            "generic": 5,
+            "golang": 12,
+            "npm": 194
+          },
+          "seconds": 242.4,
+          "unsupported": 0
+        },
+        "syft": {
+          "components": 1549,
+          "exit": 0,
+          "purl_types": {
+            "(no purl)": 4,
+            "apk": 23,
+            "generic": 1,
+            "golang": 24,
+            "npm": 1497
+          },
+          "seconds": 36.3,
+          "unsupported": 0
+        },
+        "trivy": {
+          "components": 517,
+          "exit": 0,
+          "purl_types": {
+            "(no purl)": 2,
+            "apk": 23,
+            "golang": 14,
+            "npm": 478
+          },
+          "seconds": 49.3,
+          "unsupported": 0
+        }
+      }
+    },
+    "gitea": {
+      "image": {
+        "created": "2026-11-15T19:17:02.121738157Z",
+        "digest": "gitea/gitea@sha256:aa90e8f00b755b0d665214ab9c14447ea44d3190dbe6b6d0cb46cd9c4f55d309",
+        "image_id": "sha256:aa90e8f00b755b0d665214ab9c14447ea44d3190dbe6b6d0cb46cd9c4f55d309",
+        "ref": "gitea/gitea:latest",
+        "size_mb": 72,
+        "version_env": {},
+        "version_labels": {}
+      },
+      "inventory": {
+        "counts": {
+          "golang:binaries": 1,
+          "golang:modules": 218,
+          "os:apk": 1
+        },
+        "go_binaries": [
+          "app/gitea/gitea (go1.27.4, 217 deps)"
+        ]
+      },
+      "tools": {
+        "cdxgen": {
+          "components": 321,
+          "exit": 0,
+          "purl_types": {
+            "(no purl)": 1,
+            "apk": 102,
+            "golang": 218
+          },
+          "seconds": 11.4,
+          "unsupported": 0
+        },
+        "syft": {
+          "components": 306,
+          "exit": 0,
+          "purl_types": {
+            "apk": 87,
+            "golang": 219
+          },
+          "seconds": 7.9,
+          "unsupported": 0
+        },
+        "trivy": {
+          "components": 307,
+          "exit": 0,
+          "purl_types": {
+            "(no purl)": 1,
+            "apk": 87,
+            "golang": 219
+          },
+          "seconds": 15.3,
+          "unsupported": 0
+        }
+      }
+    },
+    "grafana": {
+      "image": {
+        "created": "2026-06-02T11:40:36.568853761Z",
+        "digest": "grafana/grafana-oss@sha256:5dad0df181cb644a14e13617b913b261a54f7d4fd4510721dba420929f35bea2",
+        "image_id": "sha256:5dad0df181cb644a14e13617b913b261a54f7d4fd4510721dba420929f35bea2",
+        "ref": "grafana/grafana-oss:latest",
+        "size_mb": 352,
+        "version_env": {},
+        "version_labels": {}
+      },
+      "inventory": {
+        "bundled_js_examples": [
+          "usr/share/grafana/data/plugins-bundled/elasticsearch/module.js",
+          "usr/share/grafana/public/app/plugins/datasource/azuremonitor/dist/module.js",
+          "usr/share/grafana/public/app/plugins/datasource/grafana-postgresql-datasource/dist/module.js",
+          "usr/share/grafana/public/app/plugins/datasource/loki/dist/module.js"
+        ],
+        "counts": {
+          "golang:binaries": 1,
+          "golang:modules": 117,
+          "npm:bundled-js>300KB": 85,
+          "os:apk": 1
+        },
+        "go_binaries": [
+          "usr/share/grafana/data/plugins-bundled/elasticsearch/gpx_grafana_elasticsearch_datasource_linux_amd64 (go1.26.2, 116 deps)"
+        ]
+      },
+      "tools": {
+        "cdxgen": {
+          "components": 635,
+          "exit": 0,
+          "purl_types": {
+            "(no purl)": 2,
+            "apk": 41,
+            "golang": 578,
+            "npm": 14
+          },
+          "seconds": 62.4,
+          "unsupported": 0
+        },
+        "syft": {
+          "components": 712,
+          "exit": 0,
+          "purl_types": {
+            "apk": 33,
+            "generic": 1,
+            "golang": 664,
+            "npm": 14
+          },
+          "seconds": 64.3,
+          "unsupported": 0
+        },
+        "trivy": {
+          "components": 713,
+          "exit": 0,
+          "purl_types": {
+            "(no purl)": 3,
+            "apk": 33,
+            "golang": 663,
+            "npm": 14
+          },
+          "seconds": 150.0,
+          "unsupported": 0
+        }
+      }
+    },
+    "jenkins": {
+      "image": {
+        "created": "2026-10-28T13:36:08.978732005Z",
+        "digest": "jenkins/jenkins@sha256:74401de6a6f92e1afe1b02d1c8e3d0c33f263bfb5275dd8813f9150355f2367b",
+        "image_id": "sha256:74401de6a6f92e1afe1b02d1c8e3d0c33f263bfb5275dd8813f9150355f2367b",
+        "ref": "jenkins/jenkins:lts-jdk21",
+        "size_mb": 244,
+        "version_env": {
+          "JENKINS_VERSION": "2.580.2"
+        },
+        "version_labels": {
+          "org.opencontainers.image.version": "2.580.2"
+        }
+      },
+      "inventory": {
+        "counts": {
+          "golang:binaries": 1,
+          "golang:modules": 29,
+          "java:archives": 3,
+          "java:nested": 79,
+          "java:nested_no_pom": 21,
+          "java:no_pom": 1,
+          "os:dpkg": 1,
+          "runtime:java-release": 1
+        },
+        "go_binaries": [
+          "usr/local/bin/git-lfs (go1.27.3, 29 deps)"
+        ],
+        "java_no_pom_examples": [
+          "opt/java/openjdk/lib/jrt-fs.jar"
+        ]
+      },
+      "tools": {
+        "cdxgen": {
+          "components": 304,
+          "exit": 0,
+          "purl_types": {
+            "(no purl)": 1,
+            "deb": 196,
+            "golang": 29,
+            "maven": 78
+          },
+          "seconds": 85.1,
+          "unsupported": 0
+        },
+        "syft": {
+          "components": 318,
+          "exit": 0,
+          "purl_types": {
+            "deb": 131,
+            "generic": 1,
+            "golang": 30,
+            "maven": 156
+          },
+          "seconds": 16.3,
+          "unsupported": 0
+        },
+        "trivy": {
+          "components": 317,
+          "exit": 0,
+          "purl_types": {
+            "(no purl)": 1,
+            "deb": 131,
+            "golang": 30,
+            "maven": 155
+          },
+          "seconds": 123.1,
+          "unsupported": 0
+        }
+      }
+    },
+    "keycloak": {
+      "image": {
+        "created": "2026-11-19T07:39:40.968098882Z",
+        "digest": "quay.io/keycloak/keycloak@sha256:7e66a96e4739239070aeaf72e4c5decf0f7f682cfc725b9f7ea2b336eaba38b3",
+        "image_id": "sha256:7e66a96e4739239070aeaf72e4c5decf0f7f682cfc725b9f7ea2b336eaba38b3",
+        "ref": "quay.io/keycloak/keycloak:latest",
+        "size_mb": 265,
+        "version_env": {},
+        "version_labels": {
+          "io.buildah.version": "1.45.0",
+          "org.opencontainers.image.version": "26.8.2",
+          "version": "26.8.2"
+        }
+      },
+      "inventory": {
+        "counts": {
+          "java:archives": 484,
+          "java:nested": 0,
+          "java:nested_no_pom": 0,
+          "java:no_pom": 79,
+          "os:rpm": 1,
+          "runtime:java-release": 1
+        },
+        "java_no_pom_examples": [
+          "opt/keycloak/bin/client/lib/bcprov-jdk18on-1.86.jar",
+          "opt/keycloak/lib/lib/deployment/org.graalvm.sdk.nativeimage-25.0.4.1.jar",
+          "opt/keycloak/lib/lib/deployment/org.graalvm.sdk.word-25.0.4.1.jar",
+          "opt/keycloak/lib/lib/main/com.github.ben-manes.caffeine.caffeine-3.2.4.jar",
+          "opt/keycloak/lib/lib/main/com.github.ben-manes.caffeine.jcache-3.2.4.jar",
+          "opt/keycloak/lib/lib/main/com.google.protobuf.protobuf-java-4.35.0.jar",
+          "opt/keycloak/lib/lib/main/com.h2database.h2-2.4.240.jar",
+          "opt/keycloak/lib/lib/main/com.mysql.mysql-connector-j-9.7.0.jar"
+        ]
+      },
+      "tools": {
+        "cdxgen": {
+          "components": 531,
+          "exit": 0,
+          "purl_types": {
+            "maven": 475,
+            "rpm": 56
+          },
+          "seconds": 344.7,
+          "unsupported": 0
+        },
+        "syft": {
+          "components": 561,
+          "exit": 0,
+          "purl_types": {
+            "maven": 517,
+            "rpm": 44
+          },
+          "seconds": 25.9,
+          "unsupported": 0
+        },
+        "trivy": {
+          "components": 559,
+          "exit": 0,
+          "purl_types": {
+            "maven": 515,
+            "rpm": 44
+          },
+          "seconds": 53.8,
+          "unsupported": 0
+        }
+      }
+    },
+    "mysql": {
+      "image": {
+        "created": "2026-11-03T00:28:00.628827072Z",
+        "digest": "mysql@sha256:a81d043930e51745522bd5c430961cf8286f0a23f0a9a2a6e0108f7ea71b0902",
+        "image_id": "sha256:a81d043930e51745522bd5c430961cf8286f0a23f0a9a2a6e0108f7ea71b0902",
+        "ref": "mysql:8.4",
+        "size_mb": 238,
+        "version_env": {
+          "GOSU_VERSION": "1.19",
+          "MYSQL_SHELL_VERSION": "8.4.10-1.el9",
+          "MYSQL_VERSION": "8.4.13-1.el9"
+        },
+        "version_labels": {}
+      },
+      "inventory": {
+        "counts": {
+          "golang:binaries": 1,
+          "golang:modules": 3,
+          "os:rpm": 2,
+          "pypi:dist-info": 20
+        },
+        "go_binaries": [
+          "usr/local/bin/gosu (go1.24.6, 2 deps)"
+        ]
+      },
+      "tools": {
+        "cdxgen": {
+          "components": 216,
+          "exit": 0,
+          "purl_types": {
+            "(no purl)": 1,
+            "cargo": 47,
+            "golang": 3,
+            "pypi": 20,
+            "rpm": 145
+          },
+          "seconds": 116.4,
+          "unsupported": 47
+        },
+        "syft": {
+          "components": 141,
+          "exit": 0,
+          "purl_types": {
+            "golang": 4,
+            "pypi": 20,
+            "rpm": 117
+          },
+          "seconds": 29.5,
+          "unsupported": 0
+        },
+        "trivy": {
+          "components": 142,
+          "exit": 0,
+          "purl_types": {
+            "(no purl)": 1,
+            "golang": 4,
+            "pypi": 20,
+            "rpm": 117
+          },
+          "seconds": 56.1,
+          "unsupported": 0
+        }
+      }
+    },
+    "node": {
+      "image": {
+        "created": "2026-11-11T18:43:57.116964803Z",
+        "digest": "node@sha256:e9f565d32859f0cbfb52125eafe8be39390f24dac302dc3cdf566e8ba3ab21ee",
+        "image_id": "sha256:e9f565d32859f0cbfb52125eafe8be39390f24dac302dc3cdf566e8ba3ab21ee",
+        "ref": "node:22-slim",
+        "size_mb": 80,
+        "version_env": {
+          "NODE_VERSION": "22.23.5",
+          "YARN_VERSION": "1.22.22"
+        },
+        "version_labels": {}
+      },
+      "inventory": {
+        "bundled_js_examples": [
+          "opt/yarn-v1.22.22/lib/cli.js"
+        ],
+        "counts": {
+          "npm:bundled-js>300KB": 1,
+          "npm:node_modules-pkg": 197,
+          "os:dpkg": 1
+        }
+      },
+      "tools": {
+        "cdxgen": {
+          "components": 317,
+          "exit": 0,
+          "purl_types": {
+            "deb": 130,
+            "npm": 187
+          },
+          "seconds": 29.8,
+          "unsupported": 0
+        },
+        "syft": {
+          "components": 287,
+          "exit": 0,
+          "purl_types": {
+            "deb": 88,
+            "generic": 1,
+            "npm": 198
+          },
+          "seconds": 12.5,
+          "unsupported": 0
+        },
+        "trivy": {
+          "components": 286,
+          "exit": 0,
+          "purl_types": {
+            "deb": 88,
+            "npm": 198
+          },
+          "seconds": 10.3,
+          "unsupported": 0
+        }
+      }
+    },
+    "postgres": {
+      "image": {
+        "created": "2026-11-18T21:29:02.679766859Z",
+        "digest": "postgres@sha256:223efeb196329b55b3b9a13db144956411dbc18e727e59f681c3e0aede6475cf",
+        "image_id": "sha256:223efeb196329b55b3b9a13db144956411dbc18e727e59f681c3e0aede6475cf",
+        "ref": "postgres:17",
+        "size_mb": 167,
+        "version_env": {
+          "GOSU_VERSION": "1.20",
+          "PG_VERSION": "17.12-1.pgdg13+1"
+        },
+        "version_labels": {}
+      },
+      "inventory": {
+        "counts": {
+          "golang:binaries": 1,
+          "golang:modules": 3,
+          "os:dpkg": 1
+        },
+        "go_binaries": [
+          "usr/local/bin/gosu (go1.24.6, 2 deps)"
+        ]
+      },
+      "tools": {
+        "cdxgen": {
+          "components": 213,
+          "exit": 0,
+          "purl_types": {
+            "(no purl)": 1,
+            "deb": 209,
+            "golang": 3
+          },
+          "seconds": 45.7,
+          "unsupported": 0
+        },
+        "syft": {
+          "components": 149,
+          "exit": 0,
+          "purl_types": {
+            "deb": 145,
+            "golang": 4
+          },
+          "seconds": 17.5,
+          "unsupported": 0
+        },
+        "trivy": {
+          "components": 150,
+          "exit": 0,
+          "purl_types": {
+            "(no purl)": 1,
+            "deb": 145,
+            "golang": 4
+          },
+          "seconds": 108.2,
+          "unsupported": 0
+        }
+      }
+    },
+    "prometheus": {
+      "image": {
+        "created": "2026-11-05T15:43:10.325824601Z",
+        "digest": "prom/prometheus@sha256:e04987641b57704f408e31f6373ba4138ecf27cb4a165d24aabb6c38fddd0f06",
+        "image_id": "sha256:e04987641b57704f408e31f6373ba4138ecf27cb4a165d24aabb6c38fddd0f06",
+        "ref": "prom/prometheus:latest",
+        "size_mb": 116,
+        "version_env": {},
+        "version_labels": {}
+      },
+      "inventory": {
+        "counts": {
+          "golang:binaries": 2,
+          "golang:modules": 439
+        },
+        "go_binaries": [
+          "bin/prometheus (go1.27.3, 240 deps)",
+          "bin/promtool (go1.27.3, 197 deps)"
+        ]
+      },
+      "tools": {
+        "cdxgen": {
+          "components": 243,
+          "exit": 0,
+          "purl_types": {
+            "(no purl)": 1,
+            "golang": 242
+          },
+          "seconds": 12.0,
+          "unsupported": 0
+        },
+        "syft": {
+          "components": 442,
+          "exit": 0,
+          "purl_types": {
+            "generic": 1,
+            "golang": 441
+          },
+          "seconds": 12.0,
+          "unsupported": 0
+        },
+        "trivy": {
+          "components": 443,
+          "exit": 0,
+          "purl_types": {
+            "(no purl)": 2,
+            "golang": 441
+          },
+          "seconds": 47.0,
+          "unsupported": 0
+        }
+      }
+    },
+    "python": {
+      "image": {
+        "created": "2026-11-05T08:02:05.509998459Z",
+        "digest": "python@sha256:e48f59cdba69a3cbd9ed2cf0f348d90d45a8d350d98134cf1070bc106ee9ed90",
+        "image_id": "sha256:e48f59cdba69a3cbd9ed2cf0f348d90d45a8d350d98134cf1070bc106ee9ed90",
+        "ref": "python:3.13-slim",
+        "size_mb": 43,
+        "version_env": {
+          "PYTHON_VERSION": "3.13.18"
+        },
+        "version_labels": {}
+      },
+      "inventory": {
+        "counts": {
+          "os:dpkg": 1,
+          "pypi:dist-info": 1
+        }
+      },
+      "tools": {
+        "cdxgen": {
+          "components": 129,
+          "exit": 0,
+          "purl_types": {
+            "deb": 128,
+            "pypi": 1
+          },
+          "seconds": 22.3,
+          "unsupported": 0
+        },
+        "syft": {
+          "components": 95,
+          "exit": 0,
+          "purl_types": {
+            "(no purl)": 6,
+            "deb": 87,
+            "generic": 1,
+            "pypi": 1
+          },
+          "seconds": 6.7,
+          "unsupported": 0
+        },
+        "trivy": {
+          "components": 106,
+          "exit": 0,
+          "purl_types": {
+            "deb": 87,
+            "pypi": 19
+          },
+          "seconds": 5.8,
+          "unsupported": 0
+        }
+      }
+    },
+    "redis": {
+      "image": {
+        "created": "2026-11-05T07:36:42.330039317Z",
+        "digest": "redis@sha256:1f88291b4c57bdf249f02eb085a8669889b2d2954e91d4de5118a5da6b78dd53",
+        "image_id": "sha256:1f88291b4c57bdf249f02eb085a8669889b2d2954e91d4de5118a5da6b78dd53",
+        "ref": "redis:8",
+        "size_mb": 56,
+        "version_env": {
+          "REDIS_VERSION": "8.10.3"
+        },
+        "version_labels": {}
+      },
+      "inventory": {
+        "counts": {
+          "UNSUPPORTED:rust-binary": 2,
+          "os:dpkg": 1
+        }
+      },
+      "tools": {
+        "cdxgen": {
+          "components": 116,
+          "exit": 0,
+          "purl_types": {
+            "deb": 116
+          },
+          "seconds": 18.4,
+          "unsupported": 0
+        },
+        "syft": {
+          "components": 79,
+          "exit": 0,
+          "purl_types": {
+            "deb": 78,
+            "generic": 1
+          },
+          "seconds": 6.6,
+          "unsupported": 0
+        },
+        "trivy": {
+          "components": 78,
+          "exit": 0,
+          "purl_types": {
+            "deb": 78
+          },
+          "seconds": 21.6,
+          "unsupported": 0
+        }
+      }
+    }
+  }
+}

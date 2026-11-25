@@ -25,6 +25,18 @@
       "target": "J-P"
     },
     {
+      "check": "deb packages (dpkg-query): GT == oracle (140 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "G-S3-ubuntu"
+    },
+    {
+      "check": "apk packages (apk info -v): GT == oracle (73 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "G-S3-alpine"
+    },
+    {
       "check": "apk packages (apk info -v): GT == oracle (72 items)",
       "detail": "oracle-only=[] gt-only=[]",
       "ok": true,
@@ -115,6 +127,42 @@
       "target": "O-ubi"
     },
     {
+      "check": "deb packages (dpkg-query): GT == oracle (145 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "X-postgres"
+    },
+    {
+      "check": "rpm packages (rpm -qa): GT == oracle (117 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "X-mysql"
+    },
+    {
+      "check": "deb packages (dpkg-query): GT == oracle (131 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "X-jenkins"
+    },
+    {
+      "check": "apk packages (apk info -v): GT == oracle (23 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "X-ghost"
+    },
+    {
+      "check": "deb packages (dpkg-query): GT == oracle (208 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "X-airflow"
+    },
+    {
+      "check": "apk packages (apk info -v): GT == oracle (87 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "X-gitea"
+    },
+    {
       "check": "pip-installed Python packages (pip list): GT == oracle (31 items)",
       "detail": "oracle-only=[] gt-only=[]",
       "ok": true,
@@ -157,6 +205,90 @@
       "target": "N-S3-node"
     },
     {
+      "check": "Python dists in /usr/lib/mysqlsh/lib/python3.13/site-packages (importlib.metadata in python:3.13-slim): GT == oracle (20 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "X-mysql"
+    },
+    {
+      "check": "Python dists in /home/airflow/.local/lib/python3.13/site-packages (image's python3): GT == oracle (135 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "X-airflow"
+    },
+    {
+      "check": "Python dists in /home/airflow/.local/share/uv/tools/prek/lib/python3.13/site-packages (image's python3): GT == oracle (2 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "X-airflow"
+    },
+    {
+      "check": "Python dists in /usr/lib/python3/dist-packages (image's python3): GT == oracle (3 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "X-airflow"
+    },
+    {
+      "check": "pnpm-installed packages of /usr/local/lib/ghost-cli (lock.yaml minus skipped): GT == oracle (264 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "X-ghost"
+    },
+    {
+      "check": "pnpm-installed packages of /var/lib/ghost/versions/6.78.0 (lock.yaml minus skipped): GT == oracle (994 items)",
+      "detail": "oracle-only=[] gt-only=[]",
+      "ok": true,
+      "target": "X-ghost"
+    },
+    {
+      "check": "rpm names == rpmdb.sqlite Name index (44 names, 44 headers; no rpm binary in image)",
+      "detail": "db-only=[] gt-only=[] headers=44 gt=44",
+      "ok": true,
+      "target": "X-keycloak"
+    },
+    {
+      "check": "busybox version == running `busybox` banner (BusyBox v1.38.0 (2026-05-13 02:21:49 UTC)",
+      "detail": "gt=1.38.0",
+      "ok": true,
+      "target": "X-prometheus"
+    },
+    {
+      "check": "every resolved pom-less JAR identity is repository-confirmed (95)",
+      "detail": "",
+      "ok": true,
+      "target": "X-*"
+    },
+    {
+      "check": "WAR WEB-INF/lib == mvn dependency:list of jenkins-war minus banned commons-logging (78)",
+      "detail": "war-only=[] mvn-only=[]",
+      "ok": true,
+      "target": "X-jenkins"
+    },
+    {
+      "check": "every primary Maven record has a groupId",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-jenkins"
+    },
+    {
+      "check": "identity-unresolved JARs are only the documented ones (1)",
+      "detail": "['jenkins-plugin-manager']",
+      "ok": true,
+      "target": "X-jenkins"
+    },
+    {
+      "check": "every primary Maven record has a groupId",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-keycloak"
+    },
+    {
+      "check": "identity-unresolved JARs are only the documented ones (3)",
+      "detail": "['generated-bytecode', 'quarkus-run', 'transformed-bytecode']",
+      "ok": true,
+      "target": "X-keycloak"
+    },
+    {
       "check": "Go deps of usr/local/bin/yq == go version -m (21 deps, go1.22.5)",
       "detail": "ours-only=[] official-only=[] go=go1.22.5/go1.22.5",
       "ok": true,
@@ -179,6 +311,60 @@
       "detail": "ours-only=[] official-only=[] go=go1.27.3/go1.27.3",
       "ok": true,
       "target": "J-S3-ubuntu"
+    },
+    {
+      "check": "Go deps of usr/local/bin/gosu == go version -m (2 deps, go1.24.6)",
+      "detail": "ours-only=[] official-only=[] go=go1.24.6/go1.24.6",
+      "ok": true,
+      "target": "X-postgres"
+    },
+    {
+      "check": "Go deps of usr/local/bin/gosu == go version -m (2 deps, go1.24.6)",
+      "detail": "ours-only=[] official-only=[] go=go1.24.6/go1.24.6",
+      "ok": true,
+      "target": "X-mysql"
+    },
+    {
+      "check": "Go deps of usr/local/bin/git-lfs == go version -m (29 deps, go1.27.3)",
+      "detail": "ours-only=[] official-only=[] go=go1.27.3/go1.27.3",
+      "ok": true,
+      "target": "X-jenkins"
+    },
+    {
+      "check": "Go deps of usr/local/bin/gosu == go version -m (2 deps, go1.24.6)",
+      "detail": "ours-only=[] official-only=[] go=go1.24.6/go1.24.6",
+      "ok": true,
+      "target": "X-ghost"
+    },
+    {
+      "check": "Go deps of var/lib/ghost/.pnpm-store/v11/files/27/6de1cebc5745bf025c70d8d2cb8721bb1180bbde252bede2726933a1f704a47e0643f9eccf85e43fee80280c7803216414db32912c09f09a8e29f6e910a289-exec == go version -m (8 deps, go1.26.4)",
+      "detail": "ours-only=[] official-only=[] go=go1.26.4/go1.26.4",
+      "ok": true,
+      "target": "X-ghost"
+    },
+    {
+      "check": "Go deps of usr/bin/docker == go version -m (83 deps, go1.26.10)",
+      "detail": "ours-only=[] official-only=[] go=go1.26.10/go1.26.10",
+      "ok": true,
+      "target": "X-airflow"
+    },
+    {
+      "check": "Go deps of bin/prometheus == go version -m (240 deps, go1.27.3)",
+      "detail": "ours-only=[] official-only=[] go=go1.27.3/go1.27.3",
+      "ok": true,
+      "target": "X-prometheus"
+    },
+    {
+      "check": "Go deps of bin/promtool == go version -m (197 deps, go1.27.3)",
+      "detail": "ours-only=[] official-only=[] go=go1.27.3/go1.27.3",
+      "ok": true,
+      "target": "X-prometheus"
+    },
+    {
+      "check": "Go deps of app/gitea/gitea == go version -m (217 deps, go1.27.4)",
+      "detail": "ours-only=[] official-only=[] go=go1.27.4/go1.27.4",
+      "ok": true,
+      "target": "X-gitea"
     },
     {
       "check": "ELF DT_NEEDED parser == readelf ['libc.so.6']",
@@ -223,6 +409,66 @@
       "target": "J-P"
     },
     {
+      "check": "Gradle: nested JARs == productionRuntimeClasspath - starters + jarmode-tools",
+      "detail": "missing=[] extra=[]",
+      "ok": true,
+      "target": "G-S2"
+    },
+    {
+      "check": "Gradle: app identity from MANIFEST + build.gradle",
+      "detail": "[{'alt_names': [], 'eco': 'maven', 'evidence': 'MANIFEST Implementation-Title/-Version + groupId from build.gradle', 'hashes': {'sha1': '8e9fadb25bbdd85e4c55fa6dcae52973dbb16e31', 'sha256': '5176b91010124c19aa0ca296fdb2f75f06ee03d26a4a3f2c44bb89988d1be944'}, 'instances': 1, 'key': 'maven:org.springframework.samples:spring-petclinic', 'license': None, 'mechanism': 'self', 'mechanisms': ['self'], 'name': 'spring-petclinic', 'namespace': 'org.springframework.samples', 'paths': ['app.jar'], 'purl': 'pkg:maven/org.springframework.samples/spring-petclinic@4.0.0-SNAPSHOT', 'qualifiers': {}, 'scope': None, 'tier': 'secondary', 'version': '4.0.0-SNAPSHOT'}]",
+      "ok": true,
+      "target": "G-S2"
+    },
+    {
+      "check": "Gradle: nested JARs == productionRuntimeClasspath - starters + jarmode-tools",
+      "detail": "missing=[] extra=[]",
+      "ok": true,
+      "target": "G-S3-ubuntu"
+    },
+    {
+      "check": "Gradle: app identity from MANIFEST + build.gradle",
+      "detail": "[{'alt_names': [], 'eco': 'maven', 'evidence': 'MANIFEST Implementation-Title/-Version + groupId from build.gradle', 'hashes': {'sha1': '8e9fadb25bbdd85e4c55fa6dcae52973dbb16e31', 'sha256': '5176b91010124c19aa0ca296fdb2f75f06ee03d26a4a3f2c44bb89988d1be944'}, 'instances': 1, 'key': 'maven:org.springframework.samples:spring-petclinic', 'license': None, 'mechanism': 'self', 'mechanisms': ['self'], 'name': 'spring-petclinic', 'namespace': 'org.springframework.samples', 'paths': ['app/app.jar'], 'purl': 'pkg:maven/org.springframework.samples/spring-petclinic@4.0.0-SNAPSHOT', 'qualifiers': {}, 'scope': None, 'tier': 'secondary', 'version': '4.0.0-SNAPSHOT'}]",
+      "ok": true,
+      "target": "G-S3-ubuntu"
+    },
+    {
+      "check": "Gradle: nested JARs == productionRuntimeClasspath - starters + jarmode-tools",
+      "detail": "missing=[] extra=[]",
+      "ok": true,
+      "target": "G-S3-alpine"
+    },
+    {
+      "check": "Gradle: app identity from MANIFEST + build.gradle",
+      "detail": "[{'alt_names': [], 'eco': 'maven', 'evidence': 'MANIFEST Implementation-Title/-Version + groupId from build.gradle', 'hashes': {'sha1': '8e9fadb25bbdd85e4c55fa6dcae52973dbb16e31', 'sha256': '5176b91010124c19aa0ca296fdb2f75f06ee03d26a4a3f2c44bb89988d1be944'}, 'instances': 1, 'key': 'maven:org.springframework.samples:spring-petclinic', 'license': None, 'mechanism': 'self', 'mechanisms': ['self'], 'name': 'spring-petclinic', 'namespace': 'org.springframework.samples', 'paths': ['app/app.jar'], 'purl': 'pkg:maven/org.springframework.samples/spring-petclinic@4.0.0-SNAPSHOT', 'qualifiers': {}, 'scope': None, 'tier': 'secondary', 'version': '4.0.0-SNAPSHOT'}]",
+      "ok": true,
+      "target": "G-S3-alpine"
+    },
+    {
+      "check": "Gradle: nested JARs == productionRuntimeClasspath - starters + jarmode-tools",
+      "detail": "missing=[] extra=[]",
+      "ok": true,
+      "target": "G-S3-distroless"
+    },
+    {
+      "check": "Gradle: app identity from MANIFEST + build.gradle",
+      "detail": "[{'alt_names': [], 'eco': 'maven', 'evidence': 'MANIFEST Implementation-Title/-Version + groupId from build.gradle', 'hashes': {'sha1': '8e9fadb25bbdd85e4c55fa6dcae52973dbb16e31', 'sha256': '5176b91010124c19aa0ca296fdb2f75f06ee03d26a4a3f2c44bb89988d1be944'}, 'instances': 1, 'key': 'maven:org.springframework.samples:spring-petclinic', 'license': None, 'mechanism': 'self', 'mechanisms': ['self'], 'name': 'spring-petclinic', 'namespace': 'org.springframework.samples', 'paths': ['app/app.jar'], 'purl': 'pkg:maven/org.springframework.samples/spring-petclinic@4.0.0-SNAPSHOT', 'qualifiers': {}, 'scope': None, 'tier': 'secondary', 'version': '4.0.0-SNAPSHOT'}]",
+      "ok": true,
+      "target": "G-S3-distroless"
+    },
+    {
+      "check": "Gradle source: devtools labelled dev scope, not runtime",
+      "detail": "['spring-boot-devtools']",
+      "ok": true,
+      "target": "G-S1"
+    },
+    {
+      "check": "Gradle source: runtime scope == productionRuntimeClasspath",
+      "detail": "",
+      "ok": true,
+      "target": "G-S1"
+    },
+    {
       "check": "exploded lib/ == same set as the fat JAR",
       "detail": "missing=[] extra=[]",
       "ok": true,
@@ -245,6 +491,30 @@
       "detail": "[]",
       "ok": true,
       "target": "J-S3-layered"
+    },
+    {
+      "check": "every application JAR has a groupId",
+      "detail": "[]",
+      "ok": true,
+      "target": "G-S2"
+    },
+    {
+      "check": "every application JAR has a groupId",
+      "detail": "[]",
+      "ok": true,
+      "target": "G-S3-ubuntu"
+    },
+    {
+      "check": "every application JAR has a groupId",
+      "detail": "[]",
+      "ok": true,
+      "target": "G-S3-alpine"
+    },
+    {
+      "check": "every application JAR has a groupId",
+      "detail": "[]",
+      "ok": true,
+      "target": "G-S3-distroless"
     },
     {
       "check": "all 4 planted components in GT as primary",
@@ -346,6 +616,36 @@
       "check": "source-package records are secondary only",
       "detail": "[]",
       "ok": true,
+      "target": "G-S1"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "G-S2"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "G-S3-ubuntu"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "G-S3-alpine"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "G-S3-distroless"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
       "target": "N-S1"
     },
     {
@@ -491,6 +791,54 @@
       "detail": "[]",
       "ok": true,
       "target": "O-distroless"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-postgres"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-mysql"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-jenkins"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-keycloak"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-ghost"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-airflow"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-prometheus"
+    },
+    {
+      "check": "source-package records are secondary only",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-gitea"
     },
     {
       "check": "GT identities unique (raw and normalised)",
@@ -580,6 +928,66 @@
       "check": "GT identities unique (raw and normalised)",
       "detail": "[]",
       "ok": true,
+      "target": "G-S1"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "G-S1"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "G-S2"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "G-S2"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "G-S3-ubuntu"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "G-S3-ubuntu"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "G-S3-alpine"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "G-S3-alpine"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "G-S3-distroless"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "G-S3-distroless"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
       "target": "N-S1"
     },
     {
@@ -875,8 +1283,104 @@
       "detail": "[]",
       "ok": true,
       "target": "O-distroless"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-postgres"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-postgres"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-mysql"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-mysql"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-jenkins"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-jenkins"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-keycloak"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-keycloak"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-ghost"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-ghost"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-airflow"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-airflow"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-prometheus"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-prometheus"
+    },
+    {
+      "check": "GT identities unique (raw and normalised)",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-gitea"
+    },
+    {
+      "check": "no primary component recorded both with and without a version",
+      "detail": "[]",
+      "ok": true,
+      "target": "X-gitea"
     }
   ],
   "failed": 0,
-  "total": 146
+  "total": 230
 }

@@ -93,16 +93,20 @@ STAGE_LABEL = {
     "N-S1": "S1 lockfile", "N-S1-nolock": "S1 no lockfile", "N-S2": "S2 bundle", "N-S3-node": "S3 node",
     "N-S3-nginx": "S3 nginx",
     "P-S1": "S1 unpinned", "P-S1-pinned": "S1 pinned", "P-S3-pred": "S3 predict", "P-S3-drift": "S3 drift",
-    "P-S3-front": "S3 frontend", "P-S3-ml": "S3 ml", "P-S3-distroless": "S3 distroless", "P-P": "P planted"}
+    "P-S3-front": "S3 frontend", "P-S3-ml": "S3 ml", "P-S3-distroless": "S3 distroless", "P-P": "P planted",
+    "G-S1": "S1 build.gradle", "G-S2": "S2 boot JAR", "G-S3-ubuntu": "S3 Ubuntu", "G-S3-alpine": "S3 Alpine",
+    "G-S3-distroless": "S3 distroless"}
 SUBJECT_TITLE = {"bakery-backend": "Bakery backend, Java dependencies",
                  "bakery-frontend": "Bakery frontend, npm dependencies",
-                 "log-anomaly": "Log Anomaly, Python dependencies"}
+                 "log-anomaly": "Log Anomaly, Python dependencies",
+                 "petclinic-gradle": "Spring PetClinic (Gradle), Java dependencies"}
 
 
 def fig_rq2():
     d = pd.read_csv(T / "rq2_app_layer_by_stage.csv")
-    fig, axes = plt.subplots(3, 1, figsize=(WIDTH, 5.6))
-    for ax, subj in zip(axes, SUBJECT_TITLE):
+    subjects = [s for s in SUBJECT_TITLE if s in set(d.subject)]
+    fig, axes = plt.subplots(len(subjects), 1, figsize=(WIDTH, 1.87 * len(subjects)))
+    for ax, subj in zip(axes, subjects):
         s = d[d.subject == subj]
         order = [t for t in STAGE_LABEL if t in set(s.target)]
         x = np.arange(len(order))
@@ -133,7 +137,9 @@ MECH_NAME = {"os-pm": "OS package manager", "nested-jar": "Nested JAR (fat JAR)"
              "bundled-js": "Bundled JavaScript", "manual-download": "Manually downloaded binary",
              "static-link": "Statically linked C library", "vendored-source": "Vendored source copy",
              "manual-copy": "Manually copied JAR", "manual-install": "Manually unpacked npm pkg",
-             "shaded": "Shaded JAR", "shaded-relocated": "Shaded + relocated JAR"}
+             "shaded": "Shaded JAR", "shaded-relocated": "Shaded + relocated JAR",
+             "lang-in-os-pkg": "Language pkg from OS package", "go-in-os-pkg": "Go binary from OS package",
+             "no-package-db": "Binary, no package DB"}
 
 
 def fig_rq3():
@@ -150,7 +156,10 @@ def fig_rq3():
     ax.set_xticklabels([LABEL[t] for t in TOOLS])
     ax.xaxis.tick_top()
     ax.set_yticks(range(len(d)))
-    ax.set_yticklabels([f"{MECH_NAME.get(m, m)} (n={int(n)})" for m, n in zip(d.index, d.gt_components)])
+    unlabelled = sorted(set(d.index) - set(MECH_NAME))
+    if unlabelled:   # never print raw internal names in a paper figure
+        raise SystemExit(f"fig_rq3: add readable names to MECH_NAME for {unlabelled}")
+    ax.set_yticklabels([f"{MECH_NAME[m]} (n={int(n)})" for m, n in zip(d.index, d.gt_components)])
     ax.set_xticks(np.arange(-0.5, 3), minor=True)
     ax.set_yticks(np.arange(-0.5, len(d)), minor=True)
     ax.grid(which="minor", color=SURFACE, linewidth=2)   # 2px surface gap between cells

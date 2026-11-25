@@ -502,7 +502,7 @@
       "eco": "rpm",
       "evidence": "rpmdb",
       "hashes": {},
-      "instances": 2,
+      "instances": 1,
       "key": "rpm::glibc",
       "license": "LGPL-2.1-or-later AND SunPro AND LGPL-2.1-or-later WITH GCC-exception-2.0 AND BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.1-or-later WITH GNU-compiler-exception AND GPL-2.0-only AND ISC AND LicenseRef-Fedora-Public-Domain AND HPND AND CMU-Mach AND LGPL-2.0-or-later AND Unicode-3.0 AND GFDL-1.1-or-later AND GPL-1.0-or-later AND FSFUL AND MIT AND Inner-Net-2.0 AND X11 AND GPL-2.0-or-later WITH GCC-exception-2.0 AND GFDL-1.3-only AND GFDL-1.1-only AND GPL-3.0-or-later AND GPL-3.0-or-later WITH Autoconf-exception-generic-3.0 AND GPL-3.0-or-later WITH Texinfo-exception",
       "mechanism": "os-pm",
@@ -514,7 +514,7 @@
       "paths": [
         "var/lib/rpm/rpmdb.sqlite"
       ],
-      "purl": "pkg:rpm/rhel/glibc@2.34-290.el9_9",
+      "purl": "pkg:rpm/rhel/glibc@2.34-290.el9_9?arch=x86_64&upstream=glibc-2.34-290.el9_9.src.rpm",
       "qualifiers": {
         "arch": "x86_64",
         "upstream": "glibc-2.34-290.el9_9.src.rpm"
@@ -2219,7 +2219,7 @@
       "eco": "rpm",
       "evidence": "rpmdb",
       "hashes": {},
-      "instances": 2,
+      "instances": 1,
       "key": "rpm::openssl-fips-provider",
       "license": "ASL 2.0",
       "mechanism": "os-pm",
@@ -2231,7 +2231,7 @@
       "paths": [
         "var/lib/rpm/rpmdb.sqlite"
       ],
-      "purl": "pkg:rpm/rhel/openssl-fips-provider@3.0.7-11.el9_8",
+      "purl": "pkg:rpm/rhel/openssl-fips-provider@3.0.7-11.el9_8?arch=x86_64&upstream=openssl-fips-provider-3.0.7-11.el9_8.src.rpm",
       "qualifiers": {
         "arch": "x86_64",
         "upstream": "openssl-fips-provider-3.0.7-11.el9_8.src.rpm"
@@ -2376,7 +2376,7 @@
       "eco": "rpm",
       "evidence": "rpmdb",
       "hashes": {},
-      "instances": 2,
+      "instances": 1,
       "key": "rpm::pcre2",
       "license": "BSD",
       "mechanism": "os-pm",
@@ -2388,7 +2388,7 @@
       "paths": [
         "var/lib/rpm/rpmdb.sqlite"
       ],
-      "purl": "pkg:rpm/rhel/pcre2@10.40-7.el9_8",
+      "purl": "pkg:rpm/rhel/pcre2@10.40-7.el9_8?arch=x86_64&upstream=pcre2-10.40-7.el9_8.src.rpm",
       "qualifiers": {
         "arch": "x86_64",
         "upstream": "pcre2-10.40-7.el9_8.src.rpm"
@@ -3465,7 +3465,7 @@
       "version": "1.5.5-1.el9"
     }
   ],
-  "generated_utc": "2026-11-23T07:02:19+00:00",
+  "generated_utc": "2026-11-23T18:43:40+00:00",
   "kind": "image",
   "notes": [
     "os-release: ID=rhel VERSION_ID=9.9"

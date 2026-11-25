@@ -2,8 +2,15 @@ sbom,cdxgen,cdxgen,syft,syft,trivy,trivy
 scanner,grype,trivy,grype,trivy,grype,trivy
 mechanism,,,,,,
 bundled-js,12,12,12,12,12,12
-go-module-in-binary,0,63,0,0,0,0
+go-module-in-binary,4,251,0,0,4,4
+go-module-in-binary|os-pm,11,0,0,0,11,0
 lang-pm|os-pm,0,3,0,0,0,0
+manual-copy,0,0,1,1,0,0
+manual-download,19,3,0,0,19,3
 nested-jar|shaded-relocated,1,1,0,0,0,0
-os-pm,3273,2415,0,3038,3278,0
+no-package-db,3,0,0,0,3,0
+os-pm,5560,5511,0,5849,5571,0
 os-pm|runtime-bundled,0,5,0,0,0,0
+os-pm|wheel-embedded-sbom,0,24,8,20,8,8
+runtime-outside-pm,79,0,0,0,79,0
+wheel-embedded-sbom,0,0,2,2,2,2

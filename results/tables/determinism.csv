@@ -1,5 +1,5 @@
 config,tool,pairs,identical
-default,cdxgen,32,32
-default,syft,32,32
-default,trivy,32,32
+default,cdxgen,45,45
+default,syft,45,45
+default,trivy,45,45
 netblocked,cdxgen,3,3

@@ -8,6 +8,14 @@ These are frozen copies of the three subject projects used in the P16 study. **D
 | `log-anomaly-detection/` | Log Anomaly Detection (Python microservices + MongoDB, Docker/K8s/Ansible/Jenkins) | Python/pip, OS (Debian, Ubuntu) |
 | `multi-client-tcp-server/` | Multi-client TCP banking server | C (libc + pthread) |
 
+### Added later (public subject, for external validity)
+
+| Folder | Original project | Ecosystems |
+|---|---|---|
+| `spring-petclinic-gradle/` | [spring-projects/spring-petclinic](https://github.com/spring-projects/spring-petclinic) at commit `500158f732419217507c7656904b8e6aa1bcc0d6` (2026-09-29), Apache-2.0 | Java / **Gradle 9.5.1** (Spring Boot 4.1, Java 17 toolchain) |
+
+The upstream repository ships both a Gradle and a Maven build. To make this a clean **Gradle** subject, the Maven build files (`pom.xml`, `mvnw`, `mvnw.cmd`, `.mvn/`) were left out. Everything else is byte-identical to the upstream commit (cloned with `core.autocrlf=false`, so no line-ending conversion).
+
 ## Files left out of the snapshot
 
 These do not affect any SBOM, build or container image in the study:

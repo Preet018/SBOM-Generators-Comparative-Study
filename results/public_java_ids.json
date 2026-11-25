@@ -1,0 +1,997 @@
+{
+  "by_sha1": {
+    "06fa52c4641322b14b8bd515eb048bb9b1365d0c": {
+      "a": "opentelemetry-sdk",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk/1.62.0/opentelemetry-sdk-1.62.0.jar.sha1",
+      "file": "io.opentelemetry.opentelemetry-sdk-1.62.0.jar",
+      "g": "io.opentelemetry",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.62.0"
+    },
+    "095e55b49d51ded7cee191f1db6f32d2c2e934e3": {
+      "a": "grpc-core",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/grpc/grpc-core/1.81.0/grpc-core-1.81.0.jar.sha1",
+      "file": "io.grpc.grpc-core-1.81.0.jar",
+      "g": "io.grpc",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.81.0"
+    },
+    "0c0fff52d9691cc4a9b500509b078a25cf026a29": {
+      "a": "grpc-util",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/grpc/grpc-util/1.81.0/grpc-util-1.81.0.jar.sha1",
+      "file": "io.grpc.grpc-util-1.81.0.jar",
+      "g": "io.grpc",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.81.0"
+    },
+    "11502ca215756980f258a520925626dc27fac52f": {
+      "a": "opentelemetry-runtime-telemetry",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/instrumentation/opentelemetry-runtime-telemetry/2.28.1-alpha/opentelemetry-runtime-telemetry-2.28.1-alpha.jar.sha1",
+      "file": "io.opentelemetry.instrumentation.opentelemetry-runtime-telemetry-2.28.1-alpha.jar",
+      "g": "io.opentelemetry.instrumentation",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "2.28.1-alpha"
+    },
+    "132e07350016d36a5c3d94afd89fe699f5eecec6": {
+      "a": "grpc-context",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/grpc/grpc-context/1.81.0/grpc-context-1.81.0.jar.sha1",
+      "file": "io.grpc.grpc-context-1.81.0.jar",
+      "g": "io.grpc",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.81.0"
+    },
+    "150763e243ff26f62e42d23289ea0a0b86635c34": {
+      "a": "jcache",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/jcache/3.2.4/jcache-3.2.4.jar.sha1",
+      "file": "com.github.ben-manes.caffeine.jcache-3.2.4.jar",
+      "g": "com.github.ben-manes.caffeine",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "3.2.4"
+    },
+    "18a67ce600ace529fc1b08cd88bda38667bffeb8": {
+      "a": "hibernate-models",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/hibernate/models/hibernate-models/1.1.2/hibernate-models-1.1.2.jar.sha1",
+      "file": "org.hibernate.models.hibernate-models-1.1.2.jar",
+      "g": "org.hibernate.models",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.1.2"
+    },
+    "18c5eac4fe14b1d1914e62ea0e95abe80af31a9c": {
+      "a": "org.osgi.namespace.extender",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/osgi/org.osgi.namespace.extender/1.0.1/org.osgi.namespace.extender-1.0.1.jar.sha1",
+      "file": "org.osgi.org.osgi.namespace.extender-1.0.1.jar",
+      "g": "org.osgi",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.0.1"
+    },
+    "1d51b99a7b9e3f6d52ee4ffb7a689dcb299b0d26": {
+      "a": "grpc-protobuf",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/grpc/grpc-protobuf/1.81.0/grpc-protobuf-1.81.0.jar.sha1",
+      "file": "io.grpc.grpc-protobuf-1.81.0.jar",
+      "g": "io.grpc",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.81.0"
+    },
+    "1d7044111fbb375e82ff4c75cef0ae0b0f3309ce": {
+      "a": "webauthn4j-core",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/com/webauthn4j/webauthn4j-core/0.30.3.RELEASE/webauthn4j-core-0.30.3.RELEASE.jar.sha1",
+      "file": "com.webauthn4j.webauthn4j-core-0.30.3.RELEASE.jar",
+      "g": "com.webauthn4j",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "0.30.3.RELEASE"
+    },
+    "1f0c08d0cf1ce939afce963f1496d39942880d27": {
+      "a": "opentelemetry-instrumentation-annotations-support",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/instrumentation/opentelemetry-instrumentation-annotations-support/2.28.1-alpha/opentelemetry-instrumentation-annotations-support-2.28.1-alpha.jar.sha1",
+      "file": "io.opentelemetry.instrumentation.opentelemetry-instrumentation-annotations-support-2.28.1-alpha.jar",
+      "g": "io.opentelemetry.instrumentation",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "2.28.1-alpha"
+    },
+    "1f38195e5eab663c162989a4a2186e8d62c2cc1d": {
+      "a": "org.osgi.util.function",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/osgi/org.osgi.util.function/1.0.0/org.osgi.util.function-1.0.0.jar.sha1",
+      "file": "org.osgi.org.osgi.util.function-1.0.0.jar",
+      "g": "org.osgi",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.0.0"
+    },
+    "20b1da8abe058909e76627c24b43a07368a09489": {
+      "a": "opentelemetry-jdbc",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/instrumentation/opentelemetry-jdbc/2.28.1-alpha/opentelemetry-jdbc-2.28.1-alpha.jar.sha1",
+      "file": "io.opentelemetry.instrumentation.opentelemetry-jdbc-2.28.1-alpha.jar",
+      "g": "io.opentelemetry.instrumentation",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "2.28.1-alpha"
+    },
+    "24c0b05bc06a9ab6f4e09a48949b6eccc179ca15": {
+      "a": "micrometer-observation",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/micrometer/micrometer-observation/1.17.1/micrometer-observation-1.17.1.jar.sha1",
+      "file": "io.micrometer.micrometer-observation-1.17.1.jar",
+      "g": "io.micrometer",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.17.1"
+    },
+    "25b69ed7cc15e3c5de424ca9f32375f1815dd4e8": {
+      "a": "liquibase-core",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/liquibase/liquibase-core/4.33.0/liquibase-core-4.33.0.jar.sha1",
+      "file": "org.liquibase.liquibase-core-4.33.0.jar",
+      "g": "org.liquibase",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "4.33.0"
+    },
+    "260291192944a803c430d2be1949c736a8e51580": {
+      "a": "opentelemetry-semconv-incubating",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/semconv/opentelemetry-semconv-incubating/1.40.0-alpha/opentelemetry-semconv-incubating-1.40.0-alpha.jar.sha1",
+      "file": "io.opentelemetry.semconv.opentelemetry-semconv-incubating-1.40.0-alpha.jar",
+      "g": "io.opentelemetry.semconv",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.40.0-alpha"
+    },
+    "2a9a38d3d0859022fdf2a93743c0d5fe44796a39": {
+      "a": "micrometer-core",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/micrometer/micrometer-core/1.17.1/micrometer-core-1.17.1.jar.sha1",
+      "file": "io.micrometer.micrometer-core-1.17.1.jar",
+      "g": "io.micrometer",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.17.1"
+    },
+    "2bee42fa948a5f32761fd0838de3baa1f51c0225": {
+      "a": "spring-beans",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/springframework/spring-beans/7.0.9/spring-beans-7.0.9.jar.sha1",
+      "file": "spring-beans-7.0.9.jar",
+      "g": "org.springframework",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "7.0.9"
+    },
+    "2c8e77f5601c2b84c8773af4caf403a34daca357": {
+      "a": "bcutil-jdk18on",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/bouncycastle/bcutil-jdk18on/1.86/bcutil-jdk18on-1.86.jar.sha1",
+      "file": "org.bouncycastle.bcutil-jdk18on-1.86.jar",
+      "g": "org.bouncycastle",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.86"
+    },
+    "2dafa6ae65cbf1aa321cd644d200f3ff8465284d": {
+      "a": "opentelemetry-exporter-common",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-common/1.62.0/opentelemetry-exporter-common-1.62.0.jar.sha1",
+      "file": "io.opentelemetry.opentelemetry-exporter-common-1.62.0.jar",
+      "g": "io.opentelemetry",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.62.0"
+    },
+    "302abf92628ded497d03218ccf9c652887a7da86": {
+      "a": "opentelemetry-sdk-extension-autoconfigure",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.62.0/opentelemetry-sdk-extension-autoconfigure-1.62.0.jar.sha1",
+      "file": "io.opentelemetry.opentelemetry-sdk-extension-autoconfigure-1.62.0.jar",
+      "g": "io.opentelemetry",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.62.0"
+    },
+    "3551d8d827e54858214107541d3aff9c615cb615": {
+      "a": "jna",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar.sha1",
+      "file": "net.java.dev.jna.jna-5.8.0.jar",
+      "g": "net.java.dev.jna",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "5.8.0"
+    },
+    "35f68fd8cdf30444e18835cec152f2619c4c46c7": {
+      "a": "spring-aop",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/springframework/spring-aop/7.0.9/spring-aop-7.0.9.jar.sha1",
+      "file": "spring-aop-7.0.9.jar",
+      "g": "org.springframework",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "7.0.9"
+    },
+    "365cee4d1f365e4d4a05654742b50aa436c2dd8e": {
+      "a": "opentelemetry-context",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/opentelemetry-context/1.62.0/opentelemetry-context-1.62.0.jar.sha1",
+      "file": "io.opentelemetry.opentelemetry-context-1.62.0.jar",
+      "g": "io.opentelemetry",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.62.0"
+    },
+    "3864a1320d97d7b045f729a326e1e077661f31b7": {
+      "a": "reactive-streams",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar.sha1",
+      "file": "org.reactivestreams.reactive-streams-1.0.4.jar",
+      "g": "org.reactivestreams",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.0.4"
+    },
+    "3d5eac7173895a2fa774ac55f1d654ee91ade2b8": {
+      "a": "grpc-stub",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/grpc/grpc-stub/1.81.0/grpc-stub-1.81.0.jar.sha1",
+      "file": "io.grpc.grpc-stub-1.81.0.jar",
+      "g": "io.grpc",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.81.0"
+    },
+    "3d60fd98eb8ade73004f4195c37b6317e02cf3d7": {
+      "a": "jspecify",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/jspecify/jspecify/1.0.1/jspecify-1.0.1.jar.sha1",
+      "file": "jspecify-1.0.1.jar",
+      "g": "org.jspecify",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "1.0.1"
+    },
+    "41396aed3cf9c0dfbba3d6ab93b2da7dd57233e1": {
+      "a": "micrometer-registry-prometheus-simpleclient",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/micrometer/micrometer-registry-prometheus-simpleclient/1.17.1/micrometer-registry-prometheus-simpleclient-1.17.1.jar.sha1",
+      "file": "io.micrometer.micrometer-registry-prometheus-simpleclient-1.17.1.jar",
+      "g": "io.micrometer",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.17.1"
+    },
+    "4229e4c55fd8e01c23f9fe9884075cc628aacc50": {
+      "a": "asm-commons",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar.sha1",
+      "file": "org.ow2.asm.asm-commons-9.10.1.jar",
+      "g": "org.ow2.asm",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "9.10.1"
+    },
+    "449685cf2be4029b1200f1d0860a15caa5c2d05b": {
+      "a": "spring-security-web",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/springframework/security/spring-security-web/7.1.1/spring-security-web-7.1.1.jar.sha1",
+      "file": "spring-security-web-7.1.1.jar",
+      "g": "org.springframework.security",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "7.1.1"
+    },
+    "48fa821ad67644648d6a9cce9b793acc34cf3838": {
+      "a": "twitter4j-core",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/twitter4j/twitter4j-core/4.1.2/twitter4j-core-4.1.2.jar.sha1",
+      "file": "org.twitter4j.twitter4j-core-4.1.2.jar",
+      "g": "org.twitter4j",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "4.1.2"
+    },
+    "4e6e3e8765e4a9d0609744b3e8fe75afe1b98cba": {
+      "a": "mysql-connector-j",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/9.7.0/mysql-connector-j-9.7.0.jar.sha1",
+      "file": "com.mysql.mysql-connector-j-9.7.0.jar",
+      "g": "com.mysql",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "9.7.0"
+    },
+    "52368b1da663abd44a866c4fe4f62c8d8695204a": {
+      "a": "dom4j",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/dom4j/dom4j/2.2.0/dom4j-2.2.0.jar.sha1",
+      "file": "dom4j-2.2.0.jar",
+      "g": "org.dom4j",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "2.2.0"
+    },
+    "525ab86456ede321770d3e799665517ee01645b6": {
+      "a": "grpc-protobuf-lite",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/grpc/grpc-protobuf-lite/1.81.0/grpc-protobuf-lite-1.81.0.jar.sha1",
+      "file": "io.grpc.grpc-protobuf-lite-1.81.0.jar",
+      "g": "io.grpc",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.81.0"
+    },
+    "5356e8056e4dcb18b12550c422fb12e0c8e742ae": {
+      "a": "spring-security-crypto",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/springframework/security/spring-security-crypto/7.1.1/spring-security-crypto-7.1.1.jar.sha1",
+      "file": "spring-security-crypto-7.1.1.jar",
+      "g": "org.springframework.security",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "7.1.1"
+    },
+    "5838371075930a4a15f7f61240b4b64cb3e924d8": {
+      "a": "opentelemetry-sdk-metrics",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.62.0/opentelemetry-sdk-metrics-1.62.0.jar.sha1",
+      "file": "io.opentelemetry.opentelemetry-sdk-metrics-1.62.0.jar",
+      "g": "io.opentelemetry",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.62.0"
+    },
+    "597570b76b8db2ee8aece97e114981fec04718f8": {
+      "a": "config",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/com/typesafe/config/1.4.7/config-1.4.7.jar.sha1",
+      "file": "com.typesafe.config-1.4.7.jar",
+      "g": "com.typesafe",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.4.7"
+    },
+    "5f67300384802bde3f6d62701ffec804b770700b": {
+      "a": "rxjava",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/reactivex/rxjava3/rxjava/3.1.12/rxjava-3.1.12.jar.sha1",
+      "file": "io.reactivex.rxjava3.rxjava-3.1.12.jar",
+      "g": "io.reactivex.rxjava3",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "3.1.12"
+    },
+    "5fe3e2b32895d4d6dd4007ade3b8684bb7748700": {
+      "a": "webauthn4j-util",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/com/webauthn4j/webauthn4j-util/0.30.3.RELEASE/webauthn4j-util-0.30.3.RELEASE.jar.sha1",
+      "file": "com.webauthn4j.webauthn4j-util-0.30.3.RELEASE.jar",
+      "g": "com.webauthn4j",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "0.30.3.RELEASE"
+    },
+    "683f9df1d9a2ccca7770d5fe0ff56338b928f731": {
+      "a": "spotbugs-annotations",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/com/github/spotbugs/spotbugs-annotations/4.10.3/spotbugs-annotations-4.10.3.jar.sha1",
+      "file": "spotbugs-annotations-4.10.3.jar",
+      "g": "com.github.spotbugs",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "4.10.3"
+    },
+    "6975da39a7040257bd51d21a231b76c915872d38": {
+      "a": "javax.inject",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar.sha1",
+      "file": "javax.inject-1.jar",
+      "g": "javax.inject",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "1"
+    },
+    "6d5d7c2261b26586e772f7fd2d27716272ef7bdd": {
+      "a": "protobuf-java",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/4.35.0/protobuf-java-4.35.0.jar.sha1",
+      "file": "com.google.protobuf.protobuf-java-4.35.0.jar",
+      "g": "com.google.protobuf",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "4.35.0"
+    },
+    "6f269df0e3f065fbd2e590458e7b2107cde2a106": {
+      "a": "opentelemetry-exporter-otlp-common",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp-common/1.62.0/opentelemetry-exporter-otlp-common-1.62.0.jar.sha1",
+      "file": "io.opentelemetry.opentelemetry-exporter-otlp-common-1.62.0.jar",
+      "g": "io.opentelemetry",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.62.0"
+    },
+    "7425a601c1c7ec76645a78d22b8c6a627edee507": {
+      "a": "jspecify",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar.sha1",
+      "file": "org.jspecify.jspecify-1.0.0.jar",
+      "g": "org.jspecify",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.0.0"
+    },
+    "759cee91221291139b3adb36bd6c9c2ba0e27b12": {
+      "a": "opentelemetry-micrometer-1.5",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/instrumentation/opentelemetry-micrometer-1.5/2.28.1-alpha/opentelemetry-micrometer-1.5-2.28.1-alpha.jar.sha1",
+      "file": "io.opentelemetry.instrumentation.opentelemetry-micrometer-1.5-2.28.1-alpha.jar",
+      "g": "io.opentelemetry.instrumentation",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "2.28.1-alpha"
+    },
+    "7a337d2f887b151d27e734d1c221eb51b1c5b734": {
+      "a": "opentelemetry-sdk-trace",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.62.0/opentelemetry-sdk-trace-1.62.0.jar.sha1",
+      "file": "io.opentelemetry.opentelemetry-sdk-trace-1.62.0.jar",
+      "g": "io.opentelemetry",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.62.0"
+    },
+    "7a5827c8180858b12ba3d308c7ce31e95002b6ed": {
+      "a": "grpc-api",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/grpc/grpc-api/1.81.0/grpc-api-1.81.0.jar.sha1",
+      "file": "io.grpc.grpc-api-1.81.0.jar",
+      "g": "io.grpc",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.81.0"
+    },
+    "7bb9d450e8d4cbf9f9e04096c44bbfe7fba80b15": {
+      "a": "asm-util",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar.sha1",
+      "file": "org.ow2.asm.asm-util-9.10.1.jar",
+      "g": "org.ow2.asm",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "9.10.1"
+    },
+    "7eb8e01ecf1633ddd4d64ca184194f967b6bc0aa": {
+      "a": "spring-context",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/springframework/spring-context/7.0.9/spring-context-7.0.9.jar.sha1",
+      "file": "spring-context-7.0.9.jar",
+      "g": "org.springframework",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "7.0.9"
+    },
+    "8057e6ece836583c0ace41ccfa062f0a8dbcbb95": {
+      "a": "ant",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/apache/ant/ant/1.10.18/ant-1.10.18.jar.sha1",
+      "file": "ant-1.10.18.jar",
+      "g": "org.apache.ant",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "1.10.18"
+    },
+    "82bcae3dc45ddeb08b4954e2f596772a42219715": {
+      "a": "picocli",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/info/picocli/picocli/4.7.7/picocli-4.7.7.jar.sha1",
+      "file": "info.picocli.picocli-4.7.7.jar",
+      "g": "info.picocli",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "4.7.7"
+    },
+    "830c8467bed8e4c1148262386b09fc42aedcf262": {
+      "a": "bcprov-jdk18on",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.86/bcprov-jdk18on-1.86.jar.sha1",
+      "file": "org.bouncycastle.bcprov-jdk18on-1.86.jar",
+      "g": "org.bouncycastle",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.86"
+    },
+    "840b24595b0a431a6ab8f56a79e488d9248c8107": {
+      "a": "opentelemetry-instrumentation-annotations",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/instrumentation/opentelemetry-instrumentation-annotations/2.28.1/opentelemetry-instrumentation-annotations-2.28.1.jar.sha1",
+      "file": "io.opentelemetry.instrumentation.opentelemetry-instrumentation-annotations-2.28.1.jar",
+      "g": "io.opentelemetry.instrumentation",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "2.28.1"
+    },
+    "88d8a1ddc06365b0bff5b9fe14be5ad77958b120": {
+      "a": "ant-launcher",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.10.18/ant-launcher-1.10.18.jar.sha1",
+      "file": "ant-launcher-1.10.18.jar",
+      "g": "org.apache.ant",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "1.10.18"
+    },
+    "8d49f14d51f632cb1d87c88d1ceaf50db0d8af1b": {
+      "a": "asm-analysis",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar.sha1",
+      "file": "org.ow2.asm.asm-analysis-9.10.1.jar",
+      "g": "org.ow2.asm",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "9.10.1"
+    },
+    "8e4cb9199ac868332a1213ca27408a18905ba369": {
+      "a": "opentelemetry-exporter-otlp",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp/1.62.0/opentelemetry-exporter-otlp-1.62.0.jar.sha1",
+      "file": "io.opentelemetry.opentelemetry-exporter-otlp-1.62.0.jar",
+      "g": "io.opentelemetry",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.62.0"
+    },
+    "8e4f4c30dbb9123fbf703f256cd721bbac5c902a": {
+      "a": "groovy-all",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/codehaus/groovy/groovy-all/2.4.21/groovy-all-2.4.21.jar.sha1",
+      "file": "groovy-all-2.4.21.jar",
+      "g": "org.codehaus.groovy",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "2.4.21"
+    },
+    "91f3bcf6b93261cbaf32dd156e0007aa5fa5b25a": {
+      "a": "opentelemetry-api-incubator",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/opentelemetry-api-incubator/1.62.0-alpha/opentelemetry-api-incubator-1.62.0-alpha.jar.sha1",
+      "file": "io.opentelemetry.opentelemetry-api-incubator-1.62.0-alpha.jar",
+      "g": "io.opentelemetry",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.62.0-alpha"
+    },
+    "9452ece85b97fa3e208046cc3a7e985c314b0034": {
+      "a": "spring-expression",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/springframework/spring-expression/7.0.9/spring-expression-7.0.9.jar.sha1",
+      "file": "spring-expression-7.0.9.jar",
+      "g": "org.springframework",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "7.0.9"
+    },
+    "99bbc1bf4cae62c793e6eaa3f41436e29710b876": {
+      "a": "opentelemetry-sdk-extension-autoconfigure-spi",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.62.0/opentelemetry-sdk-extension-autoconfigure-spi-1.62.0.jar.sha1",
+      "file": "io.opentelemetry.opentelemetry-sdk-extension-autoconfigure-spi-1.62.0.jar",
+      "g": "io.opentelemetry",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.62.0"
+    },
+    "9b422c69c4fa1ea95b2615444a94fede9b02fc40": {
+      "a": "guice",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/com/google/inject/guice/6.0.0/guice-6.0.0.jar.sha1",
+      "file": "guice-6.0.0.jar",
+      "g": "com.google.inject",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "6.0.0"
+    },
+    "9b988ea84b9e4e9f1874e390ce099b8ac12cfff5": {
+      "a": "xpp3",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar.sha1",
+      "file": "xpp3-1.1.4c.jar",
+      "g": "xpp3",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "1.1.4c"
+    },
+    "a073c239431e69c3bcb8764a686b70713bb5f673": {
+      "a": "hibernate-core",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/hibernate/orm/hibernate-core/7.4.9.Final/hibernate-core-7.4.9.Final.jar.sha1",
+      "file": "org.hibernate.orm.hibernate-core-7.4.9.Final.jar",
+      "g": "org.hibernate.orm",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "7.4.9.Final"
+    },
+    "a1cf95ff857cf8c810b1f3b8e5b18094fbfb313b": {
+      "a": "opentelemetry-instrumentation-api-incubator",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/instrumentation/opentelemetry-instrumentation-api-incubator/2.28.1-alpha/opentelemetry-instrumentation-api-incubator-2.28.1-alpha.jar.sha1",
+      "file": "io.opentelemetry.instrumentation.opentelemetry-instrumentation-api-incubator-2.28.1-alpha.jar",
+      "g": "io.opentelemetry.instrumentation",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "2.28.1-alpha"
+    },
+    "a6e1bd21b412d6ffb3df23cd13d507bc2cc9e37d": {
+      "a": "postgresql",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/postgresql/postgresql/42.7.13/postgresql-42.7.13.jar.sha1",
+      "file": "org.postgresql.postgresql-42.7.13.jar",
+      "g": "org.postgresql",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "42.7.13"
+    },
+    "a774b7bcf0e96cabdfb461cd682c3d9448240d3e": {
+      "a": "opentelemetry-instrumentation-api",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/instrumentation/opentelemetry-instrumentation-api/2.28.1/opentelemetry-instrumentation-api-2.28.1.jar.sha1",
+      "file": "io.opentelemetry.instrumentation.opentelemetry-instrumentation-api-2.28.1.jar",
+      "g": "io.opentelemetry.instrumentation",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "2.28.1"
+    },
+    "abf62bc826cd2bf3b8f1df460feb30f8459eaf2a": {
+      "a": "hibernate-graalvm",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/hibernate/orm/hibernate-graalvm/7.4.9.Final/hibernate-graalvm-7.4.9.Final.jar.sha1",
+      "file": "org.hibernate.orm.hibernate-graalvm-7.4.9.Final.jar",
+      "g": "org.hibernate.orm",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "7.4.9.Final"
+    },
+    "ada2141c0cc52ee8f5c48cd5fa4ce0e794f22236": {
+      "a": "asm",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar.sha1",
+      "file": "org.ow2.asm.asm-9.10.1.jar",
+      "g": "org.ow2.asm",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "9.10.1"
+    },
+    "af364ec36c20fff2f77a90c34db2a92b70a771be": {
+      "a": "hibernate-community-dialects",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/hibernate/orm/hibernate-community-dialects/7.4.9.Final/hibernate-community-dialects-7.4.9.Final.jar.sha1",
+      "file": "org.hibernate.orm.hibernate-community-dialects-7.4.9.Final.jar",
+      "g": "org.hibernate.orm",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "7.4.9.Final"
+    },
+    "af75b12768434f961e6401263815b85c6ce2f996": {
+      "a": "word",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/graalvm/sdk/word/25.0.4.1/word-25.0.4.1.jar.sha1",
+      "file": "org.graalvm.sdk.word-25.0.4.1.jar",
+      "g": "org.graalvm.sdk",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "25.0.4.1"
+    },
+    "afba4942caaeaf46aab0b976afd57cc7c181467e": {
+      "a": "jcip-annotations",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar.sha1",
+      "file": "jcip-annotations-1.0.jar",
+      "g": "net.jcip",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "1.0"
+    },
+    "b1c3fdea68c5a81495cf1c16cf2905c5ad9f30d2": {
+      "a": "micrometer-commons",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/micrometer/micrometer-commons/1.17.1/micrometer-commons-1.17.1.jar.sha1",
+      "file": "io.micrometer.micrometer-commons-1.17.1.jar",
+      "g": "io.micrometer",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.17.1"
+    },
+    "b6742282daab8e13598b78a83ddfa54f10b5752b": {
+      "a": "opentelemetry-sdk-common",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.62.0/opentelemetry-sdk-common-1.62.0.jar.sha1",
+      "file": "io.opentelemetry.opentelemetry-sdk-common-1.62.0.jar",
+      "g": "io.opentelemetry",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.62.0"
+    },
+    "bca99ad5b88c0ea0752b7d1d548a536dc7c67dcb": {
+      "a": "grpc-netty",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/grpc/grpc-netty/1.81.0/grpc-netty-1.81.0.jar.sha1",
+      "file": "io.grpc.grpc-netty-1.81.0.jar",
+      "g": "io.grpc",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.81.0"
+    },
+    "c0373b564151af7a3001ccfbea589bf37dd6dc3b": {
+      "a": "spring-security-core",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/springframework/security/spring-security-core/7.1.1/spring-security-core-7.1.1.jar.sha1",
+      "file": "spring-security-core-7.1.1.jar",
+      "g": "org.springframework.security",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "7.1.1"
+    },
+    "c42f4ce0cded1526527296726c4ed30335dfaa10": {
+      "a": "spring-web",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/springframework/spring-web/7.0.9/spring-web-7.0.9.jar.sha1",
+      "file": "spring-web-7.0.9.jar",
+      "g": "org.springframework",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "7.0.9"
+    },
+    "c4ee83d77005567852a72e08b945ebb023be1daa": {
+      "a": "opentelemetry-api",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/opentelemetry-api/1.62.0/opentelemetry-api-1.62.0.jar.sha1",
+      "file": "io.opentelemetry.opentelemetry-api-1.62.0.jar",
+      "g": "io.opentelemetry",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.62.0"
+    },
+    "c63b303adf59c733d2a96125ad6670e938a2c15d": {
+      "a": "caffeine",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/3.2.4/caffeine-3.2.4.jar.sha1",
+      "file": "com.github.ben-manes.caffeine.caffeine-3.2.4.jar",
+      "g": "com.github.ben-manes.caffeine",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "3.2.4"
+    },
+    "ca303052cd617c1af2e2c8d344c98a706fb63143": {
+      "a": "jna",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.19.1/jna-5.19.1.jar.sha1",
+      "file": "jna-5.19.1.jar",
+      "g": "net.java.dev.jna",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "5.19.1"
+    },
+    "cdfa933f92fc7af96fef3fe77422abdce3d8663e": {
+      "a": "opentelemetry-apache-httpclient-4.3",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/instrumentation/opentelemetry-apache-httpclient-4.3/2.28.1-alpha/opentelemetry-apache-httpclient-4.3-2.28.1-alpha.jar.sha1",
+      "file": "io.opentelemetry.instrumentation.opentelemetry-apache-httpclient-4.3-2.28.1-alpha.jar",
+      "g": "io.opentelemetry.instrumentation",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "2.28.1-alpha"
+    },
+    "d9463c5210e8f43ebd38489ecd38a839eaa7a3af": {
+      "a": "h2",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/com/h2database/h2/2.4.240/h2-2.4.240.jar.sha1",
+      "file": "com.h2database.h2-2.4.240.jar",
+      "g": "com.h2database",
+      "modified_copy": true,
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name; coordinate exists, SHA-1 differs (modified copy), MANIFEST version agrees",
+      "v": "2.4.240"
+    },
+    "dd1d9737c3e8b8a5bf0d44981eb308df4822e241": {
+      "a": "freemarker",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/freemarker/freemarker/2.3.35/freemarker-2.3.35.jar.sha1",
+      "file": "org.freemarker.freemarker-2.3.35.jar",
+      "g": "org.freemarker",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "2.3.35"
+    },
+    "de7952cecd05b65e0e4370cc93fc03035175eef5": {
+      "a": "relaxngDatatype",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/relaxngDatatype/relaxngDatatype/20020414/relaxngDatatype-20020414.jar.sha1",
+      "file": "relaxngDatatype-20020414.jar",
+      "g": "relaxngDatatype",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "20020414"
+    },
+    "e03c619fc5b26931973277f5ba65ae47967a20e3": {
+      "a": "spring-core",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/springframework/spring-core/7.0.9/spring-core-7.0.9.jar.sha1",
+      "file": "spring-core-7.0.9.jar",
+      "g": "org.springframework",
+      "seen_in": "X-jenkins",
+      "source": "mvn dependency:list of the image's published build pom",
+      "v": "7.0.9"
+    },
+    "e03d5a337bd4855b10852acbdbf8a59070746800": {
+      "a": "opentelemetry-semconv",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/semconv/opentelemetry-semconv/1.41.1/opentelemetry-semconv-1.41.1.jar.sha1",
+      "file": "io.opentelemetry.semconv.opentelemetry-semconv-1.41.1.jar",
+      "g": "io.opentelemetry.semconv",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.41.1"
+    },
+    "e244332a17564c1d1572449399a842de35881be2": {
+      "a": "asm-tree",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar.sha1",
+      "file": "org.ow2.asm.asm-tree-9.10.1.jar",
+      "g": "org.ow2.asm",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "9.10.1"
+    },
+    "e6468bd64a94429b68761f7c13e143c3fdfaafc7": {
+      "a": "opentelemetry-common",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/opentelemetry-common/1.62.0/opentelemetry-common-1.62.0.jar.sha1",
+      "file": "io.opentelemetry.opentelemetry-common-1.62.0.jar",
+      "g": "io.opentelemetry",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.62.0"
+    },
+    "e6680c0bf0fddcf73952829529948c50ba91cfbd": {
+      "a": "nativeimage",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/graalvm/sdk/nativeimage/25.0.4.1/nativeimage-25.0.4.1.jar.sha1",
+      "file": "org.graalvm.sdk.nativeimage-25.0.4.1.jar",
+      "g": "org.graalvm.sdk",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "25.0.4.1"
+    },
+    "ebbbe7a061d665afa565b6369ef62d8c9df16f1a": {
+      "a": "org.osgi.util.promise",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/osgi/org.osgi.util.promise/1.0.0/org.osgi.util.promise-1.0.0.jar.sha1",
+      "file": "org.osgi.org.osgi.util.promise-1.0.0.jar",
+      "g": "org.osgi",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.0.0"
+    },
+    "eeb2965c5c1f2b38746819d820d1153e85124465": {
+      "a": "hibernate-jcache",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/hibernate/orm/hibernate-jcache/7.4.9.Final/hibernate-jcache-7.4.9.Final.jar.sha1",
+      "file": "org.hibernate.orm.hibernate-jcache-7.4.9.Final.jar",
+      "g": "org.hibernate.orm",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "7.4.9.Final"
+    },
+    "f242422084100da0bd3a5f6f2bcf364aaf4d2c53": {
+      "a": "opentelemetry-sdk-logs",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.62.0/opentelemetry-sdk-logs-1.62.0.jar.sha1",
+      "file": "io.opentelemetry.opentelemetry-sdk-logs-1.62.0.jar",
+      "g": "io.opentelemetry",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.62.0"
+    },
+    "f3432be4f42e7c61e00f3f7c5375cac208cbfb46": {
+      "a": "rdf-urdna",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/setl/rdf-urdna/1.1/rdf-urdna-1.1.jar.sha1",
+      "file": "io.setl.rdf-urdna-1.1.jar",
+      "g": "io.setl",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.1"
+    },
+    "f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5": {
+      "a": "nashorn-core",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar.sha1",
+      "file": "org.openjdk.nashorn.nashorn-core-15.4.jar",
+      "g": "org.openjdk.nashorn",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "15.4"
+    },
+    "f86f575a41b091786a4b027cd9c0c1d2e3fc1c01": {
+      "a": "perfmark-api",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/io/perfmark/perfmark-api/0.27.0/perfmark-api-0.27.0.jar.sha1",
+      "file": "io.perfmark.perfmark-api-0.27.0.jar",
+      "g": "io.perfmark",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "0.27.0"
+    },
+    "fb5ea65959db10fe5d61148bb2b77f6e231455b1": {
+      "a": "bcpkix-jdk18on",
+      "classifier": null,
+      "confirmed_by": "https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk18on/1.86/bcpkix-jdk18on-1.86.jar.sha1",
+      "file": "org.bouncycastle.bcpkix-jdk18on-1.86.jar",
+      "g": "org.bouncycastle",
+      "seen_in": "X-keycloak",
+      "source": "Quarkus lib file name",
+      "v": "1.86"
+    }
+  },
+  "unresolved": {
+    "X-jenkins": [
+      {
+        "confirmed": [],
+        "path": "opt/java/openjdk/lib/jrt-fs.jar",
+        "reason": "no candidate confirmed",
+        "sha1": "bffe47b058489fd0a0945c1ea9b4cf966586865d"
+      },
+      {
+        "confirmed": [],
+        "path": "opt/jenkins-plugin-manager.jar",
+        "reason": "no candidate confirmed",
+        "sha1": "ed74a17406c30eca60bcd75cd7fde4f88f6a6201"
+      }
+    ],
+    "X-keycloak": [
+      {
+        "confirmed": [],
+        "path": "opt/keycloak/lib/quarkus/generated-bytecode.jar",
+        "reason": "no candidate confirmed",
+        "sha1": "4ff91fa0da6a62480504607704802bdc5218f4cf"
+      },
+      {
+        "confirmed": [],
+        "path": "opt/keycloak/lib/quarkus/transformed-bytecode.jar",
+        "reason": "no candidate confirmed",
+        "sha1": "62bb960adc1692f095ae8e882eb31df5abc02678"
+      },
+      {
+        "confirmed": [],
+        "path": "opt/keycloak/lib/quarkus-run.jar",
+        "reason": "no candidate confirmed",
+        "sha1": "ff6791056bca7b479a70111c5e2109fadf71e36f"
+      },
+      {
+        "confirmed": [],
+        "path": "usr/lib/jvm/java-21-openjdk-21.0.13.1.2-1.2.el9.x86_64/lib/jrt-fs.jar",
+        "reason": "no candidate confirmed",
+        "sha1": "d91b4b3b3cae9d61365a51c91c8e053f874eeaaa"
+      }
+    ]
+  }
+}
